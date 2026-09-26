@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 02 — Introducing yourself</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 02 — INTRODUCING YOURSELF</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Introduce yourself with <strong>llamarse</strong>: <span class="es">me llamo, te llamas, se llama</span>.</li>
+      <li>Use the full present tense of <strong>ser</strong> for identity, origin and profession.</li>
+      <li>Talk about nationality and origin: <span class="es">soy de…, soy vietnamita, soy español</span>.</li>
+      <li>Be polite: <strong>mucho gusto</strong>, <strong>encantado/a</strong>, and the formal <span class="es">¿Cómo se llama usted?</span></li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">llamarse, ¿cómo se llama usted?, mucho gusto, encantado/a, ser, profesor/a, estudiante, país, ciudad, nacionalidad, vietnamita, español/a, japonés/japonesa</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">a todos, ingeniería, médica, trabajar, Argentina, Buenos Aires, Chile, Japón, Madrid, interesante, ¿Y usted?</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (FIRST DAY OF CLASS)</h2>
+<p><strong>Context:</strong> An international language class. Marta is the teacher; Kenji and Ana are students. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — the Spanish is enough to get the gist.)</p>
+
+<div class="phrase">
+  <p class="es">¡Hola! Buenos días a todos. Soy Marta, la profesora de español.</p>
+  <p class="en">Hello! Good morning everyone. I'm Marta, the Spanish teacher.</p>
+</div>
+<div class="phrase">
+  <p class="es">Me llamo Kenji. Mucho gusto, profesora.</p>
+  <p class="en">My name is Kenji. Nice to meet you, teacher.</p>
+</div>
+<div class="phrase">
+  <p class="es">Encantada, Kenji. Yo soy española, de Madrid. ¿De dónde eres?</p>
+  <p class="en">Pleased to meet you, Kenji. I'm Spanish, from Madrid. Where are you from?</p>
+</div>
+<div class="phrase">
+  <p class="es">Soy de Japón. Soy japonés, pero vivo en Chile.</p>
+  <p class="en">I'm from Japan. I'm Japanese, but I live in Chile.</p>
+</div>
+<div class="phrase">
+  <p class="es">¡Qué interesante! ¿Y usted? ¿Cómo se llama?</p>
+  <p class="en">How interesting! And you? What's your name?</p>
+</div>
+<div class="phrase">
+  <p class="es">Yo soy Ana. Encantada.</p>
+  <p class="en">I'm Ana. Pleased to meet you.</p>
+</div>
+<div class="phrase">
+  <p class="es">¿De dónde es, Ana?</p>
+  <p class="en">Where are you from, Ana? (formal)</p>
+</div>
+<div class="phrase">
+  <p class="es">Soy argentina, de Buenos Aires.</p>
+  <p class="en">I'm Argentine, from Buenos Aires.</p>
+</div>
+<div class="phrase">
+  <p class="es">¿Eres estudiante, Kenji?</p>
+  <p class="en">Are you a student, Kenji?</p>
+</div>
+<div class="phrase">
+  <p class="es">Sí, soy estudiante de ingeniería. ¿Y usted, Ana?</p>
+  <p class="en">Yes, I'm an engineering student. And you, Ana? (formal)</p>
+</div>
+<div class="phrase">
+  <p class="es">Soy médica. Trabajo en un hospital.</p>
+  <p class="en">I'm a doctor. I work in a hospital.</p>
+</div>
+<div class="phrase">
+  <p class="es">¡Qué bien! ¡Bienvenidos a la clase!</p>
+  <p class="en">How nice! Welcome to the class!</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">a todos</span></td><td data-label="Type">phr.</td><td data-label="English">to everyone</td><td data-label="Notes">From <em>¡Hola a todos!</em></td></tr>
+    <tr><td data-label="Spanish"><span class="es">ingeniería</span></td><td data-label="Type">n.f.</td><td data-label="English">engineering</td><td data-label="Notes">estudiante de ingeniería</td></tr>
+    <tr><td data-label="Spanish"><span class="es">médica</span></td><td data-label="Type">n.f.</td><td data-label="English">doctor (female)</td><td data-label="Notes">Male: <em>médico</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trabajar</span></td><td data-label="Type">v.</td><td data-label="English">to work</td><td data-label="Notes">trabajo = I work</td></tr>
+    <tr><td data-label="Spanish"><span class="es">interesante</span></td><td data-label="Type">adj.</td><td data-label="English">interesting</td><td data-label="Notes">Same for masculine and feminine.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Argentina</span></td><td data-label="Type">n.f.</td><td data-label="English">Argentina</td><td data-label="Notes">Country in South America.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Buenos Aires</span></td><td data-label="Type">n.f.</td><td data-label="English">Buenos Aires</td><td data-label="Notes">Capital of Argentina.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Chile</span></td><td data-label="Type">n.m.</td><td data-label="English">Chile</td><td data-label="Notes">Long country on the Pacific coast.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Japón</span></td><td data-label="Type">n.m.</td><td data-label="English">Japan</td><td data-label="Notes">Nationality: <em>japonés / japonesa</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Madrid</span></td><td data-label="Type">n.f.</td><td data-label="English">Madrid</td><td data-label="Notes">Capital of Spain.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Memory hook:</strong> To meet anyone you only need three questions: <span class="es">¿Cómo te llamas?</span> → <span class="es">¿De dónde eres?</span> → <span class="es">¿A qué te dedicas? (what do you do?)</span> — that last one is <em>(advanced)</em>; for now, <span class="es">¿Eres estudiante?</span> works everywhere.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The verb <em>ser</em> — the full present tense</h3>
+<p><strong>ser</strong> (to be) is the verb of <strong>identity</strong>: names, origin, nationality and profession. Unlike in English, the pronoun is usually left out — the verb ending already says who.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>Form</th><th>English</th><th>Example</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person">yo</td><td data-label="Form"><span class="es">soy</span></td><td data-label="English">I am</td><td data-label="Example"><span class="es">Soy Ana.</span></td></tr>
+    <tr><td data-label="Person">tú</td><td data-label="Form"><span class="es">eres</span></td><td data-label="English">you are (informal)</td><td data-label="Example"><span class="es">¿Eres estudiante?</span></td></tr>
+    <tr><td data-label="Person">él / ella / usted</td><td data-label="Form"><span class="es">es</span></td><td data-label="English">he / she / you are</td><td data-label="Example"><span class="es">Ella es médica.</span></td></tr>
+    <tr><td data-label="Person">nosotros / nosotras</td><td data-label="Form"><span class="es">somos</span></td><td data-label="English">we are</td><td data-label="Example"><span class="es">Somos estudiantes.</span></td></tr>
+    <tr><td data-label="Person">vosotros / vosotras <em>(Spain)</em></td><td data-label="Form"><span class="es">sois</span></td><td data-label="English">you all are</td><td data-label="Example"><span class="es">¿De dónde sois?</span></td></tr>
+    <tr><td data-label="Person">ellos / ellas / ustedes</td><td data-label="Form"><span class="es">son</span></td><td data-label="English">they / you all are</td><td data-label="Example"><span class="es">Ellos son de Chile.</span></td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">Soy vietnamita.</span><span class="en">I'm Vietnamese. <em>(identity / nationality)</em></span></li>
+  <li class="ex"><span class="es">Soy de Vietnam.</span><span class="en">I'm from Vietnam. <em>(origin)</em></span></li>
+  <li class="ex"><span class="es">Ella es profesora de español.</span><span class="en">She's a Spanish teacher. <em>(profession)</em></span></li>
+  <li class="ex"><span class="es">Nosotros somos estudiantes.</span><span class="en">We are students.</span></li>
+</ul>
+<div class="warn">⚠️ <strong>No "a/an" before a profession:</strong> Spanish says <span class="es">Soy profesora</span>, never <span class="es">Soy una profesora</span>.</div>
+
+<h3>2.2. Saying your name: <em>llamarse</em></h3>
+<p><strong>llamarse</strong> is a <strong>reflexive</strong> verb: literally "to call oneself". Each person gets a little pronoun (<em>me, te, se…</em>) before the verb.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>Form</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person">yo</td><td data-label="Form"><span class="es">me llamo</span></td><td data-label="English">my name is</td></tr>
+    <tr><td data-label="Person">tú</td><td data-label="Form"><span class="es">te llamas</span></td><td data-label="English">your name is (informal)</td></tr>
+    <tr><td data-label="Person">él / ella / usted</td><td data-label="Form"><span class="es">se llama</span></td><td data-label="English">his / her / your name is</td></tr>
+    <tr><td data-label="Person">nosotros / nosotras</td><td data-label="Form"><span class="es">nos llamamos</span></td><td data-label="English">our names are</td></tr>
+    <tr><td data-label="Person">vosotros / vosotras <em>(Spain)</em></td><td data-label="Form"><span class="es">os llamáis</span></td><td data-label="English">your names are</td></tr>
+    <tr><td data-label="Person">ellos / ellas / ustedes</td><td data-label="Form"><span class="es">se llaman</span></td><td data-label="English">their / your names are</td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">¿Cómo te llamas? — Me llamo Lan.</span><span class="en">What's your name? — My name is Lan. <em>(informal)</em></span></li>
+  <li class="ex"><span class="es">¿Cómo se llama usted? — Me llamo señor Pérez.</span><span class="en">What's your name? — My name is Mr. Pérez. <em>(formal)</em></span></li>
+</ul>
+<div class="tip">💡 A slightly more formal option is <span class="es">Mi nombre es…</span> (My name is…). Both are perfectly natural.</div>
+
+<h3>2.3. Nationalities &amp; gender</h3>
+<p>Nationality words behave like adjectives: they agree with the person. Most follow two simple patterns.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Pattern</th><th>Masculine</th><th>Feminine</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Pattern">ends in <em>-o</em> → <em>-a</em></td><td data-label="Masculine"><span class="es">mexicano</span></td><td data-label="Feminine"><span class="es">mexicana</span></td><td data-label="English">Mexican</td></tr>
+    <tr><td data-label="Pattern">ends in <em>-o</em> → <em>-a</em></td><td data-label="Masculine"><span class="es">argentino</span></td><td data-label="Feminine"><span class="es">argentina</span></td><td data-label="English">Argentine</td></tr>
+    <tr><td data-label="Pattern">ends in <em>-o</em> → <em>-a</em></td><td data-label="Masculine"><span class="es">chileno</span></td><td data-label="Feminine"><span class="es">chilena</span></td><td data-label="English">Chilean</td></tr>
+    <tr><td data-label="Pattern">consonant → +<em>a</em></td><td data-label="Masculine"><span class="es">español</span></td><td data-label="Feminine"><span class="es">española</span></td><td data-label="English">Spanish</td></tr>
+    <tr><td data-label="Pattern">consonant → +<em>a</em></td><td data-label="Masculine"><span class="es">japonés</span></td><td data-label="Feminine"><span class="es">japonesa</span></td><td data-label="English">Japanese</td></tr>
+    <tr><td data-label="Pattern">ends in <em>-e</em> (no change)</td><td data-label="Masculine"><span class="es">vietnamita</span></td><td data-label="Feminine"><span class="es">vietnamita</span></td><td data-label="English">Vietnamese</td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li><strong>Not capitalized:</strong> countries are written with a capital (<span class="es">España, México, Vietnam</span>), but nationalities and languages are <em>lowercase</em>: <span class="es">soy español, hablo español</span>.</li>
+  <li><strong>Safer option:</strong> if you don't know the nationality word, just say <span class="es">Soy de + país</span> — <span class="es">Soy de Vietnam</span> is always correct.</li>
+</ul>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> a person from the United States is usually <span class="es">estadounidense</span> in careful writing. In Latin America many people also say <span class="es">americano</span> for a US citizen, but in Spain <span class="es">americano</span> normally means "from the Americas".</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">llamarse</span></td><td data-label="Type">v.</td><td data-label="English">to be called / named</td><td data-label="Notes">me llamo, te llamas, se llama.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">¿Cómo se llama usted?</span></td><td data-label="Type">phr.</td><td data-label="English">what's your name?</td><td data-label="Notes">Formal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mucho gusto</span></td><td data-label="Type">phr.</td><td data-label="English">nice to meet you</td><td data-label="Notes">Reply: <em>igualmente</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">encantado/a</span></td><td data-label="Type">adj.</td><td data-label="English">pleased to meet you</td><td data-label="Notes">Men <em>encantado</em>, women <em>encantada</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ser</span></td><td data-label="Type">v.</td><td data-label="English">to be (identity/origin)</td><td data-label="Notes">soy, eres, es, somos, sois, son.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">profesor / profesora</span></td><td data-label="Type">n.m./f.</td><td data-label="English">teacher</td><td data-label="Notes">profesora = female teacher.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">estudiante</span></td><td data-label="Type">n.m./f.</td><td data-label="English">student</td><td data-label="Notes">Same word for men and women.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">país</span></td><td data-label="Type">n.m.</td><td data-label="English">country</td><td data-label="Notes">Plural: <em>países</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ciudad</span></td><td data-label="Type">n.f.</td><td data-label="English">city</td><td data-label="Notes">Plural: <em>ciudades</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nacionalidad</span></td><td data-label="Type">n.f.</td><td data-label="English">nationality</td><td data-label="Notes">Plural: <em>nacionalidades</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vietnamita</span></td><td data-label="Type">adj./n.</td><td data-label="English">Vietnamese</td><td data-label="Notes">Same form for masculine and feminine.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">español / española</span></td><td data-label="Type">adj./n.</td><td data-label="English">Spanish (person)</td><td data-label="Notes">Also the language: <em>el español</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">japonés / japonesa</span></td><td data-label="Type">adj./n.</td><td data-label="English">Japanese</td><td data-label="Notes">Accent on the masculine form: japonés.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">¿De dónde es usted?</span></td><td data-label="Type">phr.</td><td data-label="English">where are you from?</td><td data-label="Notes">Formal; informal: <em>¿De dónde eres?</em></td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences you can use from day one. Read them once; no need to memorize.</p>
+
+<h3>1. Ask a name (informal):</h3>
+<div class="phrase">
+  <p class="es">¿Cómo te llamas? — Me llamo Lan.</p>
+  <p class="en">What's your name? — My name is Lan.</p>
+</div>
+<h3>2. Ask a name (formal):</h3>
+<div class="phrase">
+  <p class="es">¿Cómo se llama usted? — Mi nombre es Lan.</p>
+  <p class="en">What's your name (formal)? — My name is Lan.</p>
+</div>
+<h3>3. Say where you are from:</h3>
+<div class="phrase">
+  <p class="es">Soy de Vietnam. Soy vietnamita.</p>
+  <p class="en">I'm from Vietnam. I'm Vietnamese.</p>
+</div>
+<h3>4. Be polite on meeting:</h3>
+<div class="phrase">
+  <p class="es">Mucho gusto. Encantado/a.</p>
+  <p class="en">Nice to meet you. Pleased to meet you.</p>
+</div>
+<h3>5. Explain who someone else is:</h3>
+<div class="phrase">
+  <p class="es">Ella es Ana. Es médica.</p>
+  <p class="en">She's Ana. She's a doctor.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two people meet at a party in Madrid.</p>
+
+<div class="phrase">
+  <p class="es">Diego: ¡Hola! ¿Cómo te llamas?</p>
+  <p class="en">Diego: Hi! What's your name?</p>
+</div>
+<div class="phrase">
+  <p class="es">Lan: Me llamo Lan. ¿Y tú?</p>
+  <p class="en">Lan: My name is Lan. And you?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Soy Diego. Mucho gusto.</p>
+  <p class="en">Diego: I'm Diego. Nice to meet you.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lan: Igualmente. ¿De dónde eres?</p>
+  <p class="en">Lan: Likewise. Where are you from?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Soy de México, de Guadalajara. ¿Y tú?</p>
+  <p class="en">Diego: I'm from Mexico, from Guadalajara. And you?</p>
+</div>
+<div class="phrase">
+  <p class="es">Lan: Soy de Vietnam, de Hanói.</p>
+  <p class="en">Lan: I'm from Vietnam, from Hanoi.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: ¡Qué bien! ¿Eres estudiante?</p>
+  <p class="en">Diego: How nice! Are you a student?</p>
+</div>
+<div class="phrase">
+  <p class="es">Lan: Sí, soy estudiante. Estudio español.</p>
+  <p class="en">Lan: Yes, I'm a student. I study Spanish.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>Guadalajara</strong> (city in Mexico), <strong>Hanói</strong> (capital of Vietnam), <strong>estudio</strong> (I study, from <em>estudiar</em>).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>ser</strong> = identity, origin, nationality, profession: <span class="es">soy, eres, es, somos, sois, son</span>.</li>
+  <li><strong>llamarse</strong> = to be called: <span class="es">me llamo, te llamas, se llama</span>; formal <span class="es">¿Cómo se llama usted?</span></li>
+  <li>Nationality adjectives agree in gender (<span class="es">mexicano/mexicana</span>) and are written <em>lowercase</em>.</li>
+  <li>If you don't know the nationality word: <span class="es">Soy de + país</span>.</li>
+  <li>Politeness: <strong>mucho gusto</strong>, <strong>encantado/a</strong>, <strong>igualmente</strong>.</li>
+</ul>
+
+<h3>5.2. Further reading — where Spanish is spoken</h3>
+<p><strong>Context:</strong> A short note on the Spanish-speaking world. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">El español se habla en España y en muchos países de América Latina.</p>
+  <p class="en">Spanish is spoken in Spain and in many countries of Latin America.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada país tiene su acento y sus palabras, pero todos nos entendemos.</p>
+  <p class="en">Each country has its accent and its words, but we all understand each other.</p>
+</div>
+<div class="phrase">
+  <p class="es">En España, la gente dice «vosotros»; en América Latina, «ustedes».</p>
+  <p class="en">In Spain people say "vosotros"; in Latin America, "ustedes".</p>
+</div>
+<div class="phrase">
+  <p class="es">Las nacionalidades cambian con el género: un mexicano, una mexicana.</p>
+  <p class="en">Nationalities change with gender: a Mexican man, a Mexican woman.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un consejo: si no sabes la nacionalidad, di «Soy de + país».</p>
+  <p class="en">A tip: if you don't know the nationality word, say "I'm from + country".</p>
+</div>
+
+<p class="lead"><em>New words: <strong>se habla</strong> (is spoken), <strong>país</strong> (country), <strong>acento</strong> (accent), <strong>nos entendemos</strong> (we understand each other), <strong>consejo</strong> (tip, piece of advice).</em></p>
+
+<hr>
+<p><strong>End of Lesson 02.</strong> Next, <strong>Lesson 03</strong>: numbers 0–100, age (<em>tener … años</em>), and the days, months and dates. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 01 — Greetings & the Spanish sounds</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .answer{list-style:none; padding-left:0}
+  .answer li{
+    display:inline-block; background:var(--card); border:1px solid var(--border);
+    border-radius:8px; padding:.25rem .6rem; margin:.2rem .25rem 0 0;
+    font-size:.95rem;
+  }
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 01 — GREETINGS &amp; THE SPANISH SOUNDS</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Say hello and goodbye and ask how someone is: <strong>hola</strong>, <strong>buenos días</strong>, <strong>¿cómo estás?</strong></li>
+      <li>Give your name and origin: <strong>me llamo…</strong>, <strong>soy de…</strong>.</li>
+      <li>Understand the key Spanish sounds and spelling: silent <strong>h</strong>, <strong>ñ</strong>, <strong>ll</strong>, <strong>j</strong>, and stress rules.</li>
+      <li>Choose between <strong>tú</strong> (informal) and <strong>usted</strong> (formal).</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">hola, buenos días, gracias, me llamo, ¿cómo estás?</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">encantado/a, vivir, España, México, clase, también, ¡qué bien!</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (FIRST CONTACT)</h2>
+<p><strong>Context:</strong> Two people meet at a language school. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — the Spanish is enough to get the gist.)</p>
+
+<div class="phrase">
+  <p class="es">¡Hola! Buenos días. Me llamo Lucía.</p>
+  <p class="en">Hi! Good morning. My name is Lucía.</p>
+</div>
+<div class="phrase">
+  <p class="es">Soy de España, pero ahora vivo en México.</p>
+  <p class="en">I'm from Spain, but right now I live in Mexico.</p>
+</div>
+<div class="phrase">
+  <p class="es">Encantada. Yo soy Andrés. ¿Cómo estás?</p>
+  <p class="en">Nice to meet you. I'm Andrés. How are you?</p>
+</div>
+<div class="phrase">
+  <p class="es">Muy bien, gracias. ¿Y tú?</p>
+  <p class="en">Very well, thanks. And you?</p>
+</div>
+<div class="phrase">
+  <p class="es">Bien, gracias. ¿De dónde eres?</p>
+  <p class="en">Good, thanks. Where are you from?</p>
+</div>
+<div class="phrase">
+  <p class="es">Soy de Sevilla. Y usted, ¿de dónde es?</p>
+  <p class="en">I'm from Seville. And you (formal), where are you from?</p>
+</div>
+<div class="phrase">
+  <p class="es">También soy de España. ¡Qué bien!</p>
+  <p class="en">I'm also from Spain. How nice!</p>
+</div>
+<div class="phrase">
+  <p class="es">Bueno, tengo clase. ¡Hasta luego!</p>
+  <p class="en">Well, I have class. See you later!</p>
+</div>
+<div class="phrase">
+  <p class="es">Adiós. ¡Hasta mañana!</p>
+  <p class="en">Bye. See you tomorrow!</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">encantado/a</span></td><td data-label="Type">adj.</td><td data-label="English">nice to meet you</td><td data-label="Notes">Men say <em>encantado</em>, women <em>encantada</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vivir</span></td><td data-label="Type">v.</td><td data-label="English">to live</td><td data-label="Notes">vivo = I live</td></tr>
+    <tr><td data-label="Spanish"><span class="es">España</span></td><td data-label="Type">n.f.</td><td data-label="English">Spain</td><td data-label="Notes">Country name.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">México</span></td><td data-label="Type">n.m.</td><td data-label="English">Mexico</td><td data-label="Notes">Written accent on <em>Mé</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Sevilla</span></td><td data-label="Type">n.f.</td><td data-label="English">Seville</td><td data-label="Notes">City in southern Spain.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">clase</span></td><td data-label="Type">n.f.</td><td data-label="English">class, lesson</td><td data-label="Notes">tengo clase = I have class</td></tr>
+    <tr><td data-label="Spanish"><span class="es">también</span></td><td data-label="Type">adv.</td><td data-label="English">also, too</td><td data-label="Notes">Contrasts with <em>tampoco</em> (neither).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">¡Qué bien!</span></td><td data-label="Type">phr.</td><td data-label="English">How nice!</td><td data-label="Notes">Reaction phrase.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Memory hook:</strong> All you need for a first chat is three moves: <span class="es">¡Hola!</span> → <span class="es">Me llamo…</span> → <span class="es">¿De dónde eres?</span> You can meet anyone with those.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. How Spanish sounds (pronunciation primer)</h3>
+<p>Spanish is written almost exactly as it sounds. Five rules cover most of it:</p>
+<ul>
+  <li><strong>h is silent:</strong> <span class="es">hola</span> sounds like "OH-la", <span class="es">hasta</span> like "AS-ta".</li>
+  <li><strong>ñ = "ny":</strong> <span class="es">mañana</span> ≈ "ma-NYA-na".</li>
+  <li><strong>ll ≈ "y":</strong> <span class="es">me llamo</span> ≈ "me YA-mo". <em>(In Argentina and Uruguay, ll sounds like "sh": "me SHA-mo".)</em></li>
+  <li><strong>j is a harsh "h":</strong> <span class="es">mujer</span> — like clearing your throat.</li>
+  <li><strong>Stress:</strong> if a word ends in a vowel, <em>n</em> or <em>s</em>, stress the second-to-last syllable (<span class="es">hola</span> → <strong>HO</strong>-la). Otherwise stress the last syllable (<span class="es">usted</span> → us-<strong>TED</strong>). A written accent marks the exception: <span class="es">México</span>, <span class="es">adiós</span>, <span class="es">días</span>.</li>
+</ul>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> in most of Spain, <span class="es">c</span> (before <em>e/i</em>) and <span class="es">z</span> sound like "th" (<span class="es">gracias</span> ≈ "GRA-thyas"). In Latin America they sound like "s" ("GRA-syas"). Both are correct.</div>
+
+<h3>2.2. Greetings by time of day</h3>
+<ul>
+  <li class="ex"><span class="es">¡Hola!</span><span class="en">Hi! (any time, informal — the safest greeting)</span></li>
+  <li class="ex"><span class="es">Buenos días.</span><span class="en">Good morning.</span></li>
+  <li class="ex"><span class="es">Buenas tardes.</span><span class="en">Good afternoon.</span></li>
+  <li class="ex"><span class="es">Buenas noches.</span><span class="en">Good evening / Good night.</span></li>
+  <li class="ex"><span class="es">Adiós. / Hasta luego. / Hasta mañana.</span><span class="en">Bye. / See you later. / See you tomorrow.</span></li>
+</ul>
+<div class="tip">💡 In many parts of Latin America people just say <span class="es">¡Buenas!</span> at any hour — short and friendly.</div>
+
+<h3>2.3. Introducing yourself: <em>ser</em> + <em>llamarse</em></h3>
+<p><strong>me llamo</strong> literally means "I call myself". Use it for your name:</p>
+<div class="formula">me llamo + name · soy de + place</div>
+<ul>
+  <li class="ex"><span class="es">Me llamo Andrés.</span><span class="en">My name is Andrés.</span></li>
+  <li class="ex"><span class="es">¿Cómo te llamas?</span><span class="en">What's your name? (informal)</span></li>
+  <li class="ex"><span class="es">Soy de Vietnam.</span><span class="en">I'm from Vietnam.</span></li>
+  <li class="ex"><span class="es">¿De dónde eres?</span><span class="en">Where are you from? (informal)</span></li>
+</ul>
+<p><strong>ser</strong> (to be) is used for identity and origin; <strong>estar</strong> (to be) is used for how you are right now:</p>
+<ul>
+  <li class="ex"><span class="es">Soy Ana. Soy de España.</span><span class="en">I'm Ana. I'm from Spain.</span> <em>(ser = identity/origin)</em></li>
+  <li class="ex"><span class="es">¿Cómo estás? — Estoy bien.</span><span class="en">How are you? — I'm fine.</span> <em>(estar = state)</em></li>
+</ul>
+
+<h3>2.4. <em>tú</em> vs <em>usted</em></h3>
+<p><strong>tú</strong> = informal "you" (friends, family, people your age). <strong>usted</strong> = formal "you" (strangers, older people, authority):</p>
+<ul>
+  <li class="ex"><span class="es">¿Cómo estás?</span><span class="en">How are you? (tú)</span></li>
+  <li class="ex"><span class="es">¿Cómo está usted?</span><span class="en">How are you? (usted)</span></li>
+  <li class="ex"><span class="es">¿De dónde eres?</span><span class="en">Where are you from? (tú)</span></li>
+  <li class="ex"><span class="es">¿De dónde es usted?</span><span class="en">Where are you from? (usted)</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistake:</strong> <em>usted</em> takes the same verb form as <em>él/ella</em> (está, es), not the <em>tú</em> form. Say <span class="es">usted es</span>, never <span class="es">usted eres</span>.</div>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> for "you all", Spain uses <span class="es">vosotros</span> (<span class="es">¿Cómo estáis?</span>), while Latin America uses <span class="es">ustedes</span> (<span class="es">¿Cómo están?</span>).</div>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">hola</span></td><td data-label="Type">interj.</td><td data-label="English">hello, hi</td><td data-label="Notes">Any time; informal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">buenos días</span></td><td data-label="Type">phr.</td><td data-label="English">good morning</td><td data-label="Notes">Until around noon.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">buenas tardes</span></td><td data-label="Type">phr.</td><td data-label="English">good afternoon</td><td data-label="Notes">From around noon to dusk.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">buenas noches</span></td><td data-label="Type">phr.</td><td data-label="English">good evening / night</td><td data-label="Notes">Hello and goodbye at night.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">adiós</span></td><td data-label="Type">interj.</td><td data-label="English">goodbye</td><td data-label="Notes">Stress the last syllable: a-DIÓS.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hasta luego</span></td><td data-label="Type">phr.</td><td data-label="English">see you later</td><td data-label="Notes">Very common goodbye.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gracias</span></td><td data-label="Type">interj.</td><td data-label="English">thank you</td><td data-label="Notes">Reply: <em>de nada</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">por favor</span></td><td data-label="Type">phr.</td><td data-label="English">please</td><td data-label="Notes">Add to any request.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">me llamo</span></td><td data-label="Type">phr.</td><td data-label="English">my name is</td><td data-label="Notes">Literally "I call myself".</td></tr>
+    <tr><td data-label="Spanish"><span class="es">¿Cómo estás?</span></td><td data-label="Type">phr.</td><td data-label="English">how are you?</td><td data-label="Notes">Informal (tú).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">¿De dónde eres?</span></td><td data-label="Type">phr.</td><td data-label="English">where are you from?</td><td data-label="Notes">Informal (tú).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ser</span></td><td data-label="Type">v.</td><td data-label="English">to be (identity/origin)</td><td data-label="Notes">soy, eres, es.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">estar</span></td><td data-label="Type">v.</td><td data-label="English">to be (state/location)</td><td data-label="Notes">estoy, estás, está.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tú</span></td><td data-label="Type">pron.</td><td data-label="English">you (informal)</td><td data-label="Notes">Friends, family, peers.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">usted</span></td><td data-label="Type">pron.</td><td data-label="English">you (formal)</td><td data-label="Notes">Takes <em>él/ella</em> verb forms.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences you can use from day one. Read them once; no need to memorize.</p>
+
+<h3>1. Say hi and ask:</h3>
+<div class="phrase">
+  <p class="es">¡Hola! ¿Cómo estás?</p>
+  <p class="en">Hi! How are you?</p>
+</div>
+<h3>2. Give your name:</h3>
+<div class="phrase">
+  <p class="es">Buenos días, me llamo Ana.</p>
+  <p class="en">Good morning, my name is Ana.</p>
+</div>
+<h3>3. Say where you are from:</h3>
+<div class="phrase">
+  <p class="es">Soy de Vietnam.</p>
+  <p class="en">I'm from Vietnam.</p>
+</div>
+<h3>4. Be polite on meeting:</h3>
+<div class="phrase">
+  <p class="es">Mucho gusto. Encantado.</p>
+  <p class="en">Nice to meet you. Pleased to meet you.</p>
+</div>
+<h3>5. Ask about the other person:</h3>
+<div class="phrase">
+  <p class="es">¿De dónde eres?</p>
+  <p class="en">Where are you from?</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two students meet on the first day of class.</p>
+
+<div class="phrase">
+  <p class="es">Ana: ¡Hola! ¿Cómo te llamas?</p>
+  <p class="en">Ana: Hi! What's your name?</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Me llamo Luis. ¿Y tú?</p>
+  <p class="en">Luis: My name is Luis. And you?</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: Soy Ana. Mucho gusto.</p>
+  <p class="en">Ana: I'm Ana. Nice to meet you.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Igualmente. ¿De dónde eres?</p>
+  <p class="en">Luis: Likewise. Where are you from?</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: Soy de Valencia. ¿Y tú?</p>
+  <p class="en">Ana: I'm from Valencia. And you?</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Soy de Bogotá. ¡Bienvenida!</p>
+  <p class="en">Luis: I'm from Bogotá. Welcome!</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>igualmente</strong> (likewise), <strong>Valencia</strong> (city in Spain), <strong>Bogotá</strong> (capital of Colombia), <strong>¡Bienvenida!</strong> (welcome! to a woman; to a man: <em>¡Bienvenido!</em>).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li>Greet by time: <strong>buenos días / buenas tardes / buenas noches</strong>; informal <strong>¡Hola!</strong> / <strong>¡Buenas!</strong></li>
+  <li>Name and origin: <strong>me llamo…</strong>, <strong>soy de…</strong>; reply to thanks with <strong>de nada</strong>.</li>
+  <li><strong>ser</strong> = identity/origin; <strong>estar</strong> = state/location.</li>
+  <li><strong>tú</strong> (informal) vs <strong>usted</strong> (formal, takes <em>él/ella</em> verb forms).</li>
+  <li>Sounds: silent <strong>h</strong>, <strong>ñ</strong> = "ny", <strong>ll</strong> ≈ "y", harsh <strong>j</strong>; stress rules and written accents.</li>
+</ul>
+
+<h3>5.2. Further reading — greetings around the clock</h3>
+<p><strong>Context:</strong> A short note on how Spanish speakers greet through the day. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En España, «buenos días» se usa hasta el mediodía.</p>
+  <p class="en">In Spain, "buenos días" is used until noon.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por la tarde, decimos «buenas tardes».</p>
+  <p class="en">In the afternoon, we say "buenas tardes".</p>
+</div>
+<div class="phrase">
+  <p class="es">Por la noche, decimos «buenas noches».</p>
+  <p class="en">At night, we say "buenas noches".</p>
+</div>
+<div class="phrase">
+  <p class="es">En muchos países de América Latina, la gente usa «¡Buenas!» a cualquier hora.</p>
+  <p class="en">In many Latin American countries, people use "¡Buenas!" at any hour.</p>
+</div>
+<div class="phrase">
+  <p class="es">También se dice «¿Qué tal?» para saludar de forma informal.</p>
+  <p class="en">People also say "¿Qué tal?" as an informal greeting.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>mediodía</strong> (noon), <strong>tarde</strong> (afternoon), <strong>noche</strong> (night), <strong>la gente</strong> (people), <strong>a cualquier hora</strong> (at any time), <strong>¿Qué tal?</strong> (How's it going?).</em></p>
+
+<hr>
+<p><strong>End of Lesson 01.</strong> Next, <strong>Lesson 02</strong>: introducing yourself in more detail — <em>ser</em>, nationality and origin (<em>soy de…</em>), and polite phrases. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>

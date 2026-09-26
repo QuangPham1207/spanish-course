@@ -1,0 +1,248 @@
+{
+  "lesson": 2,
+  "title": "Introducing yourself",
+  "words": [
+    {
+      "word": "llamarse",
+      "type": "v.",
+      "en": "to be called, to be named",
+      "note": "me llamo, te llamas, se llama.",
+      "example": { "es": "¿Cómo te llamas? — Me llamo Lan.", "en": "What's your name? — My name is Lan." }
+    },
+    {
+      "word": "¿Cómo se llama usted?",
+      "type": "phr.",
+      "en": "what's your name? (formal)",
+      "note": "Formal; informal: ¿Cómo te llamas?",
+      "example": { "es": "¿Cómo se llama usted? — Me llamo Ana.", "en": "What's your name? — My name is Ana." }
+    },
+    {
+      "word": "mucho gusto",
+      "type": "phr.",
+      "en": "nice to meet you",
+      "note": "Reply: igualmente.",
+      "example": { "es": "Mucho gusto, señora.", "en": "Nice to meet you, ma'am." }
+    },
+    {
+      "word": "encantado/a",
+      "type": "adj.",
+      "en": "pleased to meet you",
+      "note": "Men say encantado, women encantada.",
+      "example": { "es": "Encantada de conocerte.", "en": "Pleased to meet you." }
+    },
+    {
+      "word": "ser",
+      "type": "v.",
+      "en": "to be (identity / origin)",
+      "note": "soy, eres, es, somos, sois, son.",
+      "example": { "es": "Ella es profesora.", "en": "She is a teacher." }
+    },
+    {
+      "word": "profesor / profesora",
+      "type": "n.m./f.",
+      "en": "teacher",
+      "note": "profesora = female teacher.",
+      "example": { "es": "Marta es la profesora de español.", "en": "Marta is the Spanish teacher." }
+    },
+    {
+      "word": "estudiante",
+      "type": "n.m./f.",
+      "en": "student",
+      "note": "Same word for men and women.",
+      "example": { "es": "Soy estudiante.", "en": "I'm a student." }
+    },
+    {
+      "word": "país",
+      "type": "n.m.",
+      "en": "country",
+      "note": "Plural: países.",
+      "example": { "es": "El español se habla en muchos países.", "en": "Spanish is spoken in many countries." }
+    },
+    {
+      "word": "ciudad",
+      "type": "n.f.",
+      "en": "city",
+      "note": "Plural: ciudades.",
+      "example": { "es": "Madrid es una ciudad grande.", "en": "Madrid is a big city." }
+    },
+    {
+      "word": "nacionalidad",
+      "type": "n.f.",
+      "en": "nationality",
+      "note": "Plural: nacionalidades.",
+      "example": { "es": "¿Cuál es tu nacionalidad?", "en": "What's your nationality?" }
+    },
+    {
+      "word": "vietnamita",
+      "type": "adj./n.",
+      "en": "Vietnamese",
+      "note": "Same form for masculine and feminine.",
+      "example": { "es": "Soy vietnamita, de Hanói.", "en": "I'm Vietnamese, from Hanoi." }
+    },
+    {
+      "word": "español / española",
+      "type": "adj./n.",
+      "en": "Spanish (person)",
+      "note": "Also the language: el español.",
+      "example": { "es": "Marta es española.", "en": "Marta is Spanish." }
+    },
+    {
+      "word": "japonés / japonesa",
+      "type": "adj./n.",
+      "en": "Japanese",
+      "note": "Accent in the masculine form: japonés.",
+      "example": { "es": "Kenji es japonés.", "en": "Kenji is Japanese." }
+    },
+    {
+      "word": "¿De dónde es usted?",
+      "type": "phr.",
+      "en": "where are you from? (formal)",
+      "note": "Informal: ¿De dónde eres?",
+      "example": { "es": "¿De dónde es usted, Ana?", "en": "Where are you from, Ana?" }
+    },
+    {
+      "word": "a todos",
+      "type": "phr.",
+      "en": "to everyone",
+      "ext": true,
+      "note": "From ¡Hola a todos!",
+      "example": { "es": "Buenos días a todos.", "en": "Good morning everyone." }
+    },
+    {
+      "word": "ingeniería",
+      "type": "n.f.",
+      "en": "engineering",
+      "ext": true,
+      "note": "estudiante de ingeniería.",
+      "example": { "es": "Estudio ingeniería.", "en": "I study engineering." }
+    },
+    {
+      "word": "médico/a",
+      "type": "n.m./f.",
+      "en": "doctor",
+      "ext": true,
+      "note": "Male: médico; female: médica.",
+      "example": { "es": "Ana es médica.", "en": "Ana is a doctor." }
+    },
+    {
+      "word": "trabajar",
+      "type": "v.",
+      "en": "to work",
+      "ext": true,
+      "note": "trabajo = I work.",
+      "example": { "es": "Trabajo en un hospital.", "en": "I work in a hospital." }
+    },
+    {
+      "word": "interesante",
+      "type": "adj.",
+      "en": "interesting",
+      "ext": true,
+      "note": "Same for masculine and feminine.",
+      "example": { "es": "¡Qué interesante!", "en": "How interesting!" }
+    },
+    {
+      "word": "Argentina",
+      "type": "n.f.",
+      "en": "Argentina",
+      "ext": true,
+      "note": "Country in South America.",
+      "example": { "es": "Ana es de Argentina.", "en": "Ana is from Argentina." }
+    },
+    {
+      "word": "Buenos Aires",
+      "type": "n.f.",
+      "en": "Buenos Aires",
+      "ext": true,
+      "note": "Capital of Argentina.",
+      "example": { "es": "Soy de Buenos Aires.", "en": "I'm from Buenos Aires." }
+    },
+    {
+      "word": "Chile",
+      "type": "n.m.",
+      "en": "Chile",
+      "ext": true,
+      "note": "Long country on the Pacific coast.",
+      "example": { "es": "Kenji vive en Chile.", "en": "Kenji lives in Chile." }
+    },
+    {
+      "word": "Japón",
+      "type": "n.m.",
+      "en": "Japan",
+      "ext": true,
+      "note": "Nationality: japonés / japonesa.",
+      "example": { "es": "Soy de Japón.", "en": "I'm from Japan." }
+    },
+    {
+      "word": "Madrid",
+      "type": "n.f.",
+      "en": "Madrid",
+      "ext": true,
+      "note": "Capital of Spain.",
+      "example": { "es": "Marta es de Madrid.", "en": "Marta is from Madrid." }
+    },
+    {
+      "word": "¿Y usted?",
+      "type": "phr.",
+      "en": "and you? (formal)",
+      "ext": true,
+      "note": "Informal: ¿Y tú?",
+      "example": { "es": "¿Y usted? ¿Cómo se llama?", "en": "And you? What's your name?" }
+    },
+    {
+      "word": "estudiar",
+      "type": "v.",
+      "en": "to study",
+      "ext": true,
+      "note": "estudio = I study.",
+      "example": { "es": "Estudio español.", "en": "I study Spanish." }
+    },
+    {
+      "word": "Guadalajara",
+      "type": "n.f.",
+      "en": "Guadalajara",
+      "ext": true,
+      "note": "City in Mexico.",
+      "example": { "es": "Diego es de Guadalajara.", "en": "Diego is from Guadalajara." }
+    },
+    {
+      "word": "Hanói",
+      "type": "n.m.",
+      "en": "Hanoi",
+      "ext": true,
+      "note": "Capital of Vietnam.",
+      "example": { "es": "Lan es de Hanói.", "en": "Lan is from Hanoi." }
+    },
+    {
+      "word": "acento",
+      "type": "n.m.",
+      "en": "accent",
+      "ext": true,
+      "note": "Way of pronouncing speech.",
+      "example": { "es": "Cada país tiene su acento.", "en": "Each country has its accent." }
+    },
+    {
+      "word": "consejo",
+      "type": "n.m.",
+      "en": "tip, piece of advice",
+      "ext": true,
+      "note": "Un consejo = a tip.",
+      "example": { "es": "Un consejo: di «Soy de Vietnam».", "en": "A tip: say 'I'm from Vietnam'." }
+    },
+    {
+      "word": "entender",
+      "type": "v.",
+      "en": "to understand",
+      "ext": true,
+      "note": "nos entendemos = we understand each other.",
+      "example": { "es": "Todos nos entendemos.", "en": "We all understand each other." }
+    },
+    {
+      "word": "América Latina",
+      "type": "n.f.",
+      "en": "Latin America",
+      "ext": true,
+      "note": "From Mexico to South America.",
+      "example": { "es": "El español se habla en América Latina.", "en": "Spanish is spoken in Latin America." }
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 03 — Numbers, age &amp; dates</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  .grid-nums{display:grid; grid-template-columns:repeat(4,1fr); gap:.4rem;
+    margin:1rem 0; font-size:.95rem}
+  .grid-nums span{
+    background:var(--card); border:1px solid var(--border);
+    border-radius:8px; padding:.3rem .1rem; text-align:center;
+    color:var(--es); font-weight:600;
+  }
+  @media (max-width:420px){ .grid-nums{grid-template-columns:repeat(3,1fr)} }
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 03 — NUMBERS, AGE &amp; DATES</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Count and read numbers from <strong>0 to 100</strong>.</li>
+      <li>Say your age with <strong>tener … años</strong>: <span class="es">Tengo veinticinco años</span>.</li>
+      <li>Name the <strong>days of the week</strong> and the <strong>months</strong>.</li>
+      <li>Give a <strong>date</strong>: <span class="es">el doce de agosto</span>, <span class="es">el primero de mayo</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">tener, año, ¿cuántos años tienes?, número, día, semana, mes, lunes, martes, miércoles, jueves, viernes, sábado, domingo</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre, hoy, mañana, cumpleaños, fecha, primero, fin de semana, calendario</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (A CLASS NOTICE)</h2>
+<p><strong>Context:</strong> A notice on the wall of a Spanish class. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — the Spanish is enough to get the gist.)</p>
+
+<div class="phrase">
+  <p class="es">Bienvenidos a la clase de español.</p>
+  <p class="en">Welcome to the Spanish class.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hoy es miércoles, el primero de marzo.</p>
+  <p class="en">Today is Wednesday, the first of March.</p>
+</div>
+<div class="phrase">
+  <p class="es">En la clase somos veinticinco estudiantes.</p>
+  <p class="en">In the class we are twenty-five students.</p>
+</div>
+<div class="phrase">
+  <p class="es">La profesora se llama Marta y tiene cuarenta años.</p>
+  <p class="en">The teacher is called Marta and she is forty years old.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi amigo Marco tiene diecinueve años.</p>
+  <p class="en">My friend Marco is nineteen years old.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su cumpleaños es el doce de agosto.</p>
+  <p class="en">His birthday is August 12th.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi cumpleaños es el tres de octubre.</p>
+  <p class="en">My birthday is October 3rd.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los días de la semana son siete: lunes, martes, miércoles, jueves, viernes, sábado y domingo.</p>
+  <p class="en">The days of the week are seven: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los meses del año son doce: de enero a diciembre.</p>
+  <p class="en">The months of the year are twelve: from January to December.</p>
+</div>
+<div class="phrase">
+  <p class="es">El sábado y el domingo son el fin de semana.</p>
+  <p class="en">Saturday and Sunday are the weekend.</p>
+</div>
+<div class="phrase">
+  <p class="es">La clase de español es el lunes, el miércoles y el viernes.</p>
+  <p class="en">Spanish class is on Monday, Wednesday and Friday.</p>
+</div>
+<div class="phrase">
+  <p class="es">¿Cuántos años tienes tú?</p>
+  <p class="en">How old are you?</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">cumpleaños</span></td><td data-label="Type">n.m.</td><td data-label="English">birthday</td><td data-label="Notes">Literally "birth-years"; same in singular and plural.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fin de semana</span></td><td data-label="Type">phr.</td><td data-label="English">weekend</td><td data-label="Notes">Literally "end of week".</td></tr>
+    <tr><td data-label="Spanish"><span class="es">de … a …</span></td><td data-label="Type">phr.</td><td data-label="English">from … to …</td><td data-label="Notes">de enero a diciembre</td></tr>
+    <tr><td data-label="Spanish"><span class="es">primero</span></td><td data-label="Type">adj.</td><td data-label="English">first</td><td data-label="Notes">Used for the 1st of the month: <em>el primero de marzo</em>.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Memory hook:</strong> Ages and dates both need a number — and Spanish gives it to you without extra grammar: <span class="es">tengo + número + años</span> and <span class="es">el + número + de + mes</span>.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Numbers 0–100</h3>
+<p>Learn them in blocks. The pattern is very regular, and there are only a few small spelling traps.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Number</th><th>Spanish</th><th>Number</th><th>Spanish</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Number">0</td><td data-label="Spanish"><span class="es">cero</span></td><td data-label="Number">11</td><td data-label="Spanish"><span class="es">once</span></td></tr>
+    <tr><td data-label="Number">1</td><td data-label="Spanish"><span class="es">uno</span></td><td data-label="Number">12</td><td data-label="Spanish"><span class="es">doce</span></td></tr>
+    <tr><td data-label="Number">2</td><td data-label="Spanish"><span class="es">dos</span></td><td data-label="Number">13</td><td data-label="Spanish"><span class="es">trece</span></td></tr>
+    <tr><td data-label="Number">3</td><td data-label="Spanish"><span class="es">tres</span></td><td data-label="Number">14</td><td data-label="Spanish"><span class="es">catorce</span></td></tr>
+    <tr><td data-label="Number">4</td><td data-label="Spanish"><span class="es">cuatro</span></td><td data-label="Number">15</td><td data-label="Spanish"><span class="es">quince</span></td></tr>
+    <tr><td data-label="Number">5</td><td data-label="Spanish"><span class="es">cinco</span></td><td data-label="Number">16</td><td data-label="Spanish"><span class="es">dieciséis</span></td></tr>
+    <tr><td data-label="Number">6</td><td data-label="Spanish"><span class="es">seis</span></td><td data-label="Number">17</td><td data-label="Spanish"><span class="es">diecisiete</span></td></tr>
+    <tr><td data-label="Number">7</td><td data-label="Spanish"><span class="es">siete</span></td><td data-label="Number">18</td><td data-label="Spanish"><span class="es">dieciocho</span></td></tr>
+    <tr><td data-label="Number">8</td><td data-label="Spanish"><span class="es">ocho</span></td><td data-label="Number">19</td><td data-label="Spanish"><span class="es">diecinueve</span></td></tr>
+    <tr><td data-label="Number">9</td><td data-label="Spanish"><span class="es">nueve</span></td><td data-label="Number">20</td><td data-label="Spanish"><span class="es">veinte</span></td></tr>
+    <tr><td data-label="Number">10</td><td data-label="Spanish"><span class="es">diez</span></td><td data-label="Number">21</td><td data-label="Spanish"><span class="es">veintiuno</span></td></tr>
+  </tbody>
+</table>
+</div>
+<p>The tens, then the pattern for the rest:</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Number</th><th>Spanish</th><th>Number</th><th>Spanish</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Number">30</td><td data-label="Spanish"><span class="es">treinta</span></td><td data-label="Number">70</td><td data-label="Spanish"><span class="es">setenta</span></td></tr>
+    <tr><td data-label="Number">40</td><td data-label="Spanish"><span class="es">cuarenta</span></td><td data-label="Number">80</td><td data-label="Spanish"><span class="es">ochenta</span></td></tr>
+    <tr><td data-label="Number">50</td><td data-label="Spanish"><span class="es">cincuenta</span></td><td data-label="Number">90</td><td data-label="Spanish"><span class="es">noventa</span></td></tr>
+    <tr><td data-label="Number">60</td><td data-label="Spanish"><span class="es">sesenta</span></td><td data-label="Number">100</td><td data-label="Spanish"><span class="es">cien</span></td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li><strong>16–19 and 21–29 are one word:</strong> <span class="es">dieciséis, diecisiete…</span> · <span class="es">veintiuno, veintidós, veintitrés, veinticuatro…</span></li>
+  <li><strong>31 and up use "y":</strong> <span class="es">treinta y uno</span> (31), <span class="es">cuarenta y cinco</span> (45), <span class="es">noventa y nueve</span> (99).</li>
+  <li><strong>Watch the accents:</strong> <span class="es">dieciséis, veintidós, veintitrés, veintiséis</span>.</li>
+  <li><strong>uno → un / una</strong> before a noun: <span class="es">un libro</span> (one book), <span class="es">una casa</span> (one house).</li>
+  <li><strong>100:</strong> <span class="es">cien</span> alone; but <span class="es">ciento</span> before more numbers: <span class="es">ciento uno</span> (101).</li>
+</ul>
+
+<h3>2.2. Age: <em>tener</em> + <em>años</em></h3>
+<p>Spanish says you <em>have</em> years, not that you <em>are</em> years. <strong>tener</strong> (to have) is irregular in the <em>yo</em> form.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>Form</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person">yo</td><td data-label="Form"><span class="es">tengo</span></td><td data-label="English">I have</td></tr>
+    <tr><td data-label="Person">tú</td><td data-label="Form"><span class="es">tienes</span></td><td data-label="English">you have (informal)</td></tr>
+    <tr><td data-label="Person">él / ella / usted</td><td data-label="Form"><span class="es">tiene</span></td><td data-label="English">he / she / you have</td></tr>
+    <tr><td data-label="Person">nosotros / nosotras</td><td data-label="Form"><span class="es">tenemos</span></td><td data-label="English">we have</td></tr>
+    <tr><td data-label="Person">vosotros / vosotras <em>(Spain)</em></td><td data-label="Form"><span class="es">tenéis</span></td><td data-label="English">you all have</td></tr>
+    <tr><td data-label="Person">ellos / ellas / ustedes</td><td data-label="Form"><span class="es">tienen</span></td><td data-label="English">they / you all have</td></tr>
+  </tbody>
+</table>
+</div>
+<div class="formula">tener + número + años = to be … years old</div>
+<ul>
+  <li class="ex"><span class="es">¿Cuántos años tienes? — Tengo veinticinco años.</span><span class="en">How old are you? — I'm twenty-five (years old).</span></li>
+  <li class="ex"><span class="es">Mi amiga tiene diez años.</span><span class="en">My friend is ten years old.</span></li>
+  <li class="ex"><span class="es">¿Cuántos años tiene usted? — Tengo cuarenta y dos años.</span><span class="en">How old are you (formal)? — I'm forty-two.</span></li>
+  <li class="ex"><span class="es">Tengo un libro y dos cuadernos.</span><span class="en">I have one book and two notebooks.</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistake:</strong> never use <em>ser</em> or <em>estar</em> for age. Say <span class="es">Tengo veinte años</span> — not <span class="es">Soy veinte años</span>.</div>
+
+<h3>2.3. Days, months and dates</h3>
+<p><strong>Days:</strong> <span class="es">lunes, martes, miércoles, jueves, viernes, sábado, domingo</span>.</p>
+<p><strong>Months:</strong> <span class="es">enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre</span>.</p>
+<ul>
+  <li>Days and months are written <strong>lowercase</strong>: <span class="es">Hoy es lunes, el tres de mayo</span>.</li>
+  <li>The week normally starts on <strong>lunes</strong> in Spanish calendars.</li>
+  <li>Days take an article when they repeat: <span class="es">la clase es el lunes</span> (on Monday).</li>
+</ul>
+<p>To give a date, use <strong>el + number + de + month</strong>:</p>
+<div class="formula">el + número + de + mes · el primero de mayo</div>
+<ul>
+  <li class="ex"><span class="es">Hoy es miércoles, el primero de marzo.</span><span class="en">Today is Wednesday, March 1st. <em>(the 1st = el primero)</em></span></li>
+  <li class="ex"><span class="es">Mi cumpleaños es el doce de agosto.</span><span class="en">My birthday is August 12th.</span></li>
+  <li class="ex"><span class="es">¿Qué día es hoy? — Hoy es lunes.</span><span class="en">What day is it today? — Today is Monday.</span></li>
+  <li class="ex"><span class="es">¿Cuándo es tu cumpleaños? — Es el tres de octubre.</span><span class="en">When is your birthday? — It's October 3rd.</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> the date format is <em>day + month + year</em> everywhere in the Spanish-speaking world: <span class="es">3/10/2026</span> = 3 October. In Spain the week on calendars usually starts on Monday; in many Latin American calendars it starts on Sunday.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">tener</span></td><td data-label="Type">v.</td><td data-label="English">to have</td><td data-label="Notes">tengo, tienes, tiene, tenemos, tenéis, tienen.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">año</span></td><td data-label="Type">n.m.</td><td data-label="English">year</td><td data-label="Notes">tengo veinte años.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">¿Cuántos años tienes?</span></td><td data-label="Type">phr.</td><td data-label="English">how old are you?</td><td data-label="Notes">Formal: <em>¿Cuántos años tiene usted?</em></td></tr>
+    <tr><td data-label="Spanish"><span class="es">número</span></td><td data-label="Type">n.m.</td><td data-label="English">number</td><td data-label="Notes">Plural: números.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">día</span></td><td data-label="Type">n.m.</td><td data-label="English">day</td><td data-label="Notes">Masculine despite the -a: <em>el día</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">semana</span></td><td data-label="Type">n.f.</td><td data-label="English">week</td><td data-label="Notes">fin de semana = weekend.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mes</span></td><td data-label="Type">n.m.</td><td data-label="English">month</td><td data-label="Notes">Plural: meses.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lunes</span></td><td data-label="Type">n.m.</td><td data-label="English">Monday</td><td data-label="Notes">Same form in singular and plural.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">martes</span></td><td data-label="Type">n.m.</td><td data-label="English">Tuesday</td><td data-label="Notes">Same form in singular and plural.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">miércoles</span></td><td data-label="Type">n.m.</td><td data-label="English">Wednesday</td><td data-label="Notes">Accent on mié-.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">jueves</span></td><td data-label="Type">n.m.</td><td data-label="English">Thursday</td><td data-label="Notes">harsh j sound.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">viernes</span></td><td data-label="Type">n.m.</td><td data-label="English">Friday</td><td data-label="Notes">Same form in singular and plural.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sábado</span></td><td data-label="Type">n.m.</td><td data-label="English">Saturday</td><td data-label="Notes">Accent on sá-.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">domingo</span></td><td data-label="Type">n.m.</td><td data-label="English">Sunday</td><td data-label="Notes">No accent.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences you can use from day one. Read them once; no need to memorize.</p>
+
+<h3>1. Ask and give your age:</h3>
+<div class="phrase">
+  <p class="es">¿Cuántos años tienes? — Tengo veinticinco años.</p>
+  <p class="en">How old are you? — I'm twenty-five.</p>
+</div>
+<h3>2. Give your birthday:</h3>
+<div class="phrase">
+  <p class="es">Mi cumpleaños es el doce de agosto.</p>
+  <p class="en">My birthday is August 12th.</p>
+</div>
+<h3>3. Talk about today and tomorrow:</h3>
+<div class="phrase">
+  <p class="es">Hoy es lunes; mañana es martes.</p>
+  <p class="en">Today is Monday; tomorrow is Tuesday.</p>
+</div>
+<h3>4. Say how many things you have:</h3>
+<div class="phrase">
+  <p class="es">Tengo veinte años y dos hermanos.</p>
+  <p class="en">I'm twenty years old and I have two siblings.</p>
+</div>
+<h3>5. Give a full date:</h3>
+<div class="phrase">
+  <p class="es">¿Qué día es hoy? — Hoy es miércoles, el primero de marzo.</p>
+  <p class="en">What day is it today? — Today is Wednesday, March 1st.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two classmates talk about age and birthdays.</p>
+
+<div class="phrase">
+  <p class="es">Sofía: ¿Cuántos años tienes, Marco?</p>
+  <p class="en">Sofía: How old are you, Marco?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: Tengo veintidós. ¿Y tú?</p>
+  <p class="en">Marco: I'm twenty-two. And you?</p>
+</div>
+<div class="phrase">
+  <p class="es">Sofía: Yo tengo veinticinco. ¿Cuándo es tu cumpleaños?</p>
+  <p class="en">Sofía: I'm twenty-five. When is your birthday?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: Es el doce de agosto. ¿Y el tuyo?</p>
+  <p class="en">Marco: It's August 12th. And yours?</p>
+</div>
+<div class="phrase">
+  <p class="es">Sofía: Mi cumpleaños es el tres de octubre.</p>
+  <p class="en">Sofía: My birthday is October 3rd.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: ¡Qué bien! Mi cumpleaños también es en octubre.</p>
+  <p class="en">Marco: How nice! My birthday is also in October.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sofía: ¡Entonces celebramos juntos!</p>
+  <p class="en">Sofía: Then we celebrate together!</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>el tuyo</strong> (yours), <strong>entonces</strong> (then, so), <strong>celebramos</strong> (we celebrate, from <em>celebrar</em>), <strong>juntos</strong> (together).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li>Numbers: 16–19 and 21–29 are one word (<span class="es">dieciséis, veintiuno</span>); 31+ use <span class="es">y</span> (<span class="es">treinta y dos</span>).</li>
+  <li>Age: <span class="es">tener + número + años</span> — <span class="es">Tengo veinticinco años</span>. Never <em>ser</em> for age.</li>
+  <li>Days and months are <strong>lowercase</strong>; the week starts on <span class="es">lunes</span>.</li>
+  <li>Dates: <span class="es">el + número + de + mes</span>; the 1st is <span class="es">el primero</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — the calendar</h3>
+<p><strong>Context:</strong> A short note on the Spanish calendar. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En el calendario, la semana tiene siete días.</p>
+  <p class="en">On the calendar, the week has seven days.</p>
+</div>
+<div class="phrase">
+  <p class="es">En España, la semana empieza el lunes.</p>
+  <p class="en">In Spain, the week begins on Monday.</p>
+</div>
+<div class="phrase">
+  <p class="es">El fin de semana es el sábado y el domingo.</p>
+  <p class="en">The weekend is Saturday and Sunday.</p>
+</div>
+<div class="phrase">
+  <p class="es">El año tiene doce meses: de enero a diciembre.</p>
+  <p class="en">The year has twelve months: from January to December.</p>
+</div>
+<div class="phrase">
+  <p class="es">El primer mes del año es enero; el último es diciembre.</p>
+  <p class="en">The first month of the year is January; the last is December.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>calendario</strong> (calendar), <strong>empieza</strong> (begins, from <em>empezar</em>), <strong>primer</strong> (first, before a masculine noun), <strong>último</strong> (last).</em></p>
+
+<hr>
+<p><strong>End of Lesson 03.</strong> Next, <strong>Lesson 04</strong>: family and people — possessives (<em>mi, tu, su</em>), <em>tener</em> in use, and family words. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>

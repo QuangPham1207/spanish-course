@@ -1,0 +1,532 @@
+{
+  "lesson": 3,
+  "title": "Numbers, age & dates",
+  "words": [
+    {
+      "word": "cero",
+      "type": "n.m.",
+      "en": "zero",
+      "note": "0.",
+      "example": { "es": "Cero es un número.", "en": "Zero is a number." }
+    },
+    {
+      "word": "uno",
+      "type": "n.m.",
+      "en": "one",
+      "note": "Before a noun: un / una.",
+      "example": { "es": "Uno más uno es dos.", "en": "One plus one is two." }
+    },
+    {
+      "word": "dos",
+      "type": "n.m.",
+      "en": "two",
+      "note": "2.",
+      "example": { "es": "Tengo dos hermanos.", "en": "I have two siblings." }
+    },
+    {
+      "word": "tres",
+      "type": "n.m.",
+      "en": "three",
+      "note": "3.",
+      "example": { "es": "Mi cumpleaños es el tres de octubre.", "en": "My birthday is October 3rd." }
+    },
+    {
+      "word": "cuatro",
+      "type": "n.m.",
+      "en": "four",
+      "note": "4.",
+      "example": { "es": "La clase tiene cuatro estudiantes.", "en": "The class has four students." }
+    },
+    {
+      "word": "cinco",
+      "type": "n.m.",
+      "en": "five",
+      "note": "5.",
+      "example": { "es": "Tengo cinco libros.", "en": "I have five books." }
+    },
+    {
+      "word": "seis",
+      "type": "n.m.",
+      "en": "six",
+      "note": "6.",
+      "example": { "es": "Hoy es seis de mayo.", "en": "Today is May 6th." }
+    },
+    {
+      "word": "siete",
+      "type": "n.m.",
+      "en": "seven",
+      "note": "7.",
+      "example": { "es": "La semana tiene siete días.", "en": "The week has seven days." }
+    },
+    {
+      "word": "ocho",
+      "type": "n.m.",
+      "en": "eight",
+      "note": "8.",
+      "example": { "es": "Tengo ocho años.", "en": "I'm eight years old." }
+    },
+    {
+      "word": "nueve",
+      "type": "n.m.",
+      "en": "nine",
+      "note": "9.",
+      "example": { "es": "Mi amiga tiene nueve años.", "en": "My friend is nine years old." }
+    },
+    {
+      "word": "diez",
+      "type": "n.m.",
+      "en": "ten",
+      "note": "10.",
+      "example": { "es": "Marco tiene diez años.", "en": "Marco is ten years old." }
+    },
+    {
+      "word": "once",
+      "type": "n.m.",
+      "en": "eleven",
+      "note": "11.",
+      "example": { "es": "Tengo once años.", "en": "I'm eleven years old." }
+    },
+    {
+      "word": "doce",
+      "type": "n.m.",
+      "en": "twelve",
+      "note": "12.",
+      "example": { "es": "Su cumpleaños es el doce de agosto.", "en": "His birthday is August 12th." }
+    },
+    {
+      "word": "trece",
+      "type": "n.m.",
+      "en": "thirteen",
+      "note": "13.",
+      "example": { "es": "Tengo trece años.", "en": "I'm thirteen years old." }
+    },
+    {
+      "word": "catorce",
+      "type": "n.m.",
+      "en": "fourteen",
+      "note": "14.",
+      "example": { "es": "Mi primo tiene catorce años.", "en": "My cousin is fourteen." }
+    },
+    {
+      "word": "quince",
+      "type": "n.m.",
+      "en": "fifteen",
+      "note": "15.",
+      "example": { "es": "Tengo quince años.", "en": "I'm fifteen years old." }
+    },
+    {
+      "word": "dieciséis",
+      "type": "n.m.",
+      "en": "sixteen",
+      "note": "16. Written as one word, with an accent.",
+      "example": { "es": "Mi hermana tiene dieciséis años.", "en": "My sister is sixteen." }
+    },
+    {
+      "word": "veinte",
+      "type": "n.m.",
+      "en": "twenty",
+      "note": "20.",
+      "example": { "es": "Tengo veinte años.", "en": "I'm twenty years old." }
+    },
+    {
+      "word": "veintiuno",
+      "type": "n.m.",
+      "en": "twenty-one",
+      "note": "21. Before a noun: veintiún.",
+      "example": { "es": "Tengo veintiún años.", "en": "I'm twenty-one years old." }
+    },
+    {
+      "word": "veintidós",
+      "type": "n.m.",
+      "en": "twenty-two",
+      "note": "22. Accent on -dós.",
+      "example": { "es": "Marco tiene veintidós años.", "en": "Marco is twenty-two." }
+    },
+    {
+      "word": "treinta",
+      "type": "n.m.",
+      "en": "thirty",
+      "note": "30. Then y: treinta y uno.",
+      "example": { "es": "Tengo treinta años.", "en": "I'm thirty years old." }
+    },
+    {
+      "word": "cuarenta",
+      "type": "n.m.",
+      "en": "forty",
+      "note": "40.",
+      "example": { "es": "Marta tiene cuarenta años.", "en": "Marta is forty years old." }
+    },
+    {
+      "word": "cincuenta",
+      "type": "n.m.",
+      "en": "fifty",
+      "note": "50.",
+      "example": { "es": "Mi padre tiene cincuenta años.", "en": "My father is fifty years old." }
+    },
+    {
+      "word": "sesenta",
+      "type": "n.m.",
+      "en": "sixty",
+      "note": "60.",
+      "example": { "es": "Tiene sesenta años.", "en": "He is sixty years old." }
+    },
+    {
+      "word": "setenta",
+      "type": "n.m.",
+      "en": "seventy",
+      "note": "70.",
+      "example": { "es": "Mi abuela tiene setenta años.", "en": "My grandmother is seventy." }
+    },
+    {
+      "word": "ochenta",
+      "type": "n.m.",
+      "en": "eighty",
+      "note": "80.",
+      "example": { "es": "Tiene ochenta años.", "en": "She is eighty years old." }
+    },
+    {
+      "word": "noventa",
+      "type": "n.m.",
+      "en": "ninety",
+      "note": "90.",
+      "example": { "es": "Noventa más diez es cien.", "en": "Ninety plus ten is one hundred." }
+    },
+    {
+      "word": "cien",
+      "type": "n.m.",
+      "en": "one hundred",
+      "note": "100. Before more numbers: ciento (ciento uno).",
+      "example": { "es": "Cien años es mucho tiempo.", "en": "A hundred years is a long time." }
+    },
+    {
+      "word": "tener",
+      "type": "v.",
+      "en": "to have",
+      "note": "tengo, tienes, tiene, tenemos, tenéis, tienen.",
+      "example": { "es": "Tengo veinticinco años.", "en": "I'm twenty-five years old." }
+    },
+    {
+      "word": "año",
+      "type": "n.m.",
+      "en": "year",
+      "note": "tengo veinte años = I'm twenty.",
+      "example": { "es": "El año tiene doce meses.", "en": "The year has twelve months." }
+    },
+    {
+      "word": "¿Cuántos años tienes?",
+      "type": "phr.",
+      "en": "how old are you?",
+      "note": "Formal: ¿Cuántos años tiene usted?",
+      "example": { "es": "¿Cuántos años tienes? — Tengo veinte.", "en": "How old are you? — I'm twenty." }
+    },
+    {
+      "word": "número",
+      "type": "n.m.",
+      "en": "number",
+      "note": "Plural: números.",
+      "example": { "es": "Cero es un número.", "en": "Zero is a number." }
+    },
+    {
+      "word": "día",
+      "type": "n.m.",
+      "en": "day",
+      "note": "Masculine despite the -a: el día.",
+      "example": { "es": "La semana tiene siete días.", "en": "The week has seven days." }
+    },
+    {
+      "word": "semana",
+      "type": "n.f.",
+      "en": "week",
+      "note": "fin de semana = weekend.",
+      "example": { "es": "La semana empieza el lunes.", "en": "The week begins on Monday." }
+    },
+    {
+      "word": "mes",
+      "type": "n.m.",
+      "en": "month",
+      "note": "Plural: meses.",
+      "example": { "es": "El año tiene doce meses.", "en": "The year has twelve months." }
+    },
+    {
+      "word": "lunes",
+      "type": "n.m.",
+      "en": "Monday",
+      "note": "Same form in singular and plural.",
+      "example": { "es": "La clase es el lunes.", "en": "The class is on Monday." }
+    },
+    {
+      "word": "martes",
+      "type": "n.m.",
+      "en": "Tuesday",
+      "note": "Same form in singular and plural.",
+      "example": { "es": "Mañana es martes.", "en": "Tomorrow is Tuesday." }
+    },
+    {
+      "word": "miércoles",
+      "type": "n.m.",
+      "en": "Wednesday",
+      "note": "Accent on mié-.",
+      "example": { "es": "Hoy es miércoles.", "en": "Today is Wednesday." }
+    },
+    {
+      "word": "jueves",
+      "type": "n.m.",
+      "en": "Thursday",
+      "note": "Harsh j sound.",
+      "example": { "es": "La clase es el jueves.", "en": "The class is on Thursday." }
+    },
+    {
+      "word": "viernes",
+      "type": "n.m.",
+      "en": "Friday",
+      "note": "Same form in singular and plural.",
+      "example": { "es": "El viernes es mi día favorito.", "en": "Friday is my favorite day." }
+    },
+    {
+      "word": "sábado",
+      "type": "n.m.",
+      "en": "Saturday",
+      "note": "Accent on sá-.",
+      "example": { "es": "El sábado es el fin de semana.", "en": "Saturday is the weekend." }
+    },
+    {
+      "word": "domingo",
+      "type": "n.m.",
+      "en": "Sunday",
+      "note": "No accent.",
+      "example": { "es": "El domingo descanso.", "en": "On Sunday I rest." }
+    },
+    {
+      "word": "enero",
+      "type": "n.m.",
+      "en": "January",
+      "ext": true,
+      "note": "Lowercase; el primer mes del año.",
+      "example": { "es": "Enero es el primer mes del año.", "en": "January is the first month of the year." }
+    },
+    {
+      "word": "febrero",
+      "type": "n.m.",
+      "en": "February",
+      "ext": true,
+      "note": "Lowercase.",
+      "example": { "es": "Mi cumpleaños es en febrero.", "en": "My birthday is in February." }
+    },
+    {
+      "word": "marzo",
+      "type": "n.m.",
+      "en": "March",
+      "ext": true,
+      "note": "Lowercase.",
+      "example": { "es": "Hoy es el primero de marzo.", "en": "Today is March 1st." }
+    },
+    {
+      "word": "abril",
+      "type": "n.m.",
+      "en": "April",
+      "ext": true,
+      "note": "Lowercase.",
+      "example": { "es": "La fiesta es en abril.", "en": "The party is in April." }
+    },
+    {
+      "word": "mayo",
+      "type": "n.m.",
+      "en": "May",
+      "ext": true,
+      "note": "Lowercase.",
+      "example": { "es": "La fiesta es el primero de mayo.", "en": "The party is May 1st." }
+    },
+    {
+      "word": "junio",
+      "type": "n.m.",
+      "en": "June",
+      "ext": true,
+      "note": "Lowercase.",
+      "example": { "es": "El verano empieza en junio.", "en": "Summer begins in June." }
+    },
+    {
+      "word": "julio",
+      "type": "n.m.",
+      "en": "July",
+      "ext": true,
+      "note": "Lowercase.",
+      "example": { "es": "En julio hace calor.", "en": "In July it is hot." }
+    },
+    {
+      "word": "agosto",
+      "type": "n.m.",
+      "en": "August",
+      "ext": true,
+      "note": "Lowercase.",
+      "example": { "es": "Su cumpleaños es el doce de agosto.", "en": "His birthday is August 12th." }
+    },
+    {
+      "word": "septiembre",
+      "type": "n.m.",
+      "en": "September",
+      "ext": true,
+      "note": "Lowercase.",
+      "example": { "es": "La clase empieza en septiembre.", "en": "The class begins in September." }
+    },
+    {
+      "word": "octubre",
+      "type": "n.m.",
+      "en": "October",
+      "ext": true,
+      "note": "Lowercase.",
+      "example": { "es": "Mi cumpleaños es el tres de octubre.", "en": "My birthday is October 3rd." }
+    },
+    {
+      "word": "noviembre",
+      "type": "n.m.",
+      "en": "November",
+      "ext": true,
+      "note": "Lowercase.",
+      "example": { "es": "En noviembre hace frío.", "en": "In November it is cold." }
+    },
+    {
+      "word": "diciembre",
+      "type": "n.m.",
+      "en": "December",
+      "ext": true,
+      "note": "Lowercase; el último mes del año.",
+      "example": { "es": "Diciembre es el último mes del año.", "en": "December is the last month of the year." }
+    },
+    {
+      "word": "hoy",
+      "type": "adv.",
+      "en": "today",
+      "ext": true,
+      "note": "Hoy es lunes.",
+      "example": { "es": "Hoy es miércoles.", "en": "Today is Wednesday." }
+    },
+    {
+      "word": "mañana",
+      "type": "n.f./adv.",
+      "en": "tomorrow; morning",
+      "ext": true,
+      "note": "Context decides: mañana = tomorrow or morning.",
+      "example": { "es": "Mañana es martes.", "en": "Tomorrow is Tuesday." }
+    },
+    {
+      "word": "cumpleaños",
+      "type": "n.m.",
+      "en": "birthday",
+      "ext": true,
+      "note": "Same in singular and plural.",
+      "example": { "es": "Mi cumpleaños es el doce de agosto.", "en": "My birthday is August 12th." }
+    },
+    {
+      "word": "fecha",
+      "type": "n.f.",
+      "en": "date",
+      "ext": true,
+      "note": "¿Cuál es la fecha de hoy?",
+      "example": { "es": "¿Cuál es la fecha de hoy?", "en": "What's today's date?" }
+    },
+    {
+      "word": "primero",
+      "type": "adj.",
+      "en": "first",
+      "ext": true,
+      "note": "Used for the 1st: el primero de mayo.",
+      "example": { "es": "Hoy es el primero de marzo.", "en": "Today is March 1st." }
+    },
+    {
+      "word": "fin de semana",
+      "type": "phr.",
+      "en": "weekend",
+      "ext": true,
+      "note": "Literally 'end of week'.",
+      "example": { "es": "El fin de semana es el sábado y el domingo.", "en": "The weekend is Saturday and Sunday." }
+    },
+    {
+      "word": "¿Qué día es hoy?",
+      "type": "phr.",
+      "en": "what day is it today?",
+      "ext": true,
+      "note": "Reply: Hoy es lunes.",
+      "example": { "es": "¿Qué día es hoy? — Hoy es lunes.", "en": "What day is it today? — Today is Monday." }
+    },
+    {
+      "word": "¿Cuándo es tu cumpleaños?",
+      "type": "phr.",
+      "en": "when is your birthday?",
+      "ext": true,
+      "note": "Reply: Es el tres de octubre.",
+      "example": { "es": "¿Cuándo es tu cumpleaños? — Es el tres de octubre.", "en": "When is your birthday? — It's October 3rd." }
+    },
+    {
+      "word": "el tuyo",
+      "type": "pron.",
+      "en": "yours",
+      "ext": true,
+      "note": "Mine = el mío; yours = el tuyo.",
+      "example": { "es": "¿Y el tuyo? — El mío es el tres de octubre.", "en": "And yours? — Mine is October 3rd." }
+    },
+    {
+      "word": "entonces",
+      "type": "adv.",
+      "en": "then, so",
+      "ext": true,
+      "note": "¡Entonces celebramos! = Then we celebrate!",
+      "example": { "es": "¡Entonces celebramos juntos!", "en": "Then we celebrate together!" }
+    },
+    {
+      "word": "celebrar",
+      "type": "v.",
+      "en": "to celebrate",
+      "ext": true,
+      "note": "celebramos = we celebrate.",
+      "example": { "es": "Celebramos su cumpleaños.", "en": "We celebrate her birthday." }
+    },
+    {
+      "word": "juntos",
+      "type": "adj.",
+      "en": "together",
+      "ext": true,
+      "note": "Men: juntos; women: juntas.",
+      "example": { "es": "Estudiamos juntos.", "en": "We study together." }
+    },
+    {
+      "word": "calendario",
+      "type": "n.m.",
+      "en": "calendar",
+      "ext": true,
+      "note": "En el calendario.",
+      "example": { "es": "En el calendario, la semana tiene siete días.", "en": "On the calendar, the week has seven days." }
+    },
+    {
+      "word": "empezar",
+      "type": "v.",
+      "en": "to begin",
+      "ext": true,
+      "note": "empieza = begins.",
+      "example": { "es": "La semana empieza el lunes.", "en": "The week begins on Monday." }
+    },
+    {
+      "word": "primer",
+      "type": "adj.",
+      "en": "first (before a masculine noun)",
+      "ext": true,
+      "note": "el primer mes = the first month.",
+      "example": { "es": "Enero es el primer mes del año.", "en": "January is the first month of the year." }
+    },
+    {
+      "word": "último",
+      "type": "adj.",
+      "en": "last",
+      "ext": true,
+      "note": "el último mes = the last month.",
+      "example": { "es": "Diciembre es el último mes.", "en": "December is the last month." }
+    },
+    {
+      "word": "de … a …",
+      "type": "phr.",
+      "en": "from … to …",
+      "ext": true,
+      "note": "de enero a diciembre.",
+      "example": { "es": "De enero a diciembre hay doce meses.", "en": "From January to December there are twelve months." }
+    }
+  ]
+}

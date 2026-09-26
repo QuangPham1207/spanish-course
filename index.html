@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Spanish Course — A0 to B2</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.65;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.4rem 1.1rem 4rem}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1.1rem; margin-bottom:1.6rem;
+  }
+  h1{font-size:1.6rem; line-height:1.3; margin:0 0 .4rem}
+  .lead{color:var(--muted); font-size:.95rem; margin:.3rem 0}
+  h2{
+    font-size:1.2rem; margin:2.4rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  .badge{
+    display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.03em;
+    color:var(--accent); border:1px solid var(--accent); border-radius:999px;
+    padding:.05rem .55rem; vertical-align:middle; margin-left:.4rem;
+  }
+
+  a.card{
+    display:block; text-decoration:none; color:var(--fg);
+    background:var(--card); border:1px solid var(--border);
+    border-radius:12px; padding:.9rem 1rem; margin:.7rem 0;
+    transition:border-color .15s, transform .15s;
+  }
+  a.card:hover{border-color:var(--accent)}
+  a.card:active{transform:scale(.99)}
+  .card .num{
+    font-size:.78rem; font-weight:700; letter-spacing:.06em;
+    color:var(--muted); text-transform:uppercase;
+  }
+  .card .title{font-size:1.12rem; font-weight:700; margin:.15rem 0 .25rem}
+  .card .desc{font-size:.9rem; color:var(--muted)}
+  .card .go{color:var(--accent); font-size:.9rem; font-weight:600; margin-top:.4rem}
+
+  .quick{
+    display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0;
+  }
+  .quick a{
+    text-decoration:none; color:var(--fg); background:var(--card);
+    border:1px solid var(--border); border-radius:999px;
+    padding:.35rem .85rem; font-size:.9rem;
+  }
+  .quick a:hover{border-color:var(--accent); color:var(--accent)}
+
+  .note{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.92rem; color:var(--muted);
+  }
+  footer{margin-top:2.5rem; border-top:1px solid var(--border);
+    padding-top:1rem; color:var(--muted); font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <h1>SPANISH COURSE <span class="badge">A0 &rarr; B2</span></h1>
+  <p class="lead">A personal, reading-first Spanish course. All explanations in English; the Spanish is meant to be read, not drilled.</p>
+  <p class="lead">No homework, no tests — just open a lesson and read on your phone.</p>
+</header>
+
+<h2>Lessons</h2>
+
+<a class="card" href="course/lesson-01.html">
+  <div class="num">Lesson 01</div>
+  <div class="title">Greetings &amp; the Spanish sounds</div>
+  <div class="desc">Say hello and goodbye, ask how someone is, give your name and origin, and learn the key sounds: silent h, ñ, ll, j, and stress.</div>
+  <div class="go">Read lesson 01 &rarr;</div>
+</a>
+
+<a class="card" href="course/lesson-02.html">
+  <div class="num">Lesson 02</div>
+  <div class="title">Introducing yourself</div>
+  <div class="desc">The verb <em>ser</em>, <em>llamarse</em>, nationalities and origin (<em>soy de…</em>), and polite phrases like <em>mucho gusto</em>.</div>
+  <div class="go">Read lesson 02 &rarr;</div>
+</a>
+
+<a class="card" href="course/lesson-03.html">
+  <div class="num">Lesson 03</div>
+  <div class="title">Numbers, age &amp; dates</div>
+  <div class="desc">Numbers 0–100, age with <em>tener … años</em>, and the days, months and dates.</div>
+  <div class="go">Read lesson 03 &rarr;</div>
+</a>
+
+<h2>Reference</h2>
+
+<div class="quick">
+  <a href="course/vocabulary.html">Vocabulary index</a>
+  <a href="syllabus.md">Full syllabus (A0&rarr;B2)</a>
+</div>
+
+<div class="note">
+  New lessons are added one module at a time. The vocabulary index gathers every word from every lesson in one searchable page.
+</div>
+
+<footer>
+  Spanish — personal reading-first course. Neutral Spanish; Spain vs Latin America differences are noted in each lesson.
+</footer>
+
+</div>
+</body>
+</html>

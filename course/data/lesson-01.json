@@ -1,0 +1,191 @@
+{
+  "lesson": 1,
+  "title": "Greetings & the Spanish sounds",
+  "words": [
+    {
+      "word": "hola",
+      "type": "interj.",
+      "en": "hello, hi",
+      "note": "Any time of day; informal.",
+      "example": { "es": "¡Hola! ¿Cómo estás?", "en": "Hi! How are you?" }
+    },
+    {
+      "word": "buenos días",
+      "type": "phr.",
+      "en": "good morning",
+      "note": "Used until around noon.",
+      "example": { "es": "Buenos días, señora.", "en": "Good morning, ma'am." }
+    },
+    {
+      "word": "buenas tardes",
+      "type": "phr.",
+      "en": "good afternoon",
+      "note": "From around noon to dusk.",
+      "example": { "es": "Buenas tardes, ¿cómo está usted?", "en": "Good afternoon, how are you?" }
+    },
+    {
+      "word": "buenas noches",
+      "type": "phr.",
+      "en": "good evening / good night",
+      "note": "Hello and goodbye at night.",
+      "example": { "es": "Buenas noches, hasta mañana.", "en": "Good night, see you tomorrow." }
+    },
+    {
+      "word": "adiós",
+      "type": "interj.",
+      "en": "goodbye",
+      "note": "Stress the last syllable: a-DIÓS.",
+      "example": { "es": "Adiós, nos vemos.", "en": "Goodbye, see you." }
+    },
+    {
+      "word": "hasta luego",
+      "type": "phr.",
+      "en": "see you later",
+      "note": "Very common goodbye.",
+      "example": { "es": "¡Hasta luego, Ana!", "en": "See you later, Ana!" }
+    },
+    {
+      "word": "gracias",
+      "type": "interj.",
+      "en": "thank you",
+      "note": "Reply with de nada.",
+      "example": { "es": "Muchas gracias por todo.", "en": "Thank you very much for everything." }
+    },
+    {
+      "word": "por favor",
+      "type": "phr.",
+      "en": "please",
+      "note": "Add it to any request.",
+      "example": { "es": "Un café, por favor.", "en": "A coffee, please." }
+    },
+    {
+      "word": "me llamo",
+      "type": "phr.",
+      "en": "my name is",
+      "note": "Literally 'I call myself'.",
+      "example": { "es": "Me llamo Lucía.", "en": "My name is Lucía." }
+    },
+    {
+      "word": "¿Cómo estás?",
+      "type": "phr.",
+      "en": "how are you?",
+      "note": "Informal (tú).",
+      "example": { "es": "¡Hola! ¿Cómo estás?", "en": "Hi! How are you?" }
+    },
+    {
+      "word": "¿De dónde eres?",
+      "type": "phr.",
+      "en": "where are you from?",
+      "note": "Informal (tú).",
+      "example": { "es": "¿De dónde eres, Andrés?", "en": "Where are you from, Andrés?" }
+    },
+    {
+      "word": "ser",
+      "type": "v.",
+      "en": "to be (identity / origin)",
+      "note": "soy, eres, es.",
+      "example": { "es": "Soy de Vietnam y soy estudiante.", "en": "I'm from Vietnam and I'm a student." }
+    },
+    {
+      "word": "estar",
+      "type": "v.",
+      "en": "to be (state / location)",
+      "note": "estoy, estás, está.",
+      "example": { "es": "Estoy muy bien, gracias.", "en": "I'm very well, thank you." }
+    },
+    {
+      "word": "tú",
+      "type": "pron.",
+      "en": "you (informal)",
+      "note": "Friends, family, peers.",
+      "example": { "es": "¿Y tú, cómo estás?", "en": "And you, how are you?" }
+    },
+    {
+      "word": "usted",
+      "type": "pron.",
+      "en": "you (formal)",
+      "note": "Uses the él/ella verb forms.",
+      "example": { "es": "¿Y usted, de dónde es?", "en": "And you (formal), where are you from?" }
+    },
+    {
+      "word": "encantado",
+      "type": "adj.",
+      "en": "nice to meet you, pleased to meet you",
+      "ext": true,
+      "note": "Men say encantado, women encantada.",
+      "example": { "es": "Encantado de conocerte.", "en": "Pleased to meet you." }
+    },
+    {
+      "word": "vivir",
+      "type": "v.",
+      "en": "to live",
+      "ext": true,
+      "note": "vivo = I live.",
+      "example": { "es": "Vivo en México.", "en": "I live in Mexico." }
+    },
+    {
+      "word": "España",
+      "type": "n.f.",
+      "en": "Spain",
+      "ext": true,
+      "note": "Country name.",
+      "example": { "es": "Soy de España.", "en": "I'm from Spain." }
+    },
+    {
+      "word": "México",
+      "type": "n.m.",
+      "en": "Mexico",
+      "ext": true,
+      "note": "Written accent on Mé-.",
+      "example": { "es": "Lucía vive en México.", "en": "Lucía lives in Mexico." }
+    },
+    {
+      "word": "Sevilla",
+      "type": "n.f.",
+      "en": "Seville",
+      "ext": true,
+      "note": "City in southern Spain.",
+      "example": { "es": "Sevilla está en España.", "en": "Seville is in Spain." }
+    },
+    {
+      "word": "clase",
+      "type": "n.f.",
+      "en": "class, lesson",
+      "ext": true,
+      "note": "tengo clase = I have class.",
+      "example": { "es": "Tengo clase ahora.", "en": "I have class now." }
+    },
+    {
+      "word": "también",
+      "type": "adv.",
+      "en": "also, too",
+      "ext": true,
+      "note": "Contrasts with tampoco (neither).",
+      "example": { "es": "También soy de España.", "en": "I'm also from Spain." }
+    },
+    {
+      "word": "igualmente",
+      "type": "adv.",
+      "en": "likewise, same to you",
+      "ext": true,
+      "note": "Typical reply to 'mucho gusto'.",
+      "example": { "es": "Mucho gusto. — Igualmente.", "en": "Nice to meet you. — Likewise." }
+    },
+    {
+      "word": "Valencia",
+      "type": "n.f.",
+      "en": "Valencia",
+      "ext": true,
+      "note": "City in eastern Spain.",
+      "example": { "es": "Ana es de Valencia.", "en": "Ana is from Valencia." }
+    },
+    {
+      "word": "Bogotá",
+      "type": "n.f.",
+      "en": "Bogotá",
+      "ext": true,
+      "note": "Capital of Colombia.",
+      "example": { "es": "Luis es de Bogotá.", "en": "Luis is from Bogotá." }
+    }
+  ]
+}
