@@ -1,0 +1,171 @@
+{
+  "lesson": 5,
+  "title": "Nouns: gender, articles & plurals",
+  "words": [
+    {
+      "word": "el / la",
+      "type": "art.",
+      "en": "the",
+      "note": "Plural los / las; matches the noun's gender.",
+      "example": { "es": "el libro, la casa", "en": "the book, the house" }
+    },
+    {
+      "word": "un / una",
+      "type": "art.",
+      "en": "a, an",
+      "note": "Plural unos / unas = some, a few.",
+      "example": { "es": "un libro, una casa", "en": "a book, a house" }
+    },
+    {
+      "word": "libro",
+      "type": "n.m.",
+      "en": "book",
+      "note": "el libro → los libros.",
+      "example": { "es": "Los estudiantes tienen libros.", "en": "The students have books." }
+    },
+    {
+      "word": "cuaderno",
+      "type": "n.m.",
+      "en": "notebook",
+      "note": "el cuaderno.",
+      "example": { "es": "Tengo dos cuadernos.", "en": "I have two notebooks." }
+    },
+    {
+      "word": "lápiz",
+      "type": "n.m.",
+      "en": "pencil",
+      "note": "Plural: lápices.",
+      "example": { "es": "Necesito un lápiz.", "en": "I need a pencil." }
+    },
+    {
+      "word": "chico / chica",
+      "type": "n.m./f.",
+      "en": "boy / girl",
+      "note": "Also used for young people: guy / girl.",
+      "example": { "es": "En la clase hay chicos y chicas.", "en": "In the class there are boys and girls." }
+    },
+    {
+      "word": "hombre",
+      "type": "n.m.",
+      "en": "man",
+      "note": "Plural: hombres.",
+      "example": { "es": "Es un hombre alto.", "en": "He's a tall man." }
+    },
+    {
+      "word": "mujer",
+      "type": "n.f.",
+      "en": "woman; wife",
+      "note": "Plural: mujeres.",
+      "example": { "es": "La profesora es una mujer simpática.", "en": "The teacher is a friendly woman." }
+    },
+    {
+      "word": "amigo / amiga",
+      "type": "n.m./f.",
+      "en": "friend",
+      "note": "un amigo, una amiga.",
+      "example": { "es": "Mi amiga Lucía es de España.", "en": "My friend Lucía is from Spain." }
+    },
+    {
+      "word": "cosa",
+      "type": "n.f.",
+      "en": "thing",
+      "note": "una cosa.",
+      "example": { "es": "Es una cosa importante.", "en": "It's an important thing." }
+    },
+    {
+      "word": "lengua",
+      "type": "n.f.",
+      "en": "language; tongue",
+      "note": "una lengua = a language.",
+      "example": { "es": "El español es una lengua importante.", "en": "Spanish is an important language." }
+    },
+    {
+      "word": "cómodo / cómoda",
+      "type": "adj.",
+      "en": "comfortable",
+      "note": "una clase cómoda.",
+      "ext": true,
+      "example": { "es": "La clase es grande y cómoda.", "en": "The classroom is big and comfortable." }
+    },
+    {
+      "word": "alto / alta",
+      "type": "adj.",
+      "en": "tall; high",
+      "note": "un chico alto.",
+      "ext": true,
+      "example": { "es": "Pablo es un chico alto.", "en": "Pablo is a tall boy." }
+    },
+    {
+      "word": "bajo / baja",
+      "type": "adj.",
+      "en": "short (in height); low",
+      "note": "una chica baja.",
+      "ext": true,
+      "example": { "es": "Lucía es una chica baja.", "en": "Lucía is a short girl." }
+    },
+    {
+      "word": "simpático / simpática",
+      "type": "adj.",
+      "en": "friendly, nice",
+      "note": "una mujer simpática.",
+      "ext": true,
+      "example": { "es": "Marta es muy simpática.", "en": "Marta is very friendly." }
+    },
+    {
+      "word": "pizarra",
+      "type": "n.f.",
+      "en": "board, blackboard",
+      "note": "una pizarra.",
+      "ext": true,
+      "example": { "es": "Marta tiene una pizarra.", "en": "Marta has a board." }
+    },
+    {
+      "word": "importante",
+      "type": "adj.",
+      "en": "important",
+      "note": "Same for masculine and feminine.",
+      "ext": true,
+      "example": { "es": "El español es una lengua importante.", "en": "Spanish is an important language." }
+    },
+    {
+      "word": "problema",
+      "type": "n.m.",
+      "en": "problem",
+      "note": "Masculine despite the -a: el problema.",
+      "ext": true,
+      "example": { "es": "Es un problema pequeño.", "en": "It's a small problem." }
+    },
+    {
+      "word": "mapa",
+      "type": "n.m.",
+      "en": "map",
+      "note": "Masculine despite the -a: el mapa.",
+      "ext": true,
+      "example": { "es": "Marta tiene un mapa.", "en": "Marta has a map." }
+    },
+    {
+      "word": "mano",
+      "type": "n.f.",
+      "en": "hand",
+      "note": "Feminine despite the -o: la mano.",
+      "ext": true,
+      "example": { "es": "La mano es pequeña.", "en": "The hand is small." }
+    },
+    {
+      "word": "palabra",
+      "type": "n.f.",
+      "en": "word",
+      "note": "una palabra.",
+      "ext": true,
+      "example": { "es": "Aprendo palabras nuevas.", "en": "I learn new words." }
+    },
+    {
+      "word": "género",
+      "type": "n.m.",
+      "en": "gender",
+      "note": "masculino o femenino.",
+      "ext": true,
+      "example": { "es": "Cada palabra tiene un género.", "en": "Every noun has a gender." }
+    }
+  ]
+}

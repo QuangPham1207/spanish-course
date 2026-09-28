@@ -1355,5 +1355,808 @@ window.VOCAB = [
         }
       }
     ]
+  },
+  {
+    "lesson": 4,
+    "title": "Family & people",
+    "words": [
+      {
+        "word": "familia",
+        "type": "n.f.",
+        "en": "family",
+        "note": "la familia = the family.",
+        "example": {
+          "es": "Mi familia es grande.",
+          "en": "My family is big."
+        }
+      },
+      {
+        "word": "padre",
+        "type": "n.m.",
+        "en": "father",
+        "note": "Plural padres = parents.",
+        "example": {
+          "es": "Mi padre se llama Pedro.",
+          "en": "My father is called Pedro."
+        }
+      },
+      {
+        "word": "madre",
+        "type": "n.f.",
+        "en": "mother",
+        "note": "Informal: mamá.",
+        "example": {
+          "es": "Mi madre se llama Rosa.",
+          "en": "My mother is called Rosa."
+        }
+      },
+      {
+        "word": "hermano / hermana",
+        "type": "n.m./f.",
+        "en": "brother / sister",
+        "note": "Plural hermanos = brothers and sisters.",
+        "example": {
+          "es": "Tengo dos hermanos.",
+          "en": "I have two siblings."
+        }
+      },
+      {
+        "word": "hijo / hija",
+        "type": "n.m./f.",
+        "en": "son / daughter",
+        "note": "Plural hijos = children.",
+        "example": {
+          "es": "No tengo hijos.",
+          "en": "I don't have children."
+        }
+      },
+      {
+        "word": "abuelo / abuela",
+        "type": "n.m./f.",
+        "en": "grandfather / grandmother",
+        "note": "Plural abuelos = grandparents.",
+        "example": {
+          "es": "Mis abuelos viven con nosotros.",
+          "en": "My grandparents live with us."
+        }
+      },
+      {
+        "word": "tío / tía",
+        "type": "n.m./f.",
+        "en": "uncle / aunt",
+        "note": "Plural tíos = uncles and aunts.",
+        "example": {
+          "es": "Mi tío Carlos es el hermano de mi madre.",
+          "en": "My uncle Carlos is my mother's brother."
+        }
+      },
+      {
+        "word": "primo / prima",
+        "type": "n.m./f.",
+        "en": "cousin",
+        "note": "Same meaning for a male or female cousin.",
+        "example": {
+          "es": "Mis primos viven en Sevilla.",
+          "en": "My cousins live in Seville."
+        }
+      },
+      {
+        "word": "mi / mis",
+        "type": "adj. pos.",
+        "en": "my",
+        "note": "Agrees with the noun: mi hermana, mis hermanas.",
+        "example": {
+          "es": "Mi hermano es médico.",
+          "en": "My brother is a doctor."
+        }
+      },
+      {
+        "word": "tu / tus",
+        "type": "adj. pos.",
+        "en": "your (informal)",
+        "note": "No accent on tu (compare tú = you).",
+        "example": {
+          "es": "¿Dónde vive tu familia?",
+          "en": "Where does your family live?"
+        }
+      },
+      {
+        "word": "su / sus",
+        "type": "adj. pos.",
+        "en": "his / her / your (formal) / their",
+        "note": "Meaning comes from context.",
+        "example": {
+          "es": "Su madre es profesora.",
+          "en": "His/her mother is a teacher."
+        }
+      },
+      {
+        "word": "nuestro / nuestra",
+        "type": "adj. pos.",
+        "en": "our",
+        "note": "Four forms: nuestro, nuestra, nuestros, nuestras.",
+        "example": {
+          "es": "Nuestra familia es pequeña.",
+          "en": "Our family is small."
+        }
+      },
+      {
+        "word": "con",
+        "type": "prep.",
+        "en": "with",
+        "note": "conmigo = with me; contigo = with you.",
+        "example": {
+          "es": "Mis abuelos viven con nosotros.",
+          "en": "My grandparents live with us."
+        }
+      },
+      {
+        "word": "persona",
+        "type": "n.f.",
+        "en": "person",
+        "note": "Same word for men and women; plural personas.",
+        "ext": true,
+        "example": {
+          "es": "Somos seis personas.",
+          "en": "We are six people."
+        }
+      },
+      {
+        "word": "grande",
+        "type": "adj.",
+        "en": "big, large",
+        "note": "Same form for masculine and feminine.",
+        "ext": true,
+        "example": {
+          "es": "Mi familia es grande.",
+          "en": "My family is big."
+        }
+      },
+      {
+        "word": "vivir",
+        "type": "v.",
+        "en": "to live",
+        "note": "vivo, vives, vive, vivimos, vivís, viven.",
+        "ext": true,
+        "example": {
+          "es": "Mis primos viven en Sevilla.",
+          "en": "My cousins live in Seville."
+        }
+      },
+      {
+        "word": "diecinueve",
+        "type": "n.m.",
+        "en": "nineteen",
+        "note": "19.",
+        "ext": true,
+        "example": {
+          "es": "Mi hermana tiene diecinueve años.",
+          "en": "My sister is nineteen."
+        }
+      },
+      {
+        "word": "foto",
+        "type": "n.f.",
+        "en": "photo",
+        "note": "Short for fotografía.",
+        "ext": true,
+        "example": {
+          "es": "Esta es una foto de mi familia.",
+          "en": "This is a photo of my family."
+        }
+      },
+      {
+        "word": "pequeño / pequeña",
+        "type": "adj.",
+        "en": "small, little; young",
+        "note": "Mi hermana pequeña = my little sister.",
+        "ext": true,
+        "example": {
+          "es": "Mi sobrina es pequeña.",
+          "en": "My niece is little."
+        }
+      },
+      {
+        "word": "mayor",
+        "type": "adj.",
+        "en": "older, elder",
+        "note": "Mi hermano mayor = my older brother.",
+        "ext": true,
+        "example": {
+          "es": "Mi hermano mayor vive en Madrid.",
+          "en": "My older brother lives in Madrid."
+        }
+      },
+      {
+        "word": "menor",
+        "type": "adj.",
+        "en": "younger, youngest",
+        "note": "Mi hermana menor = my younger sister.",
+        "ext": true,
+        "example": {
+          "es": "Mi hermana menor es estudiante.",
+          "en": "My younger sister is a student."
+        }
+      },
+      {
+        "word": "hijo único / hija única",
+        "type": "phr.",
+        "en": "only child",
+        "note": "Soy hijo único (man) / Soy hija única (woman).",
+        "ext": true,
+        "example": {
+          "es": "No tengo hermanos; soy hijo único.",
+          "en": "I have no siblings; I'm an only child."
+        }
+      },
+      {
+        "word": "mundo",
+        "type": "n.m.",
+        "en": "world",
+        "note": "el mundo hispano = the Hispanic world.",
+        "ext": true,
+        "example": {
+          "es": "En el mundo hispano, la familia es importante.",
+          "en": "In the Hispanic world, family is important."
+        }
+      },
+      {
+        "word": "apellido",
+        "type": "n.m.",
+        "en": "surname, last name",
+        "note": "Hispanic people normally have two apellidos.",
+        "ext": true,
+        "example": {
+          "es": "Tengo dos apellidos.",
+          "en": "I have two surnames."
+        }
+      },
+      {
+        "word": "fiesta",
+        "type": "n.f.",
+        "en": "party, holiday",
+        "note": "las fiestas = holidays; una fiesta = a party.",
+        "ext": true,
+        "example": {
+          "es": "Las familias celebran juntas las fiestas.",
+          "en": "Families celebrate holidays together."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "title": "Nouns: gender, articles & plurals",
+    "words": [
+      {
+        "word": "el / la",
+        "type": "art.",
+        "en": "the",
+        "note": "Plural los / las; matches the noun's gender.",
+        "example": {
+          "es": "el libro, la casa",
+          "en": "the book, the house"
+        }
+      },
+      {
+        "word": "un / una",
+        "type": "art.",
+        "en": "a, an",
+        "note": "Plural unos / unas = some, a few.",
+        "example": {
+          "es": "un libro, una casa",
+          "en": "a book, a house"
+        }
+      },
+      {
+        "word": "libro",
+        "type": "n.m.",
+        "en": "book",
+        "note": "el libro → los libros.",
+        "example": {
+          "es": "Los estudiantes tienen libros.",
+          "en": "The students have books."
+        }
+      },
+      {
+        "word": "cuaderno",
+        "type": "n.m.",
+        "en": "notebook",
+        "note": "el cuaderno.",
+        "example": {
+          "es": "Tengo dos cuadernos.",
+          "en": "I have two notebooks."
+        }
+      },
+      {
+        "word": "lápiz",
+        "type": "n.m.",
+        "en": "pencil",
+        "note": "Plural: lápices.",
+        "example": {
+          "es": "Necesito un lápiz.",
+          "en": "I need a pencil."
+        }
+      },
+      {
+        "word": "chico / chica",
+        "type": "n.m./f.",
+        "en": "boy / girl",
+        "note": "Also used for young people: guy / girl.",
+        "example": {
+          "es": "En la clase hay chicos y chicas.",
+          "en": "In the class there are boys and girls."
+        }
+      },
+      {
+        "word": "hombre",
+        "type": "n.m.",
+        "en": "man",
+        "note": "Plural: hombres.",
+        "example": {
+          "es": "Es un hombre alto.",
+          "en": "He's a tall man."
+        }
+      },
+      {
+        "word": "mujer",
+        "type": "n.f.",
+        "en": "woman; wife",
+        "note": "Plural: mujeres.",
+        "example": {
+          "es": "La profesora es una mujer simpática.",
+          "en": "The teacher is a friendly woman."
+        }
+      },
+      {
+        "word": "amigo / amiga",
+        "type": "n.m./f.",
+        "en": "friend",
+        "note": "un amigo, una amiga.",
+        "example": {
+          "es": "Mi amiga Lucía es de España.",
+          "en": "My friend Lucía is from Spain."
+        }
+      },
+      {
+        "word": "cosa",
+        "type": "n.f.",
+        "en": "thing",
+        "note": "una cosa.",
+        "example": {
+          "es": "Es una cosa importante.",
+          "en": "It's an important thing."
+        }
+      },
+      {
+        "word": "lengua",
+        "type": "n.f.",
+        "en": "language; tongue",
+        "note": "una lengua = a language.",
+        "example": {
+          "es": "El español es una lengua importante.",
+          "en": "Spanish is an important language."
+        }
+      },
+      {
+        "word": "cómodo / cómoda",
+        "type": "adj.",
+        "en": "comfortable",
+        "note": "una clase cómoda.",
+        "ext": true,
+        "example": {
+          "es": "La clase es grande y cómoda.",
+          "en": "The classroom is big and comfortable."
+        }
+      },
+      {
+        "word": "alto / alta",
+        "type": "adj.",
+        "en": "tall; high",
+        "note": "un chico alto.",
+        "ext": true,
+        "example": {
+          "es": "Pablo es un chico alto.",
+          "en": "Pablo is a tall boy."
+        }
+      },
+      {
+        "word": "bajo / baja",
+        "type": "adj.",
+        "en": "short (in height); low",
+        "note": "una chica baja.",
+        "ext": true,
+        "example": {
+          "es": "Lucía es una chica baja.",
+          "en": "Lucía is a short girl."
+        }
+      },
+      {
+        "word": "simpático / simpática",
+        "type": "adj.",
+        "en": "friendly, nice",
+        "note": "una mujer simpática.",
+        "ext": true,
+        "example": {
+          "es": "Marta es muy simpática.",
+          "en": "Marta is very friendly."
+        }
+      },
+      {
+        "word": "pizarra",
+        "type": "n.f.",
+        "en": "board, blackboard",
+        "note": "una pizarra.",
+        "ext": true,
+        "example": {
+          "es": "Marta tiene una pizarra.",
+          "en": "Marta has a board."
+        }
+      },
+      {
+        "word": "importante",
+        "type": "adj.",
+        "en": "important",
+        "note": "Same for masculine and feminine.",
+        "ext": true,
+        "example": {
+          "es": "El español es una lengua importante.",
+          "en": "Spanish is an important language."
+        }
+      },
+      {
+        "word": "problema",
+        "type": "n.m.",
+        "en": "problem",
+        "note": "Masculine despite the -a: el problema.",
+        "ext": true,
+        "example": {
+          "es": "Es un problema pequeño.",
+          "en": "It's a small problem."
+        }
+      },
+      {
+        "word": "mapa",
+        "type": "n.m.",
+        "en": "map",
+        "note": "Masculine despite the -a: el mapa.",
+        "ext": true,
+        "example": {
+          "es": "Marta tiene un mapa.",
+          "en": "Marta has a map."
+        }
+      },
+      {
+        "word": "mano",
+        "type": "n.f.",
+        "en": "hand",
+        "note": "Feminine despite the -o: la mano.",
+        "ext": true,
+        "example": {
+          "es": "La mano es pequeña.",
+          "en": "The hand is small."
+        }
+      },
+      {
+        "word": "palabra",
+        "type": "n.f.",
+        "en": "word",
+        "note": "una palabra.",
+        "ext": true,
+        "example": {
+          "es": "Aprendo palabras nuevas.",
+          "en": "I learn new words."
+        }
+      },
+      {
+        "word": "género",
+        "type": "n.m.",
+        "en": "gender",
+        "note": "masculino o femenino.",
+        "ext": true,
+        "example": {
+          "es": "Cada palabra tiene un género.",
+          "en": "Every noun has a gender."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "title": "The present tense",
+    "words": [
+      {
+        "word": "yo",
+        "type": "pron.",
+        "en": "I",
+        "note": "Usually omitted: Hablo español = I speak Spanish.",
+        "example": {
+          "es": "Yo bebo té.",
+          "en": "I drink tea."
+        }
+      },
+      {
+        "word": "él / ella",
+        "type": "pron.",
+        "en": "he / she",
+        "note": "Also used for 'it' when the noun is known.",
+        "example": {
+          "es": "Él bebe café; ella bebe té.",
+          "en": "He drinks coffee; she drinks tea."
+        }
+      },
+      {
+        "word": "nosotros / nosotras",
+        "type": "pron.",
+        "en": "we",
+        "note": "nosotras = all-female group.",
+        "example": {
+          "es": "Nosotros comprendemos bien.",
+          "en": "We understand well."
+        }
+      },
+      {
+        "word": "vosotros / vosotras",
+        "type": "pron.",
+        "en": "you all (informal, Spain)",
+        "note": "Latin America uses ustedes instead.",
+        "example": {
+          "es": "¿Vosotros vivís en España?",
+          "en": "Do you all live in Spain?"
+        }
+      },
+      {
+        "word": "ellos / ellas",
+        "type": "pron.",
+        "en": "they",
+        "note": "ellas = all-female group.",
+        "example": {
+          "es": "Ellos aprenden inglés.",
+          "en": "They learn English."
+        }
+      },
+      {
+        "word": "ustedes",
+        "type": "pron.",
+        "en": "you all",
+        "note": "Standard in Latin America; formal in Spain.",
+        "example": {
+          "es": "¿Ustedes hablan español?",
+          "en": "Do you all speak Spanish?"
+        }
+      },
+      {
+        "word": "hablar",
+        "type": "v.",
+        "en": "to speak, to talk",
+        "note": "hablo, hablas, habla, hablamos, habláis, hablan.",
+        "example": {
+          "es": "Hablo un poco de español.",
+          "en": "I speak a little Spanish."
+        }
+      },
+      {
+        "word": "comer",
+        "type": "v.",
+        "en": "to eat",
+        "note": "como, comes, come, comemos, coméis, comen.",
+        "example": {
+          "es": "Comemos en casa.",
+          "en": "We eat at home."
+        }
+      },
+      {
+        "word": "beber",
+        "type": "v.",
+        "en": "to drink",
+        "note": "bebo, bebes, bebe, bebemos, bebéis, beben.",
+        "example": {
+          "es": "No bebo café.",
+          "en": "I don't drink coffee."
+        }
+      },
+      {
+        "word": "leer",
+        "type": "v.",
+        "en": "to read",
+        "note": "leo, lees, lee, leemos, leéis, leen.",
+        "example": {
+          "es": "Leo el periódico.",
+          "en": "I read the newspaper."
+        }
+      },
+      {
+        "word": "escribir",
+        "type": "v.",
+        "en": "to write",
+        "note": "escribo, escribes, escribe, escribimos, escribís, escriben.",
+        "example": {
+          "es": "Escribo frases nuevas.",
+          "en": "I write new sentences."
+        }
+      },
+      {
+        "word": "aprender",
+        "type": "v.",
+        "en": "to learn",
+        "note": "aprendo, aprendes, aprende, aprendemos, aprendéis, aprenden.",
+        "example": {
+          "es": "Aprendo palabras nuevas.",
+          "en": "I learn new words."
+        }
+      },
+      {
+        "word": "comprender",
+        "type": "v.",
+        "en": "to understand",
+        "note": "comprendo, comprendes, comprende…",
+        "example": {
+          "es": "No comprendo.",
+          "en": "I don't understand."
+        }
+      },
+      {
+        "word": "no",
+        "type": "adv.",
+        "en": "no, not",
+        "note": "Goes before the verb: No comprendo.",
+        "example": {
+          "es": "No bebo café.",
+          "en": "I don't drink coffee."
+        }
+      },
+      {
+        "word": "mucho / mucha",
+        "type": "adj./adv.",
+        "en": "much, a lot",
+        "note": "Trabajo mucho = I work a lot.",
+        "example": {
+          "es": "Estudio mucho.",
+          "en": "I study a lot."
+        }
+      },
+      {
+        "word": "poco / poca",
+        "type": "adj./adv.",
+        "en": "little, a little; few",
+        "note": "un poco de español = a little Spanish.",
+        "example": {
+          "es": "Hablo un poco de español.",
+          "en": "I speak a little Spanish."
+        }
+      },
+      {
+        "word": "inglés",
+        "type": "n.m./adj.",
+        "en": "English (language); English (person)",
+        "note": "Lowercase: inglés, inglesa.",
+        "ext": true,
+        "example": {
+          "es": "Aprende inglés por la noche.",
+          "en": "She learns English at night."
+        }
+      },
+      {
+        "word": "periódico",
+        "type": "n.m.",
+        "en": "newspaper",
+        "note": "el periódico.",
+        "ext": true,
+        "example": {
+          "es": "Mi hermano lee el periódico.",
+          "en": "My brother reads the newspaper."
+        }
+      },
+      {
+        "word": "café",
+        "type": "n.m.",
+        "en": "coffee; café",
+        "note": "un café.",
+        "ext": true,
+        "example": {
+          "es": "Mi hermano bebe café.",
+          "en": "My brother drinks coffee."
+        }
+      },
+      {
+        "word": "té",
+        "type": "n.m.",
+        "en": "tea",
+        "note": "With accent: el té.",
+        "ext": true,
+        "example": {
+          "es": "Yo bebo té.",
+          "en": "I drink tea."
+        }
+      },
+      {
+        "word": "noche",
+        "type": "n.f.",
+        "en": "night",
+        "note": "por la noche = at night.",
+        "ext": true,
+        "example": {
+          "es": "Aprende inglés por la noche.",
+          "en": "She learns English at night."
+        }
+      },
+      {
+        "word": "frase",
+        "type": "n.f.",
+        "en": "sentence, phrase",
+        "note": "una frase.",
+        "ext": true,
+        "example": {
+          "es": "Escribo frases nuevas.",
+          "en": "I write new sentences."
+        }
+      },
+      {
+        "word": "nuevo / nueva",
+        "type": "adj.",
+        "en": "new",
+        "note": "palabras nuevas.",
+        "ext": true,
+        "example": {
+          "es": "Aprendo palabras nuevas.",
+          "en": "I learn new words."
+        }
+      },
+      {
+        "word": "bien",
+        "type": "adv.",
+        "en": "well",
+        "note": "Comprendemos bien el español.",
+        "ext": true,
+        "example": {
+          "es": "Comprendemos bien el español.",
+          "en": "We understand Spanish well."
+        }
+      },
+      {
+        "word": "todos los días",
+        "type": "phr.",
+        "en": "every day",
+        "note": "Literally 'all the days'.",
+        "ext": true,
+        "example": {
+          "es": "Estudio español todos los días.",
+          "en": "I study Spanish every day."
+        }
+      },
+      {
+        "word": "idioma",
+        "type": "n.m.",
+        "en": "language",
+        "note": "Masculine: el idioma. Synonym of lengua.",
+        "ext": true,
+        "example": {
+          "es": "El español es un idioma interesante.",
+          "en": "Spanish is an interesting language."
+        }
+      },
+      {
+        "word": "escuela",
+        "type": "n.f.",
+        "en": "school",
+        "note": "la escuela.",
+        "ext": true,
+        "example": {
+          "es": "Aprenden español en la escuela.",
+          "en": "They learn Spanish at school."
+        }
+      },
+      {
+        "word": "divertido / divertida",
+        "type": "adj.",
+        "en": "fun, amusing",
+        "note": "Un idioma no es difícil: es divertido.",
+        "ext": true,
+        "example": {
+          "es": "Aprender español es divertido.",
+          "en": "Learning Spanish is fun."
+        }
+      }
+    ]
   }
 ];

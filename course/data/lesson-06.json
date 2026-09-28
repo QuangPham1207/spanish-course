@@ -1,0 +1,214 @@
+{
+  "lesson": 6,
+  "title": "The present tense",
+  "words": [
+    {
+      "word": "yo",
+      "type": "pron.",
+      "en": "I",
+      "note": "Usually omitted: Hablo español = I speak Spanish.",
+      "example": { "es": "Yo bebo té.", "en": "I drink tea." }
+    },
+    {
+      "word": "él / ella",
+      "type": "pron.",
+      "en": "he / she",
+      "note": "Also used for 'it' when the noun is known.",
+      "example": { "es": "Él bebe café; ella bebe té.", "en": "He drinks coffee; she drinks tea." }
+    },
+    {
+      "word": "nosotros / nosotras",
+      "type": "pron.",
+      "en": "we",
+      "note": "nosotras = all-female group.",
+      "example": { "es": "Nosotros comprendemos bien.", "en": "We understand well." }
+    },
+    {
+      "word": "vosotros / vosotras",
+      "type": "pron.",
+      "en": "you all (informal, Spain)",
+      "note": "Latin America uses ustedes instead.",
+      "example": { "es": "¿Vosotros vivís en España?", "en": "Do you all live in Spain?" }
+    },
+    {
+      "word": "ellos / ellas",
+      "type": "pron.",
+      "en": "they",
+      "note": "ellas = all-female group.",
+      "example": { "es": "Ellos aprenden inglés.", "en": "They learn English." }
+    },
+    {
+      "word": "ustedes",
+      "type": "pron.",
+      "en": "you all",
+      "note": "Standard in Latin America; formal in Spain.",
+      "example": { "es": "¿Ustedes hablan español?", "en": "Do you all speak Spanish?" }
+    },
+    {
+      "word": "hablar",
+      "type": "v.",
+      "en": "to speak, to talk",
+      "note": "hablo, hablas, habla, hablamos, habláis, hablan.",
+      "example": { "es": "Hablo un poco de español.", "en": "I speak a little Spanish." }
+    },
+    {
+      "word": "comer",
+      "type": "v.",
+      "en": "to eat",
+      "note": "como, comes, come, comemos, coméis, comen.",
+      "example": { "es": "Comemos en casa.", "en": "We eat at home." }
+    },
+    {
+      "word": "beber",
+      "type": "v.",
+      "en": "to drink",
+      "note": "bebo, bebes, bebe, bebemos, bebéis, beben.",
+      "example": { "es": "No bebo café.", "en": "I don't drink coffee." }
+    },
+    {
+      "word": "leer",
+      "type": "v.",
+      "en": "to read",
+      "note": "leo, lees, lee, leemos, leéis, leen.",
+      "example": { "es": "Leo el periódico.", "en": "I read the newspaper." }
+    },
+    {
+      "word": "escribir",
+      "type": "v.",
+      "en": "to write",
+      "note": "escribo, escribes, escribe, escribimos, escribís, escriben.",
+      "example": { "es": "Escribo frases nuevas.", "en": "I write new sentences." }
+    },
+    {
+      "word": "aprender",
+      "type": "v.",
+      "en": "to learn",
+      "note": "aprendo, aprendes, aprende, aprendemos, aprendéis, aprenden.",
+      "example": { "es": "Aprendo palabras nuevas.", "en": "I learn new words." }
+    },
+    {
+      "word": "comprender",
+      "type": "v.",
+      "en": "to understand",
+      "note": "comprendo, comprendes, comprende…",
+      "example": { "es": "No comprendo.", "en": "I don't understand." }
+    },
+    {
+      "word": "no",
+      "type": "adv.",
+      "en": "no, not",
+      "note": "Goes before the verb: No comprendo.",
+      "example": { "es": "No bebo café.", "en": "I don't drink coffee." }
+    },
+    {
+      "word": "mucho / mucha",
+      "type": "adj./adv.",
+      "en": "much, a lot",
+      "note": "Trabajo mucho = I work a lot.",
+      "example": { "es": "Estudio mucho.", "en": "I study a lot." }
+    },
+    {
+      "word": "poco / poca",
+      "type": "adj./adv.",
+      "en": "little, a little; few",
+      "note": "un poco de español = a little Spanish.",
+      "example": { "es": "Hablo un poco de español.", "en": "I speak a little Spanish." }
+    },
+    {
+      "word": "inglés",
+      "type": "n.m./adj.",
+      "en": "English (language); English (person)",
+      "note": "Lowercase: inglés, inglesa.",
+      "ext": true,
+      "example": { "es": "Aprende inglés por la noche.", "en": "She learns English at night." }
+    },
+    {
+      "word": "periódico",
+      "type": "n.m.",
+      "en": "newspaper",
+      "note": "el periódico.",
+      "ext": true,
+      "example": { "es": "Mi hermano lee el periódico.", "en": "My brother reads the newspaper." }
+    },
+    {
+      "word": "café",
+      "type": "n.m.",
+      "en": "coffee; café",
+      "note": "un café.",
+      "ext": true,
+      "example": { "es": "Mi hermano bebe café.", "en": "My brother drinks coffee." }
+    },
+    {
+      "word": "té",
+      "type": "n.m.",
+      "en": "tea",
+      "note": "With accent: el té.",
+      "ext": true,
+      "example": { "es": "Yo bebo té.", "en": "I drink tea." }
+    },
+    {
+      "word": "noche",
+      "type": "n.f.",
+      "en": "night",
+      "note": "por la noche = at night.",
+      "ext": true,
+      "example": { "es": "Aprende inglés por la noche.", "en": "She learns English at night." }
+    },
+    {
+      "word": "frase",
+      "type": "n.f.",
+      "en": "sentence, phrase",
+      "note": "una frase.",
+      "ext": true,
+      "example": { "es": "Escribo frases nuevas.", "en": "I write new sentences." }
+    },
+    {
+      "word": "nuevo / nueva",
+      "type": "adj.",
+      "en": "new",
+      "note": "palabras nuevas.",
+      "ext": true,
+      "example": { "es": "Aprendo palabras nuevas.", "en": "I learn new words." }
+    },
+    {
+      "word": "bien",
+      "type": "adv.",
+      "en": "well",
+      "note": "Comprendemos bien el español.",
+      "ext": true,
+      "example": { "es": "Comprendemos bien el español.", "en": "We understand Spanish well." }
+    },
+    {
+      "word": "todos los días",
+      "type": "phr.",
+      "en": "every day",
+      "note": "Literally 'all the days'.",
+      "ext": true,
+      "example": { "es": "Estudio español todos los días.", "en": "I study Spanish every day." }
+    },
+    {
+      "word": "idioma",
+      "type": "n.m.",
+      "en": "language",
+      "note": "Masculine: el idioma. Synonym of lengua.",
+      "ext": true,
+      "example": { "es": "El español es un idioma interesante.", "en": "Spanish is an interesting language." }
+    },
+    {
+      "word": "escuela",
+      "type": "n.f.",
+      "en": "school",
+      "note": "la escuela.",
+      "ext": true,
+      "example": { "es": "Aprenden español en la escuela.", "en": "They learn Spanish at school." }
+    },
+    {
+      "word": "divertido / divertida",
+      "type": "adj.",
+      "en": "fun, amusing",
+      "note": "Un idioma no es difícil: es divertido.",
+      "ext": true,
+      "example": { "es": "Aprender español es divertido.", "en": "Learning Spanish is fun." }
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 04 — Family &amp; people</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 04 — FAMILY &amp; PEOPLE</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Talk about your family with <strong>padre, madre, hermano/a, hijo/a, abuelo/a, tío/a, primo/a</strong>.</li>
+      <li>Use possessive adjectives: <strong>mi, tu, su, nuestro</strong> (plural <strong>mis, tus, sus</strong>).</li>
+      <li>Say who you have with <strong>tener</strong>: <span class="es">Tengo dos hermanos</span>, <span class="es">No tengo hijos</span>.</li>
+      <li>Understand that <strong>su</strong> has several meanings (his, her, your, their).</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">familia, padre, madre, hermano/a, hijo/a, abuelo/a, tío/a, primo/a, mi/mis, tu/tus, su/sus, nuestro/a, con</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">persona, foto, grande, pequeño/a, mayor, menor, hijo único, diecinueve</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (MY FAMILY)</h2>
+<p><strong>Context:</strong> A student describes her family for a class. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — the Spanish is enough to get the gist.)</p>
+
+<div class="phrase">
+  <p class="es">Mi familia es grande. Somos seis personas.</p>
+  <p class="en">My family is big. We are six people.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi padre se llama Pedro y mi madre se llama Rosa.</p>
+  <p class="en">My father is called Pedro and my mother is called Rosa.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tengo dos hermanos: Javier y Marta.</p>
+  <p class="en">I have two siblings: Javier and Marta.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi hermano Javier tiene veinticinco años y es médico.</p>
+  <p class="en">My brother Javier is twenty-five and he's a doctor.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi hermana Marta es estudiante; tiene diecinueve años.</p>
+  <p class="en">My sister Marta is a student; she's nineteen.</p>
+</div>
+<div class="phrase">
+  <p class="es">También tengo un abuelo y una abuela.</p>
+  <p class="en">I also have a grandfather and a grandmother.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mis abuelos viven con nosotros.</p>
+  <p class="en">My grandparents live with us.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mis tíos y mis primos viven en Sevilla.</p>
+  <p class="en">My uncles, aunts and cousins live in Seville.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi tío Carlos es el hermano de mi madre.</p>
+  <p class="en">My uncle Carlos is my mother's brother.</p>
+</div>
+<div class="phrase">
+  <p class="es">¿Y tú? ¿Tienes hermanos?</p>
+  <p class="en">And you? Do you have siblings?</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">persona</span></td><td data-label="Type">n.f.</td><td data-label="English">person</td><td data-label="Notes">Same word for men and women; plural <em>personas</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">grande</span></td><td data-label="Type">adj.</td><td data-label="English">big, large</td><td data-label="Notes">Same for masculine and feminine.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vivir</span></td><td data-label="Type">v.</td><td data-label="English">to live</td><td data-label="Notes"><em>viven</em> = they live.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">diecinueve</span></td><td data-label="Type">n.m.</td><td data-label="English">nineteen</td><td data-label="Notes">19.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Memory hook:</strong> To present a family you only need three moves: <span class="es">Este es mi…</span> (this is my…), <span class="es">Se llama…</span> (his/her name is…), <span class="es">Tiene … años</span> (he/she is … years old). Repeat as needed.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Possessive adjectives: <em>mi, tu, su, nuestro</em></h3>
+<p>A possessive adjective says <em>whose</em> something is. In Spanish it agrees with the <strong>thing owned</strong>, not with the owner — so a woman says <span class="es">mi hermano</span> (my brother), not <em>mia hermano</em>.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Owner</th><th>Singular</th><th>Plural</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Owner">yo</td><td data-label="Singular"><span class="es">mi</span></td><td data-label="Plural"><span class="es">mis</span></td><td data-label="English">my</td></tr>
+    <tr><td data-label="Owner">tú</td><td data-label="Singular"><span class="es">tu</span></td><td data-label="Plural"><span class="es">tus</span></td><td data-label="English">your (informal)</td></tr>
+    <tr><td data-label="Owner">él / ella / usted</td><td data-label="Singular"><span class="es">su</span></td><td data-label="Plural"><span class="es">sus</span></td><td data-label="English">his / her / your (formal)</td></tr>
+    <tr><td data-label="Owner">nosotros / nosotras</td><td data-label="Singular"><span class="es">nuestro / nuestra</span></td><td data-label="Plural"><span class="es">nuestros / nuestras</span></td><td data-label="English">our</td></tr>
+    <tr><td data-label="Owner">vosotros / vosotras <em>(Spain)</em></td><td data-label="Singular"><span class="es">vuestro / vuestra</span></td><td data-label="Plural"><span class="es">vuestros / vuestras</span></td><td data-label="English">your (plural)</td></tr>
+    <tr><td data-label="Owner">ellos / ellas / ustedes</td><td data-label="Singular"><span class="es">su</span></td><td data-label="Plural"><span class="es">sus</span></td><td data-label="English">their / your (plural)</td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">mi hermano / mis hermanos</span><span class="en">my brother / my brothers</span></li>
+  <li class="ex"><span class="es">tu madre / tus primos</span><span class="en">your mother / your cousins</span></li>
+  <li class="ex"><span class="es">nuestra casa / nuestras hijas</span><span class="en">our house / our daughters</span></li>
+</ul>
+<div class="warn">⚠️ <strong>tu vs tú:</strong> <span class="es">tu</span> (no accent) = "your"; <span class="es">tú</span> (with accent) = "you". <span class="es">¿Tú tienes tu libro?</span> = "Do <em>you</em> have <em>your</em> book?"</div>
+<div class="tip">💡 <strong>su has four meanings:</strong> his, her, your (formal) and their. Context usually makes it clear. To be precise (advanced), Spanish can add <span class="es">de él / de ella / de usted / de ellos</span>: <span class="es">su casa de ella</span> = her house.</div>
+<div class="warn">⚠️ <strong>No article with possessives:</strong> say <span class="es">mi madre</span>, never <span class="es">la mi madre</span> (this is a classic error for English and French speakers).</div>
+
+<h3>2.2. Talking about family with <em>tener</em></h3>
+<p><strong>tener</strong> (to have) is the verb for family members, just as for age. It is irregular only in the <em>yo</em> form (<span class="es">tengo</span>).</p>
+<div class="formula">tener + family member · ¿Tienes hermanos?</div>
+<ul>
+  <li class="ex"><span class="es">Tengo dos hermanos y una hermana.</span><span class="en">I have two brothers and one sister.</span></li>
+  <li class="ex"><span class="es">No tengo hijos.</span><span class="en">I don't have children.</span></li>
+  <li class="ex"><span class="es">¿Tienes hermanos? — Sí, tengo uno.</span><span class="en">Do you have siblings? — Yes, I have one.</span></li>
+  <li class="ex"><span class="es">Soy hijo único. / Soy hija única.</span><span class="en">I'm an only child. <em>(man / woman)</em></span></li>
+</ul>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> "siblings" is <span class="es">hermanos</span> in every variety; if you mean only brothers, say <span class="es">mis hermanos varones</span> (advanced). The plural <span class="es">hermanos</span> normally includes brothers and sisters.</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">familia</span></td><td data-label="Type">n.f.</td><td data-label="English">family</td><td data-label="Notes">la familia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">padre</span></td><td data-label="Type">n.m.</td><td data-label="English">father</td><td data-label="Notes">Plural <em>padres</em> = parents.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">madre</span></td><td data-label="Type">n.f.</td><td data-label="English">mother</td><td data-label="Notes">Informal: <em>mamá</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hermano / hermana</span></td><td data-label="Type">n.m./f.</td><td data-label="English">brother / sister</td><td data-label="Notes">Plural <em>hermanos</em> = brothers and sisters.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hijo / hija</span></td><td data-label="Type">n.m./f.</td><td data-label="English">son / daughter</td><td data-label="Notes">Plural <em>hijos</em> = children.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">abuelo / abuela</span></td><td data-label="Type">n.m./f.</td><td data-label="English">grandfather / grandmother</td><td data-label="Notes">Plural <em>abuelos</em> = grandparents.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tío / tía</span></td><td data-label="Type">n.m./f.</td><td data-label="English">uncle / aunt</td><td data-label="Notes">Plural <em>tíos</em> = uncles and aunts.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">primo / prima</span></td><td data-label="Type">n.m./f.</td><td data-label="English">cousin</td><td data-label="Notes">No separate word for male/female.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mi / mis</span></td><td data-label="Type">adj. pos.</td><td data-label="English">my</td><td data-label="Notes">Agrees with the noun: <em>mi hermana, mis hermanas</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tu / tus</span></td><td data-label="Type">adj. pos.</td><td data-label="English">your (informal)</td><td data-label="Notes">No accent on <em>tu</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">su / sus</span></td><td data-label="Type">adj. pos.</td><td data-label="English">his / her / your (formal) / their</td><td data-label="Notes">Meaning comes from context.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nuestro / nuestra</span></td><td data-label="Type">adj. pos.</td><td data-label="English">our</td><td data-label="Notes">Four forms: nuestro, nuestra, nuestros, nuestras.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">con</span></td><td data-label="Type">prep.</td><td data-label="English">with</td><td data-label="Notes">conmigo = with me; contigo = with you.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences you can use from day one. Read them once; no need to memorize.</p>
+
+<h3>1. Describe your family:</h3>
+<div class="phrase">
+  <p class="es">Mi familia es grande. Somos seis personas.</p>
+  <p class="en">My family is big. We are six people.</p>
+</div>
+<h3>2. Say who you have:</h3>
+<div class="phrase">
+  <p class="es">Tengo dos hermanos y una hermana.</p>
+  <p class="en">I have two brothers and one sister.</p>
+</div>
+<h3>3. Ask about siblings:</h3>
+<div class="phrase">
+  <p class="es">¿Tienes hermanos? — No, soy hijo único.</p>
+  <p class="en">Do you have siblings? — No, I'm an only child.</p>
+</div>
+<h3>4. Introduce a parent:</h3>
+<div class="phrase">
+  <p class="es">Mi madre se llama Rosa.</p>
+  <p class="en">My mother is called Rosa.</p>
+</div>
+<h3>5. Say who lives with you:</h3>
+<div class="phrase">
+  <p class="es">Mis abuelos viven con nosotros.</p>
+  <p class="en">My grandparents live with us.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends talk about their families in a café.</p>
+
+<div class="phrase">
+  <p class="es">Pablo: ¿Tienes hermanos, Mei?</p>
+  <p class="en">Pablo: Do you have siblings, Mei?</p>
+</div>
+<div class="phrase">
+  <p class="es">Mei: Sí, tengo un hermano y dos hermanas. ¿Y tú?</p>
+  <p class="en">Mei: Yes, I have one brother and two sisters. And you?</p>
+</div>
+<div class="phrase">
+  <p class="es">Pablo: Yo soy hijo único, pero tengo muchos primos.</p>
+  <p class="en">Pablo: I'm an only child, but I have many cousins.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mei: ¿Dónde vive tu familia?</p>
+  <p class="en">Mei: Where does your family live?</p>
+</div>
+<div class="phrase">
+  <p class="es">Pablo: Mi familia vive en México. Mis abuelos viven con nosotros.</p>
+  <p class="en">Pablo: My family lives in Mexico. My grandparents live with us.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mei: ¡Qué bien! Mi familia es pequeña: solo mi hermano y yo.</p>
+  <p class="en">Mei: How nice! My family is small: just my brother and me.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pablo: La familia es importante.</p>
+  <p class="en">Pablo: Family is important.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>muchos</strong> (many), <strong>solo</strong> (only), <strong>importante</strong> (important).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li>Family words: <span class="es">familia, padre, madre, hermano/a, hijo/a, abuelo/a, tío/a, primo/a</span>.</li>
+  <li>Possessives agree with the thing owned: <span class="es">mi, tu, su</span> → plural <span class="es">mis, tus, sus</span>; <span class="es">nuestro/a/os/as</span>.</li>
+  <li><span class="es">su</span> can mean his, her, your (formal) or their — context decides.</li>
+  <li>Possession with <span class="es">tener</span>: <span class="es">Tengo dos hermanos</span>; <span class="es">No tengo hijos</span>; <span class="es">Soy hijo único</span>.</li>
+  <li>Never put an article before a possessive: <span class="es">mi madre</span>, not <em>la mi madre</em>.</li>
+</ul>
+
+<h3>5.2. Further reading — the family in the Hispanic world</h3>
+<p><strong>Context:</strong> A short note on family life. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En el mundo hispano, la familia es muy importante.</p>
+  <p class="en">In the Hispanic world, family is very important.</p>
+</div>
+<div class="phrase">
+  <p class="es">Muchas familias son grandes: abuelos, padres, hijos, tíos y primos.</p>
+  <p class="en">Many families are large: grandparents, parents, children, uncles, aunts and cousins.</p>
+</div>
+<div class="phrase">
+  <p class="es">En muchos países, los abuelos viven con la familia.</p>
+  <p class="en">In many countries, grandparents live with the family.</p>
+</div>
+<div class="phrase">
+  <p class="es">Una persona tiene dos apellidos: el primero del padre y el segundo de la madre.</p>
+  <p class="en">A person has two surnames: the first from the father and the second from the mother.</p>
+</div>
+<div class="phrase">
+  <p class="es">Las familias hispanas celebran juntas los cumpleaños y las fiestas.</p>
+  <p class="en">Hispanic families celebrate birthdays and holidays together.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>mundo</strong> (world), <strong>apellido</strong> (surname, last name), <strong>fiesta</strong> (party, holiday), <strong>celebrar</strong> (to celebrate).</em></p>
+
+<hr>
+<p><strong>End of Lesson 04.</strong> Next, <strong>Lesson 05</strong>: nouns — gender, articles (<em>el/la, un/una</em>) and plurals. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>

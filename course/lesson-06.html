@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 06 — The present tense</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 06 — THE PRESENT TENSE</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Learn the <strong>subject pronouns</strong>: <span class="es">yo, tú, él/ella, nosotros, vosotros, ellos</span>.</li>
+      <li>Conjugate regular <strong>-ar / -er / -ir</strong> verbs in the present.</li>
+      <li>Say what you and others do every day: <span class="es">hablo, comes, escribe…</span></li>
+      <li>Make negatives with <strong>no</strong>: <span class="es">No bebo café</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">yo, él/ella, nosotros/nosotras, vosotros/vosotras, ellos/ellas, ustedes, hablar, comer, beber, leer, escribir, aprender, comprender, no, mucho, poco</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">inglés, periódico, café, té, noche, frase, nuevo/a, bien, todos los días, idioma, escuela, divertido</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EVERY DAY)</h2>
+<p><strong>Context:</strong> A student describes what he and the people around him do. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — the Spanish is enough to get the gist.)</p>
+
+<div class="phrase">
+  <p class="es">Soy estudiante de español.</p>
+  <p class="en">I'm a student of Spanish.</p>
+</div>
+<div class="phrase">
+  <p class="es">Estudio todos los días: leo un libro, escribo frases y aprendo palabras nuevas.</p>
+  <p class="en">I study every day: I read a book, write sentences and learn new words.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi amiga Ana es médica; trabaja en un hospital y aprende inglés por la noche.</p>
+  <p class="en">My friend Ana is a doctor; she works in a hospital and learns English at night.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi hermano bebe café y lee el periódico.</p>
+  <p class="en">My brother drinks coffee and reads the newspaper.</p>
+</div>
+<div class="phrase">
+  <p class="es">Yo no bebo café; bebo té.</p>
+  <p class="en">I don't drink coffee; I drink tea.</p>
+</div>
+<div class="phrase">
+  <p class="es">En la clase, nosotros comprendemos bien el español.</p>
+  <p class="en">In class, we understand Spanish well.</p>
+</div>
+<div class="phrase">
+  <p class="es">¿Hablas español? — Sí, hablo un poco de español.</p>
+  <p class="en">Do you speak Spanish? — Yes, I speak a little Spanish.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tú vives en Vietnam y yo vivo en España.</p>
+  <p class="en">You live in Vietnam and I live in Spain.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">periódico</span></td><td data-label="Type">n.m.</td><td data-label="English">newspaper</td><td data-label="Notes">el periódico.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">café</span></td><td data-label="Type">n.m.</td><td data-label="English">coffee; café</td><td data-label="Notes">un café.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">té</span></td><td data-label="Type">n.m.</td><td data-label="English">tea</td><td data-label="Notes">With accent: el té.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inglés</span></td><td data-label="Type">n.m./adj.</td><td data-label="English">English (language); English (person)</td><td data-label="Notes">Lowercase: inglés.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">frase</span></td><td data-label="Type">n.f.</td><td data-label="English">sentence, phrase</td><td data-label="Notes">una frase.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nuevo / nueva</span></td><td data-label="Type">adj.</td><td data-label="English">new</td><td data-label="Notes">palabras nuevas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">noche</span></td><td data-label="Type">n.f.</td><td data-label="English">night</td><td data-label="Notes">por la noche = at night.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Memory hook:</strong> Regular verbs all use the same six endings. Learn one <em>-ar</em> verb, one <em>-er</em> verb and one <em>-ir</em> verb well, and you can conjugate hundreds.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Subject pronouns</h3>
+<p>Spanish has a pronoun for every person. You already know <span class="es">tú</span> and <span class="es">usted</span> (Lesson 01).</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>Pronoun</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person">1st singular</td><td data-label="Pronoun"><span class="es">yo</span></td><td data-label="English">I</td></tr>
+    <tr><td data-label="Person">2nd singular</td><td data-label="Pronoun"><span class="es">tú</span> / <span class="es">usted</span></td><td data-label="English">you (informal / formal)</td></tr>
+    <tr><td data-label="Person">3rd singular</td><td data-label="Pronoun"><span class="es">él / ella</span></td><td data-label="English">he / she</td></tr>
+    <tr><td data-label="Person">1st plural</td><td data-label="Pronoun"><span class="es">nosotros / nosotras</span></td><td data-label="English">we</td></tr>
+    <tr><td data-label="Person">2nd plural</td><td data-label="Pronoun"><span class="es">vosotros / vosotras</span> <em>(Spain)</em></td><td data-label="English">you all (informal)</td></tr>
+    <tr><td data-label="Person">3rd plural</td><td data-label="Pronoun"><span class="es">ellos / ellas</span> / <span class="es">ustedes</span></td><td data-label="English">they / you all</td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li>Spanish usually <strong>leaves the pronoun out</strong>, because the verb ending already says who: <span class="es">Hablo español</span> = "I speak Spanish".</li>
+  <li>Use it only for <strong>emphasis or contrast</strong>: <span class="es">Yo bebo té; él bebe café</span> = "I drink tea; he drinks coffee".</li>
+</ul>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> Spain has <span class="es">vosotros</span> (informal plural) with its own verb endings. Latin America uses <span class="es">ustedes</span> for both formal and informal "you all".</div>
+
+<h3>2.2. Regular verbs in the present</h3>
+<p>Every infinitive ends in <strong>-ar</strong>, <strong>-er</strong> or <strong>-ir</strong>. Take off that ending and add the person endings below. The three groups differ only in <em>we</em> and <em>you all</em>.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>hablar (to speak)</th><th>comer (to eat)</th><th>vivir (to live)</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person">yo</td><td data-label="hablar"><span class="es">hablo</span></td><td data-label="comer"><span class="es">como</span></td><td data-label="vivir"><span class="es">vivo</span></td></tr>
+    <tr><td data-label="Person">tú</td><td data-label="hablar"><span class="es">hablas</span></td><td data-label="comer"><span class="es">comes</span></td><td data-label="vivir"><span class="es">vives</span></td></tr>
+    <tr><td data-label="Person">él / ella / usted</td><td data-label="hablar"><span class="es">habla</span></td><td data-label="comer"><span class="es">come</span></td><td data-label="vivir"><span class="es">vive</span></td></tr>
+    <tr><td data-label="Person">nosotros / nosotras</td><td data-label="hablar"><span class="es">hablamos</span></td><td data-label="comer"><span class="es">comemos</span></td><td data-label="vivir"><span class="es">vivimos</span></td></tr>
+    <tr><td data-label="Person">vosotros / vosotras <em>(Spain)</em></td><td data-label="hablar"><span class="es">habláis</span></td><td data-label="comer"><span class="es">coméis</span></td><td data-label="vivir"><span class="es">vivís</span></td></tr>
+    <tr><td data-label="Person">ellos / ellas / ustedes</td><td data-label="hablar"><span class="es">hablan</span></td><td data-label="comer"><span class="es">comen</span></td><td data-label="vivir"><span class="es">viven</span></td></tr>
+  </tbody>
+</table>
+</div>
+<p>The endings, summarized:</p>
+<div class="formula">-ar: -o, -as, -a, -amos, -áis, -an &nbsp;·&nbsp; -er: -o, -es, -e, -emos, -éis, -en &nbsp;·&nbsp; -ir: -o, -es, -e, -imos, -ís, -en</div>
+<ul>
+  <li class="ex"><span class="es">Hablo español y un poco de inglés.</span><span class="en">I speak Spanish and a little English.</span></li>
+  <li class="ex"><span class="es">Ana come en el hospital.</span><span class="en">Ana eats at the hospital.</span></li>
+  <li class="ex"><span class="es">Vivimos en Hanói.</span><span class="en">We live in Hanoi.</span></li>
+  <li class="ex"><span class="es">Los estudiantes aprenden rápido.</span><span class="en">The students learn fast. <em>(advanced)</em></span></li>
+</ul>
+<div class="warn">⚠️ <strong>Three verbs to watch</strong> (they are irregular, but very common): <span class="es">ser</span> (soy, eres, es…), <span class="es">estar</span> (estoy, estás, está…) and <span class="es">tener</span> (tengo, tienes, tiene…). You met them in Lessons 01-03.</div>
+
+<h3>2.3. Negatives with <em>no</em></h3>
+<p>To make a sentence negative, put <strong>no</strong> right before the verb:</p>
+<div class="formula">no + verb · No bebo café.</div>
+<ul>
+  <li class="ex"><span class="es">No bebo café.</span><span class="en">I don't drink coffee.</span></li>
+  <li class="ex"><span class="es">Ana no trabaja hoy.</span><span class="en">Ana isn't working today.</span></li>
+  <li class="ex"><span class="es">No comprendo.</span><span class="en">I don't understand.</span></li>
+</ul>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">yo</span></td><td data-label="Type">pron.</td><td data-label="English">I</td><td data-label="Notes">Usually omitted.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">él / ella</span></td><td data-label="Type">pron.</td><td data-label="English">he / she</td><td data-label="Notes">Also used for "it" of a known noun.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nosotros / nosotras</span></td><td data-label="Type">pron.</td><td data-label="English">we</td><td data-label="Notes">nosotras = all-female group.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vosotros / vosotras</span></td><td data-label="Type">pron.</td><td data-label="English">you all (informal, Spain)</td><td data-label="Notes">Latin America uses ustedes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ellos / ellas</span></td><td data-label="Type">pron.</td><td data-label="English">they</td><td data-label="Notes">ellas = all-female group.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ustedes</span></td><td data-label="Type">pron.</td><td data-label="English">you all</td><td data-label="Notes">Standard in Latin America, formal in Spain.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hablar</span></td><td data-label="Type">v.</td><td data-label="English">to speak, to talk</td><td data-label="Notes">hablo, hablas, habla…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comer</span></td><td data-label="Type">v.</td><td data-label="English">to eat</td><td data-label="Notes">como, comes, come…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">beber</span></td><td data-label="Type">v.</td><td data-label="English">to drink</td><td data-label="Notes">bebo, bebes, bebe…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">leer</span></td><td data-label="Type">v.</td><td data-label="English">to read</td><td data-label="Notes">leo, lees, lee…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escribir</span></td><td data-label="Type">v.</td><td data-label="English">to write</td><td data-label="Notes">escribo, escribes, escribe…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aprender</span></td><td data-label="Type">v.</td><td data-label="English">to learn</td><td data-label="Notes">aprendo, aprendes, aprende…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comprender</span></td><td data-label="Type">v.</td><td data-label="English">to understand</td><td data-label="Notes">comprendo, comprendes…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">no</span></td><td data-label="Type">adv.</td><td data-label="English">no, not</td><td data-label="Notes">Goes before the verb: No comprendo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mucho / mucha</span></td><td data-label="Type">adj./adv.</td><td data-label="English">much, a lot</td><td data-label="Notes">Trabajo mucho.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">poco / poca</span></td><td data-label="Type">adj./adv.</td><td data-label="English">little, a little; few</td><td data-label="Notes">un poco de español.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences you can use from day one. Read them once; no need to memorize.</p>
+
+<h3>1. Say what you do every day:</h3>
+<div class="phrase">
+  <p class="es">Estudio español todos los días.</p>
+  <p class="en">I study Spanish every day.</p>
+</div>
+<h3>2. Ask and answer about a language:</h3>
+<div class="phrase">
+  <p class="es">¿Hablas español? — Sí, hablo un poco.</p>
+  <p class="en">Do you speak Spanish? — Yes, I speak a little.</p>
+</div>
+<h3>3. State a preference with a negative:</h3>
+<div class="phrase">
+  <p class="es">Yo no bebo café; bebo té.</p>
+  <p class="en">I don't drink coffee; I drink tea.</p>
+</div>
+<h3>4. Describe a habit:</h3>
+<div class="phrase">
+  <p class="es">Mi hermano lee el periódico.</p>
+  <p class="en">My brother reads the newspaper.</p>
+</div>
+<h3>5. Talk about a group:</h3>
+<div class="phrase">
+  <p class="es">Nosotros escribimos frases y aprendemos palabras nuevas.</p>
+  <p class="en">We write sentences and learn new words.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two students talk about learning languages.</p>
+
+<div class="phrase">
+  <p class="es">Ana: ¿Hablas español, Kenji?</p>
+  <p class="en">Ana: Do you speak Spanish, Kenji?</p>
+</div>
+<div class="phrase">
+  <p class="es">Kenji: Sí, un poco. Estudio español todos los días.</p>
+  <p class="en">Kenji: Yes, a little. I study Spanish every day.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: ¿Lees libros en español?</p>
+  <p class="en">Ana: Do you read books in Spanish?</p>
+</div>
+<div class="phrase">
+  <p class="es">Kenji: Sí, leo un libro y escribo frases nuevas.</p>
+  <p class="en">Kenji: Yes, I read a book and write new sentences.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: ¿Y tu hermano? ¿Estudia también?</p>
+  <p class="en">Ana: And your brother? Does he study too?</p>
+</div>
+<div class="phrase">
+  <p class="es">Kenji: No, él no estudia español. Trabaja y aprende inglés.</p>
+  <p class="en">Kenji: No, he doesn't study Spanish. He works and learns English.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: ¡Qué interesante!</p>
+  <p class="en">Ana: How interesting!</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>estudia</strong> (he/she studies), <strong>trabaja</strong> (he/she works).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li>Regular present endings: <strong>-ar</strong> (<span class="es">hablo, hablas, habla…</span>), <strong>-er</strong> (<span class="es">como, comes, come…</span>), <strong>-ir</strong> (<span class="es">vivo, vives, vive…</span>).</li>
+  <li>The pronoun is usually left out; use it for emphasis: <span class="es">Yo bebo té; él bebe café</span>.</li>
+  <li>Negation: <span class="es">no</span> + verb → <span class="es">No comprendo</span>.</li>
+  <li><span class="es">vosotros</span> (Spain) vs <span class="es">ustedes</span> (Latin America) for "you all".</li>
+  <li>Three common irregulars you already know: <span class="es">ser, estar, tener</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — learning a language</h3>
+<p><strong>Context:</strong> A short note on how people learn languages. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Muchas personas aprenden español en la escuela.</p>
+  <p class="en">Many people learn Spanish at school.</p>
+</div>
+<div class="phrase">
+  <p class="es">Leer todos los días es muy importante.</p>
+  <p class="en">Reading every day is very important.</p>
+</div>
+<div class="phrase">
+  <p class="es">No necesitas mucho tiempo: quince minutos al día son suficientes.</p>
+  <p class="en">You don't need much time: fifteen minutes a day is enough.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cuando comprendes una palabra nueva, aprendes poco a poco.</p>
+  <p class="en">When you understand a new word, you learn little by little.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un idioma no es difícil: es divertido.</p>
+  <p class="en">A language isn't difficult: it's fun.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>escuela</strong> (school), <strong>necesitar</strong> (to need), <strong>suficiente</strong> (enough), <strong>poco a poco</strong> (little by little), <strong>idioma</strong> (language), <strong>divertido</strong> (fun).</em></p>
+
+<hr>
+<p><strong>End of Lesson 06.</strong> Next, <strong>Lesson 07</strong>: food and ordering — <em>querer, comer, beber</em>, and café and market vocabulary. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>
