@@ -1,0 +1,255 @@
+{
+  "lesson": 7,
+  "title": "Food & ordering",
+  "words": [
+    {
+      "word": "querer",
+      "type": "v.",
+      "en": "to want; to love",
+      "note": "Stem change e→ie: quiero, quieres, quiere, queremos, queréis, quieren.",
+      "example": { "es": "Quiero una sopa, por favor.", "en": "I want a soup, please." }
+    },
+    {
+      "word": "comida",
+      "type": "n.f.",
+      "en": "food; lunch",
+      "note": "la comida = food; in Spain also the midday meal.",
+      "example": { "es": "La comida está rica.", "en": "The food is delicious." }
+    },
+    {
+      "word": "desayuno",
+      "type": "n.m.",
+      "en": "breakfast",
+      "note": "el desayuno.",
+      "example": { "es": "El desayuno es a las ocho.", "en": "Breakfast is at eight." }
+    },
+    {
+      "word": "almuerzo",
+      "type": "n.m.",
+      "en": "lunch",
+      "note": "Spain often says la comida for lunch instead.",
+      "example": { "es": "El almuerzo es a la una.", "en": "Lunch is at one." }
+    },
+    {
+      "word": "cena",
+      "type": "n.f.",
+      "en": "dinner, supper",
+      "note": "la cena.",
+      "example": { "es": "Mi padre quiere pescado para la cena.", "en": "My father wants fish for dinner." }
+    },
+    {
+      "word": "agua",
+      "type": "n.f.",
+      "en": "water",
+      "note": "Feminine but takes el: el agua (el agua fría).",
+      "example": { "es": "Bebemos agua.", "en": "We drink water." }
+    },
+    {
+      "word": "pan",
+      "type": "n.m.",
+      "en": "bread",
+      "note": "el pan.",
+      "example": { "es": "En el mercado compramos pan.", "en": "At the market we buy bread." }
+    },
+    {
+      "word": "fruta",
+      "type": "n.f.",
+      "en": "fruit",
+      "note": "una fruta.",
+      "example": { "es": "Como fruta de postre.", "en": "I eat fruit for dessert." }
+    },
+    {
+      "word": "verdura",
+      "type": "n.f.",
+      "en": "vegetable",
+      "note": "una verdura.",
+      "example": { "es": "Hay fruta y verdura en el mercado.", "en": "There is fruit and vegetables at the market." }
+    },
+    {
+      "word": "carne",
+      "type": "n.f.",
+      "en": "meat",
+      "note": "la carne.",
+      "example": { "es": "Quiero carne con patatas.", "en": "I want meat with potatoes." }
+    },
+    {
+      "word": "pescado",
+      "type": "n.m.",
+      "en": "fish (as food)",
+      "note": "A living fish is el pez.",
+      "example": { "es": "Mi padre quiere pescado.", "en": "My father wants fish." }
+    },
+    {
+      "word": "restaurante",
+      "type": "n.m.",
+      "en": "restaurant",
+      "note": "el restaurante.",
+      "example": { "es": "Vamos a un restaurante pequeño.", "en": "We go to a small restaurant." }
+    },
+    {
+      "word": "mercado",
+      "type": "n.m.",
+      "en": "market",
+      "note": "el mercado.",
+      "example": { "es": "Voy al mercado con mi padre.", "en": "I go to the market with my father." }
+    },
+    {
+      "word": "camarero / camarera",
+      "type": "n.m./f.",
+      "en": "waiter / waitress",
+      "note": "Latin America: mesero/a, mozo/a.",
+      "example": { "es": "El camarero trae la carta.", "en": "The waiter brings the menu." }
+    },
+    {
+      "word": "carta",
+      "type": "n.f.",
+      "en": "menu; letter",
+      "note": "la carta = the menu in a restaurant.",
+      "example": { "es": "¿Me trae la carta, por favor?", "en": "Could you bring me the menu, please?" }
+    },
+    {
+      "word": "cuenta",
+      "type": "n.f.",
+      "en": "bill, check; account",
+      "note": "La cuenta, por favor.",
+      "example": { "es": "La cuenta, por favor.", "en": "The bill, please." }
+    },
+    {
+      "word": "mesa",
+      "type": "n.f.",
+      "en": "table",
+      "note": "una mesa para dos.",
+      "example": { "es": "Una mesa para dos, por favor.", "en": "A table for two, please." }
+    },
+    {
+      "word": "plato",
+      "type": "n.m.",
+      "en": "plate; dish",
+      "note": "un plato.",
+      "example": { "es": "Es un plato pequeño.", "en": "It's a small dish." }
+    },
+    {
+      "word": "rico / rica",
+      "type": "adj.",
+      "en": "delicious; rich",
+      "note": "La comida está rica.",
+      "example": { "es": "¡La comida está rica!", "en": "The food is delicious!" }
+    },
+    {
+      "word": "tener hambre",
+      "type": "phr.",
+      "en": "to be hungry",
+      "note": "Literally 'to have hunger': tengo hambre.",
+      "example": { "es": "Tengo hambre.", "en": "I'm hungry." }
+    },
+    {
+      "word": "tener sed",
+      "type": "phr.",
+      "en": "to be thirsty",
+      "note": "Literally 'to have thirst': tengo sed.",
+      "example": { "es": "El niño tiene sed.", "en": "The boy is thirsty." }
+    },
+    {
+      "word": "para mí",
+      "type": "phr.",
+      "en": "for me",
+      "note": "Very common when ordering.",
+      "example": { "es": "Para mí, una sopa.", "en": "For me, a soup." }
+    },
+    {
+      "word": "¿Qué desea?",
+      "type": "phr.",
+      "en": "What would you like?",
+      "note": "Formal; the waiter asks you.",
+      "example": { "es": "Buenas tardes, ¿qué desea?", "en": "Good afternoon, what would you like?" }
+    },
+    {
+      "word": "sopa",
+      "type": "n.f.",
+      "en": "soup",
+      "note": "una sopa.",
+      "ext": true,
+      "example": { "es": "Quiero una sopa.", "en": "I want a soup." }
+    },
+    {
+      "word": "patatas",
+      "type": "n.f. pl.",
+      "en": "potatoes",
+      "note": "Latin America says papas.",
+      "ext": true,
+      "example": { "es": "Carne con patatas.", "en": "Meat with potatoes." }
+    },
+    {
+      "word": "vino",
+      "type": "n.m.",
+      "en": "wine",
+      "note": "el vino.",
+      "ext": true,
+      "example": { "es": "No bebemos vino.", "en": "We don't drink wine." }
+    },
+    {
+      "word": "postre",
+      "type": "n.m.",
+      "en": "dessert",
+      "note": "el postre.",
+      "ext": true,
+      "example": { "es": "¿Quieren postre?", "en": "Would you like dessert?" }
+    },
+    {
+      "word": "pagar",
+      "type": "v.",
+      "en": "to pay",
+      "note": "pago, pagas, paga, pagamos, pagáis, pagan.",
+      "ext": true,
+      "example": { "es": "Al final, pagamos.", "en": "In the end, we pay." }
+    },
+    {
+      "word": "traer",
+      "type": "v.",
+      "en": "to bring",
+      "note": "Irregular: traigo = I bring.",
+      "ext": true,
+      "example": { "es": "El camarero trae la carta.", "en": "The waiter brings the menu." }
+    },
+    {
+      "word": "preguntar",
+      "type": "v.",
+      "en": "to ask (a question)",
+      "note": "pregunto, preguntas, pregunta…",
+      "ext": true,
+      "example": { "es": "El camarero pregunta.", "en": "The waiter asks." }
+    },
+    {
+      "word": "al final",
+      "type": "phr.",
+      "en": "in the end, finally",
+      "note": "Literally 'at the end'.",
+      "ext": true,
+      "example": { "es": "Al final, volvemos a casa.", "en": "In the end, we go back home." }
+    },
+    {
+      "word": "tomar",
+      "type": "v.",
+      "en": "to have (food/drink); to take",
+      "note": "¿Qué vas a tomar? = What will you have?",
+      "ext": true,
+      "example": { "es": "¿Qué vas a tomar?", "en": "What will you have?" }
+    },
+    {
+      "word": "antojitos",
+      "type": "n.m. pl.",
+      "en": "small snacks (Mexico)",
+      "note": "Mexican small plates: tacos, quesadillas…",
+      "ext": true,
+      "example": { "es": "En México comemos antojitos.", "en": "In Mexico we eat antojitos." }
+    },
+    {
+      "word": "probar",
+      "type": "v.",
+      "en": "to taste, to try",
+      "note": "Stem change o→ue: pruebo, pruebas, prueba…",
+      "ext": true,
+      "example": { "es": "¿Quieres probar la sopa?", "en": "Do you want to try the soup?" }
+    }
+  ]
+}

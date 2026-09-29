@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 09 — Shopping & prices</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 09 — SHOPPING &amp; PRICES</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Ask and say prices: <span class="es">¿Cuánto cuesta? — Cuesta veinte euros</span>.</li>
+      <li>Name colours and clothes: <span class="es">rojo, azul, verde; la camisa, los zapatos</span>.</li>
+      <li>Make adjectives agree: <span class="es">una camisa roja; unos zapatos negros</span>.</li>
+      <li>Point at things with <span class="es">este / esta / estos / estas</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">comprar, ir de compras, precio, dinero, euro, costar, cuesta/cuestan, barato, caro, tienda, ropa, camisa, pantalón, zapatos, vestido, talla, color, rojo, azul, verde, blanco, negro, este/esta, ¿Cuánto cuesta?</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">centro, dependiente, rebajas, recibo, bolsa, gris, amarillo, marrón, naranja, rosa, llevar</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (A SATURDAY SHOPPING)</h2>
+<p><strong>Context:</strong> Marta and her friend Lucía go shopping in the city centre. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — the Spanish is enough to get the gist.)</p>
+
+<div class="phrase">
+  <p class="es">El sábado voy de compras al centro con mi amiga Lucía.</p>
+  <p class="en">On Saturday I go shopping in the city centre with my friend Lucía.</p>
+</div>
+<div class="phrase">
+  <p class="es">Quiero comprar ropa nueva para una fiesta.</p>
+  <p class="en">I want to buy new clothes for a party.</p>
+</div>
+<div class="phrase">
+  <p class="es">En la tienda hay camisas, pantalones y zapatos de muchos colores.</p>
+  <p class="en">In the shop there are shirts, trousers and shoes in many colours.</p>
+</div>
+<div class="phrase">
+  <p class="es">Veo una camisa azul muy bonita. ¿Cuánto cuesta? — Cuesta veinte euros.</p>
+  <p class="en">I see a very pretty blue shirt. How much is it? — It's twenty euros.</p>
+</div>
+<div class="phrase">
+  <p class="es">También busco unos zapatos negros.</p>
+  <p class="en">I'm also looking for some black shoes.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los zapatos cuestan cincuenta euros: son un poco caros.</p>
+  <p class="en">The shoes cost fifty euros: they're a bit expensive.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía compra un vestido rojo y barato.</p>
+  <p class="en">Lucía buys a red, cheap dress.</p>
+</div>
+<div class="phrase">
+  <p class="es">El dependiente es simpático y nos ayuda mucho.</p>
+  <p class="en">The shop assistant is friendly and helps us a lot.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al final, pagamos con tarjeta y volvemos a casa contentas.</p>
+  <p class="en">In the end, we pay by card and go home happy.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">ir de compras</span></td><td data-label="Type">phr.</td><td data-label="English">to go shopping</td><td data-label="Notes">Literally "to go of purchases".</td></tr>
+    <tr><td data-label="Spanish"><span class="es">centro</span></td><td data-label="Type">n.m.</td><td data-label="English">centre, downtown</td><td data-label="Notes">el centro de la ciudad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dependiente</span></td><td data-label="Type">n.m./f.</td><td data-label="English">shop assistant</td><td data-label="Notes">LatAm: vendedor/a.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tarjeta</span></td><td data-label="Type">n.f.</td><td data-label="English">card</td><td data-label="Notes">pagar con tarjeta = to pay by card.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">contento / contenta</span></td><td data-label="Type">adj.</td><td data-label="English">happy, pleased</td><td data-label="Notes">volvemos contentas = we go home happy.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Memory hook:</strong> In a shop you need only two questions: <span class="es">¿Cuánto cuesta?</span> and <span class="es">¿Tiene otra talla?</span> ("Do you have another size?").</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Asking prices with <em>costar</em></h3>
+<p><strong>costar</strong> means "to cost". The <em>o</em> changes to <em>ue</em> (Lesson 10 preview), so it becomes <strong>cuesta</strong> and <strong>cuestan</strong>. Use <strong>cuesta</strong> for one thing and <strong>cuestan</strong> for several:</p>
+<div class="formula">¿Cuánto cuesta? (one) · ¿Cuánto cuestan? (several)</div>
+<ul>
+  <li class="ex"><span class="es">¿Cuánto cuesta la camisa? — Cuesta veinte euros.</span><span class="en">How much is the shirt? — It's twenty euros.</span></li>
+  <li class="ex"><span class="es">¿Cuánto cuestan los zapatos? — Cuestan cincuenta euros.</span><span class="en">How much are the shoes? — They're fifty euros.</span></li>
+  <li class="ex"><span class="es">Son muy caros. ¿Hay algo más barato?</span><span class="en">They're very expensive. Is there something cheaper?</span></li>
+</ul>
+<p>Prices use <em>euros</em> (Spain, most of the eurozone) or other currencies. Numbers were Lesson 03:</p>
+<ul>
+  <li class="ex"><span class="es">un euro · cinco euros · veinte euros · cincuenta euros</span><span class="en">one euro · five euros · twenty euros · fifty euros</span></li>
+  <li class="ex"><span class="es">Tres con cincuenta.</span><span class="en">Three fifty. <em>(advanced)</em></span></li>
+</ul>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> prices in Spain are in <span class="es">euros</span>; in Latin America they use <span class="es">pesos, soles, dólares…</span> depending on the country.</div>
+
+<h3>2.2. Colours are adjectives — they agree</h3>
+<p>Colours behave like other adjectives (Lesson 05): they match the noun in <strong>gender</strong> and <strong>number</strong>. Colours ending in <strong>-o</strong> change to <strong>-a / -os / -as</strong>:</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Colour</th><th>+ masculine</th><th>+ feminine</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Colour"><span class="es">rojo</span></td><td data-label="+ masculine"><span class="es">el coche rojo</span></td><td data-label="+ feminine"><span class="es">la camisa roja</span></td><td data-label="English">red</td></tr>
+    <tr><td data-label="Colour"><span class="es">negro</span></td><td data-label="+ masculine"><span class="es">el pantalón negro</span></td><td data-label="+ feminine"><span class="es">la falda negra</span></td><td data-label="English">black</td></tr>
+    <tr><td data-label="Colour"><span class="es">blanco</span></td><td data-label="+ masculine"><span class="es">el vestido blanco</span></td><td data-label="+ feminine"><span class="es">la camiseta blanca</span></td><td data-label="English">white</td></tr>
+    <tr><td data-label="Colour"><span class="es">azul</span></td><td data-label="+ masculine"><span class="es">el coche azul</span></td><td data-label="+ feminine"><span class="es">la camisa azul</span></td><td data-label="English">blue</td></tr>
+    <tr><td data-label="Colour"><span class="es">verde</span></td><td data-label="+ masculine"><span class="es">el abrigo verde</span></td><td data-label="+ feminine"><span class="es">la falda verde</span></td><td data-label="English">green</td></tr>
+  </tbody>
+</table>
+</div>
+<div class="warn">⚠️ <strong>Colours ending in -e, -a or a consonant do not change for gender</strong> (azul, verde, gris), but they do add <strong>-s / -es</strong> in the plural: <span class="es">zapatos azules, faldas verdes, ojos grises</span>.</div>
+
+<h3>2.3. Pointing: <em>este, esta, estos, estas</em></h3>
+<p>In a shop you point at things. Use <strong>este</strong> (this) with a masculine noun, <strong>esta</strong> with a feminine noun, and their plurals for "these":</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Singular</th><th>Plural</th><th>Use</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Singular"><span class="es">este</span></td><td data-label="Plural"><span class="es">estos</span></td><td data-label="Use">masculine: este vestido, estos zapatos</td></tr>
+    <tr><td data-label="Singular"><span class="es">esta</span></td><td data-label="Plural"><span class="es">estas</span></td><td data-label="Use">feminine: esta camisa, estas camisas</td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">Me gusta esta camisa.</span><span class="en">I like this shirt. <em>(gustar comes in Lesson 14; for now read it as "this shirt pleases me")</em></span></li>
+  <li class="ex"><span class="es">¿Cuánto cuestan estos pantalones?</span><span class="en">How much are these trousers?</span></li>
+</ul>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">comprar</span></td><td data-label="Type">v.</td><td data-label="English">to buy</td><td data-label="Notes">compro, compras, compra…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">precio</span></td><td data-label="Type">n.m.</td><td data-label="English">price</td><td data-label="Notes">el precio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dinero</span></td><td data-label="Type">n.m.</td><td data-label="English">money</td><td data-label="Notes">el dinero (uncountable).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">euro</span></td><td data-label="Type">n.m.</td><td data-label="English">euro</td><td data-label="Notes">un euro, dos euros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">costar</span></td><td data-label="Type">v.</td><td data-label="English">to cost</td><td data-label="Notes">Stem change o→ue: cuesta, cuestan.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">¿Cuánto cuesta?</span></td><td data-label="Type">phr.</td><td data-label="English">How much is it?</td><td data-label="Notes">Plural: ¿Cuánto cuestan?</td></tr>
+    <tr><td data-label="Spanish"><span class="es">barato / barata</span></td><td data-label="Type">adj.</td><td data-label="English">cheap</td><td data-label="Notes">Antonym: caro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">caro / cara</span></td><td data-label="Type">adj.</td><td data-label="English">expensive, dear</td><td data-label="Notes">Son un poco caros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tienda</span></td><td data-label="Type">n.f.</td><td data-label="English">shop, store</td><td data-label="Notes">una tienda de ropa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ropa</span></td><td data-label="Type">n.f.</td><td data-label="English">clothes</td><td data-label="Notes">la ropa (uncountable).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">camisa</span></td><td data-label="Type">n.f.</td><td data-label="English">shirt</td><td data-label="Notes">una camisa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pantalón</span></td><td data-label="Type">n.m.</td><td data-label="English">trousers, pants</td><td data-label="Notes">Plural: los pantalones.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">zapatos</span></td><td data-label="Type">n.m. pl.</td><td data-label="English">shoes</td><td data-label="Notes">unos zapatos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vestido</span></td><td data-label="Type">n.m.</td><td data-label="English">dress</td><td data-label="Notes">un vestido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">talla</span></td><td data-label="Type">n.f.</td><td data-label="English">size (clothes/shoes)</td><td data-label="Notes">¿Qué talla usa?</td></tr>
+    <tr><td data-label="Spanish"><span class="es">color</span></td><td data-label="Type">n.m.</td><td data-label="English">colour</td><td data-label="Notes">el color; plural: los colores.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rojo / roja</span></td><td data-label="Type">adj.</td><td data-label="English">red</td><td data-label="Notes">una camisa roja.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">azul</span></td><td data-label="Type">adj.</td><td data-label="English">blue</td><td data-label="Notes">Plural: azules.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">verde</span></td><td data-label="Type">adj.</td><td data-label="English">green</td><td data-label="Notes">Plural: verdes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">blanco / blanca</span></td><td data-label="Type">adj.</td><td data-label="English">white</td><td data-label="Notes">una camisa blanca.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">negro / negra</span></td><td data-label="Type">adj.</td><td data-label="English">black</td><td data-label="Notes">unos zapatos negros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">este / esta</span></td><td data-label="Type">adj.</td><td data-label="English">this</td><td data-label="Notes">Plural: estos / estas.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences you can use from day one. Read them once; no need to memorize.</p>
+
+<h3>1. Ask the price:</h3>
+<div class="phrase">
+  <p class="es">¿Cuánto cuesta esta camisa?</p>
+  <p class="en">How much is this shirt?</p>
+</div>
+<h3>2. Ask about several things:</h3>
+<div class="phrase">
+  <p class="es">¿Cuánto cuestan estos zapatos?</p>
+  <p class="en">How much are these shoes?</p>
+</div>
+<h3>3. Say it's too expensive:</h3>
+<div class="phrase">
+  <p class="es">Es muy caro. ¿Hay algo más barato?</p>
+  <p class="en">It's very expensive. Is there something cheaper?</p>
+</div>
+<h3>4. Give a colour:</h3>
+<div class="phrase">
+  <p class="es">Busco una camisa azul, talla mediana.</p>
+  <p class="en">I'm looking for a blue shirt, medium size.</p>
+</div>
+<h3>5. Pay:</h3>
+<div class="phrase">
+  <p class="es">Voy a pagar con tarjeta.</p>
+  <p class="en">I'm going to pay by card. <em>(ir a + infinitive appears in Lesson 21; read it as a chunk for now.)</em></p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Marta asks a shop assistant for help.</p>
+
+<div class="phrase">
+  <p class="es">Dependiente: Buenos días, ¿qué desea?</p>
+  <p class="en">Shop assistant: Good morning, what would you like?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Busco una camisa blanca.</p>
+  <p class="en">Marta: I'm looking for a white shirt.</p>
+</div>
+<div class="phrase">
+  <p class="es">Dependiente: ¿Qué talla usa?</p>
+  <p class="en">Shop assistant: What size do you wear?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: La treinta y ocho. ¿Cuánto cuesta esta camisa?</p>
+  <p class="en">Marta: Thirty-eight. How much is this shirt?</p>
+</div>
+<div class="phrase">
+  <p class="es">Dependiente: Veinticinco euros. También hay una azul.</p>
+  <p class="en">Shop assistant: Twenty-five euros. There's also a blue one.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Me gusta la blanca. La compro.</p>
+  <p class="en">Marta: I like the white one. I'll take it.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>usar</strong> (to wear, to use), <strong>compro</strong> (I buy).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li>Prices: <span class="es">¿Cuánto cuesta? / ¿Cuánto cuestan?</span> — <span class="es">Cuesta veinte euros</span>.</li>
+  <li><strong>costar</strong> changes <em>o→ue</em>: <span class="es">cuesta, cuestan</span>.</li>
+  <li>Colours agree: <span class="es">una camisa roja, unos zapatos negros</span>; <span class="es">azul / verde</span> don't change for gender.</li>
+  <li>Point with <span class="es">este / esta / estos / estas</span>.</li>
+  <li>Shopping words: <span class="es">la tienda, la ropa, la talla, el precio, barato / caro</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — the rebajas</h3>
+<p><strong>Context:</strong> A short note on Spain's big sales. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En España, las rebajas son muy importantes.</p>
+  <p class="en">In Spain, the sales are very important.</p>
+</div>
+<div class="phrase">
+  <p class="es">Antes empezaban en enero y en julio, y duraban semanas.</p>
+  <p class="en">They used to begin in January and July, and lasted for weeks.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hoy muchas tiendas tienen descuentos todo el año.</p>
+  <p class="en">Today many shops have discounts all year round.</p>
+</div>
+<div class="phrase">
+  <p class="es">En las rebajas, una camisa de treinta euros puede costar quince.</p>
+  <p class="en">In the sales, a thirty-euro shirt can cost fifteen.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por eso, mucha gente espera para comprar la ropa más barata.</p>
+  <p class="en">That's why many people wait to buy clothes more cheaply.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>rebajas</strong> (sales), <strong>durar</strong> (to last), <strong>descuento</strong> (discount), <strong>por eso</strong> (that's why), <strong>esperar</strong> (to wait, to hope).</em></p>
+
+<hr>
+<p><strong>End of Lesson 09.</strong> Next, <strong>Lesson 10</strong>: stem-changing verbs — <em>e→ie, o→ue, e→i</em> (<em>querer, poder, pedir</em>), plus <em>ir</em> and <em>jugar</em>. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>

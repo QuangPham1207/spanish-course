@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 07 — Food & ordering</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 07 — FOOD &amp; ORDERING</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Talk about food and meals: <span class="es">el desayuno, la comida, la cena</span>.</li>
+      <li>Use <strong>querer</strong> (to want) with a noun or an infinitive.</li>
+      <li>Say you are hungry or thirsty with <span class="es">tener hambre / tener sed</span>.</li>
+      <li>Order in a café or restaurant and ask for <span class="es">la cuenta</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">querer, comida, desayuno, almuerzo, cena, agua, pan, fruta, verdura, carne, pescado, restaurante, mercado, camarero/a, carta, cuenta, mesa, plato, rico/rica, tener hambre, tener sed, para mí</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">sopa, patatas, vino, postre, pagar, traer, preguntar, al final, tomar, antojitos, probar</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (A SATURDAY MARKET)</h2>
+<p><strong>Context:</strong> Marta tells us about a normal Saturday with her father. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — the Spanish is enough to get the gist.)</p>
+
+<div class="phrase">
+  <p class="es">Me llamo Marta y vivo en Valencia.</p>
+  <p class="en">My name is Marta and I live in Valencia.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hoy es sábado y voy al mercado con mi padre.</p>
+  <p class="en">Today is Saturday and I'm going to the market with my father.</p>
+</div>
+<div class="phrase">
+  <p class="es">En el mercado hay mucha comida: fruta, verdura, pan y pescado.</p>
+  <p class="en">At the market there's a lot of food: fruit, vegetables, bread and fish.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi padre quiere pescado para la cena.</p>
+  <p class="en">My father wants fish for dinner.</p>
+</div>
+<div class="phrase">
+  <p class="es">Después vamos a un restaurante pequeño y el camarero trae la carta.</p>
+  <p class="en">Then we go to a small restaurant and the waiter brings the menu.</p>
+</div>
+<div class="phrase">
+  <p class="es">Yo quiero una sopa y mi padre quiere carne con patatas.</p>
+  <p class="en">I want a soup and my father wants meat with potatoes.</p>
+</div>
+<div class="phrase">
+  <p class="es">Bebemos agua porque no bebemos vino.</p>
+  <p class="en">We drink water because we don't drink wine.</p>
+</div>
+<div class="phrase">
+  <p class="es">El camarero pregunta: «¿Quieren postre?» — «Sí, una fruta, por favor.»</p>
+  <p class="en">The waiter asks: "Would you like dessert?" — "Yes, a fruit, please."</p>
+</div>
+<div class="phrase">
+  <p class="es">Al final, pagamos y volvemos a casa. ¡La comida está rica!</p>
+  <p class="en">In the end, we pay and go back home. The food is delicious!</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">mercado</span></td><td data-label="Type">n.m.</td><td data-label="English">market</td><td data-label="Notes">el mercado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comida</span></td><td data-label="Type">n.f.</td><td data-label="English">food; lunch</td><td data-label="Notes">la comida = food; in Spain also the midday meal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">camarero / camarera</span></td><td data-label="Type">n.m./f.</td><td data-label="English">waiter / waitress</td><td data-label="Notes">Latin America often says <em>mesero/a</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">carta</span></td><td data-label="Type">n.f.</td><td data-label="English">menu</td><td data-label="Notes">la carta = the menu in a restaurant.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sopa</span></td><td data-label="Type">n.f.</td><td data-label="English">soup</td><td data-label="Notes">una sopa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">patatas</span></td><td data-label="Type">n.f. pl.</td><td data-label="English">potatoes</td><td data-label="Notes">Latin America says <em>papas</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">postre</span></td><td data-label="Type">n.m.</td><td data-label="English">dessert</td><td data-label="Notes">el postre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pagar</span></td><td data-label="Type">v.</td><td data-label="English">to pay</td><td data-label="Notes">pago, pagas, paga…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">traer</span></td><td data-label="Type">v.</td><td data-label="English">to bring</td><td data-label="Notes">traigo = I bring <em>(advanced)</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">preguntar</span></td><td data-label="Type">v.</td><td data-label="English">to ask (a question)</td><td data-label="Notes">pregunto, preguntas, pregunta…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">al final</span></td><td data-label="Type">phr.</td><td data-label="English">in the end, finally</td><td data-label="Notes">Literally "at the end".</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Memory hook:</strong> Food words are easy to live with. In a restaurant you only need three moves: <span class="es">Quiero…</span> (I want), <span class="es">¿Me trae…?</span> (Could you bring me…?), <span class="es">La cuenta, por favor</span> (The bill, please).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. <em>querer</em> — to want</h3>
+<p><strong>querer</strong> is one of the most useful verbs in daily life. It means "to want" (and, with people, "to love"). Use it with a <strong>noun</strong> or with an <strong>infinitive</strong>:</p>
+<div class="formula">querer + noun &nbsp;·&nbsp; querer + infinitive</div>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>querer</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person">yo</td><td data-label="querer"><span class="es">quiero</span></td><td data-label="English">I want</td></tr>
+    <tr><td data-label="Person">tú</td><td data-label="querer"><span class="es">quieres</span></td><td data-label="English">you want</td></tr>
+    <tr><td data-label="Person">él / ella / usted</td><td data-label="querer"><span class="es">quiere</span></td><td data-label="English">he / she wants</td></tr>
+    <tr><td data-label="Person">nosotros</td><td data-label="querer"><span class="es">queremos</span></td><td data-label="English">we want</td></tr>
+    <tr><td data-label="Person">vosotros <em>(Spain)</em></td><td data-label="querer"><span class="es">queréis</span></td><td data-label="English">you all want</td></tr>
+    <tr><td data-label="Person">ellos / ustedes</td><td data-label="querer"><span class="es">quieren</span></td><td data-label="English">they / you all want</td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">Quiero una sopa, por favor.</span><span class="en">I want a soup, please.</span></li>
+  <li class="ex"><span class="es">¿Quieres un café?</span><span class="en">Do you want a coffee?</span></li>
+  <li class="ex"><span class="es">Queremos aprender español.</span><span class="en">We want to learn Spanish.</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Notice the change:</strong> the <em>e</em> of <em>querer</em> becomes <em>ie</em> in most forms: <span class="es">quiero, quieres, quiere, quieren</span> — but <span class="es">queremos, queréis</span> stay regular. You will study this pattern in Lesson 10.</div>
+
+<h3>2.2. <em>tener hambre</em> / <em>tener sed</em></h3>
+<p>In Spanish you don't "be" hungry — you "have" hunger. Use <strong>tener</strong> (Lesson 03) + a noun:</p>
+<div class="formula">tener hambre = to be hungry · tener sed = to be thirsty</div>
+<ul>
+  <li class="ex"><span class="es">Tengo hambre. ¿Y tú?</span><span class="en">I'm hungry. And you?</span></li>
+  <li class="ex"><span class="es">El niño tiene sed.</span><span class="en">The boy is thirsty.</span></li>
+  <li class="ex"><span class="es">¿Tienes hambre o quieres beber algo?</span><span class="en">Are you hungry or do you want to drink something?</span></li>
+</ul>
+<div class="tip">💡 <strong>Same pattern, other feelings:</strong> <span class="es">tener sueño</span> (to be sleepy), <span class="es">tener frío</span> (to be cold), <span class="es">tener calor</span> (to be hot), <span class="es">tener miedo</span> (to be afraid).</div>
+
+<h3>2.3. Ordering food and drink</h3>
+<p>A few phrases carry you through any café. Read them as whole chunks:</p>
+<ul>
+  <li class="ex"><span class="es">¿Qué desea?</span><span class="en">What would you like? (formal; the waiter asks you)</span></li>
+  <li class="ex"><span class="es">Para mí, una sopa.</span><span class="en">For me, a soup.</span></li>
+  <li class="ex"><span class="es">De primero, una ensalada; de segundo, pescado.</span><span class="en">As a starter, a salad; as a main, fish. <em>(advanced)</em></span></li>
+  <li class="ex"><span class="es">¿Me trae la carta, por favor?</span><span class="en">Could you bring me the menu, please?</span></li>
+  <li class="ex"><span class="es">La cuenta, por favor.</span><span class="en">The bill, please.</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> the bill is <span class="es">la cuenta</span> everywhere. The waiter is <span class="es">el camarero</span> in Spain, but <span class="es">el mesero</span> or <span class="es">el mozo</span> in much of Latin America.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">querer</span></td><td data-label="Type">v.</td><td data-label="English">to want; to love</td><td data-label="Notes">quiero, quieres, quiere…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comida</span></td><td data-label="Type">n.f.</td><td data-label="English">food; lunch</td><td data-label="Notes">In Spain, <em>la comida</em> is the midday meal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desayuno</span></td><td data-label="Type">n.m.</td><td data-label="English">breakfast</td><td data-label="Notes">el desayuno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">almuerzo</span></td><td data-label="Type">n.m.</td><td data-label="English">lunch</td><td data-label="Notes">Spain prefers <em>la comida</em> for lunch.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cena</span></td><td data-label="Type">n.f.</td><td data-label="English">dinner, supper</td><td data-label="Notes">la cena.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">agua</span></td><td data-label="Type">n.f.</td><td data-label="English">water</td><td data-label="Notes">Feminine, but <em>el agua</em> (el agua fría).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pan</span></td><td data-label="Type">n.m.</td><td data-label="English">bread</td><td data-label="Notes">el pan.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fruta</span></td><td data-label="Type">n.f.</td><td data-label="English">fruit</td><td data-label="Notes">una fruta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">verdura</span></td><td data-label="Type">n.f.</td><td data-label="English">vegetable</td><td data-label="Notes">una verdura.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">carne</span></td><td data-label="Type">n.f.</td><td data-label="English">meat</td><td data-label="Notes">la carne.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pescado</span></td><td data-label="Type">n.m.</td><td data-label="English">fish (as food)</td><td data-label="Notes">A live fish is <em>el pez</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">restaurante</span></td><td data-label="Type">n.m.</td><td data-label="English">restaurant</td><td data-label="Notes">el restaurante.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mercado</span></td><td data-label="Type">n.m.</td><td data-label="English">market</td><td data-label="Notes">el mercado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">camarero / camarera</span></td><td data-label="Type">n.m./f.</td><td data-label="English">waiter / waitress</td><td data-label="Notes">LatAm: mesero/a, mozo/a.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">carta</span></td><td data-label="Type">n.f.</td><td data-label="English">menu; letter</td><td data-label="Notes">la carta = the menu.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cuenta</span></td><td data-label="Type">n.f.</td><td data-label="English">bill, check; account</td><td data-label="Notes">La cuenta, por favor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mesa</span></td><td data-label="Type">n.f.</td><td data-label="English">table</td><td data-label="Notes">una mesa para dos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">plato</span></td><td data-label="Type">n.m.</td><td data-label="English">plate; dish</td><td data-label="Notes">un plato.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rico / rica</span></td><td data-label="Type">adj.</td><td data-label="English">delicious; rich</td><td data-label="Notes">La comida está rica.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tener hambre</span></td><td data-label="Type">phr.</td><td data-label="English">to be hungry</td><td data-label="Notes">Literally "to have hunger".</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tener sed</span></td><td data-label="Type">phr.</td><td data-label="English">to be thirsty</td><td data-label="Notes">Literally "to have thirst".</td></tr>
+    <tr><td data-label="Spanish"><span class="es">para mí</span></td><td data-label="Type">phr.</td><td data-label="English">for me</td><td data-label="Notes">Para mí, una sopa.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences you can use from day one. Read them once; no need to memorize.</p>
+
+<h3>1. Say you're hungry:</h3>
+<div class="phrase">
+  <p class="es">Tengo hambre. ¿Quieres comer algo?</p>
+  <p class="en">I'm hungry. Do you want to eat something?</p>
+</div>
+<h3>2. Order simply:</h3>
+<div class="phrase">
+  <p class="es">Para mí, una sopa y agua, por favor.</p>
+  <p class="en">For me, a soup and water, please.</p>
+</div>
+<h3>3. Ask for the menu:</h3>
+<div class="phrase">
+  <p class="es">¿Me trae la carta, por favor?</p>
+  <p class="en">Could you bring me the menu, please?</p>
+</div>
+<h3>4. Compliment the food:</h3>
+<div class="phrase">
+  <p class="es">La comida está muy rica.</p>
+  <p class="en">The food is very delicious.</p>
+</div>
+<h3>5. Pay and leave:</h3>
+<div class="phrase">
+  <p class="es">La cuenta, por favor. Gracias.</p>
+  <p class="en">The bill, please. Thank you.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Marta and her father order lunch in a small restaurant.</p>
+
+<div class="phrase">
+  <p class="es">Camarero: Buenas tardes. ¿Qué desean?</p>
+  <p class="en">Waiter: Good afternoon. What would you like?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Para mí, una sopa y una ensalada.</p>
+  <p class="en">Marta: For me, a soup and a salad.</p>
+</div>
+<div class="phrase">
+  <p class="es">Padre: Yo quiero carne con patatas.</p>
+  <p class="en">Father: I want meat with potatoes.</p>
+</div>
+<div class="phrase">
+  <p class="es">Camarero: ¿Para beber?</p>
+  <p class="en">Waiter: To drink?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Agua, por favor. ¿Y tú, papá?</p>
+  <p class="en">Marta: Water, please. And you, Dad?</p>
+</div>
+<div class="phrase">
+  <p class="es">Padre: Agua también. No bebemos vino.</p>
+  <p class="en">Father: Water too. We don't drink wine.</p>
+</div>
+<div class="phrase">
+  <p class="es">Camarero: ¡Muy bien! Ahora traigo la comida.</p>
+  <p class="en">Waiter: Very good! I'll bring the food now.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>ensalada</strong> (salad), <strong>ahora</strong> (now).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>querer</strong> = to want: <span class="es">quiero, quieres, quiere…</span> + noun or infinitive.</li>
+  <li>To be hungry / thirsty, use <strong>tener</strong>: <span class="es">tengo hambre, tienes sed</span>.</li>
+  <li>Ordering: <span class="es">¿Qué desea?</span> / <span class="es">Para mí…</span> / <span class="es">La cuenta, por favor</span>.</li>
+  <li>Meals: <span class="es">el desayuno, la comida / el almuerzo, la cena</span>.</li>
+  <li><span class="es">camarero</span> (Spain) vs <span class="es">mesero / mozo</span> (Latin America).</li>
+</ul>
+
+<h3>5.2. Further reading — tapas and antojitos</h3>
+<p><strong>Context:</strong> A short cultural note on small plates. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En España, es muy común ir de tapas con los amigos.</p>
+  <p class="en">In Spain, it's very common to go for tapas with friends.</p>
+</div>
+<div class="phrase">
+  <p class="es">Las tapas son platos pequeños: aceitunas, tortilla, jamón, queso.</p>
+  <p class="en">Tapas are small dishes: olives, Spanish omelette, ham, cheese.</p>
+</div>
+<div class="phrase">
+  <p class="es">En México, los antojitos son la versión local: tacos, quesadillas, tamales.</p>
+  <p class="en">In Mexico, antojitos are the local version: tacos, quesadillas, tamales.</p>
+</div>
+<div class="phrase">
+  <p class="es">La idea es la misma: comida pequeña, mucha conversación y buen tiempo.</p>
+  <p class="en">The idea is the same: small food, lots of conversation and a good time.</p>
+</div>
+<div class="phrase">
+  <p class="es">¿Tienes hambre ahora? ¡Vamos a comer!</p>
+  <p class="en">Are you hungry now? Let's go eat!</p>
+</div>
+
+<p class="lead"><em>New words: <strong>tapa</strong> (small plate), <strong>aceituna</strong> (olive), <strong>tortilla</strong> (omelette), <strong>jamón</strong> (ham), <strong>queso</strong> (cheese), <strong>taco</strong> (taco), <strong>quesadilla</strong> (cheese tortilla), <strong>tamal</strong> (tamale).</em></p>
+
+<hr>
+<p><strong>End of Lesson 07.</strong> Next, <strong>Lesson 08</strong>: home and daily routine — reflexive verbs (<em>levantarse, ducharse</em>) and telling the time. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>

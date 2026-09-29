@@ -1,0 +1,271 @@
+{
+  "lesson": 9,
+  "title": "Shopping & prices",
+  "words": [
+    {
+      "word": "comprar",
+      "type": "v.",
+      "en": "to buy",
+      "note": "compro, compras, compra, compramos, compráis, compran.",
+      "example": { "es": "Quiero comprar ropa nueva.", "en": "I want to buy new clothes." }
+    },
+    {
+      "word": "ir de compras",
+      "type": "phr.",
+      "en": "to go shopping",
+      "note": "Literally 'to go of purchases'.",
+      "example": { "es": "Voy de compras al centro.", "en": "I go shopping in the city centre." }
+    },
+    {
+      "word": "precio",
+      "type": "n.m.",
+      "en": "price",
+      "note": "el precio.",
+      "example": { "es": "El precio es bueno.", "en": "The price is good." }
+    },
+    {
+      "word": "dinero",
+      "type": "n.m.",
+      "en": "money",
+      "note": "el dinero (uncountable).",
+      "example": { "es": "No tengo mucho dinero.", "en": "I don't have much money." }
+    },
+    {
+      "word": "euro",
+      "type": "n.m.",
+      "en": "euro",
+      "note": "un euro, dos euros.",
+      "example": { "es": "Cuesta veinte euros.", "en": "It costs twenty euros." }
+    },
+    {
+      "word": "costar",
+      "type": "v.",
+      "en": "to cost",
+      "note": "Stem change o→ue: cuesta, cuestan.",
+      "example": { "es": "¿Cuánto cuesta la camisa?", "en": "How much is the shirt?" }
+    },
+    {
+      "word": "¿Cuánto cuesta?",
+      "type": "phr.",
+      "en": "How much is it?",
+      "note": "Plural: ¿Cuánto cuestan?",
+      "example": { "es": "¿Cuánto cuesta esta camisa?", "en": "How much is this shirt?" }
+    },
+    {
+      "word": "barato / barata",
+      "type": "adj.",
+      "en": "cheap",
+      "note": "Antonym: caro.",
+      "example": { "es": "Lucía compra un vestido barato.", "en": "Lucía buys a cheap dress." }
+    },
+    {
+      "word": "caro / cara",
+      "type": "adj.",
+      "en": "expensive, dear",
+      "note": "Son un poco caros.",
+      "example": { "es": "Los zapatos son caros.", "en": "The shoes are expensive." }
+    },
+    {
+      "word": "tienda",
+      "type": "n.f.",
+      "en": "shop, store",
+      "note": "una tienda de ropa.",
+      "example": { "es": "En la tienda hay muchas cosas.", "en": "There are many things in the shop." }
+    },
+    {
+      "word": "ropa",
+      "type": "n.f.",
+      "en": "clothes",
+      "note": "la ropa (uncountable).",
+      "example": { "es": "Quiero comprar ropa nueva.", "en": "I want to buy new clothes." }
+    },
+    {
+      "word": "camisa",
+      "type": "n.f.",
+      "en": "shirt",
+      "note": "una camisa.",
+      "example": { "es": "Veo una camisa azul.", "en": "I see a blue shirt." }
+    },
+    {
+      "word": "pantalón",
+      "type": "n.m.",
+      "en": "trousers, pants",
+      "note": "Usually plural: los pantalones.",
+      "example": { "es": "¿Cuánto cuestan estos pantalones?", "en": "How much are these trousers?" }
+    },
+    {
+      "word": "zapatos",
+      "type": "n.m. pl.",
+      "en": "shoes",
+      "note": "unos zapatos.",
+      "example": { "es": "Busco unos zapatos negros.", "en": "I'm looking for some black shoes." }
+    },
+    {
+      "word": "vestido",
+      "type": "n.m.",
+      "en": "dress",
+      "note": "un vestido.",
+      "example": { "es": "Lucía compra un vestido rojo.", "en": "Lucía buys a red dress." }
+    },
+    {
+      "word": "talla",
+      "type": "n.f.",
+      "en": "size (clothes/shoes)",
+      "note": "¿Qué talla usa? = What size do you wear?",
+      "example": { "es": "¿Qué talla usa?", "en": "What size do you wear?" }
+    },
+    {
+      "word": "color",
+      "type": "n.m.",
+      "en": "colour",
+      "note": "el color; plural: los colores.",
+      "example": { "es": "Zapatos de muchos colores.", "en": "Shoes in many colours." }
+    },
+    {
+      "word": "rojo / roja",
+      "type": "adj.",
+      "en": "red",
+      "note": "una camisa roja.",
+      "example": { "es": "Compra un vestido rojo.", "en": "She buys a red dress." }
+    },
+    {
+      "word": "azul",
+      "type": "adj.",
+      "en": "blue",
+      "note": "Plural: azules.",
+      "example": { "es": "Veo una camisa azul.", "en": "I see a blue shirt." }
+    },
+    {
+      "word": "verde",
+      "type": "adj.",
+      "en": "green",
+      "note": "Plural: verdes.",
+      "example": { "es": "La falda verde es bonita.", "en": "The green skirt is pretty." }
+    },
+    {
+      "word": "blanco / blanca",
+      "type": "adj.",
+      "en": "white",
+      "note": "una camisa blanca.",
+      "example": { "es": "Busco una camisa blanca.", "en": "I'm looking for a white shirt." }
+    },
+    {
+      "word": "negro / negra",
+      "type": "adj.",
+      "en": "black",
+      "note": "unos zapatos negros.",
+      "example": { "es": "Busco unos zapatos negros.", "en": "I'm looking for some black shoes." }
+    },
+    {
+      "word": "este / esta",
+      "type": "adj.",
+      "en": "this",
+      "note": "Plural: estos / estas. Points at something near.",
+      "example": { "es": "¿Cuánto cuesta esta camisa?", "en": "How much is this shirt?" }
+    },
+    {
+      "word": "centro",
+      "type": "n.m.",
+      "en": "centre, downtown",
+      "note": "el centro de la ciudad.",
+      "ext": true,
+      "example": { "es": "Voy de compras al centro.", "en": "I go shopping in the city centre." }
+    },
+    {
+      "word": "dependiente",
+      "type": "n.m./f.",
+      "en": "shop assistant",
+      "note": "Latin America: vendedor/a.",
+      "ext": true,
+      "example": { "es": "El dependiente es simpático.", "en": "The shop assistant is friendly." }
+    },
+    {
+      "word": "tarjeta",
+      "type": "n.f.",
+      "en": "card",
+      "note": "pagar con tarjeta = to pay by card.",
+      "ext": true,
+      "example": { "es": "Pagamos con tarjeta.", "en": "We pay by card." }
+    },
+    {
+      "word": "contento / contenta",
+      "type": "adj.",
+      "en": "happy, pleased",
+      "note": "volvemos contentas = we go home happy.",
+      "ext": true,
+      "example": { "es": "Volvemos a casa contentas.", "en": "We go home happy." }
+    },
+    {
+      "word": "rebajas",
+      "type": "n.f. pl.",
+      "en": "sales (discounted period)",
+      "note": "las rebajas de enero.",
+      "ext": true,
+      "example": { "es": "En las rebajas, todo es más barato.", "en": "In the sales, everything is cheaper." }
+    },
+    {
+      "word": "recibo",
+      "type": "n.m.",
+      "en": "receipt",
+      "note": "el recibo.",
+      "ext": true,
+      "example": { "es": "Guardo el recibo.", "en": "I keep the receipt." }
+    },
+    {
+      "word": "bolsa",
+      "type": "n.f.",
+      "en": "bag",
+      "note": "una bolsa.",
+      "ext": true,
+      "example": { "es": "¿Quiere una bolsa?", "en": "Would you like a bag?" }
+    },
+    {
+      "word": "gris",
+      "type": "adj.",
+      "en": "grey",
+      "note": "Plural: grises.",
+      "ext": true,
+      "example": { "es": "Un abrigo gris.", "en": "A grey coat." }
+    },
+    {
+      "word": "amarillo / amarilla",
+      "type": "adj.",
+      "en": "yellow",
+      "note": "una camiseta amarilla.",
+      "ext": true,
+      "example": { "es": "Una camiseta amarilla.", "en": "A yellow T-shirt." }
+    },
+    {
+      "word": "marrón",
+      "type": "adj.",
+      "en": "brown",
+      "note": "Plural: marrones.",
+      "ext": true,
+      "example": { "es": "Unos zapatos marrones.", "en": "Some brown shoes." }
+    },
+    {
+      "word": "naranja",
+      "type": "adj./n.f.",
+      "en": "orange (colour); orange (fruit)",
+      "note": "Same form for both genders.",
+      "ext": true,
+      "example": { "es": "Una falda naranja.", "en": "An orange skirt." }
+    },
+    {
+      "word": "rosa",
+      "type": "adj./n.m.",
+      "en": "pink",
+      "note": "Same form for both genders.",
+      "ext": true,
+      "example": { "es": "Una camisa rosa.", "en": "A pink shirt." }
+    },
+    {
+      "word": "llevar",
+      "type": "v.",
+      "en": "to wear; to carry, to take",
+      "note": "¿Qué talla lleva? = What size do you wear?",
+      "ext": true,
+      "example": { "es": "Llevo una camisa blanca.", "en": "I'm wearing a white shirt." }
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "lesson": 10,
+  "title": "Stem-changing verbs",
+  "words": [
+    {
+      "word": "poder",
+      "type": "v.",
+      "en": "to be able to, can",
+      "note": "Stem change o→ue: puedo, puedes, puede, podemos, podéis, pueden.",
+      "example": { "es": "¿Puedes venir mañana?", "en": "Can you come tomorrow?" }
+    },
+    {
+      "word": "pedir",
+      "type": "v.",
+      "en": "to ask for, to order",
+      "note": "Stem change e→i: pido, pides, pide, pedimos, pedís, piden.",
+      "example": { "es": "Pido una sopa, por favor.", "en": "I'll have a soup, please." }
+    },
+    {
+      "word": "jugar",
+      "type": "v.",
+      "en": "to play",
+      "note": "Stem change u→ue: juego, juegas… Use jugar a + game.",
+      "example": { "es": "Jugamos al tenis los sábados.", "en": "We play tennis on Saturdays." }
+    },
+    {
+      "word": "ir",
+      "type": "v.",
+      "en": "to go",
+      "note": "Irregular: voy, vas, va, vamos, vais, van. a + el = al.",
+      "example": { "es": "Voy al mercado.", "en": "I'm going to the market." }
+    },
+    {
+      "word": "volver",
+      "type": "v.",
+      "en": "to return, to come back",
+      "note": "Stem change o→ue: vuelvo, vuelves, vuelve…",
+      "example": { "es": "Volvemos a casa a las seis.", "en": "We return home at six." }
+    },
+    {
+      "word": "pensar",
+      "type": "v.",
+      "en": "to think; to plan",
+      "note": "Stem change e→ie: pienso, piensas, piensa…",
+      "example": { "es": "Pienso viajar en verano.", "en": "I plan to travel in summer." }
+    },
+    {
+      "word": "empezar",
+      "type": "v.",
+      "en": "to begin, to start",
+      "note": "Stem change e→ie: empiezo, empiezas, empieza…",
+      "example": { "es": "Empiezo la clase a las nueve.", "en": "I start class at nine." }
+    },
+    {
+      "word": "cerrar",
+      "type": "v.",
+      "en": "to close",
+      "note": "Stem change e→ie: cierro, cierras, cierra…",
+      "example": { "es": "La tienda cierra a las nueve.", "en": "The shop closes at nine." }
+    },
+    {
+      "word": "entender",
+      "type": "v.",
+      "en": "to understand",
+      "note": "Stem change e→ie: entiendo, entiendes, entiende…",
+      "example": { "es": "No entiendo esta frase.", "en": "I don't understand this sentence." }
+    },
+    {
+      "word": "preferir",
+      "type": "v.",
+      "en": "to prefer",
+      "note": "Stem change e→ie: prefiero, prefieres, prefiere…",
+      "example": { "es": "Prefiero té, gracias.", "en": "I prefer tea, thanks." }
+    },
+    {
+      "word": "servir",
+      "type": "v.",
+      "en": "to serve",
+      "note": "Stem change e→i: sirvo, sirves, sirve…",
+      "example": { "es": "El camarero sirve la sopa.", "en": "The waiter serves the soup." }
+    },
+    {
+      "word": "repetir",
+      "type": "v.",
+      "en": "to repeat",
+      "note": "Stem change e→i: repito, repites, repite…",
+      "example": { "es": "¿Puedes repetir, por favor?", "en": "Can you repeat, please?" }
+    },
+    {
+      "word": "encontrar",
+      "type": "v.",
+      "en": "to find",
+      "note": "Stem change o→ue: encuentro, encuentras, encuentra…",
+      "example": { "es": "Encuentro tiempo para leer.", "en": "I find time to read." }
+    },
+    {
+      "word": "tener que",
+      "type": "phr.",
+      "en": "to have to",
+      "note": "tener que + infinitive: tengo que trabajar.",
+      "example": { "es": "Tengo que trabajar.", "en": "I have to work." }
+    },
+    {
+      "word": "lo siento",
+      "type": "phr.",
+      "en": "I'm sorry",
+      "note": "Common apology.",
+      "example": { "es": "Lo siento, no puedo.", "en": "I'm sorry, I can't." }
+    },
+    {
+      "word": "tenis",
+      "type": "n.m.",
+      "en": "tennis",
+      "note": "jugar al tenis.",
+      "example": { "es": "Jugamos al tenis.", "en": "We play tennis." }
+    },
+    {
+      "word": "fútbol",
+      "type": "n.m.",
+      "en": "football, soccer",
+      "note": "jugar al fútbol.",
+      "example": { "es": "¿Puedes jugar al fútbol?", "en": "Can you play football?" }
+    },
+    {
+      "word": "practicar",
+      "type": "v.",
+      "en": "to practise",
+      "note": "practico, practicas, practica…",
+      "ext": true,
+      "example": { "es": "Puedo practicar todos los días.", "en": "I can practise every day." }
+    },
+    {
+      "word": "información",
+      "type": "n.f.",
+      "en": "information",
+      "note": "la información.",
+      "ext": true,
+      "example": { "es": "Ella pide información.", "en": "She asks for information." }
+    },
+    {
+      "word": "casi",
+      "type": "adv.",
+      "en": "almost, nearly",
+      "note": "casi todo = almost everything.",
+      "ext": true,
+      "example": { "es": "Entiendo casi todo.", "en": "I understand almost everything." }
+    },
+    {
+      "word": "venir",
+      "type": "v.",
+      "en": "to come",
+      "note": "Irregular: vengo, vienes, viene…",
+      "ext": true,
+      "example": { "es": "¿Puedes venir mañana?", "en": "Can you come tomorrow?" }
+    },
+    {
+      "word": "partido",
+      "type": "n.m.",
+      "en": "match, game",
+      "note": "el partido de fútbol.",
+      "ext": true,
+      "example": { "es": "¿A qué hora empieza el partido?", "en": "What time does the match start?" }
+    },
+    {
+      "word": "claro",
+      "type": "adv./adj.",
+      "en": "sure, of course; clear",
+      "note": "Claro = sure, of course.",
+      "ext": true,
+      "example": { "es": "Claro, voy contigo.", "en": "Sure, I'll go with you." }
+    },
+    {
+      "word": "sin",
+      "type": "prep.",
+      "en": "without",
+      "note": "Antonym: con.",
+      "ext": true,
+      "example": { "es": "Jugamos sin ella.", "en": "We play without her." }
+    },
+    {
+      "word": "¡Qué pena!",
+      "type": "phr.",
+      "en": "What a shame!",
+      "note": "Reaction phrase.",
+      "ext": true,
+      "example": { "es": "¡Qué pena! No puede venir.", "en": "What a shame! She can't come." }
+    },
+    {
+      "word": "deporte",
+      "type": "n.m.",
+      "en": "sport",
+      "note": "el deporte.",
+      "ext": true,
+      "example": { "es": "El fútbol es un deporte popular.", "en": "Football is a popular sport." }
+    },
+    {
+      "word": "a menudo",
+      "type": "phr.",
+      "en": "often",
+      "note": "Juego al tenis a menudo.",
+      "ext": true,
+      "example": { "es": "Juego al tenis a menudo.", "en": "I often play tennis." }
+    },
+    {
+      "word": "descansar",
+      "type": "v.",
+      "en": "to rest",
+      "note": "descanso, descansas, descansa…",
+      "ext": true,
+      "example": { "es": "Quiero descansar el domingo.", "en": "I want to rest on Sunday." }
+    },
+    {
+      "word": "visitar",
+      "type": "v.",
+      "en": "to visit",
+      "note": "visito, visitas, visita…",
+      "ext": true,
+      "example": { "es": "Pienso visitar a mi familia.", "en": "I'm planning to visit my family." }
+    },
+    {
+      "word": "quedarse",
+      "type": "v.",
+      "en": "to stay, to remain",
+      "note": "Reflexive: me quedo, te quedas…",
+      "ext": true,
+      "example": { "es": "Prefiere quedarse en casa.", "en": "She prefers to stay at home." }
+    }
+  ]
+}

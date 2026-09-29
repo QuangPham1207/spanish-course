@@ -1,0 +1,277 @@
+{
+  "lesson": 8,
+  "title": "Home & daily routine",
+  "words": [
+    {
+      "word": "casa",
+      "type": "n.f.",
+      "en": "house, home",
+      "note": "en casa = at home.",
+      "example": { "es": "Como en casa a las dos y media.", "en": "I have lunch at home at half past two." }
+    },
+    {
+      "word": "piso",
+      "type": "n.m.",
+      "en": "flat, apartment",
+      "note": "Spain; Latin America says apartamento.",
+      "example": { "es": "Vivo en un piso pequeño.", "en": "I live in a small flat." }
+    },
+    {
+      "word": "habitación",
+      "type": "n.f.",
+      "en": "room; bedroom",
+      "note": "una habitación.",
+      "example": { "es": "Mi habitación es pequeña.", "en": "My room is small." }
+    },
+    {
+      "word": "baño",
+      "type": "n.m.",
+      "en": "bathroom",
+      "note": "el baño.",
+      "example": { "es": "El baño está cerca de la cocina.", "en": "The bathroom is near the kitchen." }
+    },
+    {
+      "word": "cocina",
+      "type": "n.f.",
+      "en": "kitchen; cooking",
+      "note": "la cocina.",
+      "example": { "es": "Cenamos en la cocina.", "en": "We have dinner in the kitchen." }
+    },
+    {
+      "word": "cama",
+      "type": "n.f.",
+      "en": "bed",
+      "note": "Estoy en la cama.",
+      "example": { "es": "Mi cama es cómoda.", "en": "My bed is comfortable." }
+    },
+    {
+      "word": "levantarse",
+      "type": "v.",
+      "en": "to get up",
+      "note": "me levanto, te levantas, se levanta…",
+      "example": { "es": "Me levanto a las siete.", "en": "I get up at seven." }
+    },
+    {
+      "word": "ducharse",
+      "type": "v.",
+      "en": "to take a shower",
+      "note": "me ducho, te duchas, se ducha…",
+      "example": { "es": "Primero me ducho.", "en": "First I take a shower." }
+    },
+    {
+      "word": "lavarse",
+      "type": "v.",
+      "en": "to wash (oneself)",
+      "note": "me lavo las manos = I wash my hands.",
+      "example": { "es": "Me lavo los dientes.", "en": "I brush my teeth." }
+    },
+    {
+      "word": "despertarse",
+      "type": "v.",
+      "en": "to wake up",
+      "note": "Stem change e→ie: me despierto, te despiertas…",
+      "example": { "es": "Me despierto a las seis.", "en": "I wake up at six." }
+    },
+    {
+      "word": "acostarse",
+      "type": "v.",
+      "en": "to go to bed",
+      "note": "Stem change o→ue: me acuesto, te acuestas…",
+      "example": { "es": "Me acuesto a las once.", "en": "I go to bed at eleven." }
+    },
+    {
+      "word": "dormir",
+      "type": "v.",
+      "en": "to sleep",
+      "note": "Stem change o→ue: duermo, duermes, duerme…",
+      "example": { "es": "Duermo ocho horas.", "en": "I sleep eight hours." }
+    },
+    {
+      "word": "temprano",
+      "type": "adv.",
+      "en": "early",
+      "note": "Antonym: tarde.",
+      "example": { "es": "Me levanto temprano.", "en": "I get up early." }
+    },
+    {
+      "word": "tarde",
+      "type": "adv./n.f.",
+      "en": "late; afternoon",
+      "note": "Me acuesto tarde.",
+      "example": { "es": "Mi hijo se acuesta tarde.", "en": "My son goes to bed late." }
+    },
+    {
+      "word": "hora",
+      "type": "n.f.",
+      "en": "hour; time (of day)",
+      "note": "una hora; ¿A qué hora…?",
+      "example": { "es": "¿A qué hora te levantas?", "en": "What time do you get up?" }
+    },
+    {
+      "word": "reloj",
+      "type": "n.m.",
+      "en": "clock, watch",
+      "note": "el reloj.",
+      "example": { "es": "Miro el reloj.", "en": "I look at the clock." }
+    },
+    {
+      "word": "primero",
+      "type": "adv.",
+      "en": "first",
+      "note": "Primero me levanto.",
+      "example": { "es": "Primero me ducho.", "en": "First I take a shower." }
+    },
+    {
+      "word": "luego",
+      "type": "adv.",
+      "en": "then, later",
+      "note": "Luego desayuno.",
+      "example": { "es": "Luego desayuno.", "en": "Then I have breakfast." }
+    },
+    {
+      "word": "después",
+      "type": "adv.",
+      "en": "afterwards, then",
+      "note": "Después de comer = after eating.",
+      "example": { "es": "Después salgo de casa.", "en": "Afterwards I leave the house." }
+    },
+    {
+      "word": "por la mañana",
+      "type": "phr.",
+      "en": "in the morning",
+      "note": "Also por la tarde / por la noche.",
+      "example": { "es": "Por la mañana trabajo.", "en": "In the morning I work." }
+    },
+    {
+      "word": "por la noche",
+      "type": "phr.",
+      "en": "at night",
+      "note": "Ceno por la noche.",
+      "example": { "es": "Por la noche leo un poco.", "en": "At night I read a little." }
+    },
+    {
+      "word": "¿Qué hora es?",
+      "type": "phr.",
+      "en": "What time is it?",
+      "note": "Answer: Es la una / Son las dos.",
+      "example": { "es": "¿Qué hora es? — Son las nueve.", "en": "What time is it? — It's nine." }
+    },
+    {
+      "word": "y media",
+      "type": "phr.",
+      "en": "half past",
+      "note": "las dos y media = half past two.",
+      "example": { "es": "Son las dos y media.", "en": "It's half past two." }
+    },
+    {
+      "word": "y cuarto",
+      "type": "phr.",
+      "en": "quarter past",
+      "note": "las ocho y cuarto.",
+      "example": { "es": "Son las ocho y cuarto.", "en": "It's a quarter past eight." }
+    },
+    {
+      "word": "menos cuarto",
+      "type": "phr.",
+      "en": "quarter to",
+      "note": "las nueve menos cuarto.",
+      "example": { "es": "Son las nueve menos cuarto.", "en": "It's a quarter to nine." }
+    },
+    {
+      "word": "oficina",
+      "type": "n.f.",
+      "en": "office",
+      "note": "una oficina.",
+      "ext": true,
+      "example": { "es": "Trabajo en una oficina.", "en": "I work in an office." }
+    },
+    {
+      "word": "dientes",
+      "type": "n.m. pl.",
+      "en": "teeth",
+      "note": "lavarse los dientes = to brush one's teeth.",
+      "ext": true,
+      "example": { "es": "Me lavo los dientes.", "en": "I brush my teeth." }
+    },
+    {
+      "word": "salir",
+      "type": "v.",
+      "en": "to go out, to leave",
+      "note": "Irregular yo form: salgo.",
+      "ext": true,
+      "example": { "es": "Salgo de casa a las ocho.", "en": "I leave the house at eight." }
+    },
+    {
+      "word": "hasta",
+      "type": "prep.",
+      "en": "until; up to",
+      "note": "Trabajo hasta las dos.",
+      "ext": true,
+      "example": { "es": "Trabajo hasta las dos.", "en": "I work until two." }
+    },
+    {
+      "word": "cansado / cansada",
+      "type": "adj.",
+      "en": "tired",
+      "note": "Estoy cansado / cansada.",
+      "ext": true,
+      "example": { "es": "Por la tarde estoy cansado.", "en": "In the afternoon I'm tired." }
+    },
+    {
+      "word": "siesta",
+      "type": "n.f.",
+      "en": "nap, siesta",
+      "note": "una siesta de media hora.",
+      "ext": true,
+      "example": { "es": "Duermo una siesta pequeña.", "en": "I take a short nap." }
+    },
+    {
+      "word": "normalmente",
+      "type": "adv.",
+      "en": "normally, usually",
+      "note": "Normalmente ceno a las nueve.",
+      "ext": true,
+      "example": { "es": "Normalmente duermo ocho horas.", "en": "I usually sleep eight hours." }
+    },
+    {
+      "word": "a las",
+      "type": "phr.",
+      "en": "at (a certain time)",
+      "note": "a las siete = at seven.",
+      "ext": true,
+      "example": { "es": "Me levanto a las siete.", "en": "I get up at seven." }
+    },
+    {
+      "word": "de la mañana",
+      "type": "phr.",
+      "en": "in the morning (a.m.)",
+      "note": "las siete de la mañana = 7 a.m.",
+      "ext": true,
+      "example": { "es": "Son las siete de la mañana.", "en": "It's seven in the morning." }
+    },
+    {
+      "word": "¿A qué hora…?",
+      "type": "phr.",
+      "en": "at what time…?",
+      "note": "¿A qué hora te acuestas?",
+      "ext": true,
+      "example": { "es": "¿A qué hora comes?", "en": "What time do you have lunch?" }
+    },
+    {
+      "word": "vestirse",
+      "type": "v.",
+      "en": "to get dressed",
+      "note": "Stem change e→i: me visto, te vistes…",
+      "ext": true,
+      "example": { "es": "Me visto después de ducharme.", "en": "I get dressed after showering." }
+    },
+    {
+      "word": "peinarse",
+      "type": "v.",
+      "en": "to comb one's hair",
+      "note": "me peino, te peinas…",
+      "ext": true,
+      "example": { "es": "Me peino delante del espejo.", "en": "I comb my hair in front of the mirror." }
+    }
+  ]
+}

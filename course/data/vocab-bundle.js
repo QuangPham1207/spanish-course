@@ -2158,5 +2158,1448 @@ window.VOCAB = [
         }
       }
     ]
+  },
+  {
+    "lesson": 7,
+    "title": "Food & ordering",
+    "words": [
+      {
+        "word": "querer",
+        "type": "v.",
+        "en": "to want; to love",
+        "note": "Stem change e→ie: quiero, quieres, quiere, queremos, queréis, quieren.",
+        "example": {
+          "es": "Quiero una sopa, por favor.",
+          "en": "I want a soup, please."
+        }
+      },
+      {
+        "word": "comida",
+        "type": "n.f.",
+        "en": "food; lunch",
+        "note": "la comida = food; in Spain also the midday meal.",
+        "example": {
+          "es": "La comida está rica.",
+          "en": "The food is delicious."
+        }
+      },
+      {
+        "word": "desayuno",
+        "type": "n.m.",
+        "en": "breakfast",
+        "note": "el desayuno.",
+        "example": {
+          "es": "El desayuno es a las ocho.",
+          "en": "Breakfast is at eight."
+        }
+      },
+      {
+        "word": "almuerzo",
+        "type": "n.m.",
+        "en": "lunch",
+        "note": "Spain often says la comida for lunch instead.",
+        "example": {
+          "es": "El almuerzo es a la una.",
+          "en": "Lunch is at one."
+        }
+      },
+      {
+        "word": "cena",
+        "type": "n.f.",
+        "en": "dinner, supper",
+        "note": "la cena.",
+        "example": {
+          "es": "Mi padre quiere pescado para la cena.",
+          "en": "My father wants fish for dinner."
+        }
+      },
+      {
+        "word": "agua",
+        "type": "n.f.",
+        "en": "water",
+        "note": "Feminine but takes el: el agua (el agua fría).",
+        "example": {
+          "es": "Bebemos agua.",
+          "en": "We drink water."
+        }
+      },
+      {
+        "word": "pan",
+        "type": "n.m.",
+        "en": "bread",
+        "note": "el pan.",
+        "example": {
+          "es": "En el mercado compramos pan.",
+          "en": "At the market we buy bread."
+        }
+      },
+      {
+        "word": "fruta",
+        "type": "n.f.",
+        "en": "fruit",
+        "note": "una fruta.",
+        "example": {
+          "es": "Como fruta de postre.",
+          "en": "I eat fruit for dessert."
+        }
+      },
+      {
+        "word": "verdura",
+        "type": "n.f.",
+        "en": "vegetable",
+        "note": "una verdura.",
+        "example": {
+          "es": "Hay fruta y verdura en el mercado.",
+          "en": "There is fruit and vegetables at the market."
+        }
+      },
+      {
+        "word": "carne",
+        "type": "n.f.",
+        "en": "meat",
+        "note": "la carne.",
+        "example": {
+          "es": "Quiero carne con patatas.",
+          "en": "I want meat with potatoes."
+        }
+      },
+      {
+        "word": "pescado",
+        "type": "n.m.",
+        "en": "fish (as food)",
+        "note": "A living fish is el pez.",
+        "example": {
+          "es": "Mi padre quiere pescado.",
+          "en": "My father wants fish."
+        }
+      },
+      {
+        "word": "restaurante",
+        "type": "n.m.",
+        "en": "restaurant",
+        "note": "el restaurante.",
+        "example": {
+          "es": "Vamos a un restaurante pequeño.",
+          "en": "We go to a small restaurant."
+        }
+      },
+      {
+        "word": "mercado",
+        "type": "n.m.",
+        "en": "market",
+        "note": "el mercado.",
+        "example": {
+          "es": "Voy al mercado con mi padre.",
+          "en": "I go to the market with my father."
+        }
+      },
+      {
+        "word": "camarero / camarera",
+        "type": "n.m./f.",
+        "en": "waiter / waitress",
+        "note": "Latin America: mesero/a, mozo/a.",
+        "example": {
+          "es": "El camarero trae la carta.",
+          "en": "The waiter brings the menu."
+        }
+      },
+      {
+        "word": "carta",
+        "type": "n.f.",
+        "en": "menu; letter",
+        "note": "la carta = the menu in a restaurant.",
+        "example": {
+          "es": "¿Me trae la carta, por favor?",
+          "en": "Could you bring me the menu, please?"
+        }
+      },
+      {
+        "word": "cuenta",
+        "type": "n.f.",
+        "en": "bill, check; account",
+        "note": "La cuenta, por favor.",
+        "example": {
+          "es": "La cuenta, por favor.",
+          "en": "The bill, please."
+        }
+      },
+      {
+        "word": "mesa",
+        "type": "n.f.",
+        "en": "table",
+        "note": "una mesa para dos.",
+        "example": {
+          "es": "Una mesa para dos, por favor.",
+          "en": "A table for two, please."
+        }
+      },
+      {
+        "word": "plato",
+        "type": "n.m.",
+        "en": "plate; dish",
+        "note": "un plato.",
+        "example": {
+          "es": "Es un plato pequeño.",
+          "en": "It's a small dish."
+        }
+      },
+      {
+        "word": "rico / rica",
+        "type": "adj.",
+        "en": "delicious; rich",
+        "note": "La comida está rica.",
+        "example": {
+          "es": "¡La comida está rica!",
+          "en": "The food is delicious!"
+        }
+      },
+      {
+        "word": "tener hambre",
+        "type": "phr.",
+        "en": "to be hungry",
+        "note": "Literally 'to have hunger': tengo hambre.",
+        "example": {
+          "es": "Tengo hambre.",
+          "en": "I'm hungry."
+        }
+      },
+      {
+        "word": "tener sed",
+        "type": "phr.",
+        "en": "to be thirsty",
+        "note": "Literally 'to have thirst': tengo sed.",
+        "example": {
+          "es": "El niño tiene sed.",
+          "en": "The boy is thirsty."
+        }
+      },
+      {
+        "word": "para mí",
+        "type": "phr.",
+        "en": "for me",
+        "note": "Very common when ordering.",
+        "example": {
+          "es": "Para mí, una sopa.",
+          "en": "For me, a soup."
+        }
+      },
+      {
+        "word": "¿Qué desea?",
+        "type": "phr.",
+        "en": "What would you like?",
+        "note": "Formal; the waiter asks you.",
+        "example": {
+          "es": "Buenas tardes, ¿qué desea?",
+          "en": "Good afternoon, what would you like?"
+        }
+      },
+      {
+        "word": "sopa",
+        "type": "n.f.",
+        "en": "soup",
+        "note": "una sopa.",
+        "ext": true,
+        "example": {
+          "es": "Quiero una sopa.",
+          "en": "I want a soup."
+        }
+      },
+      {
+        "word": "patatas",
+        "type": "n.f. pl.",
+        "en": "potatoes",
+        "note": "Latin America says papas.",
+        "ext": true,
+        "example": {
+          "es": "Carne con patatas.",
+          "en": "Meat with potatoes."
+        }
+      },
+      {
+        "word": "vino",
+        "type": "n.m.",
+        "en": "wine",
+        "note": "el vino.",
+        "ext": true,
+        "example": {
+          "es": "No bebemos vino.",
+          "en": "We don't drink wine."
+        }
+      },
+      {
+        "word": "postre",
+        "type": "n.m.",
+        "en": "dessert",
+        "note": "el postre.",
+        "ext": true,
+        "example": {
+          "es": "¿Quieren postre?",
+          "en": "Would you like dessert?"
+        }
+      },
+      {
+        "word": "pagar",
+        "type": "v.",
+        "en": "to pay",
+        "note": "pago, pagas, paga, pagamos, pagáis, pagan.",
+        "ext": true,
+        "example": {
+          "es": "Al final, pagamos.",
+          "en": "In the end, we pay."
+        }
+      },
+      {
+        "word": "traer",
+        "type": "v.",
+        "en": "to bring",
+        "note": "Irregular: traigo = I bring.",
+        "ext": true,
+        "example": {
+          "es": "El camarero trae la carta.",
+          "en": "The waiter brings the menu."
+        }
+      },
+      {
+        "word": "preguntar",
+        "type": "v.",
+        "en": "to ask (a question)",
+        "note": "pregunto, preguntas, pregunta…",
+        "ext": true,
+        "example": {
+          "es": "El camarero pregunta.",
+          "en": "The waiter asks."
+        }
+      },
+      {
+        "word": "al final",
+        "type": "phr.",
+        "en": "in the end, finally",
+        "note": "Literally 'at the end'.",
+        "ext": true,
+        "example": {
+          "es": "Al final, volvemos a casa.",
+          "en": "In the end, we go back home."
+        }
+      },
+      {
+        "word": "tomar",
+        "type": "v.",
+        "en": "to have (food/drink); to take",
+        "note": "¿Qué vas a tomar? = What will you have?",
+        "ext": true,
+        "example": {
+          "es": "¿Qué vas a tomar?",
+          "en": "What will you have?"
+        }
+      },
+      {
+        "word": "antojitos",
+        "type": "n.m. pl.",
+        "en": "small snacks (Mexico)",
+        "note": "Mexican small plates: tacos, quesadillas…",
+        "ext": true,
+        "example": {
+          "es": "En México comemos antojitos.",
+          "en": "In Mexico we eat antojitos."
+        }
+      },
+      {
+        "word": "probar",
+        "type": "v.",
+        "en": "to taste, to try",
+        "note": "Stem change o→ue: pruebo, pruebas, prueba…",
+        "ext": true,
+        "example": {
+          "es": "¿Quieres probar la sopa?",
+          "en": "Do you want to try the soup?"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "title": "Home & daily routine",
+    "words": [
+      {
+        "word": "casa",
+        "type": "n.f.",
+        "en": "house, home",
+        "note": "en casa = at home.",
+        "example": {
+          "es": "Como en casa a las dos y media.",
+          "en": "I have lunch at home at half past two."
+        }
+      },
+      {
+        "word": "piso",
+        "type": "n.m.",
+        "en": "flat, apartment",
+        "note": "Spain; Latin America says apartamento.",
+        "example": {
+          "es": "Vivo en un piso pequeño.",
+          "en": "I live in a small flat."
+        }
+      },
+      {
+        "word": "habitación",
+        "type": "n.f.",
+        "en": "room; bedroom",
+        "note": "una habitación.",
+        "example": {
+          "es": "Mi habitación es pequeña.",
+          "en": "My room is small."
+        }
+      },
+      {
+        "word": "baño",
+        "type": "n.m.",
+        "en": "bathroom",
+        "note": "el baño.",
+        "example": {
+          "es": "El baño está cerca de la cocina.",
+          "en": "The bathroom is near the kitchen."
+        }
+      },
+      {
+        "word": "cocina",
+        "type": "n.f.",
+        "en": "kitchen; cooking",
+        "note": "la cocina.",
+        "example": {
+          "es": "Cenamos en la cocina.",
+          "en": "We have dinner in the kitchen."
+        }
+      },
+      {
+        "word": "cama",
+        "type": "n.f.",
+        "en": "bed",
+        "note": "Estoy en la cama.",
+        "example": {
+          "es": "Mi cama es cómoda.",
+          "en": "My bed is comfortable."
+        }
+      },
+      {
+        "word": "levantarse",
+        "type": "v.",
+        "en": "to get up",
+        "note": "me levanto, te levantas, se levanta…",
+        "example": {
+          "es": "Me levanto a las siete.",
+          "en": "I get up at seven."
+        }
+      },
+      {
+        "word": "ducharse",
+        "type": "v.",
+        "en": "to take a shower",
+        "note": "me ducho, te duchas, se ducha…",
+        "example": {
+          "es": "Primero me ducho.",
+          "en": "First I take a shower."
+        }
+      },
+      {
+        "word": "lavarse",
+        "type": "v.",
+        "en": "to wash (oneself)",
+        "note": "me lavo las manos = I wash my hands.",
+        "example": {
+          "es": "Me lavo los dientes.",
+          "en": "I brush my teeth."
+        }
+      },
+      {
+        "word": "despertarse",
+        "type": "v.",
+        "en": "to wake up",
+        "note": "Stem change e→ie: me despierto, te despiertas…",
+        "example": {
+          "es": "Me despierto a las seis.",
+          "en": "I wake up at six."
+        }
+      },
+      {
+        "word": "acostarse",
+        "type": "v.",
+        "en": "to go to bed",
+        "note": "Stem change o→ue: me acuesto, te acuestas…",
+        "example": {
+          "es": "Me acuesto a las once.",
+          "en": "I go to bed at eleven."
+        }
+      },
+      {
+        "word": "dormir",
+        "type": "v.",
+        "en": "to sleep",
+        "note": "Stem change o→ue: duermo, duermes, duerme…",
+        "example": {
+          "es": "Duermo ocho horas.",
+          "en": "I sleep eight hours."
+        }
+      },
+      {
+        "word": "temprano",
+        "type": "adv.",
+        "en": "early",
+        "note": "Antonym: tarde.",
+        "example": {
+          "es": "Me levanto temprano.",
+          "en": "I get up early."
+        }
+      },
+      {
+        "word": "tarde",
+        "type": "adv./n.f.",
+        "en": "late; afternoon",
+        "note": "Me acuesto tarde.",
+        "example": {
+          "es": "Mi hijo se acuesta tarde.",
+          "en": "My son goes to bed late."
+        }
+      },
+      {
+        "word": "hora",
+        "type": "n.f.",
+        "en": "hour; time (of day)",
+        "note": "una hora; ¿A qué hora…?",
+        "example": {
+          "es": "¿A qué hora te levantas?",
+          "en": "What time do you get up?"
+        }
+      },
+      {
+        "word": "reloj",
+        "type": "n.m.",
+        "en": "clock, watch",
+        "note": "el reloj.",
+        "example": {
+          "es": "Miro el reloj.",
+          "en": "I look at the clock."
+        }
+      },
+      {
+        "word": "primero",
+        "type": "adv.",
+        "en": "first",
+        "note": "Primero me levanto.",
+        "example": {
+          "es": "Primero me ducho.",
+          "en": "First I take a shower."
+        }
+      },
+      {
+        "word": "luego",
+        "type": "adv.",
+        "en": "then, later",
+        "note": "Luego desayuno.",
+        "example": {
+          "es": "Luego desayuno.",
+          "en": "Then I have breakfast."
+        }
+      },
+      {
+        "word": "después",
+        "type": "adv.",
+        "en": "afterwards, then",
+        "note": "Después de comer = after eating.",
+        "example": {
+          "es": "Después salgo de casa.",
+          "en": "Afterwards I leave the house."
+        }
+      },
+      {
+        "word": "por la mañana",
+        "type": "phr.",
+        "en": "in the morning",
+        "note": "Also por la tarde / por la noche.",
+        "example": {
+          "es": "Por la mañana trabajo.",
+          "en": "In the morning I work."
+        }
+      },
+      {
+        "word": "por la noche",
+        "type": "phr.",
+        "en": "at night",
+        "note": "Ceno por la noche.",
+        "example": {
+          "es": "Por la noche leo un poco.",
+          "en": "At night I read a little."
+        }
+      },
+      {
+        "word": "¿Qué hora es?",
+        "type": "phr.",
+        "en": "What time is it?",
+        "note": "Answer: Es la una / Son las dos.",
+        "example": {
+          "es": "¿Qué hora es? — Son las nueve.",
+          "en": "What time is it? — It's nine."
+        }
+      },
+      {
+        "word": "y media",
+        "type": "phr.",
+        "en": "half past",
+        "note": "las dos y media = half past two.",
+        "example": {
+          "es": "Son las dos y media.",
+          "en": "It's half past two."
+        }
+      },
+      {
+        "word": "y cuarto",
+        "type": "phr.",
+        "en": "quarter past",
+        "note": "las ocho y cuarto.",
+        "example": {
+          "es": "Son las ocho y cuarto.",
+          "en": "It's a quarter past eight."
+        }
+      },
+      {
+        "word": "menos cuarto",
+        "type": "phr.",
+        "en": "quarter to",
+        "note": "las nueve menos cuarto.",
+        "example": {
+          "es": "Son las nueve menos cuarto.",
+          "en": "It's a quarter to nine."
+        }
+      },
+      {
+        "word": "oficina",
+        "type": "n.f.",
+        "en": "office",
+        "note": "una oficina.",
+        "ext": true,
+        "example": {
+          "es": "Trabajo en una oficina.",
+          "en": "I work in an office."
+        }
+      },
+      {
+        "word": "dientes",
+        "type": "n.m. pl.",
+        "en": "teeth",
+        "note": "lavarse los dientes = to brush one's teeth.",
+        "ext": true,
+        "example": {
+          "es": "Me lavo los dientes.",
+          "en": "I brush my teeth."
+        }
+      },
+      {
+        "word": "salir",
+        "type": "v.",
+        "en": "to go out, to leave",
+        "note": "Irregular yo form: salgo.",
+        "ext": true,
+        "example": {
+          "es": "Salgo de casa a las ocho.",
+          "en": "I leave the house at eight."
+        }
+      },
+      {
+        "word": "hasta",
+        "type": "prep.",
+        "en": "until; up to",
+        "note": "Trabajo hasta las dos.",
+        "ext": true,
+        "example": {
+          "es": "Trabajo hasta las dos.",
+          "en": "I work until two."
+        }
+      },
+      {
+        "word": "cansado / cansada",
+        "type": "adj.",
+        "en": "tired",
+        "note": "Estoy cansado / cansada.",
+        "ext": true,
+        "example": {
+          "es": "Por la tarde estoy cansado.",
+          "en": "In the afternoon I'm tired."
+        }
+      },
+      {
+        "word": "siesta",
+        "type": "n.f.",
+        "en": "nap, siesta",
+        "note": "una siesta de media hora.",
+        "ext": true,
+        "example": {
+          "es": "Duermo una siesta pequeña.",
+          "en": "I take a short nap."
+        }
+      },
+      {
+        "word": "normalmente",
+        "type": "adv.",
+        "en": "normally, usually",
+        "note": "Normalmente ceno a las nueve.",
+        "ext": true,
+        "example": {
+          "es": "Normalmente duermo ocho horas.",
+          "en": "I usually sleep eight hours."
+        }
+      },
+      {
+        "word": "a las",
+        "type": "phr.",
+        "en": "at (a certain time)",
+        "note": "a las siete = at seven.",
+        "ext": true,
+        "example": {
+          "es": "Me levanto a las siete.",
+          "en": "I get up at seven."
+        }
+      },
+      {
+        "word": "de la mañana",
+        "type": "phr.",
+        "en": "in the morning (a.m.)",
+        "note": "las siete de la mañana = 7 a.m.",
+        "ext": true,
+        "example": {
+          "es": "Son las siete de la mañana.",
+          "en": "It's seven in the morning."
+        }
+      },
+      {
+        "word": "¿A qué hora…?",
+        "type": "phr.",
+        "en": "at what time…?",
+        "note": "¿A qué hora te acuestas?",
+        "ext": true,
+        "example": {
+          "es": "¿A qué hora comes?",
+          "en": "What time do you have lunch?"
+        }
+      },
+      {
+        "word": "vestirse",
+        "type": "v.",
+        "en": "to get dressed",
+        "note": "Stem change e→i: me visto, te vistes…",
+        "ext": true,
+        "example": {
+          "es": "Me visto después de ducharme.",
+          "en": "I get dressed after showering."
+        }
+      },
+      {
+        "word": "peinarse",
+        "type": "v.",
+        "en": "to comb one's hair",
+        "note": "me peino, te peinas…",
+        "ext": true,
+        "example": {
+          "es": "Me peino delante del espejo.",
+          "en": "I comb my hair in front of the mirror."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "title": "Shopping & prices",
+    "words": [
+      {
+        "word": "comprar",
+        "type": "v.",
+        "en": "to buy",
+        "note": "compro, compras, compra, compramos, compráis, compran.",
+        "example": {
+          "es": "Quiero comprar ropa nueva.",
+          "en": "I want to buy new clothes."
+        }
+      },
+      {
+        "word": "ir de compras",
+        "type": "phr.",
+        "en": "to go shopping",
+        "note": "Literally 'to go of purchases'.",
+        "example": {
+          "es": "Voy de compras al centro.",
+          "en": "I go shopping in the city centre."
+        }
+      },
+      {
+        "word": "precio",
+        "type": "n.m.",
+        "en": "price",
+        "note": "el precio.",
+        "example": {
+          "es": "El precio es bueno.",
+          "en": "The price is good."
+        }
+      },
+      {
+        "word": "dinero",
+        "type": "n.m.",
+        "en": "money",
+        "note": "el dinero (uncountable).",
+        "example": {
+          "es": "No tengo mucho dinero.",
+          "en": "I don't have much money."
+        }
+      },
+      {
+        "word": "euro",
+        "type": "n.m.",
+        "en": "euro",
+        "note": "un euro, dos euros.",
+        "example": {
+          "es": "Cuesta veinte euros.",
+          "en": "It costs twenty euros."
+        }
+      },
+      {
+        "word": "costar",
+        "type": "v.",
+        "en": "to cost",
+        "note": "Stem change o→ue: cuesta, cuestan.",
+        "example": {
+          "es": "¿Cuánto cuesta la camisa?",
+          "en": "How much is the shirt?"
+        }
+      },
+      {
+        "word": "¿Cuánto cuesta?",
+        "type": "phr.",
+        "en": "How much is it?",
+        "note": "Plural: ¿Cuánto cuestan?",
+        "example": {
+          "es": "¿Cuánto cuesta esta camisa?",
+          "en": "How much is this shirt?"
+        }
+      },
+      {
+        "word": "barato / barata",
+        "type": "adj.",
+        "en": "cheap",
+        "note": "Antonym: caro.",
+        "example": {
+          "es": "Lucía compra un vestido barato.",
+          "en": "Lucía buys a cheap dress."
+        }
+      },
+      {
+        "word": "caro / cara",
+        "type": "adj.",
+        "en": "expensive, dear",
+        "note": "Son un poco caros.",
+        "example": {
+          "es": "Los zapatos son caros.",
+          "en": "The shoes are expensive."
+        }
+      },
+      {
+        "word": "tienda",
+        "type": "n.f.",
+        "en": "shop, store",
+        "note": "una tienda de ropa.",
+        "example": {
+          "es": "En la tienda hay muchas cosas.",
+          "en": "There are many things in the shop."
+        }
+      },
+      {
+        "word": "ropa",
+        "type": "n.f.",
+        "en": "clothes",
+        "note": "la ropa (uncountable).",
+        "example": {
+          "es": "Quiero comprar ropa nueva.",
+          "en": "I want to buy new clothes."
+        }
+      },
+      {
+        "word": "camisa",
+        "type": "n.f.",
+        "en": "shirt",
+        "note": "una camisa.",
+        "example": {
+          "es": "Veo una camisa azul.",
+          "en": "I see a blue shirt."
+        }
+      },
+      {
+        "word": "pantalón",
+        "type": "n.m.",
+        "en": "trousers, pants",
+        "note": "Usually plural: los pantalones.",
+        "example": {
+          "es": "¿Cuánto cuestan estos pantalones?",
+          "en": "How much are these trousers?"
+        }
+      },
+      {
+        "word": "zapatos",
+        "type": "n.m. pl.",
+        "en": "shoes",
+        "note": "unos zapatos.",
+        "example": {
+          "es": "Busco unos zapatos negros.",
+          "en": "I'm looking for some black shoes."
+        }
+      },
+      {
+        "word": "vestido",
+        "type": "n.m.",
+        "en": "dress",
+        "note": "un vestido.",
+        "example": {
+          "es": "Lucía compra un vestido rojo.",
+          "en": "Lucía buys a red dress."
+        }
+      },
+      {
+        "word": "talla",
+        "type": "n.f.",
+        "en": "size (clothes/shoes)",
+        "note": "¿Qué talla usa? = What size do you wear?",
+        "example": {
+          "es": "¿Qué talla usa?",
+          "en": "What size do you wear?"
+        }
+      },
+      {
+        "word": "color",
+        "type": "n.m.",
+        "en": "colour",
+        "note": "el color; plural: los colores.",
+        "example": {
+          "es": "Zapatos de muchos colores.",
+          "en": "Shoes in many colours."
+        }
+      },
+      {
+        "word": "rojo / roja",
+        "type": "adj.",
+        "en": "red",
+        "note": "una camisa roja.",
+        "example": {
+          "es": "Compra un vestido rojo.",
+          "en": "She buys a red dress."
+        }
+      },
+      {
+        "word": "azul",
+        "type": "adj.",
+        "en": "blue",
+        "note": "Plural: azules.",
+        "example": {
+          "es": "Veo una camisa azul.",
+          "en": "I see a blue shirt."
+        }
+      },
+      {
+        "word": "verde",
+        "type": "adj.",
+        "en": "green",
+        "note": "Plural: verdes.",
+        "example": {
+          "es": "La falda verde es bonita.",
+          "en": "The green skirt is pretty."
+        }
+      },
+      {
+        "word": "blanco / blanca",
+        "type": "adj.",
+        "en": "white",
+        "note": "una camisa blanca.",
+        "example": {
+          "es": "Busco una camisa blanca.",
+          "en": "I'm looking for a white shirt."
+        }
+      },
+      {
+        "word": "negro / negra",
+        "type": "adj.",
+        "en": "black",
+        "note": "unos zapatos negros.",
+        "example": {
+          "es": "Busco unos zapatos negros.",
+          "en": "I'm looking for some black shoes."
+        }
+      },
+      {
+        "word": "este / esta",
+        "type": "adj.",
+        "en": "this",
+        "note": "Plural: estos / estas. Points at something near.",
+        "example": {
+          "es": "¿Cuánto cuesta esta camisa?",
+          "en": "How much is this shirt?"
+        }
+      },
+      {
+        "word": "centro",
+        "type": "n.m.",
+        "en": "centre, downtown",
+        "note": "el centro de la ciudad.",
+        "ext": true,
+        "example": {
+          "es": "Voy de compras al centro.",
+          "en": "I go shopping in the city centre."
+        }
+      },
+      {
+        "word": "dependiente",
+        "type": "n.m./f.",
+        "en": "shop assistant",
+        "note": "Latin America: vendedor/a.",
+        "ext": true,
+        "example": {
+          "es": "El dependiente es simpático.",
+          "en": "The shop assistant is friendly."
+        }
+      },
+      {
+        "word": "tarjeta",
+        "type": "n.f.",
+        "en": "card",
+        "note": "pagar con tarjeta = to pay by card.",
+        "ext": true,
+        "example": {
+          "es": "Pagamos con tarjeta.",
+          "en": "We pay by card."
+        }
+      },
+      {
+        "word": "contento / contenta",
+        "type": "adj.",
+        "en": "happy, pleased",
+        "note": "volvemos contentas = we go home happy.",
+        "ext": true,
+        "example": {
+          "es": "Volvemos a casa contentas.",
+          "en": "We go home happy."
+        }
+      },
+      {
+        "word": "rebajas",
+        "type": "n.f. pl.",
+        "en": "sales (discounted period)",
+        "note": "las rebajas de enero.",
+        "ext": true,
+        "example": {
+          "es": "En las rebajas, todo es más barato.",
+          "en": "In the sales, everything is cheaper."
+        }
+      },
+      {
+        "word": "recibo",
+        "type": "n.m.",
+        "en": "receipt",
+        "note": "el recibo.",
+        "ext": true,
+        "example": {
+          "es": "Guardo el recibo.",
+          "en": "I keep the receipt."
+        }
+      },
+      {
+        "word": "bolsa",
+        "type": "n.f.",
+        "en": "bag",
+        "note": "una bolsa.",
+        "ext": true,
+        "example": {
+          "es": "¿Quiere una bolsa?",
+          "en": "Would you like a bag?"
+        }
+      },
+      {
+        "word": "gris",
+        "type": "adj.",
+        "en": "grey",
+        "note": "Plural: grises.",
+        "ext": true,
+        "example": {
+          "es": "Un abrigo gris.",
+          "en": "A grey coat."
+        }
+      },
+      {
+        "word": "amarillo / amarilla",
+        "type": "adj.",
+        "en": "yellow",
+        "note": "una camiseta amarilla.",
+        "ext": true,
+        "example": {
+          "es": "Una camiseta amarilla.",
+          "en": "A yellow T-shirt."
+        }
+      },
+      {
+        "word": "marrón",
+        "type": "adj.",
+        "en": "brown",
+        "note": "Plural: marrones.",
+        "ext": true,
+        "example": {
+          "es": "Unos zapatos marrones.",
+          "en": "Some brown shoes."
+        }
+      },
+      {
+        "word": "naranja",
+        "type": "adj./n.f.",
+        "en": "orange (colour); orange (fruit)",
+        "note": "Same form for both genders.",
+        "ext": true,
+        "example": {
+          "es": "Una falda naranja.",
+          "en": "An orange skirt."
+        }
+      },
+      {
+        "word": "rosa",
+        "type": "adj./n.m.",
+        "en": "pink",
+        "note": "Same form for both genders.",
+        "ext": true,
+        "example": {
+          "es": "Una camisa rosa.",
+          "en": "A pink shirt."
+        }
+      },
+      {
+        "word": "llevar",
+        "type": "v.",
+        "en": "to wear; to carry, to take",
+        "note": "¿Qué talla lleva? = What size do you wear?",
+        "ext": true,
+        "example": {
+          "es": "Llevo una camisa blanca.",
+          "en": "I'm wearing a white shirt."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "title": "Stem-changing verbs",
+    "words": [
+      {
+        "word": "poder",
+        "type": "v.",
+        "en": "to be able to, can",
+        "note": "Stem change o→ue: puedo, puedes, puede, podemos, podéis, pueden.",
+        "example": {
+          "es": "¿Puedes venir mañana?",
+          "en": "Can you come tomorrow?"
+        }
+      },
+      {
+        "word": "pedir",
+        "type": "v.",
+        "en": "to ask for, to order",
+        "note": "Stem change e→i: pido, pides, pide, pedimos, pedís, piden.",
+        "example": {
+          "es": "Pido una sopa, por favor.",
+          "en": "I'll have a soup, please."
+        }
+      },
+      {
+        "word": "jugar",
+        "type": "v.",
+        "en": "to play",
+        "note": "Stem change u→ue: juego, juegas… Use jugar a + game.",
+        "example": {
+          "es": "Jugamos al tenis los sábados.",
+          "en": "We play tennis on Saturdays."
+        }
+      },
+      {
+        "word": "ir",
+        "type": "v.",
+        "en": "to go",
+        "note": "Irregular: voy, vas, va, vamos, vais, van. a + el = al.",
+        "example": {
+          "es": "Voy al mercado.",
+          "en": "I'm going to the market."
+        }
+      },
+      {
+        "word": "volver",
+        "type": "v.",
+        "en": "to return, to come back",
+        "note": "Stem change o→ue: vuelvo, vuelves, vuelve…",
+        "example": {
+          "es": "Volvemos a casa a las seis.",
+          "en": "We return home at six."
+        }
+      },
+      {
+        "word": "pensar",
+        "type": "v.",
+        "en": "to think; to plan",
+        "note": "Stem change e→ie: pienso, piensas, piensa…",
+        "example": {
+          "es": "Pienso viajar en verano.",
+          "en": "I plan to travel in summer."
+        }
+      },
+      {
+        "word": "empezar",
+        "type": "v.",
+        "en": "to begin, to start",
+        "note": "Stem change e→ie: empiezo, empiezas, empieza…",
+        "example": {
+          "es": "Empiezo la clase a las nueve.",
+          "en": "I start class at nine."
+        }
+      },
+      {
+        "word": "cerrar",
+        "type": "v.",
+        "en": "to close",
+        "note": "Stem change e→ie: cierro, cierras, cierra…",
+        "example": {
+          "es": "La tienda cierra a las nueve.",
+          "en": "The shop closes at nine."
+        }
+      },
+      {
+        "word": "entender",
+        "type": "v.",
+        "en": "to understand",
+        "note": "Stem change e→ie: entiendo, entiendes, entiende…",
+        "example": {
+          "es": "No entiendo esta frase.",
+          "en": "I don't understand this sentence."
+        }
+      },
+      {
+        "word": "preferir",
+        "type": "v.",
+        "en": "to prefer",
+        "note": "Stem change e→ie: prefiero, prefieres, prefiere…",
+        "example": {
+          "es": "Prefiero té, gracias.",
+          "en": "I prefer tea, thanks."
+        }
+      },
+      {
+        "word": "servir",
+        "type": "v.",
+        "en": "to serve",
+        "note": "Stem change e→i: sirvo, sirves, sirve…",
+        "example": {
+          "es": "El camarero sirve la sopa.",
+          "en": "The waiter serves the soup."
+        }
+      },
+      {
+        "word": "repetir",
+        "type": "v.",
+        "en": "to repeat",
+        "note": "Stem change e→i: repito, repites, repite…",
+        "example": {
+          "es": "¿Puedes repetir, por favor?",
+          "en": "Can you repeat, please?"
+        }
+      },
+      {
+        "word": "encontrar",
+        "type": "v.",
+        "en": "to find",
+        "note": "Stem change o→ue: encuentro, encuentras, encuentra…",
+        "example": {
+          "es": "Encuentro tiempo para leer.",
+          "en": "I find time to read."
+        }
+      },
+      {
+        "word": "tener que",
+        "type": "phr.",
+        "en": "to have to",
+        "note": "tener que + infinitive: tengo que trabajar.",
+        "example": {
+          "es": "Tengo que trabajar.",
+          "en": "I have to work."
+        }
+      },
+      {
+        "word": "lo siento",
+        "type": "phr.",
+        "en": "I'm sorry",
+        "note": "Common apology.",
+        "example": {
+          "es": "Lo siento, no puedo.",
+          "en": "I'm sorry, I can't."
+        }
+      },
+      {
+        "word": "tenis",
+        "type": "n.m.",
+        "en": "tennis",
+        "note": "jugar al tenis.",
+        "example": {
+          "es": "Jugamos al tenis.",
+          "en": "We play tennis."
+        }
+      },
+      {
+        "word": "fútbol",
+        "type": "n.m.",
+        "en": "football, soccer",
+        "note": "jugar al fútbol.",
+        "example": {
+          "es": "¿Puedes jugar al fútbol?",
+          "en": "Can you play football?"
+        }
+      },
+      {
+        "word": "practicar",
+        "type": "v.",
+        "en": "to practise",
+        "note": "practico, practicas, practica…",
+        "ext": true,
+        "example": {
+          "es": "Puedo practicar todos los días.",
+          "en": "I can practise every day."
+        }
+      },
+      {
+        "word": "información",
+        "type": "n.f.",
+        "en": "information",
+        "note": "la información.",
+        "ext": true,
+        "example": {
+          "es": "Ella pide información.",
+          "en": "She asks for information."
+        }
+      },
+      {
+        "word": "casi",
+        "type": "adv.",
+        "en": "almost, nearly",
+        "note": "casi todo = almost everything.",
+        "ext": true,
+        "example": {
+          "es": "Entiendo casi todo.",
+          "en": "I understand almost everything."
+        }
+      },
+      {
+        "word": "venir",
+        "type": "v.",
+        "en": "to come",
+        "note": "Irregular: vengo, vienes, viene…",
+        "ext": true,
+        "example": {
+          "es": "¿Puedes venir mañana?",
+          "en": "Can you come tomorrow?"
+        }
+      },
+      {
+        "word": "partido",
+        "type": "n.m.",
+        "en": "match, game",
+        "note": "el partido de fútbol.",
+        "ext": true,
+        "example": {
+          "es": "¿A qué hora empieza el partido?",
+          "en": "What time does the match start?"
+        }
+      },
+      {
+        "word": "claro",
+        "type": "adv./adj.",
+        "en": "sure, of course; clear",
+        "note": "Claro = sure, of course.",
+        "ext": true,
+        "example": {
+          "es": "Claro, voy contigo.",
+          "en": "Sure, I'll go with you."
+        }
+      },
+      {
+        "word": "sin",
+        "type": "prep.",
+        "en": "without",
+        "note": "Antonym: con.",
+        "ext": true,
+        "example": {
+          "es": "Jugamos sin ella.",
+          "en": "We play without her."
+        }
+      },
+      {
+        "word": "¡Qué pena!",
+        "type": "phr.",
+        "en": "What a shame!",
+        "note": "Reaction phrase.",
+        "ext": true,
+        "example": {
+          "es": "¡Qué pena! No puede venir.",
+          "en": "What a shame! She can't come."
+        }
+      },
+      {
+        "word": "deporte",
+        "type": "n.m.",
+        "en": "sport",
+        "note": "el deporte.",
+        "ext": true,
+        "example": {
+          "es": "El fútbol es un deporte popular.",
+          "en": "Football is a popular sport."
+        }
+      },
+      {
+        "word": "a menudo",
+        "type": "phr.",
+        "en": "often",
+        "note": "Juego al tenis a menudo.",
+        "ext": true,
+        "example": {
+          "es": "Juego al tenis a menudo.",
+          "en": "I often play tennis."
+        }
+      },
+      {
+        "word": "descansar",
+        "type": "v.",
+        "en": "to rest",
+        "note": "descanso, descansas, descansa…",
+        "ext": true,
+        "example": {
+          "es": "Quiero descansar el domingo.",
+          "en": "I want to rest on Sunday."
+        }
+      },
+      {
+        "word": "visitar",
+        "type": "v.",
+        "en": "to visit",
+        "note": "visito, visitas, visita…",
+        "ext": true,
+        "example": {
+          "es": "Pienso visitar a mi familia.",
+          "en": "I'm planning to visit my family."
+        }
+      },
+      {
+        "word": "quedarse",
+        "type": "v.",
+        "en": "to stay, to remain",
+        "note": "Reflexive: me quedo, te quedas…",
+        "ext": true,
+        "example": {
+          "es": "Prefiere quedarse en casa.",
+          "en": "She prefers to stay at home."
+        }
+      }
+    ]
   }
 ];

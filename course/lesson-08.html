@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 08 — Home & daily routine</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 08 — HOME &amp; DAILY ROUTINE</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Name the rooms and things in a home: <span class="es">la casa, el baño, la cocina, la cama</span>.</li>
+      <li>Use <strong>reflexive verbs</strong> to describe your routine: <span class="es">levantarse, ducharse, lavarse</span>.</li>
+      <li>Tell the time: <span class="es">¿Qué hora es? — Son las ocho y media</span>.</li>
+      <li>Order your day with <span class="es">primero, luego, después</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">casa, piso, habitación, baño, cocina, cama, levantarse, ducharse, lavarse, despertarse, acostarse, dormir, temprano, tarde, hora, reloj, primero, luego, después, por la mañana, por la noche, ¿Qué hora es?, y media, y cuarto, menos cuarto</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">oficina, dientes, salir, hasta, cansado/a, siesta, normalmente, a las, de la mañana, ¿A qué hora…?, vestirse, peinarse</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (A NORMAL DAY)</h2>
+<p><strong>Context:</strong> Kenji describes a working day at home in Madrid. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — the Spanish is enough to get the gist.)</p>
+
+<div class="phrase">
+  <p class="es">Me llamo Kenji y vivo en un piso pequeño en Madrid.</p>
+  <p class="en">My name is Kenji and I live in a small flat in Madrid.</p>
+</div>
+<div class="phrase">
+  <p class="es">Todos los días me levanto a las siete.</p>
+  <p class="en">Every day I get up at seven.</p>
+</div>
+<div class="phrase">
+  <p class="es">Primero me ducho y me lavo los dientes.</p>
+  <p class="en">First I take a shower and brush my teeth.</p>
+</div>
+<div class="phrase">
+  <p class="es">Después desayuno y salgo de casa a las ocho.</p>
+  <p class="en">Then I have breakfast and leave the house at eight.</p>
+</div>
+<div class="phrase">
+  <p class="es">Trabajo en una oficina hasta las dos.</p>
+  <p class="en">I work in an office until two.</p>
+</div>
+<div class="phrase">
+  <p class="es">Como en casa a las dos y media.</p>
+  <p class="en">I have lunch at home at half past two.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por la tarde estoy cansado y duermo una siesta pequeña.</p>
+  <p class="en">In the afternoon I'm tired and take a short nap.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por la noche ceno con mi familia y leo un poco.</p>
+  <p class="en">At night I have dinner with my family and read a little.</p>
+</div>
+<div class="phrase">
+  <p class="es">Me acuesto a las once y duermo ocho horas.</p>
+  <p class="en">I go to bed at eleven and sleep eight hours.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">piso</span></td><td data-label="Type">n.m.</td><td data-label="English">flat, apartment</td><td data-label="Notes">Spain: un piso. LatAm: un apartamento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">oficina</span></td><td data-label="Type">n.f.</td><td data-label="English">office</td><td data-label="Notes">una oficina.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dientes</span></td><td data-label="Type">n.m. pl.</td><td data-label="English">teeth</td><td data-label="Notes">lavarse los dientes = to brush one's teeth.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">salir</span></td><td data-label="Type">v.</td><td data-label="English">to go out, to leave</td><td data-label="Notes">Irregular yo form: salgo <em>(advanced)</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hasta</span></td><td data-label="Type">prep.</td><td data-label="English">until; up to</td><td data-label="Notes">Trabajo hasta las dos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cansado / cansada</span></td><td data-label="Type">adj.</td><td data-label="English">tired</td><td data-label="Notes">Estoy cansado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">siesta</span></td><td data-label="Type">n.f.</td><td data-label="English">nap, siesta</td><td data-label="Notes">una siesta de media hora.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Memory hook:</strong> A routine is just a chain: <span class="es">primero me levanto, luego me ducho, después desayuno</span>. Learn the verbs as little pictures, not as translations.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Reflexive verbs: the action comes back to you</h3>
+<p>A <strong>reflexive verb</strong> describes something you do to yourself: <span class="es">me levanto</span> = "I get (myself) up". The verb comes with a small pronoun that matches the person. Put the pronoun <strong>before</strong> the conjugated verb:</p>
+<div class="formula">me · te · se · nos · os · se + verb</div>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>levantarse (to get up)</th><th>ducharse (to shower)</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person">yo</td><td data-label="levantarse"><span class="es">me levanto</span></td><td data-label="ducharse"><span class="es">me ducho</span></td></tr>
+    <tr><td data-label="Person">tú</td><td data-label="levantarse"><span class="es">te levantas</span></td><td data-label="ducharse"><span class="es">te duchas</span></td></tr>
+    <tr><td data-label="Person">él / ella / usted</td><td data-label="levantarse"><span class="es">se levanta</span></td><td data-label="ducharse"><span class="es">se ducha</span></td></tr>
+    <tr><td data-label="Person">nosotros</td><td data-label="levantarse"><span class="es">nos levantamos</span></td><td data-label="ducharse"><span class="es">nos duchamos</span></td></tr>
+    <tr><td data-label="Person">vosotros <em>(Spain)</em></td><td data-label="levantarse"><span class="es">os levantáis</span></td><td data-label="ducharse"><span class="es">os ducháis</span></td></tr>
+    <tr><td data-label="Person">ellos / ustedes</td><td data-label="levantarse"><span class="es">se levantan</span></td><td data-label="ducharse"><span class="es">se duchan</span></td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">Me lavo las manos.</span><span class="en">I wash my hands.</span></li>
+  <li class="ex"><span class="es">¿A qué hora te duchas?</span><span class="en">What time do you shower?</span></li>
+  <li class="ex"><span class="es">Mi hijo se acuesta tarde.</span><span class="en">My son goes to bed late.</span></li>
+</ul>
+<div class="tip">💡 <strong>With a second verb you may attach the pronoun:</strong> <span class="es">Quiero levantarme temprano</span> = "I want to get up early". Both <span class="es">me quiero levantar</span> and <span class="es">quiero levantarme</span> are correct. You already know a reflexive verb: <span class="es">llamarse</span> (me llamo…).</div>
+<div class="warn">⚠️ <strong>Watch the meaning:</strong> <span class="es">lavar</span> = to wash (something), but <span class="es">lavarse</span> = to wash oneself. <span class="es">Lavo el coche</span> (I wash the car) vs <span class="es">me lavo</span> (I wash myself).</div>
+
+<h3>2.2. Telling the time</h3>
+<p>Ask with <strong>¿Qué hora es?</strong> Answer with <strong>Es la…</strong> for one o'clock, and <strong>Son las…</strong> for every other hour:</p>
+<div class="formula">Es la una. · Son las dos / tres / diez…</div>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">Son las ocho.</span></td><td data-label="English">It's eight o'clock.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Son las ocho y cuarto.</span></td><td data-label="English">It's a quarter past eight.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Son las ocho y media.</span></td><td data-label="English">It's half past eight.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Son las nueve menos cuarto.</span></td><td data-label="English">It's a quarter to nine.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Es la una de la tarde.</span></td><td data-label="English">It's one in the afternoon.</td></tr>
+  </tbody>
+</table>
+</div>
+<p>To say <em>at</em> what time, use <strong>a las…</strong> and ask with <strong>¿A qué hora…?</strong>:</p>
+<ul>
+  <li class="ex"><span class="es">¿A qué hora te levantas? — A las siete.</span><span class="en">What time do you get up? — At seven.</span></li>
+  <li class="ex"><span class="es">La clase empieza a las nueve y media.</span><span class="en">The class starts at half past nine. <em>(advanced)</em></span></li>
+</ul>
+<div class="tip">💡 <strong>de la mañana / de la tarde / de la noche:</strong> add these to avoid confusion: <span class="es">las siete de la mañana</span> (7 a.m.), <span class="es">las siete de la tarde</span> (7 p.m.).</div>
+
+<h3>2.3. Ordering your day</h3>
+<p>These little words put the routine in order:</p>
+<ul>
+  <li class="ex"><span class="es">Primero me levanto.</span><span class="en">First I get up.</span></li>
+  <li class="ex"><span class="es">Luego me ducho.</span><span class="en">Then I take a shower.</span></li>
+  <li class="ex"><span class="es">Después desayuno.</span><span class="en">Afterwards I have breakfast.</span></li>
+  <li class="ex"><span class="es">Por la mañana trabajo; por la noche leo.</span><span class="en">In the morning I work; at night I read.</span></li>
+</ul>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">casa</span></td><td data-label="Type">n.f.</td><td data-label="English">house, home</td><td data-label="Notes">en casa = at home.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">piso</span></td><td data-label="Type">n.m.</td><td data-label="English">flat, apartment</td><td data-label="Notes">Spain; LatAm: apartamento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">habitación</span></td><td data-label="Type">n.f.</td><td data-label="English">room; bedroom</td><td data-label="Notes">una habitación.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">baño</span></td><td data-label="Type">n.m.</td><td data-label="English">bathroom</td><td data-label="Notes">el baño.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cocina</span></td><td data-label="Type">n.f.</td><td data-label="English">kitchen</td><td data-label="Notes">la cocina; also = cooking.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cama</span></td><td data-label="Type">n.f.</td><td data-label="English">bed</td><td data-label="Notes">Estoy en la cama.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">levantarse</span></td><td data-label="Type">v.</td><td data-label="English">to get up</td><td data-label="Notes">me levanto, te levantas…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ducharse</span></td><td data-label="Type">v.</td><td data-label="English">to take a shower</td><td data-label="Notes">me ducho, te duchas…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lavarse</span></td><td data-label="Type">v.</td><td data-label="English">to wash (oneself)</td><td data-label="Notes">me lavo las manos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">despertarse</span></td><td data-label="Type">v.</td><td data-label="English">to wake up</td><td data-label="Notes">Stem change e→ie: me despierto <em>(advanced)</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">acostarse</span></td><td data-label="Type">v.</td><td data-label="English">to go to bed</td><td data-label="Notes">Stem change o→ue: me acuesto <em>(advanced)</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dormir</span></td><td data-label="Type">v.</td><td data-label="English">to sleep</td><td data-label="Notes">Stem change o→ue: duermo <em>(advanced)</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">temprano</span></td><td data-label="Type">adv.</td><td data-label="English">early</td><td data-label="Notes">Antonym: tarde.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tarde</span></td><td data-label="Type">adv./n.f.</td><td data-label="English">late; afternoon</td><td data-label="Notes">Me acuesto tarde.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hora</span></td><td data-label="Type">n.f.</td><td data-label="English">hour, time (of day)</td><td data-label="Notes">una hora.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reloj</span></td><td data-label="Type">n.m.</td><td data-label="English">clock, watch</td><td data-label="Notes">el reloj.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">primero</span></td><td data-label="Type">adv.</td><td data-label="English">first</td><td data-label="Notes">Primero me levanto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">luego</span></td><td data-label="Type">adv.</td><td data-label="English">then, later</td><td data-label="Notes">Luego me ducho.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">después</span></td><td data-label="Type">adv.</td><td data-label="English">afterwards, then</td><td data-label="Notes">Después desayuno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">por la mañana</span></td><td data-label="Type">phr.</td><td data-label="English">in the morning</td><td data-label="Notes">Also por la tarde / por la noche.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">por la noche</span></td><td data-label="Type">phr.</td><td data-label="English">at night</td><td data-label="Notes">Ceno por la noche.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">¿Qué hora es?</span></td><td data-label="Type">phr.</td><td data-label="English">What time is it?</td><td data-label="Notes">Answer: Es la una / Son las dos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">y media</span></td><td data-label="Type">phr.</td><td data-label="English">half past</td><td data-label="Notes">las dos y media.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">y cuarto</span></td><td data-label="Type">phr.</td><td data-label="English">quarter past</td><td data-label="Notes">las ocho y cuarto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">menos cuarto</span></td><td data-label="Type">phr.</td><td data-label="English">quarter to</td><td data-label="Notes">las nueve menos cuarto.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences you can use from day one. Read them once; no need to memorize.</p>
+
+<h3>1. Describe when you get up:</h3>
+<div class="phrase">
+  <p class="es">Me levanto temprano, a las siete.</p>
+  <p class="en">I get up early, at seven.</p>
+</div>
+<h3>2. Talk about your routine:</h3>
+<div class="phrase">
+  <p class="es">Primero me ducho, luego desayuno.</p>
+  <p class="en">First I shower, then I have breakfast.</p>
+</div>
+<h3>3. Ask the time:</h3>
+<div class="phrase">
+  <p class="es">¿Qué hora es? — Son las nueve y media.</p>
+  <p class="en">What time is it? — It's half past nine.</p>
+</div>
+<h3>4. Talk about sleep:</h3>
+<div class="phrase">
+  <p class="es">Duermo ocho horas y me acuesto tarde.</p>
+  <p class="en">I sleep eight hours and I go to bed late.</p>
+</div>
+<h3>5. Say what you do at night:</h3>
+<div class="phrase">
+  <p class="es">Por la noche ceno con mi familia.</p>
+  <p class="en">At night I have dinner with my family.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends compare their daily routines.</p>
+
+<div class="phrase">
+  <p class="es">Ana: ¿A qué hora te levantas, Kenji?</p>
+  <p class="en">Ana: What time do you get up, Kenji?</p>
+</div>
+<div class="phrase">
+  <p class="es">Kenji: A las siete. Primero me ducho y luego desayuno.</p>
+  <p class="en">Kenji: At seven. First I shower and then I have breakfast.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: ¿Y trabajas por la mañana?</p>
+  <p class="en">Ana: And do you work in the morning?</p>
+</div>
+<div class="phrase">
+  <p class="es">Kenji: Sí, trabajo hasta las dos. Por la tarde duermo una siesta.</p>
+  <p class="en">Kenji: Yes, I work until two. In the afternoon I take a nap.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: ¡Qué bien! Yo nunca duermo una siesta.</p>
+  <p class="en">Ana: How nice! I never take a nap.</p>
+</div>
+<div class="phrase">
+  <p class="es">Kenji: ¿Y a qué hora te acuestas?</p>
+  <p class="en">Kenji: And what time do you go to bed?</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: Tarde, a las once o a las doce.</p>
+  <p class="en">Ana: Late, at eleven or twelve.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>nunca</strong> (never), <strong>o</strong> (or).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Reflexive verbs</strong> take a pronoun: <span class="es">me levanto, te duchas, se acuesta</span>.</li>
+  <li>The pronoun goes before the verb, or attaches to an infinitive: <span class="es">quiero levantarme</span>.</li>
+  <li>Time: <span class="es">¿Qué hora es? — Es la una / Son las dos y media / las nueve menos cuarto</span>.</li>
+  <li>Sequencing: <span class="es">primero, luego, después, por la mañana / por la noche</span>.</li>
+  <li>Home words: <span class="es">la casa, el piso, la habitación, el baño, la cocina, la cama</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — the afternoon nap</h3>
+<p><strong>Context:</strong> A short note on the siesta and Spanish daily rhythms. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En España, muchas personas comen a las dos y media.</p>
+  <p class="en">In Spain, many people eat at half past two.</p>
+</div>
+<div class="phrase">
+  <p class="es">Después de comer, algunas personas duermen una siesta corta.</p>
+  <p class="en">After eating, some people take a short nap.</p>
+</div>
+<div class="phrase">
+  <p class="es">No es una hora de pereza: es una costumbre del clima y del horario.</p>
+  <p class="en">It isn't a lazy hour: it's a habit born of the climate and the schedule.</p>
+</div>
+<div class="phrase">
+  <p class="es">En las ciudades grandes, hoy la gente tiene menos tiempo para dormir.</p>
+  <p class="en">In big cities, people today have less time to sleep.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero un café y veinte minutos de descanso todavía ayudan mucho.</p>
+  <p class="en">But a coffee and twenty minutes of rest still help a lot.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>pereza</strong> (laziness), <strong>costumbre</strong> (habit), <strong>clima</strong> (climate), <strong>horario</strong> (schedule), <strong>descanso</strong> (rest), <strong>todavía</strong> (still, yet).</em></p>
+
+<hr>
+<p><strong>End of Lesson 08.</strong> Next, <strong>Lesson 09</strong>: shopping and prices — <em>¿cuánto cuesta?</em>, colours and clothes. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>
