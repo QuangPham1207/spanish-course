@@ -3601,5 +3601,1417 @@ window.VOCAB = [
         }
       }
     ]
+  },
+  {
+    "lesson": 11,
+    "title": "The city & directions",
+    "words": [
+      {
+        "word": "hay",
+        "type": "v. (impersonal)",
+        "en": "there is / there are",
+        "note": "Same form for one or many: hay un banco / hay dos bancos.",
+        "example": {
+          "es": "En mi barrio hay un parque.",
+          "en": "In my neighbourhood there's a park."
+        }
+      },
+      {
+        "word": "calle",
+        "type": "n.f.",
+        "en": "street",
+        "note": "la calle Mayor = Main Street.",
+        "example": {
+          "es": "Vivo en la calle Mayor.",
+          "en": "I live on Main Street."
+        }
+      },
+      {
+        "word": "plaza",
+        "type": "n.f.",
+        "en": "square, plaza",
+        "note": "An open public square.",
+        "example": {
+          "es": "La plaza está en el centro.",
+          "en": "The square is in the centre."
+        }
+      },
+      {
+        "word": "parque",
+        "type": "n.m.",
+        "en": "park",
+        "note": "el parque.",
+        "example": {
+          "es": "Hay un parque cerca de casa.",
+          "en": "There's a park near home."
+        }
+      },
+      {
+        "word": "barrio",
+        "type": "n.m.",
+        "en": "neighbourhood, district",
+        "note": "el barrio.",
+        "example": {
+          "es": "Mi barrio está cerca del centro.",
+          "en": "My neighbourhood is near the centre."
+        }
+      },
+      {
+        "word": "iglesia",
+        "type": "n.f.",
+        "en": "church",
+        "note": "la iglesia.",
+        "example": {
+          "es": "La iglesia está al lado del museo.",
+          "en": "The church is next to the museum."
+        }
+      },
+      {
+        "word": "banco",
+        "type": "n.m.",
+        "en": "bank",
+        "note": "el banco.",
+        "example": {
+          "es": "El banco está en la esquina.",
+          "en": "The bank is on the corner."
+        }
+      },
+      {
+        "word": "museo",
+        "type": "n.m.",
+        "en": "museum",
+        "note": "el museo.",
+        "example": {
+          "es": "Vamos al museo el domingo.",
+          "en": "We're going to the museum on Sunday."
+        }
+      },
+      {
+        "word": "edificio",
+        "type": "n.m.",
+        "en": "building",
+        "note": "el edificio.",
+        "example": {
+          "es": "Es un edificio moderno.",
+          "en": "It's a modern building."
+        }
+      },
+      {
+        "word": "esquina",
+        "type": "n.f.",
+        "en": "corner",
+        "note": "en la esquina = on the corner.",
+        "example": {
+          "es": "El banco está en la esquina.",
+          "en": "The bank is on the corner."
+        }
+      },
+      {
+        "word": "derecha",
+        "type": "n.f.",
+        "en": "right (side)",
+        "note": "a la derecha = on/to the right.",
+        "example": {
+          "es": "Gira a la derecha.",
+          "en": "Turn right."
+        }
+      },
+      {
+        "word": "izquierda",
+        "type": "n.f.",
+        "en": "left (side)",
+        "note": "a la izquierda = on/to the left.",
+        "example": {
+          "es": "El museo está a la izquierda.",
+          "en": "The museum is on the left."
+        }
+      },
+      {
+        "word": "recto",
+        "type": "adj./adv.",
+        "en": "straight (on)",
+        "note": "seguir recto = to go straight on.",
+        "example": {
+          "es": "Ve recto por esta calle.",
+          "en": "Go straight along this street."
+        }
+      },
+      {
+        "word": "cruzar",
+        "type": "v.",
+        "en": "to cross",
+        "note": "cruzo, cruzas, cruza…",
+        "example": {
+          "es": "Cruza la plaza.",
+          "en": "Cross the square."
+        }
+      },
+      {
+        "word": "girar",
+        "type": "v.",
+        "en": "to turn",
+        "note": "girar a la derecha / a la izquierda.",
+        "example": {
+          "es": "Gira a la izquierda en el semáforo.",
+          "en": "Turn left at the traffic light."
+        }
+      },
+      {
+        "word": "semáforo",
+        "type": "n.m.",
+        "en": "traffic light",
+        "note": "el semáforo.",
+        "example": {
+          "es": "Espera en el semáforo.",
+          "en": "Wait at the traffic light."
+        }
+      },
+      {
+        "word": "cerca",
+        "type": "adv./adj.",
+        "en": "near, close",
+        "note": "cerca de = near to.",
+        "example": {
+          "es": "El parque está cerca.",
+          "en": "The park is near."
+        }
+      },
+      {
+        "word": "lejos",
+        "type": "adv.",
+        "en": "far",
+        "note": "lejos de = far from.",
+        "example": {
+          "es": "La estación no está lejos.",
+          "en": "The station isn't far."
+        }
+      },
+      {
+        "word": "aquí",
+        "type": "adv.",
+        "en": "here",
+        "note": "Aquí hay… = Here there is/are…",
+        "example": {
+          "es": "Aquí hay muchos turistas.",
+          "en": "There are lots of tourists here."
+        }
+      },
+      {
+        "word": "allí",
+        "type": "adv.",
+        "en": "there, over there",
+        "note": "Refers to a place a little far from the speaker.",
+        "example": {
+          "es": "El museo está allí.",
+          "en": "The museum is over there."
+        }
+      },
+      {
+        "word": "al lado de",
+        "type": "phr. (loc.)",
+        "en": "next to, beside",
+        "note": "al lado del / de la…",
+        "example": {
+          "es": "El banco está al lado del mercado.",
+          "en": "The bank is next to the market."
+        }
+      },
+      {
+        "word": "enfrente de",
+        "type": "phr. (loc.)",
+        "en": "opposite, facing",
+        "note": "enfrente del museo.",
+        "example": {
+          "es": "Hay un parque enfrente de mi casa.",
+          "en": "There's a park opposite my house."
+        }
+      },
+      {
+        "word": "entre",
+        "type": "prep.",
+        "en": "between",
+        "note": "entre A y B.",
+        "example": {
+          "es": "El banco está entre la iglesia y el museo.",
+          "en": "The bank is between the church and the museum."
+        }
+      },
+      {
+        "word": "detrás de",
+        "type": "phr. (loc.)",
+        "en": "behind",
+        "note": "detrás del edificio.",
+        "example": {
+          "es": "El jardín está detrás de la iglesia.",
+          "en": "The garden is behind the church."
+        }
+      },
+      {
+        "word": "delante de",
+        "type": "phr. (loc.)",
+        "en": "in front of",
+        "note": "delante del museo.",
+        "example": {
+          "es": "Hay una plaza delante del museo.",
+          "en": "There's a square in front of the museum."
+        }
+      },
+      {
+        "word": "acera",
+        "type": "n.f.",
+        "en": "pavement, sidewalk",
+        "note": "Spain: acera; Mexico: banqueta; Argentina: vereda.",
+        "ext": true,
+        "example": {
+          "es": "Camino por la acera.",
+          "en": "I walk along the pavement."
+        }
+      },
+      {
+        "word": "avenida",
+        "type": "n.f.",
+        "en": "avenue",
+        "note": "la avenida.",
+        "ext": true,
+        "example": {
+          "es": "Vive en una avenida grande.",
+          "en": "He lives on a big avenue."
+        }
+      },
+      {
+        "word": "hospital",
+        "type": "n.m.",
+        "en": "hospital",
+        "note": "el hospital.",
+        "ext": true,
+        "example": {
+          "es": "El hospital está cerca del río.",
+          "en": "The hospital is near the river."
+        }
+      },
+      {
+        "word": "jardín",
+        "type": "n.m.",
+        "en": "garden",
+        "note": "el jardín, los jardines.",
+        "ext": true,
+        "example": {
+          "es": "Hay un jardín detrás de la casa.",
+          "en": "There's a garden behind the house."
+        }
+      },
+      {
+        "word": "río",
+        "type": "n.m.",
+        "en": "river",
+        "note": "el río.",
+        "ext": true,
+        "example": {
+          "es": "El río pasa por el centro.",
+          "en": "The river runs through the centre."
+        }
+      },
+      {
+        "word": "turista",
+        "type": "n.m./f.",
+        "en": "tourist",
+        "note": "Same form for men and women.",
+        "ext": true,
+        "example": {
+          "es": "Aquí hay muchos turistas.",
+          "en": "There are lots of tourists here."
+        }
+      },
+      {
+        "word": "farmacia",
+        "type": "n.f.",
+        "en": "pharmacy, chemist's",
+        "note": "la farmacia.",
+        "ext": true,
+        "example": {
+          "es": "La farmacia está en la esquina.",
+          "en": "The pharmacy is on the corner."
+        }
+      },
+      {
+        "word": "recorrer",
+        "type": "v.",
+        "en": "to go around, to cover (a route)",
+        "note": "recorro, recorres, recorre…",
+        "ext": true,
+        "example": {
+          "es": "Recorro la ciudad a pie.",
+          "en": "I go around the city on foot."
+        }
+      },
+      {
+        "word": "puente",
+        "type": "n.m.",
+        "en": "bridge",
+        "note": "el puente.",
+        "ext": true,
+        "example": {
+          "es": "El museo está cerca del puente.",
+          "en": "The museum is near the bridge."
+        }
+      },
+      {
+        "word": "antiguo/a",
+        "type": "adj.",
+        "en": "old, ancient",
+        "note": "una iglesia antigua = an old church.",
+        "ext": true,
+        "example": {
+          "es": "Es una iglesia antigua.",
+          "en": "It's an old church."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "title": "Transport & travel basics",
+    "words": [
+      {
+        "word": "tren",
+        "type": "n.m.",
+        "en": "train",
+        "note": "en tren = by train; el tren.",
+        "example": {
+          "es": "Voy a Madrid en tren.",
+          "en": "I'm going to Madrid by train."
+        }
+      },
+      {
+        "word": "autobús",
+        "type": "n.m.",
+        "en": "bus",
+        "note": "el autobús, los autobuses. Also bus.",
+        "example": {
+          "es": "Tomamos el autobús número doce.",
+          "en": "We take bus number twelve."
+        }
+      },
+      {
+        "word": "avión",
+        "type": "n.m.",
+        "en": "plane, aeroplane",
+        "note": "en avión = by plane; el avión.",
+        "example": {
+          "es": "Viajamos en avión a Sevilla.",
+          "en": "We travel to Seville by plane."
+        }
+      },
+      {
+        "word": "metro",
+        "type": "n.m.",
+        "en": "metro, subway",
+        "note": "el metro.",
+        "example": {
+          "es": "El metro es rápido.",
+          "en": "The metro is fast."
+        }
+      },
+      {
+        "word": "coche",
+        "type": "n.m.",
+        "en": "car",
+        "note": "Spain: coche; most of Latin America: carro or auto.",
+        "example": {
+          "es": "Vamos en coche al centro.",
+          "en": "We go to the centre by car."
+        }
+      },
+      {
+        "word": "billete",
+        "type": "n.m.",
+        "en": "ticket",
+        "note": "Spain: billete; Latin America: boleto.",
+        "example": {
+          "es": "Compro un billete de tren.",
+          "en": "I buy a train ticket."
+        }
+      },
+      {
+        "word": "estación",
+        "type": "n.f.",
+        "en": "station",
+        "note": "la estación de tren / de autobuses.",
+        "example": {
+          "es": "Esperamos en la estación.",
+          "en": "We wait at the station."
+        }
+      },
+      {
+        "word": "aeropuerto",
+        "type": "n.m.",
+        "en": "airport",
+        "note": "el aeropuerto.",
+        "example": {
+          "es": "El aeropuerto está lejos de la ciudad.",
+          "en": "The airport is far from the city."
+        }
+      },
+      {
+        "word": "viaje",
+        "type": "n.m.",
+        "en": "trip, journey",
+        "note": "buen viaje = have a good trip.",
+        "example": {
+          "es": "El viaje es largo.",
+          "en": "The journey is long."
+        }
+      },
+      {
+        "word": "viajar",
+        "type": "v.",
+        "en": "to travel",
+        "note": "viajo, viajas, viaja…",
+        "example": {
+          "es": "Me gusta viajar.",
+          "en": "I like to travel."
+        }
+      },
+      {
+        "word": "llegar",
+        "type": "v.",
+        "en": "to arrive",
+        "note": "llegar a = to arrive in/at.",
+        "example": {
+          "es": "El tren llega a las once.",
+          "en": "The train arrives at eleven."
+        }
+      },
+      {
+        "word": "esperar",
+        "type": "v.",
+        "en": "to wait (for)",
+        "note": "espero, esperas…; esperar el autobús.",
+        "example": {
+          "es": "Esperamos el tren.",
+          "en": "We wait for the train."
+        }
+      },
+      {
+        "word": "subir",
+        "type": "v.",
+        "en": "to get on, to go up",
+        "note": "subir a = to get on.",
+        "example": {
+          "es": "Subimos al autobús.",
+          "en": "We get on the bus."
+        }
+      },
+      {
+        "word": "bajar",
+        "type": "v.",
+        "en": "to get off, to go down",
+        "note": "bajar de = to get off.",
+        "example": {
+          "es": "Bajamos en el museo.",
+          "en": "We get off at the museum."
+        }
+      },
+      {
+        "word": "andén",
+        "type": "n.m.",
+        "en": "platform",
+        "note": "el andén, los andenes.",
+        "example": {
+          "es": "Esperamos en el andén.",
+          "en": "We wait on the platform."
+        }
+      },
+      {
+        "word": "horario",
+        "type": "n.m.",
+        "en": "timetable, schedule",
+        "note": "el horario de trenes.",
+        "example": {
+          "es": "Miro el horario de trenes.",
+          "en": "I check the train timetable."
+        }
+      },
+      {
+        "word": "vuelo",
+        "type": "n.m.",
+        "en": "flight",
+        "note": "el vuelo.",
+        "ext": true,
+        "example": {
+          "es": "El vuelo sale a las ocho.",
+          "en": "The flight leaves at eight."
+        }
+      },
+      {
+        "word": "volar",
+        "type": "v.",
+        "en": "to fly",
+        "note": "o→ue: vuelo, vuelas, vuela…",
+        "ext": true,
+        "example": {
+          "es": "Mañana volamos a Chile.",
+          "en": "Tomorrow we fly to Chile."
+        }
+      },
+      {
+        "word": "retraso",
+        "type": "n.m.",
+        "en": "delay",
+        "note": "con retraso = late.",
+        "ext": true,
+        "example": {
+          "es": "El tren llega con retraso.",
+          "en": "The train arrives late."
+        }
+      },
+      {
+        "word": "rápido",
+        "type": "adj.",
+        "en": "fast, quick",
+        "note": "Antonym: lento (slow).",
+        "ext": true,
+        "example": {
+          "es": "El metro es muy rápido.",
+          "en": "The metro is very fast."
+        }
+      },
+      {
+        "word": "despacio",
+        "type": "adv.",
+        "en": "slowly",
+        "note": "Habla despacio = speak slowly.",
+        "ext": true,
+        "example": {
+          "es": "Habla despacio, por favor.",
+          "en": "Speak slowly, please."
+        }
+      },
+      {
+        "word": "maleta",
+        "type": "n.f.",
+        "en": "suitcase",
+        "note": "la maleta.",
+        "ext": true,
+        "example": {
+          "es": "Mi maleta es pequeña.",
+          "en": "My suitcase is small."
+        }
+      },
+      {
+        "word": "destino",
+        "type": "n.m.",
+        "en": "destination",
+        "note": "el destino.",
+        "ext": true,
+        "example": {
+          "es": "Madrid es mi destino.",
+          "en": "Madrid is my destination."
+        }
+      },
+      {
+        "word": "desde",
+        "type": "prep.",
+        "en": "from, since",
+        "note": "desde aquí = from here.",
+        "ext": true,
+        "example": {
+          "es": "Desde el tren veo la ciudad.",
+          "en": "From the train I see the city."
+        }
+      },
+      {
+        "word": "parada",
+        "type": "n.f.",
+        "en": "stop (bus stop)",
+        "note": "la parada del autobús.",
+        "ext": true,
+        "example": {
+          "es": "La parada está cerca.",
+          "en": "The stop is near."
+        }
+      },
+      {
+        "word": "conductor",
+        "type": "n.m.",
+        "en": "driver",
+        "note": "el conductor, la conductora.",
+        "ext": true,
+        "example": {
+          "es": "El conductor es simpático.",
+          "en": "The driver is friendly."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "title": "Weather & seasons",
+    "words": [
+      {
+        "word": "tiempo",
+        "type": "n.m.",
+        "en": "weather; time",
+        "note": "¿Qué tiempo hace? = What's the weather like?",
+        "example": {
+          "es": "¿Qué tiempo hace hoy?",
+          "en": "What's the weather like today?"
+        }
+      },
+      {
+        "word": "clima",
+        "type": "n.m.",
+        "en": "climate",
+        "note": "el clima (masculine).",
+        "example": {
+          "es": "El clima de España es variado.",
+          "en": "The climate of Spain is varied."
+        }
+      },
+      {
+        "word": "sol",
+        "type": "n.m.",
+        "en": "sun",
+        "note": "hace sol = it's sunny.",
+        "example": {
+          "es": "Hoy hace sol.",
+          "en": "Today it's sunny."
+        }
+      },
+      {
+        "word": "lluvia",
+        "type": "n.f.",
+        "en": "rain",
+        "note": "llover = to rain.",
+        "example": {
+          "es": "Me gusta la lluvia.",
+          "en": "I like the rain."
+        }
+      },
+      {
+        "word": "nieve",
+        "type": "n.f.",
+        "en": "snow",
+        "note": "nevar = to snow.",
+        "example": {
+          "es": "En la montaña hay nieve.",
+          "en": "There's snow in the mountains."
+        }
+      },
+      {
+        "word": "viento",
+        "type": "n.m.",
+        "en": "wind",
+        "note": "hace viento = it's windy.",
+        "example": {
+          "es": "Hoy hace viento.",
+          "en": "Today it's windy."
+        }
+      },
+      {
+        "word": "calor",
+        "type": "n.m.",
+        "en": "heat",
+        "note": "hace calor = it's hot; tener calor = to be hot.",
+        "example": {
+          "es": "En verano hace mucho calor.",
+          "en": "In summer it's very hot."
+        }
+      },
+      {
+        "word": "frío",
+        "type": "n.m./adj.",
+        "en": "cold",
+        "note": "hace frío = it's cold; tener frío = to be cold.",
+        "example": {
+          "es": "En invierno hace frío.",
+          "en": "In winter it's cold."
+        }
+      },
+      {
+        "word": "nube",
+        "type": "n.f.",
+        "en": "cloud",
+        "note": "nublado = cloudy.",
+        "example": {
+          "es": "Hoy hay muchas nubes.",
+          "en": "Today there are lots of clouds."
+        }
+      },
+      {
+        "word": "llover",
+        "type": "v.",
+        "en": "to rain",
+        "note": "o→ue; mostly the 3rd person: llueve.",
+        "example": {
+          "es": "Llueve mucho en abril.",
+          "en": "It rains a lot in April."
+        }
+      },
+      {
+        "word": "nevar",
+        "type": "v.",
+        "en": "to snow",
+        "note": "e→ie; mostly the 3rd person: nieva.",
+        "example": {
+          "es": "Nieva en el norte.",
+          "en": "It snows in the north."
+        }
+      },
+      {
+        "word": "primavera",
+        "type": "n.f.",
+        "en": "spring",
+        "note": "en primavera = in spring.",
+        "example": {
+          "es": "En primavera hay flores.",
+          "en": "In spring there are flowers."
+        }
+      },
+      {
+        "word": "verano",
+        "type": "n.m.",
+        "en": "summer",
+        "note": "en verano = in summer.",
+        "example": {
+          "es": "En verano hace mucho calor.",
+          "en": "In summer it's very hot."
+        }
+      },
+      {
+        "word": "otoño",
+        "type": "n.m.",
+        "en": "autumn, fall",
+        "note": "en otoño = in autumn.",
+        "example": {
+          "es": "En otoño hace viento.",
+          "en": "In autumn it's windy."
+        }
+      },
+      {
+        "word": "invierno",
+        "type": "n.m.",
+        "en": "winter",
+        "note": "en invierno = in winter.",
+        "example": {
+          "es": "En invierno nieva en la montaña.",
+          "en": "In winter it snows in the mountains."
+        }
+      },
+      {
+        "word": "grados",
+        "type": "n.m.pl.",
+        "en": "degrees",
+        "note": "hace veinte grados = it's twenty degrees.",
+        "example": {
+          "es": "Hoy hace veinte grados.",
+          "en": "Today it's twenty degrees."
+        }
+      },
+      {
+        "word": "paraguas",
+        "type": "n.m.",
+        "en": "umbrella",
+        "note": "el paraguas, los paraguas (doesn't change).",
+        "example": {
+          "es": "Llevo un paraguas.",
+          "en": "I'm carrying an umbrella."
+        }
+      },
+      {
+        "word": "abrigo",
+        "type": "n.m.",
+        "en": "coat",
+        "note": "el abrigo.",
+        "example": {
+          "es": "En invierno llevo abrigo.",
+          "en": "In winter I wear a coat."
+        }
+      },
+      {
+        "word": "húmedo",
+        "type": "adj.",
+        "en": "humid, damp",
+        "note": "húmedo / húmeda.",
+        "example": {
+          "es": "El clima es húmedo.",
+          "en": "The climate is humid."
+        }
+      },
+      {
+        "word": "seco",
+        "type": "adj.",
+        "en": "dry",
+        "note": "seco / seca.",
+        "example": {
+          "es": "El sur de España es muy seco.",
+          "en": "The south of Spain is very dry."
+        }
+      },
+      {
+        "word": "norte",
+        "type": "n.m.",
+        "en": "north",
+        "note": "el norte; al norte = to the north.",
+        "example": {
+          "es": "El norte es más frío.",
+          "en": "The north is colder."
+        }
+      },
+      {
+        "word": "sur",
+        "type": "n.m.",
+        "en": "south",
+        "note": "el sur; al sur = to the south.",
+        "example": {
+          "es": "Vivo en el sur.",
+          "en": "I live in the south."
+        }
+      },
+      {
+        "word": "temperatura",
+        "type": "n.f.",
+        "en": "temperature",
+        "note": "la temperatura.",
+        "ext": true,
+        "example": {
+          "es": "La temperatura es alta.",
+          "en": "The temperature is high."
+        }
+      },
+      {
+        "word": "montaña",
+        "type": "n.f.",
+        "en": "mountain",
+        "note": "la montaña.",
+        "ext": true,
+        "example": {
+          "es": "La montaña está al norte.",
+          "en": "The mountain is to the north."
+        }
+      },
+      {
+        "word": "niebla",
+        "type": "n.f.",
+        "en": "fog",
+        "note": "hay niebla = it's foggy.",
+        "ext": true,
+        "example": {
+          "es": "Hoy hay niebla.",
+          "en": "Today it's foggy."
+        }
+      },
+      {
+        "word": "tormenta",
+        "type": "n.f.",
+        "en": "storm",
+        "note": "la tormenta.",
+        "ext": true,
+        "example": {
+          "es": "En verano hay tormentas.",
+          "en": "In summer there are storms."
+        }
+      },
+      {
+        "word": "suave",
+        "type": "adj.",
+        "en": "mild, soft",
+        "note": "un clima suave = a mild climate.",
+        "ext": true,
+        "example": {
+          "es": "El clima es suave.",
+          "en": "The climate is mild."
+        }
+      },
+      {
+        "word": "oeste",
+        "type": "n.m.",
+        "en": "west",
+        "note": "el oeste; al oeste = to the west.",
+        "ext": true,
+        "example": {
+          "es": "El oeste es más húmedo.",
+          "en": "The west is more humid."
+        }
+      },
+      {
+        "word": "¿Qué tiempo hace?",
+        "type": "phr.",
+        "en": "What's the weather like?",
+        "note": "Answer: Hace sol / Llueve / Hace frío…",
+        "ext": true,
+        "example": {
+          "es": "¿Qué tiempo hace en Madrid?",
+          "en": "What's the weather like in Madrid?"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "title": "Likes & hobbies",
+    "words": [
+      {
+        "word": "gustar",
+        "type": "v.",
+        "en": "to like, to please",
+        "note": "Me gusta + singular; me gustan + plural.",
+        "example": {
+          "es": "Me gusta la música.",
+          "en": "I like music."
+        }
+      },
+      {
+        "word": "encantar",
+        "type": "v.",
+        "en": "to love (something)",
+        "note": "Me encanta / me encantan. Stronger than gustar.",
+        "example": {
+          "es": "Me encanta bailar.",
+          "en": "I love to dance."
+        }
+      },
+      {
+        "word": "música",
+        "type": "n.f.",
+        "en": "music",
+        "note": "la música.",
+        "example": {
+          "es": "Escucho música en casa.",
+          "en": "I listen to music at home."
+        }
+      },
+      {
+        "word": "canción",
+        "type": "n.f.",
+        "en": "song",
+        "note": "la canción, las canciones.",
+        "example": {
+          "es": "Esta canción es bonita.",
+          "en": "This song is nice."
+        }
+      },
+      {
+        "word": "bailar",
+        "type": "v.",
+        "en": "to dance",
+        "note": "bailo, bailas, baila…",
+        "example": {
+          "es": "Me gusta bailar.",
+          "en": "I like to dance."
+        }
+      },
+      {
+        "word": "cantar",
+        "type": "v.",
+        "en": "to sing",
+        "note": "canto, cantas, canta…",
+        "example": {
+          "es": "A ella le gusta cantar.",
+          "en": "She likes to sing."
+        }
+      },
+      {
+        "word": "escuchar",
+        "type": "v.",
+        "en": "to listen (to)",
+        "note": "escuchar música / la radio.",
+        "example": {
+          "es": "Escucho música todos los días.",
+          "en": "I listen to music every day."
+        }
+      },
+      {
+        "word": "cine",
+        "type": "n.m.",
+        "en": "cinema",
+        "note": "ir al cine = to go to the cinema.",
+        "example": {
+          "es": "Vamos al cine el viernes.",
+          "en": "We're going to the cinema on Friday."
+        }
+      },
+      {
+        "word": "película",
+        "type": "n.f.",
+        "en": "film, movie",
+        "note": "la película.",
+        "example": {
+          "es": "La película es divertida.",
+          "en": "The film is fun."
+        }
+      },
+      {
+        "word": "serie",
+        "type": "n.f.",
+        "en": "series, show",
+        "note": "una serie de televisión.",
+        "example": {
+          "es": "Veo una serie en casa.",
+          "en": "I watch a series at home."
+        }
+      },
+      {
+        "word": "videojuego",
+        "type": "n.m.",
+        "en": "video game",
+        "note": "el videojuego, los videojuegos.",
+        "example": {
+          "es": "Le gustan los videojuegos.",
+          "en": "He likes video games."
+        }
+      },
+      {
+        "word": "nadar",
+        "type": "v.",
+        "en": "to swim",
+        "note": "nado, nadas, nada…",
+        "example": {
+          "es": "Me gusta nadar en el mar.",
+          "en": "I like to swim in the sea."
+        }
+      },
+      {
+        "word": "correr",
+        "type": "v.",
+        "en": "to run",
+        "note": "corro, corres, corre…",
+        "example": {
+          "es": "Corro por la mañana.",
+          "en": "I run in the morning."
+        }
+      },
+      {
+        "word": "cocinar",
+        "type": "v.",
+        "en": "to cook",
+        "note": "cocino, cocinas, cocina…",
+        "example": {
+          "es": "Me gusta cocinar los domingos.",
+          "en": "I like to cook on Sundays."
+        }
+      },
+      {
+        "word": "pintar",
+        "type": "v.",
+        "en": "to paint",
+        "note": "pinto, pintas, pinta…",
+        "example": {
+          "es": "A mi hermana le gusta pintar.",
+          "en": "My sister likes to paint."
+        }
+      },
+      {
+        "word": "hacer",
+        "type": "v.",
+        "en": "to do, to make",
+        "note": "Irregular: hago, haces, hace…",
+        "example": {
+          "es": "¿Qué te gusta hacer?",
+          "en": "What do you like to do?"
+        }
+      },
+      {
+        "word": "tiempo libre",
+        "type": "phr.",
+        "en": "free time",
+        "note": "en mi tiempo libre = in my free time.",
+        "example": {
+          "es": "¿Qué haces en tu tiempo libre?",
+          "en": "What do you do in your free time?"
+        }
+      },
+      {
+        "word": "pasatiempo",
+        "type": "n.m.",
+        "en": "hobby, pastime",
+        "note": "el pasatiempo; mis pasatiempos.",
+        "example": {
+          "es": "Mi pasatiempo es la música.",
+          "en": "My hobby is music."
+        }
+      },
+      {
+        "word": "afición",
+        "type": "n.f.",
+        "en": "hobby, interest",
+        "note": "la afición.",
+        "example": {
+          "es": "Mi afición es la música.",
+          "en": "My hobby is music."
+        }
+      },
+      {
+        "word": "tocar",
+        "type": "v.",
+        "en": "to play (an instrument)",
+        "note": "tocar la guitarra / el piano.",
+        "ext": true,
+        "example": {
+          "es": "Me gusta tocar la guitarra.",
+          "en": "I like to play the guitar."
+        }
+      },
+      {
+        "word": "concierto",
+        "type": "n.m.",
+        "en": "concert",
+        "note": "el concierto.",
+        "ext": true,
+        "example": {
+          "es": "Voy a un concierto el sábado.",
+          "en": "I'm going to a concert on Saturday."
+        }
+      },
+      {
+        "word": "mar",
+        "type": "n.m.",
+        "en": "sea",
+        "note": "el mar (masculine in most varieties).",
+        "ext": true,
+        "example": {
+          "es": "Nado en el mar.",
+          "en": "I swim in the sea."
+        }
+      },
+      {
+        "word": "playa",
+        "type": "n.f.",
+        "en": "beach",
+        "note": "la playa.",
+        "ext": true,
+        "example": {
+          "es": "En verano vamos a la playa.",
+          "en": "In summer we go to the beach."
+        }
+      },
+      {
+        "word": "equipo",
+        "type": "n.m.",
+        "en": "team",
+        "note": "el equipo.",
+        "ext": true,
+        "example": {
+          "es": "Mi equipo juega hoy.",
+          "en": "My team plays today."
+        }
+      },
+      {
+        "word": "aficionado/a",
+        "type": "n.m./f.",
+        "en": "fan, supporter",
+        "note": "soy aficionado al fútbol = I'm a football fan.",
+        "ext": true,
+        "example": {
+          "es": "Soy aficionado al fútbol.",
+          "en": "I'm a football fan."
+        }
+      },
+      {
+        "word": "aburrido",
+        "type": "adj.",
+        "en": "boring",
+        "note": "aburrido / aburrida.",
+        "ext": true,
+        "example": {
+          "es": "La película es aburrida.",
+          "en": "The film is boring."
+        }
+      },
+      {
+        "word": "de acuerdo",
+        "type": "phr.",
+        "en": "agreed, OK",
+        "note": "Estar de acuerdo = to agree.",
+        "ext": true,
+        "example": {
+          "es": "De acuerdo, vamos al cine.",
+          "en": "OK, let's go to the cinema."
+        }
+      },
+      {
+        "word": "tampoco",
+        "type": "adv.",
+        "en": "neither, not either",
+        "note": "Antonym of también.",
+        "ext": true,
+        "example": {
+          "es": "No me gusta el frío, y a ella tampoco.",
+          "en": "I don't like the cold, and neither does she."
+        }
+      },
+      {
+        "word": "guitarra",
+        "type": "n.f.",
+        "en": "guitar",
+        "note": "la guitarra.",
+        "ext": true,
+        "example": {
+          "es": "Toco la guitarra.",
+          "en": "I play the guitar."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "title": "A1 consolidation — a day in the city",
+    "words": [
+      {
+        "word": "pasear",
+        "type": "v.",
+        "en": "to go for a walk, to stroll",
+        "note": "paseo, paseas, pasea…",
+        "example": {
+          "es": "Paseo por la ciudad.",
+          "en": "I stroll around the city."
+        }
+      },
+      {
+        "word": "caminar",
+        "type": "v.",
+        "en": "to walk",
+        "note": "camino, caminas, camina…",
+        "example": {
+          "es": "Me gusta caminar por el parque.",
+          "en": "I like to walk in the park."
+        }
+      },
+      {
+        "word": "padres",
+        "type": "n.m.pl.",
+        "en": "parents",
+        "note": "los padres = parents; also 'fathers'.",
+        "example": {
+          "es": "Vivo con mis padres.",
+          "en": "I live with my parents."
+        }
+      },
+      {
+        "word": "hermoso/a",
+        "type": "adj.",
+        "en": "beautiful",
+        "note": "Synonym: bonito/a.",
+        "example": {
+          "es": "Es una ciudad hermosa.",
+          "en": "It's a beautiful city."
+        }
+      },
+      {
+        "word": "cada",
+        "type": "adj.",
+        "en": "each, every",
+        "note": "cada día = every day.",
+        "example": {
+          "es": "Cada mañana desayuno café.",
+          "en": "Every morning I have coffee for breakfast."
+        }
+      },
+      {
+        "word": "siempre",
+        "type": "adv.",
+        "en": "always",
+        "note": "Antonym: nunca.",
+        "example": {
+          "es": "Siempre desayuno en casa.",
+          "en": "I always have breakfast at home."
+        }
+      },
+      {
+        "word": "nunca",
+        "type": "adv.",
+        "en": "never",
+        "note": "No... nunca = never.",
+        "example": {
+          "es": "Nunca llego tarde.",
+          "en": "I'm never late."
+        }
+      },
+      {
+        "word": "pasar",
+        "type": "v.",
+        "en": "to pass; to spend (time)",
+        "note": "pasar tiempo = to spend time.",
+        "example": {
+          "es": "Paso el verano en la playa.",
+          "en": "I spend the summer at the beach."
+        }
+      },
+      {
+        "word": "tranquilo/a",
+        "type": "adj.",
+        "en": "calm, quiet",
+        "note": "un barrio tranquilo = a quiet neighbourhood.",
+        "example": {
+          "es": "Mi barrio es tranquilo.",
+          "en": "My neighbourhood is quiet."
+        }
+      },
+      {
+        "word": "rutina",
+        "type": "n.f.",
+        "en": "routine",
+        "note": "la rutina diaria = the daily routine.",
+        "example": {
+          "es": "Mi rutina empieza a las siete.",
+          "en": "My routine starts at seven."
+        }
+      },
+      {
+        "word": "diario/a",
+        "type": "adj.",
+        "en": "daily",
+        "note": "la vida diaria = daily life.",
+        "ext": true,
+        "example": {
+          "es": "Es mi rutina diaria.",
+          "en": "It's my daily routine."
+        }
+      },
+      {
+        "word": "costumbre",
+        "type": "n.f.",
+        "en": "custom, habit",
+        "note": "por costumbre = out of habit.",
+        "ext": true,
+        "example": {
+          "es": "Por costumbre, ceno a las nueve.",
+          "en": "Out of habit, I have dinner at nine."
+        }
+      },
+      {
+        "word": "terminar",
+        "type": "v.",
+        "en": "to finish",
+        "note": "termino, terminas, termina…",
+        "ext": true,
+        "example": {
+          "es": "Termino el trabajo a las seis.",
+          "en": "I finish work at six."
+        }
+      },
+      {
+        "word": "ocupado/a",
+        "type": "adj.",
+        "en": "busy",
+        "note": "estar ocupado = to be busy.",
+        "ext": true,
+        "example": {
+          "es": "Hoy estoy muy ocupado.",
+          "en": "Today I'm very busy."
+        }
+      },
+      {
+        "word": "andar",
+        "type": "v.",
+        "en": "to walk, to go",
+        "note": "Irregular: ando, andas… Synonym of caminar.",
+        "ext": true,
+        "example": {
+          "es": "Ando al trabajo.",
+          "en": "I walk to work."
+        }
+      }
+    ]
   }
 ];

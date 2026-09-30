@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 13 — Weather &amp; seasons</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 13 — WEATHER &amp; SEASONS</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Describe the weather with <strong>hacer</strong>: <span class="es">hace frío, hace calor, hace sol, hace viento</span>.</li>
+      <li>Use <span class="es">llueve</span> (it rains) and <span class="es">nieva</span> (it snows).</li>
+      <li>Name the seasons: <span class="es">primavera, verano, otoño, invierno</span>.</li>
+      <li>Talk about temperature and the varied climates of Spain and Latin America.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">tiempo, clima, sol, lluvia, nieve, viento, calor, frío, nube, llover, nevar, primavera, verano, otoño, invierno, grados, paraguas, abrigo, húmedo, seco, norte, sur</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">temperatura, montaña, niebla, tormenta, suave, oeste, ¿qué tiempo hace?</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (THE WEATHER THROUGH THE YEAR)</h2>
+<p><strong>Context:</strong> A short text about the seasons and the climates of the Spanish-speaking world. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — the Spanish is enough to get the gist.)</p>
+
+<div class="phrase">
+  <p class="es">El tiempo cambia mucho según la estación del año.</p>
+  <p class="en">The weather changes a lot depending on the season of the year.</p>
+</div>
+<div class="phrase">
+  <p class="es">En primavera hace sol y el clima es suave. Llueve un poco y hay flores en los parques.</p>
+  <p class="en">In spring it's sunny and the climate is mild. It rains a little and there are flowers in the parks.</p>
+</div>
+<div class="phrase">
+  <p class="es">En verano hace mucho calor. En Sevilla, por ejemplo, se llega a cuarenta grados.</p>
+  <p class="en">In summer it's very hot. In Seville, for example, it reaches forty degrees.</p>
+</div>
+<div class="phrase">
+  <p class="es">En otoño hace viento y las hojas caen de los árboles.</p>
+  <p class="en">In autumn it's windy and the leaves fall from the trees.</p>
+</div>
+<div class="phrase">
+  <p class="es">En invierno hace frío y, en el norte de España, nieva en la montaña.</p>
+  <p class="en">In winter it's cold and, in the north of Spain, it snows in the mountains.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hoy está nublado y llueve, así que llevo un paraguas y un abrigo.</p>
+  <p class="en">Today it's cloudy and it's raining, so I'm carrying an umbrella and a coat.</p>
+</div>
+<div class="phrase">
+  <p class="es">En América Latina el clima también es variado: en Ciudad de México no hace mucho frío, pero en el sur de Chile y Argentina hay nieve.</p>
+  <p class="en">In Latin America the climate is varied too: in Mexico City it isn't very cold, but in the south of Chile and Argentina there's snow.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">tiempo</span></td><td data-label="Type">n.m.</td><td data-label="English">weather; time</td><td data-label="Notes">¿Qué tiempo hace?</td></tr>
+    <tr><td data-label="Spanish"><span class="es">clima</span></td><td data-label="Type">n.m.</td><td data-label="English">climate</td><td data-label="Notes">el clima.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">llover</span></td><td data-label="Type">v.</td><td data-label="English">to rain</td><td data-label="Notes">llueve = it rains.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nevar</span></td><td data-label="Type">v.</td><td data-label="English">to snow</td><td data-label="Notes">nieva = it snows.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">viento</span></td><td data-label="Type">n.m.</td><td data-label="English">wind</td><td data-label="Notes">hace viento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">calor</span></td><td data-label="Type">n.m.</td><td data-label="English">heat</td><td data-label="Notes">hace calor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">grados</span></td><td data-label="Type">n.m.pl.</td><td data-label="English">degrees</td><td data-label="Notes">hace veinte grados.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">paraguas</span></td><td data-label="Type">n.m.</td><td data-label="English">umbrella</td><td data-label="Notes">el paraguas (no change in plural).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">abrigo</span></td><td data-label="Type">n.m.</td><td data-label="English">coat</td><td data-label="Notes">el abrigo.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Memory hook:</strong> Weather is impersonal in Spanish — like English "it's raining". You rarely say "I am cold"; you say <span class="es">tengo frío</span> (literally "I have cold") and <span class="es">hace frío</span> (the weather is cold).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. <em>hacer</em> for most weather</h3>
+<p>Most weather is described with the third person of <strong>hacer</strong> (Lesson 14 will drill this verb):</p>
+<div class="formula">hace + frío / calor / sol / viento / buen tiempo / mal tiempo</div>
+<ul>
+  <li class="ex"><span class="es">Hoy hace frío.</span><span class="en">Today it's cold.</span></li>
+  <li class="ex"><span class="es">En verano hace mucho calor.</span><span class="en">In summer it's very hot.</span></li>
+  <li class="ex"><span class="es">Hace sol y hace viento.</span><span class="en">It's sunny and windy.</span></li>
+  <li class="ex"><span class="es">Hace veinte grados.</span><span class="en">It's twenty degrees.</span></li>
+</ul>
+<div class="warn">⚠️ <strong>hace calor</strong> = the weather is hot. But <span class="es">tengo calor</span> = <em>I</em> am hot; <span class="es">tengo frío</span> = <em>I</em> am cold. Don't mix them up!</div>
+
+<h3>2.2. Rain and snow: <em>llueve</em> and <em>nieva</em></h3>
+<p><strong>llover</strong> (to rain) and <strong>nevar</strong> (to snow) are stem-changing, and in practice you almost only use the third person:</p>
+<ul>
+  <li class="ex"><span class="es">Llueve mucho en abril.</span><span class="en">It rains a lot in April.</span></li>
+  <li class="ex"><span class="es">Hoy llueve, así que llevo paraguas.</span><span class="en">Today it's raining, so I'm carrying an umbrella.</span></li>
+  <li class="ex"><span class="es">En invierno nieva en la montaña.</span><span class="en">In winter it snows in the mountains.</span></li>
+</ul>
+<p>For the nouns, use <strong>hay</strong> (Lesson 11): <span class="es">hay niebla</span> / <span class="es">hay tormenta</span>.</p>
+
+<h3>2.3. Seasons and <em>estar</em> + adjective</h3>
+<p>The four seasons are masculine except <em>primavera</em>:</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Season</th><th>Spanish</th><th>Typical weather</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Season">spring</td><td data-label="Spanish"><span class="es">la primavera</span></td><td data-label="Typical weather"><span class="es">hace sol, llueve un poco</span></td></tr>
+    <tr><td data-label="Season">summer</td><td data-label="Spanish"><span class="es">el verano</span></td><td data-label="Typical weather"><span class="es">hace mucho calor</span></td></tr>
+    <tr><td data-label="Season">autumn</td><td data-label="Spanish"><span class="es">el otoño</span></td><td data-label="Typical weather"><span class="es">hace viento</span></td></tr>
+    <tr><td data-label="Season">winter</td><td data-label="Spanish"><span class="es">el invierno</span></td><td data-label="Typical weather"><span class="es">hace frío, nieva</span></td></tr>
+  </tbody>
+</table>
+</div>
+<p>For the sky, use <strong>estar</strong> + an adjective: <span class="es">está nublado</span> (cloudy), <span class="es">está despejado</span> (clear).</p>
+<div class="warn">⚠️ <strong>estación</strong> means both <em>season</em> and <em>station</em> (Lesson 12): <span class="es">la estación del año</span> vs <span class="es">la estación de tren</span>. Context tells you which.</div>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> because of the huge distance north to south, "winter" feels very different. In Spain, winter in the south (<span class="es">Andalucía</span>) is mild, but in central Spain (<span class="es">Madrid</span>) it is cold. In Latin America, <span class="es">Bogotá</span> is cool all year, while <span class="es">Buenos Aires</span> has real seasons.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">tiempo</span></td><td data-label="Type">n.m.</td><td data-label="English">weather; time</td><td data-label="Notes">¿Qué tiempo hace?</td></tr>
+    <tr><td data-label="Spanish"><span class="es">clima</span></td><td data-label="Type">n.m.</td><td data-label="English">climate</td><td data-label="Notes">el clima.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sol</span></td><td data-label="Type">n.m.</td><td data-label="English">sun</td><td data-label="Notes">hace sol.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lluvia</span></td><td data-label="Type">n.f.</td><td data-label="English">rain</td><td data-label="Notes">llover = to rain.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nieve</span></td><td data-label="Type">n.f.</td><td data-label="English">snow</td><td data-label="Notes">nevar = to snow.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">viento</span></td><td data-label="Type">n.m.</td><td data-label="English">wind</td><td data-label="Notes">hace viento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">calor</span></td><td data-label="Type">n.m.</td><td data-label="English">heat</td><td data-label="Notes">hace calor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">frío</span></td><td data-label="Type">n.m./adj.</td><td data-label="English">cold</td><td data-label="Notes">hace frío; tengo frío.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nube</span></td><td data-label="Type">n.f.</td><td data-label="English">cloud</td><td data-label="Notes">nublado = cloudy.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">llover</span></td><td data-label="Type">v.</td><td data-label="English">to rain</td><td data-label="Notes">llueve.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nevar</span></td><td data-label="Type">v.</td><td data-label="English">to snow</td><td data-label="Notes">nieva.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">primavera</span></td><td data-label="Type">n.f.</td><td data-label="English">spring</td><td data-label="Notes">en primavera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">verano</span></td><td data-label="Type">n.m.</td><td data-label="English">summer</td><td data-label="Notes">en verano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">otoño</span></td><td data-label="Type">n.m.</td><td data-label="English">autumn</td><td data-label="Notes">en otoño.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">invierno</span></td><td data-label="Type">n.m.</td><td data-label="English">winter</td><td data-label="Notes">en invierno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">grados</span></td><td data-label="Type">n.m.pl.</td><td data-label="English">degrees</td><td data-label="Notes">hace veinte grados.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">paraguas</span></td><td data-label="Type">n.m.</td><td data-label="English">umbrella</td><td data-label="Notes">el paraguas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">abrigo</span></td><td data-label="Type">n.m.</td><td data-label="English">coat</td><td data-label="Notes">el abrigo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">húmedo</span></td><td data-label="Type">adj.</td><td data-label="English">humid, damp</td><td data-label="Notes">un clima húmedo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">seco</span></td><td data-label="Type">adj.</td><td data-label="English">dry</td><td data-label="Notes">un clima seco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">norte</span></td><td data-label="Type">n.m.</td><td data-label="English">north</td><td data-label="Notes">al norte.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sur</span></td><td data-label="Type">n.m.</td><td data-label="English">south</td><td data-label="Notes">al sur.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences about the weather. Read them once; no need to memorize.</p>
+
+<h3>1. Ask about the weather:</h3>
+<div class="phrase">
+  <p class="es">¿Qué tiempo hace hoy?</p>
+  <p class="en">What's the weather like today?</p>
+</div>
+<h3>2. Describe cold and heat:</h3>
+<div class="phrase">
+  <p class="es">Hoy hace frío y mañana hace calor.</p>
+  <p class="en">Today it's cold and tomorrow it's hot.</p>
+</div>
+<h3>3. Talk about rain:</h3>
+<div class="phrase">
+  <p class="es">Llueve, así que llevo un paraguas.</p>
+  <p class="en">It's raining, so I'm carrying an umbrella.</p>
+</div>
+<h3>4. Mention temperature:</h3>
+<div class="phrase">
+  <p class="es">En verano hace cuarenta grados.</p>
+  <p class="en">In summer it's forty degrees.</p>
+</div>
+<h3>5. Describe the sky:</h3>
+<div class="phrase">
+  <p class="es">Hoy está nublado, pero no llueve.</p>
+  <p class="en">Today it's cloudy, but it isn't raining.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends talk about their cities and the weather.</p>
+
+<div class="phrase">
+  <p class="es">Ana: ¿Qué tiempo hace en tu ciudad?</p>
+  <p class="en">Ana: What's the weather like in your city?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: En verano hace mucho calor, casi cuarenta grados.</p>
+  <p class="en">Diego: In summer it's very hot, almost forty degrees.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: ¡Qué calor! Aquí en el norte llueve mucho.</p>
+  <p class="en">Ana: So hot! Here in the north it rains a lot.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: ¿Y en invierno?</p>
+  <p class="en">Diego: And in winter?</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: Hace frío y nieva en la montaña. Me encanta la nieve.</p>
+  <p class="en">Ana: It's cold and it snows in the mountains. I love the snow.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: A mí me gusta la primavera: hace sol y no hace mucho calor.</p>
+  <p class="en">Diego: I like spring: it's sunny and it isn't very hot.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>¡Qué calor!</strong> (so hot!, how hot!), <strong>aquí</strong> (here).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li>Weather with <strong>hacer</strong>: <span class="es">hace frío, hace calor, hace sol, hace viento, hace veinte grados</span>.</li>
+  <li>Rain and snow: <span class="es">llueve</span> (it rains), <span class="es">nieva</span> (it snows); nouns <span class="es">la lluvia, la nieve</span>.</li>
+  <li>Seasons: <span class="es">la primavera, el verano, el otoño, el invierno</span>.</li>
+  <li><strong>hace calor</strong> (weather) vs <strong>tengo calor</strong> (me).</li>
+  <li><span class="es">estación</span> = season <em>and</em> station.</li>
+</ul>
+
+<h3>5.2. Further reading — a postcard from Patagonia</h3>
+<p><strong>Context:</strong> A short postcard about the weather in the far south. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Estoy en el sur de Argentina, cerca de la montaña.</p>
+  <p class="en">I'm in the south of Argentina, near the mountains.</p>
+</div>
+<div class="phrase">
+  <p class="es">Aquí el clima es frío y seco. Hoy hace viento y hay nieve en las montañas.</p>
+  <p class="en">Here the climate is cold and dry. Today it's windy and there's snow in the mountains.</p>
+</div>
+<div class="phrase">
+  <p class="es">En invierno hace mucho frío, pero en verano el tiempo es suave.</p>
+  <p class="en">In winter it's very cold, but in summer the weather is mild.</p>
+</div>
+<div class="phrase">
+  <p class="es">Esta noche voy a cenar con paraguas… ¡no, con abrigo!</p>
+  <p class="en">Tonight I'm going to have dinner with an umbrella… no, with a coat!</p>
+</div>
+
+<p class="lead"><em>New words: <strong>Patagonia</strong> (Patagonia), <strong>postal</strong> (postcard), <strong>esta noche</strong> (tonight).</em></p>
+
+<hr>
+<p><strong>End of Lesson 13.</strong> Next, <strong>Lesson 14</strong>: likes and hobbies — <em>me gusta, me encanta</em> and how to talk about music, sport and free time. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>

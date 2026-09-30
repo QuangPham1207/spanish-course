@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 11 — The city &amp; directions</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 11 — THE CITY &amp; DIRECTIONS</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Say what there is in a place with <strong>hay</strong>.</li>
+      <li>Say where things are with <strong>estar</strong> (<span class="es">está / están</span>).</li>
+      <li>Give directions: <span class="es">girar, cruzar, seguir recto, a la derecha / a la izquierda</span>.</li>
+      <li>Use prepositions of place: <span class="es">al lado de, enfrente de, entre, detrás de…</span></li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">hay, calle, plaza, parque, barrio, iglesia, banco, museo, edificio, esquina, derecha, izquierda, recto, cruzar, girar, semáforo, cerca, lejos, aquí, allí, al lado de, enfrente de, entre, detrás de, delante de</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">acera, avenida, hospital, jardín, río, turista, farmacia, recorrer, puente, antiguo</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (A WALK THROUGH THE CITY)</h2>
+<p><strong>Context:</strong> Someone describes their neighbourhood and gives directions across town. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — the Spanish is enough to get the gist.)</p>
+
+<div class="phrase">
+  <p class="es">Valencia es una ciudad bonita y se puede recorrer a pie.</p>
+  <p class="en">Valencia is a beautiful city and you can go around it on foot.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi barrio está cerca de un parque grande y de la plaza del centro.</p>
+  <p class="en">My neighbourhood is near a big park and the central square.</p>
+</div>
+<div class="phrase">
+  <p class="es">En mi barrio hay un mercado, una iglesia antigua, un banco y una farmacia.</p>
+  <p class="en">In my neighbourhood there's a market, an old church, a bank and a pharmacy.</p>
+</div>
+<div class="phrase">
+  <p class="es">Para ir al museo, salgo de casa y voy recto por la calle Mayor.</p>
+  <p class="en">To go to the museum, I leave home and go straight along Calle Mayor.</p>
+</div>
+<div class="phrase">
+  <p class="es">Después cruzo la plaza y giro a la derecha en el semáforo.</p>
+  <p class="en">Then I cross the square and turn right at the traffic light.</p>
+</div>
+<div class="phrase">
+  <p class="es">El museo está al lado de la estación y enfrente de un edificio moderno.</p>
+  <p class="en">The museum is next to the station and opposite a modern building.</p>
+</div>
+<div class="phrase">
+  <p class="es">La estación no está lejos de aquí; está a diez minutos a pie.</p>
+  <p class="en">The station isn't far from here; it's ten minutes away on foot.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si giro a la izquierda, encuentro el hospital y un jardín pequeño.</p>
+  <p class="en">If I turn left, I find the hospital and a small garden.</p>
+</div>
+<div class="phrase">
+  <p class="es">El centro de la ciudad está entre el parque y el río.</p>
+  <p class="en">The city centre is between the park and the river.</p>
+</div>
+<div class="phrase">
+  <p class="es">Aquí hay muchos turistas porque la comida es rica y la gente es muy simpática.</p>
+  <p class="en">There are lots of tourists here because the food is tasty and the people are very friendly.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">hay</span></td><td data-label="Type">v. (impersonal)</td><td data-label="English">there is / there are</td><td data-label="Notes">Same form for one or many.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">barrio</span></td><td data-label="Type">n.m.</td><td data-label="English">neighbourhood</td><td data-label="Notes">el barrio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">plaza</span></td><td data-label="Type">n.f.</td><td data-label="English">square</td><td data-label="Notes">la plaza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">iglesia</span></td><td data-label="Type">n.f.</td><td data-label="English">church</td><td data-label="Notes">la iglesia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">esquina</span></td><td data-label="Type">n.f.</td><td data-label="English">corner</td><td data-label="Notes">en la esquina.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">semáforo</span></td><td data-label="Type">n.m.</td><td data-label="English">traffic light</td><td data-label="Notes">el semáforo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cruzar</span></td><td data-label="Type">v.</td><td data-label="English">to cross</td><td data-label="Notes">cruzo, cruzas, cruza…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">girar</span></td><td data-label="Type">v.</td><td data-label="English">to turn</td><td data-label="Notes">girar a la derecha.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">al lado de</span></td><td data-label="Type">phr. (loc.)</td><td data-label="English">next to</td><td data-label="Notes">al lado del / de la…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">enfrente de</span></td><td data-label="Type">phr. (loc.)</td><td data-label="English">opposite</td><td data-label="Notes">enfrente del museo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">entre</span></td><td data-label="Type">prep.</td><td data-label="English">between</td><td data-label="Notes">entre A y B.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Memory hook:</strong> Two verbs do most of the work in a city. <span class="es">hay</span> says what <em>exists</em>; <span class="es">está / están</span> says where something <em>is</em>. If you can point to it, use <span class="es">está</span>.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. <em>hay</em> — there is / there are</h3>
+<p><strong>hay</strong> never changes. It introduces something new — you are saying it exists:</p>
+<div class="formula">hay + un / una / unos / unas + noun</div>
+<ul>
+  <li class="ex"><span class="es">En mi barrio hay un parque.</span><span class="en">In my neighbourhood there's a park.</span></li>
+  <li class="ex"><span class="es">Hay dos bancos en la plaza.</span><span class="en">There are two banks in the square. <em>(hay stays the same)</em></span></li>
+  <li class="ex"><span class="es">¿Hay un museo aquí?</span><span class="en">Is there a museum here?</span></li>
+</ul>
+
+<h3>2.2. <em>estar</em> — to be (location)</h3>
+<p>Once you know something exists, use <strong>está</strong> (singular) or <strong>están</strong> (plural) to say <em>where</em> it is. Remember from Lesson 01: <em>ser</em> = identity, <em>estar</em> = state and location.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>estar</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person"><span class="es">(él / ella) el museo</span></td><td data-label="estar"><span class="es">está</span></td><td data-label="English">it is (located)</td></tr>
+    <tr><td data-label="Person"><span class="es">(ellos) los museos</span></td><td data-label="estar"><span class="es">están</span></td><td data-label="English">they are (located)</td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">El museo está al lado de la estación.</span><span class="en">The museum is next to the station.</span></li>
+  <li class="ex"><span class="es">Los bancos están en el centro.</span><span class="en">The banks are in the centre.</span></li>
+  <li class="ex"><span class="es">¿Dónde está la plaza?</span><span class="en">Where is the square?</span></li>
+</ul>
+<div class="warn">⚠️ <strong>hay vs está:</strong> <span class="es">Hay un museo</span> = there's a museum (new information). <span class="es">El museo está allí</span> = the museum is there (we both know which museum).</div>
+
+<h3>2.3. Giving directions</h3>
+<p>Directions use the verb <strong>ir</strong> (Lesson 10) plus a few new verbs:</p>
+<ul>
+  <li class="ex"><span class="es">Ve recto por esta calle.</span><span class="en">Go straight along this street.</span></li>
+  <li class="ex"><span class="es">Cruza la plaza.</span><span class="en">Cross the square.</span></li>
+  <li class="ex"><span class="es">Gira a la derecha / a la izquierda.</span><span class="en">Turn right / left.</span></li>
+  <li class="ex"><span class="es">El museo está a la derecha.</span><span class="en">The museum is on the right.</span></li>
+</ul>
+<div class="tip">💡 <strong>a pie</strong> = on foot: <span class="es">La estación está a diez minutos a pie</span> = The station is ten minutes away on foot.</div>
+
+<h3>2.4. Prepositions of place</h3>
+<p>These little phrases tell you exactly where something is. The ending changes with the noun:</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>English</th><th>Example</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">al lado de</span></td><td data-label="English">next to</td><td data-label="Example"><span class="es">al lado del banco</span></td></tr>
+    <tr><td data-label="Spanish"><span class="es">enfrente de</span></td><td data-label="English">opposite</td><td data-label="Example"><span class="es">enfrente de la iglesia</span></td></tr>
+    <tr><td data-label="Spanish"><span class="es">delante de</span></td><td data-label="English">in front of</td><td data-label="Example"><span class="es">delante del museo</span></td></tr>
+    <tr><td data-label="Spanish"><span class="es">detrás de</span></td><td data-label="English">behind</td><td data-label="Example"><span class="es">detrás de la casa</span></td></tr>
+    <tr><td data-label="Spanish"><span class="es">entre</span></td><td data-label="English">between</td><td data-label="Example"><span class="es">entre el parque y el río</span></td></tr>
+    <tr><td data-label="Spanish"><span class="es">cerca de</span></td><td data-label="English">near</td><td data-label="Example"><span class="es">cerca de aquí</span></td></tr>
+    <tr><td data-label="Spanish"><span class="es">lejos de</span></td><td data-label="English">far from</td><td data-label="Example"><span class="es">lejos del centro</span></td></tr>
+  </tbody>
+</table>
+</div>
+<div class="tip">💡 <strong>de + el = del:</strong> <span class="es">al lado <b>del</b> banco</span> (not <em>de el</em>). With feminine nouns nothing merges: <span class="es">al lado <b>de la</b> iglesia</span>.</div>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">hay</span></td><td data-label="Type">v. (impersonal)</td><td data-label="English">there is / there are</td><td data-label="Notes">Never changes form.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">calle</span></td><td data-label="Type">n.f.</td><td data-label="English">street</td><td data-label="Notes">la calle Mayor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">plaza</span></td><td data-label="Type">n.f.</td><td data-label="English">square, plaza</td><td data-label="Notes">la plaza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">parque</span></td><td data-label="Type">n.m.</td><td data-label="English">park</td><td data-label="Notes">el parque.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">barrio</span></td><td data-label="Type">n.m.</td><td data-label="English">neighbourhood</td><td data-label="Notes">el barrio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">iglesia</span></td><td data-label="Type">n.f.</td><td data-label="English">church</td><td data-label="Notes">la iglesia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">banco</span></td><td data-label="Type">n.m.</td><td data-label="English">bank</td><td data-label="Notes">el banco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">museo</span></td><td data-label="Type">n.m.</td><td data-label="English">museum</td><td data-label="Notes">el museo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">edificio</span></td><td data-label="Type">n.m.</td><td data-label="English">building</td><td data-label="Notes">el edificio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">esquina</span></td><td data-label="Type">n.f.</td><td data-label="English">corner</td><td data-label="Notes">en la esquina.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">derecha</span></td><td data-label="Type">n.f.</td><td data-label="English">right</td><td data-label="Notes">a la derecha.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">izquierda</span></td><td data-label="Type">n.f.</td><td data-label="English">left</td><td data-label="Notes">a la izquierda.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">recto</span></td><td data-label="Type">adj./adv.</td><td data-label="English">straight on</td><td data-label="Notes">seguir recto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cruzar</span></td><td data-label="Type">v.</td><td data-label="English">to cross</td><td data-label="Notes">cruzo, cruzas…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">girar</span></td><td data-label="Type">v.</td><td data-label="English">to turn</td><td data-label="Notes">gira a la derecha.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">semáforo</span></td><td data-label="Type">n.m.</td><td data-label="English">traffic light</td><td data-label="Notes">el semáforo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cerca</span></td><td data-label="Type">adv./adj.</td><td data-label="English">near, close</td><td data-label="Notes">cerca de.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lejos</span></td><td data-label="Type">adv.</td><td data-label="English">far</td><td data-label="Notes">lejos de.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aquí</span></td><td data-label="Type">adv.</td><td data-label="English">here</td><td data-label="Notes">aquí hay…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">allí</span></td><td data-label="Type">adv.</td><td data-label="English">there</td><td data-label="Notes">A little far from you.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">al lado de</span></td><td data-label="Type">phr. (loc.)</td><td data-label="English">next to</td><td data-label="Notes">al lado del / de la.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">enfrente de</span></td><td data-label="Type">phr. (loc.)</td><td data-label="English">opposite</td><td data-label="Notes">enfrente del museo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">entre</span></td><td data-label="Type">prep.</td><td data-label="English">between</td><td data-label="Notes">entre A y B.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">detrás de</span></td><td data-label="Type">phr. (loc.)</td><td data-label="English">behind</td><td data-label="Notes">detrás del edificio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">delante de</span></td><td data-label="Type">phr. (loc.)</td><td data-label="English">in front of</td><td data-label="Notes">delante del museo.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences for finding your way. Read them once; no need to memorize.</p>
+
+<h3>1. Ask where something is:</h3>
+<div class="phrase">
+  <p class="es">¿Dónde está el museo?</p>
+  <p class="en">Where's the museum?</p>
+</div>
+<h3>2. Say what's nearby:</h3>
+<div class="phrase">
+  <p class="es">Aquí hay un banco y una farmacia.</p>
+  <p class="en">There's a bank and a pharmacy here.</p>
+</div>
+<h3>3. Give a simple direction:</h3>
+<div class="phrase">
+  <p class="es">Gira a la derecha y cruza la plaza.</p>
+  <p class="en">Turn right and cross the square.</p>
+</div>
+<h3>4. Say how far it is:</h3>
+<div class="phrase">
+  <p class="es">La estación está cerca, a cinco minutos a pie.</p>
+  <p class="en">The station is near, five minutes away on foot.</p>
+</div>
+<h3>5. Describe a location:</h3>
+<div class="phrase">
+  <p class="es">El museo está al lado de la iglesia.</p>
+  <p class="en">The museum is next to the church.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> A tourist asks a local for directions.</p>
+
+<div class="phrase">
+  <p class="es">Turista: Perdón, ¿dónde está el museo?</p>
+  <p class="en">Tourist: Excuse me, where's the museum?</p>
+</div>
+<div class="phrase">
+  <p class="es">Local: Está cerca. Ve recto por esta calle.</p>
+  <p class="en">Local: It's near. Go straight along this street.</p>
+</div>
+<div class="phrase">
+  <p class="es">Turista: ¿Y después?</p>
+  <p class="en">Tourist: And then?</p>
+</div>
+<div class="phrase">
+  <p class="es">Local: Cruza la plaza y gira a la izquierda en el semáforo.</p>
+  <p class="en">Local: Cross the square and turn left at the traffic light.</p>
+</div>
+<div class="phrase">
+  <p class="es">Turista: ¿El museo está al lado de la iglesia?</p>
+  <p class="en">Tourist: Is the museum next to the church?</p>
+</div>
+<div class="phrase">
+  <p class="es">Local: Sí, exacto. Está enfrente de un edificio moderno.</p>
+  <p class="en">Local: Yes, exactly. It's opposite a modern building.</p>
+</div>
+<div class="phrase">
+  <p class="es">Turista: Muchas gracias. ¡Muy amable!</p>
+  <p class="en">Tourist: Many thanks. Very kind!</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>perdón</strong> (excuse me, sorry), <strong>exacto</strong> (exactly), <strong>amable</strong> (kind).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>hay</strong> = there is / there are (never changes).</li>
+  <li><strong>está / están</strong> = is / are located.</li>
+  <li>Directions: <span class="es">ve recto, cruza, gira a la derecha / a la izquierda</span>.</li>
+  <li>Prepositions: <span class="es">al lado de, enfrente de, delante de, detrás de, entre, cerca de, lejos de</span>.</li>
+  <li><span class="es">de + el = del</span>: <span class="es">al lado del banco</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — my neighbourhood</h3>
+<p><strong>Context:</strong> A short note describing a neighbourhood. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Vivo en un barrio tranquilo, cerca del centro de la ciudad.</p>
+  <p class="en">I live in a quiet neighbourhood, near the city centre.</p>
+</div>
+<div class="phrase">
+  <p class="es">En mi calle hay una panadería, un banco y una farmacia.</p>
+  <p class="en">On my street there's a bakery, a bank and a pharmacy.</p>
+</div>
+<div class="phrase">
+  <p class="es">La plaza está al lado de la iglesia y enfrente de un parque.</p>
+  <p class="en">The square is next to the church and opposite a park.</p>
+</div>
+<div class="phrase">
+  <p class="es">El metro está lejos, a quince minutos a pie.</p>
+  <p class="en">The metro is far, fifteen minutes away on foot.</p>
+</div>
+<div class="phrase">
+  <p class="es">Me gusta caminar por aquí porque la gente es simpática.</p>
+  <p class="en">I like walking around here because the people are friendly.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>panadería</strong> (bakery), <strong>quince minutos</strong> (fifteen minutes).</em></p>
+
+<hr>
+<p><strong>End of Lesson 11.</strong> Next, <strong>Lesson 12</strong>: transport and travel — <em>el tren, el autobús, el metro, el billete</em> and the phrases for a journey. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,261 @@
+{
+  "lesson": 11,
+  "title": "The city & directions",
+  "words": [
+    {
+      "word": "hay",
+      "type": "v. (impersonal)",
+      "en": "there is / there are",
+      "note": "Same form for one or many: hay un banco / hay dos bancos.",
+      "example": { "es": "En mi barrio hay un parque.", "en": "In my neighbourhood there's a park." }
+    },
+    {
+      "word": "calle",
+      "type": "n.f.",
+      "en": "street",
+      "note": "la calle Mayor = Main Street.",
+      "example": { "es": "Vivo en la calle Mayor.", "en": "I live on Main Street." }
+    },
+    {
+      "word": "plaza",
+      "type": "n.f.",
+      "en": "square, plaza",
+      "note": "An open public square.",
+      "example": { "es": "La plaza está en el centro.", "en": "The square is in the centre." }
+    },
+    {
+      "word": "parque",
+      "type": "n.m.",
+      "en": "park",
+      "note": "el parque.",
+      "example": { "es": "Hay un parque cerca de casa.", "en": "There's a park near home." }
+    },
+    {
+      "word": "barrio",
+      "type": "n.m.",
+      "en": "neighbourhood, district",
+      "note": "el barrio.",
+      "example": { "es": "Mi barrio está cerca del centro.", "en": "My neighbourhood is near the centre." }
+    },
+    {
+      "word": "iglesia",
+      "type": "n.f.",
+      "en": "church",
+      "note": "la iglesia.",
+      "example": { "es": "La iglesia está al lado del museo.", "en": "The church is next to the museum." }
+    },
+    {
+      "word": "banco",
+      "type": "n.m.",
+      "en": "bank",
+      "note": "el banco.",
+      "example": { "es": "El banco está en la esquina.", "en": "The bank is on the corner." }
+    },
+    {
+      "word": "museo",
+      "type": "n.m.",
+      "en": "museum",
+      "note": "el museo.",
+      "example": { "es": "Vamos al museo el domingo.", "en": "We're going to the museum on Sunday." }
+    },
+    {
+      "word": "edificio",
+      "type": "n.m.",
+      "en": "building",
+      "note": "el edificio.",
+      "example": { "es": "Es un edificio moderno.", "en": "It's a modern building." }
+    },
+    {
+      "word": "esquina",
+      "type": "n.f.",
+      "en": "corner",
+      "note": "en la esquina = on the corner.",
+      "example": { "es": "El banco está en la esquina.", "en": "The bank is on the corner." }
+    },
+    {
+      "word": "derecha",
+      "type": "n.f.",
+      "en": "right (side)",
+      "note": "a la derecha = on/to the right.",
+      "example": { "es": "Gira a la derecha.", "en": "Turn right." }
+    },
+    {
+      "word": "izquierda",
+      "type": "n.f.",
+      "en": "left (side)",
+      "note": "a la izquierda = on/to the left.",
+      "example": { "es": "El museo está a la izquierda.", "en": "The museum is on the left." }
+    },
+    {
+      "word": "recto",
+      "type": "adj./adv.",
+      "en": "straight (on)",
+      "note": "seguir recto = to go straight on.",
+      "example": { "es": "Ve recto por esta calle.", "en": "Go straight along this street." }
+    },
+    {
+      "word": "cruzar",
+      "type": "v.",
+      "en": "to cross",
+      "note": "cruzo, cruzas, cruza…",
+      "example": { "es": "Cruza la plaza.", "en": "Cross the square." }
+    },
+    {
+      "word": "girar",
+      "type": "v.",
+      "en": "to turn",
+      "note": "girar a la derecha / a la izquierda.",
+      "example": { "es": "Gira a la izquierda en el semáforo.", "en": "Turn left at the traffic light." }
+    },
+    {
+      "word": "semáforo",
+      "type": "n.m.",
+      "en": "traffic light",
+      "note": "el semáforo.",
+      "example": { "es": "Espera en el semáforo.", "en": "Wait at the traffic light." }
+    },
+    {
+      "word": "cerca",
+      "type": "adv./adj.",
+      "en": "near, close",
+      "note": "cerca de = near to.",
+      "example": { "es": "El parque está cerca.", "en": "The park is near." }
+    },
+    {
+      "word": "lejos",
+      "type": "adv.",
+      "en": "far",
+      "note": "lejos de = far from.",
+      "example": { "es": "La estación no está lejos.", "en": "The station isn't far." }
+    },
+    {
+      "word": "aquí",
+      "type": "adv.",
+      "en": "here",
+      "note": "Aquí hay… = Here there is/are…",
+      "example": { "es": "Aquí hay muchos turistas.", "en": "There are lots of tourists here." }
+    },
+    {
+      "word": "allí",
+      "type": "adv.",
+      "en": "there, over there",
+      "note": "Refers to a place a little far from the speaker.",
+      "example": { "es": "El museo está allí.", "en": "The museum is over there." }
+    },
+    {
+      "word": "al lado de",
+      "type": "phr. (loc.)",
+      "en": "next to, beside",
+      "note": "al lado del / de la…",
+      "example": { "es": "El banco está al lado del mercado.", "en": "The bank is next to the market." }
+    },
+    {
+      "word": "enfrente de",
+      "type": "phr. (loc.)",
+      "en": "opposite, facing",
+      "note": "enfrente del museo.",
+      "example": { "es": "Hay un parque enfrente de mi casa.", "en": "There's a park opposite my house." }
+    },
+    {
+      "word": "entre",
+      "type": "prep.",
+      "en": "between",
+      "note": "entre A y B.",
+      "example": { "es": "El banco está entre la iglesia y el museo.", "en": "The bank is between the church and the museum." }
+    },
+    {
+      "word": "detrás de",
+      "type": "phr. (loc.)",
+      "en": "behind",
+      "note": "detrás del edificio.",
+      "example": { "es": "El jardín está detrás de la iglesia.", "en": "The garden is behind the church." }
+    },
+    {
+      "word": "delante de",
+      "type": "phr. (loc.)",
+      "en": "in front of",
+      "note": "delante del museo.",
+      "example": { "es": "Hay una plaza delante del museo.", "en": "There's a square in front of the museum." }
+    },
+    {
+      "word": "acera",
+      "type": "n.f.",
+      "en": "pavement, sidewalk",
+      "note": "Spain: acera; Mexico: banqueta; Argentina: vereda.",
+      "ext": true,
+      "example": { "es": "Camino por la acera.", "en": "I walk along the pavement." }
+    },
+    {
+      "word": "avenida",
+      "type": "n.f.",
+      "en": "avenue",
+      "note": "la avenida.",
+      "ext": true,
+      "example": { "es": "Vive en una avenida grande.", "en": "He lives on a big avenue." }
+    },
+    {
+      "word": "hospital",
+      "type": "n.m.",
+      "en": "hospital",
+      "note": "el hospital.",
+      "ext": true,
+      "example": { "es": "El hospital está cerca del río.", "en": "The hospital is near the river." }
+    },
+    {
+      "word": "jardín",
+      "type": "n.m.",
+      "en": "garden",
+      "note": "el jardín, los jardines.",
+      "ext": true,
+      "example": { "es": "Hay un jardín detrás de la casa.", "en": "There's a garden behind the house." }
+    },
+    {
+      "word": "río",
+      "type": "n.m.",
+      "en": "river",
+      "note": "el río.",
+      "ext": true,
+      "example": { "es": "El río pasa por el centro.", "en": "The river runs through the centre." }
+    },
+    {
+      "word": "turista",
+      "type": "n.m./f.",
+      "en": "tourist",
+      "note": "Same form for men and women.",
+      "ext": true,
+      "example": { "es": "Aquí hay muchos turistas.", "en": "There are lots of tourists here." }
+    },
+    {
+      "word": "farmacia",
+      "type": "n.f.",
+      "en": "pharmacy, chemist's",
+      "note": "la farmacia.",
+      "ext": true,
+      "example": { "es": "La farmacia está en la esquina.", "en": "The pharmacy is on the corner." }
+    },
+    {
+      "word": "recorrer",
+      "type": "v.",
+      "en": "to go around, to cover (a route)",
+      "note": "recorro, recorres, recorre…",
+      "ext": true,
+      "example": { "es": "Recorro la ciudad a pie.", "en": "I go around the city on foot." }
+    },
+    {
+      "word": "puente",
+      "type": "n.m.",
+      "en": "bridge",
+      "note": "el puente.",
+      "ext": true,
+      "example": { "es": "El museo está cerca del puente.", "en": "The museum is near the bridge." }
+    },
+    {
+      "word": "antiguo/a",
+      "type": "adj.",
+      "en": "old, ancient",
+      "note": "una iglesia antigua = an old church.",
+      "ext": true,
+      "example": { "es": "Es una iglesia antigua.", "en": "It's an old church." }
+    }
+  ]
+}

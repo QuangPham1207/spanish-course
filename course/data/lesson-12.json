@@ -1,0 +1,198 @@
+{
+  "lesson": 12,
+  "title": "Transport & travel basics",
+  "words": [
+    {
+      "word": "tren",
+      "type": "n.m.",
+      "en": "train",
+      "note": "en tren = by train; el tren.",
+      "example": { "es": "Voy a Madrid en tren.", "en": "I'm going to Madrid by train." }
+    },
+    {
+      "word": "autobús",
+      "type": "n.m.",
+      "en": "bus",
+      "note": "el autobús, los autobuses. Also bus.",
+      "example": { "es": "Tomamos el autobús número doce.", "en": "We take bus number twelve." }
+    },
+    {
+      "word": "avión",
+      "type": "n.m.",
+      "en": "plane, aeroplane",
+      "note": "en avión = by plane; el avión.",
+      "example": { "es": "Viajamos en avión a Sevilla.", "en": "We travel to Seville by plane." }
+    },
+    {
+      "word": "metro",
+      "type": "n.m.",
+      "en": "metro, subway",
+      "note": "el metro.",
+      "example": { "es": "El metro es rápido.", "en": "The metro is fast." }
+    },
+    {
+      "word": "coche",
+      "type": "n.m.",
+      "en": "car",
+      "note": "Spain: coche; most of Latin America: carro or auto.",
+      "example": { "es": "Vamos en coche al centro.", "en": "We go to the centre by car." }
+    },
+    {
+      "word": "billete",
+      "type": "n.m.",
+      "en": "ticket",
+      "note": "Spain: billete; Latin America: boleto.",
+      "example": { "es": "Compro un billete de tren.", "en": "I buy a train ticket." }
+    },
+    {
+      "word": "estación",
+      "type": "n.f.",
+      "en": "station",
+      "note": "la estación de tren / de autobuses.",
+      "example": { "es": "Esperamos en la estación.", "en": "We wait at the station." }
+    },
+    {
+      "word": "aeropuerto",
+      "type": "n.m.",
+      "en": "airport",
+      "note": "el aeropuerto.",
+      "example": { "es": "El aeropuerto está lejos de la ciudad.", "en": "The airport is far from the city." }
+    },
+    {
+      "word": "viaje",
+      "type": "n.m.",
+      "en": "trip, journey",
+      "note": "buen viaje = have a good trip.",
+      "example": { "es": "El viaje es largo.", "en": "The journey is long." }
+    },
+    {
+      "word": "viajar",
+      "type": "v.",
+      "en": "to travel",
+      "note": "viajo, viajas, viaja…",
+      "example": { "es": "Me gusta viajar.", "en": "I like to travel." }
+    },
+    {
+      "word": "llegar",
+      "type": "v.",
+      "en": "to arrive",
+      "note": "llegar a = to arrive in/at.",
+      "example": { "es": "El tren llega a las once.", "en": "The train arrives at eleven." }
+    },
+    {
+      "word": "esperar",
+      "type": "v.",
+      "en": "to wait (for)",
+      "note": "espero, esperas…; esperar el autobús.",
+      "example": { "es": "Esperamos el tren.", "en": "We wait for the train." }
+    },
+    {
+      "word": "subir",
+      "type": "v.",
+      "en": "to get on, to go up",
+      "note": "subir a = to get on.",
+      "example": { "es": "Subimos al autobús.", "en": "We get on the bus." }
+    },
+    {
+      "word": "bajar",
+      "type": "v.",
+      "en": "to get off, to go down",
+      "note": "bajar de = to get off.",
+      "example": { "es": "Bajamos en el museo.", "en": "We get off at the museum." }
+    },
+    {
+      "word": "andén",
+      "type": "n.m.",
+      "en": "platform",
+      "note": "el andén, los andenes.",
+      "example": { "es": "Esperamos en el andén.", "en": "We wait on the platform." }
+    },
+    {
+      "word": "horario",
+      "type": "n.m.",
+      "en": "timetable, schedule",
+      "note": "el horario de trenes.",
+      "example": { "es": "Miro el horario de trenes.", "en": "I check the train timetable." }
+    },
+    {
+      "word": "vuelo",
+      "type": "n.m.",
+      "en": "flight",
+      "note": "el vuelo.",
+      "ext": true,
+      "example": { "es": "El vuelo sale a las ocho.", "en": "The flight leaves at eight." }
+    },
+    {
+      "word": "volar",
+      "type": "v.",
+      "en": "to fly",
+      "note": "o→ue: vuelo, vuelas, vuela…",
+      "ext": true,
+      "example": { "es": "Mañana volamos a Chile.", "en": "Tomorrow we fly to Chile." }
+    },
+    {
+      "word": "retraso",
+      "type": "n.m.",
+      "en": "delay",
+      "note": "con retraso = late.",
+      "ext": true,
+      "example": { "es": "El tren llega con retraso.", "en": "The train arrives late." }
+    },
+    {
+      "word": "rápido",
+      "type": "adj.",
+      "en": "fast, quick",
+      "note": "Antonym: lento (slow).",
+      "ext": true,
+      "example": { "es": "El metro es muy rápido.", "en": "The metro is very fast." }
+    },
+    {
+      "word": "despacio",
+      "type": "adv.",
+      "en": "slowly",
+      "note": "Habla despacio = speak slowly.",
+      "ext": true,
+      "example": { "es": "Habla despacio, por favor.", "en": "Speak slowly, please." }
+    },
+    {
+      "word": "maleta",
+      "type": "n.f.",
+      "en": "suitcase",
+      "note": "la maleta.",
+      "ext": true,
+      "example": { "es": "Mi maleta es pequeña.", "en": "My suitcase is small." }
+    },
+    {
+      "word": "destino",
+      "type": "n.m.",
+      "en": "destination",
+      "note": "el destino.",
+      "ext": true,
+      "example": { "es": "Madrid es mi destino.", "en": "Madrid is my destination." }
+    },
+    {
+      "word": "desde",
+      "type": "prep.",
+      "en": "from, since",
+      "note": "desde aquí = from here.",
+      "ext": true,
+      "example": { "es": "Desde el tren veo la ciudad.", "en": "From the train I see the city." }
+    },
+    {
+      "word": "parada",
+      "type": "n.f.",
+      "en": "stop (bus stop)",
+      "note": "la parada del autobús.",
+      "ext": true,
+      "example": { "es": "La parada está cerca.", "en": "The stop is near." }
+    },
+    {
+      "word": "conductor",
+      "type": "n.m.",
+      "en": "driver",
+      "note": "el conductor, la conductora.",
+      "ext": true,
+      "example": { "es": "El conductor es simpático.", "en": "The driver is friendly." }
+    }
+  ]
+}

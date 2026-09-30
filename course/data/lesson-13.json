@@ -1,0 +1,216 @@
+{
+  "lesson": 13,
+  "title": "Weather & seasons",
+  "words": [
+    {
+      "word": "tiempo",
+      "type": "n.m.",
+      "en": "weather; time",
+      "note": "¿Qué tiempo hace? = What's the weather like?",
+      "example": { "es": "¿Qué tiempo hace hoy?", "en": "What's the weather like today?" }
+    },
+    {
+      "word": "clima",
+      "type": "n.m.",
+      "en": "climate",
+      "note": "el clima (masculine).",
+      "example": { "es": "El clima de España es variado.", "en": "The climate of Spain is varied." }
+    },
+    {
+      "word": "sol",
+      "type": "n.m.",
+      "en": "sun",
+      "note": "hace sol = it's sunny.",
+      "example": { "es": "Hoy hace sol.", "en": "Today it's sunny." }
+    },
+    {
+      "word": "lluvia",
+      "type": "n.f.",
+      "en": "rain",
+      "note": "llover = to rain.",
+      "example": { "es": "Me gusta la lluvia.", "en": "I like the rain." }
+    },
+    {
+      "word": "nieve",
+      "type": "n.f.",
+      "en": "snow",
+      "note": "nevar = to snow.",
+      "example": { "es": "En la montaña hay nieve.", "en": "There's snow in the mountains." }
+    },
+    {
+      "word": "viento",
+      "type": "n.m.",
+      "en": "wind",
+      "note": "hace viento = it's windy.",
+      "example": { "es": "Hoy hace viento.", "en": "Today it's windy." }
+    },
+    {
+      "word": "calor",
+      "type": "n.m.",
+      "en": "heat",
+      "note": "hace calor = it's hot; tener calor = to be hot.",
+      "example": { "es": "En verano hace mucho calor.", "en": "In summer it's very hot." }
+    },
+    {
+      "word": "frío",
+      "type": "n.m./adj.",
+      "en": "cold",
+      "note": "hace frío = it's cold; tener frío = to be cold.",
+      "example": { "es": "En invierno hace frío.", "en": "In winter it's cold." }
+    },
+    {
+      "word": "nube",
+      "type": "n.f.",
+      "en": "cloud",
+      "note": "nublado = cloudy.",
+      "example": { "es": "Hoy hay muchas nubes.", "en": "Today there are lots of clouds." }
+    },
+    {
+      "word": "llover",
+      "type": "v.",
+      "en": "to rain",
+      "note": "o→ue; mostly the 3rd person: llueve.",
+      "example": { "es": "Llueve mucho en abril.", "en": "It rains a lot in April." }
+    },
+    {
+      "word": "nevar",
+      "type": "v.",
+      "en": "to snow",
+      "note": "e→ie; mostly the 3rd person: nieva.",
+      "example": { "es": "Nieva en el norte.", "en": "It snows in the north." }
+    },
+    {
+      "word": "primavera",
+      "type": "n.f.",
+      "en": "spring",
+      "note": "en primavera = in spring.",
+      "example": { "es": "En primavera hay flores.", "en": "In spring there are flowers." }
+    },
+    {
+      "word": "verano",
+      "type": "n.m.",
+      "en": "summer",
+      "note": "en verano = in summer.",
+      "example": { "es": "En verano hace mucho calor.", "en": "In summer it's very hot." }
+    },
+    {
+      "word": "otoño",
+      "type": "n.m.",
+      "en": "autumn, fall",
+      "note": "en otoño = in autumn.",
+      "example": { "es": "En otoño hace viento.", "en": "In autumn it's windy." }
+    },
+    {
+      "word": "invierno",
+      "type": "n.m.",
+      "en": "winter",
+      "note": "en invierno = in winter.",
+      "example": { "es": "En invierno nieva en la montaña.", "en": "In winter it snows in the mountains." }
+    },
+    {
+      "word": "grados",
+      "type": "n.m.pl.",
+      "en": "degrees",
+      "note": "hace veinte grados = it's twenty degrees.",
+      "example": { "es": "Hoy hace veinte grados.", "en": "Today it's twenty degrees." }
+    },
+    {
+      "word": "paraguas",
+      "type": "n.m.",
+      "en": "umbrella",
+      "note": "el paraguas, los paraguas (doesn't change).",
+      "example": { "es": "Llevo un paraguas.", "en": "I'm carrying an umbrella." }
+    },
+    {
+      "word": "abrigo",
+      "type": "n.m.",
+      "en": "coat",
+      "note": "el abrigo.",
+      "example": { "es": "En invierno llevo abrigo.", "en": "In winter I wear a coat." }
+    },
+    {
+      "word": "húmedo",
+      "type": "adj.",
+      "en": "humid, damp",
+      "note": "húmedo / húmeda.",
+      "example": { "es": "El clima es húmedo.", "en": "The climate is humid." }
+    },
+    {
+      "word": "seco",
+      "type": "adj.",
+      "en": "dry",
+      "note": "seco / seca.",
+      "example": { "es": "El sur de España es muy seco.", "en": "The south of Spain is very dry." }
+    },
+    {
+      "word": "norte",
+      "type": "n.m.",
+      "en": "north",
+      "note": "el norte; al norte = to the north.",
+      "example": { "es": "El norte es más frío.", "en": "The north is colder." }
+    },
+    {
+      "word": "sur",
+      "type": "n.m.",
+      "en": "south",
+      "note": "el sur; al sur = to the south.",
+      "example": { "es": "Vivo en el sur.", "en": "I live in the south." }
+    },
+    {
+      "word": "temperatura",
+      "type": "n.f.",
+      "en": "temperature",
+      "note": "la temperatura.",
+      "ext": true,
+      "example": { "es": "La temperatura es alta.", "en": "The temperature is high." }
+    },
+    {
+      "word": "montaña",
+      "type": "n.f.",
+      "en": "mountain",
+      "note": "la montaña.",
+      "ext": true,
+      "example": { "es": "La montaña está al norte.", "en": "The mountain is to the north." }
+    },
+    {
+      "word": "niebla",
+      "type": "n.f.",
+      "en": "fog",
+      "note": "hay niebla = it's foggy.",
+      "ext": true,
+      "example": { "es": "Hoy hay niebla.", "en": "Today it's foggy." }
+    },
+    {
+      "word": "tormenta",
+      "type": "n.f.",
+      "en": "storm",
+      "note": "la tormenta.",
+      "ext": true,
+      "example": { "es": "En verano hay tormentas.", "en": "In summer there are storms." }
+    },
+    {
+      "word": "suave",
+      "type": "adj.",
+      "en": "mild, soft",
+      "note": "un clima suave = a mild climate.",
+      "ext": true,
+      "example": { "es": "El clima es suave.", "en": "The climate is mild." }
+    },
+    {
+      "word": "oeste",
+      "type": "n.m.",
+      "en": "west",
+      "note": "el oeste; al oeste = to the west.",
+      "ext": true,
+      "example": { "es": "El oeste es más húmedo.", "en": "The west is more humid." }
+    },
+    {
+      "word": "¿Qué tiempo hace?",
+      "type": "phr.",
+      "en": "What's the weather like?",
+      "note": "Answer: Hace sol / Llueve / Hace frío…",
+      "ext": true,
+      "example": { "es": "¿Qué tiempo hace en Madrid?", "en": "What's the weather like in Madrid?" }
+    }
+  ]
+}

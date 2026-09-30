@@ -1,0 +1,219 @@
+{
+  "lesson": 14,
+  "title": "Likes & hobbies",
+  "words": [
+    {
+      "word": "gustar",
+      "type": "v.",
+      "en": "to like, to please",
+      "note": "Me gusta + singular; me gustan + plural.",
+      "example": { "es": "Me gusta la música.", "en": "I like music." }
+    },
+    {
+      "word": "encantar",
+      "type": "v.",
+      "en": "to love (something)",
+      "note": "Me encanta / me encantan. Stronger than gustar.",
+      "example": { "es": "Me encanta bailar.", "en": "I love to dance." }
+    },
+    {
+      "word": "música",
+      "type": "n.f.",
+      "en": "music",
+      "note": "la música.",
+      "example": { "es": "Escucho música en casa.", "en": "I listen to music at home." }
+    },
+    {
+      "word": "canción",
+      "type": "n.f.",
+      "en": "song",
+      "note": "la canción, las canciones.",
+      "example": { "es": "Esta canción es bonita.", "en": "This song is nice." }
+    },
+    {
+      "word": "bailar",
+      "type": "v.",
+      "en": "to dance",
+      "note": "bailo, bailas, baila…",
+      "example": { "es": "Me gusta bailar.", "en": "I like to dance." }
+    },
+    {
+      "word": "cantar",
+      "type": "v.",
+      "en": "to sing",
+      "note": "canto, cantas, canta…",
+      "example": { "es": "A ella le gusta cantar.", "en": "She likes to sing." }
+    },
+    {
+      "word": "escuchar",
+      "type": "v.",
+      "en": "to listen (to)",
+      "note": "escuchar música / la radio.",
+      "example": { "es": "Escucho música todos los días.", "en": "I listen to music every day." }
+    },
+    {
+      "word": "cine",
+      "type": "n.m.",
+      "en": "cinema",
+      "note": "ir al cine = to go to the cinema.",
+      "example": { "es": "Vamos al cine el viernes.", "en": "We're going to the cinema on Friday." }
+    },
+    {
+      "word": "película",
+      "type": "n.f.",
+      "en": "film, movie",
+      "note": "la película.",
+      "example": { "es": "La película es divertida.", "en": "The film is fun." }
+    },
+    {
+      "word": "serie",
+      "type": "n.f.",
+      "en": "series, show",
+      "note": "una serie de televisión.",
+      "example": { "es": "Veo una serie en casa.", "en": "I watch a series at home." }
+    },
+    {
+      "word": "videojuego",
+      "type": "n.m.",
+      "en": "video game",
+      "note": "el videojuego, los videojuegos.",
+      "example": { "es": "Le gustan los videojuegos.", "en": "He likes video games." }
+    },
+    {
+      "word": "nadar",
+      "type": "v.",
+      "en": "to swim",
+      "note": "nado, nadas, nada…",
+      "example": { "es": "Me gusta nadar en el mar.", "en": "I like to swim in the sea." }
+    },
+    {
+      "word": "correr",
+      "type": "v.",
+      "en": "to run",
+      "note": "corro, corres, corre…",
+      "example": { "es": "Corro por la mañana.", "en": "I run in the morning." }
+    },
+    {
+      "word": "cocinar",
+      "type": "v.",
+      "en": "to cook",
+      "note": "cocino, cocinas, cocina…",
+      "example": { "es": "Me gusta cocinar los domingos.", "en": "I like to cook on Sundays." }
+    },
+    {
+      "word": "pintar",
+      "type": "v.",
+      "en": "to paint",
+      "note": "pinto, pintas, pinta…",
+      "example": { "es": "A mi hermana le gusta pintar.", "en": "My sister likes to paint." }
+    },
+    {
+      "word": "hacer",
+      "type": "v.",
+      "en": "to do, to make",
+      "note": "Irregular: hago, haces, hace…",
+      "example": { "es": "¿Qué te gusta hacer?", "en": "What do you like to do?" }
+    },
+    {
+      "word": "tiempo libre",
+      "type": "phr.",
+      "en": "free time",
+      "note": "en mi tiempo libre = in my free time.",
+      "example": { "es": "¿Qué haces en tu tiempo libre?", "en": "What do you do in your free time?" }
+    },
+    {
+      "word": "pasatiempo",
+      "type": "n.m.",
+      "en": "hobby, pastime",
+      "note": "el pasatiempo; mis pasatiempos.",
+      "example": { "es": "Mi pasatiempo es la música.", "en": "My hobby is music." }
+    },
+    {
+      "word": "afición",
+      "type": "n.f.",
+      "en": "hobby, interest",
+      "note": "la afición.",
+      "example": { "es": "Mi afición es la música.", "en": "My hobby is music." }
+    },
+    {
+      "word": "tocar",
+      "type": "v.",
+      "en": "to play (an instrument)",
+      "note": "tocar la guitarra / el piano.",
+      "ext": true,
+      "example": { "es": "Me gusta tocar la guitarra.", "en": "I like to play the guitar." }
+    },
+    {
+      "word": "concierto",
+      "type": "n.m.",
+      "en": "concert",
+      "note": "el concierto.",
+      "ext": true,
+      "example": { "es": "Voy a un concierto el sábado.", "en": "I'm going to a concert on Saturday." }
+    },
+    {
+      "word": "mar",
+      "type": "n.m.",
+      "en": "sea",
+      "note": "el mar (masculine in most varieties).",
+      "ext": true,
+      "example": { "es": "Nado en el mar.", "en": "I swim in the sea." }
+    },
+    {
+      "word": "playa",
+      "type": "n.f.",
+      "en": "beach",
+      "note": "la playa.",
+      "ext": true,
+      "example": { "es": "En verano vamos a la playa.", "en": "In summer we go to the beach." }
+    },
+    {
+      "word": "equipo",
+      "type": "n.m.",
+      "en": "team",
+      "note": "el equipo.",
+      "ext": true,
+      "example": { "es": "Mi equipo juega hoy.", "en": "My team plays today." }
+    },
+    {
+      "word": "aficionado/a",
+      "type": "n.m./f.",
+      "en": "fan, supporter",
+      "note": "soy aficionado al fútbol = I'm a football fan.",
+      "ext": true,
+      "example": { "es": "Soy aficionado al fútbol.", "en": "I'm a football fan." }
+    },
+    {
+      "word": "aburrido",
+      "type": "adj.",
+      "en": "boring",
+      "note": "aburrido / aburrida.",
+      "ext": true,
+      "example": { "es": "La película es aburrida.", "en": "The film is boring." }
+    },
+    {
+      "word": "de acuerdo",
+      "type": "phr.",
+      "en": "agreed, OK",
+      "note": "Estar de acuerdo = to agree.",
+      "ext": true,
+      "example": { "es": "De acuerdo, vamos al cine.", "en": "OK, let's go to the cinema." }
+    },
+    {
+      "word": "tampoco",
+      "type": "adv.",
+      "en": "neither, not either",
+      "note": "Antonym of también.",
+      "ext": true,
+      "example": { "es": "No me gusta el frío, y a ella tampoco.", "en": "I don't like the cold, and neither does she." }
+    },
+    {
+      "word": "guitarra",
+      "type": "n.f.",
+      "en": "guitar",
+      "note": "la guitarra.",
+      "ext": true,
+      "example": { "es": "Toco la guitarra.", "en": "I play the guitar." }
+    }
+  ]
+}

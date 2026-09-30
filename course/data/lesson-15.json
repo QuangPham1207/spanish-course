@@ -1,0 +1,116 @@
+{
+  "lesson": 15,
+  "title": "A1 consolidation — a day in the city",
+  "words": [
+    {
+      "word": "pasear",
+      "type": "v.",
+      "en": "to go for a walk, to stroll",
+      "note": "paseo, paseas, pasea…",
+      "example": { "es": "Paseo por la ciudad.", "en": "I stroll around the city." }
+    },
+    {
+      "word": "caminar",
+      "type": "v.",
+      "en": "to walk",
+      "note": "camino, caminas, camina…",
+      "example": { "es": "Me gusta caminar por el parque.", "en": "I like to walk in the park." }
+    },
+    {
+      "word": "padres",
+      "type": "n.m.pl.",
+      "en": "parents",
+      "note": "los padres = parents; also 'fathers'.",
+      "example": { "es": "Vivo con mis padres.", "en": "I live with my parents." }
+    },
+    {
+      "word": "hermoso/a",
+      "type": "adj.",
+      "en": "beautiful",
+      "note": "Synonym: bonito/a.",
+      "example": { "es": "Es una ciudad hermosa.", "en": "It's a beautiful city." }
+    },
+    {
+      "word": "cada",
+      "type": "adj.",
+      "en": "each, every",
+      "note": "cada día = every day.",
+      "example": { "es": "Cada mañana desayuno café.", "en": "Every morning I have coffee for breakfast." }
+    },
+    {
+      "word": "siempre",
+      "type": "adv.",
+      "en": "always",
+      "note": "Antonym: nunca.",
+      "example": { "es": "Siempre desayuno en casa.", "en": "I always have breakfast at home." }
+    },
+    {
+      "word": "nunca",
+      "type": "adv.",
+      "en": "never",
+      "note": "No... nunca = never.",
+      "example": { "es": "Nunca llego tarde.", "en": "I'm never late." }
+    },
+    {
+      "word": "pasar",
+      "type": "v.",
+      "en": "to pass; to spend (time)",
+      "note": "pasar tiempo = to spend time.",
+      "example": { "es": "Paso el verano en la playa.", "en": "I spend the summer at the beach." }
+    },
+    {
+      "word": "tranquilo/a",
+      "type": "adj.",
+      "en": "calm, quiet",
+      "note": "un barrio tranquilo = a quiet neighbourhood.",
+      "example": { "es": "Mi barrio es tranquilo.", "en": "My neighbourhood is quiet." }
+    },
+    {
+      "word": "rutina",
+      "type": "n.f.",
+      "en": "routine",
+      "note": "la rutina diaria = the daily routine.",
+      "example": { "es": "Mi rutina empieza a las siete.", "en": "My routine starts at seven." }
+    },
+    {
+      "word": "diario/a",
+      "type": "adj.",
+      "en": "daily",
+      "note": "la vida diaria = daily life.",
+      "ext": true,
+      "example": { "es": "Es mi rutina diaria.", "en": "It's my daily routine." }
+    },
+    {
+      "word": "costumbre",
+      "type": "n.f.",
+      "en": "custom, habit",
+      "note": "por costumbre = out of habit.",
+      "ext": true,
+      "example": { "es": "Por costumbre, ceno a las nueve.", "en": "Out of habit, I have dinner at nine." }
+    },
+    {
+      "word": "terminar",
+      "type": "v.",
+      "en": "to finish",
+      "note": "termino, terminas, termina…",
+      "ext": true,
+      "example": { "es": "Termino el trabajo a las seis.", "en": "I finish work at six." }
+    },
+    {
+      "word": "ocupado/a",
+      "type": "adj.",
+      "en": "busy",
+      "note": "estar ocupado = to be busy.",
+      "ext": true,
+      "example": { "es": "Hoy estoy muy ocupado.", "en": "Today I'm very busy." }
+    },
+    {
+      "word": "andar",
+      "type": "v.",
+      "en": "to walk, to go",
+      "note": "Irregular: ando, andas… Synonym of caminar.",
+      "ext": true,
+      "example": { "es": "Ando al trabajo.", "en": "I walk to work." }
+    }
+  ]
+}

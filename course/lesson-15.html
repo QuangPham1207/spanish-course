@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 15 — A1 consolidation: a day in the city</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="../index.html">&larr; Home</a></p>
+
+<header class="top">
+  <h1>LESSON 15 — A1 CONSOLIDATION: A DAY IN THE CITY</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read a <strong>longer A1 text</strong> that uses everything from the level.</li>
+      <li>See <strong>ser vs estar</strong>, the present tense and reflexive verbs working together.</li>
+      <li>Review the city, transport, weather and hobbies in one story.</li>
+      <li>Pick up a few high-frequency words: <span class="es">siempre, nunca, cada, tranquilo</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">pasear, caminar, padres, hermoso, cada, siempre, nunca, pasar, tranquilo, rutina</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">diario, costumbre, terminar, ocupado, andar</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (A DAY IN THE LIFE OF MARTA)</h2>
+<p><strong>Context:</strong> Marta describes a normal day, from morning to night. This text reuses nearly all of A1. Read each line; the English below it is only a check.</p>
+<p class="lead">(Read top to bottom — let the Spanish carry you.)</p>
+
+<div class="phrase">
+  <p class="es">Hola. Me llamo Marta y vivo en una ciudad del sur de España.</p>
+  <p class="en">Hi. My name is Marta and I live in a city in the south of Spain.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi rutina es tranquila. Cada mañana me levanto a las siete y media.</p>
+  <p class="en">My routine is calm. Every morning I get up at half past seven.</p>
+</div>
+<div class="phrase">
+  <p class="es">Me ducho, desayuno en la cocina y salgo de casa a las ocho.</p>
+  <p class="en">I shower, have breakfast in the kitchen and leave the house at eight.</p>
+</div>
+<div class="phrase">
+  <p class="es">Voy al trabajo en autobús. Trabajo en una oficina en el centro, al lado de un parque.</p>
+  <p class="en">I go to work by bus. I work in an office in the centre, next to a park.</p>
+</div>
+<div class="phrase">
+  <p class="es">A las dos como con mi familia: sopa, pescado y fruta.</p>
+  <p class="en">At two I have lunch with my family: soup, fish and fruit.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por la tarde, si hace sol, paseo por la ciudad con mi hermana.</p>
+  <p class="en">In the afternoon, if it's sunny, I stroll around the city with my sister.</p>
+</div>
+<div class="phrase">
+  <p class="es">Nos gusta caminar hasta la plaza, comprar fruta en el mercado y tomar un café.</p>
+  <p class="en">We like to walk to the square, buy fruit at the market and have a coffee.</p>
+</div>
+<div class="phrase">
+  <p class="es">En verano hace mucho calor y la gente sale por la noche.</p>
+  <p class="en">In summer it's very hot and people go out at night.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hoy está nublado y llueve un poco, así que prefiero quedarme en casa y leer.</p>
+  <p class="en">Today it's cloudy and it's raining a little, so I prefer to stay at home and read.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por la noche ceno con mis padres, veo una película y me acuesto a las once.</p>
+  <p class="en">At night I have dinner with my parents, watch a film and go to bed at eleven.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mañana es sábado: no trabajo, así que quiero ir a la playa con mis amigos.</p>
+  <p class="en">Tomorrow is Saturday: I don't work, so I want to go to the beach with my friends.</p>
+</div>
+<div class="phrase">
+  <p class="es">El español es un idioma hermoso y cada día entiendo más.</p>
+  <p class="en">Spanish is a beautiful language and every day I understand more.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">rutina</span></td><td data-label="Type">n.f.</td><td data-label="English">routine</td><td data-label="Notes">la rutina diaria.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tranquilo/a</span></td><td data-label="Type">adj.</td><td data-label="English">calm, quiet</td><td data-label="Notes">un barrio tranquilo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cada</span></td><td data-label="Type">adj.</td><td data-label="English">each, every</td><td data-label="Notes">cada día = every day.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pasear</span></td><td data-label="Type">v.</td><td data-label="English">to go for a walk</td><td data-label="Notes">paseo, paseas…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">caminar</span></td><td data-label="Type">v.</td><td data-label="English">to walk</td><td data-label="Notes">camino, caminas…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">padres</span></td><td data-label="Type">n.m.pl.</td><td data-label="English">parents</td><td data-label="Notes">los padres.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hermoso/a</span></td><td data-label="Type">adj.</td><td data-label="English">beautiful</td><td data-label="Notes">Synonym: bonito/a.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> this text uses <strong>ser</strong> and <strong>estar</strong> side by side — <span class="es">es sábado</span>, <span class="es">está nublado</span>, <span class="es">es tranquila</span>. If you can feel the difference now, A1 is working.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR (A1 AT A GLANCE)</h2>
+<p>This is a revision map of Level A1. Read it as a checklist; each point comes from an earlier lesson.</p>
+
+<h3>2.1. <em>ser</em> vs <em>estar</em> vs <em>hay</em></h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Form</th><th>Use</th><th>Example</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Form"><span class="es">ser</span></td><td data-label="Use">identity, origin, permanent traits</td><td data-label="Example"><span class="es">Soy de Vietnam. Es un idioma hermoso.</span></td></tr>
+    <tr><td data-label="Form"><span class="es">estar</span></td><td data-label="Use">location and temporary states</td><td data-label="Example"><span class="es">El museo está cerca. Está nublado.</span></td></tr>
+    <tr><td data-label="Form"><span class="es">hay</span></td><td data-label="Use">there is / there are</td><td data-label="Example"><span class="es">Hay un parque en mi barrio.</span></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>2.2. The present tense</h3>
+<p>Regular <strong>-ar / -er / -ir</strong> verbs, plus the stem-changing verbs and reflexes you have met:</p>
+<ul>
+  <li class="ex"><span class="es">hablo / como / vivo</span><span class="en">I speak / I eat / I live (regular)</span></li>
+  <li class="ex"><span class="es">quiero, puedo, pido, prefiero, vuelvo</span><span class="en">stem-changing verbs (Lesson 10)</span></li>
+  <li class="ex"><span class="es">me levanto, me ducho, me acuesto</span><span class="en">reflexive verbs of the daily routine (Lesson 08)</span></li>
+</ul>
+
+<h3>2.3. <em>ir a</em> + place and the near future</h3>
+<ul>
+  <li class="ex"><span class="es">Voy al centro en autobús.</span><span class="en">I go to the centre by bus.</span></li>
+  <li class="ex"><span class="es">Quiero ir a la playa con mis amigos.</span><span class="en">I want to go to the beach with my friends.</span></li>
+</ul>
+
+<h3>2.4. Likes with <em>gustar</em></h3>
+<ul>
+  <li class="ex"><span class="es">Nos gusta caminar y tomar un café.</span><span class="en">We like walking and having a coffee.</span></li>
+  <li class="ex"><span class="es">Me gusta la música; me gustan las películas.</span><span class="en">I like music; I like films.</span></li>
+</ul>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">pasear</span></td><td data-label="Type">v.</td><td data-label="English">to go for a walk</td><td data-label="Notes">paseo, paseas…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">caminar</span></td><td data-label="Type">v.</td><td data-label="English">to walk</td><td data-label="Notes">camino, caminas…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">padres</span></td><td data-label="Type">n.m.pl.</td><td data-label="English">parents</td><td data-label="Notes">los padres.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hermoso/a</span></td><td data-label="Type">adj.</td><td data-label="English">beautiful</td><td data-label="Notes">Synonym: bonito/a.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cada</span></td><td data-label="Type">adj.</td><td data-label="English">each, every</td><td data-label="Notes">cada día.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">siempre</span></td><td data-label="Type">adv.</td><td data-label="English">always</td><td data-label="Notes">Antonym: nunca.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nunca</span></td><td data-label="Type">adv.</td><td data-label="English">never</td><td data-label="Notes">No... nunca = never.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pasar</span></td><td data-label="Type">v.</td><td data-label="English">to pass; to spend (time)</td><td data-label="Notes">pasar tiempo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tranquilo/a</span></td><td data-label="Type">adj.</td><td data-label="English">calm, quiet</td><td data-label="Notes">un barrio tranquilo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rutina</span></td><td data-label="Type">n.f.</td><td data-label="English">routine</td><td data-label="Notes">la rutina diaria.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences that summarize A1. Read them once; no need to memorize.</p>
+
+<h3>1. Introduce yourself and your home:</h3>
+<div class="phrase">
+  <p class="es">Me llamo Marta, soy de España y vivo en el sur.</p>
+  <p class="en">My name is Marta, I'm from Spain and I live in the south.</p>
+</div>
+<h3>2. Describe your routine:</h3>
+<div class="phrase">
+  <p class="es">Cada día me levanto, trabajo y vuelvo a casa.</p>
+  <p class="en">Every day I get up, work and come back home.</p>
+</div>
+<h3>3. Talk about the city:</h3>
+<div class="phrase">
+  <p class="es">Mi barrio es tranquilo y hay un parque cerca.</p>
+  <p class="en">My neighbourhood is quiet and there's a park nearby.</p>
+</div>
+<h3>4. Talk about the weather:</h3>
+<div class="phrase">
+  <p class="es">Hoy hace sol, pero mañana llueve.</p>
+  <p class="en">Today it's sunny, but tomorrow it rains.</p>
+</div>
+<h3>5. Say what you like:</h3>
+<div class="phrase">
+  <p class="es">Me gusta pasear y me encanta leer.</p>
+  <p class="en">I like strolling and I love reading.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends plan a Saturday together.</p>
+
+<div class="phrase">
+  <p class="es">Diego: ¿Qué haces el sábado?</p>
+  <p class="en">Diego: What are you doing on Saturday?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: No trabajo. Por la mañana paseo por el centro.</p>
+  <p class="en">Marta: I'm not working. In the morning I stroll around the centre.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: ¿Qué tiempo hace?</p>
+  <p class="en">Diego: What's the weather like?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Hace sol y no hace mucho calor. Perfecto para caminar.</p>
+  <p class="en">Marta: It's sunny and not very hot. Perfect for walking.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: ¿Y por la tarde?</p>
+  <p class="en">Diego: And in the afternoon?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Me gusta ir al cine. ¿Vienes conmigo?</p>
+  <p class="en">Marta: I like going to the cinema. Are you coming with me?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: ¡Claro! A mí también me gustan las películas.</p>
+  <p class="en">Diego: Of course! I like films too.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>perfecto</strong> (perfect), <strong>conmigo</strong> (with me), <strong>vienes</strong> (you come, from venir).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>ser</strong> = identity/origin; <strong>estar</strong> = location/state; <strong>hay</strong> = there is/are.</li>
+  <li>The <strong>present tense</strong> carries most of A1: regular verbs, stem-changing verbs and reflexes.</li>
+  <li><strong>ir a</strong> + place; <strong>gustar / encantar</strong> for likes.</li>
+  <li>Everyday topics: city, transport, weather, hobbies, routine.</li>
+  <li>New frequency words: <span class="es">siempre, nunca, cada, pasar</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — a letter from Hanoi</h3>
+<p><strong>Context:</strong> A short letter that mirrors Marta's day, from the learner's own city. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Hola, Marta. Soy Nam y vivo en Hanoi, en el norte de Vietnam.</p>
+  <p class="en">Hello, Marta. I'm Nam and I live in Hanoi, in the north of Vietnam.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi rutina también es tranquila. Cada día trabajo en una oficina cerca del centro.</p>
+  <p class="en">My routine is calm too. Every day I work in an office near the centre.</p>
+</div>
+<div class="phrase">
+  <p class="es">En Hanoi hace calor y llueve mucho en verano.</p>
+  <p class="en">In Hanoi it's hot and it rains a lot in summer.</p>
+</div>
+<div class="phrase">
+  <p class="es">Me gusta caminar por el parque con mis amigos y beber café.</p>
+  <p class="en">I like walking in the park with my friends and drinking coffee.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ahora estudio español y cada día entiendo más. ¡Hasta pronto!</p>
+  <p class="en">Now I'm studying Spanish and every day I understand more. See you soon!</p>
+</div>
+
+<p class="lead"><em>New words: <strong>Nam</strong> (a Vietnamese name), <strong>Hanoi</strong> (the capital of Vietnam), <strong>¡Hasta pronto!</strong> (See you soon!).</em></p>
+
+<hr>
+<p><strong>End of Lesson 15.</strong> Next, <strong>Review A1</strong>: a re-reading lesson that brings the whole level together — a dialogue and a short text. There is no homework — just read.</p>
+
+</div>
+</body>
+</html>
