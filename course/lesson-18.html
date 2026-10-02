@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 18 — The imperfect &amp; contrast with the preterite</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-17.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 18 — THE IMPERFECT &amp; CONTRAST WITH THE PRETERITE</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Learn the <strong>imperfect</strong>, the past tense for <strong>background, habits and descriptions</strong>.</li>
+      <li>Form it for <em>-ar</em> and <em>-er / -ir</em> verbs, and learn the only <strong>three irregulars</strong>: <span class="es">ser, ir, ver</span>.</li>
+      <li>Understand the core contrast: <strong>imperfect = scene</strong>, <strong>preterite = event</strong>.</li>
+      <li>Read a childhood memory where the two tenses work together.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">imperfecto, infancia, ni&ntilde;ez, pueblo, vecino/vecina, preparar, perdido/perdida, &eacute;poca, mientras, antes, de ni&ntilde;o/de ni&ntilde;a, juguete, pelota</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">limonero, mu&ntilde;eca, soleado, a&ntilde;orar</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (CUANDO ERA NI&Ntilde;A)</h2>
+<p><strong>Context:</strong> Elena remembers her childhood. The scene and the habits are in the <strong>imperfect</strong>; the single events are in the <strong>preterite</strong>. Read each line; the English below is only a check.</p>
+<p class="lead">(Watch how the two past tenses paint one picture.)</p>
+
+<div class="phrase">
+  <p class="es">Cuando <b>era</b> ni&ntilde;a, <b>viv&iacute;a</b> en un pueblo peque&ntilde;o cerca del mar.</p>
+  <p class="en">When I was a girl, I lived in a small village near the sea.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi casa <b>era</b> blanca y <b>ten&iacute;a</b> un jard&iacute;n con un limonero.</p>
+  <p class="en">My house was white and had a garden with a lemon tree.</p>
+</div>
+<div class="phrase">
+  <p class="es">Todos los d&iacute;as mi hermano y yo <b>jug&aacute;bamos</b> en la calle con los vecinos.</p>
+  <p class="en">Every day my brother and I played in the street with the neighbours.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por la ma&ntilde;ana mi madre <b>preparaba</b> el desayuno y nosotros <b>com&iacute;amos</b> juntos.</p>
+  <p class="en">In the morning my mother prepared breakfast and we ate together.</p>
+</div>
+<div class="phrase">
+  <p class="es">En verano <b>hac&iacute;a</b> mucho calor y <b>nad&aacute;bamos</b> en el mar.</p>
+  <p class="en">In summer it was very hot and we swam in the sea.</p>
+</div>
+<div class="phrase">
+  <p class="es">A veces mi abuelo nos <b>contaba</b> historias por la noche.</p>
+  <p class="en">Sometimes my grandfather told us stories at night.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un verano <b>pas&oacute;</b> algo especial: <b>encontramos</b> un perro perdido.</p>
+  <p class="en">One summer something special happened: we found a lost dog.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lo <b>llamamos</b> Lucky y <b>se qued&oacute;</b> con nosotros diez a&ntilde;os.</p>
+  <p class="en">We called him Lucky and he stayed with us for ten years.</p>
+</div>
+<div class="phrase">
+  <p class="es">Yo <b>era</b> muy feliz en aquella &eacute;poca.</p>
+  <p class="en">I was very happy in that time of my life.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ahora <b>vivo</b> en la ciudad, pero siempre <b>recuerdo</b> mi infancia.</p>
+  <p class="en">Now I live in the city, but I always remember my childhood.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">pueblo</span></td><td data-label="Type">n.m.</td><td data-label="English">village, small town</td><td data-label="Notes">Also = people.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vecino / vecina</span></td><td data-label="Type">n.m./n.f.</td><td data-label="English">neighbour</td><td data-label="Notes">Los vecinos del barrio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">limonero</span></td><td data-label="Type">n.m.</td><td data-label="English">lemon tree</td><td data-label="Notes">From limón.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">perdido / perdida</span></td><td data-label="Type">adj.</td><td data-label="English">lost</td><td data-label="Notes">Un perro perdido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">&eacute;poca</span></td><td data-label="Type">n.f.</td><td data-label="English">time, era</td><td data-label="Notes">En aquella época.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">&#128161; <strong>Feel the difference:</strong> <span class="es">jug&aacute;bamos</span> (we used to play &mdash; a habit) vs <span class="es">encontramos</span> (we found &mdash; one event). The imperfect is the film; the preterite is the photograph.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. What the imperfect does</h3>
+<p>The <strong>imperfecto</strong> does not say what happened; it paints <strong>how things were</strong>:</p>
+<ul>
+  <li class="ex"><span class="es">Describes scenes and people:</span><span class="en">La casa era blanca. Mi abuelo era amable.</span></li>
+  <li class="ex"><span class="es">Habits ("used to"):</span><span class="en">Todos los días jugábamos en la calle.</span></li>
+  <li class="ex"><span class="es">Age, time, weather in the background:</span><span class="en">Tenía ocho años. Era de noche. Hacía frío.</span></li>
+  <li class="ex"><span class="es">An action in progress:</span><span class="en">Mientras leía, mi madre cocinaba.</span></li>
+</ul>
+
+<h3>2.2. Regular endings</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Subject</th><th>hablar (-ar)</th><th>comer / vivir (-er, -ir)</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Subject"><span class="es">yo</span></td><td data-label="hablar"><span class="es">hablaba</span></td><td data-label="comer/vivir"><span class="es">com&iacute;a / viv&iacute;a</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">t&uacute;</span></td><td data-label="hablar"><span class="es">hablabas</span></td><td data-label="comer/vivir"><span class="es">com&iacute;as / viv&iacute;as</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">&eacute;l / ella / usted</span></td><td data-label="hablar"><span class="es">hablaba</span></td><td data-label="comer/vivir"><span class="es">com&iacute;a / viv&iacute;a</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">nosotros / nosotras</span></td><td data-label="hablar"><span class="es">habl&aacute;bamos</span></td><td data-label="comer/vivir"><span class="es">com&iacute;amos / viv&iacute;amos</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">vosotros / vosotras</span></td><td data-label="hablar"><span class="es">hablabais</span></td><td data-label="comer/vivir"><span class="es">com&iacute;ais / viv&iacute;ais</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">ellos / ellas / ustedes</span></td><td data-label="hablar"><span class="es">hablaban</span></td><td data-label="comer/vivir"><span class="es">com&iacute;an / viv&iacute;an</span></td></tr>
+  </tbody>
+</table>
+</div>
+<div class="tip">&#128161; <strong>Easy to spot:</strong> <em>-ar</em> verbs use <span class="es">-aba-</span>; <em>-er</em> and <em>-ir</em> verbs use <span class="es">-&iacute;a-</span>. Only <em>nosotros</em> has an accent on the stem: <span class="es">habl&aacute;bamos, com&iacute;amos</span>.</div>
+
+<h3>2.3. The only three irregulars</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Subject</th><th>ser</th><th>ir</th><th>ver</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Subject"><span class="es">yo</span></td><td data-label="ser"><span class="es">era</span></td><td data-label="ir"><span class="es">iba</span></td><td data-label="ver"><span class="es">ve&iacute;a</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">t&uacute;</span></td><td data-label="ser"><span class="es">eras</span></td><td data-label="ir"><span class="es">ibas</span></td><td data-label="ver"><span class="es">ve&iacute;as</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">&eacute;l / ella</span></td><td data-label="ser"><span class="es">era</span></td><td data-label="ir"><span class="es">iba</span></td><td data-label="ver"><span class="es">ve&iacute;a</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">nosotros</span></td><td data-label="ser"><span class="es">&eacute;ramos</span></td><td data-label="ir"><span class="es">&iacute;bamos</span></td><td data-label="ver"><span class="es">ve&iacute;amos</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">ellos</span></td><td data-label="ser"><span class="es">eran</span></td><td data-label="ir"><span class="es">iban</span></td><td data-label="ver"><span class="es">ve&iacute;an</span></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>2.4. Imperfect vs preterite: the key contrast</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Imperfect (background)</th><th>Preterite (event)</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Imperfect"><span class="es">Aquel d&iacute;a hac&iacute;a sol y yo paseaba.</span><br><em>It was sunny and I was strolling.</em></td><td data-label="Preterite"><span class="es">De repente, vi a mi amiga.</span><br><em>Suddenly, I saw my friend.</em></td></tr>
+    <tr><td data-label="Imperfect"><span class="es">Cuando era ni&ntilde;o, jugaba al f&uacute;tbol.</span><br><em>When I was a child, I used to play football.</em></td><td data-label="Preterite"><span class="es">Ayer jugu&eacute; un partido.</span><br><em>Yesterday I played a match.</em></td></tr>
+    <tr><td data-label="Imperfect"><span class="es">La casa era grande.</span><br><em>The house was big.</em></td><td data-label="Preterite"><span class="es">La casa fue de mi abuelo.</span><br><em>The house belonged to my grandfather (at that time).</em></td></tr>
+  </tbody>
+</table>
+</div>
+<div class="warn">&#9888;&#65039; <strong>Common mistake:</strong> don't use the imperfect for a single finished action. Say <span class="es">Ayer com&iacute; en casa</span>, not <span class="es">Ayer com&iacute;a en casa</span>.</div>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">imperfecto</span></td><td data-label="Type">n.m.</td><td data-label="English">imperfect (tense)</td><td data-label="Notes">The tense of background and habits.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">infancia</span></td><td data-label="Type">n.f.</td><td data-label="English">childhood</td><td data-label="Notes">Mi infancia fue feliz.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ni&ntilde;ez</span></td><td data-label="Type">n.f.</td><td data-label="English">childhood</td><td data-label="Notes">Synonym of infancia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pueblo</span></td><td data-label="Type">n.m.</td><td data-label="English">village, town; people</td><td data-label="Notes">Un pueblo peque&ntilde;o.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vecino / vecina</span></td><td data-label="Type">n.m./n.f.</td><td data-label="English">neighbour</td><td data-label="Notes">Los vecinos del barrio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">preparar</span></td><td data-label="Type">v.</td><td data-label="English">to prepare</td><td data-label="Notes">Preparar el desayuno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">perdido / perdida</span></td><td data-label="Type">adj.</td><td data-label="English">lost</td><td data-label="Notes">Un perro perdido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">&eacute;poca</span></td><td data-label="Type">n.f.</td><td data-label="English">time, era</td><td data-label="Notes">En aquella &eacute;poca.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mientras</span></td><td data-label="Type">conj.</td><td data-label="English">while, meanwhile</td><td data-label="Notes">Mientras le&iacute;a, com&iacute;a.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">antes</span></td><td data-label="Type">adv.</td><td data-label="English">before, earlier</td><td data-label="Notes">Antes viv&iacute;a aqu&iacute;.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">de ni&ntilde;o / de ni&ntilde;a</span></td><td data-label="Type">phr.</td><td data-label="English">as a child</td><td data-label="Notes">De ni&ntilde;o jugaba mucho.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">juguete</span></td><td data-label="Type">n.m.</td><td data-label="English">toy</td><td data-label="Notes">Un juguete de madera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pelota</span></td><td data-label="Type">n.f.</td><td data-label="English">ball</td><td data-label="Notes">Jugar a la pelota.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">limonero</span></td><td data-label="Type">n.m.</td><td data-label="English">lemon tree</td><td data-label="Notes">From lim&oacute;n.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mu&ntilde;eca</span></td><td data-label="Type">n.f.</td><td data-label="English">doll; wrist</td><td data-label="Notes">Jugar con mu&ntilde;ecas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">soleado / soleada</span></td><td data-label="Type">adj.</td><td data-label="English">sunny</td><td data-label="Notes">Un d&iacute;a soleado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">a&ntilde;orar</span></td><td data-label="Type">v.</td><td data-label="English">to miss, to long for</td><td data-label="Notes">A&ntilde;oro mi pueblo.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences that mix the two pasts naturally. Read them once; no need to memorize.</p>
+
+<h3>1. Set a childhood scene:</h3>
+<div class="phrase">
+  <p class="es">Cuando era ni&ntilde;o, viv&iacute;a en un pueblo peque&ntilde;o.</p>
+  <p class="en">When I was a child, I lived in a small village.</p>
+</div>
+<h3>2. Describe a habit:</h3>
+<div class="phrase">
+  <p class="es">Todos los veranos nad&aacute;bamos en el mar.</p>
+  <p class="en">Every summer we used to swim in the sea.</p>
+</div>
+<h3>3. Interrupt the scene with an event:</h3>
+<div class="phrase">
+  <p class="es">Mientras le&iacute;a, alguien llam&oacute; a la puerta.</p>
+  <p class="en">While I was reading, someone knocked at the door.</p>
+</div>
+<h3>4. Describe age and time:</h3>
+<div class="phrase">
+  <p class="es">Ten&iacute;a diez a&ntilde;os y era de noche.</p>
+  <p class="en">I was ten years old and it was night.</p>
+</div>
+<h3>5. Contrast then and now:</h3>
+<div class="phrase">
+  <p class="es">Antes no hab&iacute;a m&oacute;viles; ahora todos tenemos uno.</p>
+  <p class="en">Before there were no mobiles; now we all have one.</p>
+</div>
+<div class="tip">&#128161; <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends remember how their town used to be.</p>
+
+<div class="phrase">
+  <p class="es">Diego: &iquest;C&oacute;mo era tu barrio antes?</p>
+  <p class="en">Diego: What was your neighbourhood like before?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Era tranquilo. Hab&iacute;a una plaza y muchos &aacute;rboles.</p>
+  <p class="en">Marta: It was quiet. There was a square and lots of trees.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: &iquest;Y qu&eacute; hac&iacute;an los ni&ntilde;os?</p>
+  <p class="en">Diego: And what did the children use to do?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Jug&aacute;bamos en la calle hasta la noche.</p>
+  <p class="en">Marta: We used to play in the street until night.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: &iquest;Y qu&eacute; pas&oacute; con la plaza?</p>
+  <p class="en">Diego: And what happened to the square?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Un a&ntilde;o construyeron un centro comercial all&iacute;.</p>
+  <p class="en">Marta: One year they built a shopping centre there.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: &iexcl;Qu&eacute; pena! Todo cambia.</p>
+  <p class="en">Diego: What a shame! Everything changes.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>&aacute;rbol</strong> (tree), <strong>construyeron</strong> (they built), <strong>centro comercial</strong> (shopping centre), <strong>cambiar</strong> (to change).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Imperfect</strong> = background, habits, descriptions, age, weather, ongoing actions.</li>
+  <li><strong>-ar:</strong> -aba, -abas, -aba, -&aacute;bamos, -abais, -aban. <strong>-er / -ir:</strong> -&iacute;a, -&iacute;as, -&iacute;a, -&iacute;amos, -&iacute;ais, -&iacute;an.</li>
+  <li>Only three irregulars: <span class="es">ser &rarr; era; ir &rarr; iba; ver &rarr; ve&iacute;a</span>.</li>
+  <li><strong>Preterite</strong> = a complete event: <span class="es">Ayer encontr&eacute; un perro.</span></li>
+  <li>They combine: background in the imperfect, event in the preterite.</li>
+</ul>
+
+<h3>5.2. Further reading &mdash; the town I remember</h3>
+<p><strong>Context:</strong> A short memory that mixes both past tenses. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Cuando era peque&ntilde;o, mi familia ten&iacute;a una casa en la monta&ntilde;a.</p>
+  <p class="en">When I was little, my family had a house in the mountains.</p>
+</div>
+<div class="phrase">
+  <p class="es">El aire era limpio y hab&iacute;a un r&iacute;o cerca de la casa.</p>
+  <p class="en">The air was clean and there was a river near the house.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada ma&ntilde;ana camin&aacute;bamos hasta el r&iacute;o y pesc&aacute;bamos.</p>
+  <p class="en">Every morning we walked to the river and fished.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un d&iacute;a vimos un oso y volvimos corriendo a casa.</p>
+  <p class="en">One day we saw a bear and ran back home.</p>
+</div>
+<div class="phrase">
+  <p class="es">Nunca olvidar&eacute; aquella casa ni aquel verano.</p>
+  <p class="en">I will never forget that house or that summer.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>aire</strong> (air), <strong>pescar</strong> (to fish), <strong>oso</strong> (bear), <strong>corriendo</strong> (running).</em></p>
+
+<hr>
+<p><strong>End of Lesson 18.</strong> Next, <strong>Lesson 19</strong>: <strong>narrating a trip or story</strong> &mdash; putting the preterite and the imperfect together with connectors to tell a real story. There is no homework &mdash; just read.</p>
+
+<p class="topnav"><a href="lesson-19.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+
+</div>
+</body>
+</html>

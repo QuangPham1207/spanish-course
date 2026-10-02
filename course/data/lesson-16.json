@@ -1,0 +1,166 @@
+{
+  "lesson": 16,
+  "title": "The past simple (pretérito indefinido), regular",
+  "words": [
+    {
+      "word": "pretérito indefinido",
+      "type": "n.m.",
+      "en": "past simple (preterite)",
+      "note": "The tense of finished past actions.",
+      "example": { "es": "El pretérito indefinido cuenta acciones terminadas.", "en": "The past simple tells finished actions." }
+    },
+    {
+      "word": "ayer",
+      "type": "adv.",
+      "en": "yesterday",
+      "note": "Ayer trabajé ocho horas.",
+      "example": { "es": "Ayer llamé a mi hermana.", "en": "Yesterday I called my sister." }
+    },
+    {
+      "word": "anoche",
+      "type": "adv.",
+      "en": "last night",
+      "note": "Anoche cenamos en casa.",
+      "example": { "es": "Anoche vi una película.", "en": "Last night I watched a film." }
+    },
+    {
+      "word": "la semana pasada",
+      "type": "phr.",
+      "en": "last week",
+      "note": "Also el mes pasado, el año pasado.",
+      "example": { "es": "La semana pasada visité a mis padres.", "en": "Last week I visited my parents." }
+    },
+    {
+      "word": "el mes pasado",
+      "type": "phr.",
+      "en": "last month",
+      "note": "Time marker for the preterite.",
+      "example": { "es": "El mes pasado empecé un curso de español.", "en": "Last month I started a Spanish course." }
+    },
+    {
+      "word": "el año pasado",
+      "type": "phr.",
+      "en": "last year",
+      "note": "Time marker for the preterite.",
+      "example": { "es": "El año pasado viajé a México.", "en": "Last year I travelled to Mexico." }
+    },
+    {
+      "word": "jefe / jefa",
+      "type": "n.m./n.f.",
+      "en": "boss",
+      "note": "Mi jefa es simpática.",
+      "example": { "es": "Ayer trabajé con mi jefe.", "en": "Yesterday I worked with my boss." }
+    },
+    {
+      "word": "llamar",
+      "type": "v.",
+      "en": "to call",
+      "note": "También llamarse = to be called.",
+      "example": { "es": "Llamé a Lucía por la tarde.", "en": "I called Lucía in the afternoon." }
+    },
+    {
+      "word": "cenar",
+      "type": "v.",
+      "en": "to have dinner",
+      "note": "From la cena.",
+      "example": { "es": "Cenamos pescado en un restaurante.", "en": "We had fish for dinner in a restaurant." }
+    },
+    {
+      "word": "entrada",
+      "type": "n.f.",
+      "en": "ticket, entry",
+      "note": "Dos entradas de cine.",
+      "example": { "es": "Compré dos entradas para el cine.", "en": "I bought two tickets for the cinema." }
+    },
+    {
+      "word": "bocadillo",
+      "type": "n.m.",
+      "en": "sandwich",
+      "note": "In Mexico: torta.",
+      "example": { "es": "Comí un bocadillo en el bar.", "en": "I ate a sandwich in the bar." }
+    },
+    {
+      "word": "bar",
+      "type": "n.m.",
+      "en": "bar, café",
+      "note": "Un bar cerca del parque.",
+      "example": { "es": "Bebí un café en un bar pequeño.", "en": "I drank a coffee in a small bar." }
+    },
+    {
+      "word": "feliz",
+      "type": "adj.",
+      "en": "happy",
+      "note": "Same form for both genders.",
+      "example": { "es": "Fue un fin de semana feliz.", "en": "It was a happy weekend." }
+    },
+    {
+      "word": "olvidar",
+      "type": "v.",
+      "en": "to forget",
+      "note": "Olvidé las llaves.",
+      "example": { "es": "Olvidé el billete en casa.", "en": "I forgot the ticket at home." }
+    },
+    {
+      "word": "contar",
+      "type": "v.",
+      "en": "to tell, to count",
+      "note": "o→ue: cuento, conté.",
+      "example": { "es": "Me contó una historia interesante.", "en": "She told me an interesting story." }
+    },
+    {
+      "word": "recordar",
+      "type": "v.",
+      "en": "to remember",
+      "note": "o→ue: recuerdo, recordé.",
+      "example": { "es": "No recuerdo su nombre.", "en": "I don't remember his name." }
+    },
+    {
+      "word": "durar",
+      "type": "v.",
+      "en": "to last",
+      "note": "La película duró dos horas.",
+      "ext": true,
+      "example": { "es": "La clase duró una hora.", "en": "The class lasted an hour." }
+    },
+    {
+      "word": "suceder",
+      "type": "v.",
+      "en": "to happen",
+      "note": "¿Qué sucedió? = What happened?",
+      "ext": true,
+      "example": { "es": "¿Qué sucedió ayer?", "en": "What happened yesterday?" }
+    },
+    {
+      "word": "ocurrir",
+      "type": "v.",
+      "en": "to happen, to occur",
+      "note": "Synonym of suceder.",
+      "ext": true,
+      "example": { "es": "Eso ocurrió en 2010.", "en": "That happened in 2010." }
+    },
+    {
+      "word": "apenas",
+      "type": "adv.",
+      "en": "barely, hardly",
+      "note": "Apenas dormí.",
+      "ext": true,
+      "example": { "es": "Apenas comí ayer.", "en": "I barely ate yesterday." }
+    },
+    {
+      "word": "enseguida",
+      "type": "adv.",
+      "en": "right away, at once",
+      "note": "One word in modern spelling.",
+      "ext": true,
+      "example": { "es": "Llamé enseguida al médico.", "en": "I called the doctor right away." }
+    },
+    {
+      "word": "libre",
+      "type": "adj.",
+      "en": "free, off (not busy)",
+      "note": "un día libre = a day off.",
+      "ext": true,
+      "example": { "es": "El viernes fue un día libre.", "en": "Friday was a day off." }
+    }
+  ]
+}

@@ -44,10 +44,33 @@
     padding:.05rem .55rem; vertical-align:middle; margin-left:.4rem;
   }
 
+  /* Expandable modules */
+  details.module{
+    border:1px solid var(--border); border-radius:12px;
+    margin:.7rem 0; overflow:hidden;
+  }
+  details.module > summary{
+    cursor:pointer; list-style:none;
+    display:flex; align-items:baseline; flex-wrap:wrap;
+    gap:.25rem .6rem; padding:.9rem 1rem; background:var(--card);
+    font-weight:700; font-size:1.02rem;
+  }
+  details.module > summary::-webkit-details-marker{display:none}
+  details.module > summary::after{
+    content:"\25B8"; color:var(--accent); font-size:1rem;
+    font-weight:700; margin-left:auto; transition:transform .15s;
+  }
+  details.module[open] > summary::after{transform:rotate(90deg)}
+  details.module > summary .m-meta{
+    color:var(--muted); font-size:.78rem; font-weight:600;
+    letter-spacing:.02em; white-space:nowrap;
+  }
+  .module-body{padding:.2rem .65rem .5rem}
+
   a.card{
     display:block; text-decoration:none; color:var(--fg);
-    background:var(--card); border:1px solid var(--border);
-    border-radius:12px; padding:.9rem 1rem; margin:.7rem 0;
+    background:var(--bg); border:1px solid var(--border);
+    border-radius:12px; padding:.9rem 1rem; margin:.6rem 0;
     transition:border-color .15s, transform .15s;
   }
   a.card:hover{border-color:var(--accent)}
@@ -89,125 +112,208 @@
 </header>
 
 <h2>Lessons</h2>
+<p class="lead">Tap a module to open it. The lessons stay hidden until you need them.</p>
 
-<a class="card" href="course/lesson-01.html">
-  <div class="num">Lesson 01</div>
-  <div class="title">Greetings &amp; the Spanish sounds</div>
-  <div class="desc">Say hello and goodbye, ask how someone is, give your name and origin, and learn the key sounds: silent h, ñ, ll, j, and stress.</div>
-  <div class="go">Read lesson 01 &rarr;</div>
-</a>
+<details class="module">
+  <summary>
+    <span>Module A1-1 &mdash; First contact</span>
+    <span class="m-meta">Lessons 01&ndash;05</span>
+  </summary>
+  <div class="module-body">
 
-<a class="card" href="course/lesson-02.html">
-  <div class="num">Lesson 02</div>
-  <div class="title">Introducing yourself</div>
-  <div class="desc">The verb <em>ser</em>, <em>llamarse</em>, nationalities and origin (<em>soy de…</em>), and polite phrases like <em>mucho gusto</em>.</div>
-  <div class="go">Read lesson 02 &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-01.html">
+      <div class="num">Lesson 01</div>
+      <div class="title">Greetings &amp; the Spanish sounds</div>
+      <div class="desc">Say hello and goodbye, ask how someone is, give your name and origin, and learn the key sounds: silent h, ñ, ll, j, and stress.</div>
+      <div class="go">Read lesson 01 &rarr;</div>
+    </a>
 
-<a class="card" href="course/lesson-03.html">
-  <div class="num">Lesson 03</div>
-  <div class="title">Numbers, age &amp; dates</div>
-  <div class="desc">Numbers 0–100, age with <em>tener … años</em>, and the days, months and dates.</div>
-  <div class="go">Read lesson 03 &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-02.html">
+      <div class="num">Lesson 02</div>
+      <div class="title">Introducing yourself</div>
+      <div class="desc">The verb <em>ser</em>, <em>llamarse</em>, nationalities and origin (<em>soy de…</em>), and polite phrases like <em>mucho gusto</em>.</div>
+      <div class="go">Read lesson 02 &rarr;</div>
+    </a>
 
-<a class="card" href="course/lesson-04.html">
-  <div class="num">Lesson 04</div>
-  <div class="title">Family &amp; people</div>
-  <div class="desc">Family words, possessives (<em>mi, tu, su, nuestro</em>), and talking about who you have with <em>tener</em>.</div>
-  <div class="go">Read lesson 04 &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-03.html">
+      <div class="num">Lesson 03</div>
+      <div class="title">Numbers, age &amp; dates</div>
+      <div class="desc">Numbers 0–100, age with <em>tener … años</em>, and the days, months and dates.</div>
+      <div class="go">Read lesson 03 &rarr;</div>
+    </a>
 
-<a class="card" href="course/lesson-05.html">
-  <div class="num">Lesson 05</div>
-  <div class="title">Nouns: gender, articles &amp; plurals</div>
-  <div class="desc">Masculine and feminine nouns, <em>el/la, un/una</em>, plurals (<em>lápiz &rarr; lápices</em>) and the common exceptions.</div>
-  <div class="go">Read lesson 05 &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-04.html">
+      <div class="num">Lesson 04</div>
+      <div class="title">Family &amp; people</div>
+      <div class="desc">Family words, possessives (<em>mi, tu, su, nuestro</em>), and talking about who you have with <em>tener</em>.</div>
+      <div class="go">Read lesson 04 &rarr;</div>
+    </a>
 
-<a class="card" href="course/lesson-06.html">
-  <div class="num">Lesson 06</div>
-  <div class="title">The present tense</div>
-  <div class="desc">Subject pronouns and regular <em>-ar / -er / -ir</em> verbs, with negatives in <em>no</em>.</div>
-  <div class="go">Read lesson 06 &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-05.html">
+      <div class="num">Lesson 05</div>
+      <div class="title">Nouns: gender, articles &amp; plurals</div>
+      <div class="desc">Masculine and feminine nouns, <em>el/la, un/una</em>, plurals (<em>lápiz &rarr; lápices</em>) and the common exceptions.</div>
+      <div class="go">Read lesson 05 &rarr;</div>
+    </a>
 
-<a class="card" href="course/lesson-07.html">
-  <div class="num">Lesson 07</div>
-  <div class="title">Food &amp; ordering</div>
-  <div class="desc">Meals, market and restaurant words, the verb <em>querer</em>, <em>tener hambre / sed</em>, and how to order.</div>
-  <div class="go">Read lesson 07 &rarr;</div>
-</a>
+  </div>
+</details>
 
-<a class="card" href="course/lesson-08.html">
-  <div class="num">Lesson 08</div>
-  <div class="title">Home &amp; daily routine</div>
-  <div class="desc">Rooms of the home, reflexive verbs (<em>levantarse, ducharse</em>) and telling the time.</div>
-  <div class="go">Read lesson 08 &rarr;</div>
-</a>
+<details class="module">
+  <summary>
+    <span>Module A1-2 &mdash; Everyday life</span>
+    <span class="m-meta">Lessons 06&ndash;10 + review</span>
+  </summary>
+  <div class="module-body">
 
-<a class="card" href="course/lesson-09.html">
-  <div class="num">Lesson 09</div>
-  <div class="title">Shopping &amp; prices</div>
-  <div class="desc">Asking prices with <em>¿cuánto cuesta?</em>, colours, clothes, size and demonstratives (<em>este, esta</em>).</div>
-  <div class="go">Read lesson 09 &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-06.html">
+      <div class="num">Lesson 06</div>
+      <div class="title">The present tense</div>
+      <div class="desc">Subject pronouns and regular <em>-ar / -er / -ir</em> verbs, with negatives in <em>no</em>.</div>
+      <div class="go">Read lesson 06 &rarr;</div>
+    </a>
 
-<a class="card" href="course/lesson-10.html">
-  <div class="num">Lesson 10</div>
-  <div class="title">Stem-changing verbs</div>
-  <div class="desc">The <em>e&rarr;ie, o&rarr;ue, e&rarr;i</em> patterns (<em>querer, poder, pedir</em>), plus <em>ir</em> and <em>tener que</em>.</div>
-  <div class="go">Read lesson 10 &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-07.html">
+      <div class="num">Lesson 07</div>
+      <div class="title">Food &amp; ordering</div>
+      <div class="desc">Meals, market and restaurant words, the verb <em>querer</em>, <em>tener hambre / sed</em>, and how to order.</div>
+      <div class="go">Read lesson 07 &rarr;</div>
+    </a>
 
-<a class="card" href="course/review-a1-2.html">
-  <div class="num">Review A1-2</div>
-  <div class="title">A Saturday at the market</div>
-  <div class="desc">A re-reading lesson that brings food, routine, shopping and stem-changing verbs together. No exercises.</div>
-  <div class="go">Read the review &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-08.html">
+      <div class="num">Lesson 08</div>
+      <div class="title">Home &amp; daily routine</div>
+      <div class="desc">Rooms of the home, reflexive verbs (<em>levantarse, ducharse</em>) and telling the time.</div>
+      <div class="go">Read lesson 08 &rarr;</div>
+    </a>
 
-<a class="card" href="course/lesson-11.html">
-  <div class="num">Lesson 11</div>
-  <div class="title">The city &amp; directions</div>
-  <div class="desc"><em>Hay</em> vs <em>estar</em>, places in town, and giving directions with prepositions of place.</div>
-  <div class="go">Read lesson 11 &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-09.html">
+      <div class="num">Lesson 09</div>
+      <div class="title">Shopping &amp; prices</div>
+      <div class="desc">Asking prices with <em>¿cuánto cuesta?</em>, colours, clothes, size and demonstratives (<em>este, esta</em>).</div>
+      <div class="go">Read lesson 09 &rarr;</div>
+    </a>
 
-<a class="card" href="course/lesson-12.html">
-  <div class="num">Lesson 12</div>
-  <div class="title">Transport &amp; travel basics</div>
-  <div class="desc">Trains, buses, the metro and planes; tickets, timetables, and the verbs <em>tomar, subir, bajar, llegar</em>.</div>
-  <div class="go">Read lesson 12 &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-10.html">
+      <div class="num">Lesson 10</div>
+      <div class="title">Stem-changing verbs</div>
+      <div class="desc">The <em>e&rarr;ie, o&rarr;ue, e&rarr;i</em> patterns (<em>querer, poder, pedir</em>), plus <em>ir</em> and <em>tener que</em>.</div>
+      <div class="go">Read lesson 10 &rarr;</div>
+    </a>
 
-<a class="card" href="course/lesson-13.html">
-  <div class="num">Lesson 13</div>
-  <div class="title">Weather &amp; seasons</div>
-  <div class="desc"><em>Hace frío / calor</em>, <em>llueve</em>, <em>nieva</em>, the four seasons, and the climates of Spain vs Latin America.</div>
-  <div class="go">Read lesson 13 &rarr;</div>
-</a>
+    <a class="card" href="course/review-a1-2.html">
+      <div class="num">Review A1-2</div>
+      <div class="title">A Saturday at the market</div>
+      <div class="desc">A re-reading lesson that brings food, routine, shopping and stem-changing verbs together. No exercises.</div>
+      <div class="go">Read the review &rarr;</div>
+    </a>
 
-<a class="card" href="course/lesson-14.html">
-  <div class="num">Lesson 14</div>
-  <div class="title">Likes &amp; hobbies</div>
-  <div class="desc"><em>Gustar</em> and <em>encantar</em>, music, sport, the cinema and how to talk about free time.</div>
-  <div class="go">Read lesson 14 &rarr;</div>
-</a>
+  </div>
+</details>
 
-<a class="card" href="course/lesson-15.html">
-  <div class="num">Lesson 15</div>
-  <div class="title">A1 consolidation &mdash; a day in the city</div>
-  <div class="desc">A longer beginner reading that ties greetings, routine, the city, weather and hobbies together.</div>
-  <div class="go">Read lesson 15 &rarr;</div>
-</a>
+<details class="module">
+  <summary>
+    <span>Module A1-3 &mdash; Getting around</span>
+    <span class="m-meta">Lessons 11&ndash;15 + review</span>
+  </summary>
+  <div class="module-body">
 
-<a class="card" href="course/review-a1.html">
-  <div class="num">Review A1</div>
-  <div class="title">Getting around the level</div>
-  <div class="desc">A re-reading lesson that brings all of Level A1 together: a dialogue and a short text. No exercises.</div>
-  <div class="go">Read the review &rarr;</div>
-</a>
+    <a class="card" href="course/lesson-11.html">
+      <div class="num">Lesson 11</div>
+      <div class="title">The city &amp; directions</div>
+      <div class="desc"><em>Hay</em> vs <em>estar</em>, places in town, and giving directions with prepositions of place.</div>
+      <div class="go">Read lesson 11 &rarr;</div>
+    </a>
+
+    <a class="card" href="course/lesson-12.html">
+      <div class="num">Lesson 12</div>
+      <div class="title">Transport &amp; travel basics</div>
+      <div class="desc">Trains, buses, the metro and planes; tickets, timetables, and the verbs <em>tomar, subir, bajar, llegar</em>.</div>
+      <div class="go">Read lesson 12 &rarr;</div>
+    </a>
+
+    <a class="card" href="course/lesson-13.html">
+      <div class="num">Lesson 13</div>
+      <div class="title">Weather &amp; seasons</div>
+      <div class="desc"><em>Hace frío / calor</em>, <em>llueve</em>, <em>nieva</em>, the four seasons, and the climates of Spain vs Latin America.</div>
+      <div class="go">Read lesson 13 &rarr;</div>
+    </a>
+
+    <a class="card" href="course/lesson-14.html">
+      <div class="num">Lesson 14</div>
+      <div class="title">Likes &amp; hobbies</div>
+      <div class="desc"><em>Gustar</em> and <em>encantar</em>, music, sport, the cinema and how to talk about free time.</div>
+      <div class="go">Read lesson 14 &rarr;</div>
+    </a>
+
+    <a class="card" href="course/lesson-15.html">
+      <div class="num">Lesson 15</div>
+      <div class="title">A1 consolidation &mdash; a day in the city</div>
+      <div class="desc">A longer beginner reading that ties greetings, routine, the city, weather and hobbies together.</div>
+      <div class="go">Read lesson 15 &rarr;</div>
+    </a>
+
+    <a class="card" href="course/review-a1.html">
+      <div class="num">Review A1</div>
+      <div class="title">Getting around the level</div>
+      <div class="desc">A re-reading lesson that brings all of Level A1 together: a dialogue and a short text. No exercises.</div>
+      <div class="go">Read the review &rarr;</div>
+    </a>
+
+  </div>
+</details>
+
+<details class="module">
+  <summary>
+    <span>Module A2-1 &mdash; Talking about the past</span>
+    <span class="m-meta">Lessons 16&ndash;20 + review</span>
+  </summary>
+  <div class="module-body">
+
+    <a class="card" href="course/lesson-16.html">
+      <div class="num">Lesson 16</div>
+      <div class="title">The past simple (preterite), regular</div>
+      <div class="desc">Talk about finished past actions with the regular <em>-ar / -er / -ir</em> preterite and its time markers.</div>
+      <div class="go">Read lesson 16 &rarr;</div>
+    </a>
+
+    <a class="card" href="course/lesson-17.html">
+      <div class="num">Lesson 17</div>
+      <div class="title">The past simple, irregular</div>
+      <div class="desc">The high-frequency irregulars <em>fui, tuve, hice, estuve, pude</em>, plus <em>ser/ir/dar/ver</em> and the <em>-ir</em> stem-changers.</div>
+      <div class="go">Read lesson 17 &rarr;</div>
+    </a>
+
+    <a class="card" href="course/lesson-18.html">
+      <div class="num">Lesson 18</div>
+      <div class="title">The imperfect &amp; contrast with the preterite</div>
+      <div class="desc">The past tense for background, habits and descriptions, and how it works against the preterite.</div>
+      <div class="go">Read lesson 18 &rarr;</div>
+    </a>
+
+    <a class="card" href="course/lesson-19.html">
+      <div class="num">Lesson 19</div>
+      <div class="title">Narrating a trip or story</div>
+      <div class="desc">Put both pasts together with connectors (<em>al principio, de repente, mientras, al final</em>) to tell a real story.</div>
+      <div class="go">Read lesson 19 &rarr;</div>
+    </a>
+
+    <a class="card" href="course/lesson-20.html">
+      <div class="num">Lesson 20</div>
+      <div class="title">The present perfect</div>
+      <div class="desc"><em>he / has / ha…</em> + participle, irregular participles, and the Spain-vs-Latin-America contrast with the preterite.</div>
+      <div class="go">Read lesson 20 &rarr;</div>
+    </a>
+
+    <a class="card" href="course/review-a2-1.html">
+      <div class="num">Review A2-1</div>
+      <div class="title">A travel story</div>
+      <div class="desc">A re-reading lesson that mixes the preterite, the imperfect and the present perfect in one story. No exercises.</div>
+      <div class="go">Read the review &rarr;</div>
+    </a>
+
+  </div>
+</details>
 
 <h2>Reference</h2>
 

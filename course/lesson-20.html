@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 20 — The present perfect</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-19.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 20 — THE PRESENT PERFECT</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Learn <strong>haber + past participle</strong>: <span class="es">he, has, ha, hemos, hab&eacute;is, han</span> + <span class="es">-ado / -ido</span>.</li>
+      <li>Talk about <strong>experiences and recent news</strong> with <span class="es">ya, todav&iacute;a no, alguna vez, nunca, &uacute;ltimamente</span>.</li>
+      <li>Learn the <strong>irregular participles</strong>: <span class="es">hecho, dicho, visto, puesto, escrito, roto, vuelto</span>.</li>
+      <li>Understand how the present perfect contrasts with the preterite in <strong>Spain vs Latin America</strong>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">participio, experiencia, noticia, delicioso/deliciosa, ya, todav&iacute;a, alguna vez, &uacute;ltimamente, portugu&eacute;s, romper, abrir, recientemente</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">aurora, jam&aacute;s, reci&eacute;n, resolver</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (LO QUE HE HECHO ESTE A&Ntilde;O)</h2>
+<p><strong>Context:</strong> Elena writes about her year so far. The present perfect is in bold &mdash; notice that the exact time is never given. Read each line; the English below is only a check.</p>
+<p class="lead">(The present perfect links the past to now.)</p>
+
+<div class="phrase">
+  <p class="es">Este a&ntilde;o <b>he hecho</b> muchas cosas nuevas.</p>
+  <p class="en">This year I have done many new things.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>He viajado</b> a tres pa&iacute;ses y <b>he aprendido</b> un poco de portugu&eacute;s.</p>
+  <p class="en">I have travelled to three countries and I have learned a bit of Portuguese.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tambi&eacute;n <b>he le&iacute;do</b> cinco libros en espa&ntilde;ol.</p>
+  <p class="en">I have also read five books in Spanish.</p>
+</div>
+<div class="phrase">
+  <p class="es">&iquest;<b>Has visto</b> alguna vez una aurora? Yo todav&iacute;a no <b>la he visto</b>.</p>
+  <p class="en">Have you ever seen an aurora? I still haven't seen one.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi hermano <b>ha vivido</b> en Canad&aacute; dos a&ntilde;os.</p>
+  <p class="en">My brother has lived in Canada for two years.</p>
+</div>
+<div class="phrase">
+  <p class="es">&iquest;<b>Has probado</b> la comida peruana? S&iacute;, <b>la he probado</b>: es deliciosa.</p>
+  <p class="en">Have you tried Peruvian food? Yes, I have tried it: it's delicious.</p>
+</div>
+<div class="phrase">
+  <p class="es">&Uacute;ltimamente no <b>he dormido</b> bien.</p>
+  <p class="en">Lately I haven't been sleeping well.</p>
+</div>
+<div class="phrase">
+  <p class="es">&iquest;Ya <b>has terminado</b> el trabajo? No, todav&iacute;a no <b>lo he terminado</b>.</p>
+  <p class="en">Have you finished the work yet? No, I still haven't finished it.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hoy <b>he hablado</b> con mi jefa y me <b>ha dado</b> una buena noticia.</p>
+  <p class="en">Today I have spoken with my boss and she has given me good news.</p>
+</div>
+<div class="phrase">
+  <p class="es">Nunca <b>he estado</b> en Europa, pero alg&uacute;n d&iacute;a ir&eacute;.</p>
+  <p class="en">I have never been to Europe, but some day I'll go. <em>(advanced: future.)</em></p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">experiencia</span></td><td data-label="Type">n.f.</td><td data-label="English">experience</td><td data-label="Notes">una experiencia nueva.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">noticia</span></td><td data-label="Type">n.f.</td><td data-label="English">piece of news</td><td data-label="Notes">Usually plural: las noticias.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">delicioso / deliciosa</span></td><td data-label="Type">adj.</td><td data-label="English">delicious</td><td data-label="Notes">Synonym: rico.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">todav&iacute;a</span></td><td data-label="Type">adv.</td><td data-label="English">still, yet</td><td data-label="Notes">Todav&iacute;a no = not yet.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">&uacute;ltimamente</span></td><td data-label="Type">adv.</td><td data-label="English">lately</td><td data-label="Notes">Últimamente no duermo bien.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alguna vez</span></td><td data-label="Type">phr.</td><td data-label="English">ever (at some time)</td><td data-label="Notes">¿Has… alguna vez?</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aurora</span></td><td data-label="Type">n.f.</td><td data-label="English">aurora (northern lights)</td><td data-label="Notes">aurora boreal.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">&#128161; <strong>Why not the preterite?</strong> The present perfect never says <em>when</em>. It answers "What have you done?" not "What did you do yesterday?".</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Form: <em>haber</em> + participle</h3>
+<div class="formula">he / has / ha / hemos / hab&eacute;is / han + participio</div>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Subject</th><th>haber</th><th>+ participle</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Subject"><span class="es">yo</span></td><td data-label="haber"><span class="es">he</span></td><td data-label="Participle"><span class="es">he trabajado</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">t&uacute;</span></td><td data-label="haber"><span class="es">has</span></td><td data-label="Participle"><span class="es">has comido</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">&eacute;l / ella / usted</span></td><td data-label="haber"><span class="es">ha</span></td><td data-label="Participle"><span class="es">ha vivido</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">nosotros / nosotras</span></td><td data-label="haber"><span class="es">hemos</span></td><td data-label="Participle"><span class="es">hemos visto</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">vosotros / vosotras</span></td><td data-label="haber"><span class="es">hab&eacute;is</span></td><td data-label="Participle"><span class="es">hab&eacute;is hecho</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">ellos / ellas / ustedes</span></td><td data-label="haber"><span class="es">han</span></td><td data-label="Participle"><span class="es">han dicho</span></td></tr>
+  </tbody>
+</table>
+</div>
+<p>The participle is formed from the verb:</p>
+<ul>
+  <li class="ex"><span class="es">-ar &rarr; -ado</span><span class="en">hablar &rarr; hablado; trabajar &rarr; trabajado</span></li>
+  <li class="ex"><span class="es">-er / -ir &rarr; -ido</span><span class="en">comer &rarr; comido; vivir &rarr; vivido</span></li>
+</ul>
+<div class="warn">&#9888;&#65039; The participle never changes with the subject: <span class="es">Ella ha trabajado</span>, not <em>ha trabajada</em>.</div>
+
+<h3>2.2. Irregular participles</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Verb</th><th>Participle</th><th>Verb</th><th>Participle</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Verb"><span class="es">hacer</span></td><td data-label="Participle"><span class="es">hecho</span></td><td data-label="Verb"><span class="es">poner</span></td><td data-label="Participle"><span class="es">puesto</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">decir</span></td><td data-label="Participle"><span class="es">dicho</span></td><td data-label="Verb"><span class="es">escribir</span></td><td data-label="Participle"><span class="es">escrito</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">ver</span></td><td data-label="Participle"><span class="es">visto</span></td><td data-label="Verb"><span class="es">romper</span></td><td data-label="Participle"><span class="es">roto</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">volver</span></td><td data-label="Participle"><span class="es">vuelto</span></td><td data-label="Verb"><span class="es">abrir</span></td><td data-label="Participle"><span class="es">abierto</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">resolver</span></td><td data-label="Participle"><span class="es">resuelto</span></td><td data-label="Verb"><span class="es">morir</span></td><td data-label="Participle"><span class="es">muerto</span></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>2.3. Time markers of the present perfect</h3>
+<ul>
+  <li class="ex"><span class="es">ya / todav&iacute;a no</span><span class="en">already / not yet</span></li>
+  <li class="ex"><span class="es">alguna vez / nunca</span><span class="en">ever / never</span></li>
+  <li class="ex"><span class="es">&uacute;ltimamente / recientemente</span><span class="en">lately / recently</span></li>
+  <li class="ex"><span class="es">hoy / esta semana / este a&ntilde;o</span><span class="en">today / this week / this year</span></li>
+</ul>
+<ul>
+  <li class="ex"><span class="es">Ya he comido. / Todav&iacute;a no he comido.</span><span class="en">I've already eaten. / I haven't eaten yet.</span></li>
+  <li class="ex"><span class="es">&iquest;Has estado alguna vez en Espa&ntilde;a? &mdash; No, nunca.</span><span class="en">Have you ever been to Spain? &mdash; No, never.</span></li>
+</ul>
+
+<h3>2.4. Present perfect vs preterite (and Spain vs Latin America)</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Present perfect</th><th>Preterite</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Present perfect"><span class="es">He visitado Madrid.</span><br><em>I have visited Madrid (at some point).</em></td><td data-label="Preterite"><span class="es">Visité Madrid en 2019.</span><br><em>I visited Madrid in 2019.</em></td></tr>
+    <tr><td data-label="Present perfect"><span class="es">Hoy he trabajado mucho.</span><br><em>Today I have worked a lot.</em></td><td data-label="Preterite"><span class="es">Ayer trabajé mucho.</span><br><em>Yesterday I worked a lot.</em></td></tr>
+  </tbody>
+</table>
+</div>
+<div class="tip">&#128161; <strong>Spain vs Latin America:</strong> in <strong>Spain</strong>, people often use the present perfect for things that happened <strong>today</strong> (<span class="es">Hoy he desayunado en un bar</span>). In much of <strong>Latin America</strong>, the preterite is common even for today (<span class="es">Hoy desayuné en un bar</span>). Both are correct &mdash; just be consistent.</div>
+<div class="warn">&#9888;&#65039; <strong>Common mistake:</strong> never mix a specific past time with the present perfect. Say <span class="es">Ayer trabajé</span>, not <em>Ayer he trabajado</em>.</div>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">participio</span></td><td data-label="Type">n.m.</td><td data-label="English">participle</td><td data-label="Notes">trabajado, comido, vivido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">experiencia</span></td><td data-label="Type">n.f.</td><td data-label="English">experience</td><td data-label="Notes">una experiencia inolvidable.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">noticia</span></td><td data-label="Type">n.f.</td><td data-label="English">piece of news</td><td data-label="Notes">una buena noticia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">delicioso / deliciosa</span></td><td data-label="Type">adj.</td><td data-label="English">delicious</td><td data-label="Notes">Synonym: rico.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ya</span></td><td data-label="Type">adv.</td><td data-label="English">already, now</td><td data-label="Notes">Ya he comido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">todav&iacute;a</span></td><td data-label="Type">adv.</td><td data-label="English">still, yet</td><td data-label="Notes">Todav&iacute;a no he comido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alguna vez</span></td><td data-label="Type">phr.</td><td data-label="English">ever</td><td data-label="Notes">&iquest;Has… alguna vez?</td></tr>
+    <tr><td data-label="Spanish"><span class="es">&uacute;ltimamente</span></td><td data-label="Type">adv.</td><td data-label="English">lately</td><td data-label="Notes">Últimamente…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">portugu&eacute;s</span></td><td data-label="Type">adj./n.m.</td><td data-label="English">Portuguese</td><td data-label="Notes">He aprendido portugu&eacute;s.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">romper</span></td><td data-label="Type">v.</td><td data-label="English">to break</td><td data-label="Notes">Participle: roto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">abrir</span></td><td data-label="Type">v.</td><td data-label="English">to open</td><td data-label="Notes">Participle: abierto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">recientemente</span></td><td data-label="Type">adv.</td><td data-label="English">recently</td><td data-label="Notes">Recientemente he viajado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aurora</span></td><td data-label="Type">n.f.</td><td data-label="English">aurora</td><td data-label="Notes">aurora boreal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">jam&aacute;s</span></td><td data-label="Type">adv.</td><td data-label="English">never (emphatic)</td><td data-label="Notes">Stronger than nunca.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reci&eacute;n</span></td><td data-label="Type">adv.</td><td data-label="English">just, recently</td><td data-label="Notes">Very common in Latin America.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">resolver</span></td><td data-label="Type">v.</td><td data-label="English">to solve, to resolve</td><td data-label="Notes">Participle: resuelto.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences for experiences and recent news. Read them once; no need to memorize.</p>
+
+<h3>1. Talk about experiences:</h3>
+<div class="phrase">
+  <p class="es">He viajado a muchos pa&iacute;ses, pero nunca he estado en Europa.</p>
+  <p class="en">I have travelled to many countries, but I have never been to Europe.</p>
+</div>
+<h3>2. Ask about experiences:</h3>
+<div class="phrase">
+  <p class="es">&iquest;Has probado alguna vez la comida mexicana?</p>
+  <p class="en">Have you ever tried Mexican food?</p>
+</div>
+<h3>3. Talk about recent news:</h3>
+<div class="phrase">
+  <p class="es">Hoy he recibido una buena noticia.</p>
+  <p class="en">Today I have received good news.</p>
+</div>
+<h3>4. Say "not yet":</h3>
+<div class="phrase">
+  <p class="es">Todav&iacute;a no he terminado el libro.</p>
+  <p class="en">I still haven't finished the book.</p>
+</div>
+<h3>5. Contrast with the preterite:</h3>
+<div class="phrase">
+  <p class="es">Esta semana he trabajado mucho; ayer trabajé hasta las diez.</p>
+  <p class="en">This week I have worked a lot; yesterday I worked until ten.</p>
+</div>
+<div class="tip">&#128161; <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends catch up on the year.</p>
+
+<div class="phrase">
+  <p class="es">Diego: &iquest;Qu&eacute; has hecho este a&ntilde;o?</p>
+  <p class="en">Diego: What have you done this year?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: He viajado a M&eacute;xico y he aprendido a cocinar.</p>
+  <p class="en">Marta: I have travelled to Mexico and I have learned to cook.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: &iquest;Has visto a Luc&iacute;a &uacute;ltimamente?</p>
+  <p class="en">Diego: Have you seen Luc&iacute;a lately?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: No, no la he visto. &iquest;Le ha pasado algo?</p>
+  <p class="en">Marta: No, I haven't seen her. Has something happened to her?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Ha encontrado un trabajo nuevo en Madrid.</p>
+  <p class="en">Diego: She has found a new job in Madrid.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: &iexcl;Qu&eacute; buena noticia! Todav&iacute;a no me lo ha dicho.</p>
+  <p class="en">Marta: What good news! She still hasn't told me.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: La llam&oacute; ayer, pero no contest&oacute;.</p>
+  <p class="en">Diego: She called her yesterday, but she didn't answer. <em>(specific past &rarr; preterite.)</em></p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>cocinar</strong> (to cook), <strong>contestar</strong> (to answer), <strong>&iquest;Le ha pasado algo?</strong> (Has something happened to her?).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>haber + participle:</strong> he, has, ha, hemos, hab&eacute;is, han + <span class="es">-ado / -ido</span>.</li>
+  <li>Irregular participles: <span class="es">hecho, dicho, visto, puesto, escrito, roto, vuelto, abierto, resuelto, muerto</span>.</li>
+  <li>No specific time is given: <span class="es">He visitado Madrid</span>, but <span class="es">Visité Madrid en 2019</span>.</li>
+  <li>Markers: <span class="es">ya, todav&iacute;a no, alguna vez, nunca, jam&aacute;s, &uacute;ltimamente, recientemente</span>.</li>
+  <li><strong>Spain</strong> uses it for today's events; much of <strong>Latin America</strong> prefers the preterite. Both are correct.</li>
+</ul>
+
+<h3>5.2. Further reading &mdash; an interview with a traveller</h3>
+<p><strong>Context:</strong> A short interview that uses the present perfect naturally. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">&mdash; &iquest;Cu&aacute;ntos pa&iacute;ses has visitado?</p>
+  <p class="en">&mdash; How many countries have you visited?</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; He visitado m&aacute;s de treinta. He vivido en cuatro continentes.</p>
+  <p class="en">&mdash; I have visited more than thirty. I have lived on four continents.</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; &iquest;Y cu&aacute;l ha sido tu mejor experiencia?</p>
+  <p class="en">&mdash; And which has been your best experience?</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; Una vez vi la aurora boreal en Islandia; nunca he olvidado ese momento.</p>
+  <p class="en">&mdash; Once I saw the northern lights in Iceland; I have never forgotten that moment.</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; &iquest;Has tenido miedo alguna vez? &mdash; S&iacute;, pero nunca he dejado de viajar.</p>
+  <p class="en">&mdash; Have you ever been afraid? &mdash; Yes, but I have never stopped travelling.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>continente</strong> (continent), <strong>Islandia</strong> (Iceland), <strong>miedo</strong> (fear), <strong>dejar de</strong> (to stop doing something).</em></p>
+
+<hr>
+<p><strong>End of Lesson 20.</strong> Next, <strong>Review A2-1</strong>: a longer travel story that mixes the preterite, the imperfect and the present perfect. A re-reading lesson; no exercises. There is no homework &mdash; just read.</p>
+
+<p class="topnav"><a href="review-a2-1.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+
+</div>
+</body>
+</html>

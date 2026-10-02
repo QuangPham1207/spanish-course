@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 17 — The past simple, irregular</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-16.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 17 — THE PAST SIMPLE, IRREGULAR</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Learn the <strong>high-frequency irregular preterites</strong>: <span class="es">fui, tuve, hice, estuve, pude, puse, dije</span>.</li>
+      <li>See the <strong>shared irregular endings</strong> (<em>-e, -iste, -o, -imos, -isteis, -ieron</em>) with no accents.</li>
+      <li>Meet the special trio <span class="es">ser / ir / dar</span> and <span class="es">ver</span>, which behave differently.</li>
+      <li>Note the <strong>-ir stem-changing</strong> verbs that change only in the third person (<span class="es">pidi&oacute;, durmi&oacute;</span>).</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">recorrido, sierra, regalo, m&oacute;vil, sorpresa, gratis, inolvidable, creer, sacar (una foto), al d&iacute;a siguiente</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">sorprendido, amable, paisaje, conducir</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EL VIAJE A GRANADA)</h2>
+<p><strong>Context:</strong> Nam tells the story of a trip to Granada, in southern Spain. The irregular past forms are in bold. Read each line; the English below is only a check.</p>
+<p class="lead">(The Spanish is enough to follow the story.)</p>
+
+<div class="phrase">
+  <p class="es">El a&ntilde;o pasado <b>fui</b> a Granada con dos amigos.</p>
+  <p class="en">Last year I went to Granada with two friends. <em>(fui = I went, from <b>ir</b>)</em></p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Estuvimos</b> all&iacute; cuatro d&iacute;as y lo pasamos muy bien.</p>
+  <p class="en">We were there four days and had a great time. <em>(estuvimos, from <b>estar</b>)</em></p>
+</div>
+<div class="phrase">
+  <p class="es">El primer d&iacute;a <b>hicimos</b> un recorrido por la ciudad.</p>
+  <p class="en">On the first day we did a tour of the city. <em>(hicimos, from <b>hacer</b>)</em></p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Vi</b> la Alhambra y <b>saqu&eacute;</b> muchas fotos.</p>
+  <p class="en">I saw the Alhambra and took lots of photos. <em>(vi, from <b>ver</b>)</em></p>
+</div>
+<div class="phrase">
+  <p class="es">Por la noche <b>tuve</b> hambre y buscamos un restaurante.</p>
+  <p class="en">At night I was hungry and we looked for a restaurant. <em>(tuve, from <b>tener</b>)</em></p>
+</div>
+<div class="phrase">
+  <p class="es">Pedimos tapas y el camarero nos <b>trajo</b> una sorpresa.</p>
+  <p class="en">We ordered tapas and the waiter brought us a surprise. <em>(trajo, from <b>traer</b>)</em></p>
+</div>
+<div class="phrase">
+  <p class="es">Nos <b>dijo</b>: &laquo;La comida es gratis hoy&raquo;.</p>
+  <p class="en">He told us: "The food is free today." <em>(dijo, from <b>decir</b>)</em></p>
+</div>
+<div class="phrase">
+  <p class="es">No <b>pude</b> creerlo.</p>
+  <p class="en">I couldn't believe it. <em>(pude, from <b>poder</b>)</em></p>
+</div>
+<div class="phrase">
+  <p class="es">Al d&iacute;a siguiente <b>fuimos</b> a la sierra y <b>vimos</b> nieve.</p>
+  <p class="en">The next day we went to the mountains and saw snow. <em>(fuimos, vimos)</em></p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Quise</b> comprar un regalo, pero no <b>supe</b> qu&eacute;.</p>
+  <p class="en">I wanted to buy a gift, but I didn't know what. <em>(quise, from <b>querer</b>; supe, from <b>saber</b>)</em></p>
+</div>
+<div class="phrase">
+  <p class="es">Al final <b>puse</b> un mensaje en el m&oacute;vil y <b>vine</b> a casa muy contento.</p>
+  <p class="en">In the end I put a message on my phone and came home very happy. <em>(puse, from <b>poner</b>; vine, from <b>venir</b>)</em></p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Fue</b> un viaje inolvidable.</p>
+  <p class="en">It was an unforgettable trip. <em>(fue, from <b>ser</b>)</em></p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">recorrido</span></td><td data-label="Type">n.m.</td><td data-label="English">tour, route</td><td data-label="Notes">Hacer un recorrido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sierra</span></td><td data-label="Type">n.f.</td><td data-label="English">mountain range</td><td data-label="Notes">Ir a la sierra.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">regalo</span></td><td data-label="Type">n.m.</td><td data-label="English">gift, present</td><td data-label="Notes">Comprar un regalo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">móvil</span></td><td data-label="Type">n.m.</td><td data-label="English">mobile phone</td><td data-label="Notes">In Latin America: <em>celular</em>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sorpresa</span></td><td data-label="Type">n.f.</td><td data-label="English">surprise</td><td data-label="Notes">Una sorpresa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gratis</span></td><td data-label="Type">adj./adv.</td><td data-label="English">free (no cost)</td><td data-label="Notes">La entrada es gratis.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inolvidable</span></td><td data-label="Type">adj.</td><td data-label="English">unforgettable</td><td data-label="Notes">in- + olvidable.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">&#128161; <strong>Pattern:</strong> most irregular preterites share one set of endings. Learn the stem (<span class="es">tuve, hice, pude</span>) and the rest is regular.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The shared irregular pattern</h3>
+<p>A group of very common verbs use the same endings, with <strong>no accents</strong>:</p>
+<div class="formula">-e &middot; -iste &middot; -o &middot; -imos &middot; -isteis &middot; -ieron</div>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Verb</th><th>Stem</th><th>yo</th><th>t&uacute;</th><th>&eacute;l / ella</th><th>nosotros</th><th>ellos</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Verb"><span class="es">tener</span></td><td data-label="Stem"><span class="es">tuv-</span></td><td data-label="yo"><span class="es">tuve</span></td><td data-label="tú"><span class="es">tuviste</span></td><td data-label="él/ella"><span class="es">tuvo</span></td><td data-label="nosotros"><span class="es">tuvimos</span></td><td data-label="ellos"><span class="es">tuvieron</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">estar</span></td><td data-label="Stem"><span class="es">estuv-</span></td><td data-label="yo"><span class="es">estuve</span></td><td data-label="tú"><span class="es">estuviste</span></td><td data-label="él/ella"><span class="es">estuvo</span></td><td data-label="nosotros"><span class="es">estuvimos</span></td><td data-label="ellos"><span class="es">estuvieron</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">hacer</span></td><td data-label="Stem"><span class="es">hic-</span></td><td data-label="yo"><span class="es">hice</span></td><td data-label="tú"><span class="es">hiciste</span></td><td data-label="él/ella"><span class="es">hizo</span></td><td data-label="nosotros"><span class="es">hicimos</span></td><td data-label="ellos"><span class="es">hicieron</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">poder</span></td><td data-label="Stem"><span class="es">pud-</span></td><td data-label="yo"><span class="es">pude</span></td><td data-label="tú"><span class="es">pudiste</span></td><td data-label="él/ella"><span class="es">pudo</span></td><td data-label="nosotros"><span class="es">pudimos</span></td><td data-label="ellos"><span class="es">pudieron</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">poner</span></td><td data-label="Stem"><span class="es">pus-</span></td><td data-label="yo"><span class="es">puse</span></td><td data-label="tú"><span class="es">pusiste</span></td><td data-label="él/ella"><span class="es">puso</span></td><td data-label="nosotros"><span class="es">pusimos</span></td><td data-label="ellos"><span class="es">pusieron</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">saber</span></td><td data-label="Stem"><span class="es">sup-</span></td><td data-label="yo"><span class="es">supe</span></td><td data-label="tú"><span class="es">supiste</span></td><td data-label="él/ella"><span class="es">supo</span></td><td data-label="nosotros"><span class="es">supimos</span></td><td data-label="ellos"><span class="es">supieron</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">querer</span></td><td data-label="Stem"><span class="es">quis-</span></td><td data-label="yo"><span class="es">quise</span></td><td data-label="tú"><span class="es">quisiste</span></td><td data-label="él/ella"><span class="es">quiso</span></td><td data-label="nosotros"><span class="es">quisimos</span></td><td data-label="ellos"><span class="es">quisieron</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">venir</span></td><td data-label="Stem"><span class="es">vin-</span></td><td data-label="yo"><span class="es">vine</span></td><td data-label="tú"><span class="es">viniste</span></td><td data-label="él/ella"><span class="es">vino</span></td><td data-label="nosotros"><span class="es">vinimos</span></td><td data-label="ellos"><span class="es">vinieron</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">decir</span></td><td data-label="Stem"><span class="es">dij-</span></td><td data-label="yo"><span class="es">dije</span></td><td data-label="tú"><span class="es">dijiste</span></td><td data-label="él/ella"><span class="es">dijo</span></td><td data-label="nosotros"><span class="es">dijimos</span></td><td data-label="ellos"><span class="es">dijeron</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">traer</span></td><td data-label="Stem"><span class="es">traj-</span></td><td data-label="yo"><span class="es">traje</span></td><td data-label="tú"><span class="es">trajiste</span></td><td data-label="él/ella"><span class="es">trajo</span></td><td data-label="nosotros"><span class="es">trajimos</span></td><td data-label="ellos"><span class="es">trajeron</span></td></tr>
+  </tbody>
+</table>
+</div>
+<div class="warn">&#9888;&#65039; <strong>Spelling watch:</strong> <span class="es">hacer</span> changes to <em>hiz-</em> in the third person: <span class="es">hizo, hicieron</span>. <span class="es">decir</span> and <span class="es">traer</span> drop the <em>i</em> in the third person plural: <span class="es">dijeron, trajeron</span>.</div>
+
+<h3>2.2. The special trio: <em>ser</em>, <em>ir</em>, <em>dar</em> (and <em>ver</em>)</h3>
+<p><span class="es">ser</span> and <span class="es">ir</span> share the <strong>same</strong> preterite forms; context tells them apart:</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Subject</th><th>ser / ir</th><th>dar</th><th>ver</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Subject"><span class="es">yo</span></td><td data-label="ser/ir"><span class="es">fui</span></td><td data-label="dar"><span class="es">di</span></td><td data-label="ver"><span class="es">vi</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">t&uacute;</span></td><td data-label="ser/ir"><span class="es">fuiste</span></td><td data-label="dar"><span class="es">diste</span></td><td data-label="ver"><span class="es">viste</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">&eacute;l / ella</span></td><td data-label="ser/ir"><span class="es">fue</span></td><td data-label="dar"><span class="es">dio</span></td><td data-label="ver"><span class="es">vio</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">nosotros</span></td><td data-label="ser/ir"><span class="es">fuimos</span></td><td data-label="dar"><span class="es">dimos</span></td><td data-label="ver"><span class="es">vimos</span></td></tr>
+    <tr><td data-label="Subject"><span class="es">ellos</span></td><td data-label="ser/ir"><span class="es">fueron</span></td><td data-label="dar"><span class="es">dieron</span></td><td data-label="ver"><span class="es">vieron</span></td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">Fui a Madrid. / Fui profesor.</span><span class="en">I went to Madrid. / I was a teacher.</span></li>
+  <li class="ex"><span class="es">Me dio un regalo.</span><span class="en">He gave me a gift.</span></li>
+</ul>
+
+<h3>2.3. <em>-ir</em> stem-changing verbs: only the third person</h3>
+<p>Verbs like <span class="es">pedir, dormir, sentir</span> change their stem in the <strong>third person only</strong>:</p>
+<ul>
+  <li class="ex"><span class="es">pedir &rarr; ped&iacute;, pediste, pidi&oacute;, pedimos, pidieron</span><span class="en">to ask for (e&rarr;i in &eacute;l/ellos)</span></li>
+  <li class="ex"><span class="es">dormir &rarr; dorm&iacute;, dormiste, durmi&oacute;, dormimos, durmieron</span><span class="en">to sleep (o&rarr;u in &eacute;l/ellos)</span></li>
+</ul>
+<ul>
+  <li class="ex"><span class="es">Ella pidi&oacute; la cuenta.</span><span class="en">She asked for the bill.</span></li>
+  <li class="ex"><span class="es">Ellos durmieron en un hotel.</span><span class="en">They slept in a hotel.</span></li>
+</ul>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">viaje</span></td><td data-label="Type">n.m.</td><td data-label="English">trip, journey</td><td data-label="Notes">Un viaje inolvidable.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">recorrido</span></td><td data-label="Type">n.m.</td><td data-label="English">tour, route</td><td data-label="Notes">Hacer un recorrido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sierra</span></td><td data-label="Type">n.f.</td><td data-label="English">mountain range</td><td data-label="Notes">La sierra de Granada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">regalo</span></td><td data-label="Type">n.m.</td><td data-label="English">gift, present</td><td data-label="Notes">Comprar un regalo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">m&oacute;vil</span></td><td data-label="Type">n.m.</td><td data-label="English">mobile phone</td><td data-label="Notes">Latin America: celular.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sorpresa</span></td><td data-label="Type">n.f.</td><td data-label="English">surprise</td><td data-label="Notes">Una sorpresa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gratis</span></td><td data-label="Type">adj./adv.</td><td data-label="English">free (no cost)</td><td data-label="Notes">La entrada es gratis.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inolvidable</span></td><td data-label="Type">adj.</td><td data-label="English">unforgettable</td><td data-label="Notes">in- + olvidable.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">creer</span></td><td data-label="Type">v.</td><td data-label="English">to believe</td><td data-label="Notes">Cre&iacute;, crey&oacute;, creyeron.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sacar (una foto)</span></td><td data-label="Type">v.</td><td data-label="English">to take (a photo)</td><td data-label="Notes">Saqu&eacute; muchas fotos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">al d&iacute;a siguiente</span></td><td data-label="Type">phr.</td><td data-label="English">the next day</td><td data-label="Notes">Also al d&iacute;a siguiente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sorprendido/a</span></td><td data-label="Type">adj.</td><td data-label="English">surprised</td><td data-label="Notes">Estar sorprendido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">amable</span></td><td data-label="Type">adj.</td><td data-label="English">kind, friendly</td><td data-label="Notes">El camarero fue muy amable.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">paisaje</span></td><td data-label="Type">n.m.</td><td data-label="English">landscape</td><td data-label="Notes">Un paisaje hermoso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">conducir</span></td><td data-label="Type">v.</td><td data-label="English">to drive</td><td data-label="Notes">Conduje, condujiste…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">andar</span></td><td data-label="Type">v.</td><td data-label="English">to walk, to go</td><td data-label="Notes">Anduve, anduviste…</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences that use irregular past forms naturally. Read them once; no need to memorize.</p>
+
+<h3>1. Say where you went:</h3>
+<div class="phrase">
+  <p class="es">El a&ntilde;o pasado fui a Espa&ntilde;a por primera vez.</p>
+  <p class="en">Last year I went to Spain for the first time.</p>
+</div>
+<h3>2. Talk about a stay:</h3>
+<div class="phrase">
+  <p class="es">Estuvimos tres d&iacute;as en un hotel peque&ntilde;o.</p>
+  <p class="en">We stayed three days in a small hotel.</p>
+</div>
+<h3>3. Describe what you did:</h3>
+<div class="phrase">
+  <p class="es">Hicimos un recorrido y vimos la catedral.</p>
+  <p class="en">We did a tour and saw the cathedral.</p>
+</div>
+<h3>4. Express a surprise:</h3>
+<div class="phrase">
+  <p class="es">No pude creer la noticia.</p>
+  <p class="en">I couldn't believe the news.</p>
+</div>
+<h3>5. Close a memory:</h3>
+<div class="phrase">
+  <p class="es">Fue un viaje inolvidable; lo pasamos muy bien.</p>
+  <p class="en">It was an unforgettable trip; we had a great time.</p>
+</div>
+<div class="tip">&#128161; <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two colleagues talk about a holiday.</p>
+
+<div class="phrase">
+  <p class="es">Marta: &iquest;D&oacute;nde estuviste de vacaciones?</p>
+  <p class="en">Marta: Where were you on holiday?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Fui a Granada con mi familia. &iexcl;Qu&eacute; ciudad!</p>
+  <p class="en">Diego: I went to Granada with my family. What a city!</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: &iquest;Y qu&eacute; hicieron?</p>
+  <p class="en">Marta: And what did you all do?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Vimos la Alhambra y comimos tapas todos los d&iacute;as.</p>
+  <p class="en">Diego: We saw the Alhambra and ate tapas every day.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: &iquest;Tuvieron buen tiempo?</p>
+  <p class="en">Marta: Did you have good weather?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: S&iacute;, hizo sol. Un d&iacute;a fuimos a la sierra y vimos nieve.</p>
+  <p class="en">Diego: Yes, it was sunny. One day we went to the mountains and saw snow.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: &iexcl;Qu&eacute; bien! Yo no pude viajar este a&ntilde;o.</p>
+  <p class="en">Marta: How great! I couldn't travel this year.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: El a&ntilde;o que viene iremos juntos.</p>
+  <p class="en">Diego: Next year we'll go together. <em>(advanced: future tense.)</em></p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>la Alhambra</strong> (the famous palace in Granada), <strong>&iexcl;Qu&eacute; ciudad!</strong> (What a city!), <strong>el a&ntilde;o que viene</strong> (next year).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li>Many common verbs have an <strong>irregular stem</strong> + the endings <span class="es">-e, -iste, -o, -imos, -isteis, -ieron</span> (no accents).</li>
+  <li>Key stems: <span class="es">tuv-, estuv-, hic-, pud-, pus-, sup-, quis-, vin-, dij-, traj-</span>.</li>
+  <li><span class="es">ser</span> and <span class="es">ir</span> share <span class="es">fui, fuiste, fue, fuimos, fueron</span>; <span class="es">dar &rarr; di</span>; <span class="es">ver &rarr; vi</span>.</li>
+  <li><em>-ir</em> stem-changers change only in the third person: <span class="es">pidi&oacute;, durmi&oacute;, sinti&oacute;</span>.</li>
+  <li>Watch the spelling: <span class="es">hizo, hicieron / dijeron, trajeron</span>.</li>
+</ul>
+
+<h3>5.2. Further reading &mdash; a postcard from Oaxaca</h3>
+<p><strong>Context:</strong> A short postcard that uses irregular preterites. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">&iexcl;Hola desde Oaxaca! El viaje fue largo, pero llegamos bien.</p>
+  <p class="en">Hello from Oaxaca! The trip was long, but we arrived fine.</p>
+</div>
+<div class="phrase">
+  <p class="es">El primer d&iacute;a anduvimos por el centro y comimos mole.</p>
+  <p class="en">On the first day we walked around the centre and ate mole.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luego fuimos a las ruinas de Monte Alb&aacute;n: &iexcl;qu&eacute; paisaje!</p>
+  <p class="en">Then we went to the ruins of Monte Alb&aacute;n: what a landscape!</p>
+</div>
+<div class="phrase">
+  <p class="es">Trajimos regalos para todos y sacamos muchas fotos.</p>
+  <p class="en">We brought gifts for everyone and took lots of photos.</p>
+</div>
+<div class="phrase">
+  <p class="es">No pude dormir en el avi&oacute;n, pero vali&oacute; la pena.</p>
+  <p class="en">I couldn't sleep on the plane, but it was worth it.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>Oaxaca</strong> (a state and city in Mexico), <strong>mole</strong> (a famous Mexican sauce), <strong>ruinas</strong> (ruins), <strong>valer la pena</strong> (to be worth it).</em></p>
+
+<hr>
+<p><strong>End of Lesson 17.</strong> Next, <strong>Lesson 18</strong>: the <strong>imperfect</strong> &mdash; the past tense for background, habits and descriptions &mdash; and how it contrasts with the preterite. There is no homework &mdash; just read.</p>
+
+<p class="topnav"><a href="lesson-18.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+
+</div>
+</body>
+</html>

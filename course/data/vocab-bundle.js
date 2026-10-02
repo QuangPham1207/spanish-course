@@ -5013,5 +5013,927 @@ window.VOCAB = [
         }
       }
     ]
+  },
+  {
+    "lesson": 16,
+    "title": "The past simple (pretérito indefinido), regular",
+    "words": [
+      {
+        "word": "pretérito indefinido",
+        "type": "n.m.",
+        "en": "past simple (preterite)",
+        "note": "The tense of finished past actions.",
+        "example": {
+          "es": "El pretérito indefinido cuenta acciones terminadas.",
+          "en": "The past simple tells finished actions."
+        }
+      },
+      {
+        "word": "ayer",
+        "type": "adv.",
+        "en": "yesterday",
+        "note": "Ayer trabajé ocho horas.",
+        "example": {
+          "es": "Ayer llamé a mi hermana.",
+          "en": "Yesterday I called my sister."
+        }
+      },
+      {
+        "word": "anoche",
+        "type": "adv.",
+        "en": "last night",
+        "note": "Anoche cenamos en casa.",
+        "example": {
+          "es": "Anoche vi una película.",
+          "en": "Last night I watched a film."
+        }
+      },
+      {
+        "word": "la semana pasada",
+        "type": "phr.",
+        "en": "last week",
+        "note": "Also el mes pasado, el año pasado.",
+        "example": {
+          "es": "La semana pasada visité a mis padres.",
+          "en": "Last week I visited my parents."
+        }
+      },
+      {
+        "word": "el mes pasado",
+        "type": "phr.",
+        "en": "last month",
+        "note": "Time marker for the preterite.",
+        "example": {
+          "es": "El mes pasado empecé un curso de español.",
+          "en": "Last month I started a Spanish course."
+        }
+      },
+      {
+        "word": "el año pasado",
+        "type": "phr.",
+        "en": "last year",
+        "note": "Time marker for the preterite.",
+        "example": {
+          "es": "El año pasado viajé a México.",
+          "en": "Last year I travelled to Mexico."
+        }
+      },
+      {
+        "word": "jefe / jefa",
+        "type": "n.m./n.f.",
+        "en": "boss",
+        "note": "Mi jefa es simpática.",
+        "example": {
+          "es": "Ayer trabajé con mi jefe.",
+          "en": "Yesterday I worked with my boss."
+        }
+      },
+      {
+        "word": "llamar",
+        "type": "v.",
+        "en": "to call",
+        "note": "También llamarse = to be called.",
+        "example": {
+          "es": "Llamé a Lucía por la tarde.",
+          "en": "I called Lucía in the afternoon."
+        }
+      },
+      {
+        "word": "cenar",
+        "type": "v.",
+        "en": "to have dinner",
+        "note": "From la cena.",
+        "example": {
+          "es": "Cenamos pescado en un restaurante.",
+          "en": "We had fish for dinner in a restaurant."
+        }
+      },
+      {
+        "word": "entrada",
+        "type": "n.f.",
+        "en": "ticket, entry",
+        "note": "Dos entradas de cine.",
+        "example": {
+          "es": "Compré dos entradas para el cine.",
+          "en": "I bought two tickets for the cinema."
+        }
+      },
+      {
+        "word": "bocadillo",
+        "type": "n.m.",
+        "en": "sandwich",
+        "note": "In Mexico: torta.",
+        "example": {
+          "es": "Comí un bocadillo en el bar.",
+          "en": "I ate a sandwich in the bar."
+        }
+      },
+      {
+        "word": "bar",
+        "type": "n.m.",
+        "en": "bar, café",
+        "note": "Un bar cerca del parque.",
+        "example": {
+          "es": "Bebí un café en un bar pequeño.",
+          "en": "I drank a coffee in a small bar."
+        }
+      },
+      {
+        "word": "feliz",
+        "type": "adj.",
+        "en": "happy",
+        "note": "Same form for both genders.",
+        "example": {
+          "es": "Fue un fin de semana feliz.",
+          "en": "It was a happy weekend."
+        }
+      },
+      {
+        "word": "olvidar",
+        "type": "v.",
+        "en": "to forget",
+        "note": "Olvidé las llaves.",
+        "example": {
+          "es": "Olvidé el billete en casa.",
+          "en": "I forgot the ticket at home."
+        }
+      },
+      {
+        "word": "contar",
+        "type": "v.",
+        "en": "to tell, to count",
+        "note": "o→ue: cuento, conté.",
+        "example": {
+          "es": "Me contó una historia interesante.",
+          "en": "She told me an interesting story."
+        }
+      },
+      {
+        "word": "recordar",
+        "type": "v.",
+        "en": "to remember",
+        "note": "o→ue: recuerdo, recordé.",
+        "example": {
+          "es": "No recuerdo su nombre.",
+          "en": "I don't remember his name."
+        }
+      },
+      {
+        "word": "durar",
+        "type": "v.",
+        "en": "to last",
+        "note": "La película duró dos horas.",
+        "ext": true,
+        "example": {
+          "es": "La clase duró una hora.",
+          "en": "The class lasted an hour."
+        }
+      },
+      {
+        "word": "suceder",
+        "type": "v.",
+        "en": "to happen",
+        "note": "¿Qué sucedió? = What happened?",
+        "ext": true,
+        "example": {
+          "es": "¿Qué sucedió ayer?",
+          "en": "What happened yesterday?"
+        }
+      },
+      {
+        "word": "ocurrir",
+        "type": "v.",
+        "en": "to happen, to occur",
+        "note": "Synonym of suceder.",
+        "ext": true,
+        "example": {
+          "es": "Eso ocurrió en 2010.",
+          "en": "That happened in 2010."
+        }
+      },
+      {
+        "word": "apenas",
+        "type": "adv.",
+        "en": "barely, hardly",
+        "note": "Apenas dormí.",
+        "ext": true,
+        "example": {
+          "es": "Apenas comí ayer.",
+          "en": "I barely ate yesterday."
+        }
+      },
+      {
+        "word": "enseguida",
+        "type": "adv.",
+        "en": "right away, at once",
+        "note": "One word in modern spelling.",
+        "ext": true,
+        "example": {
+          "es": "Llamé enseguida al médico.",
+          "en": "I called the doctor right away."
+        }
+      },
+      {
+        "word": "libre",
+        "type": "adj.",
+        "en": "free, off (not busy)",
+        "note": "un día libre = a day off.",
+        "ext": true,
+        "example": {
+          "es": "El viernes fue un día libre.",
+          "en": "Friday was a day off."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 17,
+    "title": "The past simple, irregular",
+    "words": [
+      {
+        "word": "recorrido",
+        "type": "n.m.",
+        "en": "tour, route",
+        "note": "Hacer un recorrido por la ciudad.",
+        "example": {
+          "es": "Hicimos un recorrido por el centro.",
+          "en": "We did a tour of the centre."
+        }
+      },
+      {
+        "word": "sierra",
+        "type": "n.f.",
+        "en": "mountain range",
+        "note": "Ir a la sierra.",
+        "example": {
+          "es": "Fuimos a la sierra y vimos nieve.",
+          "en": "We went to the mountains and saw snow."
+        }
+      },
+      {
+        "word": "regalo",
+        "type": "n.m.",
+        "en": "gift, present",
+        "note": "Comprar un regalo.",
+        "example": {
+          "es": "Quise comprar un regalo.",
+          "en": "I wanted to buy a gift."
+        }
+      },
+      {
+        "word": "móvil",
+        "type": "n.m.",
+        "en": "mobile phone",
+        "note": "In Latin America: celular.",
+        "example": {
+          "es": "Puse un mensaje en el móvil.",
+          "en": "I put a message on my mobile."
+        }
+      },
+      {
+        "word": "sorpresa",
+        "type": "n.f.",
+        "en": "surprise",
+        "note": "Una sorpresa.",
+        "example": {
+          "es": "El camarero nos trajo una sorpresa.",
+          "en": "The waiter brought us a surprise."
+        }
+      },
+      {
+        "word": "gratis",
+        "type": "adj./adv.",
+        "en": "free (no cost)",
+        "note": "La entrada es gratis.",
+        "example": {
+          "es": "La comida es gratis hoy.",
+          "en": "The food is free today."
+        }
+      },
+      {
+        "word": "inolvidable",
+        "type": "adj.",
+        "en": "unforgettable",
+        "note": "in- + olvidable.",
+        "example": {
+          "es": "Fue un viaje inolvidable.",
+          "en": "It was an unforgettable trip."
+        }
+      },
+      {
+        "word": "creer",
+        "type": "v.",
+        "en": "to believe",
+        "note": "Creí, creyó, creyeron.",
+        "example": {
+          "es": "No pude creerlo.",
+          "en": "I couldn't believe it."
+        }
+      },
+      {
+        "word": "sacar (una foto)",
+        "type": "v.",
+        "en": "to take (a photo)",
+        "note": "Saqué muchas fotos.",
+        "example": {
+          "es": "Saqué una foto de la Alhambra.",
+          "en": "I took a photo of the Alhambra."
+        }
+      },
+      {
+        "word": "al día siguiente",
+        "type": "phr.",
+        "en": "the next day",
+        "note": "Al día siguiente fuimos a la sierra.",
+        "example": {
+          "es": "Al día siguiente volvimos a casa.",
+          "en": "The next day we went back home."
+        }
+      },
+      {
+        "word": "sorprendido/a",
+        "type": "adj.",
+        "en": "surprised",
+        "note": "Estar sorprendido.",
+        "ext": true,
+        "example": {
+          "es": "Estuve sorprendido por la noticia.",
+          "en": "I was surprised by the news."
+        }
+      },
+      {
+        "word": "amable",
+        "type": "adj.",
+        "en": "kind, friendly",
+        "note": "El camarero fue muy amable.",
+        "ext": true,
+        "example": {
+          "es": "La gente fue muy amable.",
+          "en": "The people were very kind."
+        }
+      },
+      {
+        "word": "paisaje",
+        "type": "n.m.",
+        "en": "landscape",
+        "note": "Un paisaje hermoso.",
+        "ext": true,
+        "example": {
+          "es": "Vimos un paisaje precioso.",
+          "en": "We saw a beautiful landscape."
+        }
+      },
+      {
+        "word": "conducir",
+        "type": "v.",
+        "en": "to drive",
+        "note": "Conduje, condujiste, condujo…",
+        "ext": true,
+        "example": {
+          "es": "Conduje hasta la sierra.",
+          "en": "I drove to the mountains."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 18,
+    "title": "The imperfect & contrast with the preterite",
+    "words": [
+      {
+        "word": "imperfecto",
+        "type": "n.m.",
+        "en": "imperfect (tense)",
+        "note": "The tense of background and habits.",
+        "example": {
+          "es": "El imperfecto describe la escena.",
+          "en": "The imperfect describes the scene."
+        }
+      },
+      {
+        "word": "infancia",
+        "type": "n.f.",
+        "en": "childhood",
+        "note": "Mi infancia fue feliz.",
+        "example": {
+          "es": "Recuerdo mi infancia con cariño.",
+          "en": "I remember my childhood fondly."
+        }
+      },
+      {
+        "word": "niñez",
+        "type": "n.f.",
+        "en": "childhood",
+        "note": "Synonym of infancia.",
+        "example": {
+          "es": "Pasó su niñez en el pueblo.",
+          "en": "He spent his childhood in the village."
+        }
+      },
+      {
+        "word": "pueblo",
+        "type": "n.m.",
+        "en": "village, small town; people",
+        "note": "Un pueblo pequeño.",
+        "example": {
+          "es": "Vivía en un pueblo cerca del mar.",
+          "en": "I lived in a village near the sea."
+        }
+      },
+      {
+        "word": "vecino / vecina",
+        "type": "n.m./n.f.",
+        "en": "neighbour",
+        "note": "Los vecinos del barrio.",
+        "example": {
+          "es": "Jugábamos con los vecinos.",
+          "en": "We used to play with the neighbours."
+        }
+      },
+      {
+        "word": "preparar",
+        "type": "v.",
+        "en": "to prepare",
+        "note": "Preparar el desayuno.",
+        "example": {
+          "es": "Mi madre preparaba la cena.",
+          "en": "My mother used to prepare dinner."
+        }
+      },
+      {
+        "word": "perdido / perdida",
+        "type": "adj.",
+        "en": "lost",
+        "note": "Un perro perdido.",
+        "example": {
+          "es": "Encontramos un perro perdido.",
+          "en": "We found a lost dog."
+        }
+      },
+      {
+        "word": "época",
+        "type": "n.f.",
+        "en": "time, era",
+        "note": "En aquella época.",
+        "example": {
+          "es": "En aquella época no había móviles.",
+          "en": "Back then there were no mobiles."
+        }
+      },
+      {
+        "word": "mientras",
+        "type": "conj.",
+        "en": "while, meanwhile",
+        "note": "Mientras leía, comía.",
+        "example": {
+          "es": "Mientras estudiaba, escuchaba música.",
+          "en": "While I studied, I listened to music."
+        }
+      },
+      {
+        "word": "antes",
+        "type": "adv.",
+        "en": "before, earlier",
+        "note": "Antes vivía aquí.",
+        "example": {
+          "es": "Antes había un parque aquí.",
+          "en": "There used to be a park here."
+        }
+      },
+      {
+        "word": "de niño / de niña",
+        "type": "phr.",
+        "en": "as a child",
+        "note": "De niño jugaba mucho.",
+        "example": {
+          "es": "De niña vivía en el campo.",
+          "en": "As a child I lived in the countryside."
+        }
+      },
+      {
+        "word": "juguete",
+        "type": "n.m.",
+        "en": "toy",
+        "note": "Un juguete de madera.",
+        "example": {
+          "es": "Mi juguete favorito era un tren.",
+          "en": "My favourite toy was a train."
+        }
+      },
+      {
+        "word": "pelota",
+        "type": "n.f.",
+        "en": "ball",
+        "note": "Jugar a la pelota.",
+        "example": {
+          "es": "Jugábamos a la pelota en la calle.",
+          "en": "We used to play ball in the street."
+        }
+      },
+      {
+        "word": "limonero",
+        "type": "n.m.",
+        "en": "lemon tree",
+        "note": "From limón.",
+        "ext": true,
+        "example": {
+          "es": "Había un limonero en el jardín.",
+          "en": "There was a lemon tree in the garden."
+        }
+      },
+      {
+        "word": "muñeca",
+        "type": "n.f.",
+        "en": "doll; wrist",
+        "note": "Jugar con muñecas.",
+        "ext": true,
+        "example": {
+          "es": "La niña jugaba con una muñeca.",
+          "en": "The girl was playing with a doll."
+        }
+      },
+      {
+        "word": "soleado / soleada",
+        "type": "adj.",
+        "en": "sunny",
+        "note": "Un día soleado.",
+        "ext": true,
+        "example": {
+          "es": "Era un día soleado.",
+          "en": "It was a sunny day."
+        }
+      },
+      {
+        "word": "añorar",
+        "type": "v.",
+        "en": "to miss, to long for",
+        "note": "Añoro mi pueblo.",
+        "ext": true,
+        "example": {
+          "es": "Añoro los veranos de mi infancia.",
+          "en": "I long for the summers of my childhood."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 19,
+    "title": "Narrating a trip or story",
+    "words": [
+      {
+        "word": "historia",
+        "type": "n.f.",
+        "en": "story; history",
+        "note": "Contar una historia.",
+        "example": {
+          "es": "Me contó la historia de la ciudad.",
+          "en": "She told me the history of the city."
+        }
+      },
+      {
+        "word": "al principio",
+        "type": "phr.",
+        "en": "at first",
+        "note": "Opposite: al final.",
+        "example": {
+          "es": "Al principio estaba nervioso.",
+          "en": "At first I was nervous."
+        }
+      },
+      {
+        "word": "de repente",
+        "type": "phr.",
+        "en": "suddenly",
+        "note": "Signals a preterite event.",
+        "example": {
+          "es": "De repente, empezó a llover.",
+          "en": "Suddenly, it started to rain."
+        }
+      },
+      {
+        "word": "conocer",
+        "type": "v.",
+        "en": "to know; to meet",
+        "note": "Conocí = I met.",
+        "example": {
+          "es": "Conocí a Sofía en Lima.",
+          "en": "I met Sofía in Lima."
+        }
+      },
+      {
+        "word": "sentirse",
+        "type": "v.",
+        "en": "to feel",
+        "note": "e→ie: me siento, me sentí.",
+        "example": {
+          "es": "Me sentí perdido al principio.",
+          "en": "I felt lost at first."
+        }
+      },
+      {
+        "word": "nervioso / nerviosa",
+        "type": "adj.",
+        "en": "nervous",
+        "note": "Estar nervioso.",
+        "example": {
+          "es": "Estaba muy nervioso antes del viaje.",
+          "en": "I was very nervous before the trip."
+        }
+      },
+      {
+        "word": "preocuparse",
+        "type": "v.",
+        "en": "to worry",
+        "note": "No te preocupes.",
+        "example": {
+          "es": "No te preocupes, yo te ayudo.",
+          "en": "Don't worry, I'll help you."
+        }
+      },
+      {
+        "word": "durante",
+        "type": "prep.",
+        "en": "during, for",
+        "note": "Durante horas = for hours.",
+        "example": {
+          "es": "Hablamos durante horas.",
+          "en": "We talked for hours."
+        }
+      },
+      {
+        "word": "sino",
+        "type": "conj.",
+        "en": "but rather",
+        "note": "No…, sino… = not…, but rather….",
+        "example": {
+          "es": "No fue por los lugares, sino por la gente.",
+          "en": "It wasn't because of the places, but because of the people."
+        }
+      },
+      {
+        "word": "lugar",
+        "type": "n.m.",
+        "en": "place",
+        "note": "un lugar tranquilo.",
+        "example": {
+          "es": "Es un lugar hermoso.",
+          "en": "It's a beautiful place."
+        }
+      },
+      {
+        "word": "gente",
+        "type": "n.f.",
+        "en": "people",
+        "note": "Singular noun: la gente es amable.",
+        "example": {
+          "es": "La gente de Perú es muy amable.",
+          "en": "The people of Peru are very kind."
+        }
+      },
+      {
+        "word": "decidir",
+        "type": "v.",
+        "en": "to decide",
+        "note": "Decidí viajar.",
+        "example": {
+          "es": "Decidí hacer un viaje a Perú.",
+          "en": "I decided to take a trip to Peru."
+        }
+      },
+      {
+        "word": "fuerte",
+        "type": "adj./adv.",
+        "en": "strong; hard, loud",
+        "note": "Llueve fuerte.",
+        "example": {
+          "es": "Empezó a llover muy fuerte.",
+          "en": "It started to rain very hard."
+        }
+      },
+      {
+        "word": "por último",
+        "type": "phr.",
+        "en": "finally, lastly",
+        "note": "Ordering a story.",
+        "example": {
+          "es": "Por último, volvimos a casa.",
+          "en": "Finally, we went back home."
+        }
+      },
+      {
+        "word": "narrar",
+        "type": "v.",
+        "en": "to narrate, to tell",
+        "note": "Narrar una historia.",
+        "ext": true,
+        "example": {
+          "es": "Narró su viaje con detalle.",
+          "en": "He narrated his trip in detail."
+        }
+      },
+      {
+        "word": "anécdota",
+        "type": "n.f.",
+        "en": "anecdote",
+        "note": "Contar una anécdota.",
+        "ext": true,
+        "example": {
+          "es": "Tengo una anécdota divertida.",
+          "en": "I have a funny anecdote."
+        }
+      },
+      {
+        "word": "aventura",
+        "type": "n.f.",
+        "en": "adventure",
+        "note": "Una gran aventura.",
+        "ext": true,
+        "example": {
+          "es": "El viaje fue una gran aventura.",
+          "en": "The trip was a great adventure."
+        }
+      },
+      {
+        "word": "amistad",
+        "type": "n.f.",
+        "en": "friendship",
+        "note": "Una amistad nueva.",
+        "ext": true,
+        "example": {
+          "es": "Nació una amistad entre nosotros.",
+          "en": "A friendship was born between us."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 20,
+    "title": "The present perfect",
+    "words": [
+      {
+        "word": "participio",
+        "type": "n.m.",
+        "en": "participle",
+        "note": "trabajado, comido, vivido.",
+        "example": {
+          "es": "El participio de hacer es hecho.",
+          "en": "The participle of hacer is hecho."
+        }
+      },
+      {
+        "word": "experiencia",
+        "type": "n.f.",
+        "en": "experience",
+        "note": "una experiencia inolvidable.",
+        "example": {
+          "es": "Ha sido una experiencia increíble.",
+          "en": "It has been an incredible experience."
+        }
+      },
+      {
+        "word": "noticia",
+        "type": "n.f.",
+        "en": "piece of news",
+        "note": "Usually plural: las noticias.",
+        "example": {
+          "es": "Me ha dado una buena noticia.",
+          "en": "She has given me good news."
+        }
+      },
+      {
+        "word": "delicioso / deliciosa",
+        "type": "adj.",
+        "en": "delicious",
+        "note": "Synonym: rico.",
+        "example": {
+          "es": "La comida peruana es deliciosa.",
+          "en": "Peruvian food is delicious."
+        }
+      },
+      {
+        "word": "ya",
+        "type": "adv.",
+        "en": "already, now",
+        "note": "Ya he comido.",
+        "example": {
+          "es": "Ya he terminado el trabajo.",
+          "en": "I have already finished the work."
+        }
+      },
+      {
+        "word": "todavía",
+        "type": "adv.",
+        "en": "still, yet",
+        "note": "Todavía no = not yet.",
+        "example": {
+          "es": "Todavía no he terminado.",
+          "en": "I still haven't finished."
+        }
+      },
+      {
+        "word": "alguna vez",
+        "type": "phr.",
+        "en": "ever (at some time)",
+        "note": "¿Has… alguna vez?",
+        "example": {
+          "es": "¿Has visto alguna vez una aurora?",
+          "en": "Have you ever seen an aurora?"
+        }
+      },
+      {
+        "word": "últimamente",
+        "type": "adv.",
+        "en": "lately",
+        "note": "Últimamente no duermo bien.",
+        "example": {
+          "es": "Últimamente he trabajado mucho.",
+          "en": "Lately I have worked a lot."
+        }
+      },
+      {
+        "word": "portugués",
+        "type": "adj./n.m.",
+        "en": "Portuguese",
+        "note": "He aprendido portugués.",
+        "example": {
+          "es": "He aprendido un poco de portugués.",
+          "en": "I have learned a bit of Portuguese."
+        }
+      },
+      {
+        "word": "romper",
+        "type": "v.",
+        "en": "to break",
+        "note": "Participle: roto.",
+        "example": {
+          "es": "He roto un vaso.",
+          "en": "I have broken a glass."
+        }
+      },
+      {
+        "word": "abrir",
+        "type": "v.",
+        "en": "to open",
+        "note": "Participle: abierto.",
+        "example": {
+          "es": "¿Has abierto la ventana?",
+          "en": "Have you opened the window?"
+        }
+      },
+      {
+        "word": "recientemente",
+        "type": "adv.",
+        "en": "recently",
+        "note": "Recientemente he viajado.",
+        "example": {
+          "es": "Recientemente he leído un buen libro.",
+          "en": "Recently I have read a good book."
+        }
+      },
+      {
+        "word": "aurora",
+        "type": "n.f.",
+        "en": "aurora (northern lights)",
+        "note": "aurora boreal.",
+        "ext": true,
+        "example": {
+          "es": "Vi la aurora boreal en Islandia.",
+          "en": "I saw the northern lights in Iceland."
+        }
+      },
+      {
+        "word": "jamás",
+        "type": "adv.",
+        "en": "never (emphatic)",
+        "note": "Stronger than nunca.",
+        "ext": true,
+        "example": {
+          "es": "Jamás he olvidado ese momento.",
+          "en": "I have never forgotten that moment."
+        }
+      },
+      {
+        "word": "recién",
+        "type": "adv.",
+        "en": "just, recently",
+        "note": "Very common in Latin America.",
+        "ext": true,
+        "example": {
+          "es": "Ha llegado recién.",
+          "en": "He has just arrived."
+        }
+      },
+      {
+        "word": "resolver",
+        "type": "v.",
+        "en": "to solve, to resolve",
+        "note": "Participle: resuelto.",
+        "ext": true,
+        "example": {
+          "es": "He resuelto el problema.",
+          "en": "I have solved the problem."
+        }
+      }
+    ]
   }
 ];

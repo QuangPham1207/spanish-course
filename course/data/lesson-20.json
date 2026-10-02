@@ -1,0 +1,122 @@
+{
+  "lesson": 20,
+  "title": "The present perfect",
+  "words": [
+    {
+      "word": "participio",
+      "type": "n.m.",
+      "en": "participle",
+      "note": "trabajado, comido, vivido.",
+      "example": { "es": "El participio de hacer es hecho.", "en": "The participle of hacer is hecho." }
+    },
+    {
+      "word": "experiencia",
+      "type": "n.f.",
+      "en": "experience",
+      "note": "una experiencia inolvidable.",
+      "example": { "es": "Ha sido una experiencia increíble.", "en": "It has been an incredible experience." }
+    },
+    {
+      "word": "noticia",
+      "type": "n.f.",
+      "en": "piece of news",
+      "note": "Usually plural: las noticias.",
+      "example": { "es": "Me ha dado una buena noticia.", "en": "She has given me good news." }
+    },
+    {
+      "word": "delicioso / deliciosa",
+      "type": "adj.",
+      "en": "delicious",
+      "note": "Synonym: rico.",
+      "example": { "es": "La comida peruana es deliciosa.", "en": "Peruvian food is delicious." }
+    },
+    {
+      "word": "ya",
+      "type": "adv.",
+      "en": "already, now",
+      "note": "Ya he comido.",
+      "example": { "es": "Ya he terminado el trabajo.", "en": "I have already finished the work." }
+    },
+    {
+      "word": "todavía",
+      "type": "adv.",
+      "en": "still, yet",
+      "note": "Todavía no = not yet.",
+      "example": { "es": "Todavía no he terminado.", "en": "I still haven't finished." }
+    },
+    {
+      "word": "alguna vez",
+      "type": "phr.",
+      "en": "ever (at some time)",
+      "note": "¿Has… alguna vez?",
+      "example": { "es": "¿Has visto alguna vez una aurora?", "en": "Have you ever seen an aurora?" }
+    },
+    {
+      "word": "últimamente",
+      "type": "adv.",
+      "en": "lately",
+      "note": "Últimamente no duermo bien.",
+      "example": { "es": "Últimamente he trabajado mucho.", "en": "Lately I have worked a lot." }
+    },
+    {
+      "word": "portugués",
+      "type": "adj./n.m.",
+      "en": "Portuguese",
+      "note": "He aprendido portugués.",
+      "example": { "es": "He aprendido un poco de portugués.", "en": "I have learned a bit of Portuguese." }
+    },
+    {
+      "word": "romper",
+      "type": "v.",
+      "en": "to break",
+      "note": "Participle: roto.",
+      "example": { "es": "He roto un vaso.", "en": "I have broken a glass." }
+    },
+    {
+      "word": "abrir",
+      "type": "v.",
+      "en": "to open",
+      "note": "Participle: abierto.",
+      "example": { "es": "¿Has abierto la ventana?", "en": "Have you opened the window?" }
+    },
+    {
+      "word": "recientemente",
+      "type": "adv.",
+      "en": "recently",
+      "note": "Recientemente he viajado.",
+      "example": { "es": "Recientemente he leído un buen libro.", "en": "Recently I have read a good book." }
+    },
+    {
+      "word": "aurora",
+      "type": "n.f.",
+      "en": "aurora (northern lights)",
+      "note": "aurora boreal.",
+      "ext": true,
+      "example": { "es": "Vi la aurora boreal en Islandia.", "en": "I saw the northern lights in Iceland." }
+    },
+    {
+      "word": "jamás",
+      "type": "adv.",
+      "en": "never (emphatic)",
+      "note": "Stronger than nunca.",
+      "ext": true,
+      "example": { "es": "Jamás he olvidado ese momento.", "en": "I have never forgotten that moment." }
+    },
+    {
+      "word": "recién",
+      "type": "adv.",
+      "en": "just, recently",
+      "note": "Very common in Latin America.",
+      "ext": true,
+      "example": { "es": "Ha llegado recién.", "en": "He has just arrived." }
+    },
+    {
+      "word": "resolver",
+      "type": "v.",
+      "en": "to solve, to resolve",
+      "note": "Participle: resuelto.",
+      "ext": true,
+      "example": { "es": "He resuelto el problema.", "en": "I have solved the problem." }
+    }
+  ]
+}

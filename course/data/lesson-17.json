@@ -1,0 +1,108 @@
+{
+  "lesson": 17,
+  "title": "The past simple, irregular",
+  "words": [
+    {
+      "word": "recorrido",
+      "type": "n.m.",
+      "en": "tour, route",
+      "note": "Hacer un recorrido por la ciudad.",
+      "example": { "es": "Hicimos un recorrido por el centro.", "en": "We did a tour of the centre." }
+    },
+    {
+      "word": "sierra",
+      "type": "n.f.",
+      "en": "mountain range",
+      "note": "Ir a la sierra.",
+      "example": { "es": "Fuimos a la sierra y vimos nieve.", "en": "We went to the mountains and saw snow." }
+    },
+    {
+      "word": "regalo",
+      "type": "n.m.",
+      "en": "gift, present",
+      "note": "Comprar un regalo.",
+      "example": { "es": "Quise comprar un regalo.", "en": "I wanted to buy a gift." }
+    },
+    {
+      "word": "móvil",
+      "type": "n.m.",
+      "en": "mobile phone",
+      "note": "In Latin America: celular.",
+      "example": { "es": "Puse un mensaje en el móvil.", "en": "I put a message on my mobile." }
+    },
+    {
+      "word": "sorpresa",
+      "type": "n.f.",
+      "en": "surprise",
+      "note": "Una sorpresa.",
+      "example": { "es": "El camarero nos trajo una sorpresa.", "en": "The waiter brought us a surprise." }
+    },
+    {
+      "word": "gratis",
+      "type": "adj./adv.",
+      "en": "free (no cost)",
+      "note": "La entrada es gratis.",
+      "example": { "es": "La comida es gratis hoy.", "en": "The food is free today." }
+    },
+    {
+      "word": "inolvidable",
+      "type": "adj.",
+      "en": "unforgettable",
+      "note": "in- + olvidable.",
+      "example": { "es": "Fue un viaje inolvidable.", "en": "It was an unforgettable trip." }
+    },
+    {
+      "word": "creer",
+      "type": "v.",
+      "en": "to believe",
+      "note": "Creí, creyó, creyeron.",
+      "example": { "es": "No pude creerlo.", "en": "I couldn't believe it." }
+    },
+    {
+      "word": "sacar (una foto)",
+      "type": "v.",
+      "en": "to take (a photo)",
+      "note": "Saqué muchas fotos.",
+      "example": { "es": "Saqué una foto de la Alhambra.", "en": "I took a photo of the Alhambra." }
+    },
+    {
+      "word": "al día siguiente",
+      "type": "phr.",
+      "en": "the next day",
+      "note": "Al día siguiente fuimos a la sierra.",
+      "example": { "es": "Al día siguiente volvimos a casa.", "en": "The next day we went back home." }
+    },
+    {
+      "word": "sorprendido/a",
+      "type": "adj.",
+      "en": "surprised",
+      "note": "Estar sorprendido.",
+      "ext": true,
+      "example": { "es": "Estuve sorprendido por la noticia.", "en": "I was surprised by the news." }
+    },
+    {
+      "word": "amable",
+      "type": "adj.",
+      "en": "kind, friendly",
+      "note": "El camarero fue muy amable.",
+      "ext": true,
+      "example": { "es": "La gente fue muy amable.", "en": "The people were very kind." }
+    },
+    {
+      "word": "paisaje",
+      "type": "n.m.",
+      "en": "landscape",
+      "note": "Un paisaje hermoso.",
+      "ext": true,
+      "example": { "es": "Vimos un paisaje precioso.", "en": "We saw a beautiful landscape." }
+    },
+    {
+      "word": "conducir",
+      "type": "v.",
+      "en": "to drive",
+      "note": "Conduje, condujiste, condujo…",
+      "ext": true,
+      "example": { "es": "Conduje hasta la sierra.", "en": "I drove to the mountains." }
+    }
+  ]
+}

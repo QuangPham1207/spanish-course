@@ -1,0 +1,129 @@
+{
+  "lesson": 18,
+  "title": "The imperfect & contrast with the preterite",
+  "words": [
+    {
+      "word": "imperfecto",
+      "type": "n.m.",
+      "en": "imperfect (tense)",
+      "note": "The tense of background and habits.",
+      "example": { "es": "El imperfecto describe la escena.", "en": "The imperfect describes the scene." }
+    },
+    {
+      "word": "infancia",
+      "type": "n.f.",
+      "en": "childhood",
+      "note": "Mi infancia fue feliz.",
+      "example": { "es": "Recuerdo mi infancia con cariño.", "en": "I remember my childhood fondly." }
+    },
+    {
+      "word": "niñez",
+      "type": "n.f.",
+      "en": "childhood",
+      "note": "Synonym of infancia.",
+      "example": { "es": "Pasó su niñez en el pueblo.", "en": "He spent his childhood in the village." }
+    },
+    {
+      "word": "pueblo",
+      "type": "n.m.",
+      "en": "village, small town; people",
+      "note": "Un pueblo pequeño.",
+      "example": { "es": "Vivía en un pueblo cerca del mar.", "en": "I lived in a village near the sea." }
+    },
+    {
+      "word": "vecino / vecina",
+      "type": "n.m./n.f.",
+      "en": "neighbour",
+      "note": "Los vecinos del barrio.",
+      "example": { "es": "Jugábamos con los vecinos.", "en": "We used to play with the neighbours." }
+    },
+    {
+      "word": "preparar",
+      "type": "v.",
+      "en": "to prepare",
+      "note": "Preparar el desayuno.",
+      "example": { "es": "Mi madre preparaba la cena.", "en": "My mother used to prepare dinner." }
+    },
+    {
+      "word": "perdido / perdida",
+      "type": "adj.",
+      "en": "lost",
+      "note": "Un perro perdido.",
+      "example": { "es": "Encontramos un perro perdido.", "en": "We found a lost dog." }
+    },
+    {
+      "word": "época",
+      "type": "n.f.",
+      "en": "time, era",
+      "note": "En aquella época.",
+      "example": { "es": "En aquella época no había móviles.", "en": "Back then there were no mobiles." }
+    },
+    {
+      "word": "mientras",
+      "type": "conj.",
+      "en": "while, meanwhile",
+      "note": "Mientras leía, comía.",
+      "example": { "es": "Mientras estudiaba, escuchaba música.", "en": "While I studied, I listened to music." }
+    },
+    {
+      "word": "antes",
+      "type": "adv.",
+      "en": "before, earlier",
+      "note": "Antes vivía aquí.",
+      "example": { "es": "Antes había un parque aquí.", "en": "There used to be a park here." }
+    },
+    {
+      "word": "de niño / de niña",
+      "type": "phr.",
+      "en": "as a child",
+      "note": "De niño jugaba mucho.",
+      "example": { "es": "De niña vivía en el campo.", "en": "As a child I lived in the countryside." }
+    },
+    {
+      "word": "juguete",
+      "type": "n.m.",
+      "en": "toy",
+      "note": "Un juguete de madera.",
+      "example": { "es": "Mi juguete favorito era un tren.", "en": "My favourite toy was a train." }
+    },
+    {
+      "word": "pelota",
+      "type": "n.f.",
+      "en": "ball",
+      "note": "Jugar a la pelota.",
+      "example": { "es": "Jugábamos a la pelota en la calle.", "en": "We used to play ball in the street." }
+    },
+    {
+      "word": "limonero",
+      "type": "n.m.",
+      "en": "lemon tree",
+      "note": "From limón.",
+      "ext": true,
+      "example": { "es": "Había un limonero en el jardín.", "en": "There was a lemon tree in the garden." }
+    },
+    {
+      "word": "muñeca",
+      "type": "n.f.",
+      "en": "doll; wrist",
+      "note": "Jugar con muñecas.",
+      "ext": true,
+      "example": { "es": "La niña jugaba con una muñeca.", "en": "The girl was playing with a doll." }
+    },
+    {
+      "word": "soleado / soleada",
+      "type": "adj.",
+      "en": "sunny",
+      "note": "Un día soleado.",
+      "ext": true,
+      "example": { "es": "Era un día soleado.", "en": "It was a sunny day." }
+    },
+    {
+      "word": "añorar",
+      "type": "v.",
+      "en": "to miss, to long for",
+      "note": "Añoro mi pueblo.",
+      "ext": true,
+      "example": { "es": "Añoro los veranos de mi infancia.", "en": "I long for the summers of my childhood." }
+    }
+  ]
+}
