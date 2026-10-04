@@ -1,0 +1,164 @@
+{
+  "lesson": 32,
+  "title": "A2 consolidation: a journey through the Hispanic world",
+  "words": [
+    {
+      "word": "viaje",
+      "type": "n.m.",
+      "en": "trip, journey",
+      "note": "un viaje largo.",
+      "example": { "es": "El año pasado hice un viaje inolvidable.", "en": "Last year I took an unforgettable trip." }
+    },
+    {
+      "word": "inolvidable",
+      "type": "adj.",
+      "en": "unforgettable",
+      "note": "Un viaje inolvidable.",
+      "example": { "es": "Fue un viaje inolvidable.", "en": "It was an unforgettable trip." }
+    },
+    {
+      "word": "volar",
+      "type": "v.",
+      "en": "to fly (o→ue)",
+      "note": "Vuelo, vuelas, vuela, volamos…",
+      "example": { "es": "Primero volé a Ciudad de México.", "en": "First I flew to Mexico City." }
+    },
+    {
+      "word": "experiencia",
+      "type": "n.f.",
+      "en": "experience",
+      "note": "Una gran experiencia.",
+      "example": { "es": "Fue una experiencia emocionante.", "en": "It was an exciting experience." }
+    },
+    {
+      "word": "emocionante",
+      "type": "adj.",
+      "en": "exciting, moving",
+      "note": "Una experiencia emocionante.",
+      "example": { "es": "Fue una experiencia emocionante.", "en": "It was an exciting experience." }
+    },
+    {
+      "word": "amanecer",
+      "type": "n.m./v.",
+      "en": "dawn; to dawn",
+      "note": "al amanecer = at dawn.",
+      "example": { "es": "Subí a Machu Picchu al amanecer.", "en": "I climbed Machu Picchu at dawn." }
+    },
+    {
+      "word": "ruina",
+      "type": "n.f.",
+      "en": "ruin",
+      "note": "Usually plural: las ruinas.",
+      "example": { "es": "Caminaba entre las ruinas.", "en": "I was walking among the ruins." }
+    },
+    {
+      "word": "admiración",
+      "type": "n.f.",
+      "en": "admiration",
+      "note": "Sentir admiración.",
+      "example": { "es": "Sentí una gran admiración.", "en": "I felt great admiration." }
+    },
+    {
+      "word": "amable",
+      "type": "adj.",
+      "en": "kind, friendly",
+      "note": "Gente muy amable.",
+      "example": { "es": "Los argentinos me parecieron muy amables.", "en": "The Argentines seemed very kind to me." }
+    },
+    {
+      "word": "probar",
+      "type": "v.",
+      "en": "to try, to taste (o→ue)",
+      "note": "Pruebo, pruebas, prueba, probamos…",
+      "example": { "es": "Probé una paella auténtica.", "en": "I tried an authentic paella." }
+    },
+    {
+      "word": "auténtico/a",
+      "type": "adj.",
+      "en": "authentic",
+      "note": "Comida auténtica.",
+      "example": { "es": "Probé una paella auténtica.", "en": "I tried an authentic paella." }
+    },
+    {
+      "word": "vuelta",
+      "type": "n.f.",
+      "en": "return",
+      "note": "estar de vuelta = to be back.",
+      "example": { "es": "Ahora estoy de vuelta en casa.", "en": "Now I'm back home." }
+    },
+    {
+      "word": "duda",
+      "type": "n.f.",
+      "en": "doubt",
+      "note": "sin duda = without a doubt.",
+      "example": { "es": "Sin duda, viajar es la mejor manera.", "en": "Without a doubt, travelling is the best way." }
+    },
+    {
+      "word": "demás",
+      "type": "pron./adj.",
+      "en": "the others, the rest",
+      "note": "los demás.",
+      "example": { "es": "Viajar ayuda a entender a los demás.", "en": "Travelling helps you understand others." }
+    },
+    {
+      "word": "justo",
+      "type": "adv./adj.",
+      "en": "just, exactly; fair",
+      "note": "Llegué justo a tiempo.",
+      "example": { "es": "Llegué justo para el Día de los Muertos.", "en": "I arrived just in time for the Day of the Dead." }
+    },
+    {
+      "word": "fuego",
+      "type": "n.m.",
+      "en": "fire",
+      "note": "Fuegos artificiales = fireworks.",
+      "example": { "es": "Había música y fuegos por todas partes.", "en": "There was music and fireworks everywhere." }
+    },
+    {
+      "word": "sin duda",
+      "type": "phr.",
+      "en": "without a doubt",
+      "note": "Sin duda, la mejor manera.",
+      "example": { "es": "Sin duda, es la mejor manera de aprender.", "en": "Without a doubt, it's the best way to learn." }
+    },
+    {
+      "word": "estar de vuelta",
+      "type": "phr.",
+      "en": "to be back",
+      "note": "Estoy de vuelta en casa.",
+      "example": { "es": "Estoy de vuelta en casa.", "en": "I'm back home." }
+    },
+    {
+      "word": "argentino/a",
+      "type": "adj.",
+      "en": "Argentine",
+      "note": "de Argentina.",
+      "ext": true,
+      "example": { "es": "Los argentinos me parecieron muy amables.", "en": "The Argentines seemed very kind to me." }
+    },
+    {
+      "word": "lleno/a",
+      "type": "adj.",
+      "en": "full",
+      "note": "Calles llenas de gente.",
+      "ext": true,
+      "example": { "es": "Vi las calles llenas de flores.", "en": "I saw the streets full of flowers." }
+    },
+    {
+      "word": "Machu Picchu",
+      "type": "n.",
+      "en": "Machu Picchu",
+      "note": "Inca site in Peru.",
+      "ext": true,
+      "example": { "es": "Subí a Machu Picchu al amanecer.", "en": "I climbed Machu Picchu at dawn." }
+    },
+    {
+      "word": "Cusco",
+      "type": "n.",
+      "en": "Cusco",
+      "note": "City in Peru.",
+      "ext": true,
+      "example": { "es": "Viajé a Perú para conocer Cusco.", "en": "I travelled to Peru to see Cusco." }
+    }
+  ]
+}

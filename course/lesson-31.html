@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 31 — Sport &amp; football culture</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-30.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 31 — SPORT &amp; FOOTBALL CULTURE</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read about football as a way of life in the Spanish-speaking world.</li>
+      <li>Learn the vocabulary of sport: <span class="es">deporte, club, seguidor, campeón</span>.</li>
+      <li>Use <span class="es">jugar a + deporte</span>, and <span class="es">ganar / perder / empatar</span>.</li>
+      <li>Note the Spain-vs-Latin-America differences in sports words.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">deporte, jugar, espacio, club, seguidor/seguidora, mantener, rivalidad, histórico/a, clásico, selección, nacional, Mundial, bandera, grito, ídolo, béisbol, boxeo, tenis, campeón/campeona, hincha, cancha, ganar, empatar</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">cubano/a, dominicano/a, producir, cualquier</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EL DEPORTE EN EL MUNDO HISPANO)</h2>
+<p><strong>Context:</strong> A short article about sport. Read each line; the English below is only a check.</p>
+<p class="lead">(Sport is one of the fastest ways to start a conversation in these countries.)</p>
+
+<div class="phrase">
+  <p class="es">En el mundo hispano, el fútbol es más que un <b>deporte</b>: es una pasión.</p>
+  <p class="en">In the Spanish-speaking world, football is more than a sport: it's a passion.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los niños <b>juegan</b> en la calle, en la plaza o en <b>cualquier</b> <b>espacio</b> libre.</p>
+  <p class="en">Children play in the street, in the square or in any free space.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los grandes <b>clubes</b>, como el Real Madrid y el Barcelona, tienen millones de <b>seguidores</b>.</p>
+  <p class="en">The big clubs, like Real Madrid and Barcelona, have millions of fans.</p>
+</div>
+<div class="phrase">
+  <p class="es">En Argentina, Boca Juniors y River Plate <b>mantienen</b> una <b>rivalidad histórica</b>.</p>
+  <p class="en">In Argentina, Boca Juniors and River Plate keep up a historic rivalry.</p>
+</div>
+<div class="phrase">
+  <p class="es">En México, el partido entre el América y las Chivas es un <b>clásico</b>.</p>
+  <p class="en">In Mexico, the match between América and Chivas is a classic.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada país tiene su <b>selección nacional</b>, y durante el <b>Mundial</b> las calles se llenan de <b>banderas</b> y <b>gritos</b>.</p>
+  <p class="en">Each country has its national team, and during the World Cup the streets fill with flags and shouts.</p>
+</div>
+<div class="phrase">
+  <p class="es">El fútbol también produce <b>ídolos</b>: Maradona, Pelé, Messi.</p>
+  <p class="en">Football also produces idols: Maradona, Pelé, Messi.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero no todo es fútbol. El <b>béisbol</b> es muy popular en Cuba, Venezuela y la República Dominicana.</p>
+  <p class="en">But not everything is football. Baseball is very popular in Cuba, Venezuela and the Dominican Republic.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>boxeo</b> y el <b>tenis</b> también tienen grandes <b>campeones</b> hispanos.</p>
+  <p class="en">Boxing and tennis also have great Hispanic champions.</p>
+</div>
+<div class="phrase">
+  <p class="es">El deporte, como la música, une a la gente.</p>
+  <p class="en">Sport, like music, unites people.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">cubano/a</span></td><td data-label="Type">adj.</td><td data-label="English">Cuban</td><td data-label="Notes">de Cuba.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dominicano/a</span></td><td data-label="Type">adj.</td><td data-label="English">Dominican</td><td data-label="Notes">de la República Dominicana.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">producir</span></td><td data-label="Type">v.</td><td data-label="English">to produce</td><td data-label="Notes">Produce ídolos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cualquier</span></td><td data-label="Type">adj.</td><td data-label="English">any</td><td data-label="Notes">Cualquier espacio; antes de sustantivo.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>The big idea:</strong> football is regional identity. The club you support can say as much about you as your city or your family.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. <em>jugar a</em> + sport</h3>
+<p>To play a sport or game, Spanish uses <strong>jugar a</strong>. <em>jugar</em> is stem-changing (<strong>u&rarr;ue</strong>).</p>
+<div class="formula">jugar a + deporte &nbsp;·&nbsp; juego, juegas, juega, jugamos…</div>
+<ul>
+  <li class="ex"><span class="es">Juego al fútbol los sábados.</span><span class="en">I play football on Saturdays.</span></li>
+  <li class="ex"><span class="es">¿Juegas al tenis?</span><span class="en">Do you play tennis?</span></li>
+  <li class="ex"><span class="es">Los niños juegan al béisbol en la plaza.</span><span class="en">The children play baseball in the square.</span></li>
+</ul>
+<div class="warn">⚠️ Do not confuse this with the musical meaning of <em>tocar</em>: <span class="es">toco la guitarra</span> (I play the guitar) vs <span class="es">juego al fútbol</span> (I play football).</div>
+
+<h3>2.2. Results: <em>ganar, perder, empatar</em></h3>
+<ul>
+  <li class="ex"><span class="es">España ganó el Mundial en 2010.</span><span class="en">Spain won the World Cup in 2010.</span></li>
+  <li class="ex"><span class="es">Argentina perdió la final.</span><span class="en">Argentina lost the final.</span></li>
+  <li class="ex"><span class="es">Los dos equipos empataron, 1 a 1.</span><span class="en">The two teams drew, 1–1.</span></li>
+</ul>
+
+<h3>2.3. Spain vs Latin America: sports words</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>English</th><th>Spain</th><th>Latin America</th></tr></thead>
+  <tbody>
+    <tr><td data-label="English">pitch, field</td><td data-label="Spain"><span class="es">el campo</span></td><td data-label="LatAm"><span class="es">la cancha</span></td></tr>
+    <tr><td data-label="English">fan, supporter</td><td data-label="Spain"><span class="es">el aficionado</span></td><td data-label="LatAm"><span class="es">el hincha</span></td></tr>
+    <tr><td data-label="English">team</td><td data-label="Spain"><span class="es">el equipo</span></td><td data-label="LatAm"><span class="es">el equipo</span></td></tr>
+    <tr><td data-label="English">football</td><td data-label="Spain"><span class="es">el fútbol</span></td><td data-label="LatAm"><span class="es">el fútbol</span></td></tr>
+  </tbody>
+</table>
+</div>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> <span class="es">el campo</span> / <span class="es">la cancha</span> and <span class="es">el aficionado</span> / <span class="es">el hincha</span> mean the same thing. Both are correct everywhere.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">deporte</span></td><td data-label="Type">n.m.</td><td data-label="English">sport</td><td data-label="Notes">el deporte.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">jugar</span></td><td data-label="Type">v.</td><td data-label="English">to play (u&rarr;ue)</td><td data-label="Notes">Jugar al fútbol.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">espacio</span></td><td data-label="Type">n.m.</td><td data-label="English">space</td><td data-label="Notes">Un espacio libre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">club</span></td><td data-label="Type">n.m.</td><td data-label="English">club</td><td data-label="Notes">Un club de fútbol.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">seguidor/seguidora</span></td><td data-label="Type">n.</td><td data-label="English">fan, follower</td><td data-label="Notes">Millones de seguidores.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mantener</span></td><td data-label="Type">v.</td><td data-label="English">to keep, to maintain</td><td data-label="Notes">Mantener una rivalidad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rivalidad</span></td><td data-label="Type">n.f.</td><td data-label="English">rivalry</td><td data-label="Notes">Una rivalidad histórica.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">histórico/a</span></td><td data-label="Type">adj.</td><td data-label="English">historic</td><td data-label="Notes">Un partido histórico.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">clásico</span></td><td data-label="Type">n.m./adj.</td><td data-label="English">classic (big match)</td><td data-label="Notes">El clásico de México.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">selección</span></td><td data-label="Type">n.f.</td><td data-label="English">national team; selection</td><td data-label="Notes">La selección nacional.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nacional</span></td><td data-label="Type">adj.</td><td data-label="English">national</td><td data-label="Notes">Un equipo nacional.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Mundial</span></td><td data-label="Type">n.m.</td><td data-label="English">World Cup</td><td data-label="Notes">el Mundial de fútbol.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bandera</span></td><td data-label="Type">n.f.</td><td data-label="English">flag</td><td data-label="Notes">Banderas en las calles.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">grito</span></td><td data-label="Type">n.m.</td><td data-label="English">shout, cry</td><td data-label="Notes">Gritos de alegría.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ídolo</span></td><td data-label="Type">n.m.</td><td data-label="English">idol</td><td data-label="Notes">Un ídolo del fútbol.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">béisbol</span></td><td data-label="Type">n.m.</td><td data-label="English">baseball</td><td data-label="Notes">Popular en el Caribe.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">boxeo</span></td><td data-label="Type">n.m.</td><td data-label="English">boxing</td><td data-label="Notes">el boxeo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tenis</span></td><td data-label="Type">n.m.</td><td data-label="English">tennis</td><td data-label="Notes">Jugar al tenis.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">campeón/campeona</span></td><td data-label="Type">n.</td><td data-label="English">champion</td><td data-label="Notes">Campeón del mundo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hincha</span></td><td data-label="Type">n.</td><td data-label="English">fan, supporter (LatAm)</td><td data-label="Notes">Spain: aficionado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cancha</span></td><td data-label="Type">n.f.</td><td data-label="English">pitch, field (LatAm)</td><td data-label="Notes">Spain: campo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ganar</span></td><td data-label="Type">v.</td><td data-label="English">to win</td><td data-label="Notes">Ganar un partido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">empatar</span></td><td data-label="Type">v.</td><td data-label="English">to draw, to tie</td><td data-label="Notes">Empataron 1 a 1.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences about sport. Read them once; no need to memorize.</p>
+
+<h3>1. Talk about playing:</h3>
+<div class="phrase">
+  <p class="es">Juego al fútbol con mis amigos los domingos.</p>
+  <p class="en">I play football with my friends on Sundays.</p>
+</div>
+<h3>2. Talk about a rivalry:</h3>
+<div class="phrase">
+  <p class="es">Boca y River mantienen una rivalidad histórica.</p>
+  <p class="en">Boca and River keep up a historic rivalry.</p>
+</div>
+<h3>3. Use <em>seguidor</em>:</h3>
+<div class="phrase">
+  <p class="es">Soy seguidor del Barcelona desde niño.</p>
+  <p class="en">I've been a Barcelona fan since I was a child.</p>
+</div>
+<h3>4. Talk about the World Cup:</h3>
+<div class="phrase">
+  <p class="es">Durante el Mundial, las calles se llenan de banderas.</p>
+  <p class="en">During the World Cup, the streets fill with flags.</p>
+</div>
+<h3>5. Use a Latin American word:</h3>
+<div class="phrase">
+  <p class="es">Los hinchas llenan la cancha.</p>
+  <p class="en">The fans fill the pitch.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends watch a match.</p>
+
+<div class="phrase">
+  <p class="es">Lucas: ¿Juega Messi hoy?</p>
+  <p class="en">Lucas: Is Messi playing today?</p>
+</div>
+<div class="phrase">
+  <p class="es">Sofía: Sí, pero el equipo no está bien. Perdió el último partido.</p>
+  <p class="en">Sofía: Yes, but the team isn't doing well. It lost the last match.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucas: No importa. Messi es mi ídolo desde hace años.</p>
+  <p class="en">Lucas: It doesn't matter. Messi has been my idol for years.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sofía: A mí me gusta más el béisbol. En mi país es el deporte nacional.</p>
+  <p class="en">Sofía: I prefer baseball. In my country it's the national sport.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucas: ¿De dónde eres? ¿De Cuba?</p>
+  <p class="en">Lucas: Where are you from? From Cuba?</p>
+</div>
+<div class="phrase">
+  <p class="es">Sofía: No, de la República Dominicana. ¡Y hoy juega mi equipo!</p>
+  <p class="en">Sofía: No, from the Dominican Republic. And my team plays today!</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>equipo</strong> (team), <strong>partido</strong> (match, game), <strong>no importa</strong> (it doesn't matter).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Football</strong> is the great passion: <span class="es">clubes, seguidores, rivalidades</span>, the <span class="es">Mundial</span>.</li>
+  <li><strong>Other sports:</strong> <span class="es">béisbol</span> in the Caribbean, plus <span class="es">boxeo</span> and <span class="es">tenis</span>.</li>
+  <li><strong>Grammar:</strong> <span class="es">jugar a + deporte</span>; <span class="es">ganar, perder, empatar</span>.</li>
+  <li><strong>Spain vs Latin America:</strong> <span class="es">aficionado / hincha</span>, <span class="es">campo / cancha</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — un partido en el barrio</h3>
+<p><strong>Context:</strong> A short note about a local match. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">El domingo jugamos un partido en la cancha del barrio.</p>
+  <p class="en">On Sunday we played a match on the neighbourhood pitch.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al principio íbamos perdiendo, pero al final empatamos.</p>
+  <p class="en">At first we were losing, but in the end we drew.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los hinchas gritaban y aplaudían desde la orilla.</p>
+  <p class="en">The fans were shouting and clapping from the sidelines.</p>
+</div>
+<div class="phrase">
+  <p class="es">Después del partido, todos fuimos a comer juntos.</p>
+  <p class="en">After the match, we all went to eat together.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ganar es bonito, pero lo importante es jugar con los amigos.</p>
+  <p class="en">Winning is nice, but the important thing is playing with friends.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>orilla</strong> (edge, sideline), <strong>lo importante</strong> (the important thing), <strong>gritar</strong> (to shout).</em></p>
+
+<hr>
+<p><strong>End of Lesson 31.</strong> Next, <strong>Lesson 32</strong>: an A2 consolidation — a longer reading that ties the whole level together. There is no homework — just read.</p>
+
+<p class="topnav"><a href="lesson-32.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+</body>
+</html>

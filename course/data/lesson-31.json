@@ -1,0 +1,199 @@
+{
+  "lesson": 31,
+  "title": "Sport & football culture",
+  "words": [
+    {
+      "word": "deporte",
+      "type": "n.m.",
+      "en": "sport",
+      "note": "el deporte nacional.",
+      "example": { "es": "El fútbol es más que un deporte.", "en": "Football is more than a sport." }
+    },
+    {
+      "word": "jugar",
+      "type": "v.",
+      "en": "to play (u→ue)",
+      "note": "Jugar al fútbol. Juego, juegas, juega…",
+      "example": { "es": "Los niños juegan en la calle.", "en": "The children play in the street." }
+    },
+    {
+      "word": "espacio",
+      "type": "n.m.",
+      "en": "space",
+      "note": "Un espacio libre.",
+      "example": { "es": "Juegan en cualquier espacio libre.", "en": "They play in any free space." }
+    },
+    {
+      "word": "club",
+      "type": "n.m.",
+      "en": "club",
+      "note": "Un club de fútbol.",
+      "example": { "es": "Los grandes clubes tienen millones de seguidores.", "en": "The big clubs have millions of fans." }
+    },
+    {
+      "word": "seguidor/seguidora",
+      "type": "n.",
+      "en": "fan, follower",
+      "note": "Millones de seguidores.",
+      "example": { "es": "El Barcelona tiene millones de seguidores.", "en": "Barcelona has millions of fans." }
+    },
+    {
+      "word": "mantener",
+      "type": "v.",
+      "en": "to keep, to maintain",
+      "note": "Mantener una rivalidad.",
+      "example": { "es": "Boca y River mantienen una rivalidad.", "en": "Boca and River keep up a rivalry." }
+    },
+    {
+      "word": "rivalidad",
+      "type": "n.f.",
+      "en": "rivalry",
+      "note": "Una rivalidad histórica.",
+      "example": { "es": "Es una rivalidad histórica.", "en": "It's a historic rivalry." }
+    },
+    {
+      "word": "histórico/a",
+      "type": "adj.",
+      "en": "historic",
+      "note": "Un partido histórico.",
+      "example": { "es": "Es una rivalidad histórica.", "en": "It's a historic rivalry." }
+    },
+    {
+      "word": "clásico",
+      "type": "n.m./adj.",
+      "en": "classic (big match)",
+      "note": "El clásico de México.",
+      "example": { "es": "El partido entre el América y las Chivas es un clásico.", "en": "The match between América and Chivas is a classic." }
+    },
+    {
+      "word": "selección",
+      "type": "n.f.",
+      "en": "national team; selection",
+      "note": "La selección nacional.",
+      "example": { "es": "Cada país tiene su selección nacional.", "en": "Each country has its national team." }
+    },
+    {
+      "word": "nacional",
+      "type": "adj.",
+      "en": "national",
+      "note": "Un equipo nacional.",
+      "example": { "es": "La selección nacional juega mañana.", "en": "The national team plays tomorrow." }
+    },
+    {
+      "word": "Mundial",
+      "type": "n.m.",
+      "en": "World Cup",
+      "note": "el Mundial de fútbol.",
+      "example": { "es": "Durante el Mundial las calles se llenan.", "en": "During the World Cup the streets fill up." }
+    },
+    {
+      "word": "bandera",
+      "type": "n.f.",
+      "en": "flag",
+      "note": "Banderas en las calles.",
+      "example": { "es": "Las calles se llenan de banderas.", "en": "The streets fill with flags." }
+    },
+    {
+      "word": "grito",
+      "type": "n.m.",
+      "en": "shout, cry",
+      "note": "Gritos de alegría.",
+      "example": { "es": "Las calles se llenan de banderas y gritos.", "en": "The streets fill with flags and shouts." }
+    },
+    {
+      "word": "ídolo",
+      "type": "n.m.",
+      "en": "idol",
+      "note": "Un ídolo del fútbol.",
+      "example": { "es": "El fútbol produce ídolos.", "en": "Football produces idols." }
+    },
+    {
+      "word": "béisbol",
+      "type": "n.m.",
+      "en": "baseball",
+      "note": "Popular en el Caribe.",
+      "example": { "es": "El béisbol es popular en Cuba.", "en": "Baseball is popular in Cuba." }
+    },
+    {
+      "word": "boxeo",
+      "type": "n.m.",
+      "en": "boxing",
+      "note": "el boxeo.",
+      "example": { "es": "El boxeo tiene grandes campeones.", "en": "Boxing has great champions." }
+    },
+    {
+      "word": "tenis",
+      "type": "n.m.",
+      "en": "tennis",
+      "note": "Jugar al tenis.",
+      "example": { "es": "¿Juegas al tenis?", "en": "Do you play tennis?" }
+    },
+    {
+      "word": "campeón/campeona",
+      "type": "n.",
+      "en": "champion",
+      "note": "Campeón del mundo.",
+      "example": { "es": "Tienen grandes campeones hispanos.", "en": "They have great Hispanic champions." }
+    },
+    {
+      "word": "hincha",
+      "type": "n.",
+      "en": "fan, supporter (LatAm)",
+      "note": "Spain: aficionado.",
+      "example": { "es": "Los hinchas llenan la cancha.", "en": "The fans fill the pitch." }
+    },
+    {
+      "word": "cancha",
+      "type": "n.f.",
+      "en": "pitch, field (LatAm)",
+      "note": "Spain: campo.",
+      "example": { "es": "Jugamos en la cancha del barrio.", "en": "We play on the neighbourhood pitch." }
+    },
+    {
+      "word": "ganar",
+      "type": "v.",
+      "en": "to win",
+      "note": "Ganar un partido.",
+      "example": { "es": "España ganó el Mundial en 2010.", "en": "Spain won the World Cup in 2010." }
+    },
+    {
+      "word": "empatar",
+      "type": "v.",
+      "en": "to draw, to tie",
+      "note": "Empataron 1 a 1.",
+      "example": { "es": "Los dos equipos empataron, 1 a 1.", "en": "The two teams drew, 1–1." }
+    },
+    {
+      "word": "cubano/a",
+      "type": "adj.",
+      "en": "Cuban",
+      "note": "de Cuba.",
+      "ext": true,
+      "example": { "es": "El béisbol cubano es famoso.", "en": "Cuban baseball is famous." }
+    },
+    {
+      "word": "dominicano/a",
+      "type": "adj.",
+      "en": "Dominican",
+      "note": "de la República Dominicana.",
+      "ext": true,
+      "example": { "es": "Muchos jugadores dominicanos juegan en Estados Unidos.", "en": "Many Dominican players play in the United States." }
+    },
+    {
+      "word": "producir",
+      "type": "v.",
+      "en": "to produce",
+      "note": "Produce ídolos.",
+      "ext": true,
+      "example": { "es": "El fútbol produce ídolos.", "en": "Football produces idols." }
+    },
+    {
+      "word": "cualquier",
+      "type": "adj.",
+      "en": "any",
+      "note": "Short form of cualquiera before a noun.",
+      "ext": true,
+      "example": { "es": "Juegan en cualquier espacio libre.", "en": "They play in any free space." }
+    }
+  ]
+}

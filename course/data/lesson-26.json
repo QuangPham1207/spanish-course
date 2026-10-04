@@ -1,0 +1,220 @@
+{
+  "lesson": 26,
+  "title": "Comparatives & superlatives",
+  "words": [
+    {
+      "word": "más … que",
+      "type": "phr.",
+      "en": "more … than",
+      "note": "más + adjetivo + que. Valencia es más pequeña que Madrid.",
+      "example": { "es": "Valencia es más pequeña que Ciudad de México.", "en": "Valencia is smaller than Mexico City." }
+    },
+    {
+      "word": "menos … que",
+      "type": "phr.",
+      "en": "less / fewer … than",
+      "note": "Hay menos tráfico aquí.",
+      "example": { "es": "En Valencia hay menos tráfico que en la capital.", "en": "In Valencia there is less traffic than in the capital." }
+    },
+    {
+      "word": "tan … como",
+      "type": "phr.",
+      "en": "as … as",
+      "note": "With adjectives and adverbs: tan + adj. + como.",
+      "example": { "es": "La comida es tan buena como en Valencia.", "en": "The food is as good as in Valencia." }
+    },
+    {
+      "word": "tanto/a … como",
+      "type": "phr.",
+      "en": "as much / as many … as",
+      "note": "Agrees with the noun: tanto, tanta, tantos, tantas.",
+      "example": { "es": "Tengo tanto trabajo como mi prima.", "en": "I have as much work as my cousin." }
+    },
+    {
+      "word": "mejor",
+      "type": "adj./adv.",
+      "en": "better / best",
+      "note": "Irregular comparative of bueno.",
+      "example": { "es": "Este libro es mejor que el otro.", "en": "This book is better than the other one." }
+    },
+    {
+      "word": "peor",
+      "type": "adj./adv.",
+      "en": "worse / worst",
+      "note": "Irregular comparative of malo.",
+      "example": { "es": "Hoy estoy peor que ayer.", "en": "Today I feel worse than yesterday." }
+    },
+    {
+      "word": "mayor",
+      "type": "adj.",
+      "en": "older; greater",
+      "note": "Comparative of grande, mostly for age.",
+      "example": { "es": "Mi hermana es mayor que yo.", "en": "My sister is older than me." }
+    },
+    {
+      "word": "menor",
+      "type": "adj.",
+      "en": "younger; smaller",
+      "note": "Comparative of pequeño, mostly for age.",
+      "example": { "es": "Mi hijo menor tiene diez años.", "en": "My younger son is ten years old." }
+    },
+    {
+      "word": "comparar",
+      "type": "v.",
+      "en": "to compare",
+      "note": "Comparar precios.",
+      "example": { "es": "Me gusta comparar las dos ciudades.", "en": "I like comparing the two cities." }
+    },
+    {
+      "word": "igual",
+      "type": "adj.",
+      "en": "equal, the same",
+      "note": "No son iguales = they are not the same.",
+      "example": { "es": "Las dos ciudades no son iguales.", "en": "The two cities are not the same." }
+    },
+    {
+      "word": "diferente",
+      "type": "adj.",
+      "en": "different",
+      "note": "Synonym: distinto/a.",
+      "example": { "es": "Son muy diferentes, pero hermosas.", "en": "They are very different, but beautiful." }
+    },
+    {
+      "word": "distinto/a",
+      "type": "adj.",
+      "en": "different",
+      "note": "El clima es distinto.",
+      "example": { "es": "El clima también es distinto.", "en": "The climate is different too." }
+    },
+    {
+      "word": "ciudad",
+      "type": "n.f.",
+      "en": "city",
+      "note": "la ciudad. Plural: las ciudades.",
+      "example": { "es": "Las dos ciudades son grandes.", "en": "Both cities are big." }
+    },
+    {
+      "word": "capital",
+      "type": "n.f.",
+      "en": "capital (city)",
+      "note": "la capital de México.",
+      "example": { "es": "Valencia es más pequeña que la capital.", "en": "Valencia is smaller than the capital." }
+    },
+    {
+      "word": "barrio",
+      "type": "n.m.",
+      "en": "neighbourhood",
+      "note": "un barrio tranquilo.",
+      "example": { "es": "Ciudad de México tiene muchos barrios.", "en": "Mexico City has many neighbourhoods." }
+    },
+    {
+      "word": "museo",
+      "type": "n.m.",
+      "en": "museum",
+      "note": "el museo más famoso.",
+      "example": { "es": "La capital tiene más museos que Valencia.", "en": "The capital has more museums than Valencia." }
+    },
+    {
+      "word": "tráfico",
+      "type": "n.m.",
+      "en": "traffic",
+      "note": "Hay mucho tráfico.",
+      "example": { "es": "En Valencia hay menos tráfico.", "en": "In Valencia there is less traffic." }
+    },
+    {
+      "word": "aire",
+      "type": "n.m.",
+      "en": "air",
+      "note": "el aire limpio.",
+      "example": { "es": "El aire es más limpio aquí.", "en": "The air is cleaner here." }
+    },
+    {
+      "word": "limpio/a",
+      "type": "adj.",
+      "en": "clean",
+      "note": "Opposite: sucio/a.",
+      "example": { "es": "El aire de Valencia es más limpio.", "en": "Valencia's air is cleaner." }
+    },
+    {
+      "word": "animado/a",
+      "type": "adj.",
+      "en": "lively, busy",
+      "note": "Una calle animada.",
+      "example": { "es": "Ciudad de México es más animada.", "en": "Mexico City is livelier." }
+    },
+    {
+      "word": "ruidoso/a",
+      "type": "adj.",
+      "en": "noisy",
+      "note": "From ruido (noise).",
+      "example": { "es": "Valencia no es tan ruidosa.", "en": "Valencia is not as noisy." }
+    },
+    {
+      "word": "suave",
+      "type": "adj.",
+      "en": "mild, soft",
+      "note": "Un invierno suave.",
+      "example": { "es": "El invierno es más suave en Valencia.", "en": "Winter is milder in Valencia." }
+    },
+    {
+      "word": "aunque",
+      "type": "conj.",
+      "en": "although",
+      "note": "Aunque es caro, me gusta.",
+      "example": { "es": "Son hermosas, aunque son diferentes.", "en": "They are beautiful, although they are different." }
+    },
+    {
+      "word": "ni",
+      "type": "conj.",
+      "en": "nor; not even",
+      "note": "Ni alto ni bajo.",
+      "example": { "es": "No es tan grande ni tan ruidosa.", "en": "It's neither as big nor as noisy." }
+    },
+    {
+      "word": "paella",
+      "type": "n.f.",
+      "en": "paella",
+      "note": "Plato típico de Valencia.",
+      "example": { "es": "Para mí, la paella es la mejor comida.", "en": "For me, paella is the best food." }
+    },
+    {
+      "word": "taco",
+      "type": "n.m.",
+      "en": "taco",
+      "note": "Plato típico de México.",
+      "example": { "es": "Mi prima dice que los tacos son mejores.", "en": "My cousin says tacos are better." }
+    },
+    {
+      "word": "mexicano/a",
+      "type": "adj.",
+      "en": "Mexican",
+      "note": "la capital mexicana.",
+      "ext": true,
+      "example": { "es": "Valencia es más pequeña que la capital mexicana.", "en": "Valencia is smaller than the Mexican capital." }
+    },
+    {
+      "word": "valenciano/a",
+      "type": "adj.",
+      "en": "from Valencia",
+      "note": "Also the regional language of Valencia.",
+      "ext": true,
+      "example": { "es": "La paella es un plato valenciano.", "en": "Paella is a Valencian dish." }
+    },
+    {
+      "word": "clima",
+      "type": "n.m.",
+      "en": "climate",
+      "note": "Ends in -a but masculine: el clima.",
+      "ext": true,
+      "example": { "es": "El clima es distinto en las dos ciudades.", "en": "The climate is different in the two cities." }
+    },
+    {
+      "word": "invierno",
+      "type": "n.m.",
+      "en": "winter",
+      "note": "El verano = summer.",
+      "ext": true,
+      "example": { "es": "En Valencia el invierno es más suave.", "en": "In Valencia winter is milder." }
+    }
+  ]
+}

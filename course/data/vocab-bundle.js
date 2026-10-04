@@ -7423,5 +7423,1945 @@ window.VOCAB = [
         }
       }
     ]
+  },
+  {
+    "lesson": 26,
+    "title": "Comparatives & superlatives",
+    "words": [
+      {
+        "word": "más … que",
+        "type": "phr.",
+        "en": "more … than",
+        "note": "más + adjetivo + que. Valencia es más pequeña que Madrid.",
+        "example": {
+          "es": "Valencia es más pequeña que Ciudad de México.",
+          "en": "Valencia is smaller than Mexico City."
+        }
+      },
+      {
+        "word": "menos … que",
+        "type": "phr.",
+        "en": "less / fewer … than",
+        "note": "Hay menos tráfico aquí.",
+        "example": {
+          "es": "En Valencia hay menos tráfico que en la capital.",
+          "en": "In Valencia there is less traffic than in the capital."
+        }
+      },
+      {
+        "word": "tan … como",
+        "type": "phr.",
+        "en": "as … as",
+        "note": "With adjectives and adverbs: tan + adj. + como.",
+        "example": {
+          "es": "La comida es tan buena como en Valencia.",
+          "en": "The food is as good as in Valencia."
+        }
+      },
+      {
+        "word": "tanto/a … como",
+        "type": "phr.",
+        "en": "as much / as many … as",
+        "note": "Agrees with the noun: tanto, tanta, tantos, tantas.",
+        "example": {
+          "es": "Tengo tanto trabajo como mi prima.",
+          "en": "I have as much work as my cousin."
+        }
+      },
+      {
+        "word": "mejor",
+        "type": "adj./adv.",
+        "en": "better / best",
+        "note": "Irregular comparative of bueno.",
+        "example": {
+          "es": "Este libro es mejor que el otro.",
+          "en": "This book is better than the other one."
+        }
+      },
+      {
+        "word": "peor",
+        "type": "adj./adv.",
+        "en": "worse / worst",
+        "note": "Irregular comparative of malo.",
+        "example": {
+          "es": "Hoy estoy peor que ayer.",
+          "en": "Today I feel worse than yesterday."
+        }
+      },
+      {
+        "word": "mayor",
+        "type": "adj.",
+        "en": "older; greater",
+        "note": "Comparative of grande, mostly for age.",
+        "example": {
+          "es": "Mi hermana es mayor que yo.",
+          "en": "My sister is older than me."
+        }
+      },
+      {
+        "word": "menor",
+        "type": "adj.",
+        "en": "younger; smaller",
+        "note": "Comparative of pequeño, mostly for age.",
+        "example": {
+          "es": "Mi hijo menor tiene diez años.",
+          "en": "My younger son is ten years old."
+        }
+      },
+      {
+        "word": "comparar",
+        "type": "v.",
+        "en": "to compare",
+        "note": "Comparar precios.",
+        "example": {
+          "es": "Me gusta comparar las dos ciudades.",
+          "en": "I like comparing the two cities."
+        }
+      },
+      {
+        "word": "igual",
+        "type": "adj.",
+        "en": "equal, the same",
+        "note": "No son iguales = they are not the same.",
+        "example": {
+          "es": "Las dos ciudades no son iguales.",
+          "en": "The two cities are not the same."
+        }
+      },
+      {
+        "word": "diferente",
+        "type": "adj.",
+        "en": "different",
+        "note": "Synonym: distinto/a.",
+        "example": {
+          "es": "Son muy diferentes, pero hermosas.",
+          "en": "They are very different, but beautiful."
+        }
+      },
+      {
+        "word": "distinto/a",
+        "type": "adj.",
+        "en": "different",
+        "note": "El clima es distinto.",
+        "example": {
+          "es": "El clima también es distinto.",
+          "en": "The climate is different too."
+        }
+      },
+      {
+        "word": "ciudad",
+        "type": "n.f.",
+        "en": "city",
+        "note": "la ciudad. Plural: las ciudades.",
+        "example": {
+          "es": "Las dos ciudades son grandes.",
+          "en": "Both cities are big."
+        }
+      },
+      {
+        "word": "capital",
+        "type": "n.f.",
+        "en": "capital (city)",
+        "note": "la capital de México.",
+        "example": {
+          "es": "Valencia es más pequeña que la capital.",
+          "en": "Valencia is smaller than the capital."
+        }
+      },
+      {
+        "word": "barrio",
+        "type": "n.m.",
+        "en": "neighbourhood",
+        "note": "un barrio tranquilo.",
+        "example": {
+          "es": "Ciudad de México tiene muchos barrios.",
+          "en": "Mexico City has many neighbourhoods."
+        }
+      },
+      {
+        "word": "museo",
+        "type": "n.m.",
+        "en": "museum",
+        "note": "el museo más famoso.",
+        "example": {
+          "es": "La capital tiene más museos que Valencia.",
+          "en": "The capital has more museums than Valencia."
+        }
+      },
+      {
+        "word": "tráfico",
+        "type": "n.m.",
+        "en": "traffic",
+        "note": "Hay mucho tráfico.",
+        "example": {
+          "es": "En Valencia hay menos tráfico.",
+          "en": "In Valencia there is less traffic."
+        }
+      },
+      {
+        "word": "aire",
+        "type": "n.m.",
+        "en": "air",
+        "note": "el aire limpio.",
+        "example": {
+          "es": "El aire es más limpio aquí.",
+          "en": "The air is cleaner here."
+        }
+      },
+      {
+        "word": "limpio/a",
+        "type": "adj.",
+        "en": "clean",
+        "note": "Opposite: sucio/a.",
+        "example": {
+          "es": "El aire de Valencia es más limpio.",
+          "en": "Valencia's air is cleaner."
+        }
+      },
+      {
+        "word": "animado/a",
+        "type": "adj.",
+        "en": "lively, busy",
+        "note": "Una calle animada.",
+        "example": {
+          "es": "Ciudad de México es más animada.",
+          "en": "Mexico City is livelier."
+        }
+      },
+      {
+        "word": "ruidoso/a",
+        "type": "adj.",
+        "en": "noisy",
+        "note": "From ruido (noise).",
+        "example": {
+          "es": "Valencia no es tan ruidosa.",
+          "en": "Valencia is not as noisy."
+        }
+      },
+      {
+        "word": "suave",
+        "type": "adj.",
+        "en": "mild, soft",
+        "note": "Un invierno suave.",
+        "example": {
+          "es": "El invierno es más suave en Valencia.",
+          "en": "Winter is milder in Valencia."
+        }
+      },
+      {
+        "word": "aunque",
+        "type": "conj.",
+        "en": "although",
+        "note": "Aunque es caro, me gusta.",
+        "example": {
+          "es": "Son hermosas, aunque son diferentes.",
+          "en": "They are beautiful, although they are different."
+        }
+      },
+      {
+        "word": "ni",
+        "type": "conj.",
+        "en": "nor; not even",
+        "note": "Ni alto ni bajo.",
+        "example": {
+          "es": "No es tan grande ni tan ruidosa.",
+          "en": "It's neither as big nor as noisy."
+        }
+      },
+      {
+        "word": "paella",
+        "type": "n.f.",
+        "en": "paella",
+        "note": "Plato típico de Valencia.",
+        "example": {
+          "es": "Para mí, la paella es la mejor comida.",
+          "en": "For me, paella is the best food."
+        }
+      },
+      {
+        "word": "taco",
+        "type": "n.m.",
+        "en": "taco",
+        "note": "Plato típico de México.",
+        "example": {
+          "es": "Mi prima dice que los tacos son mejores.",
+          "en": "My cousin says tacos are better."
+        }
+      },
+      {
+        "word": "mexicano/a",
+        "type": "adj.",
+        "en": "Mexican",
+        "note": "la capital mexicana.",
+        "ext": true,
+        "example": {
+          "es": "Valencia es más pequeña que la capital mexicana.",
+          "en": "Valencia is smaller than the Mexican capital."
+        }
+      },
+      {
+        "word": "valenciano/a",
+        "type": "adj.",
+        "en": "from Valencia",
+        "note": "Also the regional language of Valencia.",
+        "ext": true,
+        "example": {
+          "es": "La paella es un plato valenciano.",
+          "en": "Paella is a Valencian dish."
+        }
+      },
+      {
+        "word": "clima",
+        "type": "n.m.",
+        "en": "climate",
+        "note": "Ends in -a but masculine: el clima.",
+        "ext": true,
+        "example": {
+          "es": "El clima es distinto en las dos ciudades.",
+          "en": "The climate is different in the two cities."
+        }
+      },
+      {
+        "word": "invierno",
+        "type": "n.m.",
+        "en": "winter",
+        "note": "El verano = summer.",
+        "ext": true,
+        "example": {
+          "es": "En Valencia el invierno es más suave.",
+          "en": "In Valencia winter is milder."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 27,
+    "title": "por vs para (intro)",
+    "words": [
+      {
+        "word": "por",
+        "type": "prep.",
+        "en": "for, through, by, because of",
+        "note": "Cause, route, exchange, means: por el tráfico, por el centro, por teléfono.",
+        "example": {
+          "es": "Llegamos tarde por el tráfico.",
+          "en": "We arrived late because of the traffic."
+        }
+      },
+      {
+        "word": "para",
+        "type": "prep.",
+        "en": "for, in order to, to",
+        "note": "Purpose, recipient, destination: para aprender, para ti.",
+        "example": {
+          "es": "Estudio español para viajar.",
+          "en": "I study Spanish in order to travel."
+        }
+      },
+      {
+        "word": "empresa",
+        "type": "n.f.",
+        "en": "company, firm",
+        "note": "Trabajo para una empresa.",
+        "example": {
+          "es": "Lucía trabaja para una empresa de tecnología.",
+          "en": "Lucía works for a technology company."
+        }
+      },
+      {
+        "word": "tecnología",
+        "type": "n.f.",
+        "en": "technology",
+        "note": "Una empresa de tecnología.",
+        "example": {
+          "es": "Es una empresa de tecnología.",
+          "en": "It's a technology company."
+        }
+      },
+      {
+        "word": "bicicleta",
+        "type": "n.f.",
+        "en": "bicycle",
+        "note": "En bici = by bike.",
+        "example": {
+          "es": "Pasa por el centro en bicicleta.",
+          "en": "She goes through the centre by bicycle."
+        }
+      },
+      {
+        "word": "interés",
+        "type": "n.m.",
+        "en": "interest",
+        "note": "Estudia por interés, no por trabajo.",
+        "example": {
+          "es": "Estudia español por interés.",
+          "en": "She studies Spanish out of interest."
+        }
+      },
+      {
+        "word": "ayuda",
+        "type": "n.f.",
+        "en": "help",
+        "note": "Gracias por tu ayuda.",
+        "example": {
+          "es": "Gracias por tu ayuda.",
+          "en": "Thanks for your help."
+        }
+      },
+      {
+        "word": "pagar",
+        "type": "v.",
+        "en": "to pay",
+        "note": "Pago, pagas, paga, pagamos…",
+        "example": {
+          "es": "Pagamos doce euros por dos kilos.",
+          "en": "We paid twelve euros for two kilos."
+        }
+      },
+      {
+        "word": "regalo",
+        "type": "n.m.",
+        "en": "gift, present",
+        "note": "Un regalo para ti.",
+        "example": {
+          "es": "Este regalo es para ti.",
+          "en": "This gift is for you."
+        }
+      },
+      {
+        "word": "postal",
+        "type": "n.f.",
+        "en": "postcard",
+        "note": "Escribir una postal.",
+        "example": {
+          "es": "Me dio una postal.",
+          "en": "She gave me a postcard."
+        }
+      },
+      {
+        "word": "recordar",
+        "type": "v.",
+        "en": "to remember (o→ue)",
+        "note": "Recuerdo, recuerdas, recuerda…",
+        "example": {
+          "es": "Es para recordar este día.",
+          "en": "It's to remember this day."
+        }
+      },
+      {
+        "word": "llegar tarde",
+        "type": "phr.",
+        "en": "to arrive late",
+        "note": "Antonym: llegar temprano.",
+        "example": {
+          "es": "Llegamos tarde por el tráfico.",
+          "en": "We arrived late because of the traffic."
+        }
+      },
+      {
+        "word": "a veces",
+        "type": "phr.",
+        "en": "sometimes",
+        "note": "A veces voy en bici.",
+        "example": {
+          "es": "A veces también trabaja por la tarde.",
+          "en": "Sometimes she also works in the afternoon."
+        }
+      },
+      {
+        "word": "por favor",
+        "type": "phr.",
+        "en": "please",
+        "note": "Add it to any request.",
+        "example": {
+          "es": "Un café, por favor.",
+          "en": "A coffee, please."
+        }
+      },
+      {
+        "word": "por eso",
+        "type": "phr.",
+        "en": "that's why, therefore",
+        "note": "Llegué tarde; por eso no entré.",
+        "example": {
+          "es": "Había tráfico; por eso llegamos tarde.",
+          "en": "There was traffic; that's why we arrived late."
+        }
+      },
+      {
+        "word": "por fin",
+        "type": "phr.",
+        "en": "finally, at last",
+        "note": "¡Por fin llegaste!",
+        "example": {
+          "es": "¡Por fin es sábado!",
+          "en": "It's finally Saturday!"
+        }
+      },
+      {
+        "word": "para siempre",
+        "type": "phr.",
+        "en": "forever",
+        "note": "Te quiero para siempre.",
+        "example": {
+          "es": "Guardaré esta postal para siempre.",
+          "en": "I'll keep this postcard forever."
+        }
+      },
+      {
+        "word": "naranja",
+        "type": "n.f.",
+        "en": "orange",
+        "note": "Also the colour.",
+        "example": {
+          "es": "Pagamos por dos kilos de naranjas.",
+          "en": "We paid for two kilos of oranges."
+        }
+      },
+      {
+        "word": "kilo",
+        "type": "n.m.",
+        "en": "kilo",
+        "note": "Dos kilos de naranjas.",
+        "example": {
+          "es": "Compré un kilo de tomates.",
+          "en": "I bought a kilo of tomatoes."
+        }
+      },
+      {
+        "word": "casualidad",
+        "type": "n.f.",
+        "en": "coincidence, chance",
+        "note": "por casualidad = by chance.",
+        "example": {
+          "es": "Nos vimos por casualidad.",
+          "en": "We met by chance."
+        }
+      },
+      {
+        "word": "algo",
+        "type": "pron.",
+        "en": "something",
+        "note": "Nada = nothing.",
+        "ext": true,
+        "example": {
+          "es": "Fuimos a un café para tomar algo.",
+          "en": "We went to a café to have something."
+        }
+      },
+      {
+        "word": "perfecto/a",
+        "type": "adj.",
+        "en": "perfect",
+        "note": "Un día perfecto.",
+        "ext": true,
+        "example": {
+          "es": "Fue un día perfecto.",
+          "en": "It was a perfect day."
+        }
+      },
+      {
+        "word": "preguntar",
+        "type": "v.",
+        "en": "to ask (a question)",
+        "note": "Pregunté = I asked.",
+        "ext": true,
+        "example": {
+          "es": "«¿Para qué es?», pregunté.",
+          "en": "\"What is it for?\" I asked."
+        }
+      },
+      {
+        "word": "responder",
+        "type": "v.",
+        "en": "to answer, to reply",
+        "note": "Respondió = he/she answered.",
+        "ext": true,
+        "example": {
+          "es": "«Para recordar este día», respondió.",
+          "en": "\"To remember this day,\" she answered."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 28,
+    "title": "Food culture of the Hispanic world",
+    "words": [
+      {
+        "word": "variado/a",
+        "type": "adj.",
+        "en": "varied",
+        "note": "Una comida variada.",
+        "example": {
+          "es": "La comida del mundo hispano es muy variada.",
+          "en": "The food of the Spanish-speaking world is very varied."
+        }
+      },
+      {
+        "word": "región",
+        "type": "n.f.",
+        "en": "region",
+        "note": "Cada región tiene sus platos.",
+        "example": {
+          "es": "Cada región tiene sus platos típicos.",
+          "en": "Each region has its typical dishes."
+        }
+      },
+      {
+        "word": "plato",
+        "type": "n.m.",
+        "en": "dish, plate",
+        "note": "Un plato típico.",
+        "example": {
+          "es": "La paella es un plato español.",
+          "en": "Paella is a Spanish dish."
+        }
+      },
+      {
+        "word": "arroz",
+        "type": "n.m.",
+        "en": "rice",
+        "note": "el arroz.",
+        "example": {
+          "es": "La paella es un arroz con pollo y mariscos.",
+          "en": "Paella is a rice dish with chicken and seafood."
+        }
+      },
+      {
+        "word": "marisco",
+        "type": "n.m.",
+        "en": "seafood, shellfish",
+        "note": "Usually plural: los mariscos.",
+        "example": {
+          "es": "Me gustan los mariscos.",
+          "en": "I like seafood."
+        }
+      },
+      {
+        "word": "pollo",
+        "type": "n.m.",
+        "en": "chicken",
+        "note": "el pollo asado.",
+        "example": {
+          "es": "La paella lleva pollo.",
+          "en": "Paella has chicken in it."
+        }
+      },
+      {
+        "word": "verdura",
+        "type": "n.f.",
+        "en": "vegetable",
+        "note": "Usually plural: las verduras.",
+        "example": {
+          "es": "Como muchas verduras.",
+          "en": "I eat a lot of vegetables."
+        }
+      },
+      {
+        "word": "tortilla",
+        "type": "n.f.",
+        "en": "omelette; flatbread",
+        "note": "Spain: omelette. Mexico: corn flatbread.",
+        "example": {
+          "es": "Los tacos llevan tortillas de maíz.",
+          "en": "Tacos have corn tortillas."
+        }
+      },
+      {
+        "word": "maíz",
+        "type": "n.m.",
+        "en": "corn, maize",
+        "note": "el maíz.",
+        "example": {
+          "es": "Las tortillas son de maíz.",
+          "en": "Tortillas are made of corn."
+        }
+      },
+      {
+        "word": "cilantro",
+        "type": "n.m.",
+        "en": "coriander, cilantro",
+        "note": "Common in Mexican food.",
+        "example": {
+          "es": "Los tacos se comen con cilantro.",
+          "en": "Tacos are eaten with coriander."
+        }
+      },
+      {
+        "word": "salsa",
+        "type": "n.f.",
+        "en": "sauce",
+        "note": "Salsa picante.",
+        "example": {
+          "es": "La salsa puede ser muy picante.",
+          "en": "The sauce can be very spicy."
+        }
+      },
+      {
+        "word": "picante",
+        "type": "adj.",
+        "en": "spicy, hot",
+        "note": "Comida picante.",
+        "example": {
+          "es": "En México la comida es picante.",
+          "en": "In Mexico the food is spicy."
+        }
+      },
+      {
+        "word": "arepa",
+        "type": "n.f.",
+        "en": "arepa (corn bread)",
+        "note": "Venezuela, Colombia.",
+        "example": {
+          "es": "Las arepas son populares en Venezuela.",
+          "en": "Arepas are popular in Venezuela."
+        }
+      },
+      {
+        "word": "queso",
+        "type": "n.m.",
+        "en": "cheese",
+        "note": "el queso fresco.",
+        "example": {
+          "es": "Como arepas con queso.",
+          "en": "I eat arepas with cheese."
+        }
+      },
+      {
+        "word": "huevo",
+        "type": "n.m.",
+        "en": "egg",
+        "note": "los huevos.",
+        "example": {
+          "es": "La tortilla española lleva huevo.",
+          "en": "The Spanish omelette has egg in it."
+        }
+      },
+      {
+        "word": "asado",
+        "type": "n.m.",
+        "en": "barbecue, roast",
+        "note": "El asado argentino.",
+        "example": {
+          "es": "El asado es una tradición argentina.",
+          "en": "The asado is an Argentine tradition."
+        }
+      },
+      {
+        "word": "parrilla",
+        "type": "n.f.",
+        "en": "grill",
+        "note": "Carne a la parrilla.",
+        "example": {
+          "es": "Comemos carne a la parrilla.",
+          "en": "We eat grilled meat."
+        }
+      },
+      {
+        "word": "tradición",
+        "type": "n.f.",
+        "en": "tradition",
+        "note": "Una vieja tradición.",
+        "example": {
+          "es": "El asado es una gran tradición.",
+          "en": "The asado is a great tradition."
+        }
+      },
+      {
+        "word": "bebida",
+        "type": "n.f.",
+        "en": "drink, beverage",
+        "note": "Bebidas frías.",
+        "example": {
+          "es": "Cada país tiene sus bebidas.",
+          "en": "Each country has its drinks."
+        }
+      },
+      {
+        "word": "mate",
+        "type": "n.m.",
+        "en": "mate (herbal drink)",
+        "note": "Popular in Argentina and Uruguay.",
+        "example": {
+          "es": "En el sur se toma mate.",
+          "en": "In the south people drink mate."
+        }
+      },
+      {
+        "word": "chocolate",
+        "type": "n.m.",
+        "en": "chocolate",
+        "note": "Originally from Mexico.",
+        "example": {
+          "es": "El chocolate viene de México.",
+          "en": "Chocolate comes from Mexico."
+        }
+      },
+      {
+        "word": "alimento",
+        "type": "n.m.",
+        "en": "food, nourishment",
+        "note": "Un alimento básico.",
+        "example": {
+          "es": "La comida no es solo alimento.",
+          "en": "Food is not only nourishment."
+        }
+      },
+      {
+        "word": "reunir",
+        "type": "v.",
+        "en": "to gather, to bring together",
+        "note": "Reunir a la familia.",
+        "example": {
+          "es": "La comida reúne a la familia.",
+          "en": "Food brings the family together."
+        }
+      },
+      {
+        "word": "compartir",
+        "type": "v.",
+        "en": "to share",
+        "note": "Compartir la comida.",
+        "example": {
+          "es": "La paella se comparte con la familia.",
+          "en": "Paella is shared with the family."
+        }
+      },
+      {
+        "word": "popular",
+        "type": "adj.",
+        "en": "popular",
+        "note": "Muy popular en América Latina.",
+        "ext": true,
+        "example": {
+          "es": "Las arepas son muy populares.",
+          "en": "Arepas are very popular."
+        }
+      },
+      {
+        "word": "redondo/a",
+        "type": "adj.",
+        "en": "round",
+        "note": "Panes redondos.",
+        "ext": true,
+        "example": {
+          "es": "Son panes redondos de maíz.",
+          "en": "They are round corn breads."
+        }
+      },
+      {
+        "word": "Venezuela",
+        "type": "n.f.",
+        "en": "Venezuela",
+        "note": "Country in South America.",
+        "ext": true,
+        "example": {
+          "es": "En Venezuela las arepas son populares.",
+          "en": "In Venezuela arepas are popular."
+        }
+      },
+      {
+        "word": "Uruguay",
+        "type": "n.m.",
+        "en": "Uruguay",
+        "note": "Country in South America.",
+        "ext": true,
+        "example": {
+          "es": "El asado es tradición en Argentina y Uruguay.",
+          "en": "Asado is a tradition in Argentina and Uruguay."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 29,
+    "title": "Festivals of the Hispanic world",
+    "words": [
+      {
+        "word": "gusto",
+        "type": "n.m.",
+        "en": "taste, liking",
+        "note": "Hay fiestas para todos los gustos.",
+        "example": {
+          "es": "Hay fiestas para todos los gustos.",
+          "en": "There are festivals for all tastes."
+        }
+      },
+      {
+        "word": "pueblo",
+        "type": "n.m.",
+        "en": "town, village; people",
+        "note": "Un pueblo pequeño.",
+        "example": {
+          "es": "La Tomatina es en el pueblo de Buñol.",
+          "en": "La Tomatina is in the town of Buñol."
+        }
+      },
+      {
+        "word": "batalla",
+        "type": "n.f.",
+        "en": "battle",
+        "note": "Una batalla de tomates.",
+        "example": {
+          "es": "Es una batalla enorme con tomates.",
+          "en": "It's a huge battle with tomatoes."
+        }
+      },
+      {
+        "word": "enorme",
+        "type": "adj.",
+        "en": "huge",
+        "note": "Una fiesta enorme.",
+        "example": {
+          "es": "Las Fallas queman figuras enormes.",
+          "en": "The Fallas burn huge figures."
+        }
+      },
+      {
+        "word": "tomate",
+        "type": "n.m.",
+        "en": "tomato",
+        "note": "el tomate.",
+        "example": {
+          "es": "La Tomatina es una batalla con tomates.",
+          "en": "La Tomatina is a battle with tomatoes."
+        }
+      },
+      {
+        "word": "sucio/a",
+        "type": "adj.",
+        "en": "dirty",
+        "note": "Antonym: limpio/a.",
+        "example": {
+          "es": "Es una fiesta divertida y muy sucia.",
+          "en": "It's a fun and very dirty festival."
+        }
+      },
+      {
+        "word": "celebración",
+        "type": "n.f.",
+        "en": "celebration",
+        "note": "Una gran celebración.",
+        "example": {
+          "es": "El Día de los Muertos es una celebración.",
+          "en": "The Day of the Dead is a celebration."
+        }
+      },
+      {
+        "word": "celebrar",
+        "type": "v.",
+        "en": "to celebrate",
+        "note": "Celebrar la vida.",
+        "example": {
+          "es": "Es una manera de celebrar la vida.",
+          "en": "It's a way of celebrating life."
+        }
+      },
+      {
+        "word": "serio/a",
+        "type": "adj.",
+        "en": "serious",
+        "note": "Una celebración seria y alegre.",
+        "example": {
+          "es": "Es una celebración seria y alegre.",
+          "en": "It's a serious and joyful celebration."
+        }
+      },
+      {
+        "word": "cementerio",
+        "type": "n.m.",
+        "en": "cemetery",
+        "note": "Visitar el cementerio.",
+        "example": {
+          "es": "Las familias visitan los cementerios.",
+          "en": "Families visit the cemeteries."
+        }
+      },
+      {
+        "word": "tumba",
+        "type": "n.f.",
+        "en": "grave, tomb",
+        "note": "Flores en las tumbas.",
+        "example": {
+          "es": "Ponen flores en las tumbas.",
+          "en": "They put flowers on the graves."
+        }
+      },
+      {
+        "word": "manera",
+        "type": "n.f.",
+        "en": "way, manner",
+        "note": "Una manera de celebrar.",
+        "example": {
+          "es": "Es una manera de celebrar la vida.",
+          "en": "It's a way of celebrating life."
+        }
+      },
+      {
+        "word": "danza",
+        "type": "n.f.",
+        "en": "dance",
+        "note": "Música y danza.",
+        "example": {
+          "es": "Se celebra con música, danza y trajes coloridos.",
+          "en": "It is celebrated with music, dance and colourful costumes."
+        }
+      },
+      {
+        "word": "traje",
+        "type": "n.m.",
+        "en": "costume, suit",
+        "note": "Trajes típicos.",
+        "example": {
+          "es": "La gente lleva trajes coloridos.",
+          "en": "People wear colourful costumes."
+        }
+      },
+      {
+        "word": "colorido/a",
+        "type": "adj.",
+        "en": "colourful",
+        "note": "Trajes coloridos.",
+        "example": {
+          "es": "Bailan con trajes coloridos.",
+          "en": "They dance in colourful costumes."
+        }
+      },
+      {
+        "word": "procesión",
+        "type": "n.f.",
+        "en": "procession",
+        "note": "Las procesiones de Semana Santa.",
+        "example": {
+          "es": "La Semana Santa llena las calles de procesiones.",
+          "en": "Holy Week fills the streets with processions."
+        }
+      },
+      {
+        "word": "quemar",
+        "type": "v.",
+        "en": "to burn",
+        "note": "Quemar figuras de cartón.",
+        "example": {
+          "es": "Las Fallas queman figuras de cartón.",
+          "en": "The Fallas burn cardboard figures."
+        }
+      },
+      {
+        "word": "figura",
+        "type": "n.f.",
+        "en": "figure",
+        "note": "Figuras enormes.",
+        "example": {
+          "es": "Queman figuras enormes de cartón.",
+          "en": "They burn huge cardboard figures."
+        }
+      },
+      {
+        "word": "cartón",
+        "type": "n.m.",
+        "en": "cardboard",
+        "note": "de cartón.",
+        "example": {
+          "es": "Las figuras son de cartón.",
+          "en": "The figures are made of cardboard."
+        }
+      },
+      {
+        "word": "honrar",
+        "type": "v.",
+        "en": "to honour",
+        "note": "Honrar al Sol.",
+        "example": {
+          "es": "El Inti Raymi honra al Sol.",
+          "en": "Inti Raymi honours the Sun."
+        }
+      },
+      {
+        "word": "imperio",
+        "type": "n.m.",
+        "en": "empire",
+        "note": "El imperio inca.",
+        "example": {
+          "es": "Cusco fue la capital del imperio inca.",
+          "en": "Cusco was the capital of the Inca empire."
+        }
+      },
+      {
+        "word": "inca",
+        "type": "adj./n.",
+        "en": "Inca",
+        "note": "El imperio inca.",
+        "example": {
+          "es": "El imperio inca estaba en Perú.",
+          "en": "The Inca empire was in Peru."
+        }
+      },
+      {
+        "word": "participar",
+        "type": "v.",
+        "en": "to take part, to participate",
+        "note": "Participar en la fiesta.",
+        "example": {
+          "es": "Miles de personas participan en La Tomatina.",
+          "en": "Thousands of people take part in La Tomatina."
+        }
+      },
+      {
+        "word": "a la vez",
+        "type": "phr.",
+        "en": "at the same time",
+        "note": "Serio y alegre a la vez.",
+        "example": {
+          "es": "Es una celebración seria y alegre a la vez.",
+          "en": "It's a celebration that is serious and joyful at the same time."
+        }
+      },
+      {
+        "word": "llenar",
+        "type": "v.",
+        "en": "to fill",
+        "note": "Llenar las calles de gente.",
+        "ext": true,
+        "example": {
+          "es": "La fiesta llena las calles de gente.",
+          "en": "The festival fills the streets with people."
+        }
+      },
+      {
+        "word": "antiguo/a",
+        "type": "adj.",
+        "en": "ancient, old",
+        "note": "la antigua capital.",
+        "ext": true,
+        "example": {
+          "es": "Cusco fue la antigua capital del imperio.",
+          "en": "Cusco was the ancient capital of the empire."
+        }
+      },
+      {
+        "word": "Buñol",
+        "type": "n.",
+        "en": "Buñol",
+        "note": "Town near Valencia.",
+        "ext": true,
+        "example": {
+          "es": "La Tomatina es en Buñol, cerca de Valencia.",
+          "en": "La Tomatina is in Buñol, near Valencia."
+        }
+      },
+      {
+        "word": "Cusco",
+        "type": "n.",
+        "en": "Cusco",
+        "note": "City in Peru.",
+        "ext": true,
+        "example": {
+          "es": "El Inti Raymi se celebra en Cusco.",
+          "en": "Inti Raymi is celebrated in Cusco."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 30,
+    "title": "Music & dance of the Hispanic world",
+    "words": [
+      {
+        "word": "hispano/a",
+        "type": "adj.",
+        "en": "Hispanic, Spanish-speaking",
+        "note": "La música hispana.",
+        "example": {
+          "es": "La música hispana es famosa en todo el mundo.",
+          "en": "Hispanic music is famous all over the world."
+        }
+      },
+      {
+        "word": "famoso/a",
+        "type": "adj.",
+        "en": "famous",
+        "note": "Famoso en todo el mundo.",
+        "example": {
+          "es": "El flamenco es famoso en todo el mundo.",
+          "en": "Flamenco is famous all over the world."
+        }
+      },
+      {
+        "word": "nacer",
+        "type": "v.",
+        "en": "to be born",
+        "note": "Nací = I was born.",
+        "example": {
+          "es": "El flamenco nació en Andalucía.",
+          "en": "Flamenco was born in Andalusia."
+        }
+      },
+      {
+        "word": "cante",
+        "type": "n.m.",
+        "en": "singing (flamenco)",
+        "note": "El cante flamenco.",
+        "example": {
+          "es": "El flamenco tiene tres partes: el cante, el toque y el baile.",
+          "en": "Flamenco has three parts: singing, playing and dance."
+        }
+      },
+      {
+        "word": "toque",
+        "type": "n.m.",
+        "en": "playing (an instrument)",
+        "note": "El toque de guitarra.",
+        "example": {
+          "es": "El toque es la parte de la guitarra.",
+          "en": "The 'toque' is the guitar part."
+        }
+      },
+      {
+        "word": "baile",
+        "type": "n.m.",
+        "en": "dance",
+        "note": "El baile flamenco.",
+        "example": {
+          "es": "El baile flamenco es muy expresivo.",
+          "en": "Flamenco dance is very expressive."
+        }
+      },
+      {
+        "word": "bailaor/bailaora",
+        "type": "n.",
+        "en": "flamenco dancer",
+        "note": "Los bailaores del flamenco.",
+        "example": {
+          "es": "Los bailaores mueven los brazos con elegancia.",
+          "en": "The dancers move their arms with elegance."
+        }
+      },
+      {
+        "word": "mover",
+        "type": "v.",
+        "en": "to move (o→ue)",
+        "note": "Muevo, mueves, mueve, movemos…",
+        "example": {
+          "es": "Los bailaores mueven los brazos.",
+          "en": "The dancers move their arms."
+        }
+      },
+      {
+        "word": "brazo",
+        "type": "n.m.",
+        "en": "arm",
+        "note": "los brazos.",
+        "example": {
+          "es": "Mueven los brazos con elegancia.",
+          "en": "They move their arms with elegance."
+        }
+      },
+      {
+        "word": "elegancia",
+        "type": "n.f.",
+        "en": "elegance",
+        "note": "Con elegancia.",
+        "example": {
+          "es": "Bailan con mucha elegancia.",
+          "en": "They dance with great elegance."
+        }
+      },
+      {
+        "word": "golpear",
+        "type": "v.",
+        "en": "to hit, to pound",
+        "note": "Golpear el suelo.",
+        "example": {
+          "es": "Golpean el suelo con los pies.",
+          "en": "They pound the floor with their feet."
+        }
+      },
+      {
+        "word": "suelo",
+        "type": "n.m.",
+        "en": "floor, ground",
+        "note": "el suelo.",
+        "example": {
+          "es": "Golpean el suelo con los pies.",
+          "en": "They pound the floor with their feet."
+        }
+      },
+      {
+        "word": "ritmo",
+        "type": "n.m.",
+        "en": "rhythm",
+        "note": "Ritmos africanos.",
+        "example": {
+          "es": "La salsa mezcla ritmos africanos y españoles.",
+          "en": "Salsa mixes African and Spanish rhythms."
+        }
+      },
+      {
+        "word": "africano/a",
+        "type": "adj.",
+        "en": "African",
+        "note": "Ritmos africanos.",
+        "example": {
+          "es": "La salsa tiene raíces africanas.",
+          "en": "Salsa has African roots."
+        }
+      },
+      {
+        "word": "pareja",
+        "type": "n.f.",
+        "en": "couple, partner",
+        "note": "Bailar en pareja.",
+        "example": {
+          "es": "La salsa se baila en pareja.",
+          "en": "Salsa is danced in couples."
+        }
+      },
+      {
+        "word": "tango",
+        "type": "n.m.",
+        "en": "tango",
+        "note": "De Argentina y Uruguay.",
+        "example": {
+          "es": "El tango es más serio y romántico.",
+          "en": "Tango is more serious and romantic."
+        }
+      },
+      {
+        "word": "romántico/a",
+        "type": "adj.",
+        "en": "romantic",
+        "note": "Una canción romántica.",
+        "example": {
+          "es": "El tango es romántico.",
+          "en": "Tango is romantic."
+        }
+      },
+      {
+        "word": "milonga",
+        "type": "n.f.",
+        "en": "milonga (tango hall)",
+        "note": "Bailar en una milonga.",
+        "example": {
+          "es": "Se baila tango en las milongas.",
+          "en": "Tango is danced in the milongas."
+        }
+      },
+      {
+        "word": "cumbia",
+        "type": "n.f.",
+        "en": "cumbia",
+        "note": "Originaria de Colombia.",
+        "example": {
+          "es": "La cumbia nació en Colombia.",
+          "en": "Cumbia was born in Colombia."
+        }
+      },
+      {
+        "word": "reggaetón",
+        "type": "n.m.",
+        "en": "reggaeton",
+        "note": "Música urbana actual.",
+        "example": {
+          "es": "El reggaetón es muy popular entre los jóvenes.",
+          "en": "Reggaeton is very popular among young people."
+        }
+      },
+      {
+        "word": "joven",
+        "type": "n./adj.",
+        "en": "young person; young",
+        "note": "Plural: jóvenes.",
+        "example": {
+          "es": "Millones de jóvenes escuchan reggaetón.",
+          "en": "Millions of young people listen to reggaeton."
+        }
+      },
+      {
+        "word": "unir",
+        "type": "v.",
+        "en": "to unite, to join",
+        "note": "Unir a la gente.",
+        "example": {
+          "es": "La música une a los pueblos.",
+          "en": "Music unites peoples."
+        }
+      },
+      {
+        "word": "oído",
+        "type": "n.m.",
+        "en": "ear; hearing",
+        "note": "el oído.",
+        "example": {
+          "es": "El reggaetón llegó a los oídos de millones.",
+          "en": "Reggaeton reached the ears of millions."
+        }
+      },
+      {
+        "word": "hispanohablante",
+        "type": "adj./n.",
+        "en": "Spanish-speaking (person)",
+        "note": "Los pueblos hispanohablantes.",
+        "example": {
+          "es": "La música une a los pueblos hispanohablantes.",
+          "en": "Music unites Spanish-speaking peoples."
+        }
+      },
+      {
+        "word": "Andalucía",
+        "type": "n.f.",
+        "en": "Andalusia",
+        "note": "Region in southern Spain.",
+        "ext": true,
+        "example": {
+          "es": "El flamenco nació en Andalucía.",
+          "en": "Flamenco was born in Andalusia."
+        }
+      },
+      {
+        "word": "Caribe",
+        "type": "n.m.",
+        "en": "the Caribbean",
+        "note": "Cuba, Puerto Rico, Colombia…",
+        "ext": true,
+        "example": {
+          "es": "En el Caribe nació la salsa.",
+          "en": "Salsa was born in the Caribbean."
+        }
+      },
+      {
+        "word": "abrazado/a",
+        "type": "adj.",
+        "en": "in a close embrace",
+        "note": "Bailar abrazados.",
+        "ext": true,
+        "example": {
+          "es": "El tango se baila abrazados.",
+          "en": "Tango is danced in a close embrace."
+        }
+      },
+      {
+        "word": "llevar",
+        "type": "v.",
+        "en": "to carry, to bring",
+        "note": "Ha llevado el español al mundo.",
+        "ext": true,
+        "example": {
+          "es": "El reggaetón ha llevado el español al mundo.",
+          "en": "Reggaeton has brought Spanish to the world."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 31,
+    "title": "Sport & football culture",
+    "words": [
+      {
+        "word": "deporte",
+        "type": "n.m.",
+        "en": "sport",
+        "note": "el deporte nacional.",
+        "example": {
+          "es": "El fútbol es más que un deporte.",
+          "en": "Football is more than a sport."
+        }
+      },
+      {
+        "word": "jugar",
+        "type": "v.",
+        "en": "to play (u→ue)",
+        "note": "Jugar al fútbol. Juego, juegas, juega…",
+        "example": {
+          "es": "Los niños juegan en la calle.",
+          "en": "The children play in the street."
+        }
+      },
+      {
+        "word": "espacio",
+        "type": "n.m.",
+        "en": "space",
+        "note": "Un espacio libre.",
+        "example": {
+          "es": "Juegan en cualquier espacio libre.",
+          "en": "They play in any free space."
+        }
+      },
+      {
+        "word": "club",
+        "type": "n.m.",
+        "en": "club",
+        "note": "Un club de fútbol.",
+        "example": {
+          "es": "Los grandes clubes tienen millones de seguidores.",
+          "en": "The big clubs have millions of fans."
+        }
+      },
+      {
+        "word": "seguidor/seguidora",
+        "type": "n.",
+        "en": "fan, follower",
+        "note": "Millones de seguidores.",
+        "example": {
+          "es": "El Barcelona tiene millones de seguidores.",
+          "en": "Barcelona has millions of fans."
+        }
+      },
+      {
+        "word": "mantener",
+        "type": "v.",
+        "en": "to keep, to maintain",
+        "note": "Mantener una rivalidad.",
+        "example": {
+          "es": "Boca y River mantienen una rivalidad.",
+          "en": "Boca and River keep up a rivalry."
+        }
+      },
+      {
+        "word": "rivalidad",
+        "type": "n.f.",
+        "en": "rivalry",
+        "note": "Una rivalidad histórica.",
+        "example": {
+          "es": "Es una rivalidad histórica.",
+          "en": "It's a historic rivalry."
+        }
+      },
+      {
+        "word": "histórico/a",
+        "type": "adj.",
+        "en": "historic",
+        "note": "Un partido histórico.",
+        "example": {
+          "es": "Es una rivalidad histórica.",
+          "en": "It's a historic rivalry."
+        }
+      },
+      {
+        "word": "clásico",
+        "type": "n.m./adj.",
+        "en": "classic (big match)",
+        "note": "El clásico de México.",
+        "example": {
+          "es": "El partido entre el América y las Chivas es un clásico.",
+          "en": "The match between América and Chivas is a classic."
+        }
+      },
+      {
+        "word": "selección",
+        "type": "n.f.",
+        "en": "national team; selection",
+        "note": "La selección nacional.",
+        "example": {
+          "es": "Cada país tiene su selección nacional.",
+          "en": "Each country has its national team."
+        }
+      },
+      {
+        "word": "nacional",
+        "type": "adj.",
+        "en": "national",
+        "note": "Un equipo nacional.",
+        "example": {
+          "es": "La selección nacional juega mañana.",
+          "en": "The national team plays tomorrow."
+        }
+      },
+      {
+        "word": "Mundial",
+        "type": "n.m.",
+        "en": "World Cup",
+        "note": "el Mundial de fútbol.",
+        "example": {
+          "es": "Durante el Mundial las calles se llenan.",
+          "en": "During the World Cup the streets fill up."
+        }
+      },
+      {
+        "word": "bandera",
+        "type": "n.f.",
+        "en": "flag",
+        "note": "Banderas en las calles.",
+        "example": {
+          "es": "Las calles se llenan de banderas.",
+          "en": "The streets fill with flags."
+        }
+      },
+      {
+        "word": "grito",
+        "type": "n.m.",
+        "en": "shout, cry",
+        "note": "Gritos de alegría.",
+        "example": {
+          "es": "Las calles se llenan de banderas y gritos.",
+          "en": "The streets fill with flags and shouts."
+        }
+      },
+      {
+        "word": "ídolo",
+        "type": "n.m.",
+        "en": "idol",
+        "note": "Un ídolo del fútbol.",
+        "example": {
+          "es": "El fútbol produce ídolos.",
+          "en": "Football produces idols."
+        }
+      },
+      {
+        "word": "béisbol",
+        "type": "n.m.",
+        "en": "baseball",
+        "note": "Popular en el Caribe.",
+        "example": {
+          "es": "El béisbol es popular en Cuba.",
+          "en": "Baseball is popular in Cuba."
+        }
+      },
+      {
+        "word": "boxeo",
+        "type": "n.m.",
+        "en": "boxing",
+        "note": "el boxeo.",
+        "example": {
+          "es": "El boxeo tiene grandes campeones.",
+          "en": "Boxing has great champions."
+        }
+      },
+      {
+        "word": "tenis",
+        "type": "n.m.",
+        "en": "tennis",
+        "note": "Jugar al tenis.",
+        "example": {
+          "es": "¿Juegas al tenis?",
+          "en": "Do you play tennis?"
+        }
+      },
+      {
+        "word": "campeón/campeona",
+        "type": "n.",
+        "en": "champion",
+        "note": "Campeón del mundo.",
+        "example": {
+          "es": "Tienen grandes campeones hispanos.",
+          "en": "They have great Hispanic champions."
+        }
+      },
+      {
+        "word": "hincha",
+        "type": "n.",
+        "en": "fan, supporter (LatAm)",
+        "note": "Spain: aficionado.",
+        "example": {
+          "es": "Los hinchas llenan la cancha.",
+          "en": "The fans fill the pitch."
+        }
+      },
+      {
+        "word": "cancha",
+        "type": "n.f.",
+        "en": "pitch, field (LatAm)",
+        "note": "Spain: campo.",
+        "example": {
+          "es": "Jugamos en la cancha del barrio.",
+          "en": "We play on the neighbourhood pitch."
+        }
+      },
+      {
+        "word": "ganar",
+        "type": "v.",
+        "en": "to win",
+        "note": "Ganar un partido.",
+        "example": {
+          "es": "España ganó el Mundial en 2010.",
+          "en": "Spain won the World Cup in 2010."
+        }
+      },
+      {
+        "word": "empatar",
+        "type": "v.",
+        "en": "to draw, to tie",
+        "note": "Empataron 1 a 1.",
+        "example": {
+          "es": "Los dos equipos empataron, 1 a 1.",
+          "en": "The two teams drew, 1–1."
+        }
+      },
+      {
+        "word": "cubano/a",
+        "type": "adj.",
+        "en": "Cuban",
+        "note": "de Cuba.",
+        "ext": true,
+        "example": {
+          "es": "El béisbol cubano es famoso.",
+          "en": "Cuban baseball is famous."
+        }
+      },
+      {
+        "word": "dominicano/a",
+        "type": "adj.",
+        "en": "Dominican",
+        "note": "de la República Dominicana.",
+        "ext": true,
+        "example": {
+          "es": "Muchos jugadores dominicanos juegan en Estados Unidos.",
+          "en": "Many Dominican players play in the United States."
+        }
+      },
+      {
+        "word": "producir",
+        "type": "v.",
+        "en": "to produce",
+        "note": "Produce ídolos.",
+        "ext": true,
+        "example": {
+          "es": "El fútbol produce ídolos.",
+          "en": "Football produces idols."
+        }
+      },
+      {
+        "word": "cualquier",
+        "type": "adj.",
+        "en": "any",
+        "note": "Short form of cualquiera before a noun.",
+        "ext": true,
+        "example": {
+          "es": "Juegan en cualquier espacio libre.",
+          "en": "They play in any free space."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 32,
+    "title": "A2 consolidation: a journey through the Hispanic world",
+    "words": [
+      {
+        "word": "viaje",
+        "type": "n.m.",
+        "en": "trip, journey",
+        "note": "un viaje largo.",
+        "example": {
+          "es": "El año pasado hice un viaje inolvidable.",
+          "en": "Last year I took an unforgettable trip."
+        }
+      },
+      {
+        "word": "inolvidable",
+        "type": "adj.",
+        "en": "unforgettable",
+        "note": "Un viaje inolvidable.",
+        "example": {
+          "es": "Fue un viaje inolvidable.",
+          "en": "It was an unforgettable trip."
+        }
+      },
+      {
+        "word": "volar",
+        "type": "v.",
+        "en": "to fly (o→ue)",
+        "note": "Vuelo, vuelas, vuela, volamos…",
+        "example": {
+          "es": "Primero volé a Ciudad de México.",
+          "en": "First I flew to Mexico City."
+        }
+      },
+      {
+        "word": "experiencia",
+        "type": "n.f.",
+        "en": "experience",
+        "note": "Una gran experiencia.",
+        "example": {
+          "es": "Fue una experiencia emocionante.",
+          "en": "It was an exciting experience."
+        }
+      },
+      {
+        "word": "emocionante",
+        "type": "adj.",
+        "en": "exciting, moving",
+        "note": "Una experiencia emocionante.",
+        "example": {
+          "es": "Fue una experiencia emocionante.",
+          "en": "It was an exciting experience."
+        }
+      },
+      {
+        "word": "amanecer",
+        "type": "n.m./v.",
+        "en": "dawn; to dawn",
+        "note": "al amanecer = at dawn.",
+        "example": {
+          "es": "Subí a Machu Picchu al amanecer.",
+          "en": "I climbed Machu Picchu at dawn."
+        }
+      },
+      {
+        "word": "ruina",
+        "type": "n.f.",
+        "en": "ruin",
+        "note": "Usually plural: las ruinas.",
+        "example": {
+          "es": "Caminaba entre las ruinas.",
+          "en": "I was walking among the ruins."
+        }
+      },
+      {
+        "word": "admiración",
+        "type": "n.f.",
+        "en": "admiration",
+        "note": "Sentir admiración.",
+        "example": {
+          "es": "Sentí una gran admiración.",
+          "en": "I felt great admiration."
+        }
+      },
+      {
+        "word": "amable",
+        "type": "adj.",
+        "en": "kind, friendly",
+        "note": "Gente muy amable.",
+        "example": {
+          "es": "Los argentinos me parecieron muy amables.",
+          "en": "The Argentines seemed very kind to me."
+        }
+      },
+      {
+        "word": "probar",
+        "type": "v.",
+        "en": "to try, to taste (o→ue)",
+        "note": "Pruebo, pruebas, prueba, probamos…",
+        "example": {
+          "es": "Probé una paella auténtica.",
+          "en": "I tried an authentic paella."
+        }
+      },
+      {
+        "word": "auténtico/a",
+        "type": "adj.",
+        "en": "authentic",
+        "note": "Comida auténtica.",
+        "example": {
+          "es": "Probé una paella auténtica.",
+          "en": "I tried an authentic paella."
+        }
+      },
+      {
+        "word": "vuelta",
+        "type": "n.f.",
+        "en": "return",
+        "note": "estar de vuelta = to be back.",
+        "example": {
+          "es": "Ahora estoy de vuelta en casa.",
+          "en": "Now I'm back home."
+        }
+      },
+      {
+        "word": "duda",
+        "type": "n.f.",
+        "en": "doubt",
+        "note": "sin duda = without a doubt.",
+        "example": {
+          "es": "Sin duda, viajar es la mejor manera.",
+          "en": "Without a doubt, travelling is the best way."
+        }
+      },
+      {
+        "word": "demás",
+        "type": "pron./adj.",
+        "en": "the others, the rest",
+        "note": "los demás.",
+        "example": {
+          "es": "Viajar ayuda a entender a los demás.",
+          "en": "Travelling helps you understand others."
+        }
+      },
+      {
+        "word": "justo",
+        "type": "adv./adj.",
+        "en": "just, exactly; fair",
+        "note": "Llegué justo a tiempo.",
+        "example": {
+          "es": "Llegué justo para el Día de los Muertos.",
+          "en": "I arrived just in time for the Day of the Dead."
+        }
+      },
+      {
+        "word": "fuego",
+        "type": "n.m.",
+        "en": "fire",
+        "note": "Fuegos artificiales = fireworks.",
+        "example": {
+          "es": "Había música y fuegos por todas partes.",
+          "en": "There was music and fireworks everywhere."
+        }
+      },
+      {
+        "word": "sin duda",
+        "type": "phr.",
+        "en": "without a doubt",
+        "note": "Sin duda, la mejor manera.",
+        "example": {
+          "es": "Sin duda, es la mejor manera de aprender.",
+          "en": "Without a doubt, it's the best way to learn."
+        }
+      },
+      {
+        "word": "estar de vuelta",
+        "type": "phr.",
+        "en": "to be back",
+        "note": "Estoy de vuelta en casa.",
+        "example": {
+          "es": "Estoy de vuelta en casa.",
+          "en": "I'm back home."
+        }
+      },
+      {
+        "word": "argentino/a",
+        "type": "adj.",
+        "en": "Argentine",
+        "note": "de Argentina.",
+        "ext": true,
+        "example": {
+          "es": "Los argentinos me parecieron muy amables.",
+          "en": "The Argentines seemed very kind to me."
+        }
+      },
+      {
+        "word": "lleno/a",
+        "type": "adj.",
+        "en": "full",
+        "note": "Calles llenas de gente.",
+        "ext": true,
+        "example": {
+          "es": "Vi las calles llenas de flores.",
+          "en": "I saw the streets full of flowers."
+        }
+      },
+      {
+        "word": "Machu Picchu",
+        "type": "n.",
+        "en": "Machu Picchu",
+        "note": "Inca site in Peru.",
+        "ext": true,
+        "example": {
+          "es": "Subí a Machu Picchu al amanecer.",
+          "en": "I climbed Machu Picchu at dawn."
+        }
+      },
+      {
+        "word": "Cusco",
+        "type": "n.",
+        "en": "Cusco",
+        "note": "City in Peru.",
+        "ext": true,
+        "example": {
+          "es": "Viajé a Perú para conocer Cusco.",
+          "en": "I travelled to Peru to see Cusco."
+        }
+      }
+    ]
   }
 ];

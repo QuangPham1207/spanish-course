@@ -1,0 +1,178 @@
+{
+  "lesson": 27,
+  "title": "por vs para (intro)",
+  "words": [
+    {
+      "word": "por",
+      "type": "prep.",
+      "en": "for, through, by, because of",
+      "note": "Cause, route, exchange, means: por el tráfico, por el centro, por teléfono.",
+      "example": { "es": "Llegamos tarde por el tráfico.", "en": "We arrived late because of the traffic." }
+    },
+    {
+      "word": "para",
+      "type": "prep.",
+      "en": "for, in order to, to",
+      "note": "Purpose, recipient, destination: para aprender, para ti.",
+      "example": { "es": "Estudio español para viajar.", "en": "I study Spanish in order to travel." }
+    },
+    {
+      "word": "empresa",
+      "type": "n.f.",
+      "en": "company, firm",
+      "note": "Trabajo para una empresa.",
+      "example": { "es": "Lucía trabaja para una empresa de tecnología.", "en": "Lucía works for a technology company." }
+    },
+    {
+      "word": "tecnología",
+      "type": "n.f.",
+      "en": "technology",
+      "note": "Una empresa de tecnología.",
+      "example": { "es": "Es una empresa de tecnología.", "en": "It's a technology company." }
+    },
+    {
+      "word": "bicicleta",
+      "type": "n.f.",
+      "en": "bicycle",
+      "note": "En bici = by bike.",
+      "example": { "es": "Pasa por el centro en bicicleta.", "en": "She goes through the centre by bicycle." }
+    },
+    {
+      "word": "interés",
+      "type": "n.m.",
+      "en": "interest",
+      "note": "Estudia por interés, no por trabajo.",
+      "example": { "es": "Estudia español por interés.", "en": "She studies Spanish out of interest." }
+    },
+    {
+      "word": "ayuda",
+      "type": "n.f.",
+      "en": "help",
+      "note": "Gracias por tu ayuda.",
+      "example": { "es": "Gracias por tu ayuda.", "en": "Thanks for your help." }
+    },
+    {
+      "word": "pagar",
+      "type": "v.",
+      "en": "to pay",
+      "note": "Pago, pagas, paga, pagamos…",
+      "example": { "es": "Pagamos doce euros por dos kilos.", "en": "We paid twelve euros for two kilos." }
+    },
+    {
+      "word": "regalo",
+      "type": "n.m.",
+      "en": "gift, present",
+      "note": "Un regalo para ti.",
+      "example": { "es": "Este regalo es para ti.", "en": "This gift is for you." }
+    },
+    {
+      "word": "postal",
+      "type": "n.f.",
+      "en": "postcard",
+      "note": "Escribir una postal.",
+      "example": { "es": "Me dio una postal.", "en": "She gave me a postcard." }
+    },
+    {
+      "word": "recordar",
+      "type": "v.",
+      "en": "to remember (o→ue)",
+      "note": "Recuerdo, recuerdas, recuerda…",
+      "example": { "es": "Es para recordar este día.", "en": "It's to remember this day." }
+    },
+    {
+      "word": "llegar tarde",
+      "type": "phr.",
+      "en": "to arrive late",
+      "note": "Antonym: llegar temprano.",
+      "example": { "es": "Llegamos tarde por el tráfico.", "en": "We arrived late because of the traffic." }
+    },
+    {
+      "word": "a veces",
+      "type": "phr.",
+      "en": "sometimes",
+      "note": "A veces voy en bici.",
+      "example": { "es": "A veces también trabaja por la tarde.", "en": "Sometimes she also works in the afternoon." }
+    },
+    {
+      "word": "por favor",
+      "type": "phr.",
+      "en": "please",
+      "note": "Add it to any request.",
+      "example": { "es": "Un café, por favor.", "en": "A coffee, please." }
+    },
+    {
+      "word": "por eso",
+      "type": "phr.",
+      "en": "that's why, therefore",
+      "note": "Llegué tarde; por eso no entré.",
+      "example": { "es": "Había tráfico; por eso llegamos tarde.", "en": "There was traffic; that's why we arrived late." }
+    },
+    {
+      "word": "por fin",
+      "type": "phr.",
+      "en": "finally, at last",
+      "note": "¡Por fin llegaste!",
+      "example": { "es": "¡Por fin es sábado!", "en": "It's finally Saturday!" }
+    },
+    {
+      "word": "para siempre",
+      "type": "phr.",
+      "en": "forever",
+      "note": "Te quiero para siempre.",
+      "example": { "es": "Guardaré esta postal para siempre.", "en": "I'll keep this postcard forever." }
+    },
+    {
+      "word": "naranja",
+      "type": "n.f.",
+      "en": "orange",
+      "note": "Also the colour.",
+      "example": { "es": "Pagamos por dos kilos de naranjas.", "en": "We paid for two kilos of oranges." }
+    },
+    {
+      "word": "kilo",
+      "type": "n.m.",
+      "en": "kilo",
+      "note": "Dos kilos de naranjas.",
+      "example": { "es": "Compré un kilo de tomates.", "en": "I bought a kilo of tomatoes." }
+    },
+    {
+      "word": "casualidad",
+      "type": "n.f.",
+      "en": "coincidence, chance",
+      "note": "por casualidad = by chance.",
+      "example": { "es": "Nos vimos por casualidad.", "en": "We met by chance." }
+    },
+    {
+      "word": "algo",
+      "type": "pron.",
+      "en": "something",
+      "note": "Nada = nothing.",
+      "ext": true,
+      "example": { "es": "Fuimos a un café para tomar algo.", "en": "We went to a café to have something." }
+    },
+    {
+      "word": "perfecto/a",
+      "type": "adj.",
+      "en": "perfect",
+      "note": "Un día perfecto.",
+      "ext": true,
+      "example": { "es": "Fue un día perfecto.", "en": "It was a perfect day." }
+    },
+    {
+      "word": "preguntar",
+      "type": "v.",
+      "en": "to ask (a question)",
+      "note": "Pregunté = I asked.",
+      "ext": true,
+      "example": { "es": "«¿Para qué es?», pregunté.", "en": "\"What is it for?\" I asked." }
+    },
+    {
+      "word": "responder",
+      "type": "v.",
+      "en": "to answer, to reply",
+      "note": "Respondió = he/she answered.",
+      "ext": true,
+      "example": { "es": "«Para recordar este día», respondió.", "en": "\"To remember this day,\" she answered." }
+    }
+  ]
+}

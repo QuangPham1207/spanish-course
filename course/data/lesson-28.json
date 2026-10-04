@@ -1,0 +1,206 @@
+{
+  "lesson": 28,
+  "title": "Food culture of the Hispanic world",
+  "words": [
+    {
+      "word": "variado/a",
+      "type": "adj.",
+      "en": "varied",
+      "note": "Una comida variada.",
+      "example": { "es": "La comida del mundo hispano es muy variada.", "en": "The food of the Spanish-speaking world is very varied." }
+    },
+    {
+      "word": "región",
+      "type": "n.f.",
+      "en": "region",
+      "note": "Cada región tiene sus platos.",
+      "example": { "es": "Cada región tiene sus platos típicos.", "en": "Each region has its typical dishes." }
+    },
+    {
+      "word": "plato",
+      "type": "n.m.",
+      "en": "dish, plate",
+      "note": "Un plato típico.",
+      "example": { "es": "La paella es un plato español.", "en": "Paella is a Spanish dish." }
+    },
+    {
+      "word": "arroz",
+      "type": "n.m.",
+      "en": "rice",
+      "note": "el arroz.",
+      "example": { "es": "La paella es un arroz con pollo y mariscos.", "en": "Paella is a rice dish with chicken and seafood." }
+    },
+    {
+      "word": "marisco",
+      "type": "n.m.",
+      "en": "seafood, shellfish",
+      "note": "Usually plural: los mariscos.",
+      "example": { "es": "Me gustan los mariscos.", "en": "I like seafood." }
+    },
+    {
+      "word": "pollo",
+      "type": "n.m.",
+      "en": "chicken",
+      "note": "el pollo asado.",
+      "example": { "es": "La paella lleva pollo.", "en": "Paella has chicken in it." }
+    },
+    {
+      "word": "verdura",
+      "type": "n.f.",
+      "en": "vegetable",
+      "note": "Usually plural: las verduras.",
+      "example": { "es": "Como muchas verduras.", "en": "I eat a lot of vegetables." }
+    },
+    {
+      "word": "tortilla",
+      "type": "n.f.",
+      "en": "omelette; flatbread",
+      "note": "Spain: omelette. Mexico: corn flatbread.",
+      "example": { "es": "Los tacos llevan tortillas de maíz.", "en": "Tacos have corn tortillas." }
+    },
+    {
+      "word": "maíz",
+      "type": "n.m.",
+      "en": "corn, maize",
+      "note": "el maíz.",
+      "example": { "es": "Las tortillas son de maíz.", "en": "Tortillas are made of corn." }
+    },
+    {
+      "word": "cilantro",
+      "type": "n.m.",
+      "en": "coriander, cilantro",
+      "note": "Common in Mexican food.",
+      "example": { "es": "Los tacos se comen con cilantro.", "en": "Tacos are eaten with coriander." }
+    },
+    {
+      "word": "salsa",
+      "type": "n.f.",
+      "en": "sauce",
+      "note": "Salsa picante.",
+      "example": { "es": "La salsa puede ser muy picante.", "en": "The sauce can be very spicy." }
+    },
+    {
+      "word": "picante",
+      "type": "adj.",
+      "en": "spicy, hot",
+      "note": "Comida picante.",
+      "example": { "es": "En México la comida es picante.", "en": "In Mexico the food is spicy." }
+    },
+    {
+      "word": "arepa",
+      "type": "n.f.",
+      "en": "arepa (corn bread)",
+      "note": "Venezuela, Colombia.",
+      "example": { "es": "Las arepas son populares en Venezuela.", "en": "Arepas are popular in Venezuela." }
+    },
+    {
+      "word": "queso",
+      "type": "n.m.",
+      "en": "cheese",
+      "note": "el queso fresco.",
+      "example": { "es": "Como arepas con queso.", "en": "I eat arepas with cheese." }
+    },
+    {
+      "word": "huevo",
+      "type": "n.m.",
+      "en": "egg",
+      "note": "los huevos.",
+      "example": { "es": "La tortilla española lleva huevo.", "en": "The Spanish omelette has egg in it." }
+    },
+    {
+      "word": "asado",
+      "type": "n.m.",
+      "en": "barbecue, roast",
+      "note": "El asado argentino.",
+      "example": { "es": "El asado es una tradición argentina.", "en": "The asado is an Argentine tradition." }
+    },
+    {
+      "word": "parrilla",
+      "type": "n.f.",
+      "en": "grill",
+      "note": "Carne a la parrilla.",
+      "example": { "es": "Comemos carne a la parrilla.", "en": "We eat grilled meat." }
+    },
+    {
+      "word": "tradición",
+      "type": "n.f.",
+      "en": "tradition",
+      "note": "Una vieja tradición.",
+      "example": { "es": "El asado es una gran tradición.", "en": "The asado is a great tradition." }
+    },
+    {
+      "word": "bebida",
+      "type": "n.f.",
+      "en": "drink, beverage",
+      "note": "Bebidas frías.",
+      "example": { "es": "Cada país tiene sus bebidas.", "en": "Each country has its drinks." }
+    },
+    {
+      "word": "mate",
+      "type": "n.m.",
+      "en": "mate (herbal drink)",
+      "note": "Popular in Argentina and Uruguay.",
+      "example": { "es": "En el sur se toma mate.", "en": "In the south people drink mate." }
+    },
+    {
+      "word": "chocolate",
+      "type": "n.m.",
+      "en": "chocolate",
+      "note": "Originally from Mexico.",
+      "example": { "es": "El chocolate viene de México.", "en": "Chocolate comes from Mexico." }
+    },
+    {
+      "word": "alimento",
+      "type": "n.m.",
+      "en": "food, nourishment",
+      "note": "Un alimento básico.",
+      "example": { "es": "La comida no es solo alimento.", "en": "Food is not only nourishment." }
+    },
+    {
+      "word": "reunir",
+      "type": "v.",
+      "en": "to gather, to bring together",
+      "note": "Reunir a la familia.",
+      "example": { "es": "La comida reúne a la familia.", "en": "Food brings the family together." }
+    },
+    {
+      "word": "compartir",
+      "type": "v.",
+      "en": "to share",
+      "note": "Compartir la comida.",
+      "example": { "es": "La paella se comparte con la familia.", "en": "Paella is shared with the family." }
+    },
+    {
+      "word": "popular",
+      "type": "adj.",
+      "en": "popular",
+      "note": "Muy popular en América Latina.",
+      "ext": true,
+      "example": { "es": "Las arepas son muy populares.", "en": "Arepas are very popular." }
+    },
+    {
+      "word": "redondo/a",
+      "type": "adj.",
+      "en": "round",
+      "note": "Panes redondos.",
+      "ext": true,
+      "example": { "es": "Son panes redondos de maíz.", "en": "They are round corn breads." }
+    },
+    {
+      "word": "Venezuela",
+      "type": "n.f.",
+      "en": "Venezuela",
+      "note": "Country in South America.",
+      "ext": true,
+      "example": { "es": "En Venezuela las arepas son populares.", "en": "In Venezuela arepas are popular." }
+    },
+    {
+      "word": "Uruguay",
+      "type": "n.m.",
+      "en": "Uruguay",
+      "note": "Country in South America.",
+      "ext": true,
+      "example": { "es": "El asado es tradición en Argentina y Uruguay.", "en": "Asado is a tradition in Argentina and Uruguay." }
+    }
+  ]
+}

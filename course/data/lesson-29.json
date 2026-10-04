@@ -1,0 +1,206 @@
+{
+  "lesson": 29,
+  "title": "Festivals of the Hispanic world",
+  "words": [
+    {
+      "word": "gusto",
+      "type": "n.m.",
+      "en": "taste, liking",
+      "note": "Hay fiestas para todos los gustos.",
+      "example": { "es": "Hay fiestas para todos los gustos.", "en": "There are festivals for all tastes." }
+    },
+    {
+      "word": "pueblo",
+      "type": "n.m.",
+      "en": "town, village; people",
+      "note": "Un pueblo pequeño.",
+      "example": { "es": "La Tomatina es en el pueblo de Buñol.", "en": "La Tomatina is in the town of Buñol." }
+    },
+    {
+      "word": "batalla",
+      "type": "n.f.",
+      "en": "battle",
+      "note": "Una batalla de tomates.",
+      "example": { "es": "Es una batalla enorme con tomates.", "en": "It's a huge battle with tomatoes." }
+    },
+    {
+      "word": "enorme",
+      "type": "adj.",
+      "en": "huge",
+      "note": "Una fiesta enorme.",
+      "example": { "es": "Las Fallas queman figuras enormes.", "en": "The Fallas burn huge figures." }
+    },
+    {
+      "word": "tomate",
+      "type": "n.m.",
+      "en": "tomato",
+      "note": "el tomate.",
+      "example": { "es": "La Tomatina es una batalla con tomates.", "en": "La Tomatina is a battle with tomatoes." }
+    },
+    {
+      "word": "sucio/a",
+      "type": "adj.",
+      "en": "dirty",
+      "note": "Antonym: limpio/a.",
+      "example": { "es": "Es una fiesta divertida y muy sucia.", "en": "It's a fun and very dirty festival." }
+    },
+    {
+      "word": "celebración",
+      "type": "n.f.",
+      "en": "celebration",
+      "note": "Una gran celebración.",
+      "example": { "es": "El Día de los Muertos es una celebración.", "en": "The Day of the Dead is a celebration." }
+    },
+    {
+      "word": "celebrar",
+      "type": "v.",
+      "en": "to celebrate",
+      "note": "Celebrar la vida.",
+      "example": { "es": "Es una manera de celebrar la vida.", "en": "It's a way of celebrating life." }
+    },
+    {
+      "word": "serio/a",
+      "type": "adj.",
+      "en": "serious",
+      "note": "Una celebración seria y alegre.",
+      "example": { "es": "Es una celebración seria y alegre.", "en": "It's a serious and joyful celebration." }
+    },
+    {
+      "word": "cementerio",
+      "type": "n.m.",
+      "en": "cemetery",
+      "note": "Visitar el cementerio.",
+      "example": { "es": "Las familias visitan los cementerios.", "en": "Families visit the cemeteries." }
+    },
+    {
+      "word": "tumba",
+      "type": "n.f.",
+      "en": "grave, tomb",
+      "note": "Flores en las tumbas.",
+      "example": { "es": "Ponen flores en las tumbas.", "en": "They put flowers on the graves." }
+    },
+    {
+      "word": "manera",
+      "type": "n.f.",
+      "en": "way, manner",
+      "note": "Una manera de celebrar.",
+      "example": { "es": "Es una manera de celebrar la vida.", "en": "It's a way of celebrating life." }
+    },
+    {
+      "word": "danza",
+      "type": "n.f.",
+      "en": "dance",
+      "note": "Música y danza.",
+      "example": { "es": "Se celebra con música, danza y trajes coloridos.", "en": "It is celebrated with music, dance and colourful costumes." }
+    },
+    {
+      "word": "traje",
+      "type": "n.m.",
+      "en": "costume, suit",
+      "note": "Trajes típicos.",
+      "example": { "es": "La gente lleva trajes coloridos.", "en": "People wear colourful costumes." }
+    },
+    {
+      "word": "colorido/a",
+      "type": "adj.",
+      "en": "colourful",
+      "note": "Trajes coloridos.",
+      "example": { "es": "Bailan con trajes coloridos.", "en": "They dance in colourful costumes." }
+    },
+    {
+      "word": "procesión",
+      "type": "n.f.",
+      "en": "procession",
+      "note": "Las procesiones de Semana Santa.",
+      "example": { "es": "La Semana Santa llena las calles de procesiones.", "en": "Holy Week fills the streets with processions." }
+    },
+    {
+      "word": "quemar",
+      "type": "v.",
+      "en": "to burn",
+      "note": "Quemar figuras de cartón.",
+      "example": { "es": "Las Fallas queman figuras de cartón.", "en": "The Fallas burn cardboard figures." }
+    },
+    {
+      "word": "figura",
+      "type": "n.f.",
+      "en": "figure",
+      "note": "Figuras enormes.",
+      "example": { "es": "Queman figuras enormes de cartón.", "en": "They burn huge cardboard figures." }
+    },
+    {
+      "word": "cartón",
+      "type": "n.m.",
+      "en": "cardboard",
+      "note": "de cartón.",
+      "example": { "es": "Las figuras son de cartón.", "en": "The figures are made of cardboard." }
+    },
+    {
+      "word": "honrar",
+      "type": "v.",
+      "en": "to honour",
+      "note": "Honrar al Sol.",
+      "example": { "es": "El Inti Raymi honra al Sol.", "en": "Inti Raymi honours the Sun." }
+    },
+    {
+      "word": "imperio",
+      "type": "n.m.",
+      "en": "empire",
+      "note": "El imperio inca.",
+      "example": { "es": "Cusco fue la capital del imperio inca.", "en": "Cusco was the capital of the Inca empire." }
+    },
+    {
+      "word": "inca",
+      "type": "adj./n.",
+      "en": "Inca",
+      "note": "El imperio inca.",
+      "example": { "es": "El imperio inca estaba en Perú.", "en": "The Inca empire was in Peru." }
+    },
+    {
+      "word": "participar",
+      "type": "v.",
+      "en": "to take part, to participate",
+      "note": "Participar en la fiesta.",
+      "example": { "es": "Miles de personas participan en La Tomatina.", "en": "Thousands of people take part in La Tomatina." }
+    },
+    {
+      "word": "a la vez",
+      "type": "phr.",
+      "en": "at the same time",
+      "note": "Serio y alegre a la vez.",
+      "example": { "es": "Es una celebración seria y alegre a la vez.", "en": "It's a celebration that is serious and joyful at the same time." }
+    },
+    {
+      "word": "llenar",
+      "type": "v.",
+      "en": "to fill",
+      "note": "Llenar las calles de gente.",
+      "ext": true,
+      "example": { "es": "La fiesta llena las calles de gente.", "en": "The festival fills the streets with people." }
+    },
+    {
+      "word": "antiguo/a",
+      "type": "adj.",
+      "en": "ancient, old",
+      "note": "la antigua capital.",
+      "ext": true,
+      "example": { "es": "Cusco fue la antigua capital del imperio.", "en": "Cusco was the ancient capital of the empire." }
+    },
+    {
+      "word": "Buñol",
+      "type": "n.",
+      "en": "Buñol",
+      "note": "Town near Valencia.",
+      "ext": true,
+      "example": { "es": "La Tomatina es en Buñol, cerca de Valencia.", "en": "La Tomatina is in Buñol, near Valencia." }
+    },
+    {
+      "word": "Cusco",
+      "type": "n.",
+      "en": "Cusco",
+      "note": "City in Peru.",
+      "ext": true,
+      "example": { "es": "El Inti Raymi se celebra en Cusco.", "en": "Inti Raymi is celebrated in Cusco." }
+    }
+  ]
+}

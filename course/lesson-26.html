@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 26 — Comparatives &amp; superlatives</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="review-a2-2.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 26 — COMPARATIVES &amp; SUPERLATIVES</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Compare two things: <span class="es">más … que</span>, <span class="es">menos … que</span>.</li>
+      <li>Say two things are equal: <span class="es">tan … como</span>, <span class="es">tanto … como</span>.</li>
+      <li>Say "the most / the least": <span class="es">el / la / los / las más … de</span>.</li>
+      <li>Use the irregulars <span class="es">mejor, peor, mayor, menor</span>.</li>
+      <li>Read a text that compares two cities.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">más … que, menos … que, tan … como, tanto … como, mejor, peor, mayor, menor, comparar, igual, diferente, distinto, ciudad, capital, barrio, museo, tráfico, aire, limpio, animado, ruidoso, suave, aunque, ni, paella, taco</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">mexicano/a, valenciano/a, clima, invierno</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (DOS CIUDADES)</h2>
+<p><strong>Context:</strong> Marta compares her city, Valencia, with Mexico City, where her cousin lives. The comparisons are in bold. Read each line; the English below is only a check.</p>
+<p class="lead">(Notice the small words around each comparison: <em>que</em>, <em>como</em>, <em>más</em>, <em>tan</em>.)</p>
+
+<div class="phrase">
+  <p class="es">Vivo en Valencia, pero mi prima vive en Ciudad de México.</p>
+  <p class="en">I live in Valencia, but my cousin lives in Mexico City.</p>
+</div>
+<div class="phrase">
+  <p class="es">Las dos <b>ciudades</b> son grandes, pero no son <b>iguales</b>.</p>
+  <p class="en">Both cities are big, but they are not the same.</p>
+</div>
+<div class="phrase">
+  <p class="es">Valencia es <b>más pequeña que</b> la <b>capital</b> mexicana.</p>
+  <p class="en">Valencia is smaller than the Mexican capital.</p>
+</div>
+<div class="phrase">
+  <p class="es">En Valencia hay <b>menos</b> tráfico y el <b>aire</b> es <b>más limpio</b>.</p>
+  <p class="en">In Valencia there is less traffic and the air is cleaner.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sin embargo, Ciudad de México es <b>más animada</b>: tiene más museos, más barrios y más gente.</p>
+  <p class="en">However, Mexico City is livelier: it has more museums, more neighbourhoods and more people.</p>
+</div>
+<div class="phrase">
+  <p class="es">La comida es <b>tan buena como</b> en Valencia.</p>
+  <p class="en">The food is as good as in Valencia.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi prima dice que los tacos son <b>mejores que</b> la paella, pero yo no estoy de acuerdo.</p>
+  <p class="en">My cousin says tacos are better than paella, but I don't agree.</p>
+</div>
+<div class="phrase">
+  <p class="es">Para mí, la paella es <b>la mejor</b> comida del mundo.</p>
+  <p class="en">For me, paella is the best food in the world.</p>
+</div>
+<div class="phrase">
+  <p class="es">El clima también es <b>distinto</b>: en Valencia el invierno es <b>más suave que</b> en la capital, donde hace más frío.</p>
+  <p class="en">The climate is different too: in Valencia winter is milder than in the capital, where it's colder.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero Valencia no es <b>tan grande como</b> Ciudad de México, <b>ni</b> tan <b>ruidosa</b>.</p>
+  <p class="en">But Valencia is not as big as Mexico City, nor as noisy.</p>
+</div>
+<div class="phrase">
+  <p class="es">Creo que las dos son hermosas, <b>aunque</b> son muy <b>diferentes</b>.</p>
+  <p class="en">I think both are beautiful, although they are very different.</p>
+</div>
+<div class="phrase">
+  <p class="es">¿Cuál te gusta más?</p>
+  <p class="en">Which one do you like more?</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">mexicano/a</span></td><td data-label="Type">adj.</td><td data-label="English">Mexican</td><td data-label="Notes">Valencia es una ciudad española.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">valenciano/a</span></td><td data-label="Type">adj.</td><td data-label="English">from Valencia</td><td data-label="Notes">Also a regional language.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">clima</span></td><td data-label="Type">n.m.</td><td data-label="English">climate</td><td data-label="Notes">Ends in -a but is masculine: el clima.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">invierno</span></td><td data-label="Type">n.m.</td><td data-label="English">winter</td><td data-label="Notes">El verano = summer.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>The big idea:</strong> a comparison is just a formula. Learn the frame and you can build hundreds of sentences: <span class="es">A es más + adjetivo + que B</span>.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Comparing two things: <em>más / menos … que</em></h3>
+<p>Put <strong>más</strong> (more) or <strong>menos</strong> (less) before an adjective, adverb or noun, and add <strong>que</strong> (than).</p>
+<div class="formula">más / menos + adjetivo + que = more / less … than</div>
+<ul>
+  <li class="ex"><span class="es">Valencia es más pequeña que Ciudad de México.</span><span class="en">Valencia is smaller than Mexico City.</span></li>
+  <li class="ex"><span class="es">Hoy hay menos gente que ayer.</span><span class="en">Today there are fewer people than yesterday.</span></li>
+  <li class="ex"><span class="es">El café aquí es menos caro que en el centro.</span><span class="en">The coffee here is less expensive than downtown.</span></li>
+</ul>
+<div class="warn">⚠️ English says "more … than"; Spanish never says <em>*más … que no</em> or double negatives. One <em>que</em> is enough.</div>
+
+<h3>2.2. Saying two things are equal: <em>tan … como</em></h3>
+<p>For <strong>adjectives and adverbs</strong>, use <strong>tan + adjetivo + como</strong>. For <strong>nouns</strong>, use <strong>tanto / tanta / tantos / tantas + sustantivo + como</strong>.</p>
+<div class="formula">tan + adj. + como · tanto/a/os/as + noun + como</div>
+<ul>
+  <li class="ex"><span class="es">La comida es tan buena como en Valencia.</span><span class="en">The food is as good as in Valencia.</span></li>
+  <li class="ex"><span class="es">No es tan grande como la capital.</span><span class="en">It's not as big as the capital.</span></li>
+  <li class="ex"><span class="es">Tengo tanto trabajo como mi prima.</span><span class="en">I have as much work as my cousin.</span></li>
+  <li class="ex"><span class="es">Hay tantos museos como en Madrid.</span><span class="en">There are as many museums as in Madrid.</span></li>
+</ul>
+<div class="tip">💡 <strong>tanto agrees with the noun:</strong> <span class="es">tanto calor</span> (m.), <span class="es">tanta agua</span> (f.), <span class="es">tantos libros</span> (m.pl.), <span class="es">tantas flores</span> (f.pl.).</div>
+
+<h3>2.3. The superlative: <em>el / la / los / las más … de</em></h3>
+<p>To say "the most" or "the least", put an article before <strong>más / menos</strong>. Then use <strong>de</strong> (not <em>que</em>).</p>
+<div class="formula">el / la / los / las + más + adjetivo + de</div>
+<ul>
+  <li class="ex"><span class="es">La paella es la mejor comida del mundo.</span><span class="en">Paella is the best food in the world.</span></li>
+  <li class="ex"><span class="es">Es el museo más famoso de la ciudad.</span><span class="en">It's the most famous museum in the city.</span></li>
+  <li class="ex"><span class="es">Son los tacos menos caros del barrio.</span><span class="en">They're the least expensive tacos in the neighbourhood.</span></li>
+</ul>
+
+<h3>2.4. The irregular comparatives</h3>
+<p>Four adjectives do not use <em>más</em>. Learn them as a set.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Adjective</th><th>Comparative</th><th>Meaning</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Adjective"><span class="es">bueno</span></td><td data-label="Comparative"><span class="es">mejor</span></td><td data-label="Meaning">better / best</td></tr>
+    <tr><td data-label="Adjective"><span class="es">malo</span></td><td data-label="Comparative"><span class="es">peor</span></td><td data-label="Meaning">worse / worst</td></tr>
+    <tr><td data-label="Adjective"><span class="es">grande</span> (age)</td><td data-label="Comparative"><span class="es">mayor</span></td><td data-label="Meaning">older / greatest</td></tr>
+    <tr><td data-label="Adjective"><span class="es">pequeño</span> (age)</td><td data-label="Comparative"><span class="es">menor</span></td><td data-label="Meaning">younger / smallest</td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">Mi hermana es mayor que yo.</span><span class="en">My sister is older than me.</span></li>
+  <li class="ex"><span class="es">Este libro es mejor que el otro.</span><span class="en">This book is better than the other one.</span></li>
+  <li class="ex"><span class="es">Hoy estoy peor que ayer.</span><span class="en">Today I feel worse than yesterday.</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain vs Latin America:</strong> both use these forms the same way. <span class="es">mayor</span> and <span class="es">menor</span> are mostly about <em>age</em>; for size, Spanish prefers <span class="es">más grande</span> / <span class="es">más pequeño</span>.</div>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">más … que</span></td><td data-label="Type">phr.</td><td data-label="English">more … than</td><td data-label="Notes">Más alto que yo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">menos … que</span></td><td data-label="Type">phr.</td><td data-label="English">less / fewer … than</td><td data-label="Notes">Menos caro que el otro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tan … como</span></td><td data-label="Type">phr.</td><td data-label="English">as … as</td><td data-label="Notes">Tan bueno como siempre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tanto/a … como</span></td><td data-label="Type">phr.</td><td data-label="English">as much / many … as</td><td data-label="Notes">Agrees with the noun.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mejor</span></td><td data-label="Type">adj./adv.</td><td data-label="English">better / best</td><td data-label="Notes">Of bueno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">peor</span></td><td data-label="Type">adj./adv.</td><td data-label="English">worse / worst</td><td data-label="Notes">Of malo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mayor</span></td><td data-label="Type">adj.</td><td data-label="English">older; greater</td><td data-label="Notes">Mi hermano mayor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">menor</span></td><td data-label="Type">adj.</td><td data-label="English">younger; smaller</td><td data-label="Notes">Mi hijo menor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comparar</span></td><td data-label="Type">v.</td><td data-label="English">to compare</td><td data-label="Notes">Comparar precios.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">igual</span></td><td data-label="Type">adj.</td><td data-label="English">equal, the same</td><td data-label="Notes">No son iguales.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">diferente</span></td><td data-label="Type">adj.</td><td data-label="English">different</td><td data-label="Notes">Synonym: distinto/a.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">distinto/a</span></td><td data-label="Type">adj.</td><td data-label="English">different</td><td data-label="Notes">Muy distinto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ciudad</span></td><td data-label="Type">n.f.</td><td data-label="English">city</td><td data-label="Notes">la ciudad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">capital</span></td><td data-label="Type">n.f.</td><td data-label="English">capital (city)</td><td data-label="Notes">la capital de México.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">barrio</span></td><td data-label="Type">n.m.</td><td data-label="English">neighbourhood</td><td data-label="Notes">un barrio tranquilo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">museo</span></td><td data-label="Type">n.m.</td><td data-label="English">museum</td><td data-label="Notes">el museo más famoso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tráfico</span></td><td data-label="Type">n.m.</td><td data-label="English">traffic</td><td data-label="Notes">Hay mucho tráfico.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aire</span></td><td data-label="Type">n.m.</td><td data-label="English">air</td><td data-label="Notes">el aire limpio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">limpio/a</span></td><td data-label="Type">adj.</td><td data-label="English">clean</td><td data-label="Notes">Opposite: sucio/a.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">animado/a</span></td><td data-label="Type">adj.</td><td data-label="English">lively, busy</td><td data-label="Notes">Una calle animada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ruidoso/a</span></td><td data-label="Type">adj.</td><td data-label="English">noisy</td><td data-label="Notes">From ruido (noise).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">suave</span></td><td data-label="Type">adj.</td><td data-label="English">mild, soft</td><td data-label="Notes">Un invierno suave.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aunque</span></td><td data-label="Type">conj.</td><td data-label="English">although</td><td data-label="Notes">Aunque es caro, me gusta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ni</span></td><td data-label="Type">conj.</td><td data-label="English">nor; not even</td><td data-label="Notes">Ni alto ni bajo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">paella</span></td><td data-label="Type">n.f.</td><td data-label="English">paella</td><td data-label="Notes">Plato típico de Valencia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">taco</span></td><td data-label="Type">n.m.</td><td data-label="English">taco</td><td data-label="Notes">Plato típico de México.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences built on comparisons. Read them once; no need to memorize.</p>
+
+<h3>1. Compare two things:</h3>
+<div class="phrase">
+  <p class="es">Esta ciudad es más grande que la mía.</p>
+  <p class="en">This city is bigger than mine.</p>
+</div>
+<h3>2. Compare with equality:</h3>
+<div class="phrase">
+  <p class="es">El té es tan bueno como el café.</p>
+  <p class="en">Tea is as good as coffee.</p>
+</div>
+<h3>3. Use an irregular:</h3>
+<div class="phrase">
+  <p class="es">Mi hermana es mayor que yo, pero yo soy más alta.</p>
+  <p class="en">My sister is older than me, but I'm taller.</p>
+</div>
+<h3>4. Use the superlative:</h3>
+<div class="phrase">
+  <p class="es">Es la mejor película del año.</p>
+  <p class="en">It's the best film of the year.</p>
+</div>
+<h3>5. Say "less than":</h3>
+<div class="phrase">
+  <p class="es">Hoy hay menos gente que ayer.</p>
+  <p class="en">Today there are fewer people than yesterday.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends compare restaurants.</p>
+
+<div class="phrase">
+  <p class="es">Ana: ¿Conoces el restaurante nuevo del barrio?</p>
+  <p class="en">Ana: Do you know the new restaurant in the neighbourhood?</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Sí, pero creo que el otro es mejor.</p>
+  <p class="en">Luis: Yes, but I think the other one is better.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: ¿De verdad? Para mí, este es más barato y la comida es tan buena como allí.</p>
+  <p class="en">Ana: Really? For me, this one is cheaper and the food is as good as there.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Puede ser, pero el servicio es peor.</p>
+  <p class="en">Luis: Maybe, but the service is worse.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: ¡Qué exigente eres! Es el mejor del centro, para mí.</p>
+  <p class="en">Ana: How demanding you are! It's the best in the centre, in my opinion.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Bueno, los dos son mejores que la cafetería de la esquina.</p>
+  <p class="en">Luis: Well, both are better than the café on the corner.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>servicio</strong> (service), <strong>exigente</strong> (demanding), <strong>esquina</strong> (corner), <strong>cafetería</strong> (café).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>More / less:</strong> <span class="es">más / menos + adjetivo + que</span>.</li>
+  <li><strong>Equal:</strong> <span class="es">tan + adj. + como</span>; <span class="es">tanto/a/os/as + noun + como</span>.</li>
+  <li><strong>Superlative:</strong> <span class="es">el / la / los / las + más + adj. + de</span>.</li>
+  <li><strong>Irregulars:</strong> <span class="es">mejor, peor, mayor, menor</span>.</li>
+  <li><strong>Extra:</strong> <span class="es">aunque</span> (although), <span class="es">ni</span> (nor).</li>
+</ul>
+
+<h3>5.2. Further reading — dos comidas</h3>
+<p><strong>Context:</strong> A short note comparing two famous dishes. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">La paella y los tacos son dos platos famosos del mundo hispano.</p>
+  <p class="en">Paella and tacos are two famous dishes of the Spanish-speaking world.</p>
+</div>
+<div class="phrase">
+  <p class="es">La paella es más complicada de preparar que los tacos.</p>
+  <p class="en">Paella is more complicated to prepare than tacos.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los tacos son tan populares como la pizza en muchos países.</p>
+  <p class="en">Tacos are as popular as pizza in many countries.</p>
+</div>
+<div class="phrase">
+  <p class="es">La paella se comparte; los tacos son más individuales.</p>
+  <p class="en">Paella is shared; tacos are more individual.</p>
+</div>
+<div class="phrase">
+  <p class="es">Para mucha gente, los tacos son la mejor comida de la calle.</p>
+  <p class="en">For many people, tacos are the best street food.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>complicado/a</strong> (complicated), <strong>preparar</strong> (to prepare), <strong>popular</strong> (popular), <strong>calle</strong> (street).</em></p>
+
+<hr>
+<p><strong>End of Lesson 26.</strong> Next, <strong>Lesson 27</strong>: the everyday uses of <em>por</em> and <em>para</em> — cause, purpose, movement and time. There is no homework — just read.</p>
+
+<p class="topnav"><a href="lesson-27.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+</body>
+</html>

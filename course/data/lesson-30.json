@@ -1,0 +1,206 @@
+{
+  "lesson": 30,
+  "title": "Music & dance of the Hispanic world",
+  "words": [
+    {
+      "word": "hispano/a",
+      "type": "adj.",
+      "en": "Hispanic, Spanish-speaking",
+      "note": "La música hispana.",
+      "example": { "es": "La música hispana es famosa en todo el mundo.", "en": "Hispanic music is famous all over the world." }
+    },
+    {
+      "word": "famoso/a",
+      "type": "adj.",
+      "en": "famous",
+      "note": "Famoso en todo el mundo.",
+      "example": { "es": "El flamenco es famoso en todo el mundo.", "en": "Flamenco is famous all over the world." }
+    },
+    {
+      "word": "nacer",
+      "type": "v.",
+      "en": "to be born",
+      "note": "Nací = I was born.",
+      "example": { "es": "El flamenco nació en Andalucía.", "en": "Flamenco was born in Andalusia." }
+    },
+    {
+      "word": "cante",
+      "type": "n.m.",
+      "en": "singing (flamenco)",
+      "note": "El cante flamenco.",
+      "example": { "es": "El flamenco tiene tres partes: el cante, el toque y el baile.", "en": "Flamenco has three parts: singing, playing and dance." }
+    },
+    {
+      "word": "toque",
+      "type": "n.m.",
+      "en": "playing (an instrument)",
+      "note": "El toque de guitarra.",
+      "example": { "es": "El toque es la parte de la guitarra.", "en": "The 'toque' is the guitar part." }
+    },
+    {
+      "word": "baile",
+      "type": "n.m.",
+      "en": "dance",
+      "note": "El baile flamenco.",
+      "example": { "es": "El baile flamenco es muy expresivo.", "en": "Flamenco dance is very expressive." }
+    },
+    {
+      "word": "bailaor/bailaora",
+      "type": "n.",
+      "en": "flamenco dancer",
+      "note": "Los bailaores del flamenco.",
+      "example": { "es": "Los bailaores mueven los brazos con elegancia.", "en": "The dancers move their arms with elegance." }
+    },
+    {
+      "word": "mover",
+      "type": "v.",
+      "en": "to move (o→ue)",
+      "note": "Muevo, mueves, mueve, movemos…",
+      "example": { "es": "Los bailaores mueven los brazos.", "en": "The dancers move their arms." }
+    },
+    {
+      "word": "brazo",
+      "type": "n.m.",
+      "en": "arm",
+      "note": "los brazos.",
+      "example": { "es": "Mueven los brazos con elegancia.", "en": "They move their arms with elegance." }
+    },
+    {
+      "word": "elegancia",
+      "type": "n.f.",
+      "en": "elegance",
+      "note": "Con elegancia.",
+      "example": { "es": "Bailan con mucha elegancia.", "en": "They dance with great elegance." }
+    },
+    {
+      "word": "golpear",
+      "type": "v.",
+      "en": "to hit, to pound",
+      "note": "Golpear el suelo.",
+      "example": { "es": "Golpean el suelo con los pies.", "en": "They pound the floor with their feet." }
+    },
+    {
+      "word": "suelo",
+      "type": "n.m.",
+      "en": "floor, ground",
+      "note": "el suelo.",
+      "example": { "es": "Golpean el suelo con los pies.", "en": "They pound the floor with their feet." }
+    },
+    {
+      "word": "ritmo",
+      "type": "n.m.",
+      "en": "rhythm",
+      "note": "Ritmos africanos.",
+      "example": { "es": "La salsa mezcla ritmos africanos y españoles.", "en": "Salsa mixes African and Spanish rhythms." }
+    },
+    {
+      "word": "africano/a",
+      "type": "adj.",
+      "en": "African",
+      "note": "Ritmos africanos.",
+      "example": { "es": "La salsa tiene raíces africanas.", "en": "Salsa has African roots." }
+    },
+    {
+      "word": "pareja",
+      "type": "n.f.",
+      "en": "couple, partner",
+      "note": "Bailar en pareja.",
+      "example": { "es": "La salsa se baila en pareja.", "en": "Salsa is danced in couples." }
+    },
+    {
+      "word": "tango",
+      "type": "n.m.",
+      "en": "tango",
+      "note": "De Argentina y Uruguay.",
+      "example": { "es": "El tango es más serio y romántico.", "en": "Tango is more serious and romantic." }
+    },
+    {
+      "word": "romántico/a",
+      "type": "adj.",
+      "en": "romantic",
+      "note": "Una canción romántica.",
+      "example": { "es": "El tango es romántico.", "en": "Tango is romantic." }
+    },
+    {
+      "word": "milonga",
+      "type": "n.f.",
+      "en": "milonga (tango hall)",
+      "note": "Bailar en una milonga.",
+      "example": { "es": "Se baila tango en las milongas.", "en": "Tango is danced in the milongas." }
+    },
+    {
+      "word": "cumbia",
+      "type": "n.f.",
+      "en": "cumbia",
+      "note": "Originaria de Colombia.",
+      "example": { "es": "La cumbia nació en Colombia.", "en": "Cumbia was born in Colombia." }
+    },
+    {
+      "word": "reggaetón",
+      "type": "n.m.",
+      "en": "reggaeton",
+      "note": "Música urbana actual.",
+      "example": { "es": "El reggaetón es muy popular entre los jóvenes.", "en": "Reggaeton is very popular among young people." }
+    },
+    {
+      "word": "joven",
+      "type": "n./adj.",
+      "en": "young person; young",
+      "note": "Plural: jóvenes.",
+      "example": { "es": "Millones de jóvenes escuchan reggaetón.", "en": "Millions of young people listen to reggaeton." }
+    },
+    {
+      "word": "unir",
+      "type": "v.",
+      "en": "to unite, to join",
+      "note": "Unir a la gente.",
+      "example": { "es": "La música une a los pueblos.", "en": "Music unites peoples." }
+    },
+    {
+      "word": "oído",
+      "type": "n.m.",
+      "en": "ear; hearing",
+      "note": "el oído.",
+      "example": { "es": "El reggaetón llegó a los oídos de millones.", "en": "Reggaeton reached the ears of millions." }
+    },
+    {
+      "word": "hispanohablante",
+      "type": "adj./n.",
+      "en": "Spanish-speaking (person)",
+      "note": "Los pueblos hispanohablantes.",
+      "example": { "es": "La música une a los pueblos hispanohablantes.", "en": "Music unites Spanish-speaking peoples." }
+    },
+    {
+      "word": "Andalucía",
+      "type": "n.f.",
+      "en": "Andalusia",
+      "note": "Region in southern Spain.",
+      "ext": true,
+      "example": { "es": "El flamenco nació en Andalucía.", "en": "Flamenco was born in Andalusia." }
+    },
+    {
+      "word": "Caribe",
+      "type": "n.m.",
+      "en": "the Caribbean",
+      "note": "Cuba, Puerto Rico, Colombia…",
+      "ext": true,
+      "example": { "es": "En el Caribe nació la salsa.", "en": "Salsa was born in the Caribbean." }
+    },
+    {
+      "word": "abrazado/a",
+      "type": "adj.",
+      "en": "in a close embrace",
+      "note": "Bailar abrazados.",
+      "ext": true,
+      "example": { "es": "El tango se baila abrazados.", "en": "Tango is danced in a close embrace." }
+    },
+    {
+      "word": "llevar",
+      "type": "v.",
+      "en": "to carry, to bring",
+      "note": "Ha llevado el español al mundo.",
+      "ext": true,
+      "example": { "es": "El reggaetón ha llevado el español al mundo.", "en": "Reggaeton has brought Spanish to the world." }
+    }
+  ]
+}

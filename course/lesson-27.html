@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 27 — por vs para (intro)</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-26.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 27 — <em>POR</em> VS <em>PARA</em> (INTRO)</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Use <strong>por</strong> for cause, movement through, exchange and approximate time.</li>
+      <li>Use <strong>para</strong> for purpose, destination, recipient and deadline.</li>
+      <li>Learn the set phrases that use each one: <span class="es">por favor, por fin, para siempre</span>.</li>
+      <li>Read a text where both prepositions appear naturally.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">por, para, empresa, tecnología, bicicleta, interés, ayuda, pagar, regalo, postal, recordar, llegar tarde, a veces, por favor, por eso, por fin, para siempre, naranja, kilo, casualidad</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">algo, perfecto, preguntar, responder</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (UN DÍA CON LUCÍA)</h2>
+<p><strong>Context:</strong> A short diary entry about a Saturday. Every <em>por</em> and <em>para</em> is in bold. Read each line; the English below is only a check.</p>
+<p class="lead">(Try to guess the meaning of each preposition from the situation before you look at the English.)</p>
+
+<div class="phrase">
+  <p class="es">Mi amiga Lucía trabaja <b>para</b> una empresa de tecnología.</p>
+  <p class="en">My friend Lucía works for a technology company.</p>
+</div>
+<div class="phrase">
+  <p class="es">Todos los días pasa <b>por</b> el centro en bicicleta <b>para</b> llegar a la oficina.</p>
+  <p class="en">Every day she goes through the centre by bicycle in order to get to the office.</p>
+</div>
+<div class="phrase">
+  <p class="es">Trabaja <b>por</b> la mañana y, a veces, también <b>por</b> la tarde.</p>
+  <p class="en">She works in the morning and, sometimes, also in the afternoon.</p>
+</div>
+<div class="phrase">
+  <p class="es">Estudia español <b>por</b> interés, no <b>por</b> trabajo.</p>
+  <p class="en">She studies Spanish out of interest, not for work.</p>
+</div>
+<div class="phrase">
+  <p class="es">El sábado fuimos al mercado <b>para</b> comprar fruta.</p>
+  <p class="en">On Saturday we went to the market to buy fruit.</p>
+</div>
+<div class="phrase">
+  <p class="es">Caminamos <b>por</b> las calles del barrio y pagamos doce euros <b>por</b> dos kilos de naranjas.</p>
+  <p class="en">We walked along the neighbourhood streets and paid twelve euros for two kilos of oranges.</p>
+</div>
+<div class="phrase">
+  <p class="es">«Gracias <b>por</b> tu ayuda», me dijo.</p>
+  <p class="en">"Thanks for your help," she said to me.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luego fuimos a un café <b>para</b> tomar algo.</p>
+  <p class="en">Then we went to a café to have something.</p>
+</div>
+<div class="phrase">
+  <p class="es">«Este regalo es <b>para</b> ti», me dijo, y me dio una postal.</p>
+  <p class="en">"This gift is for you," she said, and she gave me a postcard.</p>
+</div>
+<div class="phrase">
+  <p class="es">«¿<b>Para</b> qué es?», pregunté. «<b>Para</b> recordar este día», respondió.</p>
+  <p class="en">"What is it for?" I asked. "To remember this day," she answered.</p>
+</div>
+<div class="phrase">
+  <p class="es">Volvimos a casa <b>por</b> la tarde. Al final, llegamos tarde <b>por</b> el tráfico, pero fue un día perfecto.</p>
+  <p class="en">We came back home in the afternoon. In the end, we arrived late because of the traffic, but it was a perfect day.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">algo</span></td><td data-label="Type">pron.</td><td data-label="English">something</td><td data-label="Notes">¿Quieres algo? Nada = nothing.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">perfecto/a</span></td><td data-label="Type">adj.</td><td data-label="English">perfect</td><td data-label="Notes">Un día perfecto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">preguntar</span></td><td data-label="Type">v.</td><td data-label="English">to ask (a question)</td><td data-label="Notes">¿Para qué es?, pregunté.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">responder</span></td><td data-label="Type">v.</td><td data-label="English">to answer, to reply</td><td data-label="Notes">Respondió muy tranquila.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>The big idea:</strong> <em>por</em> looks backward (cause, route, exchange) and <em>para</em> looks forward (purpose, destination, recipient). When you hesitate, ask: is this the <em>reason</em> or the <em>goal</em>?</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. <em>por</em> — cause, route, exchange</h3>
+<ul>
+  <li><strong>Cause / reason</strong> (because of): <span class="es">llegamos tarde por el tráfico</span> · <span class="es">gracias por tu ayuda</span> · <span class="es">por eso</span> (that's why).</li>
+  <li><strong>Movement through / along</strong>: <span class="es">paso por el centro</span> · <span class="es">caminamos por las calles</span>.</li>
+  <li><strong>Exchange / price</strong>: <span class="es">pagué doce euros por dos kilos</span> · <span class="es">cambiar algo por otra cosa</span>.</li>
+  <li><strong>Approximate time / part of day</strong>: <span class="es">por la mañana, por la tarde, por la noche</span>.</li>
+  <li><strong>Means</strong>: <span class="es">por teléfono, por correo, por internet</span>.</li>
+</ul>
+<ul>
+  <li class="ex"><span class="es">Gracias por tu ayuda.</span><span class="en">Thanks for your help.</span></li>
+  <li class="ex"><span class="es">Voy al trabajo por la mañana.</span><span class="en">I go to work in the morning.</span></li>
+  <li class="ex"><span class="es">Pagué diez euros por el libro.</span><span class="en">I paid ten euros for the book.</span></li>
+  <li class="ex"><span class="es">Hablamos por teléfono.</span><span class="en">We talk on the phone.</span></li>
+</ul>
+
+<h3>2.2. <em>para</em> — purpose, destination, recipient</h3>
+<ul>
+  <li><strong>Purpose / goal</strong> (+ infinitive): <span class="es">estudio para aprender</span> · <span class="es">fuimos al mercado para comprar fruta</span>.</li>
+  <li><strong>Recipient</strong>: <span class="es">este regalo es para ti</span> · <span class="es">una carta para mi madre</span>.</li>
+  <li><strong>Destination</strong>: <span class="es">salgo para Madrid mañana</span>.</li>
+  <li><strong>Deadline</strong>: <span class="es">lo necesito para el viernes</span>.</li>
+  <li><strong>Opinion</strong>: <span class="es">para mí</span> (in my opinion) · <span class="es">para ella, es difícil</span>.</li>
+  <li><strong>Use / employment</strong>: <span class="es">trabajo para una empresa</span> · <span class="es">una taza para café</span>.</li>
+</ul>
+<ul>
+  <li class="ex"><span class="es">Estudio español para viajar.</span><span class="en">I study Spanish in order to travel.</span></li>
+  <li class="ex"><span class="es">Este regalo es para ti.</span><span class="en">This gift is for you.</span></li>
+  <li class="ex"><span class="es">Para mí, es la mejor ciudad.</span><span class="en">In my opinion, it's the best city.</span></li>
+  <li class="ex"><span class="es">Trabaja para una empresa de tecnología.</span><span class="en">She works for a technology company.</span></li>
+</ul>
+
+<h3>2.3. The same sentence, two meanings</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">Compré flores <b>por</b> mi madre.</span></td><td data-label="English">I bought flowers <em>because of</em> / <em>on behalf of</em> my mother.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Compré flores <b>para</b> mi madre.</span></td><td data-label="English">I bought flowers <em>for</em> my mother (as a gift).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Caminé <b>por</b> el parque.</span></td><td data-label="English">I walked <em>through / around</em> the park.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Caminé <b>para</b> el parque.</span></td><td data-label="English">I walked <em>towards</em> the park.</td></tr>
+  </tbody>
+</table>
+</div>
+<div class="tip">💡 <strong>Quick test:</strong> if you can say "because of" or "through", use <em>por</em>. If you can say "in order to" or "for (someone)", use <em>para</em>.</div>
+
+<h3>2.4. Set phrases to learn as blocks</h3>
+<ul>
+  <li class="ex"><span class="es">por favor</span><span class="en">please</span></li>
+  <li class="ex"><span class="es">por eso</span><span class="en">that's why</span></li>
+  <li class="ex"><span class="es">por fin</span><span class="en">finally, at last</span></li>
+  <li class="ex"><span class="es">por supuesto</span><span class="en">of course</span></li>
+  <li class="ex"><span class="es">para siempre</span><span class="en">forever</span></li>
+  <li class="ex"><span class="es">¿para qué?</span><span class="en">what for?</span></li>
+</ul>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">por</span></td><td data-label="Type">prep.</td><td data-label="English">for, through, by, because of</td><td data-label="Notes">Cause, route, exchange, means.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">para</span></td><td data-label="Type">prep.</td><td data-label="English">for, in order to, to</td><td data-label="Notes">Purpose, recipient, destination.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">empresa</span></td><td data-label="Type">n.f.</td><td data-label="English">company, firm</td><td data-label="Notes">Trabajo para una empresa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tecnología</span></td><td data-label="Type">n.f.</td><td data-label="English">technology</td><td data-label="Notes">Una empresa de tecnología.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bicicleta</span></td><td data-label="Type">n.f.</td><td data-label="English">bicycle</td><td data-label="Notes">En bici = by bike.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">interés</span></td><td data-label="Type">n.m.</td><td data-label="English">interest</td><td data-label="Notes">por interés.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ayuda</span></td><td data-label="Type">n.f.</td><td data-label="English">help</td><td data-label="Notes">Gracias por tu ayuda.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pagar</span></td><td data-label="Type">v.</td><td data-label="English">to pay</td><td data-label="Notes">Pago, pagas, paga…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">regalo</span></td><td data-label="Type">n.m.</td><td data-label="English">gift, present</td><td data-label="Notes">Un regalo para ti.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">postal</span></td><td data-label="Type">n.f.</td><td data-label="English">postcard</td><td data-label="Notes">Escribir una postal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">recordar</span></td><td data-label="Type">v.</td><td data-label="English">to remember (o&rarr;ue)</td><td data-label="Notes">Recuerdo, recuerdas…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">llegar tarde</span></td><td data-label="Type">phr.</td><td data-label="English">to arrive late</td><td data-label="Notes">Antonym: llegar temprano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">a veces</span></td><td data-label="Type">phr.</td><td data-label="English">sometimes</td><td data-label="Notes">A veces voy en bici.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">por favor</span></td><td data-label="Type">phr.</td><td data-label="English">please</td><td data-label="Notes">Add to any request.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">por eso</span></td><td data-label="Type">phr.</td><td data-label="English">that's why, therefore</td><td data-label="Notes">Llegué tarde; por eso…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">por fin</span></td><td data-label="Type">phr.</td><td data-label="English">finally, at last</td><td data-label="Notes">¡Por fin llegaste!</td></tr>
+    <tr><td data-label="Spanish"><span class="es">para siempre</span></td><td data-label="Type">phr.</td><td data-label="English">forever</td><td data-label="Notes">Te quiero para siempre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">naranja</span></td><td data-label="Type">n.f.</td><td data-label="English">orange</td><td data-label="Notes">Also the colour.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">kilo</span></td><td data-label="Type">n.m.</td><td data-label="English">kilo</td><td data-label="Notes">Dos kilos de naranjas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">casualidad</span></td><td data-label="Type">n.f.</td><td data-label="English">coincidence, chance</td><td data-label="Notes">por casualidad = by chance.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences with the two prepositions. Read them once; no need to memorize.</p>
+
+<h3>1. Cause with <em>por</em>:</h3>
+<div class="phrase">
+  <p class="es">Gracias por tu ayuda; llegamos tarde por el tráfico.</p>
+  <p class="en">Thanks for your help; we arrived late because of the traffic.</p>
+</div>
+<h3>2. Purpose with <em>para</em>:</h3>
+<div class="phrase">
+  <p class="es">Estudio español para trabajar en América Latina.</p>
+  <p class="en">I study Spanish in order to work in Latin America.</p>
+</div>
+<h3>3. Recipient:</h3>
+<div class="phrase">
+  <p class="es">Este regalo es para ti.</p>
+  <p class="en">This gift is for you.</p>
+</div>
+<h3>4. Route with <em>por</em>:</h3>
+<div class="phrase">
+  <p class="es">Paseamos por las calles del centro.</p>
+  <p class="en">We strolled through the streets of the centre.</p>
+</div>
+<h3>5. Time of day:</h3>
+<div class="phrase">
+  <p class="es">Por la mañana trabajo; por la tarde, estudio.</p>
+  <p class="en">In the morning I work; in the afternoon, I study.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two colleagues talk about a work trip.</p>
+
+<div class="phrase">
+  <p class="es">Eva: ¿Para qué vas a Sevilla?</p>
+  <p class="en">Eva: What are you going to Seville for?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: Voy por trabajo, para una reunión con la empresa.</p>
+  <p class="en">Marco: I'm going for work, for a meeting with the company.</p>
+</div>
+<div class="phrase">
+  <p class="es">Eva: ¿Y cuánto tiempo estarás allí?</p>
+  <p class="en">Eva: And how long will you be there?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: Solo tres días. Vuelvo el jueves; necesito estar aquí para el viernes.</p>
+  <p class="en">Marco: Only three days. I'm back on Thursday; I need to be here by Friday.</p>
+</div>
+<div class="phrase">
+  <p class="es">Eva: ¿Vas en tren o en coche?</p>
+  <p class="en">Eva: Are you going by train or by car?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: En tren. Es más cómodo y puedo trabajar por el camino.</p>
+  <p class="en">Marco: By train. It's more comfortable and I can work on the way.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>reunión</strong> (meeting), <strong>cómodo</strong> (comfortable), <strong>camino</strong> (way, path), <strong>tren</strong> (train).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>por</strong> = cause (<span class="es">por el tráfico</span>), route (<span class="es">por el centro</span>), exchange (<span class="es">pagar por</span>), means (<span class="es">por teléfono</span>), time of day (<span class="es">por la mañana</span>).</li>
+  <li><strong>para</strong> = purpose (<span class="es">para aprender</span>), recipient (<span class="es">para ti</span>), destination (<span class="es">para Madrid</span>), deadline (<span class="es">para el viernes</span>), opinion (<span class="es">para mí</span>).</li>
+  <li><strong>Set blocks:</strong> <span class="es">por favor, por eso, por fin, por supuesto, para siempre</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — un correo breve</h3>
+<p><strong>Context:</strong> A short email. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Hola, Marta:</p>
+  <p class="en">Hi, Marta:</p>
+</div>
+<div class="phrase">
+  <p class="es">Gracias por tu postal; es preciosa. Yo también pienso viajar por Europa este verano.</p>
+  <p class="en">Thanks for your postcard; it's lovely. I'm also planning to travel around Europe this summer.</p>
+</div>
+<div class="phrase">
+  <p class="es">Quiero ir a España para ver a mi familia y para practicar español.</p>
+  <p class="en">I want to go to Spain to see my family and to practise Spanish.</p>
+</div>
+<div class="phrase">
+  <p class="es">El pasaje es caro, pero por suerte encontré una oferta por internet.</p>
+  <p class="en">The ticket is expensive, but luckily I found a deal online.</p>
+</div>
+<div class="phrase">
+  <p class="es">Te escribiré por correo cuando llegue. ¡Un abrazo!</p>
+  <p class="en">I'll write to you by email when I arrive. A big hug!</p>
+</div>
+
+<p class="lead"><em>New words: <strong>correo</strong> (mail; email), <strong>oferta</strong> (offer, deal), <strong>por suerte</strong> (luckily), <strong>abrazo</strong> (hug).</em></p>
+
+<hr>
+<p><strong>End of Lesson 27.</strong> Next, <strong>Lesson 28</strong>: the food culture of the Hispanic world — paella, tacos, arepas and asado. There is no homework — just read.</p>
+
+<p class="topnav"><a href="lesson-28.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+</body>
+</html>
