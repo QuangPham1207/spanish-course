@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 21 — Near future &amp; the simple future</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="review-a2-1.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 21 — NEAR FUTURE &amp; THE SIMPLE FUTURE</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Talk about plans with <strong>ir a + infinitivo</strong>: <span class="es">voy a viajar</span>.</li>
+      <li>Use the <strong>simple future</strong> (<span class="es">-&eacute;, -&aacute;s, -&aacute;, -emos, -&eacute;is, -&aacute;n</span>) for predictions and promises.</li>
+      <li>Learn the <strong>irregular future stems</strong>: <span class="es">tendr-, podr-, har-, dir-, saldr-, pondr-, querr-, vendr-</span>.</li>
+      <li>Use future time markers: <span class="es">ma&ntilde;ana, la pr&oacute;xima semana, dentro de, pronto, el a&ntilde;o que viene</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">futuro, pr&oacute;ximo/pr&oacute;xima, plan, mudarse, buscar, examen, dif&iacute;cil, f&aacute;cil, pronto, seguro, dentro de, esperanza, saber, todo/toda, si, quiz&aacute;s, organizarse, adem&aacute;s, maravilloso/maravillosa, el a&ntilde;o que viene</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">italiano, Colombia, Cartagena, carta</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (PLANES PARA EL PRÓXIMO AÑO)</h2>
+<p><strong>Context:</strong> Sofía writes about her plans for next year. The future forms are in bold. Read each line; the English below is only a check.</p>
+<p class="lead">(Notice how often <em>ir a</em> does the work — it is the everyday way to talk about the future.)</p>
+
+<div class="phrase">
+  <p class="es">El <b>pr&oacute;ximo a&ntilde;o</b> <b>voy a hacer</b> muchas cosas nuevas.</p>
+  <p class="en">Next year I'm going to do many new things.</p>
+</div>
+<div class="phrase">
+  <p class="es">En enero <b>voy a empezar</b> un curso de <b>italiano</b>.</p>
+  <p class="en">In January I'm going to start an Italian course.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mis amigos y yo <b>vamos a viajar</b> a Colombia en marzo.</p>
+  <p class="en">My friends and I are going to travel to Colombia in March.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Vamos a visitar</b> Cartagena y a bailar por las calles.</p>
+  <p class="en">We're going to visit Cartagena and dance in the streets.</p>
+</div>
+<div class="phrase">
+  <p class="es">Creo que <b>va a ser</b> un viaje incre&iacute;ble.</p>
+  <p class="en">I think it's going to be an incredible trip.</p>
+</div>
+<div class="phrase">
+  <p class="es">En verano, mi hermana y yo <b>vamos a mudarnos</b> a un piso m&aacute;s grande.</p>
+  <p class="en">In summer, my sister and I are going to move to a bigger flat.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ella <b>va a buscar</b> un trabajo nuevo y yo <b>voy a prepararme</b> para un <b>examen</b> dif&iacute;cil.</p>
+  <p class="en">She's going to look for a new job and I'm going to prepare for a difficult exam.</p>
+</div>
+<div class="phrase">
+  <p class="es">Todo el mundo dice que <b>ser&aacute;</b> dif&iacute;cil, pero <b>estudiar&eacute;</b> todos los d&iacute;as.</p>
+  <p class="en">Everyone says it will be difficult, but I'll study every day.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tambi&eacute;n quiero aprender a cocinar mejor; alg&uacute;n d&iacute;a <b>preparar&eacute;</b> una gran cena.</p>
+  <p class="en">I also want to learn to cook better; some day I'll prepare a big dinner.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mis padres <b>vendr&aacute;n</b> a visitarnos en diciembre y <b>celebraremos</b> juntos.</p>
+  <p class="en">My parents will come to visit us in December and we'll celebrate together.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Jugaremos</b> a las <b>cartas</b> y <b>contaremos</b> historias antiguas.</p>
+  <p class="en">We'll play cards and tell old stories.</p>
+</div>
+<div class="phrase">
+  <p class="es">&iquest;Y t&uacute;? &iquest;Qu&eacute; <b>vas a hacer</b> el a&ntilde;o que viene?</p>
+  <p class="en">And you? What are you going to do next year?</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Seguro</b> que <b>tendr&aacute;s</b> planes maravillosos. <b>Pronto sabremos</b> si todo sale bien.</p>
+  <p class="en">I'm sure you'll have wonderful plans. Soon we'll know if everything works out.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Dentro de</b> poco <b>empezar&eacute;</b> a organizarme; ahora solo tengo <b>esperanza</b>.</p>
+  <p class="en">Soon I'll start getting organised; for now I just have hope.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">italiano</span></td><td data-label="Type">adj./n.m.</td><td data-label="English">Italian</td><td data-label="Notes">un curso de italiano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Colombia</span></td><td data-label="Type">n.f.</td><td data-label="English">Colombia</td><td data-label="Notes">Country in South America.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Cartagena</span></td><td data-label="Type">n.f.</td><td data-label="English">Cartagena</td><td data-label="Notes">City on the Caribbean coast.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">carta</span></td><td data-label="Type">n.f.</td><td data-label="English">letter; playing card; menu</td><td data-label="Notes">jugarlas cartas = to play cards.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">maravilloso / maravillosa</span></td><td data-label="Type">adj.</td><td data-label="English">wonderful</td><td data-label="Notes">planes maravillosos.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">&#128161; <strong>Two futures, one meaning.</strong> <span class="es">Voy a viajar</span> and <span class="es">viajar&eacute;</span> both mean "I'm going to travel / I'll travel". The first is more common in speech.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The near future: <em>ir a</em> + infinitive</h3>
+<p>The easiest future is <strong>ir</strong> (present) + <strong>a</strong> + infinitive. Use it for plans you have already decided.</p>
+<div class="formula">ir (voy, vas, va, vamos, vais, van) + a + infinitivo</div>
+<ul>
+  <li class="ex"><span class="es">Voy a estudiar espa&ntilde;ol.</span><span class="en">I'm going to study Spanish.</span></li>
+  <li class="ex"><span class="es">Vamos a viajar en marzo.</span><span class="en">We're going to travel in March.</span></li>
+  <li class="ex"><span class="es">&iquest;Vas a venir ma&ntilde;ana?</span><span class="en">Are you going to come tomorrow?</span></li>
+  <li class="ex"><span class="es">Mi hermana va a mudarse a un piso nuevo.</span><span class="en">My sister is going to move to a new flat.</span></li>
+</ul>
+<div class="tip">&#128161; When the infinitive is reflexive, you can attach the pronoun: <span class="es">voy a mudarme</span> or <span class="es">me voy a mudar</span>. Both are correct.</div>
+
+<h3>2.2. The simple future: add endings to the infinitive</h3>
+<p>The simple future is one word: take the whole infinitive and add the endings below. These endings are the same for <em>-ar</em>, <em>-er</em> and <em>-ir</em> verbs.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>Ending</th><th>hablar</th><th>comer</th><th>vivir</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person"><span class="es">yo</span></td><td data-label="Ending"><span class="es">-&eacute;</span></td><td data-label="hablar"><span class="es">hablar&eacute;</span></td><td data-label="comer"><span class="es">comer&eacute;</span></td><td data-label="vivir"><span class="es">vivir&eacute;</span></td></tr>
+    <tr><td data-label="Person"><span class="es">t&uacute;</span></td><td data-label="Ending"><span class="es">-&aacute;s</span></td><td data-label="hablar"><span class="es">hablar&aacute;s</span></td><td data-label="comer"><span class="es">comer&aacute;s</span></td><td data-label="vivir"><span class="es">vivir&aacute;s</span></td></tr>
+    <tr><td data-label="Person"><span class="es">&eacute;l / ella / usted</span></td><td data-label="Ending"><span class="es">-&aacute;</span></td><td data-label="hablar"><span class="es">hablar&aacute;</span></td><td data-label="comer"><span class="es">comer&aacute;</span></td><td data-label="vivir"><span class="es">vivir&aacute;</span></td></tr>
+    <tr><td data-label="Person"><span class="es">nosotros / nosotras</span></td><td data-label="Ending"><span class="es">-emos</span></td><td data-label="hablar"><span class="es">hablaremos</span></td><td data-label="comer"><span class="es">comeremos</span></td><td data-label="vivir"><span class="es">viviremos</span></td></tr>
+    <tr><td data-label="Person"><span class="es">vosotros / vosotras</span></td><td data-label="Ending"><span class="es">-&eacute;is</span></td><td data-label="hablar"><span class="es">hablar&eacute;is</span></td><td data-label="comer"><span class="es">comer&eacute;is</span></td><td data-label="vivir"><span class="es">vivir&eacute;is</span></td></tr>
+    <tr><td data-label="Person"><span class="es">ellos / ellas / ustedes</span></td><td data-label="Ending"><span class="es">-&aacute;n</span></td><td data-label="hablar"><span class="es">hablar&aacute;n</span></td><td data-label="comer"><span class="es">comer&aacute;n</span></td><td data-label="vivir"><span class="es">vivir&aacute;n</span></td></tr>
+  </tbody>
+</table>
+</div>
+<div class="warn">&#9888;&#65039; Every future form carries a written accent <em>except</em> <span class="es">nosotros</span> (-emos). Say <span class="es">hablar&eacute;</span> (ha-bla-<strong>R&Eacute;</strong>), not "hablare".</div>
+
+<h3>2.3. Irregular future stems</h3>
+<p>A dozen common verbs change their stem, then use the same endings. The endings never change &mdash; only the stem.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Verb</th><th>Stem</th><th>Future (yo)</th><th>Verb</th><th>Stem</th><th>Future (yo)</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Verb"><span class="es">tener</span></td><td data-label="Stem"><span class="es">tendr-</span></td><td data-label="Future"><span class="es">tendr&eacute;</span></td><td data-label="Verb2"><span class="es">poner</span></td><td data-label="Stem2"><span class="es">pondr-</span></td><td data-label="Future2"><span class="es">pondr&eacute;</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">poder</span></td><td data-label="Stem"><span class="es">podr-</span></td><td data-label="Future"><span class="es">podr&eacute;</span></td><td data-label="Verb2"><span class="es">querer</span></td><td data-label="Stem2"><span class="es">querr-</span></td><td data-label="Future2"><span class="es">querr&eacute;</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">hacer</span></td><td data-label="Stem"><span class="es">har-</span></td><td data-label="Future"><span class="es">har&eacute;</span></td><td data-label="Verb2"><span class="es">venir</span></td><td data-label="Stem2"><span class="es">vendr-</span></td><td data-label="Future2"><span class="es">vendr&eacute;</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">decir</span></td><td data-label="Stem"><span class="es">dir-</span></td><td data-label="Future"><span class="es">dir&eacute;</span></td><td data-label="Verb2"><span class="es">salir</span></td><td data-label="Stem2"><span class="es">saldr-</span></td><td data-label="Future2"><span class="es">saldr&eacute;</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">saber</span></td><td data-label="Stem"><span class="es">sabr-</span></td><td data-label="Future"><span class="es">sabr&eacute;</span></td><td data-label="Verb2"><span class="es">haber</span></td><td data-label="Stem2"><span class="es">habr-</span></td><td data-label="Future2"><span class="es">habr&aacute;</span></td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">Ma&ntilde;ana tendr&eacute; mucho trabajo.</span><span class="en">Tomorrow I'll have a lot of work.</span></li>
+  <li class="ex"><span class="es">Mis padres vendr&aacute;n en diciembre.</span><span class="en">My parents will come in December.</span></li>
+  <li class="ex"><span class="es">&iquest;Podr&aacute;s ayudarme?</span><span class="en">Will you be able to help me?</span></li>
+</ul>
+
+<h3>2.4. Time markers and <em>si</em> (if)</h3>
+<ul>
+  <li class="ex"><span class="es">ma&ntilde;ana / pasado ma&ntilde;ana</span><span class="en">tomorrow / the day after tomorrow</span></li>
+  <li class="ex"><span class="es">la pr&oacute;xima semana / el pr&oacute;ximo mes / el pr&oacute;ximo a&ntilde;o</span><span class="en">next week / next month / next year</span></li>
+  <li class="ex"><span class="es">el a&ntilde;o que viene / la semana que viene</span><span class="en">next year / next week</span></li>
+  <li class="ex"><span class="es">dentro de poco / pronto / luego</span><span class="en">soon / soon / later</span></li>
+  <li class="ex"><span class="es">alg&uacute;n d&iacute;a / quiz&aacute;s / seguro que</span><span class="en">some day / maybe / surely</span></li>
+</ul>
+<p>After <strong>si</strong> (if) we use the present, but the other clause can be future:</p>
+<ul>
+  <li class="ex"><span class="es">Si todo sale bien, celebraremos.</span><span class="en">If everything goes well, we'll celebrate.</span></li>
+  <li class="ex"><span class="es">Si estudias, aprobar&aacute;s el examen.</span><span class="en">If you study, you'll pass the exam.</span></li>
+</ul>
+<div class="warn">&#9888;&#65039; <strong>Common mistake:</strong> after <em>si</em> do not use the future. Say <span class="es">Si sale bien</span>, not <em>Si saldr&aacute; bien</em>.</div>
+<div class="tip">&#128161; <strong>Spain vs Latin America:</strong> both regions use <em>ir a</em> and the simple future the same way. In everyday speech, <em>ir a</em> is more common for near plans; the simple future sounds a little more formal or promises something.</div>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">futuro</span></td><td data-label="Type">n.m.</td><td data-label="English">future</td><td data-label="Notes">el futuro cercano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pr&oacute;ximo / pr&oacute;xima</span></td><td data-label="Type">adj.</td><td data-label="English">next</td><td data-label="Notes">el pr&oacute;ximo a&ntilde;o.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">plan</span></td><td data-label="Type">n.m.</td><td data-label="English">plan</td><td data-label="Notes">tener planes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mudarse</span></td><td data-label="Type">v.</td><td data-label="English">to move (home)</td><td data-label="Notes">mudarse a un piso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">buscar</span></td><td data-label="Type">v.</td><td data-label="English">to look for</td><td data-label="Notes">buscar trabajo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">examen</span></td><td data-label="Type">n.m.</td><td data-label="English">exam</td><td data-label="Notes">Plural: ex&aacute;menes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dif&iacute;cil</span></td><td data-label="Type">adj.</td><td data-label="English">difficult</td><td data-label="Notes">Opposite: f&aacute;cil.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">f&aacute;cil</span></td><td data-label="Type">adj.</td><td data-label="English">easy</td><td data-label="Notes">una receta f&aacute;cil.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pronto</span></td><td data-label="Type">adv.</td><td data-label="English">soon</td><td data-label="Notes">Hasta pronto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">seguro</span></td><td data-label="Type">adj./adv.</td><td data-label="English">sure, certain; surely</td><td data-label="Notes">Seguro que s&iacute;.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dentro de</span></td><td data-label="Type">phr.</td><td data-label="English">in, within (time)</td><td data-label="Notes">dentro de poco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">esperanza</span></td><td data-label="Type">n.f.</td><td data-label="English">hope</td><td data-label="Notes">tener esperanza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">saber</span></td><td data-label="Type">v.</td><td data-label="English">to know (facts)</td><td data-label="Notes">Future: sabr&eacute;.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">todo / toda</span></td><td data-label="Type">adj./pron.</td><td data-label="English">all, everything</td><td data-label="Notes">todo el mundo = everyone.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">si</span></td><td data-label="Type">conj.</td><td data-label="English">if</td><td data-label="Notes">Si sale bien… (no future after si).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">quiz&aacute;s</span></td><td data-label="Type">adv.</td><td data-label="English">maybe, perhaps</td><td data-label="Notes">Quiz&aacute;s venga.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">organizarse</span></td><td data-label="Type">v.</td><td data-label="English">to get organized</td><td data-label="Notes">empezar a organizarse.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">adem&aacute;s</span></td><td data-label="Type">adv.</td><td data-label="English">besides, also</td><td data-label="Notes">Adds an extra idea.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">el a&ntilde;o que viene</span></td><td data-label="Type">phr.</td><td data-label="English">next year</td><td data-label="Notes">= el pr&oacute;ximo a&ntilde;o.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">maravilloso / maravillosa</span></td><td data-label="Type">adj.</td><td data-label="English">wonderful</td><td data-label="Notes">planes maravillosos.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences for plans and predictions. Read them once; no need to memorize.</p>
+
+<h3>1. State a plan with <em>ir a</em>:</h3>
+<div class="phrase">
+  <p class="es">El pr&oacute;ximo verano voy a viajar por Sudam&eacute;rica.</p>
+  <p class="en">Next summer I'm going to travel around South America.</p>
+</div>
+<h3>2. Make a prediction:</h3>
+<div class="phrase">
+  <p class="es">Creo que ma&ntilde;ana llover&aacute;.</p>
+  <p class="en">I think it will rain tomorrow.</p>
+</div>
+<h3>3. Promise something:</h3>
+<div class="phrase">
+  <p class="es">Te llamar&eacute; esta noche, te lo prometo.</p>
+  <p class="en">I'll call you tonight, I promise.</p>
+</div>
+<h3>4. Use an irregular stem:</h3>
+<div class="phrase">
+  <p class="es">Mis padres vendr&aacute;n a casa en diciembre.</p>
+  <p class="en">My parents will come home in December.</p>
+</div>
+<h3>5. Use <em>si</em> + present:</h3>
+<div class="phrase">
+  <p class="es">Si tengo tiempo, ir&eacute; a la playa el s&aacute;bado.</p>
+  <p class="en">If I have time, I'll go to the beach on Saturday.</p>
+</div>
+<div class="tip">&#128161; <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends make plans for the weekend.</p>
+
+<div class="phrase">
+  <p class="es">Pablo: &iquest;Qu&eacute; vas a hacer este fin de semana?</p>
+  <p class="en">Pablo: What are you going to do this weekend?</p>
+</div>
+<div class="phrase">
+  <p class="es">Luc&iacute;a: Voy a visitar a mi abuela el s&aacute;bado. &iquest;Y t&uacute;?</p>
+  <p class="en">Luc&iacute;a: I'm going to visit my grandmother on Saturday. And you?</p>
+</div>
+<div class="phrase">
+  <p class="es">Pablo: Mis primos vendr&aacute;n a casa. Haremos una comida familiar.</p>
+  <p class="en">Pablo: My cousins will come to my house. We'll have a family meal.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luc&iacute;a: &iexcl;Qu&eacute; bien! &iquest;Y el domingo?</p>
+  <p class="en">Luc&iacute;a: How nice! And on Sunday?</p>
+</div>
+<div class="phrase">
+  <p class="es">Pablo: Si hace buen tiempo, iremos al parque.</p>
+  <p class="en">Pablo: If the weather is good, we'll go to the park.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luc&iacute;a: Yo no s&eacute;. Quiz&aacute;s estudie; tengo un examen la pr&oacute;xima semana.</p>
+  <p class="en">Luc&iacute;a: I don't know. Maybe I'll study; I have an exam next week.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pablo: Entonces <b>tendr&aacute;s</b> que descansar tambi&eacute;n. &iexcl;Mucha suerte!</p>
+  <p class="en">Pablo: Then you'll have to rest too. Good luck!</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>abuela</strong> (grandmother), <strong>primos</strong> (cousins), <strong>familiar</strong> (family, adj.), <strong>entonces</strong> (then).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Near future:</strong> <span class="es">ir</span> + <span class="es">a</span> + infinitive &mdash; <span class="es">voy a viajar</span>.</li>
+  <li><strong>Simple future:</strong> infinitive + <span class="es">-&eacute;, -&aacute;s, -&aacute;, -emos, -&eacute;is, -&aacute;n</span> (one word, accent everywhere except <em>nosotros</em>).</li>
+  <li><strong>Irregular stems:</strong> tendr-, podr-, har-, dir-, saldr-, pondr-, querr-, vendr-, sabr-, habr-.</li>
+  <li><strong>Time markers:</strong> ma&ntilde;ana, la pr&oacute;xima semana, dentro de poco, pronto, el a&ntilde;o que viene.</li>
+  <li>After <strong>si</strong>, use the present: <span class="es">Si sale bien, celebraremos</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — a note with New Year's resolutions</h3>
+<p><strong>Context:</strong> A short list of promises for the coming year. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Este a&ntilde;o nuevo voy a cuidarme m&aacute;s.</p>
+  <p class="en">This new year I'm going to take better care of myself.</p>
+</div>
+<div class="phrase">
+  <p class="es">Har&eacute; ejercicio tres veces por semana y comer&eacute; menos dulces.</p>
+  <p class="en">I'll exercise three times a week and I'll eat fewer sweets.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tambi&eacute;n aprender&eacute; algo nuevo: quiz&aacute;s a tocar la guitarra.</p>
+  <p class="en">I'll also learn something new: maybe to play the guitar.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si tengo dinero, viajar&eacute; a un pa&iacute;s que no conozco.</p>
+  <p class="en">If I have money, I'll travel to a country I don't know.</p>
+</div>
+<div class="phrase">
+  <p class="es">Dentro de poco empezar&eacute;, y esta vez no lo olvidar&eacute;.</p>
+  <p class="en">Soon I'll start, and this time I won't forget it.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>cuidarse</strong> (to take care of oneself), <strong>ejercicio</strong> (exercise), <strong>dulces</strong> (sweets), <strong>resoluci&oacute;n</strong> (resolution), <strong>esta vez</strong> (this time).</em></p>
+
+<hr>
+<p><strong>End of Lesson 21.</strong> Next, <strong>Lesson 22</strong>: health and the body &mdash; symptoms, the doctor and a little advice. There is no homework &mdash; just read.</p>
+
+<p class="topnav"><a href="lesson-22.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+
+</div>
+</body>
+</html>

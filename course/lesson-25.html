@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 25 — Object pronouns &amp; gustar-type verbs</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-24.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 25 — OBJECT PRONOUNS &amp; <em>GUSTAR</em>-TYPE VERBS</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Replace a thing with a <strong>direct object pronoun</strong>: <span class="es">lo, la, los, las</span> &mdash; <span class="es">&iquest;Las entradas? Las compro yo</span>.</li>
+      <li>Show who receives something with an <strong>indirect object pronoun</strong>: <span class="es">me, te, le, nos, os, les</span>.</li>
+      <li>Master <strong>gustar-type verbs</strong>: <span class="es">doler, faltar, sobrar, interesar, importar, molestar</span>.</li>
+      <li>Combine them: <span class="es">te lo doy, me la presta, se lo dije</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">lo, la, los, las, me, te, le, nos, os, les, molestar, importar, faltar, sobrar, interesar, dar, decir, ver, ayudar, prestar, devolver, regalar, mirar, &oacute;pera, flamenco, pasi&oacute;n, m&uacute;sico/m&uacute;sica</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">m&aacute;quina, escenario, aplaudir</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (UNA CONVERSACIÓN SOBRE MÚSICA)</h2>
+<p><strong>Context:</strong> Two friends talk about music and tickets. The pronouns are in bold. Read each line; the English below is only a check.</p>
+<p class="lead">(Notice how often a small word like <em>lo</em> or <em>te</em> replaces a whole noun.)</p>
+
+<div class="phrase">
+  <p class="es">&mdash; &iquest;<b>Te</b> gusta el caf&eacute;? &mdash; S&iacute;, <b>me</b> encanta, pero <b>me molesta</b> el ruido de las <b>m&aacute;quinas</b>.</p>
+  <p class="en">&mdash; Do you like coffee? &mdash; Yes, I love it, but the noise of the machines bothers me.</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; A m&iacute; tambi&eacute;n <b>me interesa</b> el t&eacute;; <b>lo</b> tomo todas las ma&ntilde;anas.</p>
+  <p class="en">&mdash; Tea interests me too; I drink it every morning.</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; &iquest;Conoces a Marta? &mdash; S&iacute;, <b>la</b> conozco; <b>le</b> escribo a menudo.</p>
+  <p class="en">&mdash; Do you know Marta? &mdash; Yes, I know her; I write to her often.</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; Ella tiene dos entradas para el concierto. &iquest;<b>Las</b> quieres?</p>
+  <p class="en">&mdash; She has two tickets for the concert. Do you want them?</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; &iexcl;Claro! <b>Las</b> compro yo. &iquest;Y a ti <b>te faltan</b> entradas?</p>
+  <p class="en">&mdash; Of course! I'll buy them. And are you short of tickets?</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; No, a m&iacute; <b>me sobra</b> una; <b>te la</b> puedo <b>dar</b>.</p>
+  <p class="en">&mdash; No, I have one too many; I can give it to you.</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; &iexcl;Qu&eacute; bien! <b>Me importa</b> mucho la m&uacute;sica.</p>
+  <p class="en">&mdash; How nice! Music matters a lot to me.</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; A nosotros <b>nos falta</b> tiempo, pero <b>nos</b> gusta mucho la <b>&oacute;pera</b>.</p>
+  <p class="en">&mdash; We don't have enough time, but we really like opera.</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; Yo prefiero el <b>flamenco</b>; <b>me parece</b> incre&iacute;ble.</p>
+  <p class="en">&mdash; I prefer flamenco; it seems incredible to me.</p>
+</div>
+<div class="phrase">
+  <p class="es">&mdash; Los <b>m&uacute;sicos</b> <b>lo</b> tocan con mucha <b>pasi&oacute;n</b>.</p>
+  <p class="en">&mdash; The musicians play it with great passion.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">m&aacute;quina</span></td><td data-label="Type">n.f.</td><td data-label="English">machine</td><td data-label="Notes">la m&aacute;quina de caf&eacute;.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">&oacute;pera</span></td><td data-label="Type">n.f.</td><td data-label="English">opera</td><td data-label="Notes">la &oacute;pera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">flamenco</span></td><td data-label="Type">n.m.</td><td data-label="English">flamenco</td><td data-label="Notes">Music from Andalusia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pasi&oacute;n</span></td><td data-label="Type">n.f.</td><td data-label="English">passion</td><td data-label="Notes">con mucha pasi&oacute;n.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">m&uacute;sico / m&uacute;sica</span></td><td data-label="Type">n.</td><td data-label="English">musician</td><td data-label="Notes">m&uacute;sica = music (the art).</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">&#128161; <strong>The big idea:</strong> in <span class="es">me molesta el ruido</span>, the <em>noise</em> is really the subject and <em>me</em> means "to me". These verbs flip the sentence around.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Direct object pronouns: <em>lo, la, los, las</em></h3>
+<p>The direct object is <strong>the thing you verb</strong>. Replace it with a pronoun so you don't repeat the noun. The pronoun agrees in gender and number.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>Pronoun</th><th>Example</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person">masculine singular</td><td data-label="Pronoun"><span class="es">lo</span></td><td data-label="Example"><span class="es">&iquest;El t&eacute;? Lo tomo.</span></td></tr>
+    <tr><td data-label="Person">feminine singular</td><td data-label="Pronoun"><span class="es">la</span></td><td data-label="Example"><span class="es">&iquest;La entrada? La compro.</span></td></tr>
+    <tr><td data-label="Person">masculine plural</td><td data-label="Pronoun"><span class="es">los</span></td><td data-label="Example"><span class="es">&iquest;Los libros? Los leo.</span></td></tr>
+    <tr><td data-label="Person">feminine plural</td><td data-label="Pronoun"><span class="es">las</span></td><td data-label="Example"><span class="es">&iquest;Las entradas? Las compro.</span></td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">&iquest;Ves la casa? &mdash; S&iacute;, la veo.</span><span class="en">Can you see the house? &mdash; Yes, I see it.</span></li>
+  <li class="ex"><span class="es">El peri&oacute;dico no lo leo nunca.</span><span class="en">I never read the newspaper.</span></li>
+  <li class="ex"><span class="es">&iquest;Conoces a Marta? &mdash; S&iacute;, la conozco.</span><span class="en">Do you know Marta? &mdash; Yes, I know her.</span></li>
+</ul>
+<div class="warn">&#9888;&#65039; With a person, Spanish adds the "personal a" in the full sentence: <span class="es">Conozco <em>a</em> Marta</span>. The pronoun stays <span class="es">la</span>.</div>
+
+<h3>2.2. Indirect object pronouns: <em>me, te, le, nos, os, les</em></h3>
+<p>The indirect object is <strong>the person who receives</strong> something (the "to whom / for whom"). It works for men and women, singular and plural alike.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Person</th><th>Pronoun</th><th>Example</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Person"><span class="es">a m&iacute;</span></td><td data-label="Pronoun"><span class="es">me</span></td><td data-label="Example"><span class="es">Me da el libro.</span></td></tr>
+    <tr><td data-label="Person"><span class="es">a ti</span></td><td data-label="Pronoun"><span class="es">te</span></td><td data-label="Example"><span class="es">Te presto mi coche.</span></td></tr>
+    <tr><td data-label="Person"><span class="es">a &eacute;l / a ella / a usted</span></td><td data-label="Pronoun"><span class="es">le</span></td><td data-label="Example"><span class="es">Le escribo a Marta.</span></td></tr>
+    <tr><td data-label="Person"><span class="es">a nosotros</span></td><td data-label="Pronoun"><span class="es">nos</span></td><td data-label="Example"><span class="es">Nos ayuda mucho.</span></td></tr>
+    <tr><td data-label="Person"><span class="es">a vosotros</span></td><td data-label="Pronoun"><span class="es">os</span></td><td data-label="Example"><span class="es">Os llamo luego.</span></td></tr>
+    <tr><td data-label="Person"><span class="es">a ellos / a ellas / a ustedes</span></td><td data-label="Pronoun"><span class="es">les</span></td><td data-label="Example"><span class="es">Les doy las entradas.</span></td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">Te presto el bol&iacute;grafo.</span><span class="en">I'll lend you the pen.</span></li>
+  <li class="ex"><span class="es">Le devuelvo el libro a Juan.</span><span class="en">I return the book to Juan.</span></li>
+  <li class="ex"><span class="es">Nos regalan flores.</span><span class="en">They give us flowers as a gift.</span></li>
+  <li class="ex"><span class="es">&iquest;Me ayudas, por favor?</span><span class="en">Can you help me, please?</span></li>
+</ul>
+
+<h3>2.3. Two pronouns together: <em>me lo, te la, se lo</em></h3>
+<p>When a direct and an indirect pronoun meet, the indirect comes first. <strong>le / les</strong> change to <strong>se</strong> before <em>lo, la, los, las</em>.</p>
+<div class="formula">indirect + direct: me lo · te la · nos los · se lo · se las</div>
+<ul>
+  <li class="ex"><span class="es">&iquest;Me das el l&aacute;piz? &mdash; S&iacute;, te lo doy.</span><span class="en">Can you give me the pencil? &mdash; Yes, I'll give it to you.</span></li>
+  <li class="ex"><span class="es">Te la puedo dar.</span><span class="en">I can give it to you. (la = la entrada)</span></li>
+  <li class="ex"><span class="es">Se lo dije ayer.</span><span class="en">I told it to him yesterday.</span></li>
+  <li class="ex"><span class="es">No se las compro.</span><span class="en">I won't buy them for her.</span></li>
+</ul>
+<div class="tip">&#128161; <strong>Placement:</strong> pronouns go <em>before</em> a conjugated verb (<span class="es">lo tomo</span>), but may attach to an infinitive or affirmative command (<span class="es">quiero tomarlo</span> / <span class="es">t&oacute;malo</span>).</div>
+
+<h3>2.4. <em>gustar</em>-type verbs</h3>
+<p>These verbs use the indirect pronouns and a thing as subject. Use <strong>singular</strong> when the thing is singular and <strong>plural</strong> when it is plural.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Verb</th><th>Meaning</th><th>Example</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Verb"><span class="es">gustar</span></td><td data-label="Meaning">to like (be pleasing)</td><td data-label="Example"><span class="es">Me gusta el t&eacute;. / Me gustan los libros.</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">encantar</span></td><td data-label="Meaning">to love</td><td data-label="Example"><span class="es">Me encanta la m&uacute;sica.</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">interesar</span></td><td data-label="Meaning">to interest</td><td data-label="Example"><span class="es">Me interesa la historia.</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">importar</span></td><td data-label="Meaning">to matter</td><td data-label="Example"><span class="es">Me importa la familia.</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">molestar</span></td><td data-label="Meaning">to bother</td><td data-label="Example"><span class="es">Me molesta el ruido.</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">doler</span></td><td data-label="Meaning">to hurt</td><td data-label="Example"><span class="es">Me duele la cabeza.</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">faltar</span></td><td data-label="Meaning">to be missing, to lack</td><td data-label="Example"><span class="es">Me faltan dos euros.</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">sobrar</span></td><td data-label="Meaning">to have too many</td><td data-label="Example"><span class="es">Me sobra tiempo.</span></td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">A nosotros nos falta tiempo.</span><span class="en">We don't have enough time.</span></li>
+  <li class="ex"><span class="es">A m&iacute; me sobra una entrada.</span><span class="en">I have one ticket too many.</span></li>
+  <li class="ex"><span class="es">&iquest;Te molesta la m&uacute;sica?</span><span class="en">Does the music bother you?</span></li>
+  <li class="ex"><span class="es">No me importa esperar.</span><span class="en">I don't mind waiting.</span></li>
+</ul>
+<div class="tip">&#128161; <strong>Spain vs Latin America:</strong> both use these verbs the same way. For emphasis or clarity, Spanish adds <span class="es">a m&iacute;, a ti, a ella…</span> at the start: <span class="es">A m&iacute; me gusta m&aacute;s el flamenco</span>.</div>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">lo / la / los / las</span></td><td data-label="Type">pron.</td><td data-label="English">it / them (direct object)</td><td data-label="Notes">&iquest;Las entradas? Las compro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">me / te / le / nos / os / les</span></td><td data-label="Type">pron.</td><td data-label="English">to me / you / him-her… (indirect)</td><td data-label="Notes">Te presto el libro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">molestar</span></td><td data-label="Type">v.</td><td data-label="English">to bother</td><td data-label="Notes">gustar-type: Me molesta…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">importar</span></td><td data-label="Type">v.</td><td data-label="English">to matter, to be important</td><td data-label="Notes">No me importa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">faltar</span></td><td data-label="Type">v.</td><td data-label="English">to be missing, to lack</td><td data-label="Notes">Me falta tiempo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sobrar</span></td><td data-label="Type">v.</td><td data-label="English">to be left over, to have too many</td><td data-label="Notes">Me sobra una.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">interesar</span></td><td data-label="Type">v.</td><td data-label="English">to interest</td><td data-label="Notes">Me interesa la m&uacute;sica.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dar</span></td><td data-label="Type">v.</td><td data-label="English">to give</td><td data-label="Notes">doy, das, da…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">decir</span></td><td data-label="Type">v.</td><td data-label="English">to say, to tell</td><td data-label="Notes">Participle: dicho.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ver</span></td><td data-label="Type">v.</td><td data-label="English">to see</td><td data-label="Notes">Participle: visto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ayudar</span></td><td data-label="Type">v.</td><td data-label="English">to help</td><td data-label="Notes">&iquest;Me ayudas?</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prestar</span></td><td data-label="Type">v.</td><td data-label="English">to lend</td><td data-label="Notes">Te presto mi coche.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">devolver</span></td><td data-label="Type">v.</td><td data-label="English">to return (something) (o&rarr;ue)</td><td data-label="Notes">devuelvo, devuelves…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">regalar</span></td><td data-label="Type">v.</td><td data-label="English">to give (as a gift)</td><td data-label="Notes">Me regalan flores.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mirar</span></td><td data-label="Type">v.</td><td data-label="English">to look at, to watch</td><td data-label="Notes">Mira la foto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">&oacute;pera</span></td><td data-label="Type">n.f.</td><td data-label="English">opera</td><td data-label="Notes">la &oacute;pera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">flamenco</span></td><td data-label="Type">n.m.</td><td data-label="English">flamenco</td><td data-label="Notes">Music from Andalusia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pasi&oacute;n</span></td><td data-label="Type">n.f.</td><td data-label="English">passion</td><td data-label="Notes">con mucha pasi&oacute;n.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">m&uacute;sico / m&uacute;sica</span></td><td data-label="Type">n.</td><td data-label="English">musician</td><td data-label="Notes">m&uacute;sica = music.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">m&aacute;quina</span></td><td data-label="Type">n.f.</td><td data-label="English">machine</td><td data-label="Notes">la m&aacute;quina de caf&eacute;.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escenario</span></td><td data-label="Type">n.m.</td><td data-label="English">stage</td><td data-label="Notes">subir al escenario.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aplaudir</span></td><td data-label="Type">v.</td><td data-label="English">to applaud, to clap</td><td data-label="Notes">El p&uacute;blico aplaude.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences with pronouns. Read them once; no need to memorize.</p>
+
+<h3>1. Replace a thing:</h3>
+<div class="phrase">
+  <p class="es">&iquest;Tienes las llaves? &mdash; S&iacute;, las tengo.</p>
+  <p class="en">Do you have the keys? &mdash; Yes, I have them.</p>
+</div>
+<h3>2. Say who receives:</h3>
+<div class="phrase">
+  <p class="es">Le devuelvo el libro a mi hermana.</p>
+  <p class="en">I return the book to my sister.</p>
+</div>
+<h3>3. Join two pronouns:</h3>
+<div class="phrase">
+  <p class="es">&iquest;Me puedes prestar el coche? &mdash; S&iacute;, te lo presto.</p>
+  <p class="en">Can you lend me the car? &mdash; Yes, I'll lend it to you.</p>
+</div>
+<h3>4. Use a <em>gustar</em>-type verb:</h3>
+<div class="phrase">
+  <p class="es">A m&iacute; me interesa el arte; me faltan horas en el d&iacute;a.</p>
+  <p class="en">Art interests me; I don't have enough hours in the day.</p>
+</div>
+<h3>5. Say what doesn't matter:</h3>
+<div class="phrase">
+  <p class="es">No me importa el ruido; me gusta la m&uacute;sica fuerte.</p>
+  <p class="en">The noise doesn't bother me; I like loud music.</p>
+</div>
+<div class="tip">&#128161; <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> A friend helps another with a small problem.</p>
+
+<div class="phrase">
+  <p class="es">Sara: &iquest;Puedes ayudarme un momento? <b>Me falta</b> una entrada.</p>
+  <p class="en">Sara: Can you help me for a moment? I'm short of one ticket.</p>
+</div>
+<div class="phrase">
+  <p class="es">Iván: Claro. A m&iacute; <b>me sobra</b> una. <b>Te la</b> doy.</p>
+  <p class="en">Iván: Sure. I have one too many. I'll give it to you.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sara: &iexcl;Gracias! &iquest;<b>La</b> necesitas t&uacute;?</p>
+  <p class="en">Sara: Thanks! Do you need it yourself?</p>
+</div>
+<div class="phrase">
+  <p class="es">Iván: No, ya la vi. Adem&aacute;s, no <b>me interesa</b> mucho ese grupo.</p>
+  <p class="en">Iván: No, I've already seen it. Besides, that band doesn't interest me much.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sara: &iquest;De verdad? A m&iacute; <b>me encanta</b>. <b>Los</b> escucho todos los d&iacute;as.</p>
+  <p class="en">Sara: Really? I love them. I listen to them every day.</p>
+</div>
+<div class="phrase">
+  <p class="es">Iván: Pues entonces <b>te la</b> regalo. &iquest;<b>Me</b> invit&aacute;s a otra cosa?</p>
+  <p class="en">Iván: Then I'll give it to you. Will you treat me to something else?</p>
+</div>
+<div class="phrase">
+  <p class="es">Sara: &iexcl;Hecho! <b>Te</b> invito a cenar despu&eacute;s del concierto.</p>
+  <p class="en">Sara: Deal! I'll treat you to dinner after the concert.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>ya</strong> (already &mdash; Lesson 20), <strong>grupo</strong> (band, group), <strong>invitar</strong> (to invite, to treat), <strong>hecho</strong> (done, deal), <strong>otra cosa</strong> (something else).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Direct:</strong> <span class="es">lo, la, los, las</span> replace the thing &mdash; <span class="es">las entradas &rarr; las compro</span>.</li>
+  <li><strong>Indirect:</strong> <span class="es">me, te, le, nos, os, les</span> mark the receiver &mdash; <span class="es">le escribo a Marta</span>.</li>
+  <li><strong>Together:</strong> indirect then direct, and <em>le/les</em> &rarr; <em>se</em>: <span class="es">te lo doy, se lo dije</span>.</li>
+  <li><strong>gustar-type:</strong> <span class="es">gustar, encantar, doler, faltar, sobrar, interesar, importar, molestar</span> use <span class="es">me/te/le…</span>.</li>
+  <li>Singular vs plural: <span class="es">me gusta el t&eacute;</span> / <span class="es">me gustan los libros</span>.</li>
+</ul>
+
+<h3>5.2. Further reading &mdash; a message about a concert</h3>
+<p><strong>Context:</strong> A short message between friends. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">&iexcl;Hola! &iquest;Te apetece ir al concierto del s&aacute;bado?</p>
+  <p class="en">Hi! Do you feel like going to Saturday's concert?</p>
+</div>
+<div class="phrase">
+  <p class="es">Tengo dos entradas y no me costaron nada: me las regal&oacute; mi hermano.</p>
+  <p class="en">I have two tickets and they didn't cost me anything: my brother gave them to me.</p>
+</div>
+<div class="phrase">
+  <p class="es">La m&uacute;sica me interesa mucho, pero a ti te gusta m&aacute;s el flamenco.</p>
+  <p class="en">The music interests me a lot, but you like flamenco more.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si te apetece, te la doy sin problema; a m&iacute; me sobra una.</p>
+  <p class="en">If you feel like it, I'll give it to you, no problem; I have one too many.</p>
+</div>
+<div class="phrase">
+  <p class="es">Dime algo pronto, por favor. &iexcl;Me encantar&iacute;a ir contigo!</p>
+  <p class="en">Tell me something soon, please. I'd love to go with you!</p>
+</div>
+
+<p class="lead"><em>New words: <strong>apetecer</strong> (to feel like), <strong>costar</strong> (to cost &mdash; Lesson 09), <strong>contigo</strong> (with you), <strong>cualquier cosa</strong> (anything).</em></p>
+
+<hr>
+<p><strong>End of Lesson 25.</strong> Next, <strong>Review A2-2</strong>: a re-reading of a recipe and an advice column, bringing together plans, health, opinions, commands and pronouns. No exercises &mdash; just read.</p>
+
+<p class="topnav"><a href="review-a2-2.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+
+</div>
+</body>
+</html>

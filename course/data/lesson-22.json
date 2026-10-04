@@ -1,0 +1,252 @@
+{
+  "lesson": 22,
+  "title": "Health & the body",
+  "words": [
+    {
+      "word": "cuerpo",
+      "type": "n.m.",
+      "en": "body",
+      "note": "el cuerpo humano.",
+      "example": { "es": "El ejercicio es bueno para el cuerpo.", "en": "Exercise is good for the body." }
+    },
+    {
+      "word": "cabeza",
+      "type": "n.f.",
+      "en": "head",
+      "note": "dolor de cabeza.",
+      "example": { "es": "Me duele la cabeza.", "en": "My head hurts." }
+    },
+    {
+      "word": "ojo",
+      "type": "n.m.",
+      "en": "eye",
+      "note": "Plural: los ojos.",
+      "example": { "es": "Tiene los ojos verdes.", "en": "She has green eyes." }
+    },
+    {
+      "word": "nariz",
+      "type": "n.f.",
+      "en": "nose",
+      "note": "Plural: las narices.",
+      "example": { "es": "Me duele la nariz.", "en": "My nose hurts." }
+    },
+    {
+      "word": "boca",
+      "type": "n.f.",
+      "en": "mouth",
+      "note": "abrir la boca.",
+      "example": { "es": "Abre la boca, por favor.", "en": "Open your mouth, please." }
+    },
+    {
+      "word": "oreja",
+      "type": "n.f.",
+      "en": "(outer) ear",
+      "note": "oído = inner ear / hearing.",
+      "example": { "es": "Me duelen las orejas con el frío.", "en": "My ears hurt in the cold." }
+    },
+    {
+      "word": "cuello",
+      "type": "n.m.",
+      "en": "neck",
+      "note": "dolor de cuello.",
+      "example": { "es": "Tengo dolor de cuello.", "en": "I have a pain in my neck." }
+    },
+    {
+      "word": "brazo",
+      "type": "n.m.",
+      "en": "arm",
+      "note": "romperse un brazo.",
+      "example": { "es": "Se rompió un brazo jugando al fútbol.", "en": "He broke his arm playing football." }
+    },
+    {
+      "word": "dedo",
+      "type": "n.m.",
+      "en": "finger",
+      "note": "dedo del pie = toe.",
+      "example": { "es": "Me duele el dedo.", "en": "My finger hurts." }
+    },
+    {
+      "word": "pierna",
+      "type": "n.f.",
+      "en": "leg",
+      "note": "Me duelen las piernas.",
+      "example": { "es": "Después de caminar me duelen las piernas.", "en": "After walking my legs hurt." }
+    },
+    {
+      "word": "pie",
+      "type": "n.m.",
+      "en": "foot",
+      "note": "Plural: los pies.",
+      "example": { "es": "Me duelen los pies.", "en": "My feet hurt." }
+    },
+    {
+      "word": "espalda",
+      "type": "n.f.",
+      "en": "back",
+      "note": "dolor de espalda.",
+      "example": { "es": "Tengo dolor de espalda.", "en": "I have a backache." }
+    },
+    {
+      "word": "estómago",
+      "type": "n.m.",
+      "en": "stomach",
+      "note": "Me duele el estómago.",
+      "example": { "es": "Me duele el estómago después de comer.", "en": "My stomach hurts after eating." }
+    },
+    {
+      "word": "garganta",
+      "type": "n.f.",
+      "en": "throat",
+      "note": "Me duele la garganta.",
+      "example": { "es": "Me duele la garganta y no puedo cantar.", "en": "My throat hurts and I can't sing." }
+    },
+    {
+      "word": "pecho",
+      "type": "n.m.",
+      "en": "chest",
+      "note": "dolor en el pecho.",
+      "example": { "es": "Tengo un dolor en el pecho.", "en": "I have a pain in my chest." }
+    },
+    {
+      "word": "corazón",
+      "type": "n.m.",
+      "en": "heart",
+      "note": "Plural: los corazones.",
+      "example": { "es": "El corazón late rápido cuando corro.", "en": "My heart beats fast when I run." }
+    },
+    {
+      "word": "dolor",
+      "type": "n.m.",
+      "en": "pain, ache",
+      "note": "dolor de cabeza = headache.",
+      "example": { "es": "Tengo dolor de cabeza.", "en": "I have a headache." }
+    },
+    {
+      "word": "doler",
+      "type": "v.",
+      "en": "to hurt (o→ue)",
+      "note": "me duele / me duelen.",
+      "example": { "es": "Me duele la garganta.", "en": "My throat hurts." }
+    },
+    {
+      "word": "fiebre",
+      "type": "n.f.",
+      "en": "fever",
+      "note": "tener fiebre.",
+      "example": { "es": "Ayer tenía fiebre y no fui a clase.", "en": "Yesterday I had a fever and didn't go to class." }
+    },
+    {
+      "word": "tos",
+      "type": "n.f.",
+      "en": "cough",
+      "note": "tener tos.",
+      "example": { "es": "Tengo tos desde el lunes.", "en": "I've had a cough since Monday." }
+    },
+    {
+      "word": "resfriado",
+      "type": "n.m.",
+      "en": "cold",
+      "note": "coger un resfriado.",
+      "example": { "es": "Es un resfriado fuerte, pero no es grave.", "en": "It's a bad cold, but it isn't serious." }
+    },
+    {
+      "word": "enfermo / enferma",
+      "type": "adj.",
+      "en": "ill, sick",
+      "note": "estar enfermo.",
+      "example": { "es": "Estaba enferma y se quedó en casa.", "en": "She was ill and stayed at home." }
+    },
+    {
+      "word": "sano / sana",
+      "type": "adj.",
+      "en": "healthy; healthy person",
+      "note": "una comida sana.",
+      "example": { "es": "Ahora está sana otra vez.", "en": "Now she is well again." }
+    },
+    {
+      "word": "salud",
+      "type": "n.f.",
+      "en": "health",
+      "note": "¡Salud! = cheers / bless you.",
+      "example": { "es": "Cuida su salud todos los días.", "en": "She takes care of her health every day." }
+    },
+    {
+      "word": "cuidarse",
+      "type": "v.",
+      "en": "to take care of oneself",
+      "note": "cuida su salud.",
+      "example": { "es": "Debes cuidarte más.", "en": "You should take better care of yourself." }
+    },
+    {
+      "word": "deber",
+      "type": "v.",
+      "en": "must; should, to owe",
+      "note": "Debes descansar.",
+      "example": { "es": "Debes ir al médico.", "en": "You should go to the doctor." }
+    },
+    {
+      "word": "toser",
+      "type": "v.",
+      "en": "to cough",
+      "note": "Tosía mucho.",
+      "ext": true,
+      "example": { "es": "Tosía mucho por la noche.", "en": "She coughed a lot at night." }
+    },
+    {
+      "word": "gripe",
+      "type": "n.f.",
+      "en": "flu",
+      "note": "Stronger than un resfriado.",
+      "ext": true,
+      "example": { "es": "Tengo la gripe y estoy en la cama.", "en": "I have the flu and I'm in bed." }
+    },
+    {
+      "word": "pastilla",
+      "type": "n.f.",
+      "en": "pill, tablet",
+      "note": "tomar una pastilla.",
+      "ext": true,
+      "example": { "es": "Toma una pastilla después de comer.", "en": "Take a pill after eating." }
+    },
+    {
+      "word": "medicina",
+      "type": "n.f.",
+      "en": "medicine",
+      "note": "tomar la medicina.",
+      "ext": true,
+      "example": { "es": "El farmacéutico le dio la medicina.", "en": "The pharmacist gave her the medicine." }
+    },
+    {
+      "word": "consulta",
+      "type": "n.f.",
+      "en": "doctor's surgery, appointment",
+      "note": "ir a la consulta.",
+      "ext": true,
+      "example": { "es": "En la consulta, la doctora le preguntó qué le pasaba.", "en": "At the surgery, the doctor asked her what was wrong." }
+    },
+    {
+      "word": "síntoma",
+      "type": "n.m.",
+      "en": "symptom",
+      "note": "explicar los síntomas.",
+      "ext": true,
+      "example": { "es": "Ana explicó sus síntomas.", "en": "Ana explained her symptoms." }
+    },
+    {
+      "word": "receta",
+      "type": "n.f.",
+      "en": "prescription; recipe",
+      "note": "Same word for both.",
+      "ext": true,
+      "example": { "es": "Ana fue a la farmacia con la receta.", "en": "Ana went to the pharmacy with the prescription." }
+    },
+    {
+      "word": "oído",
+      "type": "n.m.",
+      "en": "ear (inner); hearing",
+      "note": "The outer ear is la oreja.",
+      "ext": true,
+      "example": { "es": "La doctora le miró los oídos.", "en": "The doctor looked at her ears." }
+    }
+  ]
+}

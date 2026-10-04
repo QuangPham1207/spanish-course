@@ -5935,5 +5935,1493 @@ window.VOCAB = [
         }
       }
     ]
+  },
+  {
+    "lesson": 21,
+    "title": "Near future & the simple future",
+    "words": [
+      {
+        "word": "futuro",
+        "type": "n.m.",
+        "en": "future",
+        "note": "el futuro cercano.",
+        "example": {
+          "es": "En el futuro viviré cerca del mar.",
+          "en": "In the future I will live near the sea."
+        }
+      },
+      {
+        "word": "próximo / próxima",
+        "type": "adj.",
+        "en": "next",
+        "note": "el próximo año = next year.",
+        "example": {
+          "es": "El próximo verano viajaremos a Colombia.",
+          "en": "Next summer we will travel to Colombia."
+        }
+      },
+      {
+        "word": "plan",
+        "type": "n.m.",
+        "en": "plan",
+        "note": "tener planes.",
+        "example": {
+          "es": "¿Tienes planes para el fin de semana?",
+          "en": "Do you have plans for the weekend?"
+        }
+      },
+      {
+        "word": "mudarse",
+        "type": "v.",
+        "en": "to move (home)",
+        "note": "mudarse a un piso nuevo.",
+        "example": {
+          "es": "Vamos a mudarnos a un piso más grande.",
+          "en": "We are going to move to a bigger flat."
+        }
+      },
+      {
+        "word": "buscar",
+        "type": "v.",
+        "en": "to look for",
+        "note": "buscar trabajo.",
+        "example": {
+          "es": "Ella va a buscar un trabajo nuevo.",
+          "en": "She is going to look for a new job."
+        }
+      },
+      {
+        "word": "examen",
+        "type": "n.m.",
+        "en": "exam",
+        "note": "Plural: exámenes.",
+        "example": {
+          "es": "Tengo un examen difícil la próxima semana.",
+          "en": "I have a difficult exam next week."
+        }
+      },
+      {
+        "word": "difícil",
+        "type": "adj.",
+        "en": "difficult",
+        "note": "Opposite: fácil.",
+        "example": {
+          "es": "El examen será difícil, pero estudiaré.",
+          "en": "The exam will be difficult, but I will study."
+        }
+      },
+      {
+        "word": "fácil",
+        "type": "adj.",
+        "en": "easy",
+        "note": "una receta fácil.",
+        "example": {
+          "es": "Esta receta es muy fácil.",
+          "en": "This recipe is very easy."
+        }
+      },
+      {
+        "word": "pronto",
+        "type": "adv.",
+        "en": "soon",
+        "note": "Hasta pronto.",
+        "example": {
+          "es": "Pronto sabremos si todo sale bien.",
+          "en": "Soon we will know if everything works out."
+        }
+      },
+      {
+        "word": "seguro",
+        "type": "adj./adv.",
+        "en": "sure, certain; surely",
+        "note": "Seguro que sí.",
+        "example": {
+          "es": "Seguro que tendrás planes maravillosos.",
+          "en": "I'm sure you will have wonderful plans."
+        }
+      },
+      {
+        "word": "dentro de",
+        "type": "phr.",
+        "en": "in, within (time)",
+        "note": "dentro de poco = soon.",
+        "example": {
+          "es": "Dentro de poco empezaré a organizarme.",
+          "en": "Soon I will start getting organised."
+        }
+      },
+      {
+        "word": "esperanza",
+        "type": "n.f.",
+        "en": "hope",
+        "note": "tener esperanza.",
+        "example": {
+          "es": "Ahora solo tengo esperanza.",
+          "en": "For now I just have hope."
+        }
+      },
+      {
+        "word": "saber",
+        "type": "v.",
+        "en": "to know (facts)",
+        "note": "Future: sabré, sabrás, sabrá.",
+        "example": {
+          "es": "No sé si podré ir, pero lo sabré mañana.",
+          "en": "I don't know if I'll be able to go, but I'll know tomorrow."
+        }
+      },
+      {
+        "word": "todo / toda",
+        "type": "adj./pron.",
+        "en": "all, everything",
+        "note": "todo el mundo = everyone.",
+        "example": {
+          "es": "Todo el mundo dice que será difícil.",
+          "en": "Everyone says it will be difficult."
+        }
+      },
+      {
+        "word": "si",
+        "type": "conj.",
+        "en": "if",
+        "note": "No future after si: si sale bien…",
+        "example": {
+          "es": "Si todo sale bien, celebraremos.",
+          "en": "If everything goes well, we will celebrate."
+        }
+      },
+      {
+        "word": "quizás",
+        "type": "adv.",
+        "en": "maybe, perhaps",
+        "note": "También: tal vez.",
+        "example": {
+          "es": "Quizás viaje a Perú el próximo año.",
+          "en": "Maybe I will travel to Peru next year."
+        }
+      },
+      {
+        "word": "organizarse",
+        "type": "v.",
+        "en": "to get organized",
+        "note": "empezar a organizarse.",
+        "example": {
+          "es": "Dentro de poco empezaré a organizarme.",
+          "en": "Soon I will start getting organised."
+        }
+      },
+      {
+        "word": "además",
+        "type": "adv.",
+        "en": "besides, also",
+        "note": "Adds an extra idea.",
+        "example": {
+          "es": "Además, quiero aprender a cocinar.",
+          "en": "Besides, I want to learn to cook."
+        }
+      },
+      {
+        "word": "maravilloso / maravillosa",
+        "type": "adj.",
+        "en": "wonderful",
+        "note": "planes maravillosos.",
+        "example": {
+          "es": "Seguro que tendrás planes maravillosos.",
+          "en": "I'm sure you'll have wonderful plans."
+        }
+      },
+      {
+        "word": "el año que viene",
+        "type": "phr.",
+        "en": "next year",
+        "note": "= el próximo año.",
+        "example": {
+          "es": "¿Qué vas a hacer el año que viene?",
+          "en": "What are you going to do next year?"
+        }
+      },
+      {
+        "word": "italiano",
+        "type": "adj./n.m.",
+        "en": "Italian",
+        "note": "un curso de italiano.",
+        "ext": true,
+        "example": {
+          "es": "En enero voy a empezar un curso de italiano.",
+          "en": "In January I'm going to start an Italian course."
+        }
+      },
+      {
+        "word": "Colombia",
+        "type": "n.f.",
+        "en": "Colombia",
+        "note": "Country in South America.",
+        "ext": true,
+        "example": {
+          "es": "Vamos a viajar a Colombia en marzo.",
+          "en": "We are going to travel to Colombia in March."
+        }
+      },
+      {
+        "word": "Cartagena",
+        "type": "n.f.",
+        "en": "Cartagena",
+        "note": "City on the Caribbean coast.",
+        "ext": true,
+        "example": {
+          "es": "Vamos a visitar Cartagena en marzo.",
+          "en": "We are going to visit Cartagena in March."
+        }
+      },
+      {
+        "word": "carta",
+        "type": "n.f.",
+        "en": "letter; playing card; menu",
+        "note": "jugar a las cartas = to play cards.",
+        "ext": true,
+        "example": {
+          "es": "Jugaremos a las cartas y contaremos historias.",
+          "en": "We will play cards and tell stories."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 22,
+    "title": "Health & the body",
+    "words": [
+      {
+        "word": "cuerpo",
+        "type": "n.m.",
+        "en": "body",
+        "note": "el cuerpo humano.",
+        "example": {
+          "es": "El ejercicio es bueno para el cuerpo.",
+          "en": "Exercise is good for the body."
+        }
+      },
+      {
+        "word": "cabeza",
+        "type": "n.f.",
+        "en": "head",
+        "note": "dolor de cabeza.",
+        "example": {
+          "es": "Me duele la cabeza.",
+          "en": "My head hurts."
+        }
+      },
+      {
+        "word": "ojo",
+        "type": "n.m.",
+        "en": "eye",
+        "note": "Plural: los ojos.",
+        "example": {
+          "es": "Tiene los ojos verdes.",
+          "en": "She has green eyes."
+        }
+      },
+      {
+        "word": "nariz",
+        "type": "n.f.",
+        "en": "nose",
+        "note": "Plural: las narices.",
+        "example": {
+          "es": "Me duele la nariz.",
+          "en": "My nose hurts."
+        }
+      },
+      {
+        "word": "boca",
+        "type": "n.f.",
+        "en": "mouth",
+        "note": "abrir la boca.",
+        "example": {
+          "es": "Abre la boca, por favor.",
+          "en": "Open your mouth, please."
+        }
+      },
+      {
+        "word": "oreja",
+        "type": "n.f.",
+        "en": "(outer) ear",
+        "note": "oído = inner ear / hearing.",
+        "example": {
+          "es": "Me duelen las orejas con el frío.",
+          "en": "My ears hurt in the cold."
+        }
+      },
+      {
+        "word": "cuello",
+        "type": "n.m.",
+        "en": "neck",
+        "note": "dolor de cuello.",
+        "example": {
+          "es": "Tengo dolor de cuello.",
+          "en": "I have a pain in my neck."
+        }
+      },
+      {
+        "word": "brazo",
+        "type": "n.m.",
+        "en": "arm",
+        "note": "romperse un brazo.",
+        "example": {
+          "es": "Se rompió un brazo jugando al fútbol.",
+          "en": "He broke his arm playing football."
+        }
+      },
+      {
+        "word": "dedo",
+        "type": "n.m.",
+        "en": "finger",
+        "note": "dedo del pie = toe.",
+        "example": {
+          "es": "Me duele el dedo.",
+          "en": "My finger hurts."
+        }
+      },
+      {
+        "word": "pierna",
+        "type": "n.f.",
+        "en": "leg",
+        "note": "Me duelen las piernas.",
+        "example": {
+          "es": "Después de caminar me duelen las piernas.",
+          "en": "After walking my legs hurt."
+        }
+      },
+      {
+        "word": "pie",
+        "type": "n.m.",
+        "en": "foot",
+        "note": "Plural: los pies.",
+        "example": {
+          "es": "Me duelen los pies.",
+          "en": "My feet hurt."
+        }
+      },
+      {
+        "word": "espalda",
+        "type": "n.f.",
+        "en": "back",
+        "note": "dolor de espalda.",
+        "example": {
+          "es": "Tengo dolor de espalda.",
+          "en": "I have a backache."
+        }
+      },
+      {
+        "word": "estómago",
+        "type": "n.m.",
+        "en": "stomach",
+        "note": "Me duele el estómago.",
+        "example": {
+          "es": "Me duele el estómago después de comer.",
+          "en": "My stomach hurts after eating."
+        }
+      },
+      {
+        "word": "garganta",
+        "type": "n.f.",
+        "en": "throat",
+        "note": "Me duele la garganta.",
+        "example": {
+          "es": "Me duele la garganta y no puedo cantar.",
+          "en": "My throat hurts and I can't sing."
+        }
+      },
+      {
+        "word": "pecho",
+        "type": "n.m.",
+        "en": "chest",
+        "note": "dolor en el pecho.",
+        "example": {
+          "es": "Tengo un dolor en el pecho.",
+          "en": "I have a pain in my chest."
+        }
+      },
+      {
+        "word": "corazón",
+        "type": "n.m.",
+        "en": "heart",
+        "note": "Plural: los corazones.",
+        "example": {
+          "es": "El corazón late rápido cuando corro.",
+          "en": "My heart beats fast when I run."
+        }
+      },
+      {
+        "word": "dolor",
+        "type": "n.m.",
+        "en": "pain, ache",
+        "note": "dolor de cabeza = headache.",
+        "example": {
+          "es": "Tengo dolor de cabeza.",
+          "en": "I have a headache."
+        }
+      },
+      {
+        "word": "doler",
+        "type": "v.",
+        "en": "to hurt (o→ue)",
+        "note": "me duele / me duelen.",
+        "example": {
+          "es": "Me duele la garganta.",
+          "en": "My throat hurts."
+        }
+      },
+      {
+        "word": "fiebre",
+        "type": "n.f.",
+        "en": "fever",
+        "note": "tener fiebre.",
+        "example": {
+          "es": "Ayer tenía fiebre y no fui a clase.",
+          "en": "Yesterday I had a fever and didn't go to class."
+        }
+      },
+      {
+        "word": "tos",
+        "type": "n.f.",
+        "en": "cough",
+        "note": "tener tos.",
+        "example": {
+          "es": "Tengo tos desde el lunes.",
+          "en": "I've had a cough since Monday."
+        }
+      },
+      {
+        "word": "resfriado",
+        "type": "n.m.",
+        "en": "cold",
+        "note": "coger un resfriado.",
+        "example": {
+          "es": "Es un resfriado fuerte, pero no es grave.",
+          "en": "It's a bad cold, but it isn't serious."
+        }
+      },
+      {
+        "word": "enfermo / enferma",
+        "type": "adj.",
+        "en": "ill, sick",
+        "note": "estar enfermo.",
+        "example": {
+          "es": "Estaba enferma y se quedó en casa.",
+          "en": "She was ill and stayed at home."
+        }
+      },
+      {
+        "word": "sano / sana",
+        "type": "adj.",
+        "en": "healthy; healthy person",
+        "note": "una comida sana.",
+        "example": {
+          "es": "Ahora está sana otra vez.",
+          "en": "Now she is well again."
+        }
+      },
+      {
+        "word": "salud",
+        "type": "n.f.",
+        "en": "health",
+        "note": "¡Salud! = cheers / bless you.",
+        "example": {
+          "es": "Cuida su salud todos los días.",
+          "en": "She takes care of her health every day."
+        }
+      },
+      {
+        "word": "cuidarse",
+        "type": "v.",
+        "en": "to take care of oneself",
+        "note": "cuida su salud.",
+        "example": {
+          "es": "Debes cuidarte más.",
+          "en": "You should take better care of yourself."
+        }
+      },
+      {
+        "word": "deber",
+        "type": "v.",
+        "en": "must; should, to owe",
+        "note": "Debes descansar.",
+        "example": {
+          "es": "Debes ir al médico.",
+          "en": "You should go to the doctor."
+        }
+      },
+      {
+        "word": "toser",
+        "type": "v.",
+        "en": "to cough",
+        "note": "Tosía mucho.",
+        "ext": true,
+        "example": {
+          "es": "Tosía mucho por la noche.",
+          "en": "She coughed a lot at night."
+        }
+      },
+      {
+        "word": "gripe",
+        "type": "n.f.",
+        "en": "flu",
+        "note": "Stronger than un resfriado.",
+        "ext": true,
+        "example": {
+          "es": "Tengo la gripe y estoy en la cama.",
+          "en": "I have the flu and I'm in bed."
+        }
+      },
+      {
+        "word": "pastilla",
+        "type": "n.f.",
+        "en": "pill, tablet",
+        "note": "tomar una pastilla.",
+        "ext": true,
+        "example": {
+          "es": "Toma una pastilla después de comer.",
+          "en": "Take a pill after eating."
+        }
+      },
+      {
+        "word": "medicina",
+        "type": "n.f.",
+        "en": "medicine",
+        "note": "tomar la medicina.",
+        "ext": true,
+        "example": {
+          "es": "El farmacéutico le dio la medicina.",
+          "en": "The pharmacist gave her the medicine."
+        }
+      },
+      {
+        "word": "consulta",
+        "type": "n.f.",
+        "en": "doctor's surgery, appointment",
+        "note": "ir a la consulta.",
+        "ext": true,
+        "example": {
+          "es": "En la consulta, la doctora le preguntó qué le pasaba.",
+          "en": "At the surgery, the doctor asked her what was wrong."
+        }
+      },
+      {
+        "word": "síntoma",
+        "type": "n.m.",
+        "en": "symptom",
+        "note": "explicar los síntomas.",
+        "ext": true,
+        "example": {
+          "es": "Ana explicó sus síntomas.",
+          "en": "Ana explained her symptoms."
+        }
+      },
+      {
+        "word": "receta",
+        "type": "n.f.",
+        "en": "prescription; recipe",
+        "note": "Same word for both.",
+        "ext": true,
+        "example": {
+          "es": "Ana fue a la farmacia con la receta.",
+          "en": "Ana went to the pharmacy with the prescription."
+        }
+      },
+      {
+        "word": "oído",
+        "type": "n.m.",
+        "en": "ear (inner); hearing",
+        "note": "The outer ear is la oreja.",
+        "ext": true,
+        "example": {
+          "es": "La doctora le miró los oídos.",
+          "en": "The doctor looked at her ears."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 23,
+    "title": "Opinions & feelings",
+    "words": [
+      {
+        "word": "opinión",
+        "type": "n.f.",
+        "en": "opinion",
+        "note": "en mi opinión.",
+        "example": {
+          "es": "En mi opinión, no es tan sencillo.",
+          "en": "In my opinion, it isn't so simple."
+        }
+      },
+      {
+        "word": "parecer",
+        "type": "v.",
+        "en": "to seem; to think (of)",
+        "note": "gustar-type: me parece que…",
+        "example": {
+          "es": "Me parece que es una buena idea.",
+          "en": "It seems to me that it's a good idea."
+        }
+      },
+      {
+        "word": "estar de acuerdo",
+        "type": "phr.",
+        "en": "to agree",
+        "note": "No estoy de acuerdo contigo.",
+        "example": {
+          "es": "Estoy de acuerdo contigo; tienes razón.",
+          "en": "I agree with you; you're right."
+        }
+      },
+      {
+        "word": "tener razón",
+        "type": "phr.",
+        "en": "to be right",
+        "note": "Literally 'to have reason'.",
+        "example": {
+          "es": "Tienes razón: el tráfico es terrible.",
+          "en": "You're right: the traffic is terrible."
+        }
+      },
+      {
+        "word": "verdad",
+        "type": "n.f.",
+        "en": "truth",
+        "note": "Es verdad. / ¿Verdad?",
+        "example": {
+          "es": "Es verdad que hay más trabajo.",
+          "en": "It's true that there's more work."
+        }
+      },
+      {
+        "word": "idea",
+        "type": "n.f.",
+        "en": "idea",
+        "note": "una buena idea.",
+        "example": {
+          "es": "Es una idea sencilla, pero me gusta.",
+          "en": "It's a simple idea, but I like it."
+        }
+      },
+      {
+        "word": "ventaja",
+        "type": "n.f.",
+        "en": "advantage",
+        "note": "Opposite: desventaja.",
+        "example": {
+          "es": "La ciudad tiene ventajas, pero también problemas.",
+          "en": "The city has advantages, but also problems."
+        }
+      },
+      {
+        "word": "desventaja",
+        "type": "n.f.",
+        "en": "disadvantage",
+        "note": "tiene desventajas.",
+        "example": {
+          "es": "El teletrabajo también tiene desventajas.",
+          "en": "Remote work also has disadvantages."
+        }
+      },
+      {
+        "word": "tráfico",
+        "type": "n.m.",
+        "en": "traffic",
+        "note": "hay mucho tráfico.",
+        "example": {
+          "es": "El tráfico y el ruido son terribles.",
+          "en": "The traffic and the noise are terrible."
+        }
+      },
+      {
+        "word": "ruido",
+        "type": "n.m.",
+        "en": "noise",
+        "note": "hacer ruido.",
+        "example": {
+          "es": "En el centro hay mucho ruido.",
+          "en": "In the centre there's a lot of noise."
+        }
+      },
+      {
+        "word": "terrible",
+        "type": "adj.",
+        "en": "terrible, awful",
+        "note": "Invariable in gender.",
+        "example": {
+          "es": "El tráfico es terrible por la mañana.",
+          "en": "The traffic is terrible in the morning."
+        }
+      },
+      {
+        "word": "campo",
+        "type": "n.m.",
+        "en": "countryside; field",
+        "note": "vivir en el campo.",
+        "example": {
+          "es": "El campo es más tranquilo que la ciudad.",
+          "en": "The countryside is calmer than the city."
+        }
+      },
+      {
+        "word": "lento / lenta",
+        "type": "adj.",
+        "en": "slow",
+        "note": "Opposite: rápido.",
+        "example": {
+          "es": "La vida en el pueblo es más lenta.",
+          "en": "Life in the village is slower."
+        }
+      },
+      {
+        "word": "oportunidad",
+        "type": "n.f.",
+        "en": "opportunity",
+        "note": "pocas oportunidades.",
+        "example": {
+          "es": "En el pueblo hay pocas oportunidades de trabajo.",
+          "en": "In the village there are few job opportunities."
+        }
+      },
+      {
+        "word": "encanto",
+        "type": "n.m.",
+        "en": "charm",
+        "note": "tener encanto.",
+        "example": {
+          "es": "Cada lugar tiene su encanto.",
+          "en": "Every place has its charm."
+        }
+      },
+      {
+        "word": "caso",
+        "type": "n.m.",
+        "en": "case",
+        "note": "en mi caso = in my case.",
+        "example": {
+          "es": "En mi caso, prefiero vivir cerca de la ciudad.",
+          "en": "In my case, I prefer to live near the city."
+        }
+      },
+      {
+        "word": "sencillo / sencilla",
+        "type": "adj.",
+        "en": "simple, easy",
+        "note": "una idea sencilla.",
+        "example": {
+          "es": "No es tan sencillo como parece.",
+          "en": "It isn't as simple as it seems."
+        }
+      },
+      {
+        "word": "vida",
+        "type": "n.f.",
+        "en": "life",
+        "note": "la vida en el pueblo.",
+        "example": {
+          "es": "La vida en el campo es más sana.",
+          "en": "Life in the countryside is healthier."
+        }
+      },
+      {
+        "word": "triste",
+        "type": "adj.",
+        "en": "sad",
+        "note": "estoy triste.",
+        "example": {
+          "es": "Me siento un poco triste hoy.",
+          "en": "I feel a bit sad today."
+        }
+      },
+      {
+        "word": "enfadado / enfadada",
+        "type": "adj.",
+        "en": "angry",
+        "note": "LatAm: enojado.",
+        "example": {
+          "es": "Está enfadada conmigo por una tontería.",
+          "en": "She's angry with me over a silly thing."
+        }
+      },
+      {
+        "word": "alegre",
+        "type": "adj.",
+        "en": "cheerful, happy",
+        "note": "una persona alegre.",
+        "example": {
+          "es": "Es una persona muy alegre.",
+          "en": "She's a very cheerful person."
+        }
+      },
+      {
+        "word": "orgulloso / orgullosa",
+        "type": "adj.",
+        "en": "proud",
+        "note": "orgulloso de…",
+        "example": {
+          "es": "Estoy orgulloso de mi trabajo.",
+          "en": "I'm proud of my work."
+        }
+      },
+      {
+        "word": "emocionado / emocionada",
+        "type": "adj.",
+        "en": "excited, moved",
+        "note": "Positive meaning.",
+        "example": {
+          "es": "Estoy emocionada con el viaje.",
+          "en": "I'm excited about the trip."
+        }
+      },
+      {
+        "word": "preocupado / preocupada",
+        "type": "adj.",
+        "en": "worried",
+        "note": "preocupado por…",
+        "example": {
+          "es": "Estamos preocupados por el examen.",
+          "en": "We're worried about the exam."
+        }
+      },
+      {
+        "word": "miedo",
+        "type": "n.m.",
+        "en": "fear",
+        "note": "tener miedo de…",
+        "example": {
+          "es": "Tengo miedo de volar.",
+          "en": "I'm afraid of flying."
+        }
+      },
+      {
+        "word": "sin embargo",
+        "type": "phr.",
+        "en": "however",
+        "note": "Contrasts two ideas.",
+        "example": {
+          "es": "Es un trabajo difícil; sin embargo, me gusta.",
+          "en": "It's a difficult job; however, I like it."
+        }
+      },
+      {
+        "word": "mentira",
+        "type": "n.f.",
+        "en": "lie",
+        "note": "Es mentira.",
+        "ext": true,
+        "example": {
+          "es": "No te creo: es mentira.",
+          "en": "I don't believe you: it's a lie."
+        }
+      },
+      {
+        "word": "estresado / estresada",
+        "type": "adj.",
+        "en": "stressed",
+        "note": "estar estresado.",
+        "ext": true,
+        "example": {
+          "es": "En casa estoy más estresada.",
+          "en": "At home I'm more stressed."
+        }
+      },
+      {
+        "word": "por suerte",
+        "type": "phr.",
+        "en": "luckily",
+        "note": "Opposite: por desgracia.",
+        "ext": true,
+        "example": {
+          "es": "Por suerte, hoy tengo tiempo libre.",
+          "en": "Luckily, I have free time today."
+        }
+      },
+      {
+        "word": "por desgracia",
+        "type": "phr.",
+        "en": "unfortunately",
+        "note": "= lamentablemente.",
+        "ext": true,
+        "example": {
+          "es": "Por desgracia, no puedo ir.",
+          "en": "Unfortunately, I can't go."
+        }
+      },
+      {
+        "word": "a lo mejor",
+        "type": "phr.",
+        "en": "maybe",
+        "note": "Informal; = quizás.",
+        "ext": true,
+        "example": {
+          "es": "A lo mejor es una idea sencilla.",
+          "en": "Maybe it's a simple idea."
+        }
+      },
+      {
+        "word": "de verdad",
+        "type": "phr.",
+        "en": "really, truly",
+        "note": "¿De verdad?",
+        "ext": true,
+        "example": {
+          "es": "¿De verdad piensas eso?",
+          "en": "Do you really think that?"
+        }
+      },
+      {
+        "word": "en realidad",
+        "type": "phr.",
+        "en": "in fact, actually",
+        "note": "En realidad, no lo sé.",
+        "ext": true,
+        "example": {
+          "es": "En realidad, prefiero el campo.",
+          "en": "Actually, I prefer the countryside."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 24,
+    "title": "Commands for instructions",
+    "words": [
+      {
+        "word": "ingrediente",
+        "type": "n.m.",
+        "en": "ingredient",
+        "note": "los ingredientes.",
+        "example": {
+          "es": "Los ingredientes son dos aguacates y un limón.",
+          "en": "The ingredients are two avocados and a lemon."
+        }
+      },
+      {
+        "word": "aguacate",
+        "type": "n.m.",
+        "en": "avocado",
+        "note": "Base of the guacamole.",
+        "example": {
+          "es": "Pela los aguacates y quita el hueso.",
+          "en": "Peel the avocados and remove the stone."
+        }
+      },
+      {
+        "word": "cebolla",
+        "type": "n.f.",
+        "en": "onion",
+        "note": "media cebolla.",
+        "example": {
+          "es": "Corta la cebolla en trozos pequeños.",
+          "en": "Cut the onion into small pieces."
+        }
+      },
+      {
+        "word": "limón",
+        "type": "n.m.",
+        "en": "lemon; lime",
+        "note": "In Mexico, limón usually means lime.",
+        "example": {
+          "es": "Exprime el limón sobre todo.",
+          "en": "Squeeze the lemon over everything."
+        }
+      },
+      {
+        "word": "sal",
+        "type": "n.f.",
+        "en": "salt",
+        "note": "añadir sal.",
+        "example": {
+          "es": "Añade sal si es necesario.",
+          "en": "Add salt if necessary."
+        }
+      },
+      {
+        "word": "lavar",
+        "type": "v.",
+        "en": "to wash",
+        "note": "Lava la fruta.",
+        "example": {
+          "es": "Lava el tomate y la cebolla.",
+          "en": "Wash the tomato and the onion."
+        }
+      },
+      {
+        "word": "cortar",
+        "type": "v.",
+        "en": "to cut",
+        "note": "Corta el pan.",
+        "example": {
+          "es": "Corta el tomate en trozos pequeños.",
+          "en": "Cut the tomato into small pieces."
+        }
+      },
+      {
+        "word": "trozo",
+        "type": "n.m.",
+        "en": "piece, chunk",
+        "note": "en trozos pequeños.",
+        "example": {
+          "es": "Corta la fruta en trozos.",
+          "en": "Cut the fruit into pieces."
+        }
+      },
+      {
+        "word": "pelar",
+        "type": "v.",
+        "en": "to peel",
+        "note": "Pela las patatas.",
+        "example": {
+          "es": "Pela los aguacates con cuidado.",
+          "en": "Peel the avocados carefully."
+        }
+      },
+      {
+        "word": "bol",
+        "type": "n.m.",
+        "en": "bowl",
+        "note": "In some regions: el cuenco.",
+        "example": {
+          "es": "Pon la pulpa en un bol.",
+          "en": "Put the flesh in a bowl."
+        }
+      },
+      {
+        "word": "añadir",
+        "type": "v.",
+        "en": "to add",
+        "note": "Añade sal.",
+        "example": {
+          "es": "Añade el tomate y la cebolla.",
+          "en": "Add the tomato and the onion."
+        }
+      },
+      {
+        "word": "mezclar",
+        "type": "v.",
+        "en": "to mix",
+        "note": "Mezcla bien.",
+        "example": {
+          "es": "Mezcla bien con un tenedor.",
+          "en": "Mix well with a fork."
+        }
+      },
+      {
+        "word": "tenedor",
+        "type": "n.m.",
+        "en": "fork",
+        "note": "cuchara = spoon; cuchillo = knife.",
+        "example": {
+          "es": "Mezcla los ingredientes con un tenedor.",
+          "en": "Mix the ingredients with a fork."
+        }
+      },
+      {
+        "word": "necesario / necesaria",
+        "type": "adj.",
+        "en": "necessary",
+        "note": "si es necesario.",
+        "example": {
+          "es": "Añade sal si es necesario.",
+          "en": "Add salt if necessary."
+        }
+      },
+      {
+        "word": "listo / lista",
+        "type": "adj.",
+        "en": "ready; clever",
+        "note": "¡Listo! = Done!",
+        "example": {
+          "es": "¡Y listo! Un plato en diez minutos.",
+          "en": "And done! A dish in ten minutes."
+        }
+      },
+      {
+        "word": "seguir",
+        "type": "v.",
+        "en": "to follow, to continue (e→i)",
+        "note": "sigue recto.",
+        "example": {
+          "es": "Sigue recto dos calles.",
+          "en": "Continue straight for two streets."
+        }
+      },
+      {
+        "word": "parar",
+        "type": "v.",
+        "en": "to stop",
+        "note": "Para en el semáforo.",
+        "example": {
+          "es": "Para en el semáforo y espera.",
+          "en": "Stop at the traffic light and wait."
+        }
+      },
+      {
+        "word": "doblar",
+        "type": "v.",
+        "en": "to turn (a corner)",
+        "note": "Dobla a la izquierda.",
+        "example": {
+          "es": "Dobla a la derecha en la plaza.",
+          "en": "Turn right at the square."
+        }
+      },
+      {
+        "word": "finalmente",
+        "type": "adv.",
+        "en": "finally",
+        "note": "= por último.",
+        "example": {
+          "es": "Finalmente, sirve el plato caliente.",
+          "en": "Finally, serve the dish hot."
+        }
+      },
+      {
+        "word": "minuto",
+        "type": "n.m.",
+        "en": "minute",
+        "note": "en diez minutos.",
+        "example": {
+          "es": "Es un plato listo en diez minutos.",
+          "en": "It's a dish ready in ten minutes."
+        }
+      },
+      {
+        "word": "aceite",
+        "type": "n.m.",
+        "en": "oil",
+        "note": "aceite de oliva.",
+        "example": {
+          "es": "Pon aceite en la sartén.",
+          "en": "Put oil in the frying pan."
+        }
+      },
+      {
+        "word": "sartén",
+        "type": "n.f.",
+        "en": "frying pan",
+        "note": "poner en la sartén.",
+        "example": {
+          "es": "Cocina las patatas en la sartén.",
+          "en": "Cook the potatoes in the frying pan."
+        }
+      },
+      {
+        "word": "horno",
+        "type": "n.m.",
+        "en": "oven",
+        "note": "al horno = baked.",
+        "example": {
+          "es": "Pon el pastel en el horno.",
+          "en": "Put the cake in the oven."
+        }
+      },
+      {
+        "word": "fuego",
+        "type": "n.m.",
+        "en": "fire; heat, flame",
+        "note": "a fuego lento = on a low heat.",
+        "example": {
+          "es": "Cocina a fuego lento.",
+          "en": "Cook on a low heat."
+        }
+      },
+      {
+        "word": "hueso",
+        "type": "n.m.",
+        "en": "bone; stone (of fruit)",
+        "note": "Quita el hueso.",
+        "ext": true,
+        "example": {
+          "es": "Quítale el hueso al aguacate.",
+          "en": "Remove the stone from the avocado."
+        }
+      },
+      {
+        "word": "pulpa",
+        "type": "n.f.",
+        "en": "flesh, pulp",
+        "note": "la pulpa del aguacate.",
+        "ext": true,
+        "example": {
+          "es": "Pon la pulpa en un bol.",
+          "en": "Put the flesh in a bowl."
+        }
+      },
+      {
+        "word": "exprimir",
+        "type": "v.",
+        "en": "to squeeze (a fruit)",
+        "note": "Exprime el limón.",
+        "ext": true,
+        "example": {
+          "es": "Exprime el limón sobre la ensalada.",
+          "en": "Squeeze the lemon over the salad."
+        }
+      },
+      {
+        "word": "batidora",
+        "type": "n.f.",
+        "en": "blender",
+        "note": "Spain also: la minipimer.",
+        "ext": true,
+        "example": {
+          "es": "No uses la batidora para el guacamole.",
+          "en": "Don't use the blender for the guacamole."
+        }
+      },
+      {
+        "word": "cucharada",
+        "type": "n.f.",
+        "en": "spoonful",
+        "note": "una cucharada de aceite.",
+        "ext": true,
+        "example": {
+          "es": "Añade una cucharada de aceite.",
+          "en": "Add a spoonful of oil."
+        }
+      },
+      {
+        "word": "taza",
+        "type": "n.f.",
+        "en": "cup",
+        "note": "una taza de agua.",
+        "ext": true,
+        "example": {
+          "es": "Añade una taza de agua.",
+          "en": "Add a cup of water."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 25,
+    "title": "Object pronouns & gustar-type verbs",
+    "words": [
+      {
+        "word": "lo / la / los / las",
+        "type": "pron.",
+        "en": "it / them (direct object)",
+        "note": "The thing you verb. ¿Las entradas? Las compro.",
+        "example": {
+          "es": "¿Las entradas? Las compro yo.",
+          "en": "The tickets? I'll buy them."
+        }
+      },
+      {
+        "word": "me / te / le / nos / os / les",
+        "type": "pron.",
+        "en": "to me / to you / to him-her… (indirect object)",
+        "note": "Marks the receiver: Te presto el libro.",
+        "example": {
+          "es": "Te presto el libro.",
+          "en": "I'll lend you the book."
+        }
+      },
+      {
+        "word": "molestar",
+        "type": "v.",
+        "en": "to bother",
+        "note": "gustar-type: me molesta el ruido.",
+        "example": {
+          "es": "Me molesta el ruido de las máquinas.",
+          "en": "The noise of the machines bothers me."
+        }
+      },
+      {
+        "word": "importar",
+        "type": "v.",
+        "en": "to matter, to be important",
+        "note": "No me importa = I don't mind.",
+        "example": {
+          "es": "Me importa mucho la música.",
+          "en": "Music matters a lot to me."
+        }
+      },
+      {
+        "word": "faltar",
+        "type": "v.",
+        "en": "to be missing, to lack",
+        "note": "Me falta tiempo = I don't have enough time.",
+        "example": {
+          "es": "A nosotros nos falta tiempo.",
+          "en": "We don't have enough time."
+        }
+      },
+      {
+        "word": "sobrar",
+        "type": "v.",
+        "en": "to be left over, to have too many",
+        "note": "Me sobra una = I have one too many.",
+        "example": {
+          "es": "A mí me sobra una entrada.",
+          "en": "I have one ticket too many."
+        }
+      },
+      {
+        "word": "interesar",
+        "type": "v.",
+        "en": "to interest",
+        "note": "gustar-type: me interesa la historia.",
+        "example": {
+          "es": "A mí también me interesa el té.",
+          "en": "Tea interests me too."
+        }
+      },
+      {
+        "word": "dar",
+        "type": "v.",
+        "en": "to give",
+        "note": "doy, das, da, damos, dais, dan.",
+        "example": {
+          "es": "Te la puedo dar.",
+          "en": "I can give it to you."
+        }
+      },
+      {
+        "word": "decir",
+        "type": "v.",
+        "en": "to say, to tell",
+        "note": "Participle: dicho.",
+        "example": {
+          "es": "Se lo dije ayer.",
+          "en": "I told it to him yesterday."
+        }
+      },
+      {
+        "word": "ver",
+        "type": "v.",
+        "en": "to see",
+        "note": "Participle: visto.",
+        "example": {
+          "es": "¿Ves la casa? — Sí, la veo.",
+          "en": "Can you see the house? — Yes, I see it."
+        }
+      },
+      {
+        "word": "ayudar",
+        "type": "v.",
+        "en": "to help",
+        "note": "¿Me ayudas?",
+        "example": {
+          "es": "¿Me ayudas, por favor?",
+          "en": "Can you help me, please?"
+        }
+      },
+      {
+        "word": "prestar",
+        "type": "v.",
+        "en": "to lend",
+        "note": "Te presto mi coche.",
+        "example": {
+          "es": "Te presto el bolígrafo.",
+          "en": "I'll lend you the pen."
+        }
+      },
+      {
+        "word": "devolver",
+        "type": "v.",
+        "en": "to return (something) (o→ue)",
+        "note": "devuelvo, devuelves…",
+        "example": {
+          "es": "Le devuelvo el libro a Juan.",
+          "en": "I return the book to Juan."
+        }
+      },
+      {
+        "word": "regalar",
+        "type": "v.",
+        "en": "to give (as a gift)",
+        "note": "Me regalan flores.",
+        "example": {
+          "es": "Nos regalan flores.",
+          "en": "They give us flowers as a gift."
+        }
+      },
+      {
+        "word": "mirar",
+        "type": "v.",
+        "en": "to look at, to watch",
+        "note": "Mira la foto.",
+        "example": {
+          "es": "Mira la foto, es preciosa.",
+          "en": "Look at the photo, it's beautiful."
+        }
+      },
+      {
+        "word": "ópera",
+        "type": "n.f.",
+        "en": "opera",
+        "note": "Nos gusta la ópera.",
+        "example": {
+          "es": "Nos gusta mucho la ópera.",
+          "en": "We really like opera."
+        }
+      },
+      {
+        "word": "flamenco",
+        "type": "n.m.",
+        "en": "flamenco",
+        "note": "Music from Andalusia.",
+        "example": {
+          "es": "Yo prefiero el flamenco.",
+          "en": "I prefer flamenco."
+        }
+      },
+      {
+        "word": "pasión",
+        "type": "n.f.",
+        "en": "passion",
+        "note": "con mucha pasión.",
+        "example": {
+          "es": "Los músicos lo tocan con mucha pasión.",
+          "en": "The musicians play it with great passion."
+        }
+      },
+      {
+        "word": "músico / música",
+        "type": "n.",
+        "en": "musician",
+        "note": "música = music (the art).",
+        "example": {
+          "es": "Los músicos tocan en el escenario.",
+          "en": "The musicians play on the stage."
+        }
+      },
+      {
+        "word": "máquina",
+        "type": "n.f.",
+        "en": "machine",
+        "note": "la máquina de café.",
+        "ext": true,
+        "example": {
+          "es": "Me molesta el ruido de las máquinas.",
+          "en": "The noise of the machines bothers me."
+        }
+      },
+      {
+        "word": "escenario",
+        "type": "n.m.",
+        "en": "stage",
+        "note": "subir al escenario.",
+        "ext": true,
+        "example": {
+          "es": "El grupo subió al escenario.",
+          "en": "The band went up on stage."
+        }
+      },
+      {
+        "word": "aplaudir",
+        "type": "v.",
+        "en": "to applaud, to clap",
+        "note": "El público aplaude.",
+        "ext": true,
+        "example": {
+          "es": "El público aplaude al final.",
+          "en": "The audience claps at the end."
+        }
+      }
+    ]
   }
 ];

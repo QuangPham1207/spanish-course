@@ -1,0 +1,244 @@
+{
+  "lesson": 23,
+  "title": "Opinions & feelings",
+  "words": [
+    {
+      "word": "opinión",
+      "type": "n.f.",
+      "en": "opinion",
+      "note": "en mi opinión.",
+      "example": { "es": "En mi opinión, no es tan sencillo.", "en": "In my opinion, it isn't so simple." }
+    },
+    {
+      "word": "parecer",
+      "type": "v.",
+      "en": "to seem; to think (of)",
+      "note": "gustar-type: me parece que…",
+      "example": { "es": "Me parece que es una buena idea.", "en": "It seems to me that it's a good idea." }
+    },
+    {
+      "word": "estar de acuerdo",
+      "type": "phr.",
+      "en": "to agree",
+      "note": "No estoy de acuerdo contigo.",
+      "example": { "es": "Estoy de acuerdo contigo; tienes razón.", "en": "I agree with you; you're right." }
+    },
+    {
+      "word": "tener razón",
+      "type": "phr.",
+      "en": "to be right",
+      "note": "Literally 'to have reason'.",
+      "example": { "es": "Tienes razón: el tráfico es terrible.", "en": "You're right: the traffic is terrible." }
+    },
+    {
+      "word": "verdad",
+      "type": "n.f.",
+      "en": "truth",
+      "note": "Es verdad. / ¿Verdad?",
+      "example": { "es": "Es verdad que hay más trabajo.", "en": "It's true that there's more work." }
+    },
+    {
+      "word": "idea",
+      "type": "n.f.",
+      "en": "idea",
+      "note": "una buena idea.",
+      "example": { "es": "Es una idea sencilla, pero me gusta.", "en": "It's a simple idea, but I like it." }
+    },
+    {
+      "word": "ventaja",
+      "type": "n.f.",
+      "en": "advantage",
+      "note": "Opposite: desventaja.",
+      "example": { "es": "La ciudad tiene ventajas, pero también problemas.", "en": "The city has advantages, but also problems." }
+    },
+    {
+      "word": "desventaja",
+      "type": "n.f.",
+      "en": "disadvantage",
+      "note": "tiene desventajas.",
+      "example": { "es": "El teletrabajo también tiene desventajas.", "en": "Remote work also has disadvantages." }
+    },
+    {
+      "word": "tráfico",
+      "type": "n.m.",
+      "en": "traffic",
+      "note": "hay mucho tráfico.",
+      "example": { "es": "El tráfico y el ruido son terribles.", "en": "The traffic and the noise are terrible." }
+    },
+    {
+      "word": "ruido",
+      "type": "n.m.",
+      "en": "noise",
+      "note": "hacer ruido.",
+      "example": { "es": "En el centro hay mucho ruido.", "en": "In the centre there's a lot of noise." }
+    },
+    {
+      "word": "terrible",
+      "type": "adj.",
+      "en": "terrible, awful",
+      "note": "Invariable in gender.",
+      "example": { "es": "El tráfico es terrible por la mañana.", "en": "The traffic is terrible in the morning." }
+    },
+    {
+      "word": "campo",
+      "type": "n.m.",
+      "en": "countryside; field",
+      "note": "vivir en el campo.",
+      "example": { "es": "El campo es más tranquilo que la ciudad.", "en": "The countryside is calmer than the city." }
+    },
+    {
+      "word": "lento / lenta",
+      "type": "adj.",
+      "en": "slow",
+      "note": "Opposite: rápido.",
+      "example": { "es": "La vida en el pueblo es más lenta.", "en": "Life in the village is slower." }
+    },
+    {
+      "word": "oportunidad",
+      "type": "n.f.",
+      "en": "opportunity",
+      "note": "pocas oportunidades.",
+      "example": { "es": "En el pueblo hay pocas oportunidades de trabajo.", "en": "In the village there are few job opportunities." }
+    },
+    {
+      "word": "encanto",
+      "type": "n.m.",
+      "en": "charm",
+      "note": "tener encanto.",
+      "example": { "es": "Cada lugar tiene su encanto.", "en": "Every place has its charm." }
+    },
+    {
+      "word": "caso",
+      "type": "n.m.",
+      "en": "case",
+      "note": "en mi caso = in my case.",
+      "example": { "es": "En mi caso, prefiero vivir cerca de la ciudad.", "en": "In my case, I prefer to live near the city." }
+    },
+    {
+      "word": "sencillo / sencilla",
+      "type": "adj.",
+      "en": "simple, easy",
+      "note": "una idea sencilla.",
+      "example": { "es": "No es tan sencillo como parece.", "en": "It isn't as simple as it seems." }
+    },
+    {
+      "word": "vida",
+      "type": "n.f.",
+      "en": "life",
+      "note": "la vida en el pueblo.",
+      "example": { "es": "La vida en el campo es más sana.", "en": "Life in the countryside is healthier." }
+    },
+    {
+      "word": "triste",
+      "type": "adj.",
+      "en": "sad",
+      "note": "estoy triste.",
+      "example": { "es": "Me siento un poco triste hoy.", "en": "I feel a bit sad today." }
+    },
+    {
+      "word": "enfadado / enfadada",
+      "type": "adj.",
+      "en": "angry",
+      "note": "LatAm: enojado.",
+      "example": { "es": "Está enfadada conmigo por una tontería.", "en": "She's angry with me over a silly thing." }
+    },
+    {
+      "word": "alegre",
+      "type": "adj.",
+      "en": "cheerful, happy",
+      "note": "una persona alegre.",
+      "example": { "es": "Es una persona muy alegre.", "en": "She's a very cheerful person." }
+    },
+    {
+      "word": "orgulloso / orgullosa",
+      "type": "adj.",
+      "en": "proud",
+      "note": "orgulloso de…",
+      "example": { "es": "Estoy orgulloso de mi trabajo.", "en": "I'm proud of my work." }
+    },
+    {
+      "word": "emocionado / emocionada",
+      "type": "adj.",
+      "en": "excited, moved",
+      "note": "Positive meaning.",
+      "example": { "es": "Estoy emocionada con el viaje.", "en": "I'm excited about the trip." }
+    },
+    {
+      "word": "preocupado / preocupada",
+      "type": "adj.",
+      "en": "worried",
+      "note": "preocupado por…",
+      "example": { "es": "Estamos preocupados por el examen.", "en": "We're worried about the exam." }
+    },
+    {
+      "word": "miedo",
+      "type": "n.m.",
+      "en": "fear",
+      "note": "tener miedo de…",
+      "example": { "es": "Tengo miedo de volar.", "en": "I'm afraid of flying." }
+    },
+    {
+      "word": "sin embargo",
+      "type": "phr.",
+      "en": "however",
+      "note": "Contrasts two ideas.",
+      "example": { "es": "Es un trabajo difícil; sin embargo, me gusta.", "en": "It's a difficult job; however, I like it." }
+    },
+    {
+      "word": "mentira",
+      "type": "n.f.",
+      "en": "lie",
+      "note": "Es mentira.",
+      "ext": true,
+      "example": { "es": "No te creo: es mentira.", "en": "I don't believe you: it's a lie." }
+    },
+    {
+      "word": "estresado / estresada",
+      "type": "adj.",
+      "en": "stressed",
+      "note": "estar estresado.",
+      "ext": true,
+      "example": { "es": "En casa estoy más estresada.", "en": "At home I'm more stressed." }
+    },
+    {
+      "word": "por suerte",
+      "type": "phr.",
+      "en": "luckily",
+      "note": "Opposite: por desgracia.",
+      "ext": true,
+      "example": { "es": "Por suerte, hoy tengo tiempo libre.", "en": "Luckily, I have free time today." }
+    },
+    {
+      "word": "por desgracia",
+      "type": "phr.",
+      "en": "unfortunately",
+      "note": "= lamentablemente.",
+      "ext": true,
+      "example": { "es": "Por desgracia, no puedo ir.", "en": "Unfortunately, I can't go." }
+    },
+    {
+      "word": "a lo mejor",
+      "type": "phr.",
+      "en": "maybe",
+      "note": "Informal; = quizás.",
+      "ext": true,
+      "example": { "es": "A lo mejor es una idea sencilla.", "en": "Maybe it's a simple idea." }
+    },
+    {
+      "word": "de verdad",
+      "type": "phr.",
+      "en": "really, truly",
+      "note": "¿De verdad?",
+      "ext": true,
+      "example": { "es": "¿De verdad piensas eso?", "en": "Do you really think that?" }
+    },
+    {
+      "word": "en realidad",
+      "type": "phr.",
+      "en": "in fact, actually",
+      "note": "En realidad, no lo sé.",
+      "ext": true,
+      "example": { "es": "En realidad, prefiero el campo.", "en": "Actually, I prefer the countryside." }
+    }
+  ]
+}

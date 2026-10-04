@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 24 — Commands for instructions</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-23.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 24 — COMMANDS FOR INSTRUCTIONS</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Give instructions with the <strong>t&uacute; command</strong>: <span class="es">lava, corta, a&ntilde;ade, mezcla</span>.</li>
+      <li>Learn the <strong>eight irregular commands</strong>: <span class="es">di, haz, ve, pon, sal, s&eacute;, ten, ven</span>.</li>
+      <li>Recognise the polite <strong>usted / ustedes commands</strong> used in recipes and signs.</li>
+      <li>Read a recipe and follow directions in a city.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">ingrediente, aguacate, cebolla, lim&oacute;n, sal, lavar, cortar, trozo, pelar, bol, a&ntilde;adir, mezclar, tenedor, necesario/necesaria, listo/lista, seguir, parar, doblar, finalmente, minuto, aceite, sart&eacute;n, horno, fuego</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">hueso, pulpa, exprimir, batidora, cucharada, taza</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (RECETA DE GUACAMOLE)</h2>
+<p><strong>Context:</strong> A simple recipe, and then directions to a friend's house. The commands are in bold. Read each line; the English below is only a check.</p>
+<p class="lead">(Recipes in Spanish are written entirely in commands.)</p>
+
+<div class="phrase">
+  <p class="es">Receta f&aacute;cil: <b>guacamole</b>.</p>
+  <p class="en">Easy recipe: guacamole.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Ingredientes</b>: dos <b>aguacates</b>, un tomate, media <b>cebolla</b>, un <b>lim&oacute;n</b> y <b>sal</b>.</p>
+  <p class="en">Ingredients: two avocados, a tomato, half an onion, a lemon and salt.</p>
+</div>
+<div class="phrase">
+  <p class="es">Primero, <b>lava</b> el tomate y la cebolla.</p>
+  <p class="en">First, wash the tomato and the onion.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luego, <b>corta</b> el tomate y la cebolla en <b>trozos</b> peque&ntilde;os.</p>
+  <p class="en">Then, cut the tomato and the onion into small pieces.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Pela</b> los aguacates y <b>qu&iacute;tales</b> el <b>hueso</b>.</p>
+  <p class="en">Peel the avocados and remove the stone.</p>
+</div>
+<div class="phrase">
+  <p class="es">Despu&eacute;s, <b>pon</b> la <b>pulpa</b> en un <b>bol</b>.</p>
+  <p class="en">Afterwards, put the flesh in a bowl.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>A&ntilde;ade</b> el tomate y la cebolla.</p>
+  <p class="en">Add the tomato and the onion.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Exprime</b> el lim&oacute;n sobre todo.</p>
+  <p class="en">Squeeze the lemon over everything.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Mezcla</b> bien con un <b>tenedor</b>; no uses la <b>batidora</b>.</p>
+  <p class="en">Mix well with a fork; don't use the blender.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Prueba</b> y <b>a&ntilde;ade</b> sal si es <b>necesario</b>.</p>
+  <p class="en">Taste it and add salt if necessary.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Sirve</b> el guacamole con tortillas o pan.</p>
+  <p class="en">Serve the guacamole with tortillas or bread.</p>
+</div>
+<div class="phrase">
+  <p class="es">&iexcl;Y <b>listo</b>! Un plato delicioso en diez <b>minutos</b>.</p>
+  <p class="en">And done! A delicious dish in ten minutes.</p>
+</div>
+<div class="phrase">
+  <p class="es">Para llegar a mi casa: <b>gira</b> a la derecha en el sem&aacute;foro,</p>
+  <p class="en">To get to my house: turn right at the traffic light,</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>sigue</b> recto dos calles y <b>cruza</b> el parque.</p>
+  <p class="en">continue straight for two streets and cross the park.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi casa est&aacute; al lado de la farmacia. &iexcl;No te pierdas!</p>
+  <p class="en">My house is next to the pharmacy. Don't get lost!</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">hueso</span></td><td data-label="Type">n.m.</td><td data-label="English">bone; stone (of fruit)</td><td data-label="Notes">el hueso del aguacate.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pulpa</span></td><td data-label="Type">n.f.</td><td data-label="English">flesh, pulp</td><td data-label="Notes">la pulpa del aguacate.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">exprimir</span></td><td data-label="Type">v.</td><td data-label="English">to squeeze (a fruit)</td><td data-label="Notes">Exprime el lim&oacute;n.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">batidora</span></td><td data-label="Type">n.f.</td><td data-label="English">blender</td><td data-label="Notes">Spain also: la minipimer.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">guacamole</span></td><td data-label="Type">n.m.</td><td data-label="English">guacamole</td><td data-label="Notes">From Nahuatl; Mexican.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">&#128161; <strong>Look at the verbs:</strong> <span class="es">lava, corta, pela, pon, a&ntilde;ade, mezcla</span> &mdash; each one is a command telling <em>you</em> what to do.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The <em>t&uacute;</em> command (affirmative)</h3>
+<p>To tell a friend to do something, use the <strong>third-person present</strong> form &mdash; the same form as <em>&eacute;l/ella</em>. Both <em>-er</em> and <em>-ir</em> verbs end in <strong>-e</strong>.</p>
+<div class="formula">-ar &rarr; -a (hablar &rarr; habla) &nbsp;·&nbsp; -er / -ir &rarr; -e (comer &rarr; come, vivir &rarr; vive)</div>
+<ul>
+  <li class="ex"><span class="es">Lava el tomate.</span><span class="en">Wash the tomato.</span></li>
+  <li class="ex"><span class="es">Corta la cebolla.</span><span class="en">Cut the onion.</span></li>
+  <li class="ex"><span class="es">Mezcla bien.</span><span class="en">Mix well.</span></li>
+  <li class="ex"><span class="es">Abre la ventana.</span><span class="en">Open the window.</span></li>
+  <li class="ex"><span class="es">Escribe tu nombre.</span><span class="en">Write your name.</span></li>
+</ul>
+
+<h3>2.2. The eight irregular commands</h3>
+<p>A few very common verbs do not follow the rule. Learn them as a chant: <em>di, haz, ve, pon, sal, s&eacute;, ten, ven</em>.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Verb</th><th>Command</th><th>Verb</th><th>Command</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Verb"><span class="es">decir</span></td><td data-label="Command"><span class="es">di</span></td><td data-label="Verb2"><span class="es">poner</span></td><td data-label="Command2"><span class="es">pon</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">hacer</span></td><td data-label="Command"><span class="es">haz</span></td><td data-label="Verb2"><span class="es">salir</span></td><td data-label="Command2"><span class="es">sal</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">ir</span></td><td data-label="Command"><span class="es">ve</span></td><td data-label="Verb2"><span class="es">ser</span></td><td data-label="Command2"><span class="es">s&eacute;</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">tener</span></td><td data-label="Command"><span class="es">ten</span></td><td data-label="Verb2"><span class="es">venir</span></td><td data-label="Command2"><span class="es">ven</span></td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">Haz la cena esta noche.</span><span class="en">Make dinner tonight.</span></li>
+  <li class="ex"><span class="es">Ven a mi casa a las ocho.</span><span class="en">Come to my house at eight.</span></li>
+  <li class="ex"><span class="es">Di la verdad.</span><span class="en">Tell the truth.</span></li>
+  <li class="ex"><span class="es">S&eacute; amable con todos.</span><span class="en">Be kind to everyone.</span></li>
+  <li class="ex"><span class="es">Sal de casa temprano.</span><span class="en">Leave home early.</span></li>
+</ul>
+
+<h3>2.3. Attaching pronouns &mdash; and adding an accent</h3>
+<p>Object pronouns stick to the end of an affirmative command. When this makes the word longer, a written accent keeps the original stress.</p>
+<ul>
+  <li class="ex"><span class="es">Pela los aguacates. &rarr; P&eacute;lalos.</span><span class="en">Peel the avocados. &rarr; Peel them.</span></li>
+  <li class="ex"><span class="es">Corta la cebolla. &rarr; C&oacute;rtala.</span><span class="en">Cut the onion. &rarr; Cut it.</span></li>
+  <li class="ex"><span class="es">A&ntilde;ade el lim&oacute;n. &rarr; A&ntilde;&aacute;delo.</span><span class="en">Add the lemon. &rarr; Add it.</span></li>
+  <li class="ex"><span class="es">Quita el hueso. &rarr; Qu&iacute;talo.</span><span class="en">Remove the stone. &rarr; Remove it.</span></li>
+</ul>
+
+<h3>2.4. Polite commands (<em>usted / ustedes</em>)</h3>
+<p>To be polite, or to speak to several people, the command changes. <em>-ar</em> verbs take <strong>-e</strong>; <em>-er / -ir</em> verbs take <strong>-a</strong> (the opposite vowel).</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Verb</th><th>usted (sing.)</th><th>ustedes (pl.)</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Verb"><span class="es">hablar</span></td><td data-label="usted"><span class="es">hable</span></td><td data-label="ustedes"><span class="es">hablen</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">comer</span></td><td data-label="usted"><span class="es">coma</span></td><td data-label="ustedes"><span class="es">coman</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">escribir</span></td><td data-label="usted"><span class="es">escriba</span></td><td data-label="ustedes"><span class="es">escriban</span></td></tr>
+    <tr><td data-label="Verb"><span class="es">seguir</span></td><td data-label="usted"><span class="es">siga</span></td><td data-label="ustedes"><span class="es">sigan</span></td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">Pase, por favor.</span><span class="en">Come in, please. (polite)</span></li>
+  <li class="ex"><span class="es">Siga recto y luego gire a la izquierda.</span><span class="en">Go straight on and then turn left. (polite)</span></li>
+  <li class="ex"><span class="es">Tomen asiento, se&ntilde;ores.</span><span class="en">Take a seat, gentlemen. (to several people)</span></li>
+</ul>
+<div class="warn">&#9888;&#65039; <strong>Negative commands are different (advanced).</strong> "Don't do that" uses a form you will study at B1: <span class="es">No uses la batidora</span>, <span class="es">No te pierdas</span>. For now, just read and recognise them.</div>
+<div class="tip">&#128161; <strong>Signs and notices</strong> often use the infinitive instead of a command: <span class="es">No fumar</span> (no smoking), <span class="es">Empujar / Tirar</span> (push / pull), <span class="es">No pisar el c&eacute;sped</span> (keep off the grass).</div>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">ingrediente</span></td><td data-label="Type">n.m.</td><td data-label="English">ingredient</td><td data-label="Notes">los ingredientes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aguacate</span></td><td data-label="Type">n.m.</td><td data-label="English">avocado</td><td data-label="Notes">Base of the guacamole.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cebolla</span></td><td data-label="Type">n.f.</td><td data-label="English">onion</td><td data-label="Notes">media cebolla.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lim&oacute;n</span></td><td data-label="Type">n.m.</td><td data-label="English">lemon; lime</td><td data-label="Notes">In Mexico, lim&oacute;n usually means lime.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sal</span></td><td data-label="Type">n.f.</td><td data-label="English">salt</td><td data-label="Notes">a&ntilde;adir sal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lavar</span></td><td data-label="Type">v.</td><td data-label="English">to wash</td><td data-label="Notes">Lava la fruta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cortar</span></td><td data-label="Type">v.</td><td data-label="English">to cut</td><td data-label="Notes">Corta el pan.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trozo</span></td><td data-label="Type">n.m.</td><td data-label="English">piece, chunk</td><td data-label="Notes">en trozos peque&ntilde;os.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pelar</span></td><td data-label="Type">v.</td><td data-label="English">to peel</td><td data-label="Notes">Pela las patatas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bol</span></td><td data-label="Type">n.m.</td><td data-label="English">bowl</td><td data-label="Notes">In some regions: el cuenco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">a&ntilde;adir</span></td><td data-label="Type">v.</td><td data-label="English">to add</td><td data-label="Notes">A&ntilde;ade sal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mezclar</span></td><td data-label="Type">v.</td><td data-label="English">to mix</td><td data-label="Notes">Mezcla bien.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tenedor</span></td><td data-label="Type">n.m.</td><td data-label="English">fork</td><td data-label="Notes">cuchillo = knife; cuchara = spoon.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">necesario / necesaria</span></td><td data-label="Type">adj.</td><td data-label="English">necessary</td><td data-label="Notes">si es necesario.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">listo / lista</span></td><td data-label="Type">adj.</td><td data-label="English">ready; clever</td><td data-label="Notes">&iexcl;Listo! = Done!</td></tr>
+    <tr><td data-label="Spanish"><span class="es">seguir</span></td><td data-label="Type">v.</td><td data-label="English">to follow, to continue (e&rarr;i)</td><td data-label="Notes">sigue recto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">parar</span></td><td data-label="Type">v.</td><td data-label="English">to stop</td><td data-label="Notes">Para en el sem&aacute;foro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">doblar</span></td><td data-label="Type">v.</td><td data-label="English">to turn (a corner)</td><td data-label="Notes">Dobla a la izquierda.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">finalmente</span></td><td data-label="Type">adv.</td><td data-label="English">finally</td><td data-label="Notes">= por &uacute;ltimo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">minuto</span></td><td data-label="Type">n.m.</td><td data-label="English">minute</td><td data-label="Notes">en diez minutos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aceite</span></td><td data-label="Type">n.m.</td><td data-label="English">oil</td><td data-label="Notes">aceite de oliva.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sart&eacute;n</span></td><td data-label="Type">n.f.</td><td data-label="English">frying pan</td><td data-label="Notes">poner en la sart&eacute;n.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">horno</span></td><td data-label="Type">n.m.</td><td data-label="English">oven</td><td data-label="Notes">al horno = baked.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fuego</span></td><td data-label="Type">n.m.</td><td data-label="English">fire; heat, flame</td><td data-label="Notes">a fuego lento = on a low heat.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hueso</span></td><td data-label="Type">n.m.</td><td data-label="English">bone; stone (of fruit)</td><td data-label="Notes">Quita el hueso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pulpa</span></td><td data-label="Type">n.f.</td><td data-label="English">flesh, pulp</td><td data-label="Notes">la pulpa del aguacate.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">exprimir</span></td><td data-label="Type">v.</td><td data-label="English">to squeeze (a fruit)</td><td data-label="Notes">Exprime el lim&oacute;n.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">batidora</span></td><td data-label="Type">n.f.</td><td data-label="English">blender</td><td data-label="Notes">Spain also: la minipimer.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cucharada</span></td><td data-label="Type">n.f.</td><td data-label="English">spoonful</td><td data-label="Notes">una cucharada de aceite.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">taza</span></td><td data-label="Type">n.f.</td><td data-label="English">cup</td><td data-label="Notes">una taza de agua.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences of instructions. Read them once; no need to memorize.</p>
+
+<h3>1. Recipe instruction:</h3>
+<div class="phrase">
+  <p class="es">Corta las patatas y a&ntilde;&aacute;delas a la sart&eacute;n.</p>
+  <p class="en">Cut the potatoes and add them to the frying pan.</p>
+</div>
+<h3>2. Direction:</h3>
+<div class="phrase">
+  <p class="es">Sigue recto y dobla a la derecha en la plaza.</p>
+  <p class="en">Continue straight and turn right at the square.</p>
+</div>
+<h3>3. Polite instruction:</h3>
+<div class="phrase">
+  <p class="es">Pase y tome asiento, por favor.</p>
+  <p class="en">Come in and take a seat, please.</p>
+</div>
+<h3>4. Irregular command:</h3>
+<div class="phrase">
+  <p class="es">Haz la comida y ven a las dos.</p>
+  <p class="en">Make the food and come at two.</p>
+</div>
+<h3>5. Reassuring instruction:</h3>
+<div class="phrase">
+  <p class="es">No te preocupes; es f&aacute;cil. &iexcl;Sigue as&iacute;!</p>
+  <p class="en">Don't worry; it's easy. Keep it up!</p>
+</div>
+<div class="tip">&#128161; <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> A mother explains a recipe to her son.</p>
+
+<div class="phrase">
+  <p class="es">Mam&aacute;: Hoy te ense&ntilde;o a hacer tortilla de patatas.</p>
+  <p class="en">Mum: Today I'll teach you how to make a potato omelette.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hijo: &iquest;Qu&eacute; hago primero?</p>
+  <p class="en">Son: What do I do first?</p>
+</div>
+<div class="phrase">
+  <p class="es">Mam&aacute;: Pela las patatas y corta la cebolla. Luego pon todo en la sart&eacute;n.</p>
+  <p class="en">Mum: Peel the potatoes and cut the onion. Then put everything in the pan.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hijo: &iquest;A fuego alto o lento?</p>
+  <p class="en">Son: On a high or low heat?</p>
+</div>
+<div class="phrase">
+  <p class="es">Mam&aacute;: A fuego lento. Cuando est&eacute; blando, a&ntilde;ade los huevos.</p>
+  <p class="en">Mum: On a low heat. When it's soft, add the eggs.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hijo: &iquest;Y despu&eacute;s?</p>
+  <p class="en">Son: And afterwards?</p>
+</div>
+<div class="phrase">
+  <p class="es">Mam&aacute;: Mezcla bien y cu&eacute;lala por los dos lados. &iexcl;Ten cuidado con el fuego!</p>
+  <p class="en">Mum: Mix well and cook it on both sides. Be careful with the heat!</p>
+</div>
+<div class="phrase">
+  <p class="es">Hijo: Vale. &iexcl;Es m&aacute;s f&aacute;cil de lo que pensaba!</p>
+  <p class="en">Son: Okay. It's easier than I thought!</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>ense&ntilde;ar</strong> (to teach &mdash; Lesson 19), <strong>blando</strong> (soft), <strong>cuidado</strong> (care), <strong>lado</strong> (side), <strong>vale</strong> (okay, Spain).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>t&uacute; command:</strong> <em>-ar</em> &rarr; <b>-a</b> (<span class="es">habla</span>); <em>-er / -ir</em> &rarr; <b>-e</b> (<span class="es">come, vive</span>).</li>
+  <li><strong>Irregulars:</strong> <span class="es">di, haz, ve, pon, sal, s&eacute;, ten, ven</span>.</li>
+  <li><strong>Pronouns attach</strong> and often add an accent: <span class="es">p&eacute;lalos, c&oacute;rtala, a&ntilde;&aacute;delo</span>.</li>
+  <li><strong>Polite:</strong> <em>-ar</em> &rarr; <b>-e</b>, <em>-er / -ir</em> &rarr; <b>-a</b> (<span class="es">hable, coma, siga</span>).</li>
+  <li><strong>Negative commands</strong> and <strong>infinitive signs</strong> (<span class="es">No fumar</span>) are for reading only.</li>
+</ul>
+
+<h3>5.2. Further reading — directions to the museum</h3>
+<p><strong>Context:</strong> A short set of directions. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Para ir al museo desde aqu&iacute;, escucha con atenci&oacute;n.</p>
+  <p class="en">To go to the museum from here; listen carefully.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sal del hotel y dobla a la izquierda.</p>
+  <p class="en">Leave the hotel and turn left.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sigue recto hasta el sem&aacute;foro y cruza la avenida.</p>
+  <p class="en">Continue straight to the traffic light and cross the avenue.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pasa el parque y gira a la derecha en la iglesia.</p>
+  <p class="en">Pass the park and turn right at the church.</p>
+</div>
+<div class="phrase">
+  <p class="es">El museo est&aacute; enfrente; no te pierdas y disfruta la visita.</p>
+  <p class="en">The museum is opposite; don't get lost and enjoy the visit.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>atenci&oacute;n</strong> (attention), <strong>hasta</strong> (until, as far as &mdash; Lesson 08), <strong>disfrutar</strong> (to enjoy), <strong>visita</strong> (visit).</em></p>
+
+<hr>
+<p><strong>End of Lesson 24.</strong> Next, <strong>Lesson 25</strong>: object pronouns and <em>gustar</em>-type verbs &mdash; <span class="es">lo, la, los, las</span>, <span class="es">me, te, le</span>, and verbs like <span class="es">doler, faltar, interesar, importar</span>. There is no homework &mdash; just read.</p>
+
+<p class="topnav"><a href="lesson-25.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+
+</div>
+</body>
+</html>

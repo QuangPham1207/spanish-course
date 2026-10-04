@@ -1,0 +1,178 @@
+{
+  "lesson": 21,
+  "title": "Near future & the simple future",
+  "words": [
+    {
+      "word": "futuro",
+      "type": "n.m.",
+      "en": "future",
+      "note": "el futuro cercano.",
+      "example": { "es": "En el futuro viviré cerca del mar.", "en": "In the future I will live near the sea." }
+    },
+    {
+      "word": "próximo / próxima",
+      "type": "adj.",
+      "en": "next",
+      "note": "el próximo año = next year.",
+      "example": { "es": "El próximo verano viajaremos a Colombia.", "en": "Next summer we will travel to Colombia." }
+    },
+    {
+      "word": "plan",
+      "type": "n.m.",
+      "en": "plan",
+      "note": "tener planes.",
+      "example": { "es": "¿Tienes planes para el fin de semana?", "en": "Do you have plans for the weekend?" }
+    },
+    {
+      "word": "mudarse",
+      "type": "v.",
+      "en": "to move (home)",
+      "note": "mudarse a un piso nuevo.",
+      "example": { "es": "Vamos a mudarnos a un piso más grande.", "en": "We are going to move to a bigger flat." }
+    },
+    {
+      "word": "buscar",
+      "type": "v.",
+      "en": "to look for",
+      "note": "buscar trabajo.",
+      "example": { "es": "Ella va a buscar un trabajo nuevo.", "en": "She is going to look for a new job." }
+    },
+    {
+      "word": "examen",
+      "type": "n.m.",
+      "en": "exam",
+      "note": "Plural: exámenes.",
+      "example": { "es": "Tengo un examen difícil la próxima semana.", "en": "I have a difficult exam next week." }
+    },
+    {
+      "word": "difícil",
+      "type": "adj.",
+      "en": "difficult",
+      "note": "Opposite: fácil.",
+      "example": { "es": "El examen será difícil, pero estudiaré.", "en": "The exam will be difficult, but I will study." }
+    },
+    {
+      "word": "fácil",
+      "type": "adj.",
+      "en": "easy",
+      "note": "una receta fácil.",
+      "example": { "es": "Esta receta es muy fácil.", "en": "This recipe is very easy." }
+    },
+    {
+      "word": "pronto",
+      "type": "adv.",
+      "en": "soon",
+      "note": "Hasta pronto.",
+      "example": { "es": "Pronto sabremos si todo sale bien.", "en": "Soon we will know if everything works out." }
+    },
+    {
+      "word": "seguro",
+      "type": "adj./adv.",
+      "en": "sure, certain; surely",
+      "note": "Seguro que sí.",
+      "example": { "es": "Seguro que tendrás planes maravillosos.", "en": "I'm sure you will have wonderful plans." }
+    },
+    {
+      "word": "dentro de",
+      "type": "phr.",
+      "en": "in, within (time)",
+      "note": "dentro de poco = soon.",
+      "example": { "es": "Dentro de poco empezaré a organizarme.", "en": "Soon I will start getting organised." }
+    },
+    {
+      "word": "esperanza",
+      "type": "n.f.",
+      "en": "hope",
+      "note": "tener esperanza.",
+      "example": { "es": "Ahora solo tengo esperanza.", "en": "For now I just have hope." }
+    },
+    {
+      "word": "saber",
+      "type": "v.",
+      "en": "to know (facts)",
+      "note": "Future: sabré, sabrás, sabrá.",
+      "example": { "es": "No sé si podré ir, pero lo sabré mañana.", "en": "I don't know if I'll be able to go, but I'll know tomorrow." }
+    },
+    {
+      "word": "todo / toda",
+      "type": "adj./pron.",
+      "en": "all, everything",
+      "note": "todo el mundo = everyone.",
+      "example": { "es": "Todo el mundo dice que será difícil.", "en": "Everyone says it will be difficult." }
+    },
+    {
+      "word": "si",
+      "type": "conj.",
+      "en": "if",
+      "note": "No future after si: si sale bien…",
+      "example": { "es": "Si todo sale bien, celebraremos.", "en": "If everything goes well, we will celebrate." }
+    },
+    {
+      "word": "quizás",
+      "type": "adv.",
+      "en": "maybe, perhaps",
+      "note": "También: tal vez.",
+      "example": { "es": "Quizás viaje a Perú el próximo año.", "en": "Maybe I will travel to Peru next year." }
+    },
+    {
+      "word": "organizarse",
+      "type": "v.",
+      "en": "to get organized",
+      "note": "empezar a organizarse.",
+      "example": { "es": "Dentro de poco empezaré a organizarme.", "en": "Soon I will start getting organised." }
+    },
+    {
+      "word": "además",
+      "type": "adv.",
+      "en": "besides, also",
+      "note": "Adds an extra idea.",
+      "example": { "es": "Además, quiero aprender a cocinar.", "en": "Besides, I want to learn to cook." }
+    },
+    {
+      "word": "maravilloso / maravillosa",
+      "type": "adj.",
+      "en": "wonderful",
+      "note": "planes maravillosos.",
+      "example": { "es": "Seguro que tendrás planes maravillosos.", "en": "I'm sure you'll have wonderful plans." }
+    },
+    {
+      "word": "el año que viene",
+      "type": "phr.",
+      "en": "next year",
+      "note": "= el próximo año.",
+      "example": { "es": "¿Qué vas a hacer el año que viene?", "en": "What are you going to do next year?" }
+    },
+    {
+      "word": "italiano",
+      "type": "adj./n.m.",
+      "en": "Italian",
+      "note": "un curso de italiano.",
+      "ext": true,
+      "example": { "es": "En enero voy a empezar un curso de italiano.", "en": "In January I'm going to start an Italian course." }
+    },
+    {
+      "word": "Colombia",
+      "type": "n.f.",
+      "en": "Colombia",
+      "note": "Country in South America.",
+      "ext": true,
+      "example": { "es": "Vamos a viajar a Colombia en marzo.", "en": "We are going to travel to Colombia in March." }
+    },
+    {
+      "word": "Cartagena",
+      "type": "n.f.",
+      "en": "Cartagena",
+      "note": "City on the Caribbean coast.",
+      "ext": true,
+      "example": { "es": "Vamos a visitar Cartagena en marzo.", "en": "We are going to visit Cartagena in March." }
+    },
+    {
+      "word": "carta",
+      "type": "n.f.",
+      "en": "letter; playing card; menu",
+      "note": "jugar a las cartas = to play cards.",
+      "ext": true,
+      "example": { "es": "Jugaremos a las cartas y contaremos historias.", "en": "We will play cards and tell stories." }
+    }
+  ]
+}

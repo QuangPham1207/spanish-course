@@ -1,0 +1,222 @@
+{
+  "lesson": 24,
+  "title": "Commands for instructions",
+  "words": [
+    {
+      "word": "ingrediente",
+      "type": "n.m.",
+      "en": "ingredient",
+      "note": "los ingredientes.",
+      "example": { "es": "Los ingredientes son dos aguacates y un limón.", "en": "The ingredients are two avocados and a lemon." }
+    },
+    {
+      "word": "aguacate",
+      "type": "n.m.",
+      "en": "avocado",
+      "note": "Base of the guacamole.",
+      "example": { "es": "Pela los aguacates y quita el hueso.", "en": "Peel the avocados and remove the stone." }
+    },
+    {
+      "word": "cebolla",
+      "type": "n.f.",
+      "en": "onion",
+      "note": "media cebolla.",
+      "example": { "es": "Corta la cebolla en trozos pequeños.", "en": "Cut the onion into small pieces." }
+    },
+    {
+      "word": "limón",
+      "type": "n.m.",
+      "en": "lemon; lime",
+      "note": "In Mexico, limón usually means lime.",
+      "example": { "es": "Exprime el limón sobre todo.", "en": "Squeeze the lemon over everything." }
+    },
+    {
+      "word": "sal",
+      "type": "n.f.",
+      "en": "salt",
+      "note": "añadir sal.",
+      "example": { "es": "Añade sal si es necesario.", "en": "Add salt if necessary." }
+    },
+    {
+      "word": "lavar",
+      "type": "v.",
+      "en": "to wash",
+      "note": "Lava la fruta.",
+      "example": { "es": "Lava el tomate y la cebolla.", "en": "Wash the tomato and the onion." }
+    },
+    {
+      "word": "cortar",
+      "type": "v.",
+      "en": "to cut",
+      "note": "Corta el pan.",
+      "example": { "es": "Corta el tomate en trozos pequeños.", "en": "Cut the tomato into small pieces." }
+    },
+    {
+      "word": "trozo",
+      "type": "n.m.",
+      "en": "piece, chunk",
+      "note": "en trozos pequeños.",
+      "example": { "es": "Corta la fruta en trozos.", "en": "Cut the fruit into pieces." }
+    },
+    {
+      "word": "pelar",
+      "type": "v.",
+      "en": "to peel",
+      "note": "Pela las patatas.",
+      "example": { "es": "Pela los aguacates con cuidado.", "en": "Peel the avocados carefully." }
+    },
+    {
+      "word": "bol",
+      "type": "n.m.",
+      "en": "bowl",
+      "note": "In some regions: el cuenco.",
+      "example": { "es": "Pon la pulpa en un bol.", "en": "Put the flesh in a bowl." }
+    },
+    {
+      "word": "añadir",
+      "type": "v.",
+      "en": "to add",
+      "note": "Añade sal.",
+      "example": { "es": "Añade el tomate y la cebolla.", "en": "Add the tomato and the onion." }
+    },
+    {
+      "word": "mezclar",
+      "type": "v.",
+      "en": "to mix",
+      "note": "Mezcla bien.",
+      "example": { "es": "Mezcla bien con un tenedor.", "en": "Mix well with a fork." }
+    },
+    {
+      "word": "tenedor",
+      "type": "n.m.",
+      "en": "fork",
+      "note": "cuchara = spoon; cuchillo = knife.",
+      "example": { "es": "Mezcla los ingredientes con un tenedor.", "en": "Mix the ingredients with a fork." }
+    },
+    {
+      "word": "necesario / necesaria",
+      "type": "adj.",
+      "en": "necessary",
+      "note": "si es necesario.",
+      "example": { "es": "Añade sal si es necesario.", "en": "Add salt if necessary." }
+    },
+    {
+      "word": "listo / lista",
+      "type": "adj.",
+      "en": "ready; clever",
+      "note": "¡Listo! = Done!",
+      "example": { "es": "¡Y listo! Un plato en diez minutos.", "en": "And done! A dish in ten minutes." }
+    },
+    {
+      "word": "seguir",
+      "type": "v.",
+      "en": "to follow, to continue (e→i)",
+      "note": "sigue recto.",
+      "example": { "es": "Sigue recto dos calles.", "en": "Continue straight for two streets." }
+    },
+    {
+      "word": "parar",
+      "type": "v.",
+      "en": "to stop",
+      "note": "Para en el semáforo.",
+      "example": { "es": "Para en el semáforo y espera.", "en": "Stop at the traffic light and wait." }
+    },
+    {
+      "word": "doblar",
+      "type": "v.",
+      "en": "to turn (a corner)",
+      "note": "Dobla a la izquierda.",
+      "example": { "es": "Dobla a la derecha en la plaza.", "en": "Turn right at the square." }
+    },
+    {
+      "word": "finalmente",
+      "type": "adv.",
+      "en": "finally",
+      "note": "= por último.",
+      "example": { "es": "Finalmente, sirve el plato caliente.", "en": "Finally, serve the dish hot." }
+    },
+    {
+      "word": "minuto",
+      "type": "n.m.",
+      "en": "minute",
+      "note": "en diez minutos.",
+      "example": { "es": "Es un plato listo en diez minutos.", "en": "It's a dish ready in ten minutes." }
+    },
+    {
+      "word": "aceite",
+      "type": "n.m.",
+      "en": "oil",
+      "note": "aceite de oliva.",
+      "example": { "es": "Pon aceite en la sartén.", "en": "Put oil in the frying pan." }
+    },
+    {
+      "word": "sartén",
+      "type": "n.f.",
+      "en": "frying pan",
+      "note": "poner en la sartén.",
+      "example": { "es": "Cocina las patatas en la sartén.", "en": "Cook the potatoes in the frying pan." }
+    },
+    {
+      "word": "horno",
+      "type": "n.m.",
+      "en": "oven",
+      "note": "al horno = baked.",
+      "example": { "es": "Pon el pastel en el horno.", "en": "Put the cake in the oven." }
+    },
+    {
+      "word": "fuego",
+      "type": "n.m.",
+      "en": "fire; heat, flame",
+      "note": "a fuego lento = on a low heat.",
+      "example": { "es": "Cocina a fuego lento.", "en": "Cook on a low heat." }
+    },
+    {
+      "word": "hueso",
+      "type": "n.m.",
+      "en": "bone; stone (of fruit)",
+      "note": "Quita el hueso.",
+      "ext": true,
+      "example": { "es": "Quítale el hueso al aguacate.", "en": "Remove the stone from the avocado." }
+    },
+    {
+      "word": "pulpa",
+      "type": "n.f.",
+      "en": "flesh, pulp",
+      "note": "la pulpa del aguacate.",
+      "ext": true,
+      "example": { "es": "Pon la pulpa en un bol.", "en": "Put the flesh in a bowl." }
+    },
+    {
+      "word": "exprimir",
+      "type": "v.",
+      "en": "to squeeze (a fruit)",
+      "note": "Exprime el limón.",
+      "ext": true,
+      "example": { "es": "Exprime el limón sobre la ensalada.", "en": "Squeeze the lemon over the salad." }
+    },
+    {
+      "word": "batidora",
+      "type": "n.f.",
+      "en": "blender",
+      "note": "Spain also: la minipimer.",
+      "ext": true,
+      "example": { "es": "No uses la batidora para el guacamole.", "en": "Don't use the blender for the guacamole." }
+    },
+    {
+      "word": "cucharada",
+      "type": "n.f.",
+      "en": "spoonful",
+      "note": "una cucharada de aceite.",
+      "ext": true,
+      "example": { "es": "Añade una cucharada de aceite.", "en": "Add a spoonful of oil." }
+    },
+    {
+      "word": "taza",
+      "type": "n.f.",
+      "en": "cup",
+      "note": "una taza de agua.",
+      "ext": true,
+      "example": { "es": "Añade una taza de agua.", "en": "Add a cup of water." }
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 22 — Health &amp; the body</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-21.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 22 — HEALTH &amp; THE BODY</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Name the parts of the body: <span class="es">cabeza, brazo, pierna, est&oacute;mago…</span>.</li>
+      <li>Describe symptoms with <strong>doler</strong>: <span class="es">me duele la cabeza</span> / <span class="es">me duelen los pies</span>.</li>
+      <li>Talk about being ill: <span class="es">tener fiebre, tos, un resfriado</span>; <span class="es">estar enfermo</span>.</li>
+      <li>Give advice with <span class="es">deber + infinitivo</span> and <span class="es">tener que + infinitivo</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">cuerpo, cabeza, ojo, nariz, boca, oreja, cuello, brazo, dedo, pierna, pie, espalda, est&oacute;mago, garganta, pecho, coraz&oacute;n, dolor, doler, fiebre, tos, resfriado, enfermo/enferma, sano/sana, salud, cuidarse, deber</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">toser, gripe, pastilla, medicina, consulta, s&iacute;ntoma, receta, o&iacute;do</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (ANA ESTÁ ENFERMA)</h2>
+<p><strong>Context:</strong> Ana is ill and visits the doctor. Words for the body and for illness are in bold. Read each line; the English below is only a check.</p>
+<p class="lead">(Watch how Spanish says "my head hurts": it uses an article, not a possessive.)</p>
+
+<div class="phrase">
+  <p class="es">Ayer Ana no fue a clase porque se sent&iacute;a mal.</p>
+  <p class="en">Yesterday Ana didn't go to class because she felt bad.</p>
+</div>
+<div class="phrase">
+  <p class="es">Le dol&iacute;a la <b>cabeza</b> y ten&iacute;a <b>fiebre</b>.</p>
+  <p class="en">She had a headache and a fever.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tambi&eacute;n le dol&iacute;a la <b>garganta</b> y <b>tos&iacute;a</b> mucho.</p>
+  <p class="en">Her throat hurt too and she was coughing a lot.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su madre le dijo: &laquo;<b>Debes</b> ir al m&eacute;dico.&raquo;</p>
+  <p class="en">Her mother told her: "You should go to the doctor."</p>
+</div>
+<div class="phrase">
+  <p class="es">En la <b>consulta</b>, la doctora le pregunt&oacute; qu&eacute; le pasaba.</p>
+  <p class="en">At the surgery, the doctor asked her what was wrong.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana explic&oacute; sus <b>s&iacute;ntomas</b>: <b>dolor</b> de cabeza, <b>tos</b> y mucho cansancio.</p>
+  <p class="en">Ana explained her symptoms: headache, cough and a lot of tiredness.</p>
+</div>
+<div class="phrase">
+  <p class="es">La doctora la escuch&oacute; y le mir&oacute; la garganta y los <b>o&iacute;dos</b>.</p>
+  <p class="en">The doctor listened to her and looked at her throat and ears.</p>
+</div>
+<div class="phrase">
+  <p class="es">&laquo;Es un <b>resfriado</b> fuerte, pero no es grave&raquo;, dijo.</p>
+  <p class="en">"It's a bad cold, but it isn't serious," she said.</p>
+</div>
+<div class="phrase">
+  <p class="es">Le recet&oacute; unas <b>pastillas</b> y le recomend&oacute; descansar.</p>
+  <p class="en">She prescribed some pills and recommended that she rest.</p>
+</div>
+<div class="phrase">
+  <p class="es">&laquo;Bebe mucha agua, come fruta y duerme ocho horas&raquo;, le aconsej&oacute;.</p>
+  <p class="en">"Drink lots of water, eat fruit and sleep eight hours," she advised.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana fue a la farmacia con la <b>receta</b>.</p>
+  <p class="en">Ana went to the pharmacy with the prescription.</p>
+</div>
+<div class="phrase">
+  <p class="es">El farmac&eacute;utico le dio la <b>medicina</b> y le dese&oacute; buena suerte.</p>
+  <p class="en">The pharmacist gave her the medicine and wished her good luck.</p>
+</div>
+<div class="phrase">
+  <p class="es">Despu&eacute;s de tres d&iacute;as, Ana se sinti&oacute; mucho mejor.</p>
+  <p class="en">After three days, Ana felt much better.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ahora <b>cuida</b> su <b>salud</b>: camina, descansa y come m&aacute;s verduras.</p>
+  <p class="en">Now she takes care of her health: she walks, rests and eats more vegetables.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">consulta</span></td><td data-label="Type">n.f.</td><td data-label="English">doctor's surgery, appointment</td><td data-label="Notes">ir a la consulta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">s&iacute;ntoma</span></td><td data-label="Type">n.m.</td><td data-label="English">symptom</td><td data-label="Notes">explicar los s&iacute;ntomas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">o&iacute;do</span></td><td data-label="Type">n.m.</td><td data-label="English">ear (inner; hearing)</td><td data-label="Notes">The outer ear is la oreja.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pastilla</span></td><td data-label="Type">n.f.</td><td data-label="English">pill, tablet</td><td data-label="Notes">tomar una pastilla.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">receta</span></td><td data-label="Type">n.f.</td><td data-label="English">prescription; recipe</td><td data-label="Notes">Same word for both!</td></tr>
+    <tr><td data-label="Spanish"><span class="es">farmac&eacute;utico / farmac&eacute;utica</span></td><td data-label="Type">n.</td><td data-label="English">pharmacist</td><td data-label="Notes">Works in la farmacia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gripe</span></td><td data-label="Type">n.f.</td><td data-label="English">flu</td><td data-label="Notes">Stronger than un resfriado.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">&#128161; <strong>Spot the pattern:</strong> <span class="es">le dol&iacute;a la cabeza</span> literally means "the head was hurting to her". Spanish says <em>the</em> head, not <em>her</em> head.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Parts of the body</h3>
+<p>These are the words you will need most. Notice that many have an irregular plural.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>English</th><th>Spanish</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">el cuerpo</span></td><td data-label="English">the body</td><td data-label="Spanish2"><span class="es">el pecho</span></td><td data-label="English2">the chest</td></tr>
+    <tr><td data-label="Spanish"><span class="es">la cabeza</span></td><td data-label="English">the head</td><td data-label="Spanish2"><span class="es">la espalda</span></td><td data-label="English2">the back</td></tr>
+    <tr><td data-label="Spanish"><span class="es">el ojo</span></td><td data-label="English">the eye</td><td data-label="Spanish2"><span class="es">el est&oacute;mago</span></td><td data-label="English2">the stomach</td></tr>
+    <tr><td data-label="Spanish"><span class="es">la nariz</span></td><td data-label="English">the nose</td><td data-label="Spanish2"><span class="es">el brazo</span></td><td data-label="English2">the arm</td></tr>
+    <tr><td data-label="Spanish"><span class="es">la boca</span></td><td data-label="English">the mouth</td><td data-label="Spanish2"><span class="es">el dedo</span></td><td data-label="English2">the finger</td></tr>
+    <tr><td data-label="Spanish"><span class="es">la oreja</span></td><td data-label="English">the (outer) ear</td><td data-label="Spanish2"><span class="es">la pierna</span></td><td data-label="English2">the leg</td></tr>
+    <tr><td data-label="Spanish"><span class="es">el cuello</span></td><td data-label="English">the neck</td><td data-label="Spanish2"><span class="es">el pie</span></td><td data-label="English2">the foot</td></tr>
+    <tr><td data-label="Spanish"><span class="es">la garganta</span></td><td data-label="English">the throat</td><td data-label="Spanish2"><span class="es">el coraz&oacute;n</span></td><td data-label="English2">the heart</td></tr>
+  </tbody>
+</table>
+</div>
+<div class="warn">&#9888;&#65039; Plurals to note: <span class="es">el ojo &rarr; los ojos</span>, <span class="es">la nariz &rarr; las narices</span>, <span class="es">el pie &rarr; los pies</span>, <span class="es">el coraz&oacute;n &rarr; los corazones</span>.</div>
+
+<h3>2.2. <em>doler</em>: "to hurt"</h3>
+<p><strong>doler</strong> works like <em>gustar</em> (Lesson 14): the <em>thing that hurts</em> is the subject.</p>
+<div class="formula">me / te / le / nos / os / les + duele (una cosa) / duelen (varias cosas)</div>
+<ul>
+  <li class="ex"><span class="es">Me duele la cabeza.</span><span class="en">My head hurts. (literally: the head hurts to me)</span></li>
+  <li class="ex"><span class="es">Me duelen los pies.</span><span class="en">My feet hurt. (plural &rarr; duelen)</span></li>
+  <li class="ex"><span class="es">&iquest;Te duele la garganta?</span><span class="en">Does your throat hurt?</span></li>
+  <li class="ex"><span class="es">A Ana le dol&iacute;a el est&oacute;mago.</span><span class="en">Ana's stomach hurt.</span></li>
+</ul>
+<p>You can also use a noun: <strong>tener dolor de</strong> + part of the body.</p>
+<ul>
+  <li class="ex"><span class="es">Tengo dolor de cabeza.</span><span class="en">I have a headache.</span></li>
+  <li class="ex"><span class="es">Tiene dolor de est&oacute;mago.</span><span class="en">He has a stomach ache.</span></li>
+</ul>
+
+<h3>2.3. Being ill: <em>tener</em> y <em>estar</em></h3>
+<ul>
+  <li class="ex"><span class="es">tener fiebre / tos / un resfriado / la gripe</span><span class="en">to have a fever / a cough / a cold / the flu</span></li>
+  <li class="ex"><span class="es">estar enfermo / enferma</span><span class="en">to be ill</span></li>
+  <li class="ex"><span class="es">estar mal / sentirse mal</span><span class="en">to feel bad</span></li>
+  <li class="ex"><span class="es">Ahora est&aacute; sana otra vez.</span><span class="en">Now she is well again.</span></li>
+</ul>
+<div class="tip">&#128161; <strong>Spain vs Latin America:</strong> in Spain people often say <span class="es">estar malo / mala</span> to mean "to be ill" (<span class="es">Mi hermano est&aacute; malo</span>). In Latin America <span class="es">estar enfermo</span> is more common. Both are understood everywhere.</div>
+
+<h3>2.4. Giving advice</h3>
+<p>To recommend something, use <strong>deber</strong> (should / must) or <strong>tener que</strong> (have to) + infinitive.</p>
+<ul>
+  <li class="ex"><span class="es">Debes descansar.</span><span class="en">You should rest.</span></li>
+  <li class="ex"><span class="es">Tienes que beber mucha agua.</span><span class="en">You have to drink lots of water.</span></li>
+  <li class="ex"><span class="es">No debes tomar tanto caf&eacute;.</span><span class="en">You shouldn't drink so much coffee.</span></li>
+  <li class="ex"><span class="es">Es mejor dormir ocho horas.</span><span class="en">It's better to sleep eight hours.</span></li>
+</ul>
+<div class="tip">&#128161; <strong>Preview (advanced):</strong> the doctor in the passage said <span class="es">Bebe agua</span>, <span class="es">Come fruta</span>, <span class="es">Duerme ocho horas</span>. These are <em>commands</em>, or <em>imperativo</em>. You will study them properly in Lesson 24; for now, just recognise them as advice.</div>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">cuerpo</span></td><td data-label="Type">n.m.</td><td data-label="English">body</td><td data-label="Notes">el cuerpo humano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cabeza</span></td><td data-label="Type">n.f.</td><td data-label="English">head</td><td data-label="Notes">dolor de cabeza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ojo</span></td><td data-label="Type">n.m.</td><td data-label="English">eye</td><td data-label="Notes">Plural: los ojos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nariz</span></td><td data-label="Type">n.f.</td><td data-label="English">nose</td><td data-label="Notes">Plural: las narices.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">boca</span></td><td data-label="Type">n.f.</td><td data-label="English">mouth</td><td data-label="Notes">abrir la boca.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">oreja</span></td><td data-label="Type">n.f.</td><td data-label="English">(outer) ear</td><td data-label="Notes">o&iacute;do = inner ear/hearing.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cuello</span></td><td data-label="Type">n.m.</td><td data-label="English">neck</td><td data-label="Notes">dolor de cuello.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">brazo</span></td><td data-label="Type">n.m.</td><td data-label="English">arm</td><td data-label="Notes">romperse un brazo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dedo</span></td><td data-label="Type">n.m.</td><td data-label="English">finger</td><td data-label="Notes">dedo del pie = toe.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pierna</span></td><td data-label="Type">n.f.</td><td data-label="English">leg</td><td data-label="Notes">Me duelen las piernas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pie</span></td><td data-label="Type">n.m.</td><td data-label="English">foot</td><td data-label="Notes">Plural: los pies.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">espalda</span></td><td data-label="Type">n.f.</td><td data-label="English">back</td><td data-label="Notes">dolor de espalda.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">est&oacute;mago</span></td><td data-label="Type">n.m.</td><td data-label="English">stomach</td><td data-label="Notes">Me duele el est&oacute;mago.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">garganta</span></td><td data-label="Type">n.f.</td><td data-label="English">throat</td><td data-label="Notes">Me duele la garganta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pecho</span></td><td data-label="Type">n.m.</td><td data-label="English">chest</td><td data-label="Notes">dolor en el pecho.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">coraz&oacute;n</span></td><td data-label="Type">n.m.</td><td data-label="English">heart</td><td data-label="Notes">Plural: corazones.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dolor</span></td><td data-label="Type">n.m.</td><td data-label="English">pain, ache</td><td data-label="Notes">dolor de…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">doler</span></td><td data-label="Type">v.</td><td data-label="English">to hurt (o&rarr;ue)</td><td data-label="Notes">me duele / me duelen.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fiebre</span></td><td data-label="Type">n.f.</td><td data-label="English">fever</td><td data-label="Notes">tener fiebre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tos</span></td><td data-label="Type">n.f.</td><td data-label="English">cough</td><td data-label="Notes">tener tos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">resfriado</span></td><td data-label="Type">n.m.</td><td data-label="English">cold</td><td data-label="Notes">coger un resfriado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">enfermo / enferma</span></td><td data-label="Type">adj.</td><td data-label="English">ill, sick</td><td data-label="Notes">estar enfermo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sano / sana</span></td><td data-label="Type">adj.</td><td data-label="English">healthy; healthy person</td><td data-label="Notes">una comida sana.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">salud</span></td><td data-label="Type">n.f.</td><td data-label="English">health</td><td data-label="Notes">&iexcl;Salud!</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cuidarse</span></td><td data-label="Type">v.</td><td data-label="English">to take care of oneself</td><td data-label="Notes">cuida su salud.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">deber</span></td><td data-label="Type">v.</td><td data-label="English">must, to owe; should</td><td data-label="Notes">Debes descansar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">toser</span></td><td data-label="Type">v.</td><td data-label="English">to cough</td><td data-label="Notes">Tos&iacute;a mucho.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gripe</span></td><td data-label="Type">n.f.</td><td data-label="English">flu</td><td data-label="Notes">tener la gripe.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pastilla</span></td><td data-label="Type">n.f.</td><td data-label="English">pill, tablet</td><td data-label="Notes">tomar una pastilla.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">medicina</span></td><td data-label="Type">n.f.</td><td data-label="English">medicine</td><td data-label="Notes">tomar la medicina.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">consulta</span></td><td data-label="Type">n.f.</td><td data-label="English">surgery, appointment</td><td data-label="Notes">ir a la consulta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">s&iacute;ntoma</span></td><td data-label="Type">n.m.</td><td data-label="English">symptom</td><td data-label="Notes">explicar los s&iacute;ntomas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">receta</span></td><td data-label="Type">n.f.</td><td data-label="English">prescription; recipe</td><td data-label="Notes">Same word for both.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">o&iacute;do</span></td><td data-label="Type">n.m.</td><td data-label="English">ear (inner); hearing</td><td data-label="Notes">los o&iacute;dos.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences for the doctor's office. Read them once; no need to memorize.</p>
+
+<h3>1. Say what hurts:</h3>
+<div class="phrase">
+  <p class="es">Me duele la cabeza y me duelen los pies.</p>
+  <p class="en">My head hurts and my feet hurt.</p>
+</div>
+<h3>2. Describe a symptom:</h3>
+<div class="phrase">
+  <p class="es">Tengo tos y un poco de fiebre.</p>
+  <p class="en">I have a cough and a slight fever.</p>
+</div>
+<h3>3. Ask for help:</h3>
+<div class="phrase">
+  <p class="es">&iquest;Puede darme algo para el dolor?</p>
+  <p class="en">Can you give me something for the pain?</p>
+</div>
+<h3>4. Give advice:</h3>
+<div class="phrase">
+  <p class="es">Debes descansar y beber mucha agua.</p>
+  <p class="en">You should rest and drink lots of water.</p>
+</div>
+<h3>5. Reassure someone:</h3>
+<div class="phrase">
+  <p class="es">No es grave; en unos d&iacute;as estar&aacute;s bien.</p>
+  <p class="en">It's not serious; in a few days you'll be fine.</p>
+</div>
+<div class="tip">&#128161; <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends talk after one of them was ill.</p>
+
+<div class="phrase">
+  <p class="es">Marco: &iexcl;Hola, Julia! &iquest;C&oacute;mo est&aacute;s? Ayer no viniste a clase.</p>
+  <p class="en">Marco: Hi, Julia! How are you? You didn't come to class yesterday.</p>
+</div>
+<div class="phrase">
+  <p class="es">Julia: Estaba enferma. Me dol&iacute;a la garganta y ten&iacute;a fiebre.</p>
+  <p class="en">Julia: I was ill. My throat hurt and I had a fever.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: &iquest;Y fuiste al m&eacute;dico?</p>
+  <p class="en">Marco: And did you go to the doctor?</p>
+</div>
+<div class="phrase">
+  <p class="es">Julia: S&iacute;. Me recet&oacute; unas pastillas y me dijo que descansara.</p>
+  <p class="en">Julia: Yes. She prescribed me some pills and told me to rest.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: &iquest;Y ahora c&oacute;mo te sientes?</p>
+  <p class="en">Marco: And how do you feel now?</p>
+</div>
+<div class="phrase">
+  <p class="es">Julia: Mucho mejor, gracias. Solo tengo un poco de tos.</p>
+  <p class="en">Julia: Much better, thanks. I only have a bit of a cough.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: Debes cuidarte. Come fruta y duerme bien.</p>
+  <p class="en">Marco: You should take care of yourself. Eat fruit and sleep well.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>viniste</strong> (you came), <strong>que descansara</strong> (to rest &mdash; advanced subjunctive), <strong>solo</strong> (only).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Body:</strong> cabeza, ojo, nariz, boca, oreja, cuello, brazo, dedo, pierna, pie, espalda, est&oacute;mago, garganta, pecho, coraz&oacute;n.</li>
+  <li><strong>doler</strong> works like <em>gustar</em>: <span class="es">me duele la cabeza</span> / <span class="es">me duelen los pies</span>.</li>
+  <li>Illness: <span class="es">tener fiebre / tos / un resfriado</span>; <span class="es">estar enfermo</span>.</li>
+  <li>Advice: <span class="es">deber + infinitivo</span>, <span class="es">tener que + infinitivo</span>.</li>
+  <li>Spanish uses the article: <span class="es">la cabeza</span>, not <em>mi cabeza</em>.</li>
+</ul>
+
+<h3>5.2. Further reading &mdash; a healthy routine</h3>
+<p><strong>Context:</strong> A short blog post about staying healthy. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Para estar sano, no necesitas cosas complicadas.</p>
+  <p class="en">To be healthy, you don't need complicated things.</p>
+</div>
+<div class="phrase">
+  <p class="es">Duerme ocho horas y bebe agua durante el d&iacute;a.</p>
+  <p class="en">Sleep eight hours and drink water during the day.</p>
+</div>
+<div class="phrase">
+  <p class="es">Come fruta y verduras; no comas mucha comida r&aacute;pida.</p>
+  <p class="en">Eat fruit and vegetables; don't eat much fast food.</p>
+</div>
+<div class="phrase">
+  <p class="es">Camina media hora cada d&iacute;a y haz algo de deporte.</p>
+  <p class="en">Walk half an hour every day and do some sport.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si te duele algo por muchos d&iacute;as, ve al m&eacute;dico.</p>
+  <p class="en">If something hurts for many days, go to the doctor.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>complicado</strong> (complicated), <strong>media hora</strong> (half an hour), <strong>comida r&aacute;pida</strong> (fast food), <strong>algo</strong> (something).</em></p>
+
+<hr>
+<p><strong>End of Lesson 22.</strong> Next, <strong>Lesson 23</strong>: opinions and feelings &mdash; <em>creer, pensar, parecer, sentir</em> and how to agree or disagree. There is no homework &mdash; just read.</p>
+
+<p class="topnav"><a href="lesson-23.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+
+</div>
+</body>
+</html>

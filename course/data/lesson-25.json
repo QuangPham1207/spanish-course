@@ -1,0 +1,163 @@
+{
+  "lesson": 25,
+  "title": "Object pronouns & gustar-type verbs",
+  "words": [
+    {
+      "word": "lo / la / los / las",
+      "type": "pron.",
+      "en": "it / them (direct object)",
+      "note": "The thing you verb. ¿Las entradas? Las compro.",
+      "example": { "es": "¿Las entradas? Las compro yo.", "en": "The tickets? I'll buy them." }
+    },
+    {
+      "word": "me / te / le / nos / os / les",
+      "type": "pron.",
+      "en": "to me / to you / to him-her… (indirect object)",
+      "note": "Marks the receiver: Te presto el libro.",
+      "example": { "es": "Te presto el libro.", "en": "I'll lend you the book." }
+    },
+    {
+      "word": "molestar",
+      "type": "v.",
+      "en": "to bother",
+      "note": "gustar-type: me molesta el ruido.",
+      "example": { "es": "Me molesta el ruido de las máquinas.", "en": "The noise of the machines bothers me." }
+    },
+    {
+      "word": "importar",
+      "type": "v.",
+      "en": "to matter, to be important",
+      "note": "No me importa = I don't mind.",
+      "example": { "es": "Me importa mucho la música.", "en": "Music matters a lot to me." }
+    },
+    {
+      "word": "faltar",
+      "type": "v.",
+      "en": "to be missing, to lack",
+      "note": "Me falta tiempo = I don't have enough time.",
+      "example": { "es": "A nosotros nos falta tiempo.", "en": "We don't have enough time." }
+    },
+    {
+      "word": "sobrar",
+      "type": "v.",
+      "en": "to be left over, to have too many",
+      "note": "Me sobra una = I have one too many.",
+      "example": { "es": "A mí me sobra una entrada.", "en": "I have one ticket too many." }
+    },
+    {
+      "word": "interesar",
+      "type": "v.",
+      "en": "to interest",
+      "note": "gustar-type: me interesa la historia.",
+      "example": { "es": "A mí también me interesa el té.", "en": "Tea interests me too." }
+    },
+    {
+      "word": "dar",
+      "type": "v.",
+      "en": "to give",
+      "note": "doy, das, da, damos, dais, dan.",
+      "example": { "es": "Te la puedo dar.", "en": "I can give it to you." }
+    },
+    {
+      "word": "decir",
+      "type": "v.",
+      "en": "to say, to tell",
+      "note": "Participle: dicho.",
+      "example": { "es": "Se lo dije ayer.", "en": "I told it to him yesterday." }
+    },
+    {
+      "word": "ver",
+      "type": "v.",
+      "en": "to see",
+      "note": "Participle: visto.",
+      "example": { "es": "¿Ves la casa? — Sí, la veo.", "en": "Can you see the house? — Yes, I see it." }
+    },
+    {
+      "word": "ayudar",
+      "type": "v.",
+      "en": "to help",
+      "note": "¿Me ayudas?",
+      "example": { "es": "¿Me ayudas, por favor?", "en": "Can you help me, please?" }
+    },
+    {
+      "word": "prestar",
+      "type": "v.",
+      "en": "to lend",
+      "note": "Te presto mi coche.",
+      "example": { "es": "Te presto el bolígrafo.", "en": "I'll lend you the pen." }
+    },
+    {
+      "word": "devolver",
+      "type": "v.",
+      "en": "to return (something) (o→ue)",
+      "note": "devuelvo, devuelves…",
+      "example": { "es": "Le devuelvo el libro a Juan.", "en": "I return the book to Juan." }
+    },
+    {
+      "word": "regalar",
+      "type": "v.",
+      "en": "to give (as a gift)",
+      "note": "Me regalan flores.",
+      "example": { "es": "Nos regalan flores.", "en": "They give us flowers as a gift." }
+    },
+    {
+      "word": "mirar",
+      "type": "v.",
+      "en": "to look at, to watch",
+      "note": "Mira la foto.",
+      "example": { "es": "Mira la foto, es preciosa.", "en": "Look at the photo, it's beautiful." }
+    },
+    {
+      "word": "ópera",
+      "type": "n.f.",
+      "en": "opera",
+      "note": "Nos gusta la ópera.",
+      "example": { "es": "Nos gusta mucho la ópera.", "en": "We really like opera." }
+    },
+    {
+      "word": "flamenco",
+      "type": "n.m.",
+      "en": "flamenco",
+      "note": "Music from Andalusia.",
+      "example": { "es": "Yo prefiero el flamenco.", "en": "I prefer flamenco." }
+    },
+    {
+      "word": "pasión",
+      "type": "n.f.",
+      "en": "passion",
+      "note": "con mucha pasión.",
+      "example": { "es": "Los músicos lo tocan con mucha pasión.", "en": "The musicians play it with great passion." }
+    },
+    {
+      "word": "músico / música",
+      "type": "n.",
+      "en": "musician",
+      "note": "música = music (the art).",
+      "example": { "es": "Los músicos tocan en el escenario.", "en": "The musicians play on the stage." }
+    },
+    {
+      "word": "máquina",
+      "type": "n.f.",
+      "en": "machine",
+      "note": "la máquina de café.",
+      "ext": true,
+      "example": { "es": "Me molesta el ruido de las máquinas.", "en": "The noise of the machines bothers me." }
+    },
+    {
+      "word": "escenario",
+      "type": "n.m.",
+      "en": "stage",
+      "note": "subir al escenario.",
+      "ext": true,
+      "example": { "es": "El grupo subió al escenario.", "en": "The band went up on stage." }
+    },
+    {
+      "word": "aplaudir",
+      "type": "v.",
+      "en": "to applaud, to clap",
+      "note": "El público aplaude.",
+      "ext": true,
+      "example": { "es": "El público aplaude al final.", "en": "The audience claps at the end." }
+    }
+  ]
+}
