@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 33 — The pluperfect &amp; the past-tense timeline</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="review-a2.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 33 — THE PLUPERFECT &amp; THE PAST-TENSE TIMELINE</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Use the <strong>pluperfect</strong> (<span class="es">había hecho</span>) for an action that happened <em>before</em> another past action.</li>
+      <li>Order events on a timeline: <strong>preterite</strong> (event), <strong>imperfect</strong> (background), <strong>pluperfect</strong> (further back).</li>
+      <li>Read the true story of the <strong>1972 Andes crash</strong>.</li>
+      <li>Pick up words: <span class="es">estrellarse, cordillera, rescate, sobreviviente, milagro</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">estrellarse, cordillera, frontera, rescate, sobrevivir, sobreviviente, a bordo, accidente, semejante, herida, grave, rescatista, helicóptero, aterrizar, milagro, piloto, sorprender, mal tiempo, familiar, documental, compañero/a, esfuerzo, resultado, varios, desaparecer, imaginar, solo/a, nadie</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">uruguayo/a, los Andes, Montevideo, rugby, GPS</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EL MILAGRO DE LOS ANDES)</h2>
+<p><strong>Context:</strong> In 1972 a plane carrying a Uruguayan rugby team crashed in the Andes. Read each line; the English below it is only a check.</p>
+<p class="lead">(Watch the pluperfect: it always points to what had already happened <em>before</em> the moment being told.)</p>
+
+<div class="phrase">
+  <p class="es">En 1972, un avión con un equipo de rugby <b>uruguayo</b> se <b>estrelló</b> en la <b>cordillera</b> de los <b>Andes</b>.</p>
+  <p class="en">In 1972, a plane with a Uruguayan rugby team crashed in the Andes mountain range.</p>
+</div>
+<div class="phrase">
+  <p class="es">El avión <b>había salido</b> de Montevideo y ya <b>había cruzado</b> la <b>frontera</b> cuando el <b>mal tiempo</b> <b>sorprendió</b> a los <b>pilotos</b>.</p>
+  <p class="en">The plane had left Montevideo and had already crossed the border when the bad weather surprised the pilots.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cuando los equipos de <b>rescate</b> llegaron al lugar, ya <b>habían pasado</b> más de dos meses.</p>
+  <p class="en">When the rescue teams arrived at the place, more than two months had already passed.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>sobrevivientes</b> <b>habían comido</b> todo lo que quedaba <b>a bordo</b>.</p>
+  <p class="en">The survivors had eaten everything left on board.</p>
+</div>
+<div class="phrase">
+  <p class="es">Antes del <b>accidente</b>, <b>nadie</b> <b>había imaginado</b> una historia <b>semejante</b>.</p>
+  <p class="en">Before the accident, nobody had imagined such a story.</p>
+</div>
+<div class="phrase">
+  <p class="es">Algunos <b>habían perdido</b> a sus <b>familiares</b>; otros <b>habían sobrevivido</b> con <b>heridas graves</b>.</p>
+  <p class="en">Some had lost their relatives; others had survived with serious injuries.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cuando la noticia llegó a Montevideo, las familias <b>habían perdido</b> casi toda la esperanza.</p>
+  <p class="en">When the news reached Montevideo, the families had lost almost all hope.</p>
+</div>
+<div class="phrase">
+  <p class="es">Después de setenta y dos días, dos de ellos <b>habían caminado</b> diez días por la nieve y <b>habían encontrado</b> ayuda.</p>
+  <p class="en">After seventy-two days, two of them had walked ten days through the snow and had found help.</p>
+</div>
+<div class="phrase">
+  <p class="es">Gracias a ellos, los <b>rescatistas</b> ya <b>sabían</b> dónde buscar.</p>
+  <p class="en">Thanks to them, the rescuers already knew where to look.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cuando el <b>helicóptero</b> <b>aterrizó</b>, todos entendieron que <b>habían vivido</b> un <b>milagro</b>.</p>
+  <p class="en">When the helicopter landed, everyone understood that they had lived through a miracle.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">uruguayo/a</span></td><td data-label="Type">adj.</td><td data-label="English">Uruguayan</td><td data-label="Notes">From Uruguay.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">los Andes</span></td><td data-label="Type">n.</td><td data-label="English">the Andes</td><td data-label="Notes">Mountain range in South America.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Montevideo</span></td><td data-label="Type">n.</td><td data-label="English">Montevideo</td><td data-label="Notes">Capital of Uruguay.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rugby</span></td><td data-label="Type">n.m.</td><td data-label="English">rugby</td><td data-label="Notes">Same word in Spanish.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">GPS</span></td><td data-label="Type">n.m.</td><td data-label="English">GPS</td><td data-label="Notes">Did not exist in 1972.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> the main events are in the <strong>preterite</strong> (<span class="es">se estrelló, llegaron, aterrizó</span>), but everything that had already happened before those events is in the <strong>pluperfect</strong> (<span class="es">había salido, habían pasado</span>).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The pluperfect: <em>había</em> + participle</h3>
+<p>The pluperfect (<strong>pluscuamperfecto</strong>) means "had done". It describes an action that was already finished <em>before</em> another past moment.</p>
+<div class="formula">había / habías / había / habíamos / habíais / habían &nbsp;+&nbsp; participio</div>
+<ul>
+  <li class="ex"><span class="es">El avión <b>había salido</b> de Montevideo.</span><span class="en">The plane had left Montevideo.</span></li>
+  <li class="ex"><span class="es">Ya <b>habían pasado</b> más de dos meses.</span><span class="en">More than two months had already passed.</span></li>
+  <li class="ex"><span class="es">Nunca <b>había oído</b> una historia así.</span><span class="en">I had never heard a story like that.</span></li>
+</ul>
+<p>The auxiliary <strong>haber</strong> is in the <em>imperfect</em> (<span class="es">había, habías…</span>); the participle never changes:</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Pronoun</th><th>haber (imperfect)</th><th>+ participio</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Pronoun"><span class="es">yo</span></td><td data-label="haber"><span class="es">había</span></td><td data-label="Example"><span class="es">había comido</span></td></tr>
+    <tr><td data-label="Pronoun"><span class="es">tú</span></td><td data-label="haber"><span class="es">habías</span></td><td data-label="Example"><span class="es">habías visto</span></td></tr>
+    <tr><td data-label="Pronoun"><span class="es">él / ella / usted</span></td><td data-label="haber"><span class="es">había</span></td><td data-label="Example"><span class="es">había salido</span></td></tr>
+    <tr><td data-label="Pronoun"><span class="es">nosotros</span></td><td data-label="haber"><span class="es">habíamos</span></td><td data-label="Example"><span class="es">habíamos llegado</span></td></tr>
+    <tr><td data-label="Pronoun"><span class="es">vosotros</span></td><td data-label="haber"><span class="es">habíais</span></td><td data-label="Example"><span class="es">habíais vuelto</span></td></tr>
+    <tr><td data-label="Pronoun"><span class="es">ellos / ustedes</span></td><td data-label="haber"><span class="es">habían</span></td><td data-label="Example"><span class="es">habían perdido</span></td></tr>
+  </tbody>
+</table>
+</div>
+<div class="tip">💡 Regular participles: <span class="es">-ar &rarr; -ado</span> (<span class="es">hablar &rarr; hablado</span>), <span class="es">-er/-ir &rarr; -ido</span> (<span class="es">comer &rarr; comido, vivir &rarr; vivido</span>). Irregular: <span class="es">hecho, dicho, visto, vuelto, escrito, puesto, roto, muerto</span>.</div>
+
+<h3>2.2. Ordering events on the timeline</h3>
+<p>Three past tenses, three jobs. Read the example as a small timeline:</p>
+<ul>
+  <li class="ex"><span class="es">El avión <b>despegó</b> de Montevideo.</span><span class="en">The plane took off from Montevideo.</span> <em>(preterite = the event)</em></li>
+  <li class="ex"><span class="es">Mientras <b>volaban</b>, el tiempo empeoró.</span><span class="en">While they were flying, the weather got worse.</span> <em>(imperfect = background)</em></li>
+  <li class="ex"><span class="es">Cuando se estrellaron, ya <b>habían cruzado</b> la frontera.</span><span class="en">When they crashed, they had already crossed the border.</span> <em>(pluperfect = earlier still)</em></li>
+</ul>
+<div class="formula">pluperfect &rarr; imperfect (background) &rarr; preterite (event)</div>
+<div class="warn">⚠️ <strong>Common mistake:</strong> do not use the pluperfect for the main event. Say <span class="es">Cuando llegó el rescate</span>, not <span class="es">cuando había llegado el rescate</span>.</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">estrellarse</span></td><td data-label="Type">v.</td><td data-label="English">to crash</td><td data-label="Notes">Reflexive: el avión se estrelló.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cordillera</span></td><td data-label="Type">n.f.</td><td data-label="English">mountain range</td><td data-label="Notes">la cordillera de los Andes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">frontera</span></td><td data-label="Type">n.f.</td><td data-label="English">border</td><td data-label="Notes">cruzar la frontera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rescate</span></td><td data-label="Type">n.m.</td><td data-label="English">rescue</td><td data-label="Notes">los equipos de rescate.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sobrevivir</span></td><td data-label="Type">v.</td><td data-label="English">to survive</td><td data-label="Notes">sobrevivieron dos meses.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sobreviviente</span></td><td data-label="Type">n.</td><td data-label="English">survivor</td><td data-label="Notes">Also superviviente in Spain.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">a bordo</span></td><td data-label="Type">phr.</td><td data-label="English">on board</td><td data-label="Notes">todo lo que quedaba a bordo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">accidente</span></td><td data-label="Type">n.m.</td><td data-label="English">accident</td><td data-label="Notes">antes del accidente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">semejante</span></td><td data-label="Type">adj.</td><td data-label="English">such, similar</td><td data-label="Notes">una historia semejante.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">herida</span></td><td data-label="Type">n.f.</td><td data-label="English">wound, injury</td><td data-label="Notes">heridas graves.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">grave</span></td><td data-label="Type">adj.</td><td data-label="English">serious, grave</td><td data-label="Notes">Una herida grave.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rescatista</span></td><td data-label="Type">n.</td><td data-label="English">rescuer</td><td data-label="Notes">los rescatistas buscaban.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">helicóptero</span></td><td data-label="Type">n.m.</td><td data-label="English">helicopter</td><td data-label="Notes">el helicóptero aterrizó.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aterrizar</span></td><td data-label="Type">v.</td><td data-label="English">to land</td><td data-label="Notes">Despegar = to take off.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">milagro</span></td><td data-label="Type">n.m.</td><td data-label="English">miracle</td><td data-label="Notes">vivir un milagro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">piloto</span></td><td data-label="Type">n.m./f.</td><td data-label="English">pilot</td><td data-label="Notes">los pilotos perdieron el control.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sorprender</span></td><td data-label="Type">v.</td><td data-label="English">to surprise</td><td data-label="Notes">El mal tiempo los sorprendió.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mal tiempo</span></td><td data-label="Type">phr.</td><td data-label="English">bad weather</td><td data-label="Notes">hace mal tiempo = the weather is bad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">familiar</span></td><td data-label="Type">n.m.</td><td data-label="English">relative</td><td data-label="Notes">los familiares esperaban.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">documental</span></td><td data-label="Type">n.m.</td><td data-label="English">documentary</td><td data-label="Notes">un documental sobre los Andes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">compañero/a</span></td><td data-label="Type">n.</td><td data-label="English">companion, teammate</td><td data-label="Notes">perder a un compañero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">esfuerzo</span></td><td data-label="Type">n.m.</td><td data-label="English">effort</td><td data-label="Notes">hacer un esfuerzo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">resultado</span></td><td data-label="Type">n.m.</td><td data-label="English">result</td><td data-label="Notes">sin resultados.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">varios/varias</span></td><td data-label="Type">adj.</td><td data-label="English">several</td><td data-label="Notes">varios compañeros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desaparecer</span></td><td data-label="Type">v.</td><td data-label="English">to disappear</td><td data-label="Notes">El avión desapareció.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">imaginar</span></td><td data-label="Type">v.</td><td data-label="English">to imagine</td><td data-label="Notes">Nadie había imaginado esto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">solo/a</span></td><td data-label="Type">adj.</td><td data-label="English">alone</td><td data-label="Notes">Caminaron solos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nadie</span></td><td data-label="Type">pron.</td><td data-label="English">nobody, no one</td><td data-label="Notes">Nadie lo sabía.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences that carry the pluperfect. Read them once; no need to memorize.</p>
+
+<h3>1. Something already done before:</h3>
+<div class="phrase">
+  <p class="es">Ya habían pasado más de dos meses cuando llegó el rescate.</p>
+  <p class="en">More than two months had already passed when the rescue arrived.</p>
+</div>
+<h3>2. Before an accident:</h3>
+<div class="phrase">
+  <p class="es">Antes del accidente, nadie había imaginado una historia semejante.</p>
+  <p class="en">Before the accident, nobody had imagined such a story.</p>
+</div>
+<h3>3. Everything finished:</h3>
+<div class="phrase">
+  <p class="es">Los sobrevivientes habían comido todo lo que quedaba a bordo.</p>
+  <p class="en">The survivors had eaten everything left on board.</p>
+</div>
+<h3>4. A first experience:</h3>
+<div class="phrase">
+  <p class="es">Nunca había oído una historia así.</p>
+  <p class="en">I had never heard a story like that.</p>
+</div>
+<h3>5. The climax:</h3>
+<div class="phrase">
+  <p class="es">Cuando el helicóptero aterrizó, todos entendieron que habían vivido un milagro.</p>
+  <p class="en">When the helicopter landed, everyone understood that they had lived through a miracle.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends talk about a documentary on the Andes.</p>
+
+<div class="phrase">
+  <p class="es">Marta: ¿Viste el documental sobre los Andes?</p>
+  <p class="en">Marta: Did you see the documentary about the Andes?</p>
+</div>
+<div class="phrase">
+  <p class="es">Iván: Sí. Impresionante. Cuando llegó el rescate, ya habían pasado más de dos meses.</p>
+  <p class="en">Iván: Yes. Impressive. When the rescue arrived, more than two months had already passed.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: ¿Y cómo sobrevivieron tanto tiempo?</p>
+  <p class="en">Marta: And how did they survive so long?</p>
+</div>
+<div class="phrase">
+  <p class="es">Iván: Antes de eso, habían perdido a varios compañeros. Fue un milagro.</p>
+  <p class="en">Iván: Before that, they had lost several teammates. It was a miracle.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Nunca había oído una historia así.</p>
+  <p class="en">Marta: I had never heard a story like that.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>impresionante</strong> (impressive), <strong>tanto tiempo</strong> (so long), <strong>oír</strong> (to hear), <strong>así</strong> (like that).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Pluperfect</strong> = <span class="es">había / habías / había… + participio</span>: an action done <em>before</em> another past moment.</li>
+  <li><strong>Timeline:</strong> pluperfect (earlier) &rarr; imperfect (background) &rarr; preterite (event).</li>
+  <li><strong>Participles:</strong> <span class="es">-ado / -ido</span>, with irregulars <span class="es">hecho, dicho, visto, vuelto, puesto, roto</span>.</li>
+  <li><strong>Story:</strong> the 1972 Andes crash — a real rescue that took seventy-two days.</li>
+</ul>
+
+<h3>5.2. Further reading — without GPS</h3>
+<p><strong>Context:</strong> A short note about how the rescue worked. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En 1972 no existían los móviles ni el <b>GPS</b>.</p>
+  <p class="en">In 1972 there were no mobile phones or GPS.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cuando el avión <b>desapareció</b>, los equipos de rescate ya habían buscado durante días sin resultados.</p>
+  <p class="en">When the plane disappeared, the rescue teams had already searched for days without results.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por eso, los sobrevivientes tuvieron que caminar solos para pedir ayuda.</p>
+  <p class="en">That is why the survivors had to walk alone to ask for help.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su <b>esfuerzo</b> había salvado muchas vidas.</p>
+  <p class="en">Their effort had saved many lives.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>móvil</strong> (mobile phone; in Latin America usually <em>celular</em>), <strong>salvar</strong> (to save), <strong>vida</strong> (life).</em></p>
+
+<hr>
+<p><strong>End of Lesson 33.</strong> Next, <strong>Lesson 34</strong>: relative clauses — <em>que, quien, el cual, cuyo, lo que</em>. There is no homework — just read.</p>
+
+<p class="topnav"><a href="lesson-34.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

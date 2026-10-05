@@ -1,0 +1,244 @@
+{
+  "lesson": 37,
+  "title": "Subjunctive in adverbial clauses",
+  "words": [
+    {
+      "word": "funcionar",
+      "type": "v.",
+      "en": "to work, to function",
+      "note": "El proyecto funciona.",
+      "example": { "es": "Para que el proyecto funcione, todos deben participar.", "en": "For the project to work, everyone has to take part." }
+    },
+    {
+      "word": "reducir",
+      "type": "v.",
+      "en": "to reduce",
+      "note": "reducir la contaminación.",
+      "example": { "es": "Tenemos que reducir la contaminación.", "en": "We have to reduce pollution." }
+    },
+    {
+      "word": "contaminación",
+      "type": "n.f.",
+      "en": "pollution",
+      "note": "la contaminación del aire.",
+      "example": { "es": "Hay que reducir la contaminación.", "en": "We have to reduce pollution." }
+    },
+    {
+      "word": "contaminar",
+      "type": "v.",
+      "en": "to pollute",
+      "note": "No contamines el río.",
+      "example": { "es": "Las fábricas contaminan el río.", "en": "The factories pollute the river." }
+    },
+    {
+      "word": "arreglar",
+      "type": "v.",
+      "en": "to fix, to repair",
+      "note": "arreglar los caminos.",
+      "example": { "es": "Antes de que llegue el invierno, hay que arreglar los caminos.", "en": "Before winter arrives, we have to fix the roads." }
+    },
+    {
+      "word": "camino",
+      "type": "n.m.",
+      "en": "road, path, way",
+      "note": "un camino de tierra.",
+      "example": { "es": "El camino al pueblo está en mal estado.", "en": "The road to the town is in bad condition." }
+    },
+    {
+      "word": "cosecha",
+      "type": "n.f.",
+      "en": "harvest",
+      "note": "la cosecha del año.",
+      "example": { "es": "A menos que llueva, la cosecha se perderá.", "en": "Unless it rains, the harvest will be lost." }
+    },
+    {
+      "word": "huerto",
+      "type": "n.m.",
+      "en": "vegetable garden",
+      "note": "un huerto comunitario.",
+      "example": { "es": "Tenemos un huerto comunitario en el barrio.", "en": "We have a community garden in the neighbourhood." }
+    },
+    {
+      "word": "plantar",
+      "type": "v.",
+      "en": "to plant",
+      "note": "plantar semillas.",
+      "example": { "es": "Antes de que llegue el frío, hay que plantar.", "en": "Before the cold arrives, we have to plant." }
+    },
+    {
+      "word": "paciencia",
+      "type": "n.f.",
+      "en": "patience",
+      "note": "tener paciencia.",
+      "example": { "es": "Para que una idea crezca, hace falta paciencia.", "en": "For an idea to grow, patience is needed." }
+    },
+    {
+      "word": "obstáculo",
+      "type": "n.m.",
+      "en": "obstacle",
+      "note": "superar un obstáculo.",
+      "example": { "es": "Aunque haya obstáculos, la gente no se rinde.", "en": "Even if there are obstacles, people don't give up." }
+    },
+    {
+      "word": "rendirse",
+      "type": "v.",
+      "en": "to give up",
+      "note": "No te rindas.",
+      "example": { "es": "La gente no se rinde.", "en": "People don't give up." }
+    },
+    {
+      "word": "demasiado",
+      "type": "adv./adj.",
+      "en": "too much, too many",
+      "note": "demasiado tarde.",
+      "example": { "es": "Es mejor actuar antes de que sea demasiado tarde.", "en": "It's better to act before it's too late." }
+    },
+    {
+      "word": "adelante",
+      "type": "adv.",
+      "en": "forward, ahead",
+      "note": "seguir adelante.",
+      "example": { "es": "Seguiremos adelante aunque el camino sea largo.", "en": "We'll carry on even if the road is long." }
+    },
+    {
+      "word": "conseguir",
+      "type": "v.",
+      "en": "to get, to obtain",
+      "note": "conseguir ayuda.",
+      "example": { "es": "A menos que consigamos ayuda, no terminaremos.", "en": "Unless we get help, we won't finish." }
+    },
+    {
+      "word": "medio ambiente",
+      "type": "n.m.",
+      "en": "environment",
+      "note": "proteger el medio ambiente.",
+      "example": { "es": "Todos debemos proteger el medio ambiente.", "en": "We all must protect the environment." }
+    },
+    {
+      "word": "sequía",
+      "type": "n.f.",
+      "en": "drought",
+      "note": "una larga sequía.",
+      "example": { "es": "La sequía dura ya varios meses.", "en": "The drought has lasted several months now." }
+    },
+    {
+      "word": "desarrollo",
+      "type": "n.m.",
+      "en": "development",
+      "note": "el desarrollo sostenible.",
+      "example": { "es": "Queremos un desarrollo sostenible.", "en": "We want sustainable development." }
+    },
+    {
+      "word": "sostenible",
+      "type": "adj.",
+      "en": "sustainable",
+      "note": "un proyecto sostenible.",
+      "example": { "es": "Es un proyecto sostenible y ecológico.", "en": "It's a sustainable and eco-friendly project." }
+    },
+    {
+      "word": "proteger",
+      "type": "v.",
+      "en": "to protect",
+      "note": "proteger la naturaleza.",
+      "example": { "es": "Hay que proteger la naturaleza.", "en": "We have to protect nature." }
+    },
+    {
+      "word": "reciclar",
+      "type": "v.",
+      "en": "to recycle",
+      "note": "reciclar el papel.",
+      "example": { "es": "Reciclamos el papel y el vidrio.", "en": "We recycle paper and glass." }
+    },
+    {
+      "word": "basura",
+      "type": "n.f.",
+      "en": "rubbish, trash",
+      "note": "tirar la basura.",
+      "example": { "es": "No tires basura al río.", "en": "Don't throw rubbish into the river." }
+    },
+    {
+      "word": "ecológico/a",
+      "type": "adj.",
+      "en": "eco-friendly",
+      "note": "un coche ecológico.",
+      "example": { "es": "Prefieren productos ecológicos.", "en": "They prefer eco-friendly products." }
+    },
+    {
+      "word": "naturaleza",
+      "type": "n.f.",
+      "en": "nature",
+      "note": "proteger la naturaleza.",
+      "example": { "es": "Hay que cuidar la naturaleza.", "en": "We have to look after nature." }
+    },
+    {
+      "word": "energía",
+      "type": "n.f.",
+      "en": "energy",
+      "note": "energía solar.",
+      "example": { "es": "La energía solar es más limpia.", "en": "Solar energy is cleaner." }
+    },
+    {
+      "word": "cuidar",
+      "type": "v.",
+      "en": "to look after",
+      "note": "cuidar el planeta.",
+      "example": { "es": "Tenemos que cuidar el planeta.", "en": "We have to look after the planet." }
+    },
+    {
+      "word": "ahorrar",
+      "type": "v.",
+      "en": "to save (money, energy)",
+      "note": "ahorrar agua.",
+      "example": { "es": "Para ahorrar agua, cierran el grifo.", "en": "To save water, they turn off the tap." }
+    },
+    {
+      "word": "peligro",
+      "type": "n.m.",
+      "en": "danger",
+      "note": "estar en peligro.",
+      "example": { "es": "El bosque está en peligro.", "en": "The forest is in danger." }
+    },
+    {
+      "word": "a menos que",
+      "type": "phr.",
+      "en": "unless",
+      "note": "Always + subjunctive.",
+      "example": { "es": "A menos que llueva pronto, la cosecha se perderá.", "en": "Unless it rains soon, the harvest will be lost." }
+    },
+    {
+      "word": "antes de que",
+      "type": "phr.",
+      "en": "before",
+      "note": "+ subjunctive; before one subject use antes de + inf.",
+      "example": { "es": "Antes de que llegue el invierno, arreglamos los caminos.", "en": "Before winter arrives, we fix the roads." }
+    },
+    {
+      "word": "para que",
+      "type": "phr.",
+      "en": "so that",
+      "note": "+ subjunctive; same subject uses para + inf.",
+      "example": { "es": "Para que el proyecto funcione, todos deben participar.", "en": "For the project to work, everyone has to take part." }
+    },
+    {
+      "word": "sin que",
+      "type": "phr.",
+      "en": "without",
+      "note": "+ subjunctive; same subject uses sin + inf.",
+      "example": { "es": "Trabajamos juntos sin que nadie nos lo pida.", "en": "We work together without anyone asking us to." }
+    },
+    {
+      "word": "siempre que",
+      "type": "phr.",
+      "en": "as long as, provided that",
+      "note": "+ subjunctive.",
+      "example": { "es": "Iremos siempre que haga buen tiempo.", "en": "We'll go as long as the weather is good." }
+    },
+    {
+      "word": "en cuanto",
+      "type": "phr.",
+      "en": "as soon as",
+      "note": "+ subjunctive for the future.",
+      "example": { "es": "En cuanto termine, te llamo.", "en": "As soon as I finish, I'll call you." }
+    }
+  ]
+}

@@ -9363,5 +9363,1800 @@ window.VOCAB = [
         }
       }
     ]
+  },
+  {
+    "lesson": 33,
+    "title": "The pluperfect & the past-tense timeline",
+    "words": [
+      {
+        "word": "estrellarse",
+        "type": "v.",
+        "en": "to crash",
+        "note": "Reflexive: el avión se estrelló.",
+        "example": {
+          "es": "El avión se estrelló en la cordillera.",
+          "en": "The plane crashed in the mountain range."
+        }
+      },
+      {
+        "word": "cordillera",
+        "type": "n.f.",
+        "en": "mountain range",
+        "note": "la cordillera de los Andes.",
+        "example": {
+          "es": "Volaban sobre la cordillera de los Andes.",
+          "en": "They were flying over the Andes mountain range."
+        }
+      },
+      {
+        "word": "frontera",
+        "type": "n.f.",
+        "en": "border",
+        "note": "cruzar la frontera.",
+        "example": {
+          "es": "Ya habían cruzado la frontera.",
+          "en": "They had already crossed the border."
+        }
+      },
+      {
+        "word": "rescate",
+        "type": "n.m.",
+        "en": "rescue",
+        "note": "los equipos de rescate.",
+        "example": {
+          "es": "Los equipos de rescate llegaron al lugar.",
+          "en": "The rescue teams arrived at the place."
+        }
+      },
+      {
+        "word": "sobrevivir",
+        "type": "v.",
+        "en": "to survive",
+        "note": "sobrevivieron dos meses.",
+        "example": {
+          "es": "Sobrevivieron más de dos meses.",
+          "en": "They survived more than two months."
+        }
+      },
+      {
+        "word": "sobreviviente",
+        "type": "n.",
+        "en": "survivor",
+        "note": "In Spain also superviviente.",
+        "example": {
+          "es": "Los sobrevivientes caminaron por la nieve.",
+          "en": "The survivors walked through the snow."
+        }
+      },
+      {
+        "word": "a bordo",
+        "type": "phr.",
+        "en": "on board",
+        "note": "todo lo que quedaba a bordo.",
+        "example": {
+          "es": "Habían comido todo lo que quedaba a bordo.",
+          "en": "They had eaten everything left on board."
+        }
+      },
+      {
+        "word": "accidente",
+        "type": "n.m.",
+        "en": "accident",
+        "note": "antes del accidente.",
+        "example": {
+          "es": "Antes del accidente, nadie imaginaba esto.",
+          "en": "Before the accident, nobody imagined this."
+        }
+      },
+      {
+        "word": "semejante",
+        "type": "adj.",
+        "en": "such, similar",
+        "note": "una historia semejante.",
+        "example": {
+          "es": "Nadie había imaginado una historia semejante.",
+          "en": "Nobody had imagined such a story."
+        }
+      },
+      {
+        "word": "herida",
+        "type": "n.f.",
+        "en": "wound, injury",
+        "note": "heridas graves.",
+        "example": {
+          "es": "Algunos tenían heridas graves.",
+          "en": "Some had serious injuries."
+        }
+      },
+      {
+        "word": "grave",
+        "type": "adj.",
+        "en": "serious, grave",
+        "note": "Una herida grave.",
+        "example": {
+          "es": "Sobrevivió con heridas graves.",
+          "en": "He survived with serious injuries."
+        }
+      },
+      {
+        "word": "rescatista",
+        "type": "n.",
+        "en": "rescuer",
+        "note": "los rescatistas buscaban.",
+        "example": {
+          "es": "Los rescatistas ya sabían dónde buscar.",
+          "en": "The rescuers already knew where to look."
+        }
+      },
+      {
+        "word": "helicóptero",
+        "type": "n.m.",
+        "en": "helicopter",
+        "note": "el helicóptero aterrizó.",
+        "example": {
+          "es": "Cuando el helicóptero aterrizó, todos salieron.",
+          "en": "When the helicopter landed, everyone came out."
+        }
+      },
+      {
+        "word": "aterrizar",
+        "type": "v.",
+        "en": "to land",
+        "note": "Opposite: despegar (to take off).",
+        "example": {
+          "es": "El avión aterrizó sin problemas.",
+          "en": "The plane landed without problems."
+        }
+      },
+      {
+        "word": "milagro",
+        "type": "n.m.",
+        "en": "miracle",
+        "note": "vivir un milagro.",
+        "example": {
+          "es": "Todos entendieron que habían vivido un milagro.",
+          "en": "Everyone understood that they had lived through a miracle."
+        }
+      },
+      {
+        "word": "piloto",
+        "type": "n.m./f.",
+        "en": "pilot",
+        "note": "los pilotos perdieron el control.",
+        "example": {
+          "es": "El mal tiempo sorprendió a los pilotos.",
+          "en": "The bad weather surprised the pilots."
+        }
+      },
+      {
+        "word": "sorprender",
+        "type": "v.",
+        "en": "to surprise",
+        "note": "El mal tiempo los sorprendió.",
+        "example": {
+          "es": "La tormenta sorprendió a los pilotos.",
+          "en": "The storm surprised the pilots."
+        }
+      },
+      {
+        "word": "mal tiempo",
+        "type": "phr.",
+        "en": "bad weather",
+        "note": "hace mal tiempo = the weather is bad.",
+        "example": {
+          "es": "Había mal tiempo en la montaña.",
+          "en": "There was bad weather in the mountains."
+        }
+      },
+      {
+        "word": "familiar",
+        "type": "n.m.",
+        "en": "relative",
+        "note": "los familiares esperaban.",
+        "example": {
+          "es": "Los familiares habían perdido la esperanza.",
+          "en": "The relatives had lost hope."
+        }
+      },
+      {
+        "word": "documental",
+        "type": "n.m.",
+        "en": "documentary",
+        "note": "un documental sobre los Andes.",
+        "example": {
+          "es": "¿Viste el documental sobre los Andes?",
+          "en": "Did you see the documentary about the Andes?"
+        }
+      },
+      {
+        "word": "compañero/a",
+        "type": "n.",
+        "en": "companion, teammate",
+        "note": "perder a un compañero.",
+        "example": {
+          "es": "Habían perdido a varios compañeros.",
+          "en": "They had lost several teammates."
+        }
+      },
+      {
+        "word": "esfuerzo",
+        "type": "n.m.",
+        "en": "effort",
+        "note": "hacer un esfuerzo.",
+        "example": {
+          "es": "Su esfuerzo había salvado muchas vidas.",
+          "en": "Their effort had saved many lives."
+        }
+      },
+      {
+        "word": "resultado",
+        "type": "n.m.",
+        "en": "result",
+        "note": "buscar sin resultados.",
+        "example": {
+          "es": "Buscaron durante días sin resultados.",
+          "en": "They searched for days without results."
+        }
+      },
+      {
+        "word": "varios/varias",
+        "type": "adj.",
+        "en": "several",
+        "note": "varios compañeros.",
+        "example": {
+          "es": "Habían perdido a varios compañeros.",
+          "en": "They had lost several teammates."
+        }
+      },
+      {
+        "word": "desaparecer",
+        "type": "v.",
+        "en": "to disappear",
+        "note": "El avión desapareció.",
+        "example": {
+          "es": "Cuando el avión desapareció, buscaron ayuda.",
+          "en": "When the plane disappeared, they looked for help."
+        }
+      },
+      {
+        "word": "imaginar",
+        "type": "v.",
+        "en": "to imagine",
+        "note": "Nadie había imaginado esto.",
+        "example": {
+          "es": "Nadie había imaginado una historia así.",
+          "en": "Nobody had imagined a story like that."
+        }
+      },
+      {
+        "word": "solo/a",
+        "type": "adj.",
+        "en": "alone",
+        "note": "Caminaron solos.",
+        "example": {
+          "es": "Tuvieron que caminar solos para pedir ayuda.",
+          "en": "They had to walk alone to ask for help."
+        }
+      },
+      {
+        "word": "nadie",
+        "type": "pron.",
+        "en": "nobody, no one",
+        "note": "Nadie lo sabía.",
+        "example": {
+          "es": "Antes del accidente, nadie había imaginado esto.",
+          "en": "Before the accident, nobody had imagined this."
+        }
+      },
+      {
+        "word": "uruguayo/a",
+        "type": "adj.",
+        "en": "Uruguayan",
+        "note": "From Uruguay.",
+        "ext": true,
+        "example": {
+          "es": "Un equipo de rugby uruguayo viajaba en el avión.",
+          "en": "A Uruguayan rugby team was travelling on the plane."
+        }
+      },
+      {
+        "word": "los Andes",
+        "type": "n.",
+        "en": "the Andes",
+        "note": "Mountain range in South America.",
+        "ext": true,
+        "example": {
+          "es": "El avión se estrelló en los Andes.",
+          "en": "The plane crashed in the Andes."
+        }
+      },
+      {
+        "word": "Montevideo",
+        "type": "n.",
+        "en": "Montevideo",
+        "note": "Capital of Uruguay.",
+        "ext": true,
+        "example": {
+          "es": "El avión había salido de Montevideo.",
+          "en": "The plane had left Montevideo."
+        }
+      },
+      {
+        "word": "rugby",
+        "type": "n.m.",
+        "en": "rugby",
+        "note": "Same word in Spanish.",
+        "ext": true,
+        "example": {
+          "es": "Un equipo de rugby viajaba en el avión.",
+          "en": "A rugby team was travelling on the plane."
+        }
+      },
+      {
+        "word": "GPS",
+        "type": "n.m.",
+        "en": "GPS",
+        "note": "Did not exist in 1972.",
+        "ext": true,
+        "example": {
+          "es": "En 1972 no existían los móviles ni el GPS.",
+          "en": "In 1972 there were no mobile phones or GPS."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 34,
+    "title": "Relative clauses",
+    "words": [
+      {
+        "word": "conocido/a",
+        "type": "adj.",
+        "en": "well-known",
+        "note": "conocida por la violencia.",
+        "example": {
+          "es": "Medellín era conocida por la violencia.",
+          "en": "Medellín used to be known for violence."
+        }
+      },
+      {
+        "word": "violencia",
+        "type": "n.f.",
+        "en": "violence",
+        "note": "una ciudad violenta = a violent city.",
+        "example": {
+          "es": "Antes era conocida por la violencia.",
+          "en": "It used to be known for violence."
+        }
+      },
+      {
+        "word": "ejemplo",
+        "type": "n.m.",
+        "en": "example",
+        "note": "un ejemplo de cambio.",
+        "example": {
+          "es": "Hoy es un ejemplo de cambio.",
+          "en": "Today it is an example of change."
+        }
+      },
+      {
+        "word": "cambio",
+        "type": "n.m.",
+        "en": "change",
+        "note": "cambiar = to change.",
+        "example": {
+          "es": "Es un ejemplo de cambio urbano.",
+          "en": "It is an example of urban change."
+        }
+      },
+      {
+        "word": "proyecto",
+        "type": "n.m.",
+        "en": "project",
+        "note": "un proyecto social.",
+        "example": {
+          "es": "El proyecto construyó bibliotecas en los barrios.",
+          "en": "The project built libraries in the neighbourhoods."
+        }
+      },
+      {
+        "word": "cuyo/a",
+        "type": "adj. rel.",
+        "en": "whose",
+        "note": "Agrees with the thing possessed: cuyo objetivo, cuya meta.",
+        "example": {
+          "es": "El proyecto, cuyo objetivo era abrir espacios, cambió la ciudad.",
+          "en": "The project, whose aim was to open spaces, changed the city."
+        }
+      },
+      {
+        "word": "objetivo",
+        "type": "n.m.",
+        "en": "aim, objective",
+        "note": "cuyo objetivo era…",
+        "example": {
+          "es": "Su objetivo era abrir espacios para todos.",
+          "en": "Its aim was to open spaces for everyone."
+        }
+      },
+      {
+        "word": "construir",
+        "type": "v.",
+        "en": "to build",
+        "note": "construyeron = they built.",
+        "example": {
+          "es": "Construyeron bibliotecas en los barrios pobres.",
+          "en": "They built libraries in the poor neighbourhoods."
+        }
+      },
+      {
+        "word": "biblioteca",
+        "type": "n.f.",
+        "en": "library",
+        "note": "una biblioteca pública.",
+        "example": {
+          "es": "La biblioteca es el lugar donde puedo soñar.",
+          "en": "The library is the place where I can dream."
+        }
+      },
+      {
+        "word": "pobre",
+        "type": "adj.",
+        "en": "poor",
+        "note": "los barrios pobres.",
+        "example": {
+          "es": "Construyeron bibliotecas en los barrios más pobres.",
+          "en": "They built libraries in the poorest neighbourhoods."
+        }
+      },
+      {
+        "word": "ladera",
+        "type": "n.f.",
+        "en": "hillside, slope",
+        "note": "las laderas de la ciudad.",
+        "example": {
+          "es": "La gente que vive en las laderas ahora tiene un lugar.",
+          "en": "The people who live on the hillsides now have a place."
+        }
+      },
+      {
+        "word": "quien / quiénes",
+        "type": "pron. rel.",
+        "en": "who(m)",
+        "note": "For people, often after a comma.",
+        "example": {
+          "es": "Los jóvenes, quienes antes no tenían oportunidades, estudian allí.",
+          "en": "The young people, who previously had no opportunities, study there."
+        }
+      },
+      {
+        "word": "visitante",
+        "type": "n.",
+        "en": "visitor",
+        "note": "los visitantes extranjeros.",
+        "example": {
+          "es": "Lo que más sorprende a los visitantes es la vista.",
+          "en": "What surprises visitors most is the view."
+        }
+      },
+      {
+        "word": "vista",
+        "type": "n.f.",
+        "en": "view",
+        "note": "una vista increíble.",
+        "example": {
+          "es": "La vista de la ciudad es increíble.",
+          "en": "The view of the city is incredible."
+        }
+      },
+      {
+        "word": "crecer",
+        "type": "v.",
+        "en": "to grow (up)",
+        "note": "crecí aquí = I grew up here.",
+        "example": {
+          "es": "Sergio creció en el barrio.",
+          "en": "Sergio grew up in the neighbourhood."
+        }
+      },
+      {
+        "word": "soñar",
+        "type": "v.",
+        "en": "to dream",
+        "note": "soñar con algo = to dream of something.",
+        "example": {
+          "es": "La biblioteca es el lugar donde puedo soñar.",
+          "en": "The library is the place where I can dream."
+        }
+      },
+      {
+        "word": "diseño",
+        "type": "n.m.",
+        "en": "design",
+        "note": "un diseño moderno.",
+        "example": {
+          "es": "Los edificios, cuyo diseño es moderno, son símbolos.",
+          "en": "The buildings, whose design is modern, are symbols."
+        }
+      },
+      {
+        "word": "convertirse",
+        "type": "v.",
+        "en": "to turn into",
+        "note": "Se convirtió en un símbolo.",
+        "example": {
+          "es": "El edificio se convirtió en un símbolo de la ciudad.",
+          "en": "The building became a symbol of the city."
+        }
+      },
+      {
+        "word": "símbolo",
+        "type": "n.m.",
+        "en": "symbol",
+        "note": "un símbolo de la ciudad.",
+        "example": {
+          "es": "Se han convertido en símbolos de la ciudad.",
+          "en": "They have become symbols of the city."
+        }
+      },
+      {
+        "word": "impresión",
+        "type": "n.f.",
+        "en": "impression",
+        "note": "llevarse una buena impresión.",
+        "example": {
+          "es": "Los visitantes se llevan una impresión distinta.",
+          "en": "Visitors take away a different impression."
+        }
+      },
+      {
+        "word": "transformar",
+        "type": "v.",
+        "en": "to transform",
+        "note": "transformar un barrio.",
+        "example": {
+          "es": "Hay proyectos que transforman barrios enteros.",
+          "en": "There are projects that transform entire neighbourhoods."
+        }
+      },
+      {
+        "word": "entero/a",
+        "type": "adj.",
+        "en": "whole, entire",
+        "note": "barrios enteros.",
+        "example": {
+          "es": "Estos proyectos transforman barrios enteros.",
+          "en": "These projects transform entire neighbourhoods."
+        }
+      },
+      {
+        "word": "lo que",
+        "type": "phr.",
+        "en": "what, the thing that",
+        "note": "Neuter: refers to an idea.",
+        "example": {
+          "es": "Lo que más sorprende es la vista.",
+          "en": "What surprises most is the view."
+        }
+      },
+      {
+        "word": "el cual / la cual",
+        "type": "phr.",
+        "en": "which, who (formal)",
+        "note": "Common after prepositions.",
+        "example": {
+          "es": "La biblioteca, la cual está en la ladera, tiene vistas increíbles.",
+          "en": "The library, which is on the hillside, has incredible views."
+        }
+      },
+      {
+        "word": "Medellín",
+        "type": "n.",
+        "en": "Medellín",
+        "note": "City in Colombia.",
+        "ext": true,
+        "example": {
+          "es": "Medellín hoy es un ejemplo de cambio.",
+          "en": "Medellín is today an example of change."
+        }
+      },
+      {
+        "word": "Sergio",
+        "type": "n.",
+        "en": "Sergio",
+        "note": "A common Spanish name.",
+        "ext": true,
+        "example": {
+          "es": "Sergio creció en el barrio.",
+          "en": "Sergio grew up in the neighbourhood."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 35,
+    "title": "The present subjunctive (intro): wishes & doubt",
+    "words": [
+      {
+        "word": "universidad",
+        "type": "n.f.",
+        "en": "university",
+        "note": "estudiar en la universidad.",
+        "example": {
+          "es": "Quiero que mis hijos estudien en la universidad.",
+          "en": "I want my children to study at university."
+        }
+      },
+      {
+        "word": "economía",
+        "type": "n.f.",
+        "en": "economy",
+        "note": "la economía del país.",
+        "example": {
+          "es": "Espero que mejore la economía del país.",
+          "en": "I hope the country's economy improves."
+        }
+      },
+      {
+        "word": "ojalá",
+        "type": "interj.",
+        "en": "I hope, hopefully",
+        "note": "Always + subjunctive. Borrowed from Arabic.",
+        "example": {
+          "es": "Ojalá llueva pronto.",
+          "en": "I hope it rains soon."
+        }
+      },
+      {
+        "word": "quizá / quizás",
+        "type": "adv.",
+        "en": "maybe, perhaps",
+        "note": "Both forms are correct; usually + subjunctive.",
+        "example": {
+          "es": "Quizá tengamos que mudarnos de ciudad.",
+          "en": "Maybe we'll have to move to another city."
+        }
+      },
+      {
+        "word": "tal vez",
+        "type": "phr.",
+        "en": "maybe, perhaps",
+        "note": "Usually + subjunctive.",
+        "example": {
+          "es": "Tal vez venga mañana.",
+          "en": "Maybe he'll come tomorrow."
+        }
+      },
+      {
+        "word": "mejorar",
+        "type": "v.",
+        "en": "to improve",
+        "note": "mejorar la situación.",
+        "example": {
+          "es": "Espero que este año mejore la economía.",
+          "en": "I hope the economy improves this year."
+        }
+      },
+      {
+        "word": "lástima",
+        "type": "n.f.",
+        "en": "shame, pity",
+        "note": "Es una lástima que…",
+        "example": {
+          "es": "Es una lástima que tanta gente emigre.",
+          "en": "It's a shame that so many people emigrate."
+        }
+      },
+      {
+        "word": "emigrar",
+        "type": "v.",
+        "en": "to emigrate",
+        "note": "emigrar a otro país.",
+        "example": {
+          "es": "Es una lástima que tanta gente joven emigre.",
+          "en": "It's a shame that so many young people emigrate."
+        }
+      },
+      {
+        "word": "emigrante",
+        "type": "n.",
+        "en": "emigrant",
+        "note": "Contrast: inmigrante (arrives).",
+        "example": {
+          "es": "Muchos emigrantes buscan trabajo fuera.",
+          "en": "Many emigrants look for work abroad."
+        }
+      },
+      {
+        "word": "solución",
+        "type": "n.f.",
+        "en": "solution",
+        "note": "buscar una solución.",
+        "example": {
+          "es": "Ojalá encontremos una solución.",
+          "en": "I hope we find a solution."
+        }
+      },
+      {
+        "word": "valer la pena",
+        "type": "phr.",
+        "en": "to be worth it",
+        "note": "Vale la pena intentarlo.",
+        "example": {
+          "es": "Quizá sea difícil, pero vale la pena intentarlo.",
+          "en": "Maybe it will be difficult, but it's worth trying."
+        }
+      },
+      {
+        "word": "generación",
+        "type": "n.f.",
+        "en": "generation",
+        "note": "la próxima generación.",
+        "example": {
+          "es": "Espero que la próxima generación viva mejor.",
+          "en": "I hope the next generation lives better."
+        }
+      },
+      {
+        "word": "dudar",
+        "type": "v.",
+        "en": "to doubt",
+        "note": "dudar que + subjunctive.",
+        "example": {
+          "es": "No dudo que la juventud quiera quedarse.",
+          "en": "I don't doubt that young people want to stay."
+        }
+      },
+      {
+        "word": "cumplirse",
+        "type": "v.",
+        "en": "to come true",
+        "note": "Ojalá se cumpla.",
+        "example": {
+          "es": "Ojalá se cumpla tu deseo.",
+          "en": "I hope your wish comes true."
+        }
+      },
+      {
+        "word": "sueño",
+        "type": "n.m.",
+        "en": "dream",
+        "note": "tener un sueño.",
+        "example": {
+          "es": "Mi gran sueño es una vida digna.",
+          "en": "My great dream is a dignified life."
+        }
+      },
+      {
+        "word": "deseo",
+        "type": "n.m.",
+        "en": "wish, desire",
+        "note": "un deseo profundo.",
+        "example": {
+          "es": "Su deseo es vivir en paz.",
+          "en": "Her wish is to live in peace."
+        }
+      },
+      {
+        "word": "meta",
+        "type": "n.f.",
+        "en": "goal",
+        "note": "alcanzar una meta.",
+        "example": {
+          "es": "Mi meta es terminar mis estudios.",
+          "en": "My goal is to finish my studies."
+        }
+      },
+      {
+        "word": "ilusión",
+        "type": "n.f.",
+        "en": "hope, excitement",
+        "note": "tener ilusión por algo.",
+        "example": {
+          "es": "Tengo mucha ilusión por este proyecto.",
+          "en": "I'm very excited about this project."
+        }
+      },
+      {
+        "word": "pobreza",
+        "type": "n.f.",
+        "en": "poverty",
+        "note": "luchar contra la pobreza.",
+        "example": {
+          "es": "Quiero que se reduzca la pobreza.",
+          "en": "I want poverty to be reduced."
+        }
+      },
+      {
+        "word": "riqueza",
+        "type": "n.f.",
+        "en": "wealth",
+        "note": "Contrast: pobreza.",
+        "example": {
+          "es": "Espero que la riqueza llegue a todos.",
+          "en": "I hope wealth reaches everyone."
+        }
+      },
+      {
+        "word": "desear",
+        "type": "v.",
+        "en": "to wish, to want",
+        "note": "desear que + subjunctive.",
+        "example": {
+          "es": "Deseo que todo salga bien.",
+          "en": "I wish everything turns out well."
+        }
+      },
+      {
+        "word": "tanta / tanto",
+        "type": "adj.",
+        "en": "so much, so many",
+        "note": "tanta gente joven.",
+        "example": {
+          "es": "Es una lástima que tanta gente emigre.",
+          "en": "It's a shame that so many people emigrate."
+        }
+      },
+      {
+        "word": "juventud",
+        "type": "n.f.",
+        "en": "youth, young people",
+        "note": "la juventud de hoy.",
+        "example": {
+          "es": "No dudo que la juventud quiera quedarse.",
+          "en": "I don't doubt that young people want to stay."
+        }
+      },
+      {
+        "word": "crisis",
+        "type": "n.f.",
+        "en": "crisis",
+        "note": "una crisis económica.",
+        "example": {
+          "es": "Espero que la crisis termine pronto.",
+          "en": "I hope the crisis ends soon."
+        }
+      },
+      {
+        "word": "suerte",
+        "type": "n.f.",
+        "en": "luck",
+        "note": "tener suerte / ¡Buena suerte!",
+        "example": {
+          "es": "Ojalá tengas suerte con el trabajo.",
+          "en": "I hope you're lucky with the job."
+        }
+      },
+      {
+        "word": "seguramente",
+        "type": "adv.",
+        "en": "probably, surely",
+        "note": "Seguramente vendrá.",
+        "example": {
+          "es": "Seguramente encontraremos una solución.",
+          "en": "We'll probably find a solution."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 36,
+    "title": "Subjunctive with emotions & impersonal expressions",
+    "words": [
+      {
+        "word": "alegrarse (de)",
+        "type": "v.",
+        "en": "to be glad",
+        "note": "Me alegra que… / Me alegro de que…",
+        "example": {
+          "es": "Me alegra que el barrio tenga un parque nuevo.",
+          "en": "I'm glad the neighbourhood has a new park."
+        }
+      },
+      {
+        "word": "alegría",
+        "type": "n.f.",
+        "en": "joy",
+        "note": "una gran alegría.",
+        "example": {
+          "es": "La noticia nos dio una gran alegría.",
+          "en": "The news gave us great joy."
+        }
+      },
+      {
+        "word": "emoción",
+        "type": "n.f.",
+        "en": "emotion, excitement",
+        "note": "sentir emoción.",
+        "example": {
+          "es": "Siento mucha emoción por el proyecto.",
+          "en": "I feel great excitement about the project."
+        }
+      },
+      {
+        "word": "sorprendente",
+        "type": "adj.",
+        "en": "surprising",
+        "note": "Es sorprendente que…",
+        "example": {
+          "es": "Es sorprendente que la comunidad se organice tan rápido.",
+          "en": "It's surprising that the community organises itself so quickly."
+        }
+      },
+      {
+        "word": "normal",
+        "type": "adj.",
+        "en": "normal",
+        "note": "Es normal que…",
+        "example": {
+          "es": "Es normal que la gente quiera mejorar.",
+          "en": "It's normal that people want to improve."
+        }
+      },
+      {
+        "word": "comunidad",
+        "type": "n.f.",
+        "en": "community",
+        "note": "la comunidad del barrio.",
+        "example": {
+          "es": "La comunidad se organiza para ayudar.",
+          "en": "The community organises itself to help."
+        }
+      },
+      {
+        "word": "autoridad",
+        "type": "n.f.",
+        "en": "authority",
+        "note": "Usually plural: las autoridades.",
+        "example": {
+          "es": "Es importante que las autoridades escuchen.",
+          "en": "It's important that the authorities listen."
+        }
+      },
+      {
+        "word": "transporte",
+        "type": "n.m.",
+        "en": "transport",
+        "note": "el transporte público.",
+        "example": {
+          "es": "Me molesta que no haya más transporte público.",
+          "en": "It annoys me that there isn't more public transport."
+        }
+      },
+      {
+        "word": "posible",
+        "type": "adj.",
+        "en": "possible",
+        "note": "Es posible que + subjunctive.",
+        "example": {
+          "es": "Es posible que abran una escuela.",
+          "en": "It's possible that they'll open a school."
+        }
+      },
+      {
+        "word": "probable",
+        "type": "adj.",
+        "en": "probable, likely",
+        "note": "Es probable que + subjunctive.",
+        "example": {
+          "es": "Es probable que tarden un poco.",
+          "en": "They'll probably take a while."
+        }
+      },
+      {
+        "word": "necesario",
+        "type": "adj.",
+        "en": "necessary",
+        "note": "Es necesario que + subjunctive.",
+        "example": {
+          "es": "Es necesario que empecemos ahora.",
+          "en": "It's necessary that we start now."
+        }
+      },
+      {
+        "word": "urgente",
+        "type": "adj.",
+        "en": "urgent",
+        "note": "Es urgente que + subjunctive.",
+        "example": {
+          "es": "Es urgente que arreglen los caminos.",
+          "en": "It's urgent that they fix the roads."
+        }
+      },
+      {
+        "word": "increíble",
+        "type": "adj.",
+        "en": "incredible",
+        "note": "Es increíble que + subjunctive.",
+        "example": {
+          "es": "Es increíble que hayan hecho tanto.",
+          "en": "It's incredible that they have done so much."
+        }
+      },
+      {
+        "word": "curioso/a",
+        "type": "adj.",
+        "en": "curious, strange",
+        "note": "Es curioso que…",
+        "example": {
+          "es": "Es curioso que nadie lo sepa.",
+          "en": "It's strange that nobody knows."
+        }
+      },
+      {
+        "word": "vecino/a",
+        "type": "n.",
+        "en": "neighbour",
+        "note": "los vecinos del barrio.",
+        "example": {
+          "es": "Me alegra que los vecinos colaboren.",
+          "en": "I'm glad the neighbours help."
+        }
+      },
+      {
+        "word": "colaborar",
+        "type": "v.",
+        "en": "to collaborate, to help",
+        "note": "colaborar con el proyecto.",
+        "example": {
+          "es": "Los vecinos colaboran sin esperar nada.",
+          "en": "The neighbours help without expecting anything."
+        }
+      },
+      {
+        "word": "tardar",
+        "type": "v.",
+        "en": "to take long, to delay",
+        "note": "tardar en llegar.",
+        "example": {
+          "es": "Me molesta que hayan tardado tanto.",
+          "en": "It annoys me that they've taken so long."
+        }
+      },
+      {
+        "word": "bosque",
+        "type": "n.m.",
+        "en": "forest, wood",
+        "note": "proteger los bosques.",
+        "example": {
+          "es": "Es una pena que se pierdan tantos bosques.",
+          "en": "It's a shame that so many forests are lost."
+        }
+      },
+      {
+        "word": "contento/a",
+        "type": "adj.",
+        "en": "happy, pleased",
+        "note": "Estoy contento con el resultado.",
+        "example": {
+          "es": "Estoy contento con el resultado.",
+          "en": "I'm happy with the result."
+        }
+      },
+      {
+        "word": "orgulloso/a",
+        "type": "adj.",
+        "en": "proud",
+        "note": "Estar orgulloso de algo.",
+        "example": {
+          "es": "Estoy orgulloso de mi barrio.",
+          "en": "I'm proud of my neighbourhood."
+        }
+      },
+      {
+        "word": "preocupar",
+        "type": "v.",
+        "en": "to worry",
+        "note": "Me preocupa que + subjunctive.",
+        "example": {
+          "es": "Me preocupa que se pierdan tantos bosques.",
+          "en": "It worries me that so many forests are lost."
+        }
+      },
+      {
+        "word": "raro/a",
+        "type": "adj.",
+        "en": "strange, rare",
+        "note": "Es raro que + subjunctive.",
+        "example": {
+          "es": "Es raro que no haya nadie.",
+          "en": "It's strange that there's nobody."
+        }
+      },
+      {
+        "word": "pena",
+        "type": "n.f.",
+        "en": "shame, sorrow",
+        "note": "Es una pena que…",
+        "example": {
+          "es": "Es una pena que se pierdan tantos bosques.",
+          "en": "It's a shame that so many forests are lost."
+        }
+      },
+      {
+        "word": "vergüenza",
+        "type": "n.f.",
+        "en": "shame, embarrassment",
+        "note": "Me da vergüenza que…",
+        "example": {
+          "es": "Me da vergüenza que no participen.",
+          "en": "It embarrasses me that they don't take part."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 37,
+    "title": "Subjunctive in adverbial clauses",
+    "words": [
+      {
+        "word": "funcionar",
+        "type": "v.",
+        "en": "to work, to function",
+        "note": "El proyecto funciona.",
+        "example": {
+          "es": "Para que el proyecto funcione, todos deben participar.",
+          "en": "For the project to work, everyone has to take part."
+        }
+      },
+      {
+        "word": "reducir",
+        "type": "v.",
+        "en": "to reduce",
+        "note": "reducir la contaminación.",
+        "example": {
+          "es": "Tenemos que reducir la contaminación.",
+          "en": "We have to reduce pollution."
+        }
+      },
+      {
+        "word": "contaminación",
+        "type": "n.f.",
+        "en": "pollution",
+        "note": "la contaminación del aire.",
+        "example": {
+          "es": "Hay que reducir la contaminación.",
+          "en": "We have to reduce pollution."
+        }
+      },
+      {
+        "word": "contaminar",
+        "type": "v.",
+        "en": "to pollute",
+        "note": "No contamines el río.",
+        "example": {
+          "es": "Las fábricas contaminan el río.",
+          "en": "The factories pollute the river."
+        }
+      },
+      {
+        "word": "arreglar",
+        "type": "v.",
+        "en": "to fix, to repair",
+        "note": "arreglar los caminos.",
+        "example": {
+          "es": "Antes de que llegue el invierno, hay que arreglar los caminos.",
+          "en": "Before winter arrives, we have to fix the roads."
+        }
+      },
+      {
+        "word": "camino",
+        "type": "n.m.",
+        "en": "road, path, way",
+        "note": "un camino de tierra.",
+        "example": {
+          "es": "El camino al pueblo está en mal estado.",
+          "en": "The road to the town is in bad condition."
+        }
+      },
+      {
+        "word": "cosecha",
+        "type": "n.f.",
+        "en": "harvest",
+        "note": "la cosecha del año.",
+        "example": {
+          "es": "A menos que llueva, la cosecha se perderá.",
+          "en": "Unless it rains, the harvest will be lost."
+        }
+      },
+      {
+        "word": "huerto",
+        "type": "n.m.",
+        "en": "vegetable garden",
+        "note": "un huerto comunitario.",
+        "example": {
+          "es": "Tenemos un huerto comunitario en el barrio.",
+          "en": "We have a community garden in the neighbourhood."
+        }
+      },
+      {
+        "word": "plantar",
+        "type": "v.",
+        "en": "to plant",
+        "note": "plantar semillas.",
+        "example": {
+          "es": "Antes de que llegue el frío, hay que plantar.",
+          "en": "Before the cold arrives, we have to plant."
+        }
+      },
+      {
+        "word": "paciencia",
+        "type": "n.f.",
+        "en": "patience",
+        "note": "tener paciencia.",
+        "example": {
+          "es": "Para que una idea crezca, hace falta paciencia.",
+          "en": "For an idea to grow, patience is needed."
+        }
+      },
+      {
+        "word": "obstáculo",
+        "type": "n.m.",
+        "en": "obstacle",
+        "note": "superar un obstáculo.",
+        "example": {
+          "es": "Aunque haya obstáculos, la gente no se rinde.",
+          "en": "Even if there are obstacles, people don't give up."
+        }
+      },
+      {
+        "word": "rendirse",
+        "type": "v.",
+        "en": "to give up",
+        "note": "No te rindas.",
+        "example": {
+          "es": "La gente no se rinde.",
+          "en": "People don't give up."
+        }
+      },
+      {
+        "word": "demasiado",
+        "type": "adv./adj.",
+        "en": "too much, too many",
+        "note": "demasiado tarde.",
+        "example": {
+          "es": "Es mejor actuar antes de que sea demasiado tarde.",
+          "en": "It's better to act before it's too late."
+        }
+      },
+      {
+        "word": "adelante",
+        "type": "adv.",
+        "en": "forward, ahead",
+        "note": "seguir adelante.",
+        "example": {
+          "es": "Seguiremos adelante aunque el camino sea largo.",
+          "en": "We'll carry on even if the road is long."
+        }
+      },
+      {
+        "word": "conseguir",
+        "type": "v.",
+        "en": "to get, to obtain",
+        "note": "conseguir ayuda.",
+        "example": {
+          "es": "A menos que consigamos ayuda, no terminaremos.",
+          "en": "Unless we get help, we won't finish."
+        }
+      },
+      {
+        "word": "medio ambiente",
+        "type": "n.m.",
+        "en": "environment",
+        "note": "proteger el medio ambiente.",
+        "example": {
+          "es": "Todos debemos proteger el medio ambiente.",
+          "en": "We all must protect the environment."
+        }
+      },
+      {
+        "word": "sequía",
+        "type": "n.f.",
+        "en": "drought",
+        "note": "una larga sequía.",
+        "example": {
+          "es": "La sequía dura ya varios meses.",
+          "en": "The drought has lasted several months now."
+        }
+      },
+      {
+        "word": "desarrollo",
+        "type": "n.m.",
+        "en": "development",
+        "note": "el desarrollo sostenible.",
+        "example": {
+          "es": "Queremos un desarrollo sostenible.",
+          "en": "We want sustainable development."
+        }
+      },
+      {
+        "word": "sostenible",
+        "type": "adj.",
+        "en": "sustainable",
+        "note": "un proyecto sostenible.",
+        "example": {
+          "es": "Es un proyecto sostenible y ecológico.",
+          "en": "It's a sustainable and eco-friendly project."
+        }
+      },
+      {
+        "word": "proteger",
+        "type": "v.",
+        "en": "to protect",
+        "note": "proteger la naturaleza.",
+        "example": {
+          "es": "Hay que proteger la naturaleza.",
+          "en": "We have to protect nature."
+        }
+      },
+      {
+        "word": "reciclar",
+        "type": "v.",
+        "en": "to recycle",
+        "note": "reciclar el papel.",
+        "example": {
+          "es": "Reciclamos el papel y el vidrio.",
+          "en": "We recycle paper and glass."
+        }
+      },
+      {
+        "word": "basura",
+        "type": "n.f.",
+        "en": "rubbish, trash",
+        "note": "tirar la basura.",
+        "example": {
+          "es": "No tires basura al río.",
+          "en": "Don't throw rubbish into the river."
+        }
+      },
+      {
+        "word": "ecológico/a",
+        "type": "adj.",
+        "en": "eco-friendly",
+        "note": "un coche ecológico.",
+        "example": {
+          "es": "Prefieren productos ecológicos.",
+          "en": "They prefer eco-friendly products."
+        }
+      },
+      {
+        "word": "naturaleza",
+        "type": "n.f.",
+        "en": "nature",
+        "note": "proteger la naturaleza.",
+        "example": {
+          "es": "Hay que cuidar la naturaleza.",
+          "en": "We have to look after nature."
+        }
+      },
+      {
+        "word": "energía",
+        "type": "n.f.",
+        "en": "energy",
+        "note": "energía solar.",
+        "example": {
+          "es": "La energía solar es más limpia.",
+          "en": "Solar energy is cleaner."
+        }
+      },
+      {
+        "word": "cuidar",
+        "type": "v.",
+        "en": "to look after",
+        "note": "cuidar el planeta.",
+        "example": {
+          "es": "Tenemos que cuidar el planeta.",
+          "en": "We have to look after the planet."
+        }
+      },
+      {
+        "word": "ahorrar",
+        "type": "v.",
+        "en": "to save (money, energy)",
+        "note": "ahorrar agua.",
+        "example": {
+          "es": "Para ahorrar agua, cierran el grifo.",
+          "en": "To save water, they turn off the tap."
+        }
+      },
+      {
+        "word": "peligro",
+        "type": "n.m.",
+        "en": "danger",
+        "note": "estar en peligro.",
+        "example": {
+          "es": "El bosque está en peligro.",
+          "en": "The forest is in danger."
+        }
+      },
+      {
+        "word": "a menos que",
+        "type": "phr.",
+        "en": "unless",
+        "note": "Always + subjunctive.",
+        "example": {
+          "es": "A menos que llueva pronto, la cosecha se perderá.",
+          "en": "Unless it rains soon, the harvest will be lost."
+        }
+      },
+      {
+        "word": "antes de que",
+        "type": "phr.",
+        "en": "before",
+        "note": "+ subjunctive; before one subject use antes de + inf.",
+        "example": {
+          "es": "Antes de que llegue el invierno, arreglamos los caminos.",
+          "en": "Before winter arrives, we fix the roads."
+        }
+      },
+      {
+        "word": "para que",
+        "type": "phr.",
+        "en": "so that",
+        "note": "+ subjunctive; same subject uses para + inf.",
+        "example": {
+          "es": "Para que el proyecto funcione, todos deben participar.",
+          "en": "For the project to work, everyone has to take part."
+        }
+      },
+      {
+        "word": "sin que",
+        "type": "phr.",
+        "en": "without",
+        "note": "+ subjunctive; same subject uses sin + inf.",
+        "example": {
+          "es": "Trabajamos juntos sin que nadie nos lo pida.",
+          "en": "We work together without anyone asking us to."
+        }
+      },
+      {
+        "word": "siempre que",
+        "type": "phr.",
+        "en": "as long as, provided that",
+        "note": "+ subjunctive.",
+        "example": {
+          "es": "Iremos siempre que haga buen tiempo.",
+          "en": "We'll go as long as the weather is good."
+        }
+      },
+      {
+        "word": "en cuanto",
+        "type": "phr.",
+        "en": "as soon as",
+        "note": "+ subjunctive for the future.",
+        "example": {
+          "es": "En cuanto termine, te llamo.",
+          "en": "As soon as I finish, I'll call you."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 38,
+    "title": "Subjunctive in adjective clauses",
+    "words": [
+      {
+        "word": "permitir",
+        "type": "v.",
+        "en": "to allow",
+        "note": "permitir hacer algo.",
+        "example": {
+          "es": "Busco un trabajo que me permita ayudar a la gente.",
+          "en": "I'm looking for a job that allows me to help people."
+        }
+      },
+      {
+        "word": "alguien",
+        "type": "pron.",
+        "en": "someone, somebody",
+        "note": "Opposite: nadie.",
+        "example": {
+          "es": "¿Conoces a alguien que sepa arreglar computadoras?",
+          "en": "Do you know anyone who knows how to fix computers?"
+        }
+      },
+      {
+        "word": "ninguno / ningún",
+        "type": "adj./pron.",
+        "en": "no, none, not any",
+        "note": "Use ningún before a masculine singular noun.",
+        "example": {
+          "es": "No encuentro ningún curso que me convenza.",
+          "en": "I can't find any course that convinces me."
+        }
+      },
+      {
+        "word": "computadora",
+        "type": "n.f.",
+        "en": "computer",
+        "note": "Latin America. In Spain: ordenador.",
+        "example": {
+          "es": "¿Sabes arreglar computadoras?",
+          "en": "Do you know how to fix computers?"
+        }
+      },
+      {
+        "word": "ordenador",
+        "type": "n.m.",
+        "en": "computer",
+        "note": "Spain; Latin America uses computadora.",
+        "example": {
+          "es": "Trabajo con el ordenador todo el día.",
+          "en": "I work with the computer all day."
+        }
+      },
+      {
+        "word": "motivar",
+        "type": "v.",
+        "en": "to motivate",
+        "note": "algo que te motive.",
+        "example": {
+          "es": "Busco algo que me motive cada mañana.",
+          "en": "I'm looking for something that motivates me every morning."
+        }
+      },
+      {
+        "word": "convencer",
+        "type": "v.",
+        "en": "to convince",
+        "note": "un curso que me convenza.",
+        "example": {
+          "es": "No encuentro ningún curso que me convenza.",
+          "en": "I can't find any course that convinces me."
+        }
+      },
+      {
+        "word": "tipo",
+        "type": "n.m.",
+        "en": "type, kind",
+        "note": "¿Qué tipo de trabajo buscas?",
+        "example": {
+          "es": "¿Qué tipo de trabajo quieres?",
+          "en": "What kind of job do you want?"
+        }
+      },
+      {
+        "word": "oferta",
+        "type": "n.f.",
+        "en": "offer, job offer",
+        "note": "una oferta de empleo.",
+        "example": {
+          "es": "No conozco a nadie que tenga una oferta así.",
+          "en": "I don't know anyone who has an offer like that."
+        }
+      },
+      {
+        "word": "poco/a",
+        "type": "adj./adv.",
+        "en": "little, few",
+        "note": "por poco dinero; pocos empleos.",
+        "example": {
+          "es": "No hay nadie que quiera trabajar por tan poco dinero.",
+          "en": "There's nobody who wants to work for so little money."
+        }
+      },
+      {
+        "word": "empleo",
+        "type": "n.m.",
+        "en": "job, employment",
+        "note": "buscar empleo.",
+        "example": {
+          "es": "Hay pocos empleos que ofrezcan un buen salario.",
+          "en": "There are few jobs that offer a good salary."
+        }
+      },
+      {
+        "word": "ofrecer",
+        "type": "v.",
+        "en": "to offer",
+        "note": "ofrecer un puesto.",
+        "example": {
+          "es": "Ofrecen un buen salario.",
+          "en": "They offer a good salary."
+        }
+      },
+      {
+        "word": "salario",
+        "type": "n.m.",
+        "en": "salary, wage",
+        "note": "un buen salario.",
+        "example": {
+          "es": "Pocos empleos ofrecen un buen salario.",
+          "en": "Few jobs offer a good salary."
+        }
+      },
+      {
+        "word": "sueldo",
+        "type": "n.m.",
+        "en": "salary, pay",
+        "note": "Synonym of salario.",
+        "example": {
+          "es": "El sueldo no es muy alto.",
+          "en": "The salary isn't very high."
+        }
+      },
+      {
+        "word": "tranquilidad",
+        "type": "n.f.",
+        "en": "calm, peace of mind",
+        "note": "un lugar con tranquilidad.",
+        "example": {
+          "es": "Necesito un lugar que me dé tranquilidad.",
+          "en": "I need a place that gives me peace of mind."
+        }
+      },
+      {
+        "word": "existir",
+        "type": "v.",
+        "en": "to exist",
+        "note": "No existe una fórmula.",
+        "example": {
+          "es": "No existe una fórmula que funcione para todos.",
+          "en": "There is no formula that works for everyone."
+        }
+      },
+      {
+        "word": "fórmula",
+        "type": "n.f.",
+        "en": "formula",
+        "note": "una fórmula mágica.",
+        "example": {
+          "es": "No existe una fórmula que funcione para todos.",
+          "en": "There is no formula that works for everyone."
+        }
+      },
+      {
+        "word": "requisito",
+        "type": "n.m.",
+        "en": "requirement",
+        "note": "cumplir los requisitos.",
+        "example": {
+          "es": "El puesto tiene varios requisitos.",
+          "en": "The position has several requirements."
+        }
+      },
+      {
+        "word": "currículum",
+        "type": "n.m.",
+        "en": "CV, résumé",
+        "note": "enviar el currículum.",
+        "example": {
+          "es": "Envié mi currículum a la empresa.",
+          "en": "I sent my CV to the company."
+        }
+      },
+      {
+        "word": "entrevista",
+        "type": "n.f.",
+        "en": "interview",
+        "note": "una entrevista de trabajo.",
+        "example": {
+          "es": "Tengo una entrevista de trabajo mañana.",
+          "en": "I have a job interview tomorrow."
+        }
+      },
+      {
+        "word": "habilidad",
+        "type": "n.f.",
+        "en": "skill, ability",
+        "note": "tener habilidades.",
+        "example": {
+          "es": "Es una persona con muchas habilidades.",
+          "en": "She's a person with many skills."
+        }
+      },
+      {
+        "word": "puesto",
+        "type": "n.m.",
+        "en": "position, post",
+        "note": "un puesto de trabajo.",
+        "example": {
+          "es": "Solicité un puesto en la empresa.",
+          "en": "I applied for a position at the company."
+        }
+      },
+      {
+        "word": "solicitar",
+        "type": "v.",
+        "en": "to apply for",
+        "note": "solicitar un empleo.",
+        "example": {
+          "es": "Quiero solicitar ese empleo.",
+          "en": "I want to apply for that job."
+        }
+      },
+      {
+        "word": "contrato",
+        "type": "n.m.",
+        "en": "contract",
+        "note": "un contrato fijo.",
+        "example": {
+          "es": "Firmaron un contrato de un año.",
+          "en": "They signed a one-year contract."
+        }
+      },
+      {
+        "word": "jornada",
+        "type": "n.f.",
+        "en": "working day",
+        "note": "una jornada larga.",
+        "example": {
+          "es": "Trabajo una jornada completa.",
+          "en": "I work a full working day."
+        }
+      },
+      {
+        "word": "teletrabajo",
+        "type": "n.m.",
+        "en": "remote work",
+        "note": "trabajar desde casa.",
+        "example": {
+          "es": "Prefiero el teletrabajo.",
+          "en": "I prefer remote work."
+        }
+      },
+      {
+        "word": "candidato/a",
+        "type": "n.",
+        "en": "candidate",
+        "note": "los candidatos al puesto.",
+        "example": {
+          "es": "Hay muchos candidatos para el puesto.",
+          "en": "There are many candidates for the position."
+        }
+      },
+      {
+        "word": "beneficio",
+        "type": "n.m.",
+        "en": "benefit",
+        "note": "beneficios sociales.",
+        "example": {
+          "es": "El puesto ofrece buenos beneficios.",
+          "en": "The position offers good benefits."
+        }
+      },
+      {
+        "word": "flexible",
+        "type": "adj.",
+        "en": "flexible",
+        "note": "un horario flexible.",
+        "example": {
+          "es": "Busco un horario flexible.",
+          "en": "I'm looking for flexible hours."
+        }
+      },
+      {
+        "word": "a tiempo completo",
+        "type": "phr.",
+        "en": "full time",
+        "note": "Contrast: media jornada (part time).",
+        "example": {
+          "es": "Quiero un trabajo a tiempo completo.",
+          "en": "I want a full-time job."
+        }
+      },
+      {
+        "word": "vacante",
+        "type": "n.f.",
+        "en": "vacancy, opening",
+        "note": "una vacante de trabajo.",
+        "ext": true,
+        "example": {
+          "es": "Hay una vacante en la oficina.",
+          "en": "There's a vacancy at the office."
+        }
+      },
+      {
+        "word": "media jornada",
+        "type": "phr.",
+        "en": "part time",
+        "note": "Contrast: a tiempo completo.",
+        "ext": true,
+        "example": {
+          "es": "Trabajo media jornada por las tardes.",
+          "en": "I work part time in the afternoons."
+        }
+      }
+    ]
   }
 ];

@@ -1,0 +1,190 @@
+{
+  "lesson": 34,
+  "title": "Relative clauses",
+  "words": [
+    {
+      "word": "conocido/a",
+      "type": "adj.",
+      "en": "well-known",
+      "note": "conocida por la violencia.",
+      "example": { "es": "Medellín era conocida por la violencia.", "en": "Medellín used to be known for violence." }
+    },
+    {
+      "word": "violencia",
+      "type": "n.f.",
+      "en": "violence",
+      "note": "una ciudad violenta = a violent city.",
+      "example": { "es": "Antes era conocida por la violencia.", "en": "It used to be known for violence." }
+    },
+    {
+      "word": "ejemplo",
+      "type": "n.m.",
+      "en": "example",
+      "note": "un ejemplo de cambio.",
+      "example": { "es": "Hoy es un ejemplo de cambio.", "en": "Today it is an example of change." }
+    },
+    {
+      "word": "cambio",
+      "type": "n.m.",
+      "en": "change",
+      "note": "cambiar = to change.",
+      "example": { "es": "Es un ejemplo de cambio urbano.", "en": "It is an example of urban change." }
+    },
+    {
+      "word": "proyecto",
+      "type": "n.m.",
+      "en": "project",
+      "note": "un proyecto social.",
+      "example": { "es": "El proyecto construyó bibliotecas en los barrios.", "en": "The project built libraries in the neighbourhoods." }
+    },
+    {
+      "word": "cuyo/a",
+      "type": "adj. rel.",
+      "en": "whose",
+      "note": "Agrees with the thing possessed: cuyo objetivo, cuya meta.",
+      "example": { "es": "El proyecto, cuyo objetivo era abrir espacios, cambió la ciudad.", "en": "The project, whose aim was to open spaces, changed the city." }
+    },
+    {
+      "word": "objetivo",
+      "type": "n.m.",
+      "en": "aim, objective",
+      "note": "cuyo objetivo era…",
+      "example": { "es": "Su objetivo era abrir espacios para todos.", "en": "Its aim was to open spaces for everyone." }
+    },
+    {
+      "word": "construir",
+      "type": "v.",
+      "en": "to build",
+      "note": "construyeron = they built.",
+      "example": { "es": "Construyeron bibliotecas en los barrios pobres.", "en": "They built libraries in the poor neighbourhoods." }
+    },
+    {
+      "word": "biblioteca",
+      "type": "n.f.",
+      "en": "library",
+      "note": "una biblioteca pública.",
+      "example": { "es": "La biblioteca es el lugar donde puedo soñar.", "en": "The library is the place where I can dream." }
+    },
+    {
+      "word": "pobre",
+      "type": "adj.",
+      "en": "poor",
+      "note": "los barrios pobres.",
+      "example": { "es": "Construyeron bibliotecas en los barrios más pobres.", "en": "They built libraries in the poorest neighbourhoods." }
+    },
+    {
+      "word": "ladera",
+      "type": "n.f.",
+      "en": "hillside, slope",
+      "note": "las laderas de la ciudad.",
+      "example": { "es": "La gente que vive en las laderas ahora tiene un lugar.", "en": "The people who live on the hillsides now have a place." }
+    },
+    {
+      "word": "quien / quiénes",
+      "type": "pron. rel.",
+      "en": "who(m)",
+      "note": "For people, often after a comma.",
+      "example": { "es": "Los jóvenes, quienes antes no tenían oportunidades, estudian allí.", "en": "The young people, who previously had no opportunities, study there." }
+    },
+    {
+      "word": "visitante",
+      "type": "n.",
+      "en": "visitor",
+      "note": "los visitantes extranjeros.",
+      "example": { "es": "Lo que más sorprende a los visitantes es la vista.", "en": "What surprises visitors most is the view." }
+    },
+    {
+      "word": "vista",
+      "type": "n.f.",
+      "en": "view",
+      "note": "una vista increíble.",
+      "example": { "es": "La vista de la ciudad es increíble.", "en": "The view of the city is incredible." }
+    },
+    {
+      "word": "crecer",
+      "type": "v.",
+      "en": "to grow (up)",
+      "note": "crecí aquí = I grew up here.",
+      "example": { "es": "Sergio creció en el barrio.", "en": "Sergio grew up in the neighbourhood." }
+    },
+    {
+      "word": "soñar",
+      "type": "v.",
+      "en": "to dream",
+      "note": "soñar con algo = to dream of something.",
+      "example": { "es": "La biblioteca es el lugar donde puedo soñar.", "en": "The library is the place where I can dream." }
+    },
+    {
+      "word": "diseño",
+      "type": "n.m.",
+      "en": "design",
+      "note": "un diseño moderno.",
+      "example": { "es": "Los edificios, cuyo diseño es moderno, son símbolos.", "en": "The buildings, whose design is modern, are symbols." }
+    },
+    {
+      "word": "convertirse",
+      "type": "v.",
+      "en": "to turn into",
+      "note": "Se convirtió en un símbolo.",
+      "example": { "es": "El edificio se convirtió en un símbolo de la ciudad.", "en": "The building became a symbol of the city." }
+    },
+    {
+      "word": "símbolo",
+      "type": "n.m.",
+      "en": "symbol",
+      "note": "un símbolo de la ciudad.",
+      "example": { "es": "Se han convertido en símbolos de la ciudad.", "en": "They have become symbols of the city." }
+    },
+    {
+      "word": "impresión",
+      "type": "n.f.",
+      "en": "impression",
+      "note": "llevarse una buena impresión.",
+      "example": { "es": "Los visitantes se llevan una impresión distinta.", "en": "Visitors take away a different impression." }
+    },
+    {
+      "word": "transformar",
+      "type": "v.",
+      "en": "to transform",
+      "note": "transformar un barrio.",
+      "example": { "es": "Hay proyectos que transforman barrios enteros.", "en": "There are projects that transform entire neighbourhoods." }
+    },
+    {
+      "word": "entero/a",
+      "type": "adj.",
+      "en": "whole, entire",
+      "note": "barrios enteros.",
+      "example": { "es": "Estos proyectos transforman barrios enteros.", "en": "These projects transform entire neighbourhoods." }
+    },
+    {
+      "word": "lo que",
+      "type": "phr.",
+      "en": "what, the thing that",
+      "note": "Neuter: refers to an idea.",
+      "example": { "es": "Lo que más sorprende es la vista.", "en": "What surprises most is the view." }
+    },
+    {
+      "word": "el cual / la cual",
+      "type": "phr.",
+      "en": "which, who (formal)",
+      "note": "Common after prepositions.",
+      "example": { "es": "La biblioteca, la cual está en la ladera, tiene vistas increíbles.", "en": "The library, which is on the hillside, has incredible views." }
+    },
+    {
+      "word": "Medellín",
+      "type": "n.",
+      "en": "Medellín",
+      "note": "City in Colombia.",
+      "ext": true,
+      "example": { "es": "Medellín hoy es un ejemplo de cambio.", "en": "Medellín is today an example of change." }
+    },
+    {
+      "word": "Sergio",
+      "type": "n.",
+      "en": "Sergio",
+      "note": "A common Spanish name.",
+      "ext": true,
+      "example": { "es": "Sergio creció en el barrio.", "en": "Sergio grew up in the neighbourhood." }
+    }
+  ]
+}

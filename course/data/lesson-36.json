@@ -1,0 +1,174 @@
+{
+  "lesson": 36,
+  "title": "Subjunctive with emotions & impersonal expressions",
+  "words": [
+    {
+      "word": "alegrarse (de)",
+      "type": "v.",
+      "en": "to be glad",
+      "note": "Me alegra que… / Me alegro de que…",
+      "example": { "es": "Me alegra que el barrio tenga un parque nuevo.", "en": "I'm glad the neighbourhood has a new park." }
+    },
+    {
+      "word": "alegría",
+      "type": "n.f.",
+      "en": "joy",
+      "note": "una gran alegría.",
+      "example": { "es": "La noticia nos dio una gran alegría.", "en": "The news gave us great joy." }
+    },
+    {
+      "word": "emoción",
+      "type": "n.f.",
+      "en": "emotion, excitement",
+      "note": "sentir emoción.",
+      "example": { "es": "Siento mucha emoción por el proyecto.", "en": "I feel great excitement about the project." }
+    },
+    {
+      "word": "sorprendente",
+      "type": "adj.",
+      "en": "surprising",
+      "note": "Es sorprendente que…",
+      "example": { "es": "Es sorprendente que la comunidad se organice tan rápido.", "en": "It's surprising that the community organises itself so quickly." }
+    },
+    {
+      "word": "normal",
+      "type": "adj.",
+      "en": "normal",
+      "note": "Es normal que…",
+      "example": { "es": "Es normal que la gente quiera mejorar.", "en": "It's normal that people want to improve." }
+    },
+    {
+      "word": "comunidad",
+      "type": "n.f.",
+      "en": "community",
+      "note": "la comunidad del barrio.",
+      "example": { "es": "La comunidad se organiza para ayudar.", "en": "The community organises itself to help." }
+    },
+    {
+      "word": "autoridad",
+      "type": "n.f.",
+      "en": "authority",
+      "note": "Usually plural: las autoridades.",
+      "example": { "es": "Es importante que las autoridades escuchen.", "en": "It's important that the authorities listen." }
+    },
+    {
+      "word": "transporte",
+      "type": "n.m.",
+      "en": "transport",
+      "note": "el transporte público.",
+      "example": { "es": "Me molesta que no haya más transporte público.", "en": "It annoys me that there isn't more public transport." }
+    },
+    {
+      "word": "posible",
+      "type": "adj.",
+      "en": "possible",
+      "note": "Es posible que + subjunctive.",
+      "example": { "es": "Es posible que abran una escuela.", "en": "It's possible that they'll open a school." }
+    },
+    {
+      "word": "probable",
+      "type": "adj.",
+      "en": "probable, likely",
+      "note": "Es probable que + subjunctive.",
+      "example": { "es": "Es probable que tarden un poco.", "en": "They'll probably take a while." }
+    },
+    {
+      "word": "necesario",
+      "type": "adj.",
+      "en": "necessary",
+      "note": "Es necesario que + subjunctive.",
+      "example": { "es": "Es necesario que empecemos ahora.", "en": "It's necessary that we start now." }
+    },
+    {
+      "word": "urgente",
+      "type": "adj.",
+      "en": "urgent",
+      "note": "Es urgente que + subjunctive.",
+      "example": { "es": "Es urgente que arreglen los caminos.", "en": "It's urgent that they fix the roads." }
+    },
+    {
+      "word": "increíble",
+      "type": "adj.",
+      "en": "incredible",
+      "note": "Es increíble que + subjunctive.",
+      "example": { "es": "Es increíble que hayan hecho tanto.", "en": "It's incredible that they have done so much." }
+    },
+    {
+      "word": "curioso/a",
+      "type": "adj.",
+      "en": "curious, strange",
+      "note": "Es curioso que…",
+      "example": { "es": "Es curioso que nadie lo sepa.", "en": "It's strange that nobody knows." }
+    },
+    {
+      "word": "vecino/a",
+      "type": "n.",
+      "en": "neighbour",
+      "note": "los vecinos del barrio.",
+      "example": { "es": "Me alegra que los vecinos colaboren.", "en": "I'm glad the neighbours help." }
+    },
+    {
+      "word": "colaborar",
+      "type": "v.",
+      "en": "to collaborate, to help",
+      "note": "colaborar con el proyecto.",
+      "example": { "es": "Los vecinos colaboran sin esperar nada.", "en": "The neighbours help without expecting anything." }
+    },
+    {
+      "word": "tardar",
+      "type": "v.",
+      "en": "to take long, to delay",
+      "note": "tardar en llegar.",
+      "example": { "es": "Me molesta que hayan tardado tanto.", "en": "It annoys me that they've taken so long." }
+    },
+    {
+      "word": "bosque",
+      "type": "n.m.",
+      "en": "forest, wood",
+      "note": "proteger los bosques.",
+      "example": { "es": "Es una pena que se pierdan tantos bosques.", "en": "It's a shame that so many forests are lost." }
+    },
+    {
+      "word": "contento/a",
+      "type": "adj.",
+      "en": "happy, pleased",
+      "note": "Estoy contento con el resultado.",
+      "example": { "es": "Estoy contento con el resultado.", "en": "I'm happy with the result." }
+    },
+    {
+      "word": "orgulloso/a",
+      "type": "adj.",
+      "en": "proud",
+      "note": "Estar orgulloso de algo.",
+      "example": { "es": "Estoy orgulloso de mi barrio.", "en": "I'm proud of my neighbourhood." }
+    },
+    {
+      "word": "preocupar",
+      "type": "v.",
+      "en": "to worry",
+      "note": "Me preocupa que + subjunctive.",
+      "example": { "es": "Me preocupa que se pierdan tantos bosques.", "en": "It worries me that so many forests are lost." }
+    },
+    {
+      "word": "raro/a",
+      "type": "adj.",
+      "en": "strange, rare",
+      "note": "Es raro que + subjunctive.",
+      "example": { "es": "Es raro que no haya nadie.", "en": "It's strange that there's nobody." }
+    },
+    {
+      "word": "pena",
+      "type": "n.f.",
+      "en": "shame, sorrow",
+      "note": "Es una pena que…",
+      "example": { "es": "Es una pena que se pierdan tantos bosques.", "en": "It's a shame that so many forests are lost." }
+    },
+    {
+      "word": "vergüenza",
+      "type": "n.f.",
+      "en": "shame, embarrassment",
+      "note": "Me da vergüenza que…",
+      "example": { "es": "Me da vergüenza que no participen.", "en": "It embarrasses me that they don't take part." }
+    }
+  ]
+}

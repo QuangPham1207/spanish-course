@@ -1,0 +1,232 @@
+{
+  "lesson": 38,
+  "title": "Subjunctive in adjective clauses",
+  "words": [
+    {
+      "word": "permitir",
+      "type": "v.",
+      "en": "to allow",
+      "note": "permitir hacer algo.",
+      "example": { "es": "Busco un trabajo que me permita ayudar a la gente.", "en": "I'm looking for a job that allows me to help people." }
+    },
+    {
+      "word": "alguien",
+      "type": "pron.",
+      "en": "someone, somebody",
+      "note": "Opposite: nadie.",
+      "example": { "es": "¿Conoces a alguien que sepa arreglar computadoras?", "en": "Do you know anyone who knows how to fix computers?" }
+    },
+    {
+      "word": "ninguno / ningún",
+      "type": "adj./pron.",
+      "en": "no, none, not any",
+      "note": "Use ningún before a masculine singular noun.",
+      "example": { "es": "No encuentro ningún curso que me convenza.", "en": "I can't find any course that convinces me." }
+    },
+    {
+      "word": "computadora",
+      "type": "n.f.",
+      "en": "computer",
+      "note": "Latin America. In Spain: ordenador.",
+      "example": { "es": "¿Sabes arreglar computadoras?", "en": "Do you know how to fix computers?" }
+    },
+    {
+      "word": "ordenador",
+      "type": "n.m.",
+      "en": "computer",
+      "note": "Spain; Latin America uses computadora.",
+      "example": { "es": "Trabajo con el ordenador todo el día.", "en": "I work with the computer all day." }
+    },
+    {
+      "word": "motivar",
+      "type": "v.",
+      "en": "to motivate",
+      "note": "algo que te motive.",
+      "example": { "es": "Busco algo que me motive cada mañana.", "en": "I'm looking for something that motivates me every morning." }
+    },
+    {
+      "word": "convencer",
+      "type": "v.",
+      "en": "to convince",
+      "note": "un curso que me convenza.",
+      "example": { "es": "No encuentro ningún curso que me convenza.", "en": "I can't find any course that convinces me." }
+    },
+    {
+      "word": "tipo",
+      "type": "n.m.",
+      "en": "type, kind",
+      "note": "¿Qué tipo de trabajo buscas?",
+      "example": { "es": "¿Qué tipo de trabajo quieres?", "en": "What kind of job do you want?" }
+    },
+    {
+      "word": "oferta",
+      "type": "n.f.",
+      "en": "offer, job offer",
+      "note": "una oferta de empleo.",
+      "example": { "es": "No conozco a nadie que tenga una oferta así.", "en": "I don't know anyone who has an offer like that." }
+    },
+    {
+      "word": "poco/a",
+      "type": "adj./adv.",
+      "en": "little, few",
+      "note": "por poco dinero; pocos empleos.",
+      "example": { "es": "No hay nadie que quiera trabajar por tan poco dinero.", "en": "There's nobody who wants to work for so little money." }
+    },
+    {
+      "word": "empleo",
+      "type": "n.m.",
+      "en": "job, employment",
+      "note": "buscar empleo.",
+      "example": { "es": "Hay pocos empleos que ofrezcan un buen salario.", "en": "There are few jobs that offer a good salary." }
+    },
+    {
+      "word": "ofrecer",
+      "type": "v.",
+      "en": "to offer",
+      "note": "ofrecer un puesto.",
+      "example": { "es": "Ofrecen un buen salario.", "en": "They offer a good salary." }
+    },
+    {
+      "word": "salario",
+      "type": "n.m.",
+      "en": "salary, wage",
+      "note": "un buen salario.",
+      "example": { "es": "Pocos empleos ofrecen un buen salario.", "en": "Few jobs offer a good salary." }
+    },
+    {
+      "word": "sueldo",
+      "type": "n.m.",
+      "en": "salary, pay",
+      "note": "Synonym of salario.",
+      "example": { "es": "El sueldo no es muy alto.", "en": "The salary isn't very high." }
+    },
+    {
+      "word": "tranquilidad",
+      "type": "n.f.",
+      "en": "calm, peace of mind",
+      "note": "un lugar con tranquilidad.",
+      "example": { "es": "Necesito un lugar que me dé tranquilidad.", "en": "I need a place that gives me peace of mind." }
+    },
+    {
+      "word": "existir",
+      "type": "v.",
+      "en": "to exist",
+      "note": "No existe una fórmula.",
+      "example": { "es": "No existe una fórmula que funcione para todos.", "en": "There is no formula that works for everyone." }
+    },
+    {
+      "word": "fórmula",
+      "type": "n.f.",
+      "en": "formula",
+      "note": "una fórmula mágica.",
+      "example": { "es": "No existe una fórmula que funcione para todos.", "en": "There is no formula that works for everyone." }
+    },
+    {
+      "word": "requisito",
+      "type": "n.m.",
+      "en": "requirement",
+      "note": "cumplir los requisitos.",
+      "example": { "es": "El puesto tiene varios requisitos.", "en": "The position has several requirements." }
+    },
+    {
+      "word": "currículum",
+      "type": "n.m.",
+      "en": "CV, résumé",
+      "note": "enviar el currículum.",
+      "example": { "es": "Envié mi currículum a la empresa.", "en": "I sent my CV to the company." }
+    },
+    {
+      "word": "entrevista",
+      "type": "n.f.",
+      "en": "interview",
+      "note": "una entrevista de trabajo.",
+      "example": { "es": "Tengo una entrevista de trabajo mañana.", "en": "I have a job interview tomorrow." }
+    },
+    {
+      "word": "habilidad",
+      "type": "n.f.",
+      "en": "skill, ability",
+      "note": "tener habilidades.",
+      "example": { "es": "Es una persona con muchas habilidades.", "en": "She's a person with many skills." }
+    },
+    {
+      "word": "puesto",
+      "type": "n.m.",
+      "en": "position, post",
+      "note": "un puesto de trabajo.",
+      "example": { "es": "Solicité un puesto en la empresa.", "en": "I applied for a position at the company." }
+    },
+    {
+      "word": "solicitar",
+      "type": "v.",
+      "en": "to apply for",
+      "note": "solicitar un empleo.",
+      "example": { "es": "Quiero solicitar ese empleo.", "en": "I want to apply for that job." }
+    },
+    {
+      "word": "contrato",
+      "type": "n.m.",
+      "en": "contract",
+      "note": "un contrato fijo.",
+      "example": { "es": "Firmaron un contrato de un año.", "en": "They signed a one-year contract." }
+    },
+    {
+      "word": "jornada",
+      "type": "n.f.",
+      "en": "working day",
+      "note": "una jornada larga.",
+      "example": { "es": "Trabajo una jornada completa.", "en": "I work a full working day." }
+    },
+    {
+      "word": "teletrabajo",
+      "type": "n.m.",
+      "en": "remote work",
+      "note": "trabajar desde casa.",
+      "example": { "es": "Prefiero el teletrabajo.", "en": "I prefer remote work." }
+    },
+    {
+      "word": "candidato/a",
+      "type": "n.",
+      "en": "candidate",
+      "note": "los candidatos al puesto.",
+      "example": { "es": "Hay muchos candidatos para el puesto.", "en": "There are many candidates for the position." }
+    },
+    {
+      "word": "beneficio",
+      "type": "n.m.",
+      "en": "benefit",
+      "note": "beneficios sociales.",
+      "example": { "es": "El puesto ofrece buenos beneficios.", "en": "The position offers good benefits." }
+    },
+    {
+      "word": "flexible",
+      "type": "adj.",
+      "en": "flexible",
+      "note": "un horario flexible.",
+      "example": { "es": "Busco un horario flexible.", "en": "I'm looking for flexible hours." }
+    },
+    {
+      "word": "a tiempo completo",
+      "type": "phr.",
+      "en": "full time",
+      "note": "Contrast: media jornada (part time).",
+      "example": { "es": "Quiero un trabajo a tiempo completo.", "en": "I want a full-time job." }
+    },
+    {
+      "word": "vacante",
+      "type": "n.f.",
+      "en": "vacancy, opening",
+      "note": "una vacante de trabajo.",
+      "ext": true,
+      "example": { "es": "Hay una vacante en la oficina.", "en": "There's a vacancy at the office." }
+    },
+    {
+      "word": "media jornada",
+      "type": "phr.",
+      "en": "part time",
+      "note": "Contrast: a tiempo completo.",
+      "ext": true,
+      "example": { "es": "Trabajo media jornada por las tardes.", "en": "I work part time in the afternoons." }
+    }
+  ]
+}

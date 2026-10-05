@@ -1,0 +1,188 @@
+{
+  "lesson": 35,
+  "title": "The present subjunctive (intro): wishes & doubt",
+  "words": [
+    {
+      "word": "universidad",
+      "type": "n.f.",
+      "en": "university",
+      "note": "estudiar en la universidad.",
+      "example": { "es": "Quiero que mis hijos estudien en la universidad.", "en": "I want my children to study at university." }
+    },
+    {
+      "word": "economía",
+      "type": "n.f.",
+      "en": "economy",
+      "note": "la economía del país.",
+      "example": { "es": "Espero que mejore la economía del país.", "en": "I hope the country's economy improves." }
+    },
+    {
+      "word": "ojalá",
+      "type": "interj.",
+      "en": "I hope, hopefully",
+      "note": "Always + subjunctive. Borrowed from Arabic.",
+      "example": { "es": "Ojalá llueva pronto.", "en": "I hope it rains soon." }
+    },
+    {
+      "word": "quizá / quizás",
+      "type": "adv.",
+      "en": "maybe, perhaps",
+      "note": "Both forms are correct; usually + subjunctive.",
+      "example": { "es": "Quizá tengamos que mudarnos de ciudad.", "en": "Maybe we'll have to move to another city." }
+    },
+    {
+      "word": "tal vez",
+      "type": "phr.",
+      "en": "maybe, perhaps",
+      "note": "Usually + subjunctive.",
+      "example": { "es": "Tal vez venga mañana.", "en": "Maybe he'll come tomorrow." }
+    },
+    {
+      "word": "mejorar",
+      "type": "v.",
+      "en": "to improve",
+      "note": "mejorar la situación.",
+      "example": { "es": "Espero que este año mejore la economía.", "en": "I hope the economy improves this year." }
+    },
+    {
+      "word": "lástima",
+      "type": "n.f.",
+      "en": "shame, pity",
+      "note": "Es una lástima que…",
+      "example": { "es": "Es una lástima que tanta gente emigre.", "en": "It's a shame that so many people emigrate." }
+    },
+    {
+      "word": "emigrar",
+      "type": "v.",
+      "en": "to emigrate",
+      "note": "emigrar a otro país.",
+      "example": { "es": "Es una lástima que tanta gente joven emigre.", "en": "It's a shame that so many young people emigrate." }
+    },
+    {
+      "word": "emigrante",
+      "type": "n.",
+      "en": "emigrant",
+      "note": "Contrast: inmigrante (arrives).",
+      "example": { "es": "Muchos emigrantes buscan trabajo fuera.", "en": "Many emigrants look for work abroad." }
+    },
+    {
+      "word": "solución",
+      "type": "n.f.",
+      "en": "solution",
+      "note": "buscar una solución.",
+      "example": { "es": "Ojalá encontremos una solución.", "en": "I hope we find a solution." }
+    },
+    {
+      "word": "valer la pena",
+      "type": "phr.",
+      "en": "to be worth it",
+      "note": "Vale la pena intentarlo.",
+      "example": { "es": "Quizá sea difícil, pero vale la pena intentarlo.", "en": "Maybe it will be difficult, but it's worth trying." }
+    },
+    {
+      "word": "generación",
+      "type": "n.f.",
+      "en": "generation",
+      "note": "la próxima generación.",
+      "example": { "es": "Espero que la próxima generación viva mejor.", "en": "I hope the next generation lives better." }
+    },
+    {
+      "word": "dudar",
+      "type": "v.",
+      "en": "to doubt",
+      "note": "dudar que + subjunctive.",
+      "example": { "es": "No dudo que la juventud quiera quedarse.", "en": "I don't doubt that young people want to stay." }
+    },
+    {
+      "word": "cumplirse",
+      "type": "v.",
+      "en": "to come true",
+      "note": "Ojalá se cumpla.",
+      "example": { "es": "Ojalá se cumpla tu deseo.", "en": "I hope your wish comes true." }
+    },
+    {
+      "word": "sueño",
+      "type": "n.m.",
+      "en": "dream",
+      "note": "tener un sueño.",
+      "example": { "es": "Mi gran sueño es una vida digna.", "en": "My great dream is a dignified life." }
+    },
+    {
+      "word": "deseo",
+      "type": "n.m.",
+      "en": "wish, desire",
+      "note": "un deseo profundo.",
+      "example": { "es": "Su deseo es vivir en paz.", "en": "Her wish is to live in peace." }
+    },
+    {
+      "word": "meta",
+      "type": "n.f.",
+      "en": "goal",
+      "note": "alcanzar una meta.",
+      "example": { "es": "Mi meta es terminar mis estudios.", "en": "My goal is to finish my studies." }
+    },
+    {
+      "word": "ilusión",
+      "type": "n.f.",
+      "en": "hope, excitement",
+      "note": "tener ilusión por algo.",
+      "example": { "es": "Tengo mucha ilusión por este proyecto.", "en": "I'm very excited about this project." }
+    },
+    {
+      "word": "pobreza",
+      "type": "n.f.",
+      "en": "poverty",
+      "note": "luchar contra la pobreza.",
+      "example": { "es": "Quiero que se reduzca la pobreza.", "en": "I want poverty to be reduced." }
+    },
+    {
+      "word": "riqueza",
+      "type": "n.f.",
+      "en": "wealth",
+      "note": "Contrast: pobreza.",
+      "example": { "es": "Espero que la riqueza llegue a todos.", "en": "I hope wealth reaches everyone." }
+    },
+    {
+      "word": "desear",
+      "type": "v.",
+      "en": "to wish, to want",
+      "note": "desear que + subjunctive.",
+      "example": { "es": "Deseo que todo salga bien.", "en": "I wish everything turns out well." }
+    },
+    {
+      "word": "tanta / tanto",
+      "type": "adj.",
+      "en": "so much, so many",
+      "note": "tanta gente joven.",
+      "example": { "es": "Es una lástima que tanta gente emigre.", "en": "It's a shame that so many people emigrate." }
+    },
+    {
+      "word": "juventud",
+      "type": "n.f.",
+      "en": "youth, young people",
+      "note": "la juventud de hoy.",
+      "example": { "es": "No dudo que la juventud quiera quedarse.", "en": "I don't doubt that young people want to stay." }
+    },
+    {
+      "word": "crisis",
+      "type": "n.f.",
+      "en": "crisis",
+      "note": "una crisis económica.",
+      "example": { "es": "Espero que la crisis termine pronto.", "en": "I hope the crisis ends soon." }
+    },
+    {
+      "word": "suerte",
+      "type": "n.f.",
+      "en": "luck",
+      "note": "tener suerte / ¡Buena suerte!",
+      "example": { "es": "Ojalá tengas suerte con el trabajo.", "en": "I hope you're lucky with the job." }
+    },
+    {
+      "word": "seguramente",
+      "type": "adv.",
+      "en": "probably, surely",
+      "note": "Seguramente vendrá.",
+      "example": { "es": "Seguramente encontraremos una solución.", "en": "We'll probably find a solution." }
+    }
+  ]
+}

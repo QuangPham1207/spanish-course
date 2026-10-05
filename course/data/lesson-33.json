@@ -1,0 +1,242 @@
+{
+  "lesson": 33,
+  "title": "The pluperfect & the past-tense timeline",
+  "words": [
+    {
+      "word": "estrellarse",
+      "type": "v.",
+      "en": "to crash",
+      "note": "Reflexive: el avión se estrelló.",
+      "example": { "es": "El avión se estrelló en la cordillera.", "en": "The plane crashed in the mountain range." }
+    },
+    {
+      "word": "cordillera",
+      "type": "n.f.",
+      "en": "mountain range",
+      "note": "la cordillera de los Andes.",
+      "example": { "es": "Volaban sobre la cordillera de los Andes.", "en": "They were flying over the Andes mountain range." }
+    },
+    {
+      "word": "frontera",
+      "type": "n.f.",
+      "en": "border",
+      "note": "cruzar la frontera.",
+      "example": { "es": "Ya habían cruzado la frontera.", "en": "They had already crossed the border." }
+    },
+    {
+      "word": "rescate",
+      "type": "n.m.",
+      "en": "rescue",
+      "note": "los equipos de rescate.",
+      "example": { "es": "Los equipos de rescate llegaron al lugar.", "en": "The rescue teams arrived at the place." }
+    },
+    {
+      "word": "sobrevivir",
+      "type": "v.",
+      "en": "to survive",
+      "note": "sobrevivieron dos meses.",
+      "example": { "es": "Sobrevivieron más de dos meses.", "en": "They survived more than two months." }
+    },
+    {
+      "word": "sobreviviente",
+      "type": "n.",
+      "en": "survivor",
+      "note": "In Spain also superviviente.",
+      "example": { "es": "Los sobrevivientes caminaron por la nieve.", "en": "The survivors walked through the snow." }
+    },
+    {
+      "word": "a bordo",
+      "type": "phr.",
+      "en": "on board",
+      "note": "todo lo que quedaba a bordo.",
+      "example": { "es": "Habían comido todo lo que quedaba a bordo.", "en": "They had eaten everything left on board." }
+    },
+    {
+      "word": "accidente",
+      "type": "n.m.",
+      "en": "accident",
+      "note": "antes del accidente.",
+      "example": { "es": "Antes del accidente, nadie imaginaba esto.", "en": "Before the accident, nobody imagined this." }
+    },
+    {
+      "word": "semejante",
+      "type": "adj.",
+      "en": "such, similar",
+      "note": "una historia semejante.",
+      "example": { "es": "Nadie había imaginado una historia semejante.", "en": "Nobody had imagined such a story." }
+    },
+    {
+      "word": "herida",
+      "type": "n.f.",
+      "en": "wound, injury",
+      "note": "heridas graves.",
+      "example": { "es": "Algunos tenían heridas graves.", "en": "Some had serious injuries." }
+    },
+    {
+      "word": "grave",
+      "type": "adj.",
+      "en": "serious, grave",
+      "note": "Una herida grave.",
+      "example": { "es": "Sobrevivió con heridas graves.", "en": "He survived with serious injuries." }
+    },
+    {
+      "word": "rescatista",
+      "type": "n.",
+      "en": "rescuer",
+      "note": "los rescatistas buscaban.",
+      "example": { "es": "Los rescatistas ya sabían dónde buscar.", "en": "The rescuers already knew where to look." }
+    },
+    {
+      "word": "helicóptero",
+      "type": "n.m.",
+      "en": "helicopter",
+      "note": "el helicóptero aterrizó.",
+      "example": { "es": "Cuando el helicóptero aterrizó, todos salieron.", "en": "When the helicopter landed, everyone came out." }
+    },
+    {
+      "word": "aterrizar",
+      "type": "v.",
+      "en": "to land",
+      "note": "Opposite: despegar (to take off).",
+      "example": { "es": "El avión aterrizó sin problemas.", "en": "The plane landed without problems." }
+    },
+    {
+      "word": "milagro",
+      "type": "n.m.",
+      "en": "miracle",
+      "note": "vivir un milagro.",
+      "example": { "es": "Todos entendieron que habían vivido un milagro.", "en": "Everyone understood that they had lived through a miracle." }
+    },
+    {
+      "word": "piloto",
+      "type": "n.m./f.",
+      "en": "pilot",
+      "note": "los pilotos perdieron el control.",
+      "example": { "es": "El mal tiempo sorprendió a los pilotos.", "en": "The bad weather surprised the pilots." }
+    },
+    {
+      "word": "sorprender",
+      "type": "v.",
+      "en": "to surprise",
+      "note": "El mal tiempo los sorprendió.",
+      "example": { "es": "La tormenta sorprendió a los pilotos.", "en": "The storm surprised the pilots." }
+    },
+    {
+      "word": "mal tiempo",
+      "type": "phr.",
+      "en": "bad weather",
+      "note": "hace mal tiempo = the weather is bad.",
+      "example": { "es": "Había mal tiempo en la montaña.", "en": "There was bad weather in the mountains." }
+    },
+    {
+      "word": "familiar",
+      "type": "n.m.",
+      "en": "relative",
+      "note": "los familiares esperaban.",
+      "example": { "es": "Los familiares habían perdido la esperanza.", "en": "The relatives had lost hope." }
+    },
+    {
+      "word": "documental",
+      "type": "n.m.",
+      "en": "documentary",
+      "note": "un documental sobre los Andes.",
+      "example": { "es": "¿Viste el documental sobre los Andes?", "en": "Did you see the documentary about the Andes?" }
+    },
+    {
+      "word": "compañero/a",
+      "type": "n.",
+      "en": "companion, teammate",
+      "note": "perder a un compañero.",
+      "example": { "es": "Habían perdido a varios compañeros.", "en": "They had lost several teammates." }
+    },
+    {
+      "word": "esfuerzo",
+      "type": "n.m.",
+      "en": "effort",
+      "note": "hacer un esfuerzo.",
+      "example": { "es": "Su esfuerzo había salvado muchas vidas.", "en": "Their effort had saved many lives." }
+    },
+    {
+      "word": "resultado",
+      "type": "n.m.",
+      "en": "result",
+      "note": "buscar sin resultados.",
+      "example": { "es": "Buscaron durante días sin resultados.", "en": "They searched for days without results." }
+    },
+    {
+      "word": "varios/varias",
+      "type": "adj.",
+      "en": "several",
+      "note": "varios compañeros.",
+      "example": { "es": "Habían perdido a varios compañeros.", "en": "They had lost several teammates." }
+    },
+    {
+      "word": "desaparecer",
+      "type": "v.",
+      "en": "to disappear",
+      "note": "El avión desapareció.",
+      "example": { "es": "Cuando el avión desapareció, buscaron ayuda.", "en": "When the plane disappeared, they looked for help." }
+    },
+    {
+      "word": "imaginar",
+      "type": "v.",
+      "en": "to imagine",
+      "note": "Nadie había imaginado esto.",
+      "example": { "es": "Nadie había imaginado una historia así.", "en": "Nobody had imagined a story like that." }
+    },
+    {
+      "word": "solo/a",
+      "type": "adj.",
+      "en": "alone",
+      "note": "Caminaron solos.",
+      "example": { "es": "Tuvieron que caminar solos para pedir ayuda.", "en": "They had to walk alone to ask for help." }
+    },
+    {
+      "word": "nadie",
+      "type": "pron.",
+      "en": "nobody, no one",
+      "note": "Nadie lo sabía.",
+      "example": { "es": "Antes del accidente, nadie había imaginado esto.", "en": "Before the accident, nobody had imagined this." }
+    },
+    {
+      "word": "uruguayo/a",
+      "type": "adj.",
+      "en": "Uruguayan",
+      "note": "From Uruguay.",
+      "ext": true,
+      "example": { "es": "Un equipo de rugby uruguayo viajaba en el avión.", "en": "A Uruguayan rugby team was travelling on the plane." }
+    },
+    {
+      "word": "los Andes",
+      "type": "n.",
+      "en": "the Andes",
+      "note": "Mountain range in South America.",
+      "ext": true,
+      "example": { "es": "El avión se estrelló en los Andes.", "en": "The plane crashed in the Andes." }
+    },
+    {
+      "word": "Montevideo",
+      "type": "n.",
+      "en": "Montevideo",
+      "note": "Capital of Uruguay.",
+      "ext": true,
+      "example": { "es": "El avión había salido de Montevideo.", "en": "The plane had left Montevideo." }
+    },
+    {
+      "word": "rugby",
+      "type": "n.m.",
+      "en": "rugby",
+      "note": "Same word in Spanish.",
+      "ext": true,
+      "example": { "es": "Un equipo de rugby viajaba en el avión.", "en": "A rugby team was travelling on the plane." }
+    },
+    {
+      "word": "GPS",
+      "type": "n.m.",
+      "en": "GPS",
+      "note": "Did not exist in 1972.",
+      "ext": true,
+      "example": { "es": "En 1972 no existían los móviles ni el GPS.", "en": "In 1972 there were no mobile phones or GPS." }
+    }
+  ]
+}

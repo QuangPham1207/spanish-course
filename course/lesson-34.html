@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 34 — Relative clauses</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-33.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 34 — RELATIVE CLAUSES</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Join two ideas into one with <strong>que</strong>, <strong>quien / quienes</strong>, <strong>el cual / la cual</strong> and <strong>cuyo/a</strong>.</li>
+      <li>Use <strong>lo que</strong> for "what / the thing that".</li>
+      <li>Read about how <strong>Medellín</strong> changed through its libraries.</li>
+      <li>Pick up words: <span class="es">proyecto, violencia, ejemplo, biblioteca, ladera, soñar</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">conocido/a, violencia, ejemplo, cambio, proyecto, cuyo/a, objetivo, construir, biblioteca, pobre, ladera, quien/quiénes, visitante, vista, crecer, soñar, diseño, convertir(se), símbolo, impresión, transformar, entero/a, lo que, el cual / la cual</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">Medellín, Sergio</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (LAS BIBLIOTECAS DE MEDELLÍN)</h2>
+<p><strong>Context:</strong> Medellín, in Colombia, was once famous for violence. Today it is an example of urban change. Read each line; the English below it is only a check.</p>
+<p class="lead">(Look for the little words that link ideas: que, quien, cuyo, lo que.)</p>
+
+<div class="phrase">
+  <p class="es"><b>Medellín</b>, <b>que</b> antes era <b>conocida</b> por la <b>violencia</b>, hoy es un <b>ejemplo</b> de <b>cambio</b>.</p>
+  <p class="en">Medellín, which used to be known for violence, is today an example of change.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>proyecto</b>, <b>cuyo</b> <b>objetivo</b> era abrir <b>espacios</b> para todos, <b>construyó</b> <b>bibliotecas</b> en los barrios más <b>pobres</b>.</p>
+  <p class="en">The project, whose aim was to open spaces for everyone, built libraries in the poorest neighbourhoods.</p>
+</div>
+<div class="phrase">
+  <p class="es">La gente <b>que</b> vive en las <b>laderas</b> ahora tiene un lugar al <b>que</b> puede ir.</p>
+  <p class="en">The people who live on the hillsides now have a place to go to.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los jóvenes, <b>quienes</b> antes no tenían oportunidades, estudian y aprenden allí.</p>
+  <p class="en">Young people, who previously had no opportunities, study and learn there.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Lo que</b> más <b>sorprende</b> a los <b>visitantes</b> es la <b>vista</b> de la ciudad desde esas bibliotecas.</p>
+  <p class="en">What surprises visitors most is the view of the city from those libraries.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Sergio</b>, <b>el cual</b> <b>creció</b> en el barrio, dice que su vida cambió.</p>
+  <p class="en">Sergio, who grew up in the neighbourhood, says his life changed.</p>
+</div>
+<div class="phrase">
+  <p class="es">«La biblioteca es el lugar donde puedo <b>soñar</b>», cuenta.</p>
+  <p class="en">"The library is the place where I can dream," he says.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">Medellín</span></td><td data-label="Type">n.</td><td data-label="English">Medellín</td><td data-label="Notes">City in Colombia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Sergio</span></td><td data-label="Type">n.</td><td data-label="English">Sergio</td><td data-label="Notes">A common Spanish name.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> <span class="es">que</span> can mean "that, which, who". It never disappears in Spanish, even when English drops it: <span class="es">el lugar <b>que</b> quiero</span> = "the place I want".</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. <em>que</em> — the workhorse</h3>
+<p><strong>que</strong> joins two sentences and works for people and things. It is by far the most common relative pronoun.</p>
+<ul>
+  <li class="ex"><span class="es">La gente <b>que</b> vive en las laderas tiene un lugar.</span><span class="en">The people who live on the hillsides have a place.</span></li>
+  <li class="ex"><span class="es">Las bibliotecas <b>que</b> construyeron son famosas.</span><span class="en">The libraries that they built are famous.</span></li>
+  <li class="ex"><span class="es">El libro <b>que</b> leo trata de Medellín.</span><span class="en">The book I'm reading is about Medellín.</span> <em>(no "that" in English)</em></li>
+</ul>
+
+<h3>2.2. <em>quien / quienes</em> and <em>el cual / la cual</em></h3>
+<p>Use <strong>quien / quienes</strong> for <em>people</em>, usually after a comma. <strong>el cual / la cual / los cuales / las cuales</strong> is more formal and is common after prepositions.</p>
+<ul>
+  <li class="ex"><span class="es">Sergio, <b>quien</b> creció en el barrio, cuenta su historia.</span><span class="en">Sergio, who grew up in the neighbourhood, tells his story.</span></li>
+  <li class="ex"><span class="es">Los jóvenes, <b>quienes</b> antes no tenían oportunidades, estudian allí.</span><span class="en">The young people, who had no opportunities before, study there.</span></li>
+  <li class="ex"><span class="es">La biblioteca, <b>la cual</b> está en la ladera, tiene vistas increíbles.</span><span class="en">The library, which is on the hillside, has incredible views.</span></li>
+</ul>
+
+<h3>2.3. <em>cuyo/a</em> — "whose"</h3>
+<p><strong>cuyo</strong> shows possession and agrees with the thing <em>possessed</em>, not the owner: <span class="es">cuyo objetivo</span> (m.), <span class="es">cuya idea</span> (f.).</p>
+<ul>
+  <li class="ex"><span class="es">El proyecto, <b>cuyo</b> objetivo era abrir espacios, cambió la ciudad.</span><span class="en">The project, whose aim was to open spaces, changed the city.</span></li>
+  <li class="ex"><span class="es">Medellín, <b>cuya</b> violencia era famosa, hoy recibe turistas.</span><span class="en">Medellín, whose violence was famous, now receives tourists.</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistake:</strong> <em>cuyo</em> agrees with the noun after it: <span class="es">cuyo objetivo</span>, <span class="es">cuya meta</span>. Never say <span class="es">cuyo meta</span>.</div>
+
+<h3>2.4. <em>lo que</em> — "what / the thing that"</h3>
+<p><strong>lo que</strong> is neuter: it refers to an idea or a whole action, not to a specific noun.</p>
+<ul>
+  <li class="ex"><span class="es"><b>Lo que</b> más sorprende es la vista.</span><span class="en">What surprises most is the view.</span></li>
+  <li class="ex"><span class="es"><b>Lo que</b> importa no es el edificio, sino lo que ocurre dentro.</span><span class="en">What matters is not the building, but what happens inside.</span></li>
+  <li class="ex"><span class="es">No entiendo <b>lo que</b> dices.</span><span class="en">I don't understand what you're saying.</span></li>
+</ul>
+
+<h3>2.5. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">conocido/a</span></td><td data-label="Type">adj.</td><td data-label="English">well-known</td><td data-label="Notes">conocida por la violencia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">violencia</span></td><td data-label="Type">n.f.</td><td data-label="English">violence</td><td data-label="Notes">una ciudad violenta = a violent city.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ejemplo</span></td><td data-label="Type">n.m.</td><td data-label="English">example</td><td data-label="Notes">un ejemplo de cambio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cambio</span></td><td data-label="Type">n.m.</td><td data-label="English">change</td><td data-label="Notes">cambiar = to change.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">proyecto</span></td><td data-label="Type">n.m.</td><td data-label="English">project</td><td data-label="Notes">un proyecto social.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cuyo/a</span></td><td data-label="Type">adj. rel.</td><td data-label="English">whose</td><td data-label="Notes">Agrees with the thing possessed.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">objetivo</span></td><td data-label="Type">n.m.</td><td data-label="English">aim, objective</td><td data-label="Notes">cuyo objetivo era…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">construir</span></td><td data-label="Type">v.</td><td data-label="English">to build</td><td data-label="Notes">construyeron = they built.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">biblioteca</span></td><td data-label="Type">n.f.</td><td data-label="English">library</td><td data-label="Notes">una biblioteca pública.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pobre</span></td><td data-label="Type">adj.</td><td data-label="English">poor</td><td data-label="Notes">los barrios pobres.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ladera</span></td><td data-label="Type">n.f.</td><td data-label="English">hillside, slope</td><td data-label="Notes">las laderas de la ciudad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">quien / quiénes</span></td><td data-label="Type">pron. rel.</td><td data-label="English">who(m)</td><td data-label="Notes">For people, often after a comma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">visitante</span></td><td data-label="Type">n.</td><td data-label="English">visitor</td><td data-label="Notes">los visitantes extranjeros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vista</span></td><td data-label="Type">n.f.</td><td data-label="English">view</td><td data-label="Notes">una vista increíble.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">crecer</span></td><td data-label="Type">v.</td><td data-label="English">to grow (up)</td><td data-label="Notes">crecí aquí = I grew up here.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">soñar</span></td><td data-label="Type">v.</td><td data-label="English">to dream</td><td data-label="Notes">soñar con algo = to dream of something.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">diseño</span></td><td data-label="Type">n.m.</td><td data-label="English">design</td><td data-label="Notes">un diseño moderno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">convertirse</span></td><td data-label="Type">v.</td><td data-label="English">to turn into</td><td data-label="Notes">Se convirtió en un símbolo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">símbolo</span></td><td data-label="Type">n.m.</td><td data-label="English">symbol</td><td data-label="Notes">un símbolo de la ciudad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">impresión</span></td><td data-label="Type">n.f.</td><td data-label="English">impression</td><td data-label="Notes">llevarse una buena impresión.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">transformar</span></td><td data-label="Type">v.</td><td data-label="English">to transform</td><td data-label="Notes">transformar un barrio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">entero/a</span></td><td data-label="Type">adj.</td><td data-label="English">whole, entire</td><td data-label="Notes">barrios enteros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lo que</span></td><td data-label="Type">phr.</td><td data-label="English">what, the thing that</td><td data-label="Notes">Neuter: refers to an idea.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">el cual / la cual</span></td><td data-label="Type">phr.</td><td data-label="English">which, who (formal)</td><td data-label="Notes">Common after prepositions.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences built on relatives. Read them once; no need to memorize.</p>
+
+<h3>1. With <em>que</em>:</h3>
+<div class="phrase">
+  <p class="es">La gente que vive en las laderas tiene un lugar al que puede ir.</p>
+  <p class="en">The people who live on the hillsides have a place to go to.</p>
+</div>
+<h3>2. With <em>quienes</em>:</h3>
+<div class="phrase">
+  <p class="es">Los jóvenes, quienes antes no tenían oportunidades, estudian allí.</p>
+  <p class="en">The young people, who previously had no opportunities, study there.</p>
+</div>
+<h3>3. With <em>cuyo</em>:</h3>
+<div class="phrase">
+  <p class="es">El proyecto, cuyo objetivo era abrir espacios, cambió la ciudad.</p>
+  <p class="en">The project, whose aim was to open spaces, changed the city.</p>
+</div>
+<h3>4. With <em>lo que</em>:</h3>
+<div class="phrase">
+  <p class="es">Lo que más sorprende es la vista de la ciudad.</p>
+  <p class="en">What surprises most is the view of the city.</p>
+</div>
+<h3>5. With <em>el cual</em>:</h3>
+<div class="phrase">
+  <p class="es">Sergio, el cual creció en el barrio, dice que su vida cambió.</p>
+  <p class="en">Sergio, who grew up in the neighbourhood, says his life changed.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends talk about Medellín.</p>
+
+<div class="phrase">
+  <p class="es">Ana: ¿Conoces Medellín?</p>
+  <p class="en">Ana: Do you know Medellín?</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Sí, es una ciudad que ha cambiado mucho.</p>
+  <p class="en">Luis: Yes, it's a city that has changed a lot.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: ¿Y qué es lo que más te gustó?</p>
+  <p class="en">Ana: And what did you like most?</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Las bibliotecas, que están en los barrios. La gente que vive allí las usa mucho.</p>
+  <p class="en">Luis: The libraries, which are in the neighbourhoods. The people who live there use them a lot.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: Suena increíble.</p>
+  <p class="en">Ana: That sounds incredible.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>sonar</strong> (to sound), <strong>increíble</strong> (incredible), <strong>usar</strong> (to use).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>que</strong> = that / which / who (people and things, the default).</li>
+  <li><strong>quien / quienes</strong> = who(m), for people, often after a comma.</li>
+  <li><strong>el cual / la cual</strong> = which / who (formal, common after prepositions).</li>
+  <li><strong>cuyo / cuya</strong> = whose (agrees with the thing possessed).</li>
+  <li><strong>lo que</strong> = what / the thing that (neuter, refers to an idea).</li>
+</ul>
+
+<h3>5.2. Further reading — un edificio que cambia vidas</h3>
+<p><strong>Context:</strong> A short note about the libraries. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Hay muchos <b>proyectos</b> que <b>transforman</b> barrios <b>enteros</b>.</p>
+  <p class="en">There are many projects that transform entire neighbourhoods.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>edificios</b>, <b>cuyo diseño</b> es moderno, se han <b>convertido</b> en <b>símbolos</b> de la ciudad.</p>
+  <p class="en">The buildings, whose design is modern, have become symbols of the city.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Quienes</b> visitan Medellín se llevan una <b>impresión distinta</b>.</p>
+  <p class="en">Those who visit Medellín take away a different impression.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Lo que</b> importa no es el edificio, sino lo que <b>ocurre</b> dentro.</p>
+  <p class="en">What matters is not the building, but what happens inside.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>sino</strong> (but rather), <strong>dentro</strong> (inside).</em></p>
+
+<hr>
+<p><strong>End of Lesson 34.</strong> Next, <strong>Lesson 35</strong>: the present subjunctive — wishes and doubt (<em>ojalá, quizá, quiero que…</em>). There is no homework — just read.</p>
+
+<p class="topnav"><a href="lesson-35.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>
