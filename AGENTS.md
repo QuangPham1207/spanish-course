@@ -111,6 +111,11 @@ the learner does not get discouraged.
   only by `vocabulary.html`. NEVER hand-edit.
 - `course/vocabulary.html` — vocabulary index; contains no data, only loads
   the bundle.
+- `course/conjugation-modal.js` — the shared verb-conjugation cheatsheet
+  component (data + UI + modal). **Source of truth** for conjugations. Never
+  copy its data into a lesson.
+- `course/conjugation.html` — thin shell that mounts `conjugation-modal.js`
+  inline (the homepage "Conjugation cheatsheet" link targets this page).
 - `scripts/vocab.mjs` — vocabulary library + CLI.
 
 ### 8.2 Every time you create a new lesson, do ALL THREE
@@ -119,6 +124,17 @@ the learner does not get discouraged.
 3. Run `node scripts/vocab.mjs build` to regenerate
    `course/data/vocab-bundle.js`. Never edit the bundle or `vocabulary.html`
    by hand.
+
+From lesson 22 onward, also add the floating conjugation button by placing
+this single line just before `</body>`:
+
+```html
+<script src="conjugation-modal.js"></script>
+```
+
+It injects the floating button and opens `conjugation-modal.js` as a modal.
+Do NOT copy conjugation data into the lesson; the component is the source of
+truth.
 
 ### 8.3 JSON format
 ```json
