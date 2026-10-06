@@ -1,0 +1,359 @@
+{
+  "lesson": 46,
+  "title": "1492: the Reconquista, expulsion, Columbus",
+  "words": [
+    {
+      "en": "Reconquista (Christian re-conquest)",
+      "example": {
+        "en": "The Reconquista had lasted so long.",
+        "es": "La reconquista había durado tanto."
+      },
+      "note": "Usually capital R; 711–1492.",
+      "type": "n.f.",
+      "word": "reconquista"
+    },
+    {
+      "en": "to capitulate, to surrender (by agreement)",
+      "example": {
+        "en": "Boabdil capitulated before the queen.",
+        "es": "Boabdil capituló ante la reina."
+      },
+      "note": "Boabdil capituló.",
+      "type": "v.",
+      "word": "capitular"
+    },
+    {
+      "en": "capitulation, surrender terms",
+      "example": {
+        "en": "The capitulation was signed to protect the defeated.",
+        "es": "La capitulación fue firmada para proteger a los vencidos."
+      },
+      "note": "Word family: capitular.",
+      "type": "n.f.",
+      "word": "capitulación"
+    },
+    {
+      "en": "Morisco (Muslim converted, often forced)",
+      "example": {
+        "en": "The Muslims who stayed would be called Moriscos.",
+        "es": "Los musulmanes que se quedaron serían llamados moriscos."
+      },
+      "note": "Expelled 1609–1614 (advanced).",
+      "type": "n./adj.",
+      "word": "morisco/a"
+    },
+    {
+      "en": "Jewish; Jew",
+      "example": {
+        "en": "Thousands of Jews were expelled.",
+        "es": "Miles de judíos fueron expulsados."
+      },
+      "note": "Lowercase as adjective in Spanish.",
+      "type": "n./adj.",
+      "word": "judío/a"
+    },
+    {
+      "en": "to expel",
+      "example": {
+        "en": "They too would be expelled.",
+        "es": "También serían expulsados."
+      },
+      "note": "Word family: la expulsión.",
+      "type": "v.",
+      "word": "expulsar"
+    },
+    {
+      "en": "decree",
+      "example": {
+        "en": "The decree was signed in March.",
+        "es": "Se firmó el decreto en marzo."
+      },
+      "note": "El decreto de expulsión.",
+      "type": "n.m.",
+      "word": "decreto"
+    },
+    {
+      "en": "caravel (fast sailing ship)",
+      "example": {
+        "en": "The admiral set sail with two caravels.",
+        "es": "El almirante zarpó con dos carabelas."
+      },
+      "note": "La Niña y la Pinta eran carabelas.",
+      "type": "n.f.",
+      "word": "carabela"
+    },
+    {
+      "en": "to finance",
+      "example": {
+        "en": "The queen decided to finance the venture.",
+        "es": "La reina decidió financiar la empresa."
+      },
+      "note": "La reina decidió financiar.",
+      "type": "v.",
+      "word": "financiar"
+    },
+    {
+      "en": "sponsorship, patronage",
+      "example": {
+        "en": "Royal sponsorship was granted in Santa Fe.",
+        "es": "El patrocinio real fue concedido en Santa Fe."
+      },
+      "note": "El patrocinio real.",
+      "type": "n.m.",
+      "word": "patrocinio"
+    },
+    {
+      "en": "crossing, voyage",
+      "example": {
+        "en": "The crossing lasted ten weeks.",
+        "es": "La travesía duró diez semanas."
+      },
+      "note": "La travesía del Atlántico.",
+      "type": "n.f.",
+      "word": "travesía"
+    },
+    {
+      "en": "to disembark, to land",
+      "example": {
+        "en": "They disembarked on an unknown island.",
+        "es": "Desembarcaron en una isla desconocida."
+      },
+      "note": "Word family: el desembarco.",
+      "type": "v.",
+      "word": "desembarcar"
+    },
+    {
+      "en": "diary, log; daily paper",
+      "example": {
+        "en": "Every night he wrote his diary.",
+        "es": "Cada noche escribía su diario."
+      },
+      "note": "El diario de a bordo (ship's log).",
+      "type": "n.m.",
+      "word": "diario"
+    },
+    {
+      "en": "navigator, seafarer",
+      "example": {
+        "en": "A Genoese navigator looked for money.",
+        "es": "Un navegante genovés buscaba dinero."
+      },
+      "note": "Un navegante genovés.",
+      "type": "n.",
+      "word": "navegante"
+    },
+    {
+      "en": "cartographer, mapmaker",
+      "example": {
+        "en": "The cartographers laughed at his maps.",
+        "es": "Los cartógrafos se reían de sus mapas."
+      },
+      "note": "From carta (map, chart).",
+      "type": "n.",
+      "word": "cartógrafo/a"
+    },
+    {
+      "en": "admiral",
+      "example": {
+        "en": "The admiral wrote his diary for the monarchs.",
+        "es": "El almirante escribía su diario para los reyes."
+      },
+      "note": "Columbus's title.",
+      "type": "n.m.",
+      "word": "almirante"
+    },
+    {
+      "en": "alliance",
+      "example": {
+        "en": "Their alliance with the victors lasted little.",
+        "es": "Su alianza con los vencedores duró poco."
+      },
+      "note": "Su alianza con los vencedores.",
+      "type": "n.f.",
+      "word": "alianza"
+    },
+    {
+      "en": "to found",
+      "example": {
+        "en": "Years later the first ports were founded.",
+        "es": "Años después se fundaron los primeros puertos."
+      },
+      "note": "Se fundaron los puertos.",
+      "type": "v.",
+      "word": "fundar"
+    },
+    {
+      "en": "port, harbour",
+      "example": {
+        "en": "The cartographers of the port laughed.",
+        "es": "Los cartógrafos del puerto se reían."
+      },
+      "note": "Los puertos de Andalucía.",
+      "type": "n.m.",
+      "word": "puerto"
+    },
+    {
+      "en": "treaty",
+      "example": {
+        "en": "Treaties were signed that divided the ocean.",
+        "es": "Se firmaron tratados que dividían el océano."
+      },
+      "note": "Se firmaron tratados.",
+      "type": "n.m.",
+      "word": "tratado"
+    },
+    {
+      "en": "legend",
+      "example": {
+        "en": "The chroniclers turned his weeping into legend.",
+        "es": "Los cronistas convirtieron su llanto en leyenda."
+      },
+      "note": "Hechos y mitos; leyenda.",
+      "type": "n.f.",
+      "word": "leyenda"
+    },
+    {
+      "en": "chronicler",
+      "example": {
+        "en": "Chroniclers mixed facts and myths.",
+        "es": "Los cronistas mezclaban hechos y mitos."
+      },
+      "note": "Word family: la crónica.",
+      "type": "n.",
+      "word": "cronista"
+    },
+    {
+      "en": "myth",
+      "example": {
+        "en": "His farewell became myth.",
+        "es": "Su adiós se convirtió en mito."
+      },
+      "note": "Hechos y mitos.",
+      "type": "n.m.",
+      "word": "mito"
+    },
+    {
+      "en": "war",
+      "example": {
+        "en": "A war of almost eight centuries.",
+        "es": "Una guerra de casi ocho siglos."
+      },
+      "note": "Una guerra de ocho siglos.",
+      "type": "n.f.",
+      "word": "guerra"
+    },
+    {
+      "en": "peace",
+      "example": {
+        "en": "A peace that never came.",
+        "es": "Una paz que nunca llegó."
+      },
+      "note": "Una paz que nunca llegó.",
+      "type": "n.f.",
+      "word": "paz"
+    },
+    {
+      "en": "century",
+      "example": {
+        "en": "The 15th century changed everything.",
+        "es": "El siglo XV lo cambió todo."
+      },
+      "note": "El siglo XV.",
+      "type": "n.m.",
+      "word": "siglo"
+    },
+    {
+      "en": "king",
+      "example": {
+        "en": "The last Muslim king capitulated.",
+        "es": "El último rey musulmán capituló."
+      },
+      "note": "Los Reyes Católicos.",
+      "type": "n.m.",
+      "word": "rey"
+    },
+    {
+      "en": "queen",
+      "example": {
+        "en": "Queen Isabella decided to finance the voyage.",
+        "es": "La reina Isabel decidió financiar el viaje."
+      },
+      "note": "La reina Isabel.",
+      "type": "n.f.",
+      "word": "reina"
+    },
+    {
+      "en": "gold",
+      "example": {
+        "en": "He looked for the gold of Asia.",
+        "es": "Buscaba el oro de Asia."
+      },
+      "note": "El oro de Asia.",
+      "type": "n.m.",
+      "word": "oro"
+    },
+    {
+      "en": "spices",
+      "example": {
+        "en": "He wanted to reach the spices.",
+        "es": "Quería llegar a las especias."
+      },
+      "note": "Usually plural.",
+      "type": "n.f. pl.",
+      "word": "especias"
+    },
+    {
+      "en": "silk",
+      "example": {
+        "en": "The silk route crossed Asia.",
+        "es": "La ruta de la seda cruzaba Asia."
+      },
+      "note": "La ruta de la seda.",
+      "type": "n.f.",
+      "word": "seda"
+    },
+    {
+      "en": "paper; role",
+      "example": {
+        "en": "They carried the bill of sale.",
+        "es": "Llevaban el papel de la venta."
+      },
+      "note": "El papel de la venta (document).",
+      "type": "n.m.",
+      "word": "papel"
+    },
+    {
+      "en": "fortress-palace",
+      "example": {
+        "en": "Pilgrims climb to the fortress-palace.",
+        "es": "Los peregrinos suben al alcázar."
+      },
+      "ext": true,
+      "note": "From Arabic.",
+      "type": "n.m.",
+      "word": "alcázar"
+    },
+    {
+      "en": "cathedral",
+      "example": {
+        "en": "The cathedral of Toledo.",
+        "es": "La catedral de Toledo."
+      },
+      "ext": true,
+      "note": "La catedral de Toledo.",
+      "type": "n.f.",
+      "word": "catedral"
+    },
+    {
+      "en": "pilgrim",
+      "example": {
+        "en": "The pilgrims' road to Santiago.",
+        "es": "El Camino de los peregrinos."
+      },
+      "ext": true,
+      "note": "El Camino, to Santiago.",
+      "type": "n.",
+      "word": "peregrino/a"
+    }
+  ]
+}

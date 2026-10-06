@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 39 — The conditional &amp; si-clauses</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-38.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 39 — THE CONDITIONAL &amp; SI-CLAUSES</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Use the <strong>conditional</strong> (<span class="es">haría, podría, me gustaría</span>) for hypothetical actions, polite requests and advice.</li>
+      <li>Build real conditions with <strong>si + present</strong> (type 1): <span class="es">si aceptas, vivirás…</span>.</li>
+      <li>Build unreal conditions with <strong>si + imperfect subjunctive</strong> (type 2): <span class="es">si tuviera…, aceptaría…</span>.</li>
+      <li>Read about a life decision: a scholarship abroad.</li>
+      <li>Pick up words: <span class="es">beca, préstamo, deuda, alquiler, mudanza, arriesgar, arrepentirse</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">haría, podrías, me gustaría, debería, sería, tendrías, beca, préstamo, deuda, alquiler, mudanza, papeleo, visado, extranjero/a, valentía, indecisión, indeciso/a, supuesto/a, consecuencia, hipótesis, motivo, plazo, merecer, arriesgar, arriesgado/a, arrepentirse, atreverse, costear, emprender, suponer, merecido/a, favor</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">imagínate, cobardía, jubilarse</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (UNA BECA EN EL EXTRANJERO)</h2>
+<p><strong>Context:</strong> Lucía, an architect in Valencia, has been offered a scholarship to study in Bogotá. She turns the decision over in her mind.</p>
+<p class="lead">(Watch the verb forms: <em>si + present</em> for real possibilities, the conditional for imagined results, and <em>si + tuviera</em> for dreams she is less sure about.)</p>
+
+<div class="phrase">
+  <p class="es">A Lucía le han ofrecido una <b>beca</b> para estudiar urbanismo en Bogotá.</p>
+  <p class="en">Lucía has been offered a scholarship to study urban planning in Bogotá.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si acepta la <b>beca</b>, vivirá dos años en el <b>extranjero</b>.</p>
+  <p class="en">If she accepts the scholarship, she will live abroad for two years.</p>
+</div>
+<div class="phrase">
+  <p class="es">El programa le <b>costearía</b> los estudios, pero ella pagaría el <b>alquiler</b> y la <b>mudanza</b>.</p>
+  <p class="en">The programme would cover her studies, but she would pay the rent and the move.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si tuviera que pedir un <b>préstamo</b>, la <b>deuda</b> <b>sería</b> enorme.</p>
+  <p class="en">If she had to take out a loan, the debt would be huge.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su madre dice que <b>debería</b> aceptar y que el <b>papeleo</b> del <b>visado</b> no <b>supone</b> ningún problema.</p>
+  <p class="en">Her mother says she should accept and that the visa paperwork is no problem.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía se pregunta si se <b>arrepentiría</b> de rechazar algo así.</p>
+  <p class="en">Lucía wonders whether she would regret turning down something like this.</p>
+</div>
+<div class="phrase">
+  <p class="es">En el <b>supuesto</b> más <b>valiente</b>, acepta, se <b>atreve</b> y <b>emprende</b> el viaje sin mirar atrás.</p>
+  <p class="en">In the bravest scenario, she accepts, dares, and starts the journey without looking back.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero la <b>indecisión</b> no la deja dormir: ¿y si no <b>merece</b> la pena <b>arriesgar</b> tanto?</p>
+  <p class="en">But indecision keeps her awake: what if risking so much isn't worth it?</p>
+</div>
+<div class="phrase">
+  <p class="es">Al final, la <b>consecuencia</b> que más teme no es fracasar, sino preguntarse toda la vida qué habría pasado.</p>
+  <p class="en">In the end, the consequence she fears most is not failing, but wondering all her life what would have happened.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">imagínate</span></td><td data-label="Type">interj.</td><td data-label="English">imagine (informal command)</td><td data-label="Notes">Imagínate vivir dos años fuera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cobardía</span></td><td data-label="Type">n.f.</td><td data-label="English">cowardice</td><td data-label="Notes">Opposite: valentía.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">jubilarse</span></td><td data-label="Type">v.</td><td data-label="English">to retire</td><td data-label="Notes">Se jubiló a los 65 años.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> <span class="es">Si acepta…, vivirá…</span> (a real option, present + future) vs <span class="es">Si tuviera…, sería…</span> (an imagined scene, imperfect subjunctive + conditional). The last line uses <span class="es">habría pasado</span> — the conditional perfect, which is Lesson 40 (advanced preview).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The conditional: what it means</h3>
+<p>The <strong>conditional</strong> is the "would" tense: hypothetical results (<span class="es">pagaría</span>), polite requests (<span class="es">¿podrías…?</span>), wishes (<span class="es">me gustaría</span>) and advice (<span class="es">deberías</span>). It is formed from the <strong>infinitive + -ía endings</strong> (<span class="es">hablar → hablaría</span>), with a few irregular stems (<span class="es">tener → tendr-, poder → podr-, hacer → har-, decir → dir-, salir → saldr-, venir → vendr-</span>).</p>
+<div class="formula">infinitive + <b>-ía, -ías, -ía, -íamos, -íais, -ían</b> &nbsp;·&nbsp; <b>tendría, podría, haría, diría, saldría, vendría</b></div>
+<ul>
+  <li class="ex"><span class="es">El programa me <b>costearía</b> los estudios.</span><span class="en">The programme would cover my studies.</span></li>
+  <li class="ex"><span class="es">¿<b>Podrías</b> ayudarme con el <b>papeleo</b>?</span><span class="en">Could you help me with the paperwork?</span> <em>(polite)</em></li>
+  <li class="ex"><span class="es">Me <b>gustaría</b> vivir en el <b>extranjero</b>.</span><span class="en">I would like to live abroad.</span></li>
+  <li class="ex"><span class="es"><b>Deberías</b> aceptar la <b>beca</b>.</span><span class="en">You should accept the scholarship.</span> <em>(advice)</em></li>
+</ul>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> the conditional works identically everywhere. In requests, Latin America often prefers <span class="es">¿puedes…?</span> where Spain uses <span class="es">¿podrías…?</span> — both are correct.</div>
+
+<h3>2.2. Real conditions (type 1): si + present</h3>
+<p>When the condition is a <strong>real possibility</strong>, use <span class="es">si</span> + <strong>present indicative</strong>, and the result in the future, imperative or present.</p>
+<div class="formula"><b>si</b> + present &nbsp;→&nbsp; future / imperative / present</div>
+<ul>
+  <li class="ex"><span class="es"><b>Si</b> acepta la beca, <b>vivirá</b> en Bogotá.</span><span class="en">If she accepts the scholarship, she will live in Bogotá.</span></li>
+  <li class="ex"><span class="es"><b>Si</b> necesitas dinero, <b>pide</b> un <b>préstamo</b>.</span><span class="en">If you need money, ask for a loan.</span></li>
+  <li class="ex"><span class="es"><b>Si</b> el <b>plazo</b> termina hoy, tenemos que decidir ya.</span><span class="en">If the deadline ends today, we have to decide now.</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistake:</strong> never put the future or conditional directly after <span class="es">si</span>. Say <span class="es">si acepta</span>, not <span class="es">si aceptará / si aceptaría</span>.</div>
+
+<h3>2.3. Unreal conditions (type 2): si + imperfect subjunctive</h3>
+<p>When the condition is <strong>imagined, unlikely or contrary to fact</strong>, use <span class="es">si</span> + <strong>imperfect subjunctive</strong> (<span class="es">tuviera, fuera, pudiera</span>) and the result in the <strong>conditional</strong>. You only need to recognise the <span class="es">-ra</span> forms here; the full paradigm comes in Lesson 57 (advanced).</p>
+<div class="formula"><b>si</b> + imperfect subjunctive (<b>-ra</b>) &nbsp;→&nbsp; conditional (<b>-ía</b>)</div>
+<ul>
+  <li class="ex"><span class="es"><b>Si tuviera</b> una beca, <b>me atrevería</b> a mudarme.</span><span class="en">If I had a scholarship, I would dare to move.</span></li>
+  <li class="ex"><span class="es"><b>Si fuera</b> más <b>valiente</b>, <b>emprendería</b> el viaje.</span><span class="en">If she were braver, she would start the journey.</span></li>
+  <li class="ex"><span class="es"><b>Si</b> no <b>supusiera</b> tanta <b>deuda</b>, <b>aceptaría</b> mañana.</span><span class="en">If it didn't mean so much debt, she would accept tomorrow.</span></li>
+  <li class="ex"><span class="es">¿Qué <b>harías</b> tú en su lugar?</span><span class="en">What would you do in her place?</span></li>
+</ul>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">haría</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she would do</td><td data-label="Notes">Conditional of hacer. ¿Qué harías?</td></tr>
+    <tr><td data-label="Spanish"><span class="es">podrías</span></td><td data-label="Type">v.</td><td data-label="English">you would be able to, could</td><td data-label="Notes">Conditional of poder; polite requests.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">me gustaría</span></td><td data-label="Type">phr.</td><td data-label="English">I would like</td><td data-label="Notes">Softer than quiero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">debería</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she should, ought to</td><td data-label="Notes">Conditional of deber; advice.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sería</span></td><td data-label="Type">v.</td><td data-label="English">it would be</td><td data-label="Notes">Conditional of ser. Sería enorme.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tendrías</span></td><td data-label="Type">v.</td><td data-label="English">you would have</td><td data-label="Notes">Conditional of tener (tendr-).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">beca</span></td><td data-label="Type">n.f.</td><td data-label="English">scholarship, grant</td><td data-label="Notes">una beca de estudios.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">préstamo</span></td><td data-label="Type">n.m.</td><td data-label="English">loan</td><td data-label="Notes">pedir un préstamo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">deuda</span></td><td data-label="Type">n.f.</td><td data-label="English">debt</td><td data-label="Notes">tener deudas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alquiler</span></td><td data-label="Type">n.m.</td><td data-label="English">rent</td><td data-label="Notes">pagar el alquiler; de alquiler.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mudanza</span></td><td data-label="Type">n.f.</td><td data-label="English">move (house)</td><td data-label="Notes">hacer la mudanza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">papeleo</span></td><td data-label="Type">n.m.</td><td data-label="English">paperwork</td><td data-label="Notes">Colloquial; hacer el papeleo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">visado</span></td><td data-label="Type">n.m.</td><td data-label="English">visa</td><td data-label="Notes">el visado de estudiante.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">extranjero/a</span></td><td data-label="Type">adj./n.</td><td data-label="English">foreign; abroad</td><td data-label="Notes">vivir en el extranjero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">valentía</span></td><td data-label="Type">n.f.</td><td data-label="English">courage</td><td data-label="Notes">Opposite: cobardía.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">indecisión</span></td><td data-label="Type">n.f.</td><td data-label="English">indecision</td><td data-label="Notes">la indecisión no la deja dormir.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">indeciso/a</span></td><td data-label="Type">adj.</td><td data-label="English">undecided</td><td data-label="Notes">estar indeciso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">supuesto/a</span></td><td data-label="Type">n.m./adj.</td><td data-label="English">assumption, scenario; supposed</td><td data-label="Notes">en el supuesto de que…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">consecuencia</span></td><td data-label="Type">n.f.</td><td data-label="English">consequence</td><td data-label="Notes">sufrir las consecuencias.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hipótesis</span></td><td data-label="Type">n.f.</td><td data-label="English">hypothesis</td><td data-label="Notes">una hipótesis valiente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">motivo</span></td><td data-label="Type">n.m.</td><td data-label="English">motive, reason</td><td data-label="Notes">el motivo de la decisión.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">plazo</span></td><td data-label="Type">n.m.</td><td data-label="English">deadline, instalment</td><td data-label="Notes">el plazo termina hoy; a plazos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">merecer</span></td><td data-label="Type">v.</td><td data-label="English">to deserve; to be worth</td><td data-label="Notes">merece la pena (it's worth it).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">arriesgar</span></td><td data-label="Type">v.</td><td data-label="English">to risk</td><td data-label="Notes">arriesgar mucho.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">arriesgado/a</span></td><td data-label="Type">adj.</td><td data-label="English">risky, daring</td><td data-label="Notes">una decisión arriesgada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">arrepentirse</span></td><td data-label="Type">v.</td><td data-label="English">to regret</td><td data-label="Notes">arrepentirse de algo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">atreverse</span></td><td data-label="Type">v.</td><td data-label="English">to dare</td><td data-label="Notes">atreverse a hacer algo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">costear</span></td><td data-label="Type">v.</td><td data-label="English">to pay for, to cover (costs)</td><td data-label="Notes">costear los estudios.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">emprender</span></td><td data-label="Type">v.</td><td data-label="English">to start, to undertake</td><td data-label="Notes">emprender un viaje; un negocio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">suponer</span></td><td data-label="Type">v.</td><td data-label="English">to suppose; to mean, to entail</td><td data-label="Notes">supone un problema; supongo que sí.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">merecido/a</span></td><td data-label="Type">adj.</td><td data-label="English">deserved, well-earned</td><td data-label="Notes">un descanso merecido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">favor</span></td><td data-label="Type">n.m.</td><td data-label="English">favour</td><td data-label="Notes">pedir / hacer un favor.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences with the conditional and <em>si</em>. Read them once; no need to memorize.</p>
+
+<h3>1. A polite wish:</h3>
+<div class="phrase">
+  <p class="es">Me gustaría vivir en el extranjero.</p>
+  <p class="en">I would like to live abroad.</p>
+</div>
+<h3>2. Advice:</h3>
+<div class="phrase">
+  <p class="es">Deberías aceptar la beca.</p>
+  <p class="en">You should accept the scholarship.</p>
+</div>
+<h3>3. A real condition:</h3>
+<div class="phrase">
+  <p class="es">Si acepta la beca, vivirá dos años fuera.</p>
+  <p class="en">If she accepts the scholarship, she will live away for two years.</p>
+</div>
+<h3>4. An unreal condition:</h3>
+<div class="phrase">
+  <p class="es">Si tuviera una beca, me atrevería a mudarme.</p>
+  <p class="en">If I had a scholarship, I would dare to move.</p>
+</div>
+<h3>5. Regret imagined:</h3>
+<div class="phrase">
+  <p class="es">Se arrepentiría de rechazar algo así.</p>
+  <p class="en">She would regret turning down something like this.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Lucía asks her brother for advice.</p>
+
+<div class="phrase">
+  <p class="es">Lucía: Si acepto, tendría que pedir un préstamo.</p>
+  <p class="en">Lucía: If I accept, I would have to take out a loan.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hermano: Si yo fuera tú, no me preocuparía por la deuda.</p>
+  <p class="en">Brother: If I were you, I wouldn't worry about the debt.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: ¿Y si no mereciera la pena?</p>
+  <p class="en">Lucía: And what if it weren't worth it?</p>
+</div>
+<div class="phrase">
+  <p class="es">Hermano: Imagínate dentro de diez años: ¿qué te arrepentirías más de no haber intentado?</p>
+  <p class="en">Brother: Imagine yourself in ten years: what would you most regret not having tried?</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Tienes razón. Pediré otro plazo y prepararé el papeleo.</p>
+  <p class="en">Lucía: You're right. I'll ask for another deadline and prepare the paperwork.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>valentía</strong> is implied; <strong>imagínate</strong> (imagine) and <strong>plazo</strong> (deadline) reappear here.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Conditional</strong> = infinitive + <span class="es">-ía</span>: <span class="es">hablaría, tendría, podría</span>. Uses: hypothetical results, polite requests, wishes, advice.</li>
+  <li><strong>Type 1 (real):</strong> <span class="es">si + present → future</span>. Never put the future after <span class="es">si</span>.</li>
+  <li><strong>Type 2 (unreal):</strong> <span class="es">si + imperfect subjunctive (-ra) → conditional</span>.</li>
+  <li>Type 3 (<span class="es">si hubiera… habría…</span>) comes in Lesson 58 (advanced).</li>
+</ul>
+
+<h3>5.2. Further reading — el motivo de Marcos</h3>
+<p><strong>Context:</strong> Another young professional faces the same question. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Si Marcos aceptara el puesto en Lima, <b>costearía</b> su <b>mudanza</b> con sus ahorros.</p>
+  <p class="en">If Marcos accepted the post in Lima, he would cover his move with his savings.</p>
+</div>
+<div class="phrase">
+  <p class="es">No quiere pedir ningún <b>favor</b> ni acumular más <b>deudas</b>.</p>
+  <p class="en">He doesn't want to ask any favours or pile up more debts.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su <b>motivo</b> es claro: un trabajo <b>merecido</b> después de años de esfuerzo.</p>
+  <p class="en">His motive is clear: a well-earned job after years of effort.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si el <b>plazo</b> se acaba, <b>emprenderá</b> el viaje con lo puesto.</p>
+  <p class="en">If the deadline runs out, he will start the journey with just the clothes on his back.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sería una decisión <b>arriesgada</b>, pero la <b>indecisión</b> sería peor.</p>
+  <p class="en">It would be a risky decision, but indecision would be worse.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>acumular</strong> (to accumulate) appears here in passing.</em></p>
+
+<hr>
+<p><strong>End of Lesson 39.</strong> Next, <strong>Lesson 40</strong>: compound tenses — the future perfect (<em>habré hecho</em>) and the conditional perfect (<em>habría hecho</em>). No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-40.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

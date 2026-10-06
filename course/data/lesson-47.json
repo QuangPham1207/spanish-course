@@ -1,0 +1,358 @@
+{
+  "lesson": 47,
+  "title": "Conquest & colonial Latin America",
+  "words": [
+    {
+      "en": "conquest",
+      "example": {
+        "en": "The conquest lasted barely a generation.",
+        "es": "La conquista duró apenas una generación."
+      },
+      "note": "Word family: conquistar.",
+      "type": "n.f.",
+      "word": "conquista"
+    },
+    {
+      "en": "resistance",
+      "example": {
+        "en": "The resistance had been fierce.",
+        "es": "La resistencia había sido feroz."
+      },
+      "note": "La resistencia fue feroz.",
+      "type": "n.f.",
+      "word": "resistencia"
+    },
+    {
+      "en": "mestizo (mixed heritage); mixed",
+      "example": {
+        "en": "A mestizo world was born.",
+        "es": "Nació un mundo mestizo."
+      },
+      "note": "Un mundo mestizo.",
+      "type": "n./adj.",
+      "word": "mestizo/a"
+    },
+    {
+      "en": "viceroy",
+      "example": {
+        "en": "The viceroy wrote to the king.",
+        "es": "El virrey escribió al rey."
+      },
+      "note": "The king's deputy.",
+      "type": "n.m.",
+      "word": "virrey"
+    },
+    {
+      "en": "viceroyalty",
+      "example": {
+        "en": "They paid tax to the viceroyalty.",
+        "es": "Pagaban impuestos al virreinato."
+      },
+      "note": "Word family: virrey.",
+      "type": "n.m.",
+      "word": "virreinato"
+    },
+    {
+      "en": "colony",
+      "example": {
+        "en": "The colony would last three centuries.",
+        "es": "La colonia duraría tres siglos."
+      },
+      "note": "La colonia.",
+      "type": "n.f.",
+      "word": "colonia"
+    },
+    {
+      "en": "tribute (tax paid in goods/labour)",
+      "example": {
+        "en": "They paid tribute in labour.",
+        "es": "Pagaban el tributo en trabajo."
+      },
+      "note": "Pagar el tributo en trabajo.",
+      "type": "n.m.",
+      "word": "tributo"
+    },
+    {
+      "en": "mine",
+      "example": {
+        "en": "The mine of Potosí never slept.",
+        "es": "La mina de Potosí no dormía nunca."
+      },
+      "note": "La mina de Potosí.",
+      "type": "n.f.",
+      "word": "mina"
+    },
+    {
+      "en": "silver",
+      "example": {
+        "en": "Veins of silver in the hill.",
+        "es": "Vetas de plata en el cerro."
+      },
+      "note": "Vetas de plata.",
+      "type": "n.f.",
+      "word": "plata"
+    },
+    {
+      "en": "slavery",
+      "example": {
+        "en": "Slavery stained three continents.",
+        "es": "La esclavitud manchó tres continentes."
+      },
+      "note": "Word family: esclavo.",
+      "type": "n.f.",
+      "word": "esclavitud"
+    },
+    {
+      "en": "slave; enslaved",
+      "example": {
+        "en": "With slave labour.",
+        "es": "Con mano de obra esclava."
+      },
+      "note": "Mano de obra esclava.",
+      "type": "n./adj.",
+      "word": "esclavo/a"
+    },
+    {
+      "en": "to evangelize, to convert",
+      "example": {
+        "en": "The bishop said evangelization advanced.",
+        "es": "El obispo dijo que la evangelización avanzaba."
+      },
+      "note": "Word family: la evangelización.",
+      "type": "v.",
+      "word": "evangelizar"
+    },
+    {
+      "en": "monk",
+      "example": {
+        "en": "A monk declared before the court.",
+        "es": "Un monje declaró ante la corte."
+      },
+      "note": "Un monje declaró.",
+      "type": "n.m.",
+      "word": "monje"
+    },
+    {
+      "en": "bishop",
+      "example": {
+        "en": "The bishop answered the monk.",
+        "es": "El obispo respondió al monje."
+      },
+      "note": "El obispo respondió.",
+      "type": "n.m.",
+      "word": "obispo"
+    },
+    {
+      "en": "mission (religious outpost)",
+      "example": {
+        "en": "Each new mission needed bells.",
+        "es": "Cada misión nueva necesitaba campanas."
+      },
+      "note": "Cada misión nueva.",
+      "type": "n.f.",
+      "word": "misión"
+    },
+    {
+      "en": "hacienda, large estate",
+      "example": {
+        "en": "On the haciendas they grew cacao.",
+        "es": "En las haciendas cultivaban cacao."
+      },
+      "note": "In Spain la Hacienda = tax office!",
+      "type": "n.f.",
+      "word": "hacienda"
+    },
+    {
+      "en": "great landed estate",
+      "example": {
+        "en": "The great estates of the interior.",
+        "es": "Los latifundios del interior."
+      },
+      "note": "Los latifundios.",
+      "type": "n.m.",
+      "word": "latifundio"
+    },
+    {
+      "en": "priest",
+      "example": {
+        "en": "The parish priests told it later.",
+        "es": "Los curas lo dijeron después."
+      },
+      "note": "Masculine though ends in -a.",
+      "type": "n.m.",
+      "word": "cura"
+    },
+    {
+      "en": "looting, sacking",
+      "example": {
+        "en": "No looting would be as profitable.",
+        "es": "Ningún saqueo sería tan rentable."
+      },
+      "note": "Ningún saqueo.",
+      "type": "n.m.",
+      "word": "saqueo"
+    },
+    {
+      "en": "pirate",
+      "example": {
+        "en": "Pirates waited in the Caribbean.",
+        "es": "Los piratas esperaban en el Caribe."
+      },
+      "note": "Los piratas del Caribe.",
+      "type": "n.",
+      "word": "pirata"
+    },
+    {
+      "en": "galleon",
+      "example": {
+        "en": "The galleon carried American silver.",
+        "es": "El galeón llevaba plata americana."
+      },
+      "note": "El galeón de Manila.",
+      "type": "n.m.",
+      "word": "galeón"
+    },
+    {
+      "en": "cacao",
+      "example": {
+        "en": "They grew cacao and sugar.",
+        "es": "Cultivaban cacao y azúcar."
+      },
+      "note": "From Nahuatl.",
+      "type": "n.m.",
+      "word": "cacao"
+    },
+    {
+      "en": "sugar",
+      "example": {
+        "en": "Sugar and cotton of the haciendas.",
+        "es": "El azúcar y el algodón de las haciendas."
+      },
+      "note": "Usually masculine: el azúcar.",
+      "type": "n.m./f.",
+      "word": "azúcar"
+    },
+    {
+      "en": "cotton",
+      "example": {
+        "en": "They grew cotton.",
+        "es": "Cultivaban algodón."
+      },
+      "note": "Se cultivaba algodón.",
+      "type": "n.m.",
+      "word": "algodón"
+    },
+    {
+      "en": "temple, church building",
+      "example": {
+        "en": "Temples and schools.",
+        "es": "Templos y escuelas."
+      },
+      "note": "Templos y escuelas.",
+      "type": "n.m.",
+      "word": "templo"
+    },
+    {
+      "en": "palace",
+      "example": {
+        "en": "The palaces of the city.",
+        "es": "Los palacios de la ciudad."
+      },
+      "note": "Los palacios.",
+      "type": "n.m.",
+      "word": "palacio"
+    },
+    {
+      "en": "workshop",
+      "example": {
+        "en": "The artisans' workshops.",
+        "es": "Los talleres de artesanos."
+      },
+      "note": "Los talleres.",
+      "type": "n.m.",
+      "word": "taller"
+    },
+    {
+      "en": "guild",
+      "example": {
+        "en": "The guilds paid taxes.",
+        "es": "Los gremios pagaban impuestos."
+      },
+      "note": "Los gremios.",
+      "type": "n.m.",
+      "word": "gremio"
+    },
+    {
+      "en": "fair, market",
+      "example": {
+        "en": "Sold at the fair.",
+        "es": "Vendido en la feria."
+      },
+      "note": "Vendido en la feria.",
+      "type": "n.f.",
+      "word": "feria"
+    },
+    {
+      "en": "tax",
+      "example": {
+        "en": "They paid tax to the viceroyalty.",
+        "es": "Pagaban el impuesto al virreinato."
+      },
+      "note": "Pagar el impuesto.",
+      "type": "n.m.",
+      "word": "impuesto"
+    },
+    {
+      "en": "chest, coffer",
+      "example": {
+        "en": "The silver travelled in chests.",
+        "es": "La plata viajaba en cofres."
+      },
+      "note": "Viajaba en cofres.",
+      "type": "n.m.",
+      "word": "cofre"
+    },
+    {
+      "en": "strongbox, ark",
+      "example": {
+        "en": "The finest piece in the strongbox.",
+        "es": "La mejor pieza en el arca."
+      },
+      "note": "El arca del cabildo.",
+      "type": "n.f.",
+      "word": "arca"
+    },
+    {
+      "en": "heritage, inheritance",
+      "example": {
+        "en": "A mixed heritage.",
+        "es": "Una herencia mezclada."
+      },
+      "note": "Una herencia mezclada.",
+      "type": "n.f.",
+      "word": "herencia"
+    },
+    {
+      "en": "fountain; source",
+      "example": {
+        "en": "The fountains of the square.",
+        "es": "Las fuentes de la plaza."
+      },
+      "ext": true,
+      "note": "Also fuente = source of information.",
+      "type": "n.f.",
+      "word": "fuente"
+    },
+    {
+      "en": "column",
+      "example": {
+        "en": "The columns of the churches.",
+        "es": "Las columnas de las iglesias."
+      },
+      "ext": true,
+      "note": "Las columnas del palacio.",
+      "type": "n.f.",
+      "word": "columna"
+    }
+  ]
+}

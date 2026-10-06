@@ -1,0 +1,399 @@
+{
+  "lesson": 45,
+  "title": "Al-Ándalus & medieval Spain",
+  "words": [
+    {
+      "en": "mosque",
+      "example": {
+        "en": "The emir had built the great mosque.",
+        "es": "El emir había construido la gran mezquita."
+      },
+      "note": "From Arabic; la Mezquita de Córdoba.",
+      "type": "n.f.",
+      "word": "mezquita"
+    },
+    {
+      "en": "caliphate",
+      "example": {
+        "en": "It was the capital of the caliphate.",
+        "es": "Era la capital del califato."
+      },
+      "note": "El Califato de Córdoba (929–1031).",
+      "type": "n.m.",
+      "word": "califato"
+    },
+    {
+      "en": "caliph",
+      "example": {
+        "en": "The caliph gathered thousands of manuscripts.",
+        "es": "El califa reunió miles de manuscritos."
+      },
+      "note": "Ruler; el califa Abderramán III.",
+      "type": "n.m.",
+      "word": "califa"
+    },
+    {
+      "en": "emir",
+      "example": {
+        "en": "Emir Abd al-Rahman I built the mosque.",
+        "es": "El emir Abderramán I construyó la mezquita."
+      },
+      "note": "Title below caliph.",
+      "type": "n.m.",
+      "word": "emir"
+    },
+    {
+      "en": "coexistence, living together",
+      "example": {
+        "en": "That coexistence was not perfect.",
+        "es": "Esa convivencia no era perfecta."
+      },
+      "note": "La convivencia de culturas.",
+      "type": "n.f.",
+      "word": "convivencia"
+    },
+    {
+      "en": "tolerance",
+      "example": {
+        "en": "It produced a tolerance rare in Europe.",
+        "es": "Producía una tolerancia rara en Europa."
+      },
+      "note": "Word family: tolerar.",
+      "type": "n.f.",
+      "word": "tolerancia"
+    },
+    {
+      "en": "to tolerate",
+      "example": {
+        "en": "They did not know how to tolerate it.",
+        "es": "No sabían tolerarlo."
+      },
+      "note": "No sabían tolerar.",
+      "type": "v.",
+      "word": "tolerar"
+    },
+    {
+      "en": "Muslim",
+      "example": {
+        "en": "Muslims and Christians lived side by side.",
+        "es": "Musulmanes y cristianos vivían lado a lado."
+      },
+      "note": "Lowercase in Spanish unless starting a sentence.",
+      "type": "n./adj.",
+      "word": "musulmán / musulmana"
+    },
+    {
+      "en": "Christian",
+      "example": {
+        "en": "The Christian kingdoms advanced.",
+        "es": "Los reinos cristianos avanzaban."
+      },
+      "note": "Los reinos cristianos.",
+      "type": "n./adj.",
+      "word": "cristiano/a"
+    },
+    {
+      "en": "Arab, Arabic",
+      "example": {
+        "en": "Christians of Arabic language.",
+        "es": "Cristianos de lengua árabe."
+      },
+      "note": "La lengua árabe.",
+      "type": "adj./n.",
+      "word": "árabe"
+    },
+    {
+      "en": "manuscript",
+      "example": {
+        "en": "Thousands of manuscripts copied by hand.",
+        "es": "Miles de manuscritos copiados a mano."
+      },
+      "note": "Miles de manuscritos.",
+      "type": "n.m.",
+      "word": "manuscrito"
+    },
+    {
+      "en": "translator",
+      "example": {
+        "en": "The translators of Toledo translated those books.",
+        "es": "Los traductores de Toledo tradujeron esos libros."
+      },
+      "note": "Word family: traducir.",
+      "type": "n.",
+      "word": "traductor/a"
+    },
+    {
+      "en": "to translate",
+      "example": {
+        "en": "They translated medicine into Latin.",
+        "es": "Tradujeron la medicina al latín."
+      },
+      "note": "Tradujeron al latín.",
+      "type": "v.",
+      "word": "traducir"
+    },
+    {
+      "en": "scholar; wise",
+      "example": {
+        "en": "Scholars whose works would be read for centuries.",
+        "es": "Sabios cuyas obras se leerían durante siglos."
+      },
+      "note": "Los sabios de la corte.",
+      "type": "n./adj.",
+      "word": "sabio/a"
+    },
+    {
+      "en": "astronomer",
+      "example": {
+        "en": "Astronomers watched the stars.",
+        "es": "Los astrónomos miraban las estrellas."
+      },
+      "note": "From astronomía.",
+      "type": "n.",
+      "word": "astrónomo/a"
+    },
+    {
+      "en": "philosopher",
+      "example": {
+        "en": "Averroes was a philosopher from Córdoba.",
+        "es": "Averroes fue filósofo cordobés."
+      },
+      "note": "Averroes fue filósofo cordobés.",
+      "type": "n.",
+      "word": "filósofo/a"
+    },
+    {
+      "en": "doctor",
+      "example": {
+        "en": "Doctors and scholars worked at the court.",
+        "es": "Médicos y sabios trabajaban en la corte."
+      },
+      "note": "Also adjective: un informe médico.",
+      "type": "n.",
+      "word": "médico/a"
+    },
+    {
+      "en": "poet",
+      "example": {
+        "en": "Poets recited in the palace courtyard.",
+        "es": "Los poetas recitaban en el patio."
+      },
+      "note": "el/la poeta; both used.",
+      "type": "n.",
+      "word": "poeta"
+    },
+    {
+      "en": "algebra",
+      "example": {
+        "en": "With algebra, merchants calculated better.",
+        "es": "Con el álgebra, los mercaderes calculaban mejor."
+      },
+      "note": "From Arabic al-jabr.",
+      "type": "n.f.",
+      "word": "álgebra"
+    },
+    {
+      "en": "figure, numeral",
+      "example": {
+        "en": "The new Arabic numerals.",
+        "es": "Las cifras arábigas nuevas."
+      },
+      "note": "Las cifras arábigas.",
+      "type": "n.f.",
+      "word": "cifra"
+    },
+    {
+      "en": "chess",
+      "example": {
+        "en": "The court amused itself with chess.",
+        "es": "La corte se divertía con el ajedrez."
+      },
+      "note": "Jugar al ajedrez.",
+      "type": "n.m.",
+      "word": "ajedrez"
+    },
+    {
+      "en": "irrigation channel",
+      "example": {
+        "en": "Water arrived through irrigation channels.",
+        "es": "El agua llegaba por acequias."
+      },
+      "note": "From Arabic; still used in Valencia.",
+      "type": "n.f.",
+      "word": "acequia"
+    },
+    {
+      "en": "irrigation, irrigated land",
+      "example": {
+        "en": "Irrigation yielded fruit all year.",
+        "es": "El regadío daba fruta todo el año."
+      },
+      "note": "Word family: regar (to water).",
+      "type": "n.m.",
+      "word": "regadío"
+    },
+    {
+      "en": "market garden, orchard area",
+      "example": {
+        "en": "The water rose to the gardens.",
+        "es": "El agua subía a las huertas."
+      },
+      "note": "La huerta valenciana.",
+      "type": "n.f.",
+      "word": "huerta"
+    },
+    {
+      "en": "souk, Arab market",
+      "example": {
+        "en": "In the souk they sold perfumes and books.",
+        "es": "En el zoco vendían perfumes y libros."
+      },
+      "note": "From Arabic.",
+      "type": "n.m.",
+      "word": "zoco"
+    },
+    {
+      "en": "Jewish quarter",
+      "example": {
+        "en": "The souk next to the Jewish quarter.",
+        "es": "El zoco junto a la judería."
+      },
+      "note": "La judería de Córdoba.",
+      "type": "n.f.",
+      "word": "judería"
+    },
+    {
+      "en": "Mudéjar (Muslim under Christian rule; the art style)",
+      "example": {
+        "en": "Mudéjar art mixes two worlds.",
+        "es": "El arte mudéjar mezcla dos mundos."
+      },
+      "note": "El arte mudéjar.",
+      "type": "adj./n.",
+      "word": "mudéjar"
+    },
+    {
+      "en": "Mozarabic (Christian under Muslim rule)",
+      "example": {
+        "en": "Mozarabic art of the old churches.",
+        "es": "El arte mozárabe de las iglesias viejas."
+      },
+      "note": "Mirror of mudéjar.",
+      "type": "adj./n.",
+      "word": "mozárabe"
+    },
+    {
+      "en": "Visigoth, Visigothic",
+      "example": {
+        "en": "The Visigoths arrived centuries earlier.",
+        "es": "Los visigodos habían llegado siglos antes."
+      },
+      "note": "Ruled Spain before 711.",
+      "type": "n./adj.",
+      "word": "visigodo/a"
+    },
+    {
+      "en": "to invade",
+      "example": {
+        "en": "They invaded the south.",
+        "es": "Invadían el sur."
+      },
+      "note": "Invadían el sur.",
+      "type": "v.",
+      "word": "invadir"
+    },
+    {
+      "en": "to conquer",
+      "example": {
+        "en": "They conquered city after city.",
+        "es": "Conquistaban ciudad tras ciudad."
+      },
+      "note": "Word family: la conquista.",
+      "type": "v.",
+      "word": "conquistar"
+    },
+    {
+      "en": "kingdom",
+      "example": {
+        "en": "The Christian kingdoms of the north.",
+        "es": "Los reinos cristianos del norte."
+      },
+      "note": "Los reinos cristianos.",
+      "type": "n.m.",
+      "word": "reino"
+    },
+    {
+      "en": "city wall",
+      "example": {
+        "en": "Churches rose over old walls.",
+        "es": "Las iglesias se levantaban sobre viejas murallas."
+      },
+      "note": "Las murallas de la ciudad.",
+      "type": "n.f.",
+      "word": "muralla"
+    },
+    {
+      "en": "splendour",
+      "example": {
+        "en": "Nobody imagined this splendour.",
+        "es": "Nadie imaginaba este esplendor."
+      },
+      "note": "Momento de mayor esplendor.",
+      "type": "n.m.",
+      "word": "esplendor"
+    },
+    {
+      "en": "to flourish",
+      "example": {
+        "en": "Córdoba flourished like few cities.",
+        "es": "Córdoba florecía como pocas ciudades."
+      },
+      "note": "Córdoba florecía.",
+      "type": "v.",
+      "word": "florecer"
+    },
+    {
+      "en": "legacy",
+      "example": {
+        "en": "Córdoba's legacy entered Europe.",
+        "es": "El legado de Córdoba entró en Europa."
+      },
+      "note": "El legado de Córdoba.",
+      "type": "n.m.",
+      "word": "legado"
+    },
+    {
+      "en": "cistern, water tank",
+      "example": {
+        "en": "Without cisterns there was no city.",
+        "es": "Sin aljibes no había ciudad."
+      },
+      "ext": true,
+      "note": "From Arabic.",
+      "type": "n.m.",
+      "word": "aljibe"
+    },
+    {
+      "en": "waterwheel",
+      "example": {
+        "en": "The waterwheel raised water to the gardens.",
+        "es": "La noria subía el agua a las huertas."
+      },
+      "ext": true,
+      "note": "Raises irrigation water.",
+      "type": "n.f.",
+      "word": "noria"
+    },
+    {
+      "en": "courtyard, patio",
+      "example": {
+        "en": "The orange-tree courtyard.",
+        "es": "El patio de los Naranjos."
+      },
+      "ext": true,
+      "note": "El patio de los Naranjos, in Córdoba.",
+      "type": "n.m.",
+      "word": "patio"
+    }
+  ]
+}

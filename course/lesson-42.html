@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 42 — Reported speech</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-41.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 42 — REPORTED SPEECH</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Report statements with <strong>dice que</strong> (no change) vs <strong>dijo que</strong> (tense backshift).</li>
+      <li>Report questions with <strong>preguntó si / dónde / por qué…</strong>.</li>
+      <li>Shift time and place words: <span class="es">aquí → allí, mañana → al día siguiente</span>.</li>
+      <li>Read a press scandal: rumours, denials and a resignation.</li>
+      <li>Pick up words: <span class="es">rumor, chisme, asegurar, negar, confesar, afirmar, dimitir, escándalo</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">rumor, chisme, acusación, tesorero, juez, prueba, asegurar, negar, confesar, confesión, afirmar, periodista, corresponsal, titular, portavoz, comparecencia, comparecer, filtración, filtrar, desmentir, rectificar, soborno, sobornar, interrogar, admitir, jurar, testificar, citar, rueda, dimitir, dimisión, escándalo</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">chismoso/a, escandaloso/a, rumorear</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EL ESCÁNDALO DEL AYUNTAMIENTO)</h2>
+<p><strong>Context:</strong> A correspondent reports on a city-hall scandal: a leaked document, a mayor who denies everything, and a press conference that ends badly.</p>
+<p class="lead">(Every sentence below reports what somebody said — compare what was said <em>then</em> with how it is told <em>now</em>.)</p>
+
+<div class="phrase">
+  <p class="es">El <b>portavoz</b> dice que el alcalde está tranquilo y que no piensa <b>dimitir</b>.</p>
+  <p class="en">The spokesperson says the mayor is calm and is not thinking of resigning.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ayer, en cambio, el alcalde dijo que estaba tranquilo y que no pensaba <b>dimitir</b>.</p>
+  <p class="en">Yesterday, in contrast, the mayor said he was calm and was not thinking of resigning.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>periodista</b> preguntó si existía una <b>filtración</b> sobre un <b>soborno</b>.</p>
+  <p class="en">The journalist asked whether there was a leak about a bribe.</p>
+</div>
+<div class="phrase">
+  <p class="es">El alcalde <b>negó</b> la <b>acusación</b> y <b>aseguró</b> que al día siguiente presentaría <b>pruebas</b>.</p>
+  <p class="en">The mayor denied the accusation and assured (everyone) that the next day he would present proof.</p>
+</div>
+<div class="phrase">
+  <p class="es">Según el <b>titular</b> de hoy, el documento <b>filtrado</b> demuestra que sí hubo pagos.</p>
+  <p class="en">According to today's headline, the leaked document proves that there were payments.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un <b>corresponsal</b> contó que el <b>tesorero</b> había <b>confesado</b> todo ante el <b>juez</b>.</p>
+  <p class="en">A correspondent reported that the treasurer had confessed everything before the judge.</p>
+</div>
+<div class="phrase">
+  <p class="es">El juez preguntó dónde estaba el dinero y por qué nadie lo había <b>admitido</b> antes.</p>
+  <p class="en">The judge asked where the money was and why nobody had admitted it before.</p>
+</div>
+<div class="phrase">
+  <p class="es">El tesorero <b>juró</b> que diría la verdad y <b>citó</b> tres reuniones secretas.</p>
+  <p class="en">The treasurer swore he would tell the truth and mentioned three secret meetings.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al final de la <b>rueda</b> de prensa, el <b>portavoz</b> anunció la <b>dimisión</b>: el <b>escándalo</b> era imposible de <b>desmentir</b>.</p>
+  <p class="en">At the end of the press conference, the spokesperson announced the resignation: the scandal was impossible to deny.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">chismoso/a</span></td><td data-label="Type">adj./n.</td><td data-label="English">gossipy; gossip</td><td data-label="Notes">From chisme; un vecino chismoso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escandaloso/a</span></td><td data-label="Type">adj.</td><td data-label="English">shocking, scandalous; loud</td><td data-label="Notes">From escándalo; un caso escandaloso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rumorear</span></td><td data-label="Type">v.</td><td data-label="English">to rumour</td><td data-label="Notes">Se rumorea que dimitirá.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> <span class="es">dice que está…</span> (present reporting → no change) vs <span class="es">dijo que estaba…</span> (past reporting → backshift). The judge's <span class="es">dónde / por qué</span> survive unchanged inside the reported question.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Reporting statements: dice que vs dijo que</h3>
+<p>With a <strong>present</strong> reporting verb (<span class="es">dice que</span>), tenses stay the same. With a <strong>past</strong> reporting verb (<span class="es">dijo que</span>), each tense steps <strong>one step back</strong>: present → imperfect, future → conditional, present perfect → pluperfect.</p>
+<div class="formula"><b>dice que</b> + same tense &nbsp;·&nbsp; <b>dijo que</b> + backshift</div>
+<ul>
+  <li class="ex"><span class="es">Dice que el alcalde <b>está</b> tranquilo.</span><span class="en">He says the mayor is calm.</span></li>
+  <li class="ex"><span class="es">Dijo que el alcalde <b>estaba</b> tranquilo.</span><span class="en">He said the mayor was calm.</span> <em>(present → imperfect)</em></li>
+  <li class="ex"><span class="es">Aseguró que al día siguiente <b>presentaría</b> pruebas.</span><span class="en">He assured them he would present proof the next day.</span> <em>(future → conditional)</em></li>
+  <li class="ex"><span class="es">Contó que el tesorero <b>había confesado</b> todo.</span><span class="en">He reported that the treasurer had confessed everything.</span> <em>(perfect → pluperfect)</em></li>
+  <li class="ex"><span class="es">El tesorero <b>juró</b> que <b>diría</b> la verdad.</span><span class="en">The treasurer swore he would tell the truth.</span></li>
+</ul>
+
+<h3>2.2. Reporting questions</h3>
+<p>Yes/no questions are reported with <strong>si</strong>; wh-questions keep their <strong>question word</strong> (<span class="es">dónde, por qué, cuándo, quién</span>). The same backshift applies.</p>
+<div class="formula">preguntó <b>si</b>… &nbsp;·&nbsp; preguntó <b>dónde / por qué / cuándo</b>…</div>
+<ul>
+  <li class="ex"><span class="es">Preguntó <b>si</b> existía una <b>filtración</b>.</span><span class="en">She asked whether there was a leak.</span></li>
+  <li class="ex"><span class="es">El juez preguntó <b>dónde</b> estaba el dinero.</span><span class="en">The judge asked where the money was.</span></li>
+  <li class="ex"><span class="es">Preguntó <b>por qué</b> nadie lo había <b>admitido</b>.</span><span class="en">He asked why nobody had admitted it.</span></li>
+  <li class="ex"><span class="es">Me preguntó <b>cuándo testificaría</b> el tesorero.</span><span class="en">He asked me when the treasurer would testify.</span></li>
+</ul>
+
+<h3>2.3. Time and place shifts</h3>
+<p>Words anchored to "now" move when the story is told later. The most useful shifts:</p>
+<ul>
+  <li class="ex"><span class="es">aquí → <b>allí</b>; este → <b>ese</b>; ayer → <b>el día anterior</b></span><span class="en">here → there; this → that; yesterday → the day before.</span></li>
+  <li class="ex"><span class="es">mañana → <b>al día siguiente</b>; hoy → <b>ese día / aquel día</b></span><span class="en">tomorrow → the next day; today → that day.</span></li>
+  <li class="ex"><span class="es">Dijo que <b>al día siguiente</b> presentaría pruebas.</span><span class="en">He said he would present proof the next day.</span> <em>(not "mañana")</em></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistake:</strong> keep the <span class="es">si</span> of reported questions — <span class="es">preguntó si existía…</span>, not <span class="es">preguntó que existía…</span>. And <span class="es">negar</span> takes no <span class="es">que</span>-subjunctive here: <span class="es">negó la acusación</span>.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">rumor</span></td><td data-label="Type">n.m.</td><td data-label="English">rumour</td><td data-label="Notes">corre el rumor de que…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">chisme</span></td><td data-label="Type">n.m.</td><td data-label="English">gossip (piece of)</td><td data-label="Notes">LatAm also: chisme de pasillo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">acusación</span></td><td data-label="Type">n.f.</td><td data-label="English">accusation</td><td data-label="Notes">negó la acusación.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tesorero/a</span></td><td data-label="Type">n.</td><td data-label="English">treasurer</td><td data-label="Notes">el tesorero había confesado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">juez</span></td><td data-label="Type">n.</td><td data-label="English">judge</td><td data-label="Notes">comparecer ante el juez.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prueba</span></td><td data-label="Type">n.f.</td><td data-label="English">proof, evidence; test</td><td data-label="Notes">presentar pruebas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">asegurar</span></td><td data-label="Type">v.</td><td data-label="English">to assure, to claim</td><td data-label="Notes">aseguró que presentaría pruebas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">negar</span></td><td data-label="Type">v.</td><td data-label="English">to deny</td><td data-label="Notes">negó la acusación.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">confesar</span></td><td data-label="Type">v.</td><td data-label="English">to confess</td><td data-label="Notes">había confesado todo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">confesión</span></td><td data-label="Type">n.f.</td><td data-label="English">confession</td><td data-label="Notes">From confesar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">afirmar</span></td><td data-label="Type">v.</td><td data-label="English">to affirm, to state</td><td data-label="Notes">afirmó que no sabía nada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">periodista</span></td><td data-label="Type">n.</td><td data-label="English">journalist</td><td data-label="Notes">la periodista preguntó si…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">corresponsal</span></td><td data-label="Type">n.</td><td data-label="English">correspondent</td><td data-label="Notes">un corresponsal en la capital.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">titular</span></td><td data-label="Type">n.m.</td><td data-label="English">headline</td><td data-label="Notes">según el titular de hoy.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">portavoz</span></td><td data-label="Type">n.</td><td data-label="English">spokesperson</td><td data-label="Notes">el portavoz anunció la dimisión.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comparecencia</span></td><td data-label="Type">n.f.</td><td data-label="English">appearance (official)</td><td data-label="Notes">una comparecencia ante la prensa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comparecer</span></td><td data-label="Type">v.</td><td data-label="English">to appear (officially)</td><td data-label="Notes">comparecer ante el juez.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">filtración</span></td><td data-label="Type">n.f.</td><td data-label="English">leak (of info)</td><td data-label="Notes">una filtración sobre un soborno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">filtrar</span></td><td data-label="Type">v.</td><td data-label="English">to leak</td><td data-label="Notes">filtrar un documento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desmentir</span></td><td data-label="Type">v.</td><td data-label="English">to deny, to refute</td><td data-label="Notes">imposible de desmentir.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rectificar</span></td><td data-label="Type">v.</td><td data-label="English">to rectify, to correct</td><td data-label="Notes">el diario rectificó el titular.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">soborno</span></td><td data-label="Type">n.m.</td><td data-label="English">bribe</td><td data-label="Notes">una filtración sobre un soborno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sobornar</span></td><td data-label="Type">v.</td><td data-label="English">to bribe</td><td data-label="Notes">intentó sobornar al juez.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">interrogar</span></td><td data-label="Type">v.</td><td data-label="English">to interrogate, to question</td><td data-label="Notes">interrogar al tesorero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">admitir</span></td><td data-label="Type">v.</td><td data-label="English">to admit</td><td data-label="Notes">nadie lo había admitido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">jurar</span></td><td data-label="Type">v.</td><td data-label="English">to swear</td><td data-label="Notes">juró que diría la verdad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">testificar</span></td><td data-label="Type">v.</td><td data-label="English">to testify</td><td data-label="Notes">testificar ante el juez.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">citar</span></td><td data-label="Type">v.</td><td data-label="English">to quote; to mention</td><td data-label="Notes">citó tres reuniones.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rueda</span></td><td data-label="Type">n.f.</td><td data-label="English">press conference (rueda de prensa)</td><td data-label="Notes">al final de la rueda.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dimitir</span></td><td data-label="Type">v.</td><td data-label="English">to resign</td><td data-label="Notes">no piensa dimitir.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dimisión</span></td><td data-label="Type">n.f.</td><td data-label="English">resignation</td><td data-label="Notes">anunció la dimisión.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escándalo</span></td><td data-label="Type">n.m.</td><td data-label="English">scandal</td><td data-label="Notes">el escándalo era imposible de desmentir.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five reported sentences. Read them once; no need to memorize.</p>
+
+<h3>1. Present reporting:</h3>
+<div class="phrase">
+  <p class="es">Dice que el alcalde está tranquilo.</p>
+  <p class="en">He says the mayor is calm.</p>
+</div>
+<h3>2. Past reporting:</h3>
+<div class="phrase">
+  <p class="es">Dijo que estaba tranquilo y que no pensaba dimitir.</p>
+  <p class="en">He said he was calm and was not thinking of resigning.</p>
+</div>
+<h3>3. A reported yes/no question:</h3>
+<div class="phrase">
+  <p class="es">Preguntó si existía una filtración.</p>
+  <p class="en">She asked whether there was a leak.</p>
+</div>
+<h3>4. A reported wh-question:</h3>
+<div class="phrase">
+  <p class="es">El juez preguntó dónde estaba el dinero.</p>
+  <p class="en">The judge asked where the money was.</p>
+</div>
+<h3>5. A sworn promise reported:</h3>
+<div class="phrase">
+  <p class="es">Juró que diría la verdad.</p>
+  <p class="en">He swore he would tell the truth.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two neighbours discuss the news.</p>
+
+<div class="phrase">
+  <p class="es">Marta: Dicen que el alcalde va a dimitir.</p>
+  <p class="en">Marta: They say the mayor is going to resign.</p>
+</div>
+<div class="phrase">
+  <p class="es">Paco: Ayer dijeron que estaba tranquilo. ¿Quién lo asegura?</p>
+  <p class="en">Paco: Yesterday they said he was calm. Who claims that?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Un corresponsal contó que el tesorero había confesado todo.</p>
+  <p class="en">Marta: A correspondent reported that the treasurer had confessed everything.</p>
+</div>
+<div class="phrase">
+  <p class="es">Paco: Eso es un chisme. Hasta que no testifique, no me lo creo.</p>
+  <p class="en">Paco: That's gossip. Until he testifies, I don't believe it.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Pues el portavoz anunció que rectificarían el titular de ayer.</p>
+  <p class="en">Marta: Well, the spokesperson announced they would correct yesterday's headline.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>creerse</strong> (to believe) appears here in passing.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Dice que</strong> → no change. <strong>Dijo que</strong> → backshift: present → imperfect, future → conditional, perfect → pluperfect.</li>
+  <li><strong>Questions:</strong> <span class="es">preguntó si… / dónde… / por qué… / cuándo…</span>.</li>
+  <li><strong>Shifts:</strong> <span class="es">aquí → allí, mañana → al día siguiente, ayer → el día anterior, hoy → ese día</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — el chisme del mercado</h3>
+<p><strong>Context:</strong> A lighter rumour, same grammar. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Se <b>rumorea</b> que la panadera se jubila y que cerrará el horno.</p>
+  <p class="en">Rumour has it that the baker is retiring and will close the bakery.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ayer una vecina <b>chismosa</b> dijo que ya había vendido el local.</p>
+  <p class="en">Yesterday a gossipy neighbour said she had already sold the shop.</p>
+</div>
+<div class="phrase">
+  <p class="es">Otra <b>afirmó</b> que el horno seguiría abierto porque su hijo lo heredaría.</p>
+  <p class="en">Another claimed the oven would stay open because her son would inherit it.</p>
+</div>
+<div class="phrase">
+  <p class="es">La panadera <b>desmintió</b> el <b>rumor</b>: dijo que estaba cansada de los <b>chismes</b>.</p>
+  <p class="en">The baker denied the rumour: she said she was tired of gossip.</p>
+</div>
+<div class="phrase">
+  <p class="es">Prometió que hoy mismo <b>rectificaría</b> el cartel <b>escandaloso</b> de la puerta.</p>
+  <p class="en">She promised she would correct the shocking sign on the door that very day.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>horno</strong> (oven, bakery) and <strong>cartel</strong> (sign, poster) appear here in passing.</em></p>
+
+<hr>
+<p><strong>End of Lesson 42.</strong> Next, <strong>Lesson 43</strong>: <em>por</em> vs <em>para</em> — the full picture, with reading examples. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-43.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

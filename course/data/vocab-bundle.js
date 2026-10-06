@@ -11158,5 +11158,6727 @@ window.VOCAB = [
         }
       }
     ]
+  },
+  {
+    "lesson": 39,
+    "title": "The conditional & si-clauses",
+    "words": [
+      {
+        "en": "I/he/she would do",
+        "example": {
+          "en": "What would you do in her place?",
+          "es": "¿Qué harías tú en su lugar?"
+        },
+        "note": "Conditional of hacer.",
+        "type": "v.",
+        "word": "haría"
+      },
+      {
+        "en": "you would be able to, could",
+        "example": {
+          "en": "Could you help me with the paperwork?",
+          "es": "¿Podrías ayudarme con el papeleo?"
+        },
+        "note": "Conditional of poder; polite requests.",
+        "type": "v.",
+        "word": "podrías"
+      },
+      {
+        "en": "I would like",
+        "example": {
+          "en": "I would like to live abroad.",
+          "es": "Me gustaría vivir en el extranjero."
+        },
+        "note": "Softer than quiero.",
+        "type": "phr.",
+        "word": "me gustaría"
+      },
+      {
+        "en": "I/he/she should, ought to",
+        "example": {
+          "en": "You should accept the scholarship.",
+          "es": "Deberías aceptar la beca."
+        },
+        "note": "Conditional of deber; advice.",
+        "type": "v.",
+        "word": "debería"
+      },
+      {
+        "en": "it would be",
+        "example": {
+          "en": "The debt would be huge.",
+          "es": "La deuda sería enorme."
+        },
+        "note": "Conditional of ser.",
+        "type": "v.",
+        "word": "sería"
+      },
+      {
+        "en": "you would have",
+        "example": {
+          "en": "If you accepted, you would have to ask for a loan.",
+          "es": "Si aceptaras, tendrías que pedir un préstamo."
+        },
+        "note": "Conditional of tener (tendr-).",
+        "type": "v.",
+        "word": "tendrías"
+      },
+      {
+        "en": "scholarship, grant",
+        "example": {
+          "en": "She has a scholarship to study in Bogotá.",
+          "es": "Tiene una beca para estudiar en Bogotá."
+        },
+        "note": "una beca de estudios.",
+        "type": "n.f.",
+        "word": "beca"
+      },
+      {
+        "en": "loan",
+        "example": {
+          "en": "If she had to take out a loan, the debt would be huge.",
+          "es": "Si tuviera que pedir un préstamo, la deuda sería enorme."
+        },
+        "note": "pedir un préstamo.",
+        "type": "n.m.",
+        "word": "préstamo"
+      },
+      {
+        "en": "debt",
+        "example": {
+          "en": "He doesn't want to pile up more debts.",
+          "es": "No quiere acumular más deudas."
+        },
+        "note": "tener deudas.",
+        "type": "n.f.",
+        "word": "deuda"
+      },
+      {
+        "en": "rent",
+        "example": {
+          "en": "She would pay the rent and the move.",
+          "es": "Pagaría el alquiler y la mudanza."
+        },
+        "note": "pagar el alquiler; de alquiler.",
+        "type": "n.m.",
+        "word": "alquiler"
+      },
+      {
+        "en": "move (house)",
+        "example": {
+          "en": "He would cover his move with his savings.",
+          "es": "Costearía su mudanza con sus ahorros."
+        },
+        "note": "hacer la mudanza.",
+        "type": "n.f.",
+        "word": "mudanza"
+      },
+      {
+        "en": "paperwork",
+        "example": {
+          "en": "I'll prepare the paperwork for the visa.",
+          "es": "Prepararé el papeleo del visado."
+        },
+        "note": "Colloquial; hacer el papeleo.",
+        "type": "n.m.",
+        "word": "papeleo"
+      },
+      {
+        "en": "visa",
+        "example": {
+          "en": "The student visa takes weeks.",
+          "es": "El visado de estudiante tarda semanas."
+        },
+        "note": "el visado de estudiante.",
+        "type": "n.m.",
+        "word": "visado"
+      },
+      {
+        "en": "foreign; abroad",
+        "example": {
+          "en": "She will live abroad for two years.",
+          "es": "Vivirá dos años en el extranjero."
+        },
+        "note": "vivir en el extranjero.",
+        "type": "adj./n.",
+        "word": "extranjero/a"
+      },
+      {
+        "en": "courage",
+        "example": {
+          "en": "In the bravest scenario, she accepts.",
+          "es": "En el supuesto más valiente, acepta."
+        },
+        "note": "Opposite: cobardía.",
+        "type": "n.f.",
+        "word": "valentía"
+      },
+      {
+        "en": "indecision",
+        "example": {
+          "en": "But indecision keeps her awake.",
+          "es": "Pero la indecisión no la deja dormir."
+        },
+        "note": "la indecisión no la deja dormir.",
+        "type": "n.f.",
+        "word": "indecisión"
+      },
+      {
+        "en": "undecided",
+        "example": {
+          "en": "He is still undecided.",
+          "es": "Todavía está indeciso."
+        },
+        "note": "estar indeciso.",
+        "type": "adj.",
+        "word": "indeciso/a"
+      },
+      {
+        "en": "assumption, scenario; supposed",
+        "example": {
+          "en": "In the bravest scenario, she dares.",
+          "es": "En el supuesto más valiente, se atreve."
+        },
+        "note": "en el supuesto de que…",
+        "type": "n.m./adj.",
+        "word": "supuesto/a"
+      },
+      {
+        "en": "consequence",
+        "example": {
+          "en": "The consequence she fears most is not failing.",
+          "es": "La consecuencia que más teme no es fracasar."
+        },
+        "note": "sufrir las consecuencias.",
+        "type": "n.f.",
+        "word": "consecuencia"
+      },
+      {
+        "en": "hypothesis",
+        "example": {
+          "en": "It is an interesting hypothesis.",
+          "es": "Es una hipótesis interesante."
+        },
+        "note": "una hipótesis valiente.",
+        "type": "n.f.",
+        "word": "hipótesis"
+      },
+      {
+        "en": "motive, reason",
+        "example": {
+          "en": "His motive is clear.",
+          "es": "Su motivo es claro."
+        },
+        "note": "el motivo de la decisión.",
+        "type": "n.m.",
+        "word": "motivo"
+      },
+      {
+        "en": "deadline, instalment",
+        "example": {
+          "en": "If the deadline ends today, we decide now.",
+          "es": "Si el plazo termina hoy, decidimos ya."
+        },
+        "note": "el plazo termina hoy; a plazos.",
+        "type": "n.m.",
+        "word": "plazo"
+      },
+      {
+        "en": "to deserve; to be worth",
+        "example": {
+          "en": "What if risking so much isn't worth it?",
+          "es": "¿Y si no merece la pena arriesgar tanto?"
+        },
+        "note": "merece la pena (it's worth it).",
+        "type": "v.",
+        "word": "merecer"
+      },
+      {
+        "en": "to risk",
+        "example": {
+          "en": "She doesn't dare risk so much.",
+          "es": "No se atreve a arriesgar tanto."
+        },
+        "note": "arriesgar mucho.",
+        "type": "v.",
+        "word": "arriesgar"
+      },
+      {
+        "en": "risky, daring",
+        "example": {
+          "en": "It would be a risky decision.",
+          "es": "Sería una decisión arriesgada."
+        },
+        "note": "una decisión arriesgada.",
+        "type": "adj.",
+        "word": "arriesgado/a"
+      },
+      {
+        "en": "to regret",
+        "example": {
+          "en": "She wonders whether she would regret it.",
+          "es": "Se pregunta si se arrepentiría."
+        },
+        "note": "arrepentirse de algo.",
+        "type": "v.",
+        "word": "arrepentirse"
+      },
+      {
+        "en": "to dare",
+        "example": {
+          "en": "She dares and starts the journey.",
+          "es": "Se atreve y emprende el viaje."
+        },
+        "note": "atreverse a hacer algo.",
+        "type": "v.",
+        "word": "atreverse"
+      },
+      {
+        "en": "to pay for, to cover (costs)",
+        "example": {
+          "en": "The programme would cover her studies.",
+          "es": "El programa le costearía los estudios."
+        },
+        "note": "costear los estudios.",
+        "type": "v.",
+        "word": "costear"
+      },
+      {
+        "en": "to start, to undertake",
+        "example": {
+          "en": "He will start the journey with little luggage.",
+          "es": "Emprenderá el viaje con lo puesto."
+        },
+        "note": "emprender un viaje; un negocio.",
+        "type": "v.",
+        "word": "emprender"
+      },
+      {
+        "en": "to suppose; to mean, to entail",
+        "example": {
+          "en": "The paperwork is no problem.",
+          "es": "El papeleo no supone ningún problema."
+        },
+        "note": "supone un problema; supongo que sí.",
+        "type": "v.",
+        "word": "suponer"
+      },
+      {
+        "en": "deserved, well-earned",
+        "example": {
+          "en": "A well-earned job after years of effort.",
+          "es": "Un trabajo merecido después de años de esfuerzo."
+        },
+        "note": "un descanso merecido.",
+        "type": "adj.",
+        "word": "merecido/a"
+      },
+      {
+        "en": "favour",
+        "example": {
+          "en": "He doesn't want to ask any favours.",
+          "es": "No quiere pedir ningún favor."
+        },
+        "note": "pedir / hacer un favor.",
+        "type": "n.m.",
+        "word": "favor"
+      },
+      {
+        "en": "imagine (informal command)",
+        "example": {
+          "en": "Imagine living two years away.",
+          "es": "Imagínate vivir dos años fuera."
+        },
+        "ext": true,
+        "note": "Imagínate dentro de diez años.",
+        "type": "interj.",
+        "word": "imagínate"
+      },
+      {
+        "en": "cowardice",
+        "example": {
+          "en": "It wasn't cowardice, it was prudence.",
+          "es": "No fue cobardía, fue prudencia."
+        },
+        "ext": true,
+        "note": "Opposite: valentía.",
+        "type": "n.f.",
+        "word": "cobardía"
+      },
+      {
+        "en": "to retire",
+        "example": {
+          "en": "He retired at 65.",
+          "es": "Se jubiló a los 65 años."
+        },
+        "ext": true,
+        "note": "Se jubiló a los 65 años.",
+        "type": "v.",
+        "word": "jubilarse"
+      }
+    ]
+  },
+  {
+    "lesson": 40,
+    "title": "Future perfect and conditional perfect",
+    "words": [
+      {
+        "en": "I will have",
+        "example": {
+          "en": "By then, I will already have figured it out.",
+          "es": "Para entonces, ya habré deducido lo ocurrido."
+        },
+        "note": "Future of haber; habré terminado.",
+        "type": "v.",
+        "word": "habré"
+      },
+      {
+        "en": "he/she/it will have; must have",
+        "example": {
+          "en": "The galleon must have set sail from Cartagena.",
+          "es": "El galeón habrá zarpado de Cartagena."
+        },
+        "note": "Habrá llegado; habrá zarpado (guess).",
+        "type": "v.",
+        "word": "habrá"
+      },
+      {
+        "en": "I/he/she would have",
+        "example": {
+          "en": "The craft would not have taken off on time.",
+          "es": "La nave no habría despegado a tiempo."
+        },
+        "note": "Conditional of haber; habría despegado.",
+        "type": "v.",
+        "word": "habría"
+      },
+      {
+        "en": "they would have",
+        "example": {
+          "en": "They would have recovered the treasure.",
+          "es": "Habrían rescatado el tesoro."
+        },
+        "note": "Habrían rescatado el tesoro.",
+        "type": "v.",
+        "word": "habrían"
+      },
+      {
+        "en": "probe",
+        "example": {
+          "en": "By 2032, the probe will have reached the orbit.",
+          "es": "Para 2032, la sonda habrá llegado a la órbita."
+        },
+        "note": "una sonda espacial.",
+        "type": "n.f.",
+        "word": "sonda"
+      },
+      {
+        "en": "crew",
+        "example": {
+          "en": "You could have warned the crew.",
+          "es": "Habrías podido avisar a la tripulación."
+        },
+        "note": "la tripulación de la nave.",
+        "type": "n.f.",
+        "word": "tripulación"
+      },
+      {
+        "en": "orbit",
+        "example": {
+          "en": "It will have crossed the comet's orbit.",
+          "es": "Habrá cruzado la órbita del cometa."
+        },
+        "note": "entrar en órbita.",
+        "type": "n.f.",
+        "word": "órbita"
+      },
+      {
+        "en": "comet",
+        "example": {
+          "en": "The old sailors must have seen the same comet.",
+          "es": "Los viejos habrán visto el mismo cometa."
+        },
+        "note": "la órbita del cometa.",
+        "type": "n.m.",
+        "word": "cometa"
+      },
+      {
+        "en": "eclipse",
+        "example": {
+          "en": "By the night of the eclipse, it will have crossed.",
+          "es": "Para la noche del eclipse, habrá cruzado."
+        },
+        "note": "el pronóstico del eclipse.",
+        "type": "n.m.",
+        "word": "eclipse"
+      },
+      {
+        "en": "takeoff, launch",
+        "example": {
+          "en": "They celebrated the launch of the twin capsule.",
+          "es": "Celebraron el despegue de la cápsula gemela."
+        },
+        "note": "el despegue de la cápsula.",
+        "type": "n.m.",
+        "word": "despegue"
+      },
+      {
+        "en": "to take off",
+        "example": {
+          "en": "The craft would not have taken off on time.",
+          "es": "La nave no habría despegado a tiempo."
+        },
+        "note": "la nave despegó a tiempo.",
+        "type": "v.",
+        "word": "despegar"
+      },
+      {
+        "en": "to land on the moon",
+        "example": {
+          "en": "It will have landed before the eclipse.",
+          "es": "Habrá alunizado antes del eclipse."
+        },
+        "note": "Habrá alunizado antes del eclipse.",
+        "type": "v.",
+        "word": "alunizar"
+      },
+      {
+        "en": "capsule",
+        "example": {
+          "en": "The launch of the twin capsule.",
+          "es": "El despegue de la cápsula gemela."
+        },
+        "note": "la cápsula gemela.",
+        "type": "n.f.",
+        "word": "cápsula"
+      },
+      {
+        "en": "craft, ship",
+        "example": {
+          "en": "The craft would not have taken off.",
+          "es": "La nave no habría despegado."
+        },
+        "note": "una nave espacial; la nave del tesoro.",
+        "type": "n.f.",
+        "word": "nave"
+      },
+      {
+        "en": "forecast",
+        "example": {
+          "en": "The eclipse must have changed the forecast.",
+          "es": "El eclipse habrá alterado el pronóstico."
+        },
+        "note": "el pronóstico del tiempo / del eclipse.",
+        "type": "n.m.",
+        "word": "pronóstico"
+      },
+      {
+        "en": "advance, breakthrough",
+        "example": {
+          "en": "Nobody would have bet on this breakthrough.",
+          "es": "Nadie habría apostado por este adelanto."
+        },
+        "note": "un adelanto científico.",
+        "type": "n.m.",
+        "word": "adelanto"
+      },
+      {
+        "en": "to deduce, to infer",
+        "example": {
+          "en": "By then, I will have figured out what happened.",
+          "es": "Para entonces, ya habré deducido lo ocurrido."
+        },
+        "note": "deducir lo ocurrido.",
+        "type": "v.",
+        "word": "deducir"
+      },
+      {
+        "en": "find, discovery",
+        "example": {
+          "en": "No expedition could have dreamed of a better find.",
+          "es": "Ninguna expedición habría soñado un hallazgo mejor."
+        },
+        "note": "un hallazgo arqueológico.",
+        "type": "n.m.",
+        "word": "hallazgo"
+      },
+      {
+        "en": "site, deposit (archaeology)",
+        "example": {
+          "en": "The first samples from the site.",
+          "es": "Las primeras muestras del yacimiento."
+        },
+        "note": "las muestras del yacimiento.",
+        "type": "n.m.",
+        "word": "yacimiento"
+      },
+      {
+        "en": "shipwreck (the wreck itself)",
+        "example": {
+          "en": "Each sample from the wreck will have told its story.",
+          "es": "Cada muestra del pecio habrá contado su historia."
+        },
+        "note": "un pecio con restos.",
+        "type": "n.m.",
+        "word": "pecio"
+      },
+      {
+        "en": "treasure",
+        "example": {
+          "en": "The galleon set sail with a treasure on board.",
+          "es": "El galeón zarpó con un tesoro a bordo."
+        },
+        "note": "un tesoro a bordo.",
+        "type": "n.m.",
+        "word": "tesoro"
+      },
+      {
+        "en": "compass",
+        "example": {
+          "en": "Without the compass, he would not have found the way.",
+          "es": "Sin la brújula, no habría encontrado el camino."
+        },
+        "note": "la brújula del capitán.",
+        "type": "n.f.",
+        "word": "brújula"
+      },
+      {
+        "en": "lighthouse",
+        "example": {
+          "en": "The compass and the bay's lighthouse.",
+          "es": "La brújula y el faro de la bahía."
+        },
+        "note": "el faro de la bahía.",
+        "type": "n.m.",
+        "word": "faro"
+      },
+      {
+        "en": "remains, rest",
+        "example": {
+          "en": "A wreck with remains of a shipwreck.",
+          "es": "Un pecio con restos de un naufragio."
+        },
+        "note": "Plural: restos de un naufragio.",
+        "type": "n.m.",
+        "word": "resto"
+      },
+      {
+        "en": "shipwreck (the event)",
+        "example": {
+          "en": "Remains of a shipwreck.",
+          "es": "Restos de un naufragio."
+        },
+        "note": "restos de un naufragio.",
+        "type": "n.m.",
+        "word": "naufragio"
+      },
+      {
+        "en": "sample",
+        "example": {
+          "en": "By year end, they will have recovered the first samples.",
+          "es": "Para fin de año, habrán rescatado las primeras muestras."
+        },
+        "note": "las primeras muestras.",
+        "type": "n.f.",
+        "word": "muestra"
+      },
+      {
+        "en": "clue, track",
+        "example": {
+          "en": "The divers found a clue.",
+          "es": "Los buzos encontraron una pista."
+        },
+        "note": "una pista del pecio.",
+        "type": "n.f.",
+        "word": "pista"
+      },
+      {
+        "en": "to set sail",
+        "example": {
+          "en": "The galleon must have set sail from Cartagena.",
+          "es": "El galeón habrá zarpado de Cartagena."
+        },
+        "note": "zarpar de Cartagena.",
+        "type": "v.",
+        "word": "zarpar"
+      },
+      {
+        "en": "to be shipwrecked, to sink",
+        "example": {
+          "en": "The galleon was shipwrecked in the storm.",
+          "es": "El galeón naufragó en la tormenta."
+        },
+        "note": "el galeón naufragó.",
+        "type": "v.",
+        "word": "naufragar"
+      },
+      {
+        "en": "to submerge, to sink",
+        "example": {
+          "en": "The storm sank it.",
+          "es": "La tormenta lo sumergió."
+        },
+        "note": "la tormenta lo sumergió.",
+        "type": "v.",
+        "word": "sumergir"
+      },
+      {
+        "en": "to rescue, to recover",
+        "example": {
+          "en": "They will have recovered the samples.",
+          "es": "Habrán rescatado las muestras."
+        },
+        "note": "rescatar las muestras.",
+        "type": "v.",
+        "word": "rescatar"
+      },
+      {
+        "en": "expedition",
+        "example": {
+          "en": "No expedition could have dreamed of a better find.",
+          "es": "Ninguna expedición habría soñado un hallazgo mejor."
+        },
+        "note": "la expedición arqueológica.",
+        "type": "n.f.",
+        "word": "expedición"
+      },
+      {
+        "en": "to delay",
+        "example": {
+          "en": "The launch was delayed.",
+          "es": "El lanzamiento se retrasó."
+        },
+        "ext": true,
+        "note": "El lanzamiento se retrasó.",
+        "type": "v.",
+        "word": "retrasar"
+      },
+      {
+        "en": "submersible; underwater",
+        "example": {
+          "en": "An underwater robot found the wreck.",
+          "es": "Un robot sumergible encontró el pecio."
+        },
+        "ext": true,
+        "note": "un robot sumergible.",
+        "type": "n.m./adj.",
+        "word": "sumergible"
+      },
+      {
+        "en": "moon landing",
+        "example": {
+          "en": "The moon landing was broadcast worldwide.",
+          "es": "El alunizaje se transmitió a todo el mundo."
+        },
+        "ext": true,
+        "note": "From alunizar.",
+        "type": "n.m.",
+        "word": "alunizaje"
+      }
+    ]
+  },
+  {
+    "lesson": 41,
+    "title": "The passive voice",
+    "words": [
+      {
+        "en": "to open, to unveil",
+        "example": {
+          "en": "In 1910 the monument was unveiled.",
+          "es": "En 1910 se inauguró el monumento."
+        },
+        "note": "se inauguró el monumento.",
+        "type": "v.",
+        "word": "inaugurar"
+      },
+      {
+        "en": "to knock down, to topple",
+        "example": {
+          "en": "The dome was toppled by the earthquake.",
+          "es": "La cúpula fue derribada por el terremoto."
+        },
+        "note": "la cúpula fue derribada.",
+        "type": "v.",
+        "word": "derribar"
+      },
+      {
+        "en": "to proclaim",
+        "example": {
+          "en": "Independence was proclaimed from the balcony.",
+          "es": "La independencia fue proclamada desde el balcón."
+        },
+        "note": "fue proclamada la independencia.",
+        "type": "v.",
+        "word": "proclamar"
+      },
+      {
+        "en": "to overthrow",
+        "example": {
+          "en": "After the defeat, he was overthrown.",
+          "es": "Tras la derrota, fue derrocado."
+        },
+        "note": "derrocar al gobierno.",
+        "type": "v.",
+        "word": "derrocar"
+      },
+      {
+        "en": "to remove from office",
+        "example": {
+          "en": "The general was removed for betrayal.",
+          "es": "El general fue destituido por traición."
+        },
+        "note": "fue destituido por traición.",
+        "type": "v.",
+        "word": "destituir"
+      },
+      {
+        "en": "to crown",
+        "example": {
+          "en": "The king was crowned very young.",
+          "es": "El rey fue coronado muy joven."
+        },
+        "note": "coronar al rey.",
+        "type": "v.",
+        "word": "coronar"
+      },
+      {
+        "en": "to besiege",
+        "example": {
+          "en": "It was besieged by the king's troops.",
+          "es": "Fue sitiada por las tropas del rey."
+        },
+        "note": "fue sitiada por las tropas.",
+        "type": "v.",
+        "word": "sitiar"
+      },
+      {
+        "en": "surrender",
+        "example": {
+          "en": "The city was defended until the final surrender.",
+          "es": "La ciudad sería defendida hasta la rendición final."
+        },
+        "note": "hasta la rendición final.",
+        "type": "n.f.",
+        "word": "rendición"
+      },
+      {
+        "en": "to surrender; to yield",
+        "example": {
+          "en": "The governor refused to surrender.",
+          "es": "El gobernador no quiso rendirse."
+        },
+        "note": "rendirse (to give up); no quiso rendirse.",
+        "type": "v.",
+        "word": "rendir"
+      },
+      {
+        "en": "statue",
+        "example": {
+          "en": "A statue beneath a stone arch.",
+          "es": "Una estatua bajo un arco de piedra."
+        },
+        "note": "una estatua bajo un arco.",
+        "type": "n.f.",
+        "word": "estatua"
+      },
+      {
+        "en": "betrayal",
+        "example": {
+          "en": "Sentenced to exile for his betrayal.",
+          "es": "Condenado al destierro por su traición."
+        },
+        "note": "condenado por su traición.",
+        "type": "n.f.",
+        "word": "traición"
+      },
+      {
+        "en": "to betray",
+        "example": {
+          "en": "He betrayed his people.",
+          "es": "Traicionó a su gente."
+        },
+        "note": "traicionar a su gente.",
+        "type": "v.",
+        "word": "traicionar"
+      },
+      {
+        "en": "pardon",
+        "example": {
+          "en": "He asked for a pardon.",
+          "es": "Pidió el indulto."
+        },
+        "note": "pedir el indulto.",
+        "type": "n.m.",
+        "word": "indulto"
+      },
+      {
+        "en": "to pardon",
+        "example": {
+          "en": "They say he was pardoned years later.",
+          "es": "Dicen que fue indultado años después."
+        },
+        "note": "fue indultado por el rey.",
+        "type": "v.",
+        "word": "indultar"
+      },
+      {
+        "en": "exile",
+        "example": {
+          "en": "Sentenced to exile.",
+          "es": "Condenado al destierro."
+        },
+        "note": "condenado al destierro.",
+        "type": "n.m.",
+        "word": "destierro"
+      },
+      {
+        "en": "to exile, to banish",
+        "example": {
+          "en": "He was banished from the country.",
+          "es": "Fue desterrado del país."
+        },
+        "note": "fue desterrado del país.",
+        "type": "v.",
+        "word": "desterrar"
+      },
+      {
+        "en": "proclamation, announcement",
+        "example": {
+          "en": "The festival proclamation.",
+          "es": "El pregón de las fiestas."
+        },
+        "note": "el pregón de las fiestas.",
+        "type": "n.m.",
+        "word": "pregón"
+      },
+      {
+        "en": "to announce publicly",
+        "example": {
+          "en": "The festivals are announced in the square.",
+          "es": "Las fiestas se pregonan en la plaza."
+        },
+        "note": "se pregonan las fiestas.",
+        "type": "v.",
+        "word": "pregonar"
+      },
+      {
+        "en": "mural",
+        "example": {
+          "en": "A big colourful mural.",
+          "es": "Un gran mural de colores."
+        },
+        "note": "un mural de colores.",
+        "type": "n.m.",
+        "word": "mural"
+      },
+      {
+        "en": "arch",
+        "example": {
+          "en": "A stone arch.",
+          "es": "Un arco de piedra."
+        },
+        "note": "un arco de piedra.",
+        "type": "n.m.",
+        "word": "arco"
+      },
+      {
+        "en": "dome",
+        "example": {
+          "en": "The palace dome.",
+          "es": "La cúpula del palacio."
+        },
+        "note": "la cúpula del palacio.",
+        "type": "n.f.",
+        "word": "cúpula"
+      },
+      {
+        "en": "fortress",
+        "example": {
+          "en": "The fortress of the bay.",
+          "es": "La fortaleza de la bahía."
+        },
+        "note": "la fortaleza de la bahía.",
+        "type": "n.f.",
+        "word": "fortaleza"
+      },
+      {
+        "en": "to declare",
+        "example": {
+          "en": "The whole site is declared heritage.",
+          "es": "Todo el conjunto se declara patrimonio."
+        },
+        "note": "se declara patrimonio.",
+        "type": "v.",
+        "word": "declarar"
+      },
+      {
+        "en": "to elect, to choose",
+        "example": {
+          "en": "The carnival royalty are elected there.",
+          "es": "Allí se eligen los reyes del carnaval."
+        },
+        "note": "se eligen los reyes del carnaval.",
+        "type": "v.",
+        "word": "elegir"
+      },
+      {
+        "en": "plaque",
+        "example": {
+          "en": "A bronze plaque.",
+          "es": "Una placa de bronce."
+        },
+        "note": "una placa de bronce.",
+        "type": "n.f.",
+        "word": "placa"
+      },
+      {
+        "en": "monument",
+        "example": {
+          "en": "In 1910 the monument was unveiled.",
+          "es": "En 1910 se inauguró el monumento."
+        },
+        "note": "se inauguró el monumento.",
+        "type": "n.m.",
+        "word": "monumento"
+      },
+      {
+        "en": "crown",
+        "example": {
+          "en": "The king's crown.",
+          "es": "La corona del rey."
+        },
+        "note": "la corona del rey.",
+        "type": "n.f.",
+        "word": "corona"
+      },
+      {
+        "en": "throne",
+        "example": {
+          "en": "To take the throne.",
+          "es": "Subir al trono."
+        },
+        "note": "subir al trono.",
+        "type": "n.m.",
+        "word": "trono"
+      },
+      {
+        "en": "reign",
+        "example": {
+          "en": "During his reign.",
+          "es": "Durante su reinado."
+        },
+        "note": "durante su reinado.",
+        "type": "n.m.",
+        "word": "reinado"
+      },
+      {
+        "en": "to reign",
+        "example": {
+          "en": "He reigned for twenty years.",
+          "es": "Reinó veinte años."
+        },
+        "note": "reinó veinte años.",
+        "type": "v.",
+        "word": "reinar"
+      },
+      {
+        "en": "siege",
+        "example": {
+          "en": "The siege of 1815.",
+          "es": "El asedio de 1815."
+        },
+        "note": "el asedio de 1815.",
+        "type": "n.m.",
+        "word": "asedio"
+      },
+      {
+        "en": "troop",
+        "example": {
+          "en": "The king's troops.",
+          "es": "Las tropas del rey."
+        },
+        "note": "Plural: las tropas del rey.",
+        "type": "n.f.",
+        "word": "tropa"
+      },
+      {
+        "en": "to execute by firing squad",
+        "example": {
+          "en": "He was executed.",
+          "es": "Fue fusilado."
+        },
+        "ext": true,
+        "note": "History contexts; fue fusilado.",
+        "type": "v.",
+        "word": "fusilar"
+      },
+      {
+        "en": "execution wall",
+        "example": {
+          "en": "Taken to the wall.",
+          "es": "Llevado al paredón."
+        },
+        "ext": true,
+        "note": "llevar al paredón.",
+        "type": "n.m.",
+        "word": "paredón"
+      },
+      {
+        "en": "coronation",
+        "example": {
+          "en": "The coronation was a great party.",
+          "es": "La coronación fue una gran fiesta."
+        },
+        "ext": true,
+        "note": "From coronar.",
+        "type": "n.f.",
+        "word": "coronación"
+      }
+    ]
+  },
+  {
+    "lesson": 42,
+    "title": "Reported speech",
+    "words": [
+      {
+        "en": "rumour",
+        "example": {
+          "en": "Rumour has it that he will resign.",
+          "es": "Corre el rumor de que dimitirá."
+        },
+        "note": "corre el rumor de que…",
+        "type": "n.m.",
+        "word": "rumor"
+      },
+      {
+        "en": "gossip (piece of)",
+        "example": {
+          "en": "She was tired of gossip.",
+          "es": "Estaba cansada de los chismes."
+        },
+        "note": "LatAm also: chisme de pasillo.",
+        "type": "n.m.",
+        "word": "chisme"
+      },
+      {
+        "en": "accusation",
+        "example": {
+          "en": "The mayor denied the accusation.",
+          "es": "El alcalde negó la acusación."
+        },
+        "note": "negó la acusación.",
+        "type": "n.f.",
+        "word": "acusación"
+      },
+      {
+        "en": "treasurer",
+        "example": {
+          "en": "The treasurer had confessed everything.",
+          "es": "El tesorero había confesado todo."
+        },
+        "note": "el tesorero había confesado.",
+        "type": "n.",
+        "word": "tesorero/a"
+      },
+      {
+        "en": "judge",
+        "example": {
+          "en": "He appeared before the judge.",
+          "es": "Compareció ante el juez."
+        },
+        "note": "comparecer ante el juez.",
+        "type": "n.",
+        "word": "juez"
+      },
+      {
+        "en": "proof, evidence; test",
+        "example": {
+          "en": "He would present proof the next day.",
+          "es": "Al día siguiente presentaría pruebas."
+        },
+        "note": "presentar pruebas.",
+        "type": "n.f.",
+        "word": "prueba"
+      },
+      {
+        "en": "to assure, to claim",
+        "example": {
+          "en": "He assured them he would present proof.",
+          "es": "Aseguró que presentaría pruebas."
+        },
+        "note": "aseguró que presentaría pruebas.",
+        "type": "v.",
+        "word": "asegurar"
+      },
+      {
+        "en": "to deny",
+        "example": {
+          "en": "The mayor denied the accusation.",
+          "es": "El alcalde negó la acusación."
+        },
+        "note": "negó la acusación.",
+        "type": "v.",
+        "word": "negar"
+      },
+      {
+        "en": "to confess",
+        "example": {
+          "en": "The treasurer had confessed everything.",
+          "es": "El tesorero había confesado todo."
+        },
+        "note": "había confesado todo.",
+        "type": "v.",
+        "word": "confesar"
+      },
+      {
+        "en": "confession",
+        "example": {
+          "en": "A full confession.",
+          "es": "Una confesión completa."
+        },
+        "note": "From confesar.",
+        "type": "n.f.",
+        "word": "confesión"
+      },
+      {
+        "en": "to affirm, to state",
+        "example": {
+          "en": "She claimed she knew nothing.",
+          "es": "Afirmó que no sabía nada."
+        },
+        "note": "afirmó que no sabía nada.",
+        "type": "v.",
+        "word": "afirmar"
+      },
+      {
+        "en": "journalist",
+        "example": {
+          "en": "The journalist asked whether there was a leak.",
+          "es": "La periodista preguntó si había una filtración."
+        },
+        "note": "la periodista preguntó si…",
+        "type": "n.",
+        "word": "periodista"
+      },
+      {
+        "en": "correspondent",
+        "example": {
+          "en": "A correspondent in the capital.",
+          "es": "Un corresponsal en la capital."
+        },
+        "note": "un corresponsal en la capital.",
+        "type": "n.",
+        "word": "corresponsal"
+      },
+      {
+        "en": "headline",
+        "example": {
+          "en": "According to today's headline.",
+          "es": "Según el titular de hoy."
+        },
+        "note": "según el titular de hoy.",
+        "type": "n.m.",
+        "word": "titular"
+      },
+      {
+        "en": "spokesperson",
+        "example": {
+          "en": "The spokesperson announced the resignation.",
+          "es": "El portavoz anunció la dimisión."
+        },
+        "note": "el portavoz anunció la dimisión.",
+        "type": "n.",
+        "word": "portavoz"
+      },
+      {
+        "en": "appearance (official)",
+        "example": {
+          "en": "An appearance before the press.",
+          "es": "Una comparecencia ante la prensa."
+        },
+        "note": "una comparecencia ante la prensa.",
+        "type": "n.f.",
+        "word": "comparecencia"
+      },
+      {
+        "en": "to appear (officially)",
+        "example": {
+          "en": "He appeared before the judge.",
+          "es": "Compareció ante el juez."
+        },
+        "note": "comparecer ante el juez.",
+        "type": "v.",
+        "word": "comparecer"
+      },
+      {
+        "en": "leak (of info)",
+        "example": {
+          "en": "A leak about a bribe.",
+          "es": "Una filtración sobre un soborno."
+        },
+        "note": "una filtración sobre un soborno.",
+        "type": "n.f.",
+        "word": "filtración"
+      },
+      {
+        "en": "to leak",
+        "example": {
+          "en": "To leak a document.",
+          "es": "Filtrar un documento."
+        },
+        "note": "filtrar un documento.",
+        "type": "v.",
+        "word": "filtrar"
+      },
+      {
+        "en": "to deny, to refute",
+        "example": {
+          "en": "The scandal was impossible to deny.",
+          "es": "El escándalo era imposible de desmentir."
+        },
+        "note": "imposible de desmentir.",
+        "type": "v.",
+        "word": "desmentir"
+      },
+      {
+        "en": "to rectify, to correct",
+        "example": {
+          "en": "The paper corrected the headline.",
+          "es": "El diario rectificó el titular."
+        },
+        "note": "el diario rectificó el titular.",
+        "type": "v.",
+        "word": "rectificar"
+      },
+      {
+        "en": "bribe",
+        "example": {
+          "en": "A leak about a bribe.",
+          "es": "Una filtración sobre un soborno."
+        },
+        "note": "una filtración sobre un soborno.",
+        "type": "n.m.",
+        "word": "soborno"
+      },
+      {
+        "en": "to bribe",
+        "example": {
+          "en": "He tried to bribe the judge.",
+          "es": "Intentó sobornar al juez."
+        },
+        "note": "intentó sobornar al juez.",
+        "type": "v.",
+        "word": "sobornar"
+      },
+      {
+        "en": "to interrogate, to question",
+        "example": {
+          "en": "To question the treasurer.",
+          "es": "Interrogar al tesorero."
+        },
+        "note": "interrogar al tesorero.",
+        "type": "v.",
+        "word": "interrogar"
+      },
+      {
+        "en": "to admit",
+        "example": {
+          "en": "Nobody had admitted it.",
+          "es": "Nadie lo había admitido."
+        },
+        "note": "nadie lo había admitido.",
+        "type": "v.",
+        "word": "admitir"
+      },
+      {
+        "en": "to swear",
+        "example": {
+          "en": "He swore he would tell the truth.",
+          "es": "Juró que diría la verdad."
+        },
+        "note": "juró que diría la verdad.",
+        "type": "v.",
+        "word": "jurar"
+      },
+      {
+        "en": "to testify",
+        "example": {
+          "en": "To testify before the judge.",
+          "es": "Testificar ante el juez."
+        },
+        "note": "testificar ante el juez.",
+        "type": "v.",
+        "word": "testificar"
+      },
+      {
+        "en": "to quote; to mention",
+        "example": {
+          "en": "He mentioned three meetings.",
+          "es": "Citó tres reuniones."
+        },
+        "note": "citó tres reuniones.",
+        "type": "v.",
+        "word": "citar"
+      },
+      {
+        "en": "press conference (rueda de prensa)",
+        "example": {
+          "en": "At the end of the press conference.",
+          "es": "Al final de la rueda."
+        },
+        "note": "al final de la rueda.",
+        "type": "n.f.",
+        "word": "rueda"
+      },
+      {
+        "en": "to resign",
+        "example": {
+          "en": "He is not thinking of resigning.",
+          "es": "No piensa dimitir."
+        },
+        "note": "no piensa dimitir.",
+        "type": "v.",
+        "word": "dimitir"
+      },
+      {
+        "en": "resignation",
+        "example": {
+          "en": "He announced the resignation.",
+          "es": "Anunció la dimisión."
+        },
+        "note": "anunció la dimisión.",
+        "type": "n.f.",
+        "word": "dimisión"
+      },
+      {
+        "en": "scandal",
+        "example": {
+          "en": "The scandal was impossible to deny.",
+          "es": "El escándalo era imposible de desmentir."
+        },
+        "note": "el escándalo era imposible de desmentir.",
+        "type": "n.m.",
+        "word": "escándalo"
+      },
+      {
+        "en": "gossipy; gossip",
+        "example": {
+          "en": "A gossipy neighbour.",
+          "es": "Una vecina chismosa."
+        },
+        "ext": true,
+        "note": "From chisme; un vecino chismoso.",
+        "type": "adj./n.",
+        "word": "chismoso/a"
+      },
+      {
+        "en": "shocking, scandalous; loud",
+        "example": {
+          "en": "A shocking case.",
+          "es": "Un caso escandaloso."
+        },
+        "ext": true,
+        "note": "From escándalo; un caso escandaloso.",
+        "type": "adj.",
+        "word": "escandaloso/a"
+      },
+      {
+        "en": "to rumour",
+        "example": {
+          "en": "Rumour has it that he will resign.",
+          "es": "Se rumorea que dimitirá."
+        },
+        "ext": true,
+        "note": "Se rumorea que dimitirá.",
+        "type": "v.",
+        "word": "rumorear"
+      }
+    ]
+  },
+  {
+    "lesson": 43,
+    "title": "Por vs para (full)",
+    "words": [
+      {
+        "en": "parcel (sent)",
+        "example": {
+          "en": "A parcel for her grandmother.",
+          "es": "Una encomienda para su abuela."
+        },
+        "note": "una encomienda para la abuela.",
+        "type": "n.f.",
+        "word": "encomienda"
+      },
+      {
+        "en": "order; errand",
+        "example": {
+          "en": "To pick up another order.",
+          "es": "Recoger otro encargo."
+        },
+        "note": "recoger un encargo.",
+        "type": "n.m.",
+        "word": "encargo"
+      },
+      {
+        "en": "to order; to entrust",
+        "example": {
+          "en": "To order a package.",
+          "es": "Encargar un paquete."
+        },
+        "note": "encargar un paquete.",
+        "type": "v.",
+        "word": "encargar"
+      },
+      {
+        "en": "clerk, person in charge",
+        "example": {
+          "en": "The clerk weighed the package.",
+          "es": "El encargado pesó el paquete."
+        },
+        "note": "el encargado pesó el paquete.",
+        "type": "n./adj.",
+        "word": "encargado/a"
+      },
+      {
+        "en": "shipment, sending",
+        "example": {
+          "en": "Thanks for the shipment.",
+          "es": "Gracias por el envío."
+        },
+        "note": "gracias por el envío.",
+        "type": "n.m.",
+        "word": "envío"
+      },
+      {
+        "en": "sender",
+        "example": {
+          "en": "Sender and addressee on the form.",
+          "es": "Remitente y destinatario en el formulario."
+        },
+        "note": "Opposite: destinatario.",
+        "type": "n.",
+        "word": "remitente"
+      },
+      {
+        "en": "addressee",
+        "example": {
+          "en": "The stamp is for the addressee.",
+          "es": "El sello es para el destinatario."
+        },
+        "note": "el sello es para el destinatario.",
+        "type": "n.",
+        "word": "destinatario/a"
+      },
+      {
+        "en": "fine",
+        "example": {
+          "en": "A fine for speeding.",
+          "es": "Una multa por exceso."
+        },
+        "note": "una multa por exceso.",
+        "type": "n.f.",
+        "word": "multa"
+      },
+      {
+        "en": "tip",
+        "example": {
+          "en": "To leave a tip.",
+          "es": "Dejar propina."
+        },
+        "note": "dejar propina.",
+        "type": "n.f.",
+        "word": "propina"
+      },
+      {
+        "en": "to haggle",
+        "example": {
+          "en": "She haggled over the price.",
+          "es": "Regateó por el precio."
+        },
+        "note": "regateó por el precio.",
+        "type": "v.",
+        "word": "regatear"
+      },
+      {
+        "en": "barter",
+        "example": {
+          "en": "Barter is still practised at the fair.",
+          "es": "En la feria todavía se practica el trueque."
+        },
+        "note": "un trueque justo.",
+        "type": "n.m.",
+        "word": "trueque"
+      },
+      {
+        "en": "to exchange, to redeem",
+        "example": {
+          "en": "To redeem a coupon.",
+          "es": "Canjear un cupón."
+        },
+        "note": "canjear un cupón.",
+        "type": "v.",
+        "word": "canjear"
+      },
+      {
+        "en": "exchange, redemption",
+        "example": {
+          "en": "The coupon redemption.",
+          "es": "El canje del cupón."
+        },
+        "note": "el canje del cupón.",
+        "type": "n.m.",
+        "word": "canje"
+      },
+      {
+        "en": "postage",
+        "example": {
+          "en": "To pay the postage.",
+          "es": "Pagar el franqueo."
+        },
+        "note": "pagar el franqueo.",
+        "type": "n.m.",
+        "word": "franqueo"
+      },
+      {
+        "en": "courier service",
+        "example": {
+          "en": "The courier office.",
+          "es": "La oficina de mensajería."
+        },
+        "note": "la oficina de mensajería.",
+        "type": "n.f.",
+        "word": "mensajería"
+      },
+      {
+        "en": "haulage, carrying",
+        "example": {
+          "en": "How much for the carriage?",
+          "es": "¿Cuánto cobran por el acarreo?"
+        },
+        "note": "el acarreo del paquete.",
+        "type": "n.m.",
+        "word": "acarreo"
+      },
+      {
+        "en": "fault, blame",
+        "example": {
+          "en": "Nobody overpaid because of the prices.",
+          "es": "Nadie pagó de más por culpa de los precios."
+        },
+        "note": "por tu culpa; echar la culpa.",
+        "type": "n.f.",
+        "word": "culpa"
+      },
+      {
+        "en": "shopkeeper",
+        "example": {
+          "en": "Thanks to the shopkeeper's help.",
+          "es": "Por la ayuda del tendero."
+        },
+        "note": "la ayuda del tendero.",
+        "type": "n.",
+        "word": "tendero/a"
+      },
+      {
+        "en": "scale",
+        "example": {
+          "en": "To weigh on the scale.",
+          "es": "Pesar en la balanza."
+        },
+        "note": "pesar en la balanza.",
+        "type": "n.f.",
+        "word": "balanza"
+      },
+      {
+        "en": "to weigh",
+        "example": {
+          "en": "He weighed the package.",
+          "es": "Pesó el paquete."
+        },
+        "note": "pesó el paquete.",
+        "type": "v.",
+        "word": "pesar"
+      },
+      {
+        "en": "change (money back)",
+        "example": {
+          "en": "Cash for the change.",
+          "es": "Efectivo para el vuelto."
+        },
+        "note": "LatAm; Spain: la vuelta. Efectivo para el vuelto.",
+        "type": "n.m.",
+        "word": "vuelto"
+      },
+      {
+        "en": "discount, sale",
+        "example": {
+          "en": "A discount in exchange for taking fruit.",
+          "es": "Una rebaja a cambio de llevarse fruta."
+        },
+        "note": "una rebaja a cambio de algo.",
+        "type": "n.f.",
+        "word": "rebaja"
+      },
+      {
+        "en": "bill, invoice",
+        "example": {
+          "en": "To ask for the bill.",
+          "es": "Pedir la factura."
+        },
+        "note": "pedir la factura.",
+        "type": "n.f.",
+        "word": "factura"
+      },
+      {
+        "en": "freight, shipping cost",
+        "example": {
+          "en": "He charged shipping per kilo.",
+          "es": "Cobró el flete por kilo."
+        },
+        "note": "LatAm; cobrar el flete por kilo.",
+        "type": "n.m.",
+        "word": "flete"
+      },
+      {
+        "en": "mail carrier",
+        "example": {
+          "en": "The mail carrier will come by.",
+          "es": "El cartero pasará por su casa."
+        },
+        "note": "pasará por su casa.",
+        "type": "n.",
+        "word": "cartero/a"
+      },
+      {
+        "en": "mailbox",
+        "example": {
+          "en": "To drop into the mailbox.",
+          "es": "Echar al buzón."
+        },
+        "note": "echar al buzón.",
+        "type": "n.m.",
+        "word": "buzón"
+      },
+      {
+        "en": "package",
+        "example": {
+          "en": "To send the package.",
+          "es": "Enviar el paquete."
+        },
+        "note": "enviar el paquete.",
+        "type": "n.m.",
+        "word": "paquete"
+      },
+      {
+        "en": "to wrap",
+        "example": {
+          "en": "To wrap the parcel.",
+          "es": "Envolver la encomienda."
+        },
+        "note": "envolver la encomienda.",
+        "type": "v.",
+        "word": "envolver"
+      },
+      {
+        "en": "knot",
+        "example": {
+          "en": "To tie with a knot.",
+          "es": "Atar con un nudo."
+        },
+        "note": "atar con un nudo.",
+        "type": "n.m.",
+        "word": "nudo"
+      },
+      {
+        "en": "stamp; seal",
+        "example": {
+          "en": "The stamp is for the addressee.",
+          "es": "El sello es para el destinatario."
+        },
+        "note": "Spain. LatAm often: estampilla.",
+        "type": "n.m.",
+        "word": "sello"
+      },
+      {
+        "en": "to charge; to collect (money)",
+        "example": {
+          "en": "He charged shipping per kilo.",
+          "es": "Cobró el flete por kilo."
+        },
+        "note": "cobró el flete por kilo.",
+        "type": "v.",
+        "word": "cobrar"
+      },
+      {
+        "en": "in exchange for",
+        "example": {
+          "en": "A discount in exchange for taking fruit.",
+          "es": "Una rebaja a cambio de llevarse fruta."
+        },
+        "note": "With por-exchange logic.",
+        "type": "phr.",
+        "word": "a cambio de"
+      },
+      {
+        "en": "postage stamp (LatAm)",
+        "example": {
+          "en": "A stamp for the parcel.",
+          "es": "Una estampilla para la encomienda."
+        },
+        "ext": true,
+        "note": "In Spain: sello.",
+        "type": "n.f.",
+        "word": "estampilla"
+      },
+      {
+        "en": "to barter",
+        "example": {
+          "en": "They bartered cheese for honey.",
+          "es": "Truecaron queso por miel."
+        },
+        "ext": true,
+        "note": "From trueque; rare, literary.",
+        "type": "v.",
+        "word": "truecar"
+      },
+      {
+        "en": "forwarding",
+        "example": {
+          "en": "To request forwarding.",
+          "es": "Pedir el reenvío."
+        },
+        "ext": true,
+        "note": "From envío; pedir el reenvío.",
+        "type": "n.m.",
+        "word": "reenvío"
+      }
+    ]
+  },
+  {
+    "lesson": 44,
+    "title": "Verb periphrases & aspect",
+    "words": [
+      {
+        "en": "to rehearse",
+        "example": {
+          "en": "They're rehearsing the ending again.",
+          "es": "Vuelven a ensayar el final."
+        },
+        "note": "vuelven a ensayar el final.",
+        "type": "v.",
+        "word": "ensayar"
+      },
+      {
+        "en": "rehearsal",
+        "example": {
+          "en": "She has just resumed rehearsals.",
+          "es": "Acaba de retomar los ensayos."
+        },
+        "note": "retomar los ensayos.",
+        "type": "n.m.",
+        "word": "ensayo"
+      },
+      {
+        "en": "to premiere; to wear/use first time",
+        "example": {
+          "en": "To premiere a play.",
+          "es": "Estrenar una obra."
+        },
+        "note": "estrenar una obra.",
+        "type": "v.",
+        "word": "estrenar"
+      },
+      {
+        "en": "premiere, opening night",
+        "example": {
+          "en": "It doesn't plan to abandon the opening.",
+          "es": "No piensa abandonar el estreno."
+        },
+        "note": "no piensa abandonar el estreno.",
+        "type": "n.m.",
+        "word": "estreno"
+      },
+      {
+        "en": "tour",
+        "example": {
+          "en": "To postpone the tour.",
+          "es": "Posponer la gira."
+        },
+        "note": "posponer la gira.",
+        "type": "n.f.",
+        "word": "gira"
+      },
+      {
+        "en": "curtain (theatre)",
+        "example": {
+          "en": "When the curtain opens.",
+          "es": "Cuando el telón se abra."
+        },
+        "note": "cuando el telón se abra.",
+        "type": "n.m.",
+        "word": "telón"
+      },
+      {
+        "en": "early morning, dawn hours",
+        "example": {
+          "en": "Until the early hours.",
+          "es": "Hasta la madrugada."
+        },
+        "note": "hasta la madrugada.",
+        "type": "n.f.",
+        "word": "madrugada"
+      },
+      {
+        "en": "to stay up late",
+        "example": {
+          "en": "They keep staying up late.",
+          "es": "Siguen trasnochando."
+        },
+        "note": "siguen trasnochando.",
+        "type": "v.",
+        "word": "trasnochar"
+      },
+      {
+        "en": "to resume, to take up again",
+        "example": {
+          "en": "She has just resumed rehearsals.",
+          "es": "Acaba de retomar los ensayos."
+        },
+        "note": "acaba de retomar los ensayos.",
+        "type": "v.",
+        "word": "retomar"
+      },
+      {
+        "en": "to resume, to renew",
+        "example": {
+          "en": "She set about resuming Act Two.",
+          "es": "Se puso a reanudar el acto."
+        },
+        "note": "se puso a reanudar el acto.",
+        "type": "v.",
+        "word": "reanudar"
+      },
+      {
+        "en": "to abandon, to give up",
+        "example": {
+          "en": "It doesn't plan to abandon the opening.",
+          "es": "No piensa abandonar el estreno."
+        },
+        "note": "no piensa abandonar el estreno.",
+        "type": "v.",
+        "word": "abandonar"
+      },
+      {
+        "en": "to insist",
+        "example": {
+          "en": "He insists on getting used to it.",
+          "es": "Insiste en acostumbrarse."
+        },
+        "note": "insiste en acostumbrarse.",
+        "type": "v.",
+        "word": "insistir"
+      },
+      {
+        "en": "to get used to",
+        "example": {
+          "en": "To get used to something.",
+          "es": "Acostumbrarse a algo."
+        },
+        "note": "acostumbrarse a algo.",
+        "type": "v.",
+        "word": "acostumbrarse"
+      },
+      {
+        "en": "to intend, to resolve to",
+        "example": {
+          "en": "They intend to enjoy it.",
+          "es": "Se proponen disfrutar."
+        },
+        "note": "se proponen disfrutar.",
+        "type": "v.",
+        "word": "proponerse"
+      },
+      {
+        "en": "to postpone",
+        "example": {
+          "en": "To postpone the tour.",
+          "es": "Posponer la gira."
+        },
+        "note": "posponer la gira.",
+        "type": "v.",
+        "word": "posponer"
+      },
+      {
+        "en": "dressing room",
+        "example": {
+          "en": "Staying up late in the dressing room.",
+          "es": "Trasnochando en el camerino."
+        },
+        "note": "trasnochar en el camerino.",
+        "type": "n.m.",
+        "word": "camerino"
+      },
+      {
+        "en": "applause",
+        "example": {
+          "en": "To enjoy every round of applause.",
+          "es": "Disfrutar cada aplauso."
+        },
+        "note": "disfrutar cada aplauso.",
+        "type": "n.m.",
+        "word": "aplauso"
+      },
+      {
+        "en": "ovation",
+        "example": {
+          "en": "Up to the final ovation.",
+          "es": "Hasta la ovación final."
+        },
+        "note": "hasta la ovación final.",
+        "type": "n.f.",
+        "word": "ovación"
+      },
+      {
+        "en": "cast",
+        "example": {
+          "en": "The cast resumes rehearsals.",
+          "es": "El elenco retoma los ensayos."
+        },
+        "note": "el elenco retoma los ensayos.",
+        "type": "n.m.",
+        "word": "elenco"
+      },
+      {
+        "en": "cast, distribution (of roles)",
+        "example": {
+          "en": "The full cast.",
+          "es": "El reparto completo."
+        },
+        "note": "el reparto completo.",
+        "type": "n.m.",
+        "word": "reparto"
+      },
+      {
+        "en": "seat (theatre/cinema)",
+        "example": {
+          "en": "Filling the seats.",
+          "es": "Llenando las butacas."
+        },
+        "note": "llenando las butacas.",
+        "type": "n.f.",
+        "word": "butaca"
+      },
+      {
+        "en": "costume; wardrobe",
+        "example": {
+          "en": "She has her costume changes fully rehearsed.",
+          "es": "Tiene ensayados sus vestuarios."
+        },
+        "note": "tiene ensayados sus vestuarios.",
+        "type": "n.m.",
+        "word": "vestuario"
+      },
+      {
+        "en": "makeup",
+        "example": {
+          "en": "The makeup for each performance.",
+          "es": "El maquillaje de cada función."
+        },
+        "note": "el maquillaje de cada función.",
+        "type": "n.m.",
+        "word": "maquillaje"
+      },
+      {
+        "en": "act (of a play)",
+        "example": {
+          "en": "Act Two.",
+          "es": "El segundo acto."
+        },
+        "note": "el segundo acto.",
+        "type": "n.m.",
+        "word": "acto"
+      },
+      {
+        "en": "scene",
+        "example": {
+          "en": "Rehearsing the same scene.",
+          "es": "Ensayando la misma escena."
+        },
+        "note": "ensayando la misma escena.",
+        "type": "n.f.",
+        "word": "escena"
+      },
+      {
+        "en": "script",
+        "example": {
+          "en": "A scene from the script.",
+          "es": "Una escena del guion."
+        },
+        "note": "una escena del guion.",
+        "type": "n.m.",
+        "word": "guion"
+      },
+      {
+        "en": "performance, show",
+        "example": {
+          "en": "The makeup for each performance.",
+          "es": "El maquillaje de cada función."
+        },
+        "note": "el maquillaje de cada función.",
+        "type": "n.f.",
+        "word": "función"
+      },
+      {
+        "en": "box office",
+        "example": {
+          "en": "The box-office queue.",
+          "es": "La cola de la taquilla."
+        },
+        "note": "la cola de la taquilla.",
+        "type": "n.f.",
+        "word": "taquilla"
+      },
+      {
+        "en": "interval, intermission",
+        "example": {
+          "en": "During the interval.",
+          "es": "Durante el entreacto."
+        },
+        "note": "durante el entreacto.",
+        "type": "n.m.",
+        "word": "entreacto"
+      },
+      {
+        "en": "capacity, house (audience)",
+        "example": {
+          "en": "The house is growing.",
+          "es": "El aforo va creciendo."
+        },
+        "note": "el aforo va creciendo.",
+        "type": "n.m.",
+        "word": "aforo"
+      },
+      {
+        "en": "stage machinery",
+        "example": {
+          "en": "Getting used to the stage machinery.",
+          "es": "Acostumbrarse a la tramoya."
+        },
+        "note": "acostumbrarse a la tramoya.",
+        "type": "n.f.",
+        "word": "tramoya"
+      },
+      {
+        "en": "prompter",
+        "example": {
+          "en": "The prompter insists.",
+          "es": "El apuntador insiste."
+        },
+        "note": "el apuntador insiste.",
+        "type": "n.",
+        "word": "apuntador/a"
+      },
+      {
+        "en": "encore",
+        "example": {
+          "en": "To ask for an encore.",
+          "es": "Pedir un bis."
+        },
+        "ext": true,
+        "note": "pedir un bis; ¡bis!",
+        "type": "n.m./interj.",
+        "word": "bis"
+      },
+      {
+        "en": "preview (before opening)",
+        "example": {
+          "en": "Yesterday's preview.",
+          "es": "El preestreno de ayer."
+        },
+        "ext": true,
+        "note": "From estreno; el preestreno de ayer.",
+        "type": "n.m.",
+        "word": "preestreno"
+      },
+      {
+        "en": "revival, re-release",
+        "example": {
+          "en": "The revival of the classic.",
+          "es": "El reestreno del clásico."
+        },
+        "ext": true,
+        "note": "From estreno; el reestreno del clásico.",
+        "type": "n.m.",
+        "word": "reestreno"
+      }
+    ]
+  },
+  {
+    "lesson": 45,
+    "title": "Al-Ándalus & medieval Spain",
+    "words": [
+      {
+        "en": "mosque",
+        "example": {
+          "en": "The emir had built the great mosque.",
+          "es": "El emir había construido la gran mezquita."
+        },
+        "note": "From Arabic; la Mezquita de Córdoba.",
+        "type": "n.f.",
+        "word": "mezquita"
+      },
+      {
+        "en": "caliphate",
+        "example": {
+          "en": "It was the capital of the caliphate.",
+          "es": "Era la capital del califato."
+        },
+        "note": "El Califato de Córdoba (929–1031).",
+        "type": "n.m.",
+        "word": "califato"
+      },
+      {
+        "en": "caliph",
+        "example": {
+          "en": "The caliph gathered thousands of manuscripts.",
+          "es": "El califa reunió miles de manuscritos."
+        },
+        "note": "Ruler; el califa Abderramán III.",
+        "type": "n.m.",
+        "word": "califa"
+      },
+      {
+        "en": "emir",
+        "example": {
+          "en": "Emir Abd al-Rahman I built the mosque.",
+          "es": "El emir Abderramán I construyó la mezquita."
+        },
+        "note": "Title below caliph.",
+        "type": "n.m.",
+        "word": "emir"
+      },
+      {
+        "en": "coexistence, living together",
+        "example": {
+          "en": "That coexistence was not perfect.",
+          "es": "Esa convivencia no era perfecta."
+        },
+        "note": "La convivencia de culturas.",
+        "type": "n.f.",
+        "word": "convivencia"
+      },
+      {
+        "en": "tolerance",
+        "example": {
+          "en": "It produced a tolerance rare in Europe.",
+          "es": "Producía una tolerancia rara en Europa."
+        },
+        "note": "Word family: tolerar.",
+        "type": "n.f.",
+        "word": "tolerancia"
+      },
+      {
+        "en": "to tolerate",
+        "example": {
+          "en": "They did not know how to tolerate it.",
+          "es": "No sabían tolerarlo."
+        },
+        "note": "No sabían tolerar.",
+        "type": "v.",
+        "word": "tolerar"
+      },
+      {
+        "en": "Muslim",
+        "example": {
+          "en": "Muslims and Christians lived side by side.",
+          "es": "Musulmanes y cristianos vivían lado a lado."
+        },
+        "note": "Lowercase in Spanish unless starting a sentence.",
+        "type": "n./adj.",
+        "word": "musulmán / musulmana"
+      },
+      {
+        "en": "Christian",
+        "example": {
+          "en": "The Christian kingdoms advanced.",
+          "es": "Los reinos cristianos avanzaban."
+        },
+        "note": "Los reinos cristianos.",
+        "type": "n./adj.",
+        "word": "cristiano/a"
+      },
+      {
+        "en": "Arab, Arabic",
+        "example": {
+          "en": "Christians of Arabic language.",
+          "es": "Cristianos de lengua árabe."
+        },
+        "note": "La lengua árabe.",
+        "type": "adj./n.",
+        "word": "árabe"
+      },
+      {
+        "en": "manuscript",
+        "example": {
+          "en": "Thousands of manuscripts copied by hand.",
+          "es": "Miles de manuscritos copiados a mano."
+        },
+        "note": "Miles de manuscritos.",
+        "type": "n.m.",
+        "word": "manuscrito"
+      },
+      {
+        "en": "translator",
+        "example": {
+          "en": "The translators of Toledo translated those books.",
+          "es": "Los traductores de Toledo tradujeron esos libros."
+        },
+        "note": "Word family: traducir.",
+        "type": "n.",
+        "word": "traductor/a"
+      },
+      {
+        "en": "to translate",
+        "example": {
+          "en": "They translated medicine into Latin.",
+          "es": "Tradujeron la medicina al latín."
+        },
+        "note": "Tradujeron al latín.",
+        "type": "v.",
+        "word": "traducir"
+      },
+      {
+        "en": "scholar; wise",
+        "example": {
+          "en": "Scholars whose works would be read for centuries.",
+          "es": "Sabios cuyas obras se leerían durante siglos."
+        },
+        "note": "Los sabios de la corte.",
+        "type": "n./adj.",
+        "word": "sabio/a"
+      },
+      {
+        "en": "astronomer",
+        "example": {
+          "en": "Astronomers watched the stars.",
+          "es": "Los astrónomos miraban las estrellas."
+        },
+        "note": "From astronomía.",
+        "type": "n.",
+        "word": "astrónomo/a"
+      },
+      {
+        "en": "philosopher",
+        "example": {
+          "en": "Averroes was a philosopher from Córdoba.",
+          "es": "Averroes fue filósofo cordobés."
+        },
+        "note": "Averroes fue filósofo cordobés.",
+        "type": "n.",
+        "word": "filósofo/a"
+      },
+      {
+        "en": "doctor",
+        "example": {
+          "en": "Doctors and scholars worked at the court.",
+          "es": "Médicos y sabios trabajaban en la corte."
+        },
+        "note": "Also adjective: un informe médico.",
+        "type": "n.",
+        "word": "médico/a"
+      },
+      {
+        "en": "poet",
+        "example": {
+          "en": "Poets recited in the palace courtyard.",
+          "es": "Los poetas recitaban en el patio."
+        },
+        "note": "el/la poeta; both used.",
+        "type": "n.",
+        "word": "poeta"
+      },
+      {
+        "en": "algebra",
+        "example": {
+          "en": "With algebra, merchants calculated better.",
+          "es": "Con el álgebra, los mercaderes calculaban mejor."
+        },
+        "note": "From Arabic al-jabr.",
+        "type": "n.f.",
+        "word": "álgebra"
+      },
+      {
+        "en": "figure, numeral",
+        "example": {
+          "en": "The new Arabic numerals.",
+          "es": "Las cifras arábigas nuevas."
+        },
+        "note": "Las cifras arábigas.",
+        "type": "n.f.",
+        "word": "cifra"
+      },
+      {
+        "en": "chess",
+        "example": {
+          "en": "The court amused itself with chess.",
+          "es": "La corte se divertía con el ajedrez."
+        },
+        "note": "Jugar al ajedrez.",
+        "type": "n.m.",
+        "word": "ajedrez"
+      },
+      {
+        "en": "irrigation channel",
+        "example": {
+          "en": "Water arrived through irrigation channels.",
+          "es": "El agua llegaba por acequias."
+        },
+        "note": "From Arabic; still used in Valencia.",
+        "type": "n.f.",
+        "word": "acequia"
+      },
+      {
+        "en": "irrigation, irrigated land",
+        "example": {
+          "en": "Irrigation yielded fruit all year.",
+          "es": "El regadío daba fruta todo el año."
+        },
+        "note": "Word family: regar (to water).",
+        "type": "n.m.",
+        "word": "regadío"
+      },
+      {
+        "en": "market garden, orchard area",
+        "example": {
+          "en": "The water rose to the gardens.",
+          "es": "El agua subía a las huertas."
+        },
+        "note": "La huerta valenciana.",
+        "type": "n.f.",
+        "word": "huerta"
+      },
+      {
+        "en": "souk, Arab market",
+        "example": {
+          "en": "In the souk they sold perfumes and books.",
+          "es": "En el zoco vendían perfumes y libros."
+        },
+        "note": "From Arabic.",
+        "type": "n.m.",
+        "word": "zoco"
+      },
+      {
+        "en": "Jewish quarter",
+        "example": {
+          "en": "The souk next to the Jewish quarter.",
+          "es": "El zoco junto a la judería."
+        },
+        "note": "La judería de Córdoba.",
+        "type": "n.f.",
+        "word": "judería"
+      },
+      {
+        "en": "Mudéjar (Muslim under Christian rule; the art style)",
+        "example": {
+          "en": "Mudéjar art mixes two worlds.",
+          "es": "El arte mudéjar mezcla dos mundos."
+        },
+        "note": "El arte mudéjar.",
+        "type": "adj./n.",
+        "word": "mudéjar"
+      },
+      {
+        "en": "Mozarabic (Christian under Muslim rule)",
+        "example": {
+          "en": "Mozarabic art of the old churches.",
+          "es": "El arte mozárabe de las iglesias viejas."
+        },
+        "note": "Mirror of mudéjar.",
+        "type": "adj./n.",
+        "word": "mozárabe"
+      },
+      {
+        "en": "Visigoth, Visigothic",
+        "example": {
+          "en": "The Visigoths arrived centuries earlier.",
+          "es": "Los visigodos habían llegado siglos antes."
+        },
+        "note": "Ruled Spain before 711.",
+        "type": "n./adj.",
+        "word": "visigodo/a"
+      },
+      {
+        "en": "to invade",
+        "example": {
+          "en": "They invaded the south.",
+          "es": "Invadían el sur."
+        },
+        "note": "Invadían el sur.",
+        "type": "v.",
+        "word": "invadir"
+      },
+      {
+        "en": "to conquer",
+        "example": {
+          "en": "They conquered city after city.",
+          "es": "Conquistaban ciudad tras ciudad."
+        },
+        "note": "Word family: la conquista.",
+        "type": "v.",
+        "word": "conquistar"
+      },
+      {
+        "en": "kingdom",
+        "example": {
+          "en": "The Christian kingdoms of the north.",
+          "es": "Los reinos cristianos del norte."
+        },
+        "note": "Los reinos cristianos.",
+        "type": "n.m.",
+        "word": "reino"
+      },
+      {
+        "en": "city wall",
+        "example": {
+          "en": "Churches rose over old walls.",
+          "es": "Las iglesias se levantaban sobre viejas murallas."
+        },
+        "note": "Las murallas de la ciudad.",
+        "type": "n.f.",
+        "word": "muralla"
+      },
+      {
+        "en": "splendour",
+        "example": {
+          "en": "Nobody imagined this splendour.",
+          "es": "Nadie imaginaba este esplendor."
+        },
+        "note": "Momento de mayor esplendor.",
+        "type": "n.m.",
+        "word": "esplendor"
+      },
+      {
+        "en": "to flourish",
+        "example": {
+          "en": "Córdoba flourished like few cities.",
+          "es": "Córdoba florecía como pocas ciudades."
+        },
+        "note": "Córdoba florecía.",
+        "type": "v.",
+        "word": "florecer"
+      },
+      {
+        "en": "legacy",
+        "example": {
+          "en": "Córdoba's legacy entered Europe.",
+          "es": "El legado de Córdoba entró en Europa."
+        },
+        "note": "El legado de Córdoba.",
+        "type": "n.m.",
+        "word": "legado"
+      },
+      {
+        "en": "cistern, water tank",
+        "example": {
+          "en": "Without cisterns there was no city.",
+          "es": "Sin aljibes no había ciudad."
+        },
+        "ext": true,
+        "note": "From Arabic.",
+        "type": "n.m.",
+        "word": "aljibe"
+      },
+      {
+        "en": "waterwheel",
+        "example": {
+          "en": "The waterwheel raised water to the gardens.",
+          "es": "La noria subía el agua a las huertas."
+        },
+        "ext": true,
+        "note": "Raises irrigation water.",
+        "type": "n.f.",
+        "word": "noria"
+      },
+      {
+        "en": "courtyard, patio",
+        "example": {
+          "en": "The orange-tree courtyard.",
+          "es": "El patio de los Naranjos."
+        },
+        "ext": true,
+        "note": "El patio de los Naranjos, in Córdoba.",
+        "type": "n.m.",
+        "word": "patio"
+      }
+    ]
+  },
+  {
+    "lesson": 46,
+    "title": "1492: the Reconquista, expulsion, Columbus",
+    "words": [
+      {
+        "en": "Reconquista (Christian re-conquest)",
+        "example": {
+          "en": "The Reconquista had lasted so long.",
+          "es": "La reconquista había durado tanto."
+        },
+        "note": "Usually capital R; 711–1492.",
+        "type": "n.f.",
+        "word": "reconquista"
+      },
+      {
+        "en": "to capitulate, to surrender (by agreement)",
+        "example": {
+          "en": "Boabdil capitulated before the queen.",
+          "es": "Boabdil capituló ante la reina."
+        },
+        "note": "Boabdil capituló.",
+        "type": "v.",
+        "word": "capitular"
+      },
+      {
+        "en": "capitulation, surrender terms",
+        "example": {
+          "en": "The capitulation was signed to protect the defeated.",
+          "es": "La capitulación fue firmada para proteger a los vencidos."
+        },
+        "note": "Word family: capitular.",
+        "type": "n.f.",
+        "word": "capitulación"
+      },
+      {
+        "en": "Morisco (Muslim converted, often forced)",
+        "example": {
+          "en": "The Muslims who stayed would be called Moriscos.",
+          "es": "Los musulmanes que se quedaron serían llamados moriscos."
+        },
+        "note": "Expelled 1609–1614 (advanced).",
+        "type": "n./adj.",
+        "word": "morisco/a"
+      },
+      {
+        "en": "Jewish; Jew",
+        "example": {
+          "en": "Thousands of Jews were expelled.",
+          "es": "Miles de judíos fueron expulsados."
+        },
+        "note": "Lowercase as adjective in Spanish.",
+        "type": "n./adj.",
+        "word": "judío/a"
+      },
+      {
+        "en": "to expel",
+        "example": {
+          "en": "They too would be expelled.",
+          "es": "También serían expulsados."
+        },
+        "note": "Word family: la expulsión.",
+        "type": "v.",
+        "word": "expulsar"
+      },
+      {
+        "en": "decree",
+        "example": {
+          "en": "The decree was signed in March.",
+          "es": "Se firmó el decreto en marzo."
+        },
+        "note": "El decreto de expulsión.",
+        "type": "n.m.",
+        "word": "decreto"
+      },
+      {
+        "en": "caravel (fast sailing ship)",
+        "example": {
+          "en": "The admiral set sail with two caravels.",
+          "es": "El almirante zarpó con dos carabelas."
+        },
+        "note": "La Niña y la Pinta eran carabelas.",
+        "type": "n.f.",
+        "word": "carabela"
+      },
+      {
+        "en": "to finance",
+        "example": {
+          "en": "The queen decided to finance the venture.",
+          "es": "La reina decidió financiar la empresa."
+        },
+        "note": "La reina decidió financiar.",
+        "type": "v.",
+        "word": "financiar"
+      },
+      {
+        "en": "sponsorship, patronage",
+        "example": {
+          "en": "Royal sponsorship was granted in Santa Fe.",
+          "es": "El patrocinio real fue concedido en Santa Fe."
+        },
+        "note": "El patrocinio real.",
+        "type": "n.m.",
+        "word": "patrocinio"
+      },
+      {
+        "en": "crossing, voyage",
+        "example": {
+          "en": "The crossing lasted ten weeks.",
+          "es": "La travesía duró diez semanas."
+        },
+        "note": "La travesía del Atlántico.",
+        "type": "n.f.",
+        "word": "travesía"
+      },
+      {
+        "en": "to disembark, to land",
+        "example": {
+          "en": "They disembarked on an unknown island.",
+          "es": "Desembarcaron en una isla desconocida."
+        },
+        "note": "Word family: el desembarco.",
+        "type": "v.",
+        "word": "desembarcar"
+      },
+      {
+        "en": "diary, log; daily paper",
+        "example": {
+          "en": "Every night he wrote his diary.",
+          "es": "Cada noche escribía su diario."
+        },
+        "note": "El diario de a bordo (ship's log).",
+        "type": "n.m.",
+        "word": "diario"
+      },
+      {
+        "en": "navigator, seafarer",
+        "example": {
+          "en": "A Genoese navigator looked for money.",
+          "es": "Un navegante genovés buscaba dinero."
+        },
+        "note": "Un navegante genovés.",
+        "type": "n.",
+        "word": "navegante"
+      },
+      {
+        "en": "cartographer, mapmaker",
+        "example": {
+          "en": "The cartographers laughed at his maps.",
+          "es": "Los cartógrafos se reían de sus mapas."
+        },
+        "note": "From carta (map, chart).",
+        "type": "n.",
+        "word": "cartógrafo/a"
+      },
+      {
+        "en": "admiral",
+        "example": {
+          "en": "The admiral wrote his diary for the monarchs.",
+          "es": "El almirante escribía su diario para los reyes."
+        },
+        "note": "Columbus's title.",
+        "type": "n.m.",
+        "word": "almirante"
+      },
+      {
+        "en": "alliance",
+        "example": {
+          "en": "Their alliance with the victors lasted little.",
+          "es": "Su alianza con los vencedores duró poco."
+        },
+        "note": "Su alianza con los vencedores.",
+        "type": "n.f.",
+        "word": "alianza"
+      },
+      {
+        "en": "to found",
+        "example": {
+          "en": "Years later the first ports were founded.",
+          "es": "Años después se fundaron los primeros puertos."
+        },
+        "note": "Se fundaron los puertos.",
+        "type": "v.",
+        "word": "fundar"
+      },
+      {
+        "en": "port, harbour",
+        "example": {
+          "en": "The cartographers of the port laughed.",
+          "es": "Los cartógrafos del puerto se reían."
+        },
+        "note": "Los puertos de Andalucía.",
+        "type": "n.m.",
+        "word": "puerto"
+      },
+      {
+        "en": "treaty",
+        "example": {
+          "en": "Treaties were signed that divided the ocean.",
+          "es": "Se firmaron tratados que dividían el océano."
+        },
+        "note": "Se firmaron tratados.",
+        "type": "n.m.",
+        "word": "tratado"
+      },
+      {
+        "en": "legend",
+        "example": {
+          "en": "The chroniclers turned his weeping into legend.",
+          "es": "Los cronistas convirtieron su llanto en leyenda."
+        },
+        "note": "Hechos y mitos; leyenda.",
+        "type": "n.f.",
+        "word": "leyenda"
+      },
+      {
+        "en": "chronicler",
+        "example": {
+          "en": "Chroniclers mixed facts and myths.",
+          "es": "Los cronistas mezclaban hechos y mitos."
+        },
+        "note": "Word family: la crónica.",
+        "type": "n.",
+        "word": "cronista"
+      },
+      {
+        "en": "myth",
+        "example": {
+          "en": "His farewell became myth.",
+          "es": "Su adiós se convirtió en mito."
+        },
+        "note": "Hechos y mitos.",
+        "type": "n.m.",
+        "word": "mito"
+      },
+      {
+        "en": "war",
+        "example": {
+          "en": "A war of almost eight centuries.",
+          "es": "Una guerra de casi ocho siglos."
+        },
+        "note": "Una guerra de ocho siglos.",
+        "type": "n.f.",
+        "word": "guerra"
+      },
+      {
+        "en": "peace",
+        "example": {
+          "en": "A peace that never came.",
+          "es": "Una paz que nunca llegó."
+        },
+        "note": "Una paz que nunca llegó.",
+        "type": "n.f.",
+        "word": "paz"
+      },
+      {
+        "en": "century",
+        "example": {
+          "en": "The 15th century changed everything.",
+          "es": "El siglo XV lo cambió todo."
+        },
+        "note": "El siglo XV.",
+        "type": "n.m.",
+        "word": "siglo"
+      },
+      {
+        "en": "king",
+        "example": {
+          "en": "The last Muslim king capitulated.",
+          "es": "El último rey musulmán capituló."
+        },
+        "note": "Los Reyes Católicos.",
+        "type": "n.m.",
+        "word": "rey"
+      },
+      {
+        "en": "queen",
+        "example": {
+          "en": "Queen Isabella decided to finance the voyage.",
+          "es": "La reina Isabel decidió financiar el viaje."
+        },
+        "note": "La reina Isabel.",
+        "type": "n.f.",
+        "word": "reina"
+      },
+      {
+        "en": "gold",
+        "example": {
+          "en": "He looked for the gold of Asia.",
+          "es": "Buscaba el oro de Asia."
+        },
+        "note": "El oro de Asia.",
+        "type": "n.m.",
+        "word": "oro"
+      },
+      {
+        "en": "spices",
+        "example": {
+          "en": "He wanted to reach the spices.",
+          "es": "Quería llegar a las especias."
+        },
+        "note": "Usually plural.",
+        "type": "n.f. pl.",
+        "word": "especias"
+      },
+      {
+        "en": "silk",
+        "example": {
+          "en": "The silk route crossed Asia.",
+          "es": "La ruta de la seda cruzaba Asia."
+        },
+        "note": "La ruta de la seda.",
+        "type": "n.f.",
+        "word": "seda"
+      },
+      {
+        "en": "paper; role",
+        "example": {
+          "en": "They carried the bill of sale.",
+          "es": "Llevaban el papel de la venta."
+        },
+        "note": "El papel de la venta (document).",
+        "type": "n.m.",
+        "word": "papel"
+      },
+      {
+        "en": "fortress-palace",
+        "example": {
+          "en": "Pilgrims climb to the fortress-palace.",
+          "es": "Los peregrinos suben al alcázar."
+        },
+        "ext": true,
+        "note": "From Arabic.",
+        "type": "n.m.",
+        "word": "alcázar"
+      },
+      {
+        "en": "cathedral",
+        "example": {
+          "en": "The cathedral of Toledo.",
+          "es": "La catedral de Toledo."
+        },
+        "ext": true,
+        "note": "La catedral de Toledo.",
+        "type": "n.f.",
+        "word": "catedral"
+      },
+      {
+        "en": "pilgrim",
+        "example": {
+          "en": "The pilgrims' road to Santiago.",
+          "es": "El Camino de los peregrinos."
+        },
+        "ext": true,
+        "note": "El Camino, to Santiago.",
+        "type": "n.",
+        "word": "peregrino/a"
+      }
+    ]
+  },
+  {
+    "lesson": 47,
+    "title": "Conquest & colonial Latin America",
+    "words": [
+      {
+        "en": "conquest",
+        "example": {
+          "en": "The conquest lasted barely a generation.",
+          "es": "La conquista duró apenas una generación."
+        },
+        "note": "Word family: conquistar.",
+        "type": "n.f.",
+        "word": "conquista"
+      },
+      {
+        "en": "resistance",
+        "example": {
+          "en": "The resistance had been fierce.",
+          "es": "La resistencia había sido feroz."
+        },
+        "note": "La resistencia fue feroz.",
+        "type": "n.f.",
+        "word": "resistencia"
+      },
+      {
+        "en": "mestizo (mixed heritage); mixed",
+        "example": {
+          "en": "A mestizo world was born.",
+          "es": "Nació un mundo mestizo."
+        },
+        "note": "Un mundo mestizo.",
+        "type": "n./adj.",
+        "word": "mestizo/a"
+      },
+      {
+        "en": "viceroy",
+        "example": {
+          "en": "The viceroy wrote to the king.",
+          "es": "El virrey escribió al rey."
+        },
+        "note": "The king's deputy.",
+        "type": "n.m.",
+        "word": "virrey"
+      },
+      {
+        "en": "viceroyalty",
+        "example": {
+          "en": "They paid tax to the viceroyalty.",
+          "es": "Pagaban impuestos al virreinato."
+        },
+        "note": "Word family: virrey.",
+        "type": "n.m.",
+        "word": "virreinato"
+      },
+      {
+        "en": "colony",
+        "example": {
+          "en": "The colony would last three centuries.",
+          "es": "La colonia duraría tres siglos."
+        },
+        "note": "La colonia.",
+        "type": "n.f.",
+        "word": "colonia"
+      },
+      {
+        "en": "tribute (tax paid in goods/labour)",
+        "example": {
+          "en": "They paid tribute in labour.",
+          "es": "Pagaban el tributo en trabajo."
+        },
+        "note": "Pagar el tributo en trabajo.",
+        "type": "n.m.",
+        "word": "tributo"
+      },
+      {
+        "en": "mine",
+        "example": {
+          "en": "The mine of Potosí never slept.",
+          "es": "La mina de Potosí no dormía nunca."
+        },
+        "note": "La mina de Potosí.",
+        "type": "n.f.",
+        "word": "mina"
+      },
+      {
+        "en": "silver",
+        "example": {
+          "en": "Veins of silver in the hill.",
+          "es": "Vetas de plata en el cerro."
+        },
+        "note": "Vetas de plata.",
+        "type": "n.f.",
+        "word": "plata"
+      },
+      {
+        "en": "slavery",
+        "example": {
+          "en": "Slavery stained three continents.",
+          "es": "La esclavitud manchó tres continentes."
+        },
+        "note": "Word family: esclavo.",
+        "type": "n.f.",
+        "word": "esclavitud"
+      },
+      {
+        "en": "slave; enslaved",
+        "example": {
+          "en": "With slave labour.",
+          "es": "Con mano de obra esclava."
+        },
+        "note": "Mano de obra esclava.",
+        "type": "n./adj.",
+        "word": "esclavo/a"
+      },
+      {
+        "en": "to evangelize, to convert",
+        "example": {
+          "en": "The bishop said evangelization advanced.",
+          "es": "El obispo dijo que la evangelización avanzaba."
+        },
+        "note": "Word family: la evangelización.",
+        "type": "v.",
+        "word": "evangelizar"
+      },
+      {
+        "en": "monk",
+        "example": {
+          "en": "A monk declared before the court.",
+          "es": "Un monje declaró ante la corte."
+        },
+        "note": "Un monje declaró.",
+        "type": "n.m.",
+        "word": "monje"
+      },
+      {
+        "en": "bishop",
+        "example": {
+          "en": "The bishop answered the monk.",
+          "es": "El obispo respondió al monje."
+        },
+        "note": "El obispo respondió.",
+        "type": "n.m.",
+        "word": "obispo"
+      },
+      {
+        "en": "mission (religious outpost)",
+        "example": {
+          "en": "Each new mission needed bells.",
+          "es": "Cada misión nueva necesitaba campanas."
+        },
+        "note": "Cada misión nueva.",
+        "type": "n.f.",
+        "word": "misión"
+      },
+      {
+        "en": "hacienda, large estate",
+        "example": {
+          "en": "On the haciendas they grew cacao.",
+          "es": "En las haciendas cultivaban cacao."
+        },
+        "note": "In Spain la Hacienda = tax office!",
+        "type": "n.f.",
+        "word": "hacienda"
+      },
+      {
+        "en": "great landed estate",
+        "example": {
+          "en": "The great estates of the interior.",
+          "es": "Los latifundios del interior."
+        },
+        "note": "Los latifundios.",
+        "type": "n.m.",
+        "word": "latifundio"
+      },
+      {
+        "en": "priest",
+        "example": {
+          "en": "The parish priests told it later.",
+          "es": "Los curas lo dijeron después."
+        },
+        "note": "Masculine though ends in -a.",
+        "type": "n.m.",
+        "word": "cura"
+      },
+      {
+        "en": "looting, sacking",
+        "example": {
+          "en": "No looting would be as profitable.",
+          "es": "Ningún saqueo sería tan rentable."
+        },
+        "note": "Ningún saqueo.",
+        "type": "n.m.",
+        "word": "saqueo"
+      },
+      {
+        "en": "pirate",
+        "example": {
+          "en": "Pirates waited in the Caribbean.",
+          "es": "Los piratas esperaban en el Caribe."
+        },
+        "note": "Los piratas del Caribe.",
+        "type": "n.",
+        "word": "pirata"
+      },
+      {
+        "en": "galleon",
+        "example": {
+          "en": "The galleon carried American silver.",
+          "es": "El galeón llevaba plata americana."
+        },
+        "note": "El galeón de Manila.",
+        "type": "n.m.",
+        "word": "galeón"
+      },
+      {
+        "en": "cacao",
+        "example": {
+          "en": "They grew cacao and sugar.",
+          "es": "Cultivaban cacao y azúcar."
+        },
+        "note": "From Nahuatl.",
+        "type": "n.m.",
+        "word": "cacao"
+      },
+      {
+        "en": "sugar",
+        "example": {
+          "en": "Sugar and cotton of the haciendas.",
+          "es": "El azúcar y el algodón de las haciendas."
+        },
+        "note": "Usually masculine: el azúcar.",
+        "type": "n.m./f.",
+        "word": "azúcar"
+      },
+      {
+        "en": "cotton",
+        "example": {
+          "en": "They grew cotton.",
+          "es": "Cultivaban algodón."
+        },
+        "note": "Se cultivaba algodón.",
+        "type": "n.m.",
+        "word": "algodón"
+      },
+      {
+        "en": "temple, church building",
+        "example": {
+          "en": "Temples and schools.",
+          "es": "Templos y escuelas."
+        },
+        "note": "Templos y escuelas.",
+        "type": "n.m.",
+        "word": "templo"
+      },
+      {
+        "en": "palace",
+        "example": {
+          "en": "The palaces of the city.",
+          "es": "Los palacios de la ciudad."
+        },
+        "note": "Los palacios.",
+        "type": "n.m.",
+        "word": "palacio"
+      },
+      {
+        "en": "workshop",
+        "example": {
+          "en": "The artisans' workshops.",
+          "es": "Los talleres de artesanos."
+        },
+        "note": "Los talleres.",
+        "type": "n.m.",
+        "word": "taller"
+      },
+      {
+        "en": "guild",
+        "example": {
+          "en": "The guilds paid taxes.",
+          "es": "Los gremios pagaban impuestos."
+        },
+        "note": "Los gremios.",
+        "type": "n.m.",
+        "word": "gremio"
+      },
+      {
+        "en": "fair, market",
+        "example": {
+          "en": "Sold at the fair.",
+          "es": "Vendido en la feria."
+        },
+        "note": "Vendido en la feria.",
+        "type": "n.f.",
+        "word": "feria"
+      },
+      {
+        "en": "tax",
+        "example": {
+          "en": "They paid tax to the viceroyalty.",
+          "es": "Pagaban el impuesto al virreinato."
+        },
+        "note": "Pagar el impuesto.",
+        "type": "n.m.",
+        "word": "impuesto"
+      },
+      {
+        "en": "chest, coffer",
+        "example": {
+          "en": "The silver travelled in chests.",
+          "es": "La plata viajaba en cofres."
+        },
+        "note": "Viajaba en cofres.",
+        "type": "n.m.",
+        "word": "cofre"
+      },
+      {
+        "en": "strongbox, ark",
+        "example": {
+          "en": "The finest piece in the strongbox.",
+          "es": "La mejor pieza en el arca."
+        },
+        "note": "El arca del cabildo.",
+        "type": "n.f.",
+        "word": "arca"
+      },
+      {
+        "en": "heritage, inheritance",
+        "example": {
+          "en": "A mixed heritage.",
+          "es": "Una herencia mezclada."
+        },
+        "note": "Una herencia mezclada.",
+        "type": "n.f.",
+        "word": "herencia"
+      },
+      {
+        "en": "fountain; source",
+        "example": {
+          "en": "The fountains of the square.",
+          "es": "Las fuentes de la plaza."
+        },
+        "ext": true,
+        "note": "Also fuente = source of information.",
+        "type": "n.f.",
+        "word": "fuente"
+      },
+      {
+        "en": "column",
+        "example": {
+          "en": "The columns of the churches.",
+          "es": "Las columnas de las iglesias."
+        },
+        "ext": true,
+        "note": "Las columnas del palacio.",
+        "type": "n.f.",
+        "word": "columna"
+      }
+    ]
+  },
+  {
+    "lesson": 48,
+    "title": "Independence: Bolívar, San Martín, Hidalgo",
+    "words": [
+      {
+        "en": "independence",
+        "example": {
+          "en": "Each council signed an act of independence.",
+          "es": "Cada cabildo firmaba un acta de independencia."
+        },
+        "note": "El acta de independencia.",
+        "type": "n.f.",
+        "word": "independencia"
+      },
+      {
+        "en": "criollo (Spaniard born in America)",
+        "example": {
+          "en": "The criollos no longer accepted it.",
+          "es": "Los criollos ya no lo aceptaban."
+        },
+        "note": "Los criollos.",
+        "type": "n./adj.",
+        "word": "criollo/a"
+      },
+      {
+        "en": "peninsular (born in Spain)",
+        "example": {
+          "en": "The peninsulares held the best posts.",
+          "es": "Los peninsulares ocupaban los mejores cargos."
+        },
+        "note": "From península.",
+        "type": "n./adj.",
+        "word": "peninsular"
+      },
+      {
+        "en": "junta, council, board",
+        "example": {
+          "en": "The constituent assembly declared.",
+          "es": "La junta constituyente declaró."
+        },
+        "note": "La junta constituyente.",
+        "type": "n.f.",
+        "word": "junta"
+      },
+      {
+        "en": "liberator",
+        "example": {
+          "en": "The liberator came down from the Andes.",
+          "es": "El libertador bajaba de los Andes."
+        },
+        "note": "El libertador Bolívar.",
+        "type": "n.",
+        "word": "libertador/a"
+      },
+      {
+        "en": "proclamation",
+        "example": {
+          "en": "Only a cold proclamation the next day.",
+          "es": "Solo una proclama fría al día siguiente."
+        },
+        "note": "Una proclama fría.",
+        "type": "n.f.",
+        "word": "proclama"
+      },
+      {
+        "en": "manifesto",
+        "example": {
+          "en": "His manifestos promised victory.",
+          "es": "Sus manifiestos prometían la victoria."
+        },
+        "note": "Sus manifiestos prometían.",
+        "type": "n.m.",
+        "word": "manifiesto"
+      },
+      {
+        "en": "uprising",
+        "example": {
+          "en": "His uprising was crushed.",
+          "es": "Su levantamiento fue aplastado."
+        },
+        "note": "Su levantamiento fue aplastado.",
+        "type": "n.m.",
+        "word": "levantamiento"
+      },
+      {
+        "en": "to raise up, to stir to revolt",
+        "example": {
+          "en": "The injustice stirred the first revolt.",
+          "es": "La injusticia sublevó la primera protesta."
+        },
+        "note": "Word family: la sublevación.",
+        "type": "v.",
+        "word": "sublevar"
+      },
+      {
+        "en": "uprising, revolt",
+        "example": {
+          "en": "The first uprising had just begun.",
+          "es": "Acababa de empezar la primera sublevación."
+        },
+        "note": "La primera sublevación.",
+        "type": "n.f.",
+        "word": "sublevación"
+      },
+      {
+        "en": "caudillo (military strongman)",
+        "example": {
+          "en": "The caudillos who followed.",
+          "es": "Los caudillos que siguieron."
+        },
+        "note": "Los caudillos.",
+        "type": "n.m.",
+        "word": "caudillo"
+      },
+      {
+        "en": "caudillismo (rule by strongmen)",
+        "example": {
+          "en": "Caudillismo would be the sickness of the century.",
+          "es": "El caudillismo sería la enfermedad del siglo."
+        },
+        "note": "Word family: caudillo.",
+        "type": "n.m.",
+        "word": "caudillismo"
+      },
+      {
+        "en": "town council (colonial)",
+        "example": {
+          "en": "Each town council signed an act.",
+          "es": "Cada cabildo firmaba un acta."
+        },
+        "note": "Cada cabildo.",
+        "type": "n.m.",
+        "word": "cabildo"
+      },
+      {
+        "en": "royalist",
+        "example": {
+          "en": "After the royalist defeat.",
+          "es": "Tras la derrota realista."
+        },
+        "note": "La derrota realista.",
+        "type": "n./adj.",
+        "word": "realista"
+      },
+      {
+        "en": "patriot",
+        "example": {
+          "en": "A war among patriots.",
+          "es": "Una guerra entre patriotas."
+        },
+        "note": "Guerra entre patriotas.",
+        "type": "n./adj.",
+        "word": "patriota"
+      },
+      {
+        "en": "insurgent",
+        "example": {
+          "en": "The insurgents kept marching.",
+          "es": "Los insurgentes seguían marchando."
+        },
+        "note": "Los insurgentes.",
+        "type": "n./adj.",
+        "word": "insurgente"
+      },
+      {
+        "en": "montonera (irregular rural troops)",
+        "example": {
+          "en": "With his montoneras of plainsmen.",
+          "es": "Con sus montoneras de llaneros."
+        },
+        "note": "Sus montoneras.",
+        "type": "n.f.",
+        "word": "montonera"
+      },
+      {
+        "en": "defeat",
+        "example": {
+          "en": "After the defeat at Ayacucho.",
+          "es": "Tras la derrota de Ayacucho."
+        },
+        "note": "Tras la derrota.",
+        "type": "n.f.",
+        "word": "derrota"
+      },
+      {
+        "en": "victory",
+        "example": {
+          "en": "Victory would belong to free peoples.",
+          "es": "La victoria sería de los pueblos libres."
+        },
+        "note": "La victoria sería.",
+        "type": "n.f.",
+        "word": "victoria"
+      },
+      {
+        "en": "to liberate",
+        "example": {
+          "en": "He had just liberated Lima.",
+          "es": "Acababa de liberar Lima."
+        },
+        "note": "Acababa de liberar Lima.",
+        "type": "v.",
+        "word": "liberar"
+      },
+      {
+        "en": "constitution",
+        "example": {
+          "en": "Each congress wrote a constitution.",
+          "es": "Cada congreso escribió una constitución."
+        },
+        "note": "Escribió una constitución.",
+        "type": "n.f.",
+        "word": "constitución"
+      },
+      {
+        "en": "constituent",
+        "example": {
+          "en": "The constituent assembly.",
+          "es": "La junta constituyente."
+        },
+        "note": "La junta constituyente.",
+        "type": "adj.",
+        "word": "constituyente"
+      },
+      {
+        "en": "sovereignty",
+        "example": {
+          "en": "Sovereignty resided in the nation.",
+          "es": "La soberanía residía en la nación."
+        },
+        "note": "La soberanía.",
+        "type": "n.f.",
+        "word": "soberanía"
+      },
+      {
+        "en": "congress",
+        "example": {
+          "en": "Each congress wrote a constitution.",
+          "es": "Cada congreso escribió una constitución."
+        },
+        "note": "Cada congreso.",
+        "type": "n.m.",
+        "word": "congreso"
+      },
+      {
+        "en": "deputy, member of parliament",
+        "example": {
+          "en": "It elected deputies.",
+          "es": "Eligió diputados."
+        },
+        "note": "Eligió diputados.",
+        "type": "n.",
+        "word": "diputado/a"
+      },
+      {
+        "en": "nation",
+        "example": {
+          "en": "Sovereignty resided in the nation.",
+          "es": "La soberanía residía en la nación."
+        },
+        "note": "Residía en la nación.",
+        "type": "n.f.",
+        "word": "nación"
+      },
+      {
+        "en": "anthem",
+        "example": {
+          "en": "A new anthem in every square.",
+          "es": "Un himno nuevo en cada plaza."
+        },
+        "note": "Cantar un himno nuevo.",
+        "type": "n.m.",
+        "word": "himno"
+      },
+      {
+        "en": "bell",
+        "example": {
+          "en": "He rang the bell.",
+          "es": "Tocó la campana."
+        },
+        "note": "Tocó la campana.",
+        "type": "n.f.",
+        "word": "campana"
+      },
+      {
+        "en": "sermon",
+        "example": {
+          "en": "He launched a sermon.",
+          "es": "Lanzó un sermón."
+        },
+        "note": "Lanzó un sermón.",
+        "type": "n.m.",
+        "word": "sermón"
+      },
+      {
+        "en": "minutes, official record",
+        "example": {
+          "en": "There were no minutes.",
+          "es": "No hubo acta."
+        },
+        "note": "Firmaba un acta; no hubo acta.",
+        "type": "n.f.",
+        "word": "acta"
+      },
+      {
+        "en": "national hero, prócer",
+        "example": {
+          "en": "Próceres in bronze.",
+          "es": "Próceres en bronce."
+        },
+        "note": "Próceres en bronce.",
+        "type": "n.m.",
+        "word": "prócer"
+      },
+      {
+        "en": "heroine",
+        "example": {
+          "en": "A little-remembered heroine.",
+          "es": "Una heroína poco recordada."
+        },
+        "note": "Una heroína.",
+        "type": "n.f.",
+        "word": "heroína"
+      },
+      {
+        "en": "parish",
+        "example": {
+          "en": "The bell of his parish.",
+          "es": "La campana de su parroquia."
+        },
+        "ext": true,
+        "note": "La campana de su parroquia.",
+        "type": "n.f.",
+        "word": "parroquia"
+      },
+      {
+        "en": "tribute, homage",
+        "example": {
+          "en": "Her tribute took a century.",
+          "es": "Su homenaje tardó un siglo."
+        },
+        "ext": true,
+        "note": "Un homenaje a los próceres.",
+        "type": "n.m.",
+        "word": "homenaje"
+      },
+      {
+        "en": "anniversary (of a historical event)",
+        "example": {
+          "en": "Ecuador celebrates her anniversary.",
+          "es": "El Ecuador celebra su efeméride."
+        },
+        "ext": true,
+        "note": "Las efemérides patrias.",
+        "type": "n.f.",
+        "word": "efeméride"
+      }
+    ]
+  },
+  {
+    "lesson": 49,
+    "title": "20th-century Spain: Civil War & Franco",
+    "words": [
+      {
+        "en": "coup (short for golpe de Estado)",
+        "example": {
+          "en": "A military coup divided Spain.",
+          "es": "Un golpe militar dividió España."
+        },
+        "note": "Un golpe militar.",
+        "type": "n.m.",
+        "word": "golpe"
+      },
+      {
+        "en": "side (in a war)",
+        "example": {
+          "en": "Spain divided into two sides.",
+          "es": "España dividida en dos bandos."
+        },
+        "note": "Los dos bandos.",
+        "type": "n.m.",
+        "word": "bando"
+      },
+      {
+        "en": "trench",
+        "example": {
+          "en": "The trench warfare.",
+          "es": "La guerra de trincheras."
+        },
+        "note": "La guerra de trincheras.",
+        "type": "n.f.",
+        "word": "trinchera"
+      },
+      {
+        "en": "front (line)",
+        "example": {
+          "en": "They sent him to the front.",
+          "es": "Lo enviaron al frente."
+        },
+        "note": "Masculine; la frente = forehead!",
+        "type": "n.m.",
+        "word": "frente"
+      },
+      {
+        "en": "rearguard, home front",
+        "example": {
+          "en": "Life in the rearguard.",
+          "es": "La vida en la retaguardia."
+        },
+        "note": "La retaguardia.",
+        "type": "n.f.",
+        "word": "retaguardia"
+      },
+      {
+        "en": "bombing, bombardment",
+        "example": {
+          "en": "The bombing lasted three hours.",
+          "es": "El bombardeo duró tres horas."
+        },
+        "note": "El bombardeo de Guernica.",
+        "type": "n.m.",
+        "word": "bombardeo"
+      },
+      {
+        "en": "bomber (aircraft)",
+        "example": {
+          "en": "The bombers arrived without alarm.",
+          "es": "Los bombarderos llegaron sin alarma."
+        },
+        "note": "Word family: bombardear.",
+        "type": "n.m.",
+        "word": "bombardero"
+      },
+      {
+        "en": "militiaman/-woman",
+        "example": {
+          "en": "The militiamen took the children away.",
+          "es": "Los milicianos sacaron a los niños."
+        },
+        "note": "Los milicianos.",
+        "type": "n.",
+        "word": "miliciano/a"
+      },
+      {
+        "en": "refugee",
+        "example": {
+          "en": "A refugee ship.",
+          "es": "Un barco de refugiados."
+        },
+        "note": "Un barco de refugiados.",
+        "type": "n./adj.",
+        "word": "refugiado/a"
+      },
+      {
+        "en": "exile",
+        "example": {
+          "en": "Half a million into exile.",
+          "es": "Medio millón hacia el exilio."
+        },
+        "note": "Hacia el exilio.",
+        "type": "n.m.",
+        "word": "exilio"
+      },
+      {
+        "en": "exiled person; exiled",
+        "example": {
+          "en": "The exiles wrote letters.",
+          "es": "Los exiliados escribían cartas."
+        },
+        "note": "Los exiliados escribían.",
+        "type": "n./adj.",
+        "word": "exiliado/a"
+      },
+      {
+        "en": "censorship",
+        "example": {
+          "en": "Without censorship preventing it.",
+          "es": "Sin que la censura pudiera impedirlo."
+        },
+        "note": "Sin que la censura pudiera.",
+        "type": "n.f.",
+        "word": "censura"
+      },
+      {
+        "en": "repression",
+        "example": {
+          "en": "Repression continued.",
+          "es": "La represión continuaba."
+        },
+        "note": "La represión continuaba.",
+        "type": "n.f.",
+        "word": "represión"
+      },
+      {
+        "en": "shooting (execution)",
+        "example": {
+          "en": "The shootings filled the graves.",
+          "es": "Los fusilamientos llenaban las fosas."
+        },
+        "note": "Los fusilamientos.",
+        "type": "n.m.",
+        "word": "fusilamiento"
+      },
+      {
+        "en": "grave, pit",
+        "example": {
+          "en": "The mass graves.",
+          "es": "Las fosas comunes."
+        },
+        "note": "Las fosas comunes.",
+        "type": "n.f.",
+        "word": "fosa"
+      },
+      {
+        "en": "famine, great hunger",
+        "example": {
+          "en": "The postwar hunger.",
+          "es": "La hambruna de posguerra."
+        },
+        "note": "La hambruna de posguerra.",
+        "type": "n.f.",
+        "word": "hambruna"
+      },
+      {
+        "en": "rationing",
+        "example": {
+          "en": "The ration card.",
+          "es": "La cartilla de racionamiento."
+        },
+        "note": "La cartilla de racionamiento.",
+        "type": "n.m.",
+        "word": "racionamiento"
+      },
+      {
+        "en": "memory (collective)",
+        "example": {
+          "en": "So that memory could speak.",
+          "es": "Para que la memoria pudiera hablar."
+        },
+        "note": "Para que la memoria pudiera hablar.",
+        "type": "n.f.",
+        "word": "memoria"
+      },
+      {
+        "en": "transition (to democracy)",
+        "example": {
+          "en": "The transition came in 1975.",
+          "es": "La transición llegó en 1975."
+        },
+        "note": "La Transición (1975–1982).",
+        "type": "n.f.",
+        "word": "transición"
+      },
+      {
+        "en": "amnesty",
+        "example": {
+          "en": "The amnesty opened the prisons.",
+          "es": "La amnistía abrió las cárceles."
+        },
+        "note": "La amnistía abrió las cárceles.",
+        "type": "n.f.",
+        "word": "amnistía"
+      },
+      {
+        "en": "strike",
+        "example": {
+          "en": "Slow strikes in the factories.",
+          "es": "Huelgas lentas en las fábricas."
+        },
+        "note": "Huelgas lentas.",
+        "type": "n.f.",
+        "word": "huelga"
+      },
+      {
+        "en": "trade union",
+        "example": {
+          "en": "The clandestine union.",
+          "es": "El sindicato clandestino."
+        },
+        "note": "El sindicato clandestino.",
+        "type": "n.m.",
+        "word": "sindicato"
+      },
+      {
+        "en": "poster",
+        "example": {
+          "en": "Posters on every corner.",
+          "es": "Carteles en cada esquina."
+        },
+        "note": "Pegaba carteles.",
+        "type": "n.m.",
+        "word": "cartel"
+      },
+      {
+        "en": "leaflet, pamphlet",
+        "example": {
+          "en": "They handed out leaflets at night.",
+          "es": "Repartían panfletos de noche."
+        },
+        "note": "Repartía panfletos.",
+        "type": "n.m.",
+        "word": "panfleto"
+      },
+      {
+        "en": "bulletin",
+        "example": {
+          "en": "Its triumphal bulletin.",
+          "es": "Su boletín triunfal."
+        },
+        "note": "Su boletín triunfal.",
+        "type": "n.m.",
+        "word": "boletín"
+      },
+      {
+        "en": "regime",
+        "example": {
+          "en": "The Franco regime.",
+          "es": "El régimen franquista."
+        },
+        "note": "El régimen franquista.",
+        "type": "n.m.",
+        "word": "régimen"
+      },
+      {
+        "en": "pronunciamiento (military uprising)",
+        "example": {
+          "en": "With the classic pronunciamiento.",
+          "es": "Con el pronunciamiento clásico."
+        },
+        "note": "Classic Spanish coup format.",
+        "type": "n.m.",
+        "word": "pronunciamiento"
+      },
+      {
+        "en": "announcer, presenter",
+        "example": {
+          "en": "An announcer told over the loudspeaker.",
+          "es": "Un locutor contó por el altavoz."
+        },
+        "note": "Un locutor contó.",
+        "type": "n.",
+        "word": "locutor/a"
+      },
+      {
+        "en": "news broadcast",
+        "example": {
+          "en": "They listened to the news on short wave.",
+          "es": "Escuchaban el noticiero por onda corta."
+        },
+        "note": "LatAm; Spain: el telediario.",
+        "type": "n.m.",
+        "word": "noticiero"
+      },
+      {
+        "en": "loudspeaker",
+        "example": {
+          "en": "Over the loudspeaker.",
+          "es": "Por el altavoz."
+        },
+        "note": "Contó por el altavoz.",
+        "type": "n.m.",
+        "word": "altavoz"
+      },
+      {
+        "en": "telegraph",
+        "example": {
+          "en": "She sent a telegram to Mexico.",
+          "es": "Envió un telegrama a México."
+        },
+        "note": "El aparato; el mensaje = telegrama.",
+        "type": "n.m.",
+        "word": "telégrafo"
+      },
+      {
+        "en": "crusade",
+        "example": {
+          "en": "Franco called the war a crusade.",
+          "es": "Franco llamó a la guerra una cruzada."
+        },
+        "ext": true,
+        "note": "Historical propaganda term.",
+        "type": "n.f.",
+        "word": "cruzada"
+      },
+      {
+        "en": "parade, march",
+        "example": {
+          "en": "The victory parade.",
+          "es": "El desfile de la victoria."
+        },
+        "ext": true,
+        "note": "El desfile de la victoria.",
+        "type": "n.m.",
+        "word": "desfile"
+      }
+    ]
+  },
+  {
+    "lesson": 50,
+    "title": "20th-century Latin America: revolutions & dictatorships",
+    "words": [
+      {
+        "en": "dictatorship",
+        "example": {
+          "en": "The 1976 dictatorship set up centres.",
+          "es": "La dictadura de 1976 instaló centros."
+        },
+        "note": "La dictadura de 1976.",
+        "type": "n.f.",
+        "word": "dictadura"
+      },
+      {
+        "en": "guerrilla (warfare; fighters)",
+        "example": {
+          "en": "They said they fought the guerrilla.",
+          "es": "Decían que combatían a la guerrilla."
+        },
+        "note": "Combatían a la guerrilla.",
+        "type": "n.f.",
+        "word": "guerrilla"
+      },
+      {
+        "en": "militant, activist",
+        "example": {
+          "en": "The militants said fraud was open.",
+          "es": "Los militantes decían que el fraude era abierto."
+        },
+        "note": "Los militantes decían.",
+        "type": "n./adj.",
+        "word": "militante"
+      },
+      {
+        "en": "clandestine, underground",
+        "example": {
+          "en": "Clandestine centres.",
+          "es": "Centros clandestinos."
+        },
+        "note": "Centros clandestinos.",
+        "type": "adj.",
+        "word": "clandestino/a"
+      },
+      {
+        "en": "disappearance",
+        "example": {
+          "en": "Disappearance was the method.",
+          "es": "La desaparición era el método."
+        },
+        "note": "La desaparición era el método.",
+        "type": "n.f.",
+        "word": "desaparición"
+      },
+      {
+        "en": "disappeared person; disappeared",
+        "example": {
+          "en": "The mothers of the disappeared.",
+          "es": "Las madres de los desaparecidos."
+        },
+        "note": "Las madres de los desaparecidos.",
+        "type": "n./adj.",
+        "word": "desaparecido/a"
+      },
+      {
+        "en": "torture",
+        "example": {
+          "en": "Torture was routine.",
+          "es": "La tortura era rutina."
+        },
+        "note": "La tortura era rutina.",
+        "type": "n.f.",
+        "word": "tortura"
+      },
+      {
+        "en": "coup plotter, putschist",
+        "example": {
+          "en": "The coup-makers said.",
+          "es": "Los golpistas decían."
+        },
+        "note": "Los golpistas decían.",
+        "type": "n./adj.",
+        "word": "golpista"
+      },
+      {
+        "en": "fraud",
+        "example": {
+          "en": "Fraud was so open.",
+          "es": "El fraude era tan abierto."
+        },
+        "note": "El fraude era tan abierto.",
+        "type": "n.m.",
+        "word": "fraude"
+      },
+      {
+        "en": "elections",
+        "example": {
+          "en": "Elections every six years.",
+          "es": "Elecciones cada seis años."
+        },
+        "note": "Usually plural.",
+        "type": "n.f. pl.",
+        "word": "elecciones"
+      },
+      {
+        "en": "vote, voting",
+        "example": {
+          "en": "Winning every vote.",
+          "es": "Ganando cada votación."
+        },
+        "note": "Cada votación.",
+        "type": "n.f.",
+        "word": "votación"
+      },
+      {
+        "en": "president",
+        "example": {
+          "en": "The president was already chosen.",
+          "es": "El presidente ya estaba elegido."
+        },
+        "note": "Ya estaba elegido.",
+        "type": "n.",
+        "word": "presidente/a"
+      },
+      {
+        "en": "neoliberal",
+        "example": {
+          "en": "The neoliberal reforms of the nineties.",
+          "es": "Las reformas neoliberales de los noventa."
+        },
+        "note": "Economic term (advanced use).",
+        "type": "adj.",
+        "word": "neoliberal"
+      },
+      {
+        "en": "mothers (here: the Madres de Plaza de Mayo)",
+        "example": {
+          "en": "The mothers began circling the square.",
+          "es": "Las madres empezaron a dar vueltas."
+        },
+        "note": "Las madres de los desaparecidos.",
+        "type": "n.f. pl.",
+        "word": "madres"
+      },
+      {
+        "en": "testimony",
+        "example": {
+          "en": "They gathered testimonies.",
+          "es": "Reunían testimonios."
+        },
+        "note": "Reunían testimonios.",
+        "type": "n.m.",
+        "word": "testimonio"
+      },
+      {
+        "en": "anniversary",
+        "example": {
+          "en": "Each anniversary a biography is read.",
+          "es": "Cada aniversario se lee una biografía."
+        },
+        "note": "Cada aniversario.",
+        "type": "n.m.",
+        "word": "aniversario"
+      },
+      {
+        "en": "biography",
+        "example": {
+          "en": "His biography is read in schools.",
+          "es": "Su biografía se lee en las escuelas."
+        },
+        "note": "Se lee en las escuelas.",
+        "type": "n.f.",
+        "word": "biografía"
+      },
+      {
+        "en": "autonomy",
+        "example": {
+          "en": "Provinces demanding autonomy.",
+          "es": "Provincias que piden autonomía."
+        },
+        "note": "Piden autonomía.",
+        "type": "n.f.",
+        "word": "autonomía"
+      },
+      {
+        "en": "peasant; rural",
+        "example": {
+          "en": "Peasants demanded reform.",
+          "es": "Los campesinos pedían la reforma."
+        },
+        "note": "Los campesinos.",
+        "type": "n./adj.",
+        "word": "campesino/a"
+      },
+      {
+        "en": "worker; working-class",
+        "example": {
+          "en": "Workers organized the strike.",
+          "es": "Los obreros organizaban el paro."
+        },
+        "note": "Los obreros.",
+        "type": "n./adj.",
+        "word": "obrero/a"
+      },
+      {
+        "en": "reform",
+        "example": {
+          "en": "Agrarian reform.",
+          "es": "La reforma agraria."
+        },
+        "note": "La reforma agraria.",
+        "type": "n.f.",
+        "word": "reforma"
+      },
+      {
+        "en": "federal",
+        "example": {
+          "en": "The federal government argues.",
+          "es": "Los federales discuten."
+        },
+        "note": "Los federales.",
+        "type": "adj.",
+        "word": "federal"
+      },
+      {
+        "en": "desert",
+        "example": {
+          "en": "The Atacama desert.",
+          "es": "El desierto de Atacama."
+        },
+        "note": "El desierto de Atacama.",
+        "type": "n.m.",
+        "word": "desierto"
+      },
+      {
+        "en": "isthmus",
+        "example": {
+          "en": "The Central American isthmus.",
+          "es": "El istmo centroamericano."
+        },
+        "note": "El istmo centroamericano.",
+        "type": "n.m.",
+        "word": "istmo"
+      },
+      {
+        "en": "murga (carnival street band)",
+        "example": {
+          "en": "The murga sings what was silenced.",
+          "es": "La murga canta lo silenciado."
+        },
+        "note": "Río de la Plata tradition.",
+        "type": "n.f.",
+        "word": "murga"
+      },
+      {
+        "en": "demonstration, march",
+        "example": {
+          "en": "A peaceful demonstration.",
+          "es": "Una manifestación pacífica."
+        },
+        "note": "Una manifestación pacífica.",
+        "type": "n.f.",
+        "word": "manifestación"
+      },
+      {
+        "en": "protest",
+        "example": {
+          "en": "The protest was crushed.",
+          "es": "La protesta fue reprimida."
+        },
+        "note": "La protesta fue reprimida.",
+        "type": "n.f.",
+        "word": "protesta"
+      },
+      {
+        "en": "march",
+        "example": {
+          "en": "Their silent march.",
+          "es": "Su marcha silenciosa."
+        },
+        "note": "Su marcha silenciosa.",
+        "type": "n.f.",
+        "word": "marcha"
+      },
+      {
+        "en": "strike, stoppage",
+        "example": {
+          "en": "The general strike.",
+          "es": "El paro general."
+        },
+        "note": "In Spain el paro = unemployment.",
+        "type": "n.m.",
+        "word": "paro"
+      },
+      {
+        "en": "assembly",
+        "example": {
+          "en": "Every neighbourhood assembly.",
+          "es": "Cada asamblea barrial."
+        },
+        "note": "Cada asamblea barrial.",
+        "type": "n.f.",
+        "word": "asamblea"
+      },
+      {
+        "en": "embassy",
+        "example": {
+          "en": "Asylum in every embassy.",
+          "es": "Asilo en cada embajada."
+        },
+        "note": "En cada embajada.",
+        "type": "n.f.",
+        "word": "embajada"
+      },
+      {
+        "en": "asylum",
+        "example": {
+          "en": "They sought asylum.",
+          "es": "Pedían asilo."
+        },
+        "note": "Pedían asilo.",
+        "type": "n.m.",
+        "word": "asilo"
+      },
+      {
+        "en": "court, tribunal",
+        "example": {
+          "en": "Would have shamed any court.",
+          "es": "Habría avergonzado a cualquier tribunal."
+        },
+        "note": "Cualquier tribunal.",
+        "type": "n.m.",
+        "word": "tribunal"
+      },
+      {
+        "en": "network (radio/TV); chain",
+        "example": {
+          "en": "Every foreign radio network.",
+          "es": "Cada cadena de radio extranjera."
+        },
+        "note": "Cada cadena de radio.",
+        "type": "n.f.",
+        "word": "cadena"
+      },
+      {
+        "en": "microphone",
+        "example": {
+          "en": "They sing into the microphone.",
+          "es": "Cantan ante el micrófono."
+        },
+        "ext": true,
+        "note": "Hablar ante el micrófono.",
+        "type": "n.m.",
+        "word": "micrófono"
+      },
+      {
+        "en": "radio (medium; set)",
+        "example": {
+          "en": "Local radio broadcasts the tribute.",
+          "es": "La radio local transmite el homenaje."
+        },
+        "ext": true,
+        "note": "La radio; el radio (device, LatAm).",
+        "type": "n.f./m.",
+        "word": "radio"
+      },
+      {
+        "en": "stadium",
+        "example": {
+          "en": "He sang in stadiums.",
+          "es": "Cantaba en estadios."
+        },
+        "ext": true,
+        "note": "Cantaba en estadios.",
+        "type": "n.m.",
+        "word": "estadio"
+      }
+    ]
+  },
+  {
+    "lesson": 51,
+    "title": "Art: Velázquez, Goya, Picasso, Kahlo, Rivera",
+    "words": [
+      {
+        "word": "cuadro",
+        "type": "n.m.",
+        "en": "painting, picture",
+        "note": "Un cuadro cuelga en la pared. Family: cuadro → encuadrar.",
+        "example": {
+          "es": "Las Meninas es el cuadro más famoso del Prado.",
+          "en": "Las Meninas is the most famous painting in the Prado."
+        }
+      },
+      {
+        "word": "lienzo",
+        "type": "n.m.",
+        "en": "canvas",
+        "note": "La tela sobre la que se pinta; also the finished painting.",
+        "example": {
+          "es": "El Guernica es un lienzo enorme de casi ocho metros.",
+          "en": "Guernica is an enormous canvas almost eight metres wide."
+        }
+      },
+      {
+        "word": "pincel",
+        "type": "n.m.",
+        "en": "paintbrush",
+        "note": "Velázquez aparece con el pincel en la mano.",
+        "example": {
+          "es": "El pintor dejó el pincel y miró el lienzo.",
+          "en": "The painter put down his brush and looked at the canvas."
+        }
+      },
+      {
+        "word": "pincelada",
+        "type": "n.f.",
+        "en": "brushstroke",
+        "note": "Family: pincel → pincelada. Las pinceladas sueltas de Goya.",
+        "example": {
+          "es": "De cerca solo se ven manchas y pinceladas.",
+          "en": "Up close you only see stains and brushstrokes."
+        }
+      },
+      {
+        "word": "retrato",
+        "type": "n.m.",
+        "en": "portrait",
+        "note": "Family: retrato → retratar. Un retrato muestra a una persona.",
+        "example": {
+          "es": "Goya pintó retratos de reyes y de amigos.",
+          "en": "Goya painted portraits of kings and of friends."
+        }
+      },
+      {
+        "word": "autorretrato",
+        "type": "n.m.",
+        "en": "self-portrait",
+        "note": "auto- (self) + retrato. Kahlo pintó decenas de autorretratos.",
+        "example": {
+          "es": "Sus autorretratos muestran su dolor sin miedo.",
+          "en": "Her self-portraits show her pain without fear."
+        }
+      },
+      {
+        "word": "bodegón",
+        "type": "n.m.",
+        "en": "still life (esp. with food)",
+        "note": "De joven, Velázquez pintó bodegones: cocinas y comida.",
+        "example": {
+          "es": "De joven pintó bodegones con pan y huevos.",
+          "en": "As a young man he painted still lifes with bread and eggs."
+        }
+      },
+      {
+        "word": "óleo",
+        "type": "n.m.",
+        "en": "oil painting, oil (paint)",
+        "note": "Un óleo sobre lienzo. Contrast: acuarela.",
+        "example": {
+          "es": "Es un óleo sobre lienzo de 1656.",
+          "en": "It is an oil on canvas from 1656."
+        }
+      },
+      {
+        "word": "acuarela",
+        "type": "n.f.",
+        "en": "watercolour",
+        "note": "Pintura con agua; colores suaves y transparentes.",
+        "example": {
+          "es": "Rivera empezó con dibujos y acuarelas.",
+          "en": "Rivera started with drawings and watercolours."
+        }
+      },
+      {
+        "word": "escultura",
+        "type": "n.f.",
+        "en": "sculpture",
+        "note": "Arte en tres dimensiones; el escultor la crea.",
+        "example": {
+          "es": "El museo tiene pintura y escultura.",
+          "en": "The museum has painting and sculpture."
+        }
+      },
+      {
+        "word": "muralista",
+        "type": "n.",
+        "en": "mural painter",
+        "note": "Rivera fue el gran muralista mexicano.",
+        "example": {
+          "es": "Rivera fue el muralista del pueblo mexicano.",
+          "en": "Rivera was the mural painter of the Mexican people."
+        }
+      },
+      {
+        "word": "muralismo",
+        "type": "n.m.",
+        "en": "muralism (movement)",
+        "note": "Family: muro → mural → muralismo. Arte público en paredes.",
+        "example": {
+          "es": "El muralismo llevó el arte a la calle.",
+          "en": "Muralism took art out into the street."
+        }
+      },
+      {
+        "word": "paleta",
+        "type": "n.f.",
+        "en": "palette (colours / board)",
+        "note": "La gama de colores de un pintor; also the board itself.",
+        "example": {
+          "es": "Goya pasó a una paleta oscura, casi negra.",
+          "en": "Goya moved to a dark palette, almost black."
+        }
+      },
+      {
+        "word": "mecenas",
+        "type": "n.",
+        "en": "patron (of the arts)",
+        "note": "Quien paga y protege a un artista. El rey fue su mecenas.",
+        "example": {
+          "es": "El rey fue su mecenas durante cuarenta años.",
+          "en": "The king was his patron for forty years."
+        }
+      },
+      {
+        "word": "obra",
+        "type": "n.f.",
+        "en": "work (of art)",
+        "note": "Una obra maestra = a masterpiece. Su obra más conocida.",
+        "example": {
+          "es": "El Tres de mayo es su obra más conocida.",
+          "en": "The Third of May is his best-known work."
+        }
+      },
+      {
+        "word": "maestro",
+        "type": "n.m.",
+        "en": "master (artist)",
+        "note": "Un gran pintor; also teacher. El maestro sevillano.",
+        "example": {
+          "es": "Picasso admiraba al maestro sevillano.",
+          "en": "Picasso admired the Sevillian master."
+        }
+      },
+      {
+        "word": "mirada",
+        "type": "n.f.",
+        "en": "gaze, look",
+        "note": "Family: mirar → mirada. Su mirada sigue fuerte.",
+        "example": {
+          "es": "Su mirada no pide compasión.",
+          "en": "Her gaze asks for no pity."
+        }
+      },
+      {
+        "word": "fondo",
+        "type": "n.m.",
+        "en": "background",
+        "note": "Lo que está detrás; contrast: primer plano.",
+        "example": {
+          "es": "La familia real observa desde el fondo.",
+          "en": "The royal family watches from the background."
+        }
+      },
+      {
+        "word": "sala",
+        "type": "n.f.",
+        "en": "hall, gallery room",
+        "note": "Una sala del museo; also cinema hall (L54).",
+        "example": {
+          "es": "La sala del Guernica siempre está llena.",
+          "en": "The Guernica room is always full."
+        }
+      },
+      {
+        "word": "pared",
+        "type": "n.f.",
+        "en": "wall (indoor)",
+        "note": "Pared (inside) vs muro (outside, thick). Llenó las paredes de pesadillas.",
+        "example": {
+          "es": "Pintó pesadillas en las paredes de su casa.",
+          "en": "He painted nightmares on the walls of his house."
+        }
+      },
+      {
+        "word": "luz",
+        "type": "n.f.",
+        "en": "light",
+        "note": "Feminine: la luz. Jugar con la luz y la sombra.",
+        "example": {
+          "es": "El claroscuro juega con la luz y la sombra.",
+          "en": "Chiaroscuro plays with light and shade."
+        }
+      },
+      {
+        "word": "toro",
+        "type": "n.m.",
+        "en": "bull",
+        "note": "El toro del Guernica; also bullfighting (los toros).",
+        "example": {
+          "es": "El toro observa la escena sin moverse.",
+          "en": "The bull watches the scene without moving."
+        }
+      },
+      {
+        "word": "caballo",
+        "type": "n.m.",
+        "en": "horse",
+        "note": "El caballo herido del Guernica grita de dolor.",
+        "example": {
+          "es": "El caballo herido grita de dolor.",
+          "en": "The wounded horse screams with pain."
+        }
+      },
+      {
+        "word": "sordo",
+        "type": "adj.",
+        "en": "deaf",
+        "note": "Quedarse sordo = to go deaf. La Quinta del Sordo.",
+        "example": {
+          "es": "Goya quedó sordo a los cuarenta y seis años.",
+          "en": "Goya went deaf at forty-six."
+        }
+      },
+      {
+        "word": "pesadilla",
+        "type": "n.f.",
+        "en": "nightmare",
+        "note": "Un mal sueño; las Pinturas Negras son pesadillas.",
+        "example": {
+          "es": "Sus últimas obras son puras pesadillas.",
+          "en": "His last works are pure nightmares."
+        }
+      },
+      {
+        "word": "bufón",
+        "type": "n.m.",
+        "en": "court jester",
+        "note": "En la corte divertían al rey; Velázquez los retrató con dignidad.",
+        "example": {
+          "es": "Velázquez retrató a los bufones con dignidad.",
+          "en": "Velázquez portrayed the jesters with dignity."
+        }
+      },
+      {
+        "word": "menina",
+        "type": "n.f.",
+        "en": "lady-in-waiting (young)",
+        "note": "Palabra portuguesa; las jóvenes que servían a la infanta.",
+        "example": {
+          "es": "La infanta está con sus meninas.",
+          "en": "The infanta is with her ladies-in-waiting."
+        }
+      },
+      {
+        "word": "claroscuro",
+        "type": "n.m.",
+        "en": "chiaroscuro (light-dark)",
+        "note": "Claro + oscuro. El juego de luz y sombra.",
+        "example": {
+          "es": "Su claroscuro hace salir las caras de la sombra.",
+          "en": "His chiaroscuro brings faces out of the dark."
+        }
+      },
+      {
+        "word": "tenebrismo",
+        "type": "n.m.",
+        "en": "tenebrism (extreme dark style)",
+        "note": "De tenebra (sombra). Fondos casi negros, luz brutal.",
+        "example": {
+          "es": "El tenebrismo de Ribera influyó en Goya.",
+          "en": "Ribera's tenebrism influenced Goya."
+        }
+      },
+      {
+        "word": "composición",
+        "type": "n.f.",
+        "en": "composition",
+        "note": "Cómo están colocadas las figuras en el cuadro.",
+        "example": {
+          "es": "La composición pone al pintor a la izquierda.",
+          "en": "The composition places the painter on the left."
+        }
+      },
+      {
+        "word": "retratar",
+        "type": "v.",
+        "en": "to portray, to depict",
+        "note": "Family: retrato → retratar. Retratar a alguien con dignidad.",
+        "example": {
+          "es": "Retrató a reyes y a gente humilde.",
+          "en": "He portrayed kings and humble people."
+        }
+      },
+      {
+        "word": "inmortalizar",
+        "type": "v.",
+        "en": "to immortalise",
+        "note": "Hacer eterno; un retrato inmortaliza a una persona.",
+        "example": {
+          "es": "El cuadro inmortalizó a la pequeña infanta.",
+          "en": "The painting immortalised the little infanta."
+        }
+      },
+      {
+        "word": "cubismo",
+        "type": "n.m.",
+        "en": "cubism",
+        "note": "El movimiento de Picasso y Braque: caras y cuerpos rotos en formas.",
+        "example": {
+          "es": "El Guernica debe mucho al cubismo.",
+          "en": "Guernica owes much to cubism."
+        }
+      },
+      {
+        "word": "surrealismo",
+        "type": "n.m.",
+        "en": "surrealism",
+        "note": "Sueños y símbolos; Kahlo siempre negó ser surrealista.",
+        "example": {
+          "es": "Kahlo negó ser surrealista: pintaba su realidad.",
+          "en": "Kahlo denied being a surrealist: she painted her reality."
+        }
+      },
+      {
+        "word": "perspectiva",
+        "type": "n.f.",
+        "en": "perspective",
+        "note": "La profundidad en el lienzo; also point of view.",
+        "example": {
+          "es": "La perspectiva mete al visitante dentro del cuadro.",
+          "en": "The perspective pulls the visitor inside the painting."
+        }
+      },
+      {
+        "word": "corte",
+        "type": "n.f.",
+        "en": "royal court",
+        "note": "La corte = el rey, su familia y sus nobles. Contrast: cortar (to cut).",
+        "example": {
+          "es": "Vivió en la corte y pintó a la familia real.",
+          "en": "He lived at court and painted the royal family."
+        }
+      },
+      {
+        "word": "vanguardia",
+        "type": "n.f.",
+        "en": "avant-garde",
+        "note": "El arte más nuevo y rompedor de su tiempo.",
+        "ext": true,
+        "example": {
+          "es": "Picasso llevó la vanguardia a París.",
+          "en": "Picasso brought the avant-garde to Paris."
+        }
+      },
+      {
+        "word": "autoría",
+        "type": "n.f.",
+        "en": "authorship",
+        "note": "Quién hizo la obra; una obra de autoría dudosa.",
+        "ext": true,
+        "example": {
+          "es": "La autoría del cuadro estuvo en duda años.",
+          "en": "The painting's authorship was in doubt for years."
+        }
+      },
+      {
+        "word": "franquismo",
+        "type": "n.m.",
+        "en": "Franco's regime",
+        "note": "El Guernica volvió a España después del franquismo, en 1981.",
+        "ext": true,
+        "example": {
+          "es": "El Guernica volvió en 1981, después del franquismo.",
+          "en": "Guernica returned in 1981, after Franco's regime."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 52,
+    "title": "Literature: Cervantes & Don Quijote",
+    "words": [
+      {
+        "word": "caballero",
+        "type": "n.m.",
+        "en": "knight; gentleman",
+        "note": "Un caballero andante viaja buscando aventuras. Contrast: caballo (horse).",
+        "example": {
+          "es": "El caballero de la triste figura llegó a todas las casas.",
+          "en": "The knight of the sorrowful face reached every home."
+        }
+      },
+      {
+        "word": "escudero",
+        "type": "n.m.",
+        "en": "squire",
+        "note": "El ayudante del caballero. Sancho Panza, el escudero más famoso.",
+        "example": {
+          "es": "Sancho aceptó ser su escudero a cambio de una ínsula.",
+          "en": "Sancho agreed to be his squire in exchange for an island."
+        }
+      },
+      {
+        "word": "molino",
+        "type": "n.m.",
+        "en": "mill, windmill",
+        "note": "Los molinos de viento de la Mancha, que tomó por gigantes.",
+        "example": {
+          "es": "Tomó unos molinos de viento por gigantes.",
+          "en": "He took some windmills for giants."
+        }
+      },
+      {
+        "word": "gigante",
+        "type": "n.m./adj.",
+        "en": "giant; huge",
+        "note": "Los gigantes contra los que carga. Also adj.: un éxito gigante.",
+        "example": {
+          "es": "Cargó contra gigantes que eran molinos.",
+          "en": "He charged at giants that were windmills."
+        }
+      },
+      {
+        "word": "hidalgo",
+        "type": "n.m.",
+        "en": "minor nobleman, gentleman",
+        "note": "Hijo de algo (son of something): noble pero pobre.",
+        "example": {
+          "es": "Era un hidalgo pobre que leía libros de caballerías.",
+          "en": "He was a poor gentleman who read books of chivalry."
+        }
+      },
+      {
+        "word": "locura",
+        "type": "n.f.",
+        "en": "madness",
+        "note": "Family: loco → locura. Su locura es generosa y triste.",
+        "example": {
+          "es": "Su locura convierte ventas en castillos.",
+          "en": "His madness turns inns into castles."
+        }
+      },
+      {
+        "word": "cordura",
+        "type": "n.f.",
+        "en": "sanity",
+        "note": "Lo contrario de locura. Al final recupera la cordura.",
+        "example": {
+          "es": "Al final recupera la cordura y vuelve a ser Alonso.",
+          "en": "At the end he recovers his sanity and is Alonso again."
+        }
+      },
+      {
+        "word": "idealismo",
+        "type": "n.m.",
+        "en": "idealism",
+        "note": "Family: idea → ideal → idealismo. Querer arreglar el mundo.",
+        "example": {
+          "es": "Su idealismo choca con un mundo injusto.",
+          "en": "His idealism clashes with an unjust world."
+        }
+      },
+      {
+        "word": "falso",
+        "type": "adj.",
+        "en": "false, fake",
+        "note": "Una segunda parte falsa con su personaje.",
+        "example": {
+          "es": "Nueve años después escribió una parte falsa.",
+          "en": "Nine years later he wrote a false part."
+        }
+      },
+      {
+        "word": "historiador",
+        "type": "n.m.",
+        "en": "historian",
+        "note": "Cuenta lo que pasó. Dice que cuenta lo que escribió un historiador árabe.",
+        "example": {
+          "es": "Dice que traduce a un historiador árabe.",
+          "en": "He says he is translating an Arab historian."
+        }
+      },
+      {
+        "word": "parodia",
+        "type": "n.f.",
+        "en": "parody",
+        "note": "Imitar un género para reírse de él con cariño.",
+        "example": {
+          "es": "El libro es una parodia de las novelas de caballeros.",
+          "en": "The book is a parody of knightly romances."
+        }
+      },
+      {
+        "word": "capítulo",
+        "type": "n.m.",
+        "en": "chapter",
+        "note": "El capítulo de los molinos es el más conocido.",
+        "example": {
+          "es": "El capítulo de los molinos es el más conocido.",
+          "en": "The windmill chapter is the best known."
+        }
+      },
+      {
+        "word": "novela",
+        "type": "n.f.",
+        "en": "novel",
+        "note": "El Quijote, la novela que más se ha traducido.",
+        "example": {
+          "es": "Es la novela que más se ha traducido en el mundo.",
+          "en": "It is the most translated novel in the world."
+        }
+      },
+      {
+        "word": "prólogo",
+        "type": "n.m.",
+        "en": "prologue, preface",
+        "note": "El texto antes del capítulo uno. El prólogo habla al lector.",
+        "example": {
+          "es": "El prólogo habla directamente al lector.",
+          "en": "The prologue speaks directly to the reader."
+        }
+      },
+      {
+        "word": "narrador",
+        "type": "n.m.",
+        "en": "narrator",
+        "note": "Quien cuenta la historia. Cervantes inventa varios narradores.",
+        "example": {
+          "es": "El narrador dice que traduce un texto árabe.",
+          "en": "The narrator says he is translating an Arabic text."
+        }
+      },
+      {
+        "word": "personaje",
+        "type": "n.m.",
+        "en": "character",
+        "note": "Sancho, el personaje que más crece en el libro.",
+        "example": {
+          "es": "Otro hombre escribió con su personaje.",
+          "en": "Another man wrote using his character."
+        }
+      },
+      {
+        "word": "ficción",
+        "type": "n.f.",
+        "en": "fiction",
+        "note": "Lo inventado; contrast: la realidad. La ficción juega con la vida.",
+        "example": {
+          "es": "La ficción juega con la vida en la segunda parte.",
+          "en": "Fiction plays with life in the second part."
+        }
+      },
+      {
+        "word": "honra",
+        "type": "n.f.",
+        "en": "honour",
+        "note": "El valor central del hidalgo. Vivir de su honra.",
+        "example": {
+          "es": "Dijo que un hidalgo vive de su honra.",
+          "en": "He said a gentleman lives on his honour."
+        }
+      },
+      {
+        "word": "linaje",
+        "type": "n.m.",
+        "en": "lineage, bloodline",
+        "note": "La familia de la que vienes. Preguntó de qué linaje era.",
+        "example": {
+          "es": "Preguntó de qué linaje era el caballero.",
+          "en": "He asked of what lineage the knight was."
+        }
+      },
+      {
+        "word": "caballería",
+        "type": "n.f.",
+        "en": "chivalry, knighthood",
+        "note": "Los libros de caballerías volvieron loco a Alonso.",
+        "example": {
+          "es": "Perdió la razón con libros de caballerías.",
+          "en": "He lost his mind over books of chivalry."
+        }
+      },
+      {
+        "word": "sátira",
+        "type": "n.f.",
+        "en": "satire",
+        "note": "Reírse del poder y de las modas. El libro es también sátira social.",
+        "example": {
+          "es": "El libro es sátira social además de parodia.",
+          "en": "The book is social satire as well as parody."
+        }
+      },
+      {
+        "word": "ironía",
+        "type": "n.f.",
+        "en": "irony",
+        "note": "Decir lo contrario de lo que se piensa, con humor fino.",
+        "example": {
+          "es": "Todo el libro está lleno de ironía.",
+          "en": "The whole book is full of irony."
+        }
+      },
+      {
+        "word": "humor",
+        "type": "n.m.",
+        "en": "humour",
+        "note": "El humor del libro: golpes, diálogos y malentendidos.",
+        "example": {
+          "es": "El humor nace del choque entre amo y escudero.",
+          "en": "The humour comes from the clash between master and squire."
+        }
+      },
+      {
+        "word": "lector",
+        "type": "n.m./f.",
+        "en": "reader",
+        "note": "Desocupado lector: así empieza el prólogo.",
+        "example": {
+          "es": "Cervantes juega con el lector en cada página.",
+          "en": "Cervantes plays with the reader on every page."
+        }
+      },
+      {
+        "word": "rebaño",
+        "type": "n.m.",
+        "en": "flock, herd",
+        "note": "Un grupo de ovejas; Quijote ve ejércitos donde hay rebaños.",
+        "example": {
+          "es": "El rebaño cruza la sierra al amanecer.",
+          "en": "The flock crosses the mountains at dawn."
+        }
+      },
+      {
+        "word": "yelmo",
+        "type": "n.m.",
+        "en": "helmet",
+        "note": "El yelmo de Mambrino, que era un plato de barbero.",
+        "example": {
+          "es": "Su yelmo era un simple plato de barbero.",
+          "en": "His helmet was a mere barber's basin."
+        }
+      },
+      {
+        "word": "lanza",
+        "type": "n.f.",
+        "en": "lance, spear",
+        "note": "El arma larga del caballero. Fue contra ellos con su lanza.",
+        "example": {
+          "es": "Fue contra ellos con su lanza.",
+          "en": "He went at them with his lance."
+        }
+      },
+      {
+        "word": "armadura",
+        "type": "n.f.",
+        "en": "armour",
+        "note": "Hierro que protege al caballero. Se hizo una armadura con cartón.",
+        "example": {
+          "es": "Se hizo una armadura con cartón viejo.",
+          "en": "He made himself armour out of old cardboard."
+        }
+      },
+      {
+        "word": "escudo",
+        "type": "n.m.",
+        "en": "shield",
+        "note": "Para defenderse. Lanza y escudo, las armas del caballero.",
+        "example": {
+          "es": "Llevaba lanza y escudo como un héroe antiguo.",
+          "en": "He carried lance and shield like an ancient hero."
+        }
+      },
+      {
+        "word": "venta",
+        "type": "n.f.",
+        "en": "roadside inn",
+        "note": "Posada pobre del camino; Quijote la ve como castillo.",
+        "example": {
+          "es": "Pasaron la noche en una venta del camino.",
+          "en": "They spent the night in a roadside inn."
+        }
+      },
+      {
+        "word": "hazaña",
+        "type": "n.f.",
+        "en": "feat, heroic deed",
+        "note": "Lo que el caballero sueña hacer. Soñaba con hazañas.",
+        "example": {
+          "es": "Soñaba con hazañas que cantaran los poetas.",
+          "en": "He dreamed of feats for poets to sing."
+        }
+      },
+      {
+        "word": "imprenta",
+        "type": "n.f.",
+        "en": "printing press; print shop",
+        "note": "La primera parte salió de la imprenta en 1605.",
+        "example": {
+          "es": "La primera parte salió de la imprenta en 1605.",
+          "en": "The first part came off the press in 1605."
+        }
+      },
+      {
+        "word": "edición",
+        "type": "n.f.",
+        "en": "edition",
+        "note": "Family: editar → edición. De la primera edición no quedó ni un libro.",
+        "example": {
+          "es": "De la primera edición no quedó ni un libro.",
+          "en": "Not a single book was left of the first edition."
+        }
+      },
+      {
+        "word": "barbero",
+        "type": "n.m.",
+        "en": "barber",
+        "note": "El barbero del pueblo; su plato sirve de yelmo.",
+        "example": {
+          "es": "El barbero prestó su plato sin saberlo.",
+          "en": "The barber lent his basin without knowing it."
+        }
+      },
+      {
+        "word": "gobernar",
+        "type": "v.",
+        "en": "to govern, to rule",
+        "note": "Sancho llegó a gobernar de verdad en la ínsula.",
+        "example": {
+          "es": "Sancho llegó a gobernar de verdad.",
+          "en": "Sancho actually came to govern."
+        }
+      },
+      {
+        "word": "dama",
+        "type": "n.f.",
+        "en": "lady",
+        "note": "Su dama ideal: Dulcinea del Toboso.",
+        "example": {
+          "es": "Su dama era una campesina llamada Aldonza.",
+          "en": "His lady was a peasant woman called Aldonza."
+        }
+      },
+      {
+        "word": "quijotesco",
+        "type": "adj.",
+        "en": "quixotic",
+        "note": "Noble y loco a la vez, como don Quijote.",
+        "ext": true,
+        "example": {
+          "es": "Su aventura fue quijotesca: triste y divertida.",
+          "en": "His adventure was quixotic: sad and funny."
+        }
+      },
+      {
+        "word": "ínsula",
+        "type": "n.f.",
+        "en": "isle (literary)",
+        "note": "Isla en lengua antigua; la ínsula Barataria de Sancho.",
+        "ext": true,
+        "example": {
+          "es": "Le prometió el gobierno de una ínsula.",
+          "en": "He promised him the governorship of an isle."
+        }
+      },
+      {
+        "word": "ventero",
+        "type": "n.m.",
+        "en": "innkeeper",
+        "note": "El dueño de la venta. El ventero le dio la mejor cama.",
+        "ext": true,
+        "example": {
+          "es": "El ventero le dio la mejor cama.",
+          "en": "The innkeeper gave him the best bed."
+        }
+      },
+      {
+        "word": "manchego",
+        "type": "adj.",
+        "en": "from La Mancha",
+        "note": "El hidalgo manchego; also the famous cheese (queso manchego).",
+        "ext": true,
+        "example": {
+          "es": "Era un hidalgo manchego de pueblo pequeño.",
+          "en": "He was a Manchegan gentleman from a small town."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 53,
+    "title": "The Latin American Boom",
+    "words": [
+      {
+        "word": "soledad",
+        "type": "n.f.",
+        "en": "solitude, loneliness",
+        "note": "Family: solo → soledad. Cien años de soledad.",
+        "example": {
+          "es": "Muchos libros cuentan la soledad de un dictador.",
+          "en": "Many books tell of a dictator's solitude."
+        }
+      },
+      {
+        "word": "laberinto",
+        "type": "n.m.",
+        "en": "labyrinth, maze",
+        "note": "El símbolo de Borges: pasillos que se repiten sin fin.",
+        "example": {
+          "es": "Borges se perdió en laberintos de papel.",
+          "en": "Borges got lost in paper labyrinths."
+        }
+      },
+      {
+        "word": "espejo",
+        "type": "n.m.",
+        "en": "mirror",
+        "note": "El otro símbolo de Borges: el espejo que copia el mundo.",
+        "example": {
+          "es": "Sus cuentos hablan de espejos que se repiten.",
+          "en": "His stories speak of mirrors that repeat themselves."
+        }
+      },
+      {
+        "word": "infinito",
+        "type": "adj./n.m.",
+        "en": "infinite; infinity",
+        "note": "Sin fin. Decía que sus cuentos ya eran infinitos.",
+        "example": {
+          "es": "Decía que sus cuentos ya eran infinitos.",
+          "en": "He said his stories were already infinite."
+        }
+      },
+      {
+        "word": "profecía",
+        "type": "n.f.",
+        "en": "prophecy",
+        "note": "Anunciar el futuro. La novela empieza con una profecía.",
+        "example": {
+          "es": "La novela empieza con una profecía.",
+          "en": "The novel begins with a prophecy."
+        }
+      },
+      {
+        "word": "dictador",
+        "type": "n.m.",
+        "en": "dictator",
+        "note": "Family: dictadura → dictador. El otoño del patriarca y otros.",
+        "example": {
+          "es": "El dictador vive solo en su palacio.",
+          "en": "The dictator lives alone in his palace."
+        }
+      },
+      {
+        "word": "selva",
+        "type": "n.f.",
+        "en": "jungle",
+        "note": "La selva es otro personaje: nadie sale igual de ella.",
+        "example": {
+          "es": "La selva es otro personaje del libro.",
+          "en": "The jungle is another character in the book."
+        }
+      },
+      {
+        "word": "aldea",
+        "type": "n.f.",
+        "en": "village",
+        "note": "Más pequeña y rural que un pueblo. Llenó una aldea de prodigios.",
+        "example": {
+          "es": "Llenó una aldea de prodigios.",
+          "en": "He filled a village with marvels."
+        }
+      },
+      {
+        "word": "crónica",
+        "type": "n.f.",
+        "en": "chronicle",
+        "note": "Contar hechos en orden. Crónica de una muerte anunciada.",
+        "example": {
+          "es": "Aunque la crónica dice poco, cuenta cien años.",
+          "en": "Although the chronicle says little, it tells a hundred years."
+        }
+      },
+      {
+        "word": "cuento",
+        "type": "n.m.",
+        "en": "short story",
+        "note": "Borges nunca escribió novelas: solo cuentos. Contar → cuento.",
+        "example": {
+          "es": "Borges solo escribió cuentos breves.",
+          "en": "Borges only wrote short stories."
+        }
+      },
+      {
+        "word": "relato",
+        "type": "n.m.",
+        "en": "tale, account",
+        "note": "Casi como cuento; sus relatos mezclan lo raro y lo diario.",
+        "example": {
+          "es": "Sus relatos mezclan lo raro y lo diario.",
+          "en": "His tales mix the strange and the everyday."
+        }
+      },
+      {
+        "word": "olvido",
+        "type": "n.m.",
+        "en": "oblivion, forgetting",
+        "note": "Family: olvidar → olvido. El miedo central del libro es el olvido.",
+        "example": {
+          "es": "El miedo central del libro es el olvido.",
+          "en": "The book's central fear is oblivion."
+        }
+      },
+      {
+        "word": "insomnio",
+        "type": "n.m.",
+        "en": "insomnia",
+        "note": "No poder dormir. En Macondo nadie duerme por el insomnio.",
+        "example": {
+          "es": "En Macondo nadie duerme por el insomnio.",
+          "en": "In Macondo nobody sleeps because of insomnia."
+        }
+      },
+      {
+        "word": "mariposa",
+        "type": "n.f.",
+        "en": "butterfly",
+        "note": "Las mariposas amarillas anuncian el amor imposible.",
+        "example": {
+          "es": "Vuelan mariposas amarillas sobre la aldea.",
+          "en": "Yellow butterflies fly over the village."
+        }
+      },
+      {
+        "word": "coronel",
+        "type": "n.m.",
+        "en": "colonel",
+        "note": "El coronel Aureliano Buendía, héroe de mil guerras perdidas.",
+        "example": {
+          "es": "El coronel recuerda una tarde de su infancia.",
+          "en": "The colonel remembers an afternoon from his childhood."
+        }
+      },
+      {
+        "word": "general",
+        "type": "n.m.",
+        "en": "general",
+        "note": "Más alto que coronel. En Macondo hay coroneles y generales.",
+        "example": {
+          "es": "En Macondo hay coroneles y generales.",
+          "en": "In Macondo there are colonels and generals."
+        }
+      },
+      {
+        "word": "estirpe",
+        "type": "n.f.",
+        "en": "lineage, stock",
+        "note": "Toda una familia en el tiempo. La estirpe de los Buendía.",
+        "example": {
+          "es": "La estirpe de los Buendía se repite sin fin.",
+          "en": "The Buendía line repeats itself endlessly."
+        }
+      },
+      {
+        "word": "prodigio",
+        "type": "n.m.",
+        "en": "marvel, wonder",
+        "note": "Algo imposible y bello. Una aldea llena de prodigios.",
+        "example": {
+          "es": "Macondo está llena de prodigios.",
+          "en": "Macondo is full of marvels."
+        }
+      },
+      {
+        "word": "mágico",
+        "type": "adj.",
+        "en": "magical",
+        "note": "Realismo mágico: lo imposible contado como normal.",
+        "example": {
+          "es": "Lo llamaron realismo mágico.",
+          "en": "They called it magical realism."
+        }
+      },
+      {
+        "word": "realismo",
+        "type": "n.m.",
+        "en": "realism",
+        "note": "Family: real → realismo → realista. Contar lo real y lo imposible juntos.",
+        "example": {
+          "es": "El realismo mágico mezcla dos mundos.",
+          "en": "Magical realism mixes two worlds."
+        }
+      },
+      {
+        "word": "alucinante",
+        "type": "adj.",
+        "en": "mind-blowing, hallucinatory",
+        "note": "Que parece un sueño. Una historia alucinante.",
+        "example": {
+          "es": "Es una historia alucinante e inquietante.",
+          "en": "It is a mind-blowing, unsettling story."
+        }
+      },
+      {
+        "word": "circular",
+        "type": "adj.",
+        "en": "circular",
+        "note": "Que vuelve al principio. El tiempo es circular en Macondo.",
+        "example": {
+          "es": "El tiempo es circular: el final ya estaba al principio.",
+          "en": "Time is circular: the end was already in the beginning."
+        }
+      },
+      {
+        "word": "inquietante",
+        "type": "adj.",
+        "en": "unsettling, disturbing",
+        "note": "Que te deja pensando. Inquietar → inquietante.",
+        "example": {
+          "es": "El final es breve e inquietante.",
+          "en": "The ending is brief and unsettling."
+        }
+      },
+      {
+        "word": "prosa",
+        "type": "n.f.",
+        "en": "prose",
+        "note": "Escribir sin verso. Su prosa parece música.",
+        "example": {
+          "es": "Su prosa parece música.",
+          "en": "His prose sounds like music."
+        }
+      },
+      {
+        "word": "editorial",
+        "type": "n.f.",
+        "en": "publishing house",
+        "note": "La empresa que publica libros. Al principio ninguna editorial lo quería.",
+        "example": {
+          "es": "Al principio ninguna editorial quería el libro.",
+          "en": "At first no publisher wanted the book."
+        }
+      },
+      {
+        "word": "jurado",
+        "type": "n.m.",
+        "en": "jury, panel",
+        "note": "Quienes dan un premio. Un jurado en Estocolmo le dio el Nobel.",
+        "example": {
+          "es": "Un jurado en Estocolmo le dio el Nobel.",
+          "en": "A jury in Stockholm gave him the Nobel."
+        }
+      },
+      {
+        "word": "superventas",
+        "type": "n.m.",
+        "en": "bestseller",
+        "note": "Super + ventas. Fue un superventas en todas las librerías.",
+        "example": {
+          "es": "Fue un superventas en todo el mundo.",
+          "en": "It was a bestseller worldwide."
+        }
+      },
+      {
+        "word": "reedición",
+        "type": "n.f.",
+        "en": "reissue, reprint",
+        "note": "Re- + edición. Volver a publicar un libro que se vende.",
+        "example": {
+          "es": "Cada reedición trae fotos nuevas.",
+          "en": "Each reissue brings new photos."
+        }
+      },
+      {
+        "word": "tirada",
+        "type": "n.f.",
+        "en": "print run",
+        "note": "Cuántos libros se imprimen de una vez. Cada tirada desaparece.",
+        "example": {
+          "es": "Cada tirada desaparece de las tiendas.",
+          "en": "Each print run vanishes from the shops."
+        }
+      },
+      {
+        "word": "librería",
+        "type": "n.f.",
+        "en": "bookshop",
+        "note": "Donde se venden libros. Contrast: biblioteca (to borrow).",
+        "example": {
+          "es": "Compra el libro antes de que cierre la librería.",
+          "en": "Buy the book before the bookshop closes."
+        }
+      },
+      {
+        "word": "consagrar",
+        "type": "v.",
+        "en": "to establish, to consecrate (a reputation)",
+        "note": "El Nobel lo consagró: lo hizo eterno.",
+        "example": {
+          "es": "El Nobel lo consagró para siempre.",
+          "en": "The Nobel established him forever."
+        }
+      },
+      {
+        "word": "porque",
+        "type": "conn.",
+        "en": "because",
+        "note": "Gives the reason. Las cosas existen porque alguien las piensa.",
+        "example": {
+          "es": "Nunca escribió novelas porque sus cuentos eran infinitos.",
+          "en": "He never wrote novels because his stories were infinite."
+        }
+      },
+      {
+        "word": "no obstante",
+        "type": "conn.",
+        "en": "nevertheless",
+        "note": "Formal connector, like sin embargo. Iba a salir en Buenos Aires; no obstante, salió en México.",
+        "example": {
+          "es": "Iba a salir en Buenos Aires; no obstante, salió en México.",
+          "en": "It was to come out in Buenos Aires; nevertheless, it came out in Mexico."
+        }
+      },
+      {
+        "word": "a pesar de",
+        "type": "conn.",
+        "en": "despite, in spite of",
+        "note": "A pesar de + noun. Llueve cuatro años; a pesar de eso, nadie se va.",
+        "example": {
+          "es": "Llueve cuatro años; a pesar de eso, nadie se va.",
+          "en": "It rains for four years; despite that, nobody leaves."
+        }
+      },
+      {
+        "word": "es decir",
+        "type": "conn.",
+        "en": "that is, in other words",
+        "note": "Para explicar mejor. Lo imposible es normal; es decir, Macondo.",
+        "example": {
+          "es": "Lo imposible es normal; es decir, Macondo.",
+          "en": "The impossible is normal; that is, Macondo."
+        }
+      },
+      {
+        "word": "o sea",
+        "type": "conn.",
+        "en": "in other words, I mean",
+        "note": "Spoken version of es decir. Es circular, o sea, vuelve al principio.",
+        "ext": true,
+        "example": {
+          "es": "Es circular, o sea, el final vuelve al principio.",
+          "en": "It is circular; I mean, the ending returns to the beginning."
+        }
+      },
+      {
+        "word": "mientras que",
+        "type": "conn.",
+        "en": "whereas, while",
+        "note": "Contrast between two facts, both indicative.",
+        "ext": true,
+        "example": {
+          "es": "Mientras que uno inventaba pueblos, otro se perdía en bibliotecas.",
+          "en": "Whereas one invented villages, the other got lost in libraries."
+        }
+      },
+      {
+        "word": "dado que",
+        "type": "conn.",
+        "en": "given that, since",
+        "note": "Formal porque. Lo leo de noche, dado que de día trabajo.",
+        "ext": true,
+        "example": {
+          "es": "Lo leo de noche, dado que de día trabajo.",
+          "en": "I read it at night, since I work by day."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 54,
+    "title": "Cinema & television",
+    "words": [
+      {
+        "word": "pantalla",
+        "type": "n.f.",
+        "en": "screen",
+        "note": "La pantalla grande (cine) y la pequeña (tele). Me gustaría verla en pantalla grande.",
+        "example": {
+          "es": "Me gustaría verla en pantalla grande.",
+          "en": "I'd like to see it on the big screen."
+        }
+      },
+      {
+        "word": "rodaje",
+        "type": "n.m.",
+        "en": "filming, shoot",
+        "note": "El tiempo de filmar. El rodaje de Roma duró nueve semanas.",
+        "example": {
+          "es": "El rodaje duró nueve semanas en la ciudad.",
+          "en": "Filming lasted nine weeks in the city."
+        }
+      },
+      {
+        "word": "director",
+        "type": "n.m.",
+        "en": "director (film)",
+        "note": "Dirige la película. Ganó el Óscar a mejor director.",
+        "example": {
+          "es": "Ganó el Óscar a mejor director.",
+          "en": "He won the Oscar for best director."
+        }
+      },
+      {
+        "word": "actor",
+        "type": "n.m.",
+        "en": "actor",
+        "note": "Trabaja con actores nuevos, no famosos.",
+        "example": {
+          "es": "Trabaja con actores nuevos.",
+          "en": "He works with new actors."
+        }
+      },
+      {
+        "word": "actriz",
+        "type": "n.f.",
+        "en": "actress",
+        "note": "Yalitza, sin ser actriz, dio una interpretación inolvidable.",
+        "example": {
+          "es": "Sin ser actriz, dio una interpretación inolvidable.",
+          "en": "Without being an actress, she gave an unforgettable performance."
+        }
+      },
+      {
+        "word": "plano",
+        "type": "n.m.",
+        "en": "shot",
+        "note": "Lo que la cámara filma sin cortar. El plano más largo dura trece minutos.",
+        "example": {
+          "es": "El plano más largo dura trece minutos.",
+          "en": "The longest shot lasts thirteen minutes."
+        }
+      },
+      {
+        "word": "secuencia",
+        "type": "n.f.",
+        "en": "sequence",
+        "note": "Varios planos que cuentan algo. Un plano secuencia no tiene montaje.",
+        "example": {
+          "es": "La secuencia inicial no tiene montaje.",
+          "en": "The opening sequence has no editing."
+        }
+      },
+      {
+        "word": "montaje",
+        "type": "n.m.",
+        "en": "editing",
+        "note": "Unir los planos. Sin montaje, todo es un plano.",
+        "example": {
+          "es": "El plano largo no tiene montaje.",
+          "en": "The long shot has no editing."
+        }
+      },
+      {
+        "word": "doblaje",
+        "type": "n.m.",
+        "en": "dubbing",
+        "note": "Spain prefers doblaje; Latin America often subtitles. Sería una pena verla doblada.",
+        "example": {
+          "es": "En España se prefiere el doblaje.",
+          "en": "In Spain dubbing is preferred."
+        }
+      },
+      {
+        "word": "subtítulo",
+        "type": "n.m.",
+        "en": "subtitle",
+        "note": "Pl. subtítulos. Si la ves en versión original, lees los subtítulos.",
+        "example": {
+          "es": "Si la ves en versión original, lees los subtítulos.",
+          "en": "If you watch it in the original version, you read the subtitles."
+        }
+      },
+      {
+        "word": "banda sonora",
+        "type": "phr.",
+        "en": "soundtrack",
+        "note": "La música de la película. Mezcla canciones y ruidos de calle.",
+        "example": {
+          "es": "La banda sonora mezcla canciones y ruidos.",
+          "en": "The soundtrack mixes songs and noises."
+        }
+      },
+      {
+        "word": "premio",
+        "type": "n.m.",
+        "en": "prize, award",
+        "note": "Le dio su primer gran premio internacional.",
+        "example": {
+          "es": "Le dio su primer gran premio.",
+          "en": "It won him his first big prize."
+        }
+      },
+      {
+        "word": "nominación",
+        "type": "n.f.",
+        "en": "nomination",
+        "note": "Estar entre los finalistas. Tuvo una nominación al Óscar.",
+        "example": {
+          "es": "Tuvo una nominación al Óscar.",
+          "en": "It got an Oscar nomination."
+        }
+      },
+      {
+        "word": "galardón",
+        "type": "n.m.",
+        "en": "award (formal)",
+        "note": "Más formal que premio. El festival le dio un galardón.",
+        "example": {
+          "es": "El festival le dio un galardón.",
+          "en": "The festival gave him an award."
+        }
+      },
+      {
+        "word": "palmarés",
+        "type": "n.m.",
+        "en": "track record, list of wins",
+        "note": "Todos los premios de alguien. Su palmarés tiene dos Óscar.",
+        "example": {
+          "es": "Su palmarés tiene dos Óscar y un Goya.",
+          "en": "His track record holds two Oscars and a Goya."
+        }
+      },
+      {
+        "word": "festival",
+        "type": "n.m.",
+        "en": "festival",
+        "note": "Cannes, Venecia, San Sebastián: el circuito de festivales.",
+        "example": {
+          "es": "Triunfó en el festival de Cannes.",
+          "en": "He triumphed at the Cannes festival."
+        }
+      },
+      {
+        "word": "alfombra roja",
+        "type": "phr.",
+        "en": "red carpet",
+        "note": "Pasaron por la alfombra roja sin miedo.",
+        "example": {
+          "es": "Pasaron por la alfombra roja sin miedo.",
+          "en": "They walked the red carpet without fear."
+        }
+      },
+      {
+        "word": "protagonista",
+        "type": "n.",
+        "en": "protagonist, lead",
+        "note": "El personaje central. Su protagonista era una joven sin experiencia.",
+        "example": {
+          "es": "Su protagonista era una joven sin experiencia.",
+          "en": "His lead was a young woman with no experience."
+        }
+      },
+      {
+        "word": "antagonista",
+        "type": "n.",
+        "en": "antagonist",
+        "note": "El contrario del protagonista. El antagonista no es un hombre, es la guerra.",
+        "example": {
+          "es": "El antagonista no es un hombre, es la guerra.",
+          "en": "The antagonist is not a man; it is war."
+        }
+      },
+      {
+        "word": "interpretación",
+        "type": "n.f.",
+        "en": "performance, acting",
+        "note": "Cómo actúa un actor. Una interpretación inolvidable.",
+        "example": {
+          "es": "Su interpretación es inolvidable.",
+          "en": "Her performance is unforgettable."
+        }
+      },
+      {
+        "word": "melodrama",
+        "type": "n.m.",
+        "en": "melodrama",
+        "note": "Emociones grandes: madres, amores y secretos. Sus melodramas ponen a las mujeres en el centro.",
+        "example": {
+          "es": "Sus melodramas ponen a las mujeres en el centro.",
+          "en": "His melodramas put women at the centre."
+        }
+      },
+      {
+        "word": "terror",
+        "type": "n.m.",
+        "en": "horror (genre); terror",
+        "note": "Cine de terror; del Toro mezcla terror y cuento.",
+        "example": {
+          "es": "La película mezcla terror y cuento.",
+          "en": "The film mixes horror and fairy tale."
+        }
+      },
+      {
+        "word": "fantasía",
+        "type": "n.f.",
+        "en": "fantasy",
+        "note": "Mundos imposibles. Una niña encuentra un mundo de fantasía.",
+        "example": {
+          "es": "Encuentra un mundo de fantasía en la guerra.",
+          "en": "She finds a fantasy world amid the war."
+        }
+      },
+      {
+        "word": "suspenso",
+        "type": "n.m.",
+        "en": "suspense",
+        "note": "LatAm word; in Spain: suspense (same). Sus historias de suspenso no dejan dormir.",
+        "example": {
+          "es": "Sus historias de suspenso no dejan dormir.",
+          "en": "His suspense stories don't let you sleep."
+        }
+      },
+      {
+        "word": "cortometraje",
+        "type": "n.m.",
+        "en": "short film",
+        "note": "Corto + metraje. Empezó con cortometrajes.",
+        "example": {
+          "es": "Empezó con cortometrajes en los ochenta.",
+          "en": "He started with short films in the eighties."
+        }
+      },
+      {
+        "word": "largometraje",
+        "type": "n.m.",
+        "en": "feature film",
+        "note": "Largo + metraje. Su primer largometraje costó muy poco.",
+        "example": {
+          "es": "Su primer largometraje costó muy poco.",
+          "en": "His first feature film cost very little."
+        }
+      },
+      {
+        "word": "ópera prima",
+        "type": "phr.",
+        "en": "debut work, first film",
+        "note": "La primera obra de un director. Su ópera prima llegó a los treinta años.",
+        "example": {
+          "es": "Su ópera prima llegó a los treinta años.",
+          "en": "His debut film came at thirty."
+        }
+      },
+      {
+        "word": "precuela",
+        "type": "n.f.",
+        "en": "prequel",
+        "note": "Pre- + secuela. Cuenta lo que pasó antes. Hollywood pide una precuela; él dice que no.",
+        "example": {
+          "es": "Hollywood pide una precuela; él dice que no.",
+          "en": "Hollywood wants a prequel; he says no."
+        }
+      },
+      {
+        "word": "remake",
+        "type": "n.m.",
+        "en": "remake",
+        "note": "Anglicism used as-is (el remake). Volver a hacer una película.",
+        "example": {
+          "es": "No quiere un remake en inglés.",
+          "en": "He doesn't want an English-language remake."
+        }
+      },
+      {
+        "word": "platea",
+        "type": "n.f.",
+        "en": "stalls (seats); audience",
+        "note": "La platea aplaudió diez minutos.",
+        "example": {
+          "es": "La platea aplaudió diez minutos.",
+          "en": "The audience applauded for ten minutes."
+        }
+      },
+      {
+        "word": "taquillazo",
+        "type": "n.m.",
+        "en": "box-office hit",
+        "note": "Taquilla + -azo (big). Fue un taquillazo en todo el mundo.",
+        "example": {
+          "es": "Fue un taquillazo en todo el mundo.",
+          "en": "It was a box-office hit worldwide."
+        }
+      },
+      {
+        "word": "por consiguiente",
+        "type": "conn.",
+        "en": "therefore, consequently",
+        "note": "Formal connector. Quiere realismo; por consiguiente, trabaja con actores nuevos.",
+        "example": {
+          "es": "Quiere realismo; por consiguiente, trabaja con actores nuevos.",
+          "en": "He wants realism; therefore he works with new actors."
+        }
+      },
+      {
+        "word": "puerta",
+        "type": "n.f.",
+        "en": "door",
+        "note": "Abrir la puerta = to open the door (also figurative).",
+        "example": {
+          "es": "Abrió la puerta del cine a todos.",
+          "en": "He opened the door of cinema to everyone."
+        }
+      },
+      {
+        "word": "telenovela",
+        "type": "n.f.",
+        "en": "soap opera",
+        "note": "Tele + novela. Las telenovelas se veían en cien países.",
+        "example": {
+          "es": "Las telenovelas se veían en cien países.",
+          "en": "Soap operas were watched in a hundred countries."
+        }
+      },
+      {
+        "word": "mixteco",
+        "type": "n.m.",
+        "en": "Mixtec (language)",
+        "note": "Lengua de México. En Roma se habla mixteco.",
+        "example": {
+          "es": "En la película se habla mixteco.",
+          "en": "Mixtec is spoken in the film."
+        }
+      },
+      {
+        "word": "cameo",
+        "type": "n.m.",
+        "en": "cameo (appearance)",
+        "note": "El director sale un minuto en su propia película.",
+        "ext": true,
+        "example": {
+          "es": "Sale en un cameo de un minuto.",
+          "en": "He appears in a one-minute cameo."
+        }
+      },
+      {
+        "word": "tráiler",
+        "type": "n.m.",
+        "en": "trailer",
+        "note": "El anuncio corto antes del estreno. El tráiler no cuenta nada.",
+        "ext": true,
+        "example": {
+          "es": "El tráiler no cuenta nada.",
+          "en": "The trailer gives nothing away."
+        }
+      },
+      {
+        "word": "spoiler",
+        "type": "n.m.",
+        "en": "spoiler",
+        "note": "Anglicism; pl. spoilers. Contar el final = hacer un spoiler.",
+        "ext": true,
+        "example": {
+          "es": "No me hagas spoilers del final.",
+          "en": "Don't spoil the ending for me."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 55,
+    "title": "Music & contemporary culture",
+    "words": [
+      {
+        "word": "cantaor",
+        "type": "n.m.",
+        "en": "flamenco singer (male)",
+        "note": "Con -ao andaluz: cantao. Fem.: cantaora. Un cantaor, una guitarra y palmas.",
+        "example": {
+          "es": "Un cantaor, una guitarra y palmas.",
+          "en": "A flamenco singer, a guitar and handclaps."
+        }
+      },
+      {
+        "word": "guitarrista",
+        "type": "n.",
+        "en": "guitarist",
+        "note": "Paco de Lucía, el guitarrista que llevó el flamenco al mundo.",
+        "example": {
+          "es": "Paco de Lucía llevó el flamenco al mundo.",
+          "en": "Paco de Lucía took flamenco to the world."
+        }
+      },
+      {
+        "word": "compás",
+        "type": "n.m.",
+        "en": "rhythm, beat (flamenco)",
+        "note": "El compás lo es todo: doce tiempos y taconeo.",
+        "example": {
+          "es": "El compás lo es todo en el flamenco.",
+          "en": "Rhythm is everything in flamenco."
+        }
+      },
+      {
+        "word": "palmas",
+        "type": "n.f.pl.",
+        "en": "handclaps",
+        "note": "Tocar las palmas = to clap. Palmas y taconeo.",
+        "example": {
+          "es": "El jaleo son gritos y palmas.",
+          "en": "Jaleo is shouts and handclaps."
+        }
+      },
+      {
+        "word": "taconeo",
+        "type": "n.m.",
+        "en": "heel-tapping (dance)",
+        "note": "El ruido de los zapatos del bailarín. Tacón → taconeo.",
+        "example": {
+          "es": "Doce tiempos, taconeo y lamento.",
+          "en": "Twelve beats, heel-tapping and lament."
+        }
+      },
+      {
+        "word": "lamento",
+        "type": "n.m.",
+        "en": "lament, wail",
+        "note": "Canto triste y largo. Un lamento que viene de lejos.",
+        "example": {
+          "es": "Un lamento que viene de lejos.",
+          "en": "A lament that comes from far away."
+        }
+      },
+      {
+        "word": "duende",
+        "type": "n.m.",
+        "en": "flamenco magic, soul",
+        "note": "Lorca: algo mágico que rompe la canción. Tener duende.",
+        "example": {
+          "es": "Lorca lo llamó duende.",
+          "en": "Lorca called it duende."
+        }
+      },
+      {
+        "word": "jaleo",
+        "type": "n.m.",
+        "en": "cheering, rowdy encouragement",
+        "note": "Gritos y palmas para animar. Sin jaleo no hay fiesta.",
+        "example": {
+          "es": "Sin jaleo no hay fiesta.",
+          "en": "Without cheering there is no party."
+        }
+      },
+      {
+        "word": "trovador",
+        "type": "n.m.",
+        "en": "troubadour, singer-poet",
+        "note": "Del trovador medieval al playlist de hoy.",
+        "example": {
+          "es": "Del trovador medieval al playlist de hoy.",
+          "en": "From the medieval troubadour to today's playlist."
+        }
+      },
+      {
+        "word": "verso",
+        "type": "n.m.",
+        "en": "verse line",
+        "note": "Cada línea del poema. Sus versos tienen rima.",
+        "example": {
+          "es": "Sus versos tienen rima y se aprenden solos.",
+          "en": "His lines rhyme and learn themselves."
+        }
+      },
+      {
+        "word": "estribillo",
+        "type": "n.m.",
+        "en": "chorus, refrain",
+        "note": "Lo que se repite. Gasolina tiene un estribillo que todos tararean.",
+        "example": {
+          "es": "Tiene un estribillo que todos tararean.",
+          "en": "It has a chorus everyone hums."
+        }
+      },
+      {
+        "word": "rima",
+        "type": "n.f.",
+        "en": "rhyme",
+        "note": "Rimar = to rhyme. Versos con rima fácil.",
+        "example": {
+          "es": "Sus versos tienen rima fácil.",
+          "en": "His lines have easy rhymes."
+        }
+      },
+      {
+        "word": "letra",
+        "type": "n.f.",
+        "en": "lyrics; letter",
+        "note": "Bailar y repetir la letra. Also: letra = letter of the alphabet.",
+        "example": {
+          "es": "Bailar juntos y repetir la letra.",
+          "en": "To dance together and repeat the lyrics."
+        }
+      },
+      {
+        "word": "sonido",
+        "type": "n.m.",
+        "en": "sound",
+        "note": "Sonar → sonido. El sonido de la bocina llega a todo el barrio.",
+        "example": {
+          "es": "El sonido de la bocina llega al barrio.",
+          "en": "The speaker's sound reaches the neighbourhood."
+        }
+      },
+      {
+        "word": "orquesta",
+        "type": "n.f.",
+        "en": "orchestra, dance band",
+        "note": "En la verbena toca la orquesta del pueblo.",
+        "example": {
+          "es": "En la verbena toca la orquesta.",
+          "en": "The band plays at the street party."
+        }
+      },
+      {
+        "word": "coro",
+        "type": "n.m.",
+        "en": "choir; chorus of people",
+        "note": "Un coro de vecinos canta con la orquesta.",
+        "example": {
+          "es": "Un coro de vecinos canta con ellos.",
+          "en": "A chorus of neighbours sings with them."
+        }
+      },
+      {
+        "word": "trompeta",
+        "type": "n.f.",
+        "en": "trumpet",
+        "note": "Trompetas y tambores: la salsa.",
+        "example": {
+          "es": "Trompetas y tambores: la salsa.",
+          "en": "Trumpets and drums: salsa."
+        }
+      },
+      {
+        "word": "tambor",
+        "type": "n.m.",
+        "en": "drum",
+        "note": "El DJ samplea un tambor viejo.",
+        "example": {
+          "es": "El DJ samplea un tambor viejo.",
+          "en": "The DJ samples an old drum."
+        }
+      },
+      {
+        "word": "acordeón",
+        "type": "n.m.",
+        "en": "accordion",
+        "note": "En el norte el acordeón es el rey: cumbias y rancheras.",
+        "example": {
+          "es": "En el norte el acordeón es el rey.",
+          "en": "In the north the accordion is king."
+        }
+      },
+      {
+        "word": "tararear",
+        "type": "v.",
+        "en": "to hum",
+        "note": "Cantar sin letra: la-la-lá. Todos tararean el estribillo.",
+        "example": {
+          "es": "Todos tararean el estribillo.",
+          "en": "Everyone hums the chorus."
+        }
+      },
+      {
+        "word": "discoteca",
+        "type": "n.f.",
+        "en": "club, disco",
+        "note": "El perreo llenó las discotecas.",
+        "example": {
+          "es": "El perreo llenó las discotecas.",
+          "en": "Perreo filled the clubs."
+        }
+      },
+      {
+        "word": "bocina",
+        "type": "n.f.",
+        "en": "speaker, horn",
+        "note": "LatAm: altavoz grande. El sonido de la bocina llega lejos.",
+        "example": {
+          "es": "El sonido de la bocina llega lejos.",
+          "en": "The speaker's sound carries far."
+        }
+      },
+      {
+        "word": "verbena",
+        "type": "n.f.",
+        "en": "open-air party, fair",
+        "note": "Fiesta de barrio en la calle. La fiesta sale a la calle en la verbena.",
+        "example": {
+          "es": "La fiesta sale a la calle en la verbena.",
+          "en": "The party spills into the street at the verbena."
+        }
+      },
+      {
+        "word": "chiringuito",
+        "type": "n.m.",
+        "en": "beach bar",
+        "note": "En verano la música está en el chiringuito de la playa.",
+        "example": {
+          "es": "En verano la música está en el chiringuito.",
+          "en": "In summer the music is at the beach bar."
+        }
+      },
+      {
+        "word": "botellón",
+        "type": "n.m.",
+        "en": "street drinking gathering",
+        "note": "Jóvenes que se reúnen en la calle. El botellón reúne a cien jóvenes.",
+        "example": {
+          "es": "El botellón reúne a cien jóvenes.",
+          "en": "The botellón gathers a hundred young people."
+        }
+      },
+      {
+        "word": "movida",
+        "type": "n.f.",
+        "en": "scene, movement (youth)",
+        "note": "La Movida madrileña de los ochenta. Mover → movida.",
+        "example": {
+          "es": "La movida fue la fiesta de Madrid.",
+          "en": "La Movida was Madrid's party."
+        }
+      },
+      {
+        "word": "contracultura",
+        "type": "n.f.",
+        "en": "counterculture",
+        "note": "Contra + cultura. La movida fue la contracultura de Madrid.",
+        "example": {
+          "es": "La movida fue la contracultura de Madrid.",
+          "en": "La Movida was Madrid's counterculture."
+        }
+      },
+      {
+        "word": "underground",
+        "type": "adj./n.m.",
+        "en": "underground",
+        "note": "Anglicism. Era underground: nadie ganaba dinero.",
+        "example": {
+          "es": "Era underground: nadie ganaba dinero.",
+          "en": "It was underground: nobody earned money."
+        }
+      },
+      {
+        "word": "fanzine",
+        "type": "n.m.",
+        "en": "fanzine",
+        "note": "Revista pobre y libre. Fanzines y noches sin fin.",
+        "example": {
+          "es": "Hacían fanzines y noches sin fin.",
+          "en": "They made fanzines and endless nights."
+        }
+      },
+      {
+        "word": "perreo",
+        "type": "n.m.",
+        "en": "perreo (reggaetón dance)",
+        "note": "Bailar juntos el reguetón. El perreo llenó las discotecas.",
+        "example": {
+          "es": "Bailar juntos: eso es el perreo.",
+          "en": "Dancing together: that's perreo."
+        }
+      },
+      {
+        "word": "dembow",
+        "type": "n.m.",
+        "en": "dembow (beat)",
+        "note": "El ritmo jamaicano padre del reguetón. Llegó de Jamaica a Panamá.",
+        "example": {
+          "es": "El dembow llegó de Jamaica a Panamá.",
+          "en": "Dembow came from Jamaica to Panama."
+        }
+      },
+      {
+        "word": "pegada",
+        "type": "n.f.",
+        "en": "catchiness (song)",
+        "note": "Pegar → pegada. Tiene pegada: todo el mundo la canta.",
+        "example": {
+          "es": "Tiene pegada: todo el mundo la canta.",
+          "en": "It's catchy: everyone sings it."
+        }
+      },
+      {
+        "word": "remezcla",
+        "type": "n.f.",
+        "en": "remix",
+        "note": "Re- + mezcla. Escucha la remezcla: dura seis minutos.",
+        "example": {
+          "es": "Escucha la remezcla: dura seis minutos.",
+          "en": "Listen to the remix: it lasts six minutes."
+        }
+      },
+      {
+        "word": "samplear",
+        "type": "v.",
+        "en": "to sample (music)",
+        "note": "Anglicism from to sample. El DJ samplea un tambor viejo.",
+        "example": {
+          "es": "Samplea un tambor viejo.",
+          "en": "He samples an old drum."
+        }
+      },
+      {
+        "word": "playlist",
+        "type": "n.f./m.",
+        "en": "playlist",
+        "note": "Anglicism (la/el playlist). Del trovador al playlist.",
+        "example": {
+          "es": "Pasa tu playlist a los amigos.",
+          "en": "Pass your playlist to your friends."
+        }
+      },
+      {
+        "word": "reguetón",
+        "type": "n.m.",
+        "en": "reggaetón",
+        "note": "De Panamá a Puerto Rico: nació el reguetón. El reguetón nació del dembow.",
+        "example": {
+          "es": "El reguetón nació del dembow.",
+          "en": "Reggaetón was born from dembow."
+        }
+      },
+      {
+        "word": "karaoke",
+        "type": "n.m.",
+        "en": "karaoke",
+        "note": "Cantar con la letra en pantalla. Cantamos en el karaoke.",
+        "ext": true,
+        "example": {
+          "es": "Cantamos en el karaoke sin autotune.",
+          "en": "We sang karaoke with no autotune."
+        }
+      },
+      {
+        "word": "tocadiscos",
+        "type": "n.m.",
+        "en": "record player",
+        "note": "Toca + discos. Mi abuelo todavía tiene el tocadiscos.",
+        "ext": true,
+        "example": {
+          "es": "Mi abuelo todavía tiene el tocadiscos.",
+          "en": "My grandpa still has his record player."
+        }
+      },
+      {
+        "word": "autotune",
+        "type": "n.m.",
+        "en": "autotune",
+        "note": "Efecto para la voz en la música de hoy.",
+        "ext": true,
+        "example": {
+          "es": "Canta sin autotune.",
+          "en": "He sings without autotune."
+        }
+      },
+      {
+        "word": "viral",
+        "type": "adj.",
+        "en": "viral",
+        "note": "Que todos comparten. La canción se hizo viral.",
+        "ext": true,
+        "example": {
+          "es": "La canción se hizo viral.",
+          "en": "The song went viral."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 56,
+    "title": "Language & identity (intro)",
+    "words": [
+      {
+        "word": "voseo",
+        "type": "n.m.",
+        "en": "use of vos",
+        "note": "Se llama voseo: vos tenés, vos podés. Argentina, Uruguay, Paraguay, Centroamérica.",
+        "example": {
+          "es": "Se llama voseo: vos tenés, vos podés.",
+          "en": "It's called voseo: vos tenés, vos podés."
+        }
+      },
+      {
+        "word": "tuteo",
+        "type": "n.m.",
+        "en": "use of tú",
+        "note": "Tratar de tú. Con el tuteo de México y el usted de Colombia.",
+        "example": {
+          "es": "Con el tuteo de México y el usted de Colombia.",
+          "en": "With Mexico's tuteo and Colombia's usted."
+        }
+      },
+      {
+        "word": "vos",
+        "type": "pron.",
+        "en": "you (voseo pronoun)",
+        "note": "En Buenos Aires nadie dice tú: dicen vos.",
+        "example": {
+          "es": "En Buenos Aires dicen vos, no tú.",
+          "en": "In Buenos Aires they say vos, not tú."
+        }
+      },
+      {
+        "word": "lunfardo",
+        "type": "n.m.",
+        "en": "Buenos Aires slang",
+        "note": "Nació en el tango: palabras de Italia y de África.",
+        "example": {
+          "es": "El lunfardo nació en el tango.",
+          "en": "Lunfardo was born in tango."
+        }
+      },
+      {
+        "word": "pibe",
+        "type": "n.m.",
+        "en": "kid, guy (Río de la Plata)",
+        "note": "Che, pibe: la frase del lunfardo. Informal y cariñosa.",
+        "example": {
+          "es": "Todos dicen che, pibe.",
+          "en": "Everyone says che, pibe."
+        }
+      },
+      {
+        "word": "chamaco",
+        "type": "n.m.",
+        "en": "kid (Mexico)",
+        "note": "Mexican word. Mi chamaco dice que todo está chido.",
+        "example": {
+          "es": "Mi chamaco dice que todo está chido.",
+          "en": "My kid says everything is cool."
+        }
+      },
+      {
+        "word": "chido",
+        "type": "adj.",
+        "en": "cool, great (Mexico)",
+        "note": "Mexican slang. Todo está chido.",
+        "example": {
+          "es": "En México todo está chido.",
+          "en": "In Mexico everything is cool."
+        }
+      },
+      {
+        "word": "chévere",
+        "type": "adj.",
+        "en": "cool, great (Caribbean/Andean)",
+        "note": "Venezuela, Colombia, Caribe. Aquí todo está chévere.",
+        "example": {
+          "es": "Aquí todo está chévere.",
+          "en": "Here everything is great."
+        }
+      },
+      {
+        "word": "majo",
+        "type": "adj.",
+        "en": "nice, cool (Spain)",
+        "note": "Spain slang. En Madrid todo está majo.",
+        "example": {
+          "es": "En Madrid todo está majo.",
+          "en": "In Madrid everything is nice."
+        }
+      },
+      {
+        "word": "modismo",
+        "type": "n.m.",
+        "en": "idiom, expression",
+        "note": "Che es un modismo famoso del Río de la Plata.",
+        "example": {
+          "es": "Che es un modismo famoso.",
+          "en": "Che is a famous expression."
+        }
+      },
+      {
+        "word": "calco",
+        "type": "n.m.",
+        "en": "calque, loan translation",
+        "note": "Copiar una palabra extranjera. Parquear es un calco del inglés.",
+        "example": {
+          "es": "Parquear es un calco del inglés.",
+          "en": "Parquear is a calque from English."
+        }
+      },
+      {
+        "word": "espanglish",
+        "type": "n.m.",
+        "en": "Spanglish",
+        "note": "Mezcla de español e inglés. En Miami vive el espanglish.",
+        "example": {
+          "es": "En Miami vive el espanglish.",
+          "en": "Spanglish lives in Miami."
+        }
+      },
+      {
+        "word": "alternancia",
+        "type": "n.f.",
+        "en": "code-switching",
+        "note": "Pasar de una lengua a otra. Pasar de una lengua a otra se llama alternancia.",
+        "example": {
+          "es": "Pasar de una lengua a otra se llama alternancia.",
+          "en": "Going from one language to another is called code-switching."
+        }
+      },
+      {
+        "word": "bilingüe",
+        "type": "adj.",
+        "en": "bilingual",
+        "note": "Dos lenguas con prestigio. Paraguay es bilingüe.",
+        "example": {
+          "es": "Paraguay es bilingüe.",
+          "en": "Paraguay is bilingual."
+        }
+      },
+      {
+        "word": "diglosia",
+        "type": "n.f.",
+        "en": "diglossia",
+        "note": "Dos lenguas, dos casas: una vive en la escuela y otra en la casa.",
+        "example": {
+          "es": "Una lengua vive en la escuela y otra en la casa.",
+          "en": "One language lives at school and another at home."
+        }
+      },
+      {
+        "word": "prestigio",
+        "type": "n.m.",
+        "en": "prestige",
+        "note": "Dos lenguas con prestigio distinto.",
+        "example": {
+          "es": "Dos lenguas con prestigio distinto.",
+          "en": "Two languages with different prestige."
+        }
+      },
+      {
+        "word": "norma",
+        "type": "n.f.",
+        "en": "standard, norm",
+        "note": "Cada país tiene su norma y su música.",
+        "example": {
+          "es": "Cada país tiene su norma.",
+          "en": "Each country has its standard."
+        }
+      },
+      {
+        "word": "variedad",
+        "type": "n.f.",
+        "en": "variety (of a language)",
+        "note": "Cada variedad tiene su música.",
+        "example": {
+          "es": "Cada variedad tiene su música.",
+          "en": "Each variety has its music."
+        }
+      },
+      {
+        "word": "dialecto",
+        "type": "n.m.",
+        "en": "dialect",
+        "note": "El dialecto de cada país. Nunca es peor: es distinto.",
+        "example": {
+          "es": "El dialecto de cada país es distinto.",
+          "en": "Each country's dialect is different."
+        }
+      },
+      {
+        "word": "jerga",
+        "type": "n.f.",
+        "en": "slang, jargon",
+        "note": "La jerga de cada barrio y de cada grupo.",
+        "example": {
+          "es": "La jerga de cada barrio.",
+          "en": "Each neighbourhood's slang."
+        }
+      },
+      {
+        "word": "muletilla",
+        "type": "n.f.",
+        "en": "filler word",
+        "note": "Palabras que dan tiempo: che, pues, o sea.",
+        "example": {
+          "es": "El che es una muletilla famosa.",
+          "en": "Che is a famous filler word."
+        }
+      },
+      {
+        "word": "diminutivo",
+        "type": "n.m.",
+        "en": "diminutive",
+        "note": "-ito hace todo pequeño: cafecito, poquito.",
+        "example": {
+          "es": "El diminutivo -ito hace todo pequeño.",
+          "en": "The diminutive -ito makes everything small."
+        }
+      },
+      {
+        "word": "aumentativo",
+        "type": "n.m.",
+        "en": "augmentative",
+        "note": "-azo lo hace grande: manaza, taquillazo.",
+        "example": {
+          "es": "El aumentativo -azo lo hace grande.",
+          "en": "The augmentative -azo makes it big."
+        }
+      },
+      {
+        "word": "ceceo",
+        "type": "n.m.",
+        "en": "ceceo (th-sound, Spain)",
+        "note": "La zeta con la lengua entre los dientes. España: cerveza con ceceo.",
+        "example": {
+          "es": "En España la zeta es el ceceo.",
+          "en": "In Spain the zeta is ceceo."
+        }
+      },
+      {
+        "word": "seseo",
+        "type": "n.m.",
+        "en": "seseo (s-sound, Americas)",
+        "note": "La letra suena como ese. América: seseo.",
+        "example": {
+          "es": "En América la letra es el seseo.",
+          "en": "In Latin America the letter is seseo."
+        }
+      },
+      {
+        "word": "yeísmo",
+        "type": "n.m.",
+        "en": "yeísmo (ll/y merger)",
+        "note": "Casi todos dicen caballo con ye. En Buenos Aires suena casi como sh.",
+        "example": {
+          "es": "Casi todos dicen caballo con yeísmo.",
+          "en": "Almost everyone says caballo with yeísmo."
+        }
+      },
+      {
+        "word": "quechua",
+        "type": "n.m.",
+        "en": "Quechua (language)",
+        "note": "Perú tiene dos lenguas: español y quechua.",
+        "example": {
+          "es": "Perú tiene dos lenguas: español y quechua.",
+          "en": "Peru has two languages: Spanish and Quechua."
+        }
+      },
+      {
+        "word": "guaraní",
+        "type": "n.m.",
+        "en": "Guaraní (language)",
+        "note": "En Paraguay casi todos hablan guaraní.",
+        "example": {
+          "es": "En Paraguay casi todos hablan guaraní.",
+          "en": "In Paraguay almost everyone speaks Guaraní."
+        }
+      },
+      {
+        "word": "náhuatl",
+        "type": "n.m.",
+        "en": "Nahuatl (language)",
+        "note": "En México el náhuatl vive en palabras de todos los días.",
+        "example": {
+          "es": "El náhuatl vive en palabras de todos los días.",
+          "en": "Nahuatl lives on in everyday words."
+        }
+      },
+      {
+        "word": "maya",
+        "type": "n.m./adj.",
+        "en": "Maya (language/people)",
+        "note": "La lengua maya de Yucatán.",
+        "example": {
+          "es": "La lengua maya vive en Yucatán.",
+          "en": "The Maya language lives on in Yucatán."
+        }
+      },
+      {
+        "word": "piropo",
+        "type": "n.m.",
+        "en": "flirtatious compliment",
+        "note": "Un piropo amable alegra el día.",
+        "example": {
+          "es": "Un piropo amable alegra el día.",
+          "en": "A kind piropo brightens the day."
+        }
+      },
+      {
+        "word": "sobremesa",
+        "type": "n.f.",
+        "en": "after-meal chat",
+        "note": "Sobre + mesa. La sobremesa es hablar después de comer.",
+        "example": {
+          "es": "La sobremesa es hablar después de comer.",
+          "en": "Sobremesa is talking after eating."
+        }
+      },
+      {
+        "word": "madrugar",
+        "type": "v.",
+        "en": "to get up early",
+        "note": "En el campo, madrugar es normal.",
+        "example": {
+          "es": "En el campo, madrugar es normal.",
+          "en": "In the countryside, getting up early is normal."
+        }
+      },
+      {
+        "word": "verbo",
+        "type": "n.m.",
+        "en": "verb",
+        "note": "En Buenos Aires el verbo es distinto: vos tenés.",
+        "example": {
+          "es": "El verbo es distinto: vos tenés.",
+          "en": "The verb is different: vos tenés."
+        }
+      },
+      {
+        "word": "aimara",
+        "type": "n.m.",
+        "en": "Aymara (language)",
+        "note": "En Bolivia también vive el aimara.",
+        "ext": true,
+        "example": {
+          "es": "En Bolivia también vive el aimara.",
+          "en": "Aymara also lives on in Bolivia."
+        }
+      },
+      {
+        "word": "ustedeo",
+        "type": "n.m.",
+        "en": "use of usted",
+        "note": "En Colombia se dice usted a todos: es el ustedeo.",
+        "ext": true,
+        "example": {
+          "es": "En Colombia se dice usted a todos.",
+          "en": "In Colombia everyone is addressed as usted."
+        }
+      },
+      {
+        "word": "guri",
+        "type": "n.m.",
+        "en": "kid (Uruguay)",
+        "note": "El pibe uruguayo. Aquí el guri habla de vos.",
+        "ext": true,
+        "example": {
+          "es": "Aquí el guri habla de vos.",
+          "en": "Here the kid speaks with vos."
+        }
+      }
+    ]
   }
 ];

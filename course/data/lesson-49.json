@@ -1,0 +1,338 @@
+{
+  "lesson": 49,
+  "title": "20th-century Spain: Civil War & Franco",
+  "words": [
+    {
+      "en": "coup (short for golpe de Estado)",
+      "example": {
+        "en": "A military coup divided Spain.",
+        "es": "Un golpe militar dividió España."
+      },
+      "note": "Un golpe militar.",
+      "type": "n.m.",
+      "word": "golpe"
+    },
+    {
+      "en": "side (in a war)",
+      "example": {
+        "en": "Spain divided into two sides.",
+        "es": "España dividida en dos bandos."
+      },
+      "note": "Los dos bandos.",
+      "type": "n.m.",
+      "word": "bando"
+    },
+    {
+      "en": "trench",
+      "example": {
+        "en": "The trench warfare.",
+        "es": "La guerra de trincheras."
+      },
+      "note": "La guerra de trincheras.",
+      "type": "n.f.",
+      "word": "trinchera"
+    },
+    {
+      "en": "front (line)",
+      "example": {
+        "en": "They sent him to the front.",
+        "es": "Lo enviaron al frente."
+      },
+      "note": "Masculine; la frente = forehead!",
+      "type": "n.m.",
+      "word": "frente"
+    },
+    {
+      "en": "rearguard, home front",
+      "example": {
+        "en": "Life in the rearguard.",
+        "es": "La vida en la retaguardia."
+      },
+      "note": "La retaguardia.",
+      "type": "n.f.",
+      "word": "retaguardia"
+    },
+    {
+      "en": "bombing, bombardment",
+      "example": {
+        "en": "The bombing lasted three hours.",
+        "es": "El bombardeo duró tres horas."
+      },
+      "note": "El bombardeo de Guernica.",
+      "type": "n.m.",
+      "word": "bombardeo"
+    },
+    {
+      "en": "bomber (aircraft)",
+      "example": {
+        "en": "The bombers arrived without alarm.",
+        "es": "Los bombarderos llegaron sin alarma."
+      },
+      "note": "Word family: bombardear.",
+      "type": "n.m.",
+      "word": "bombardero"
+    },
+    {
+      "en": "militiaman/-woman",
+      "example": {
+        "en": "The militiamen took the children away.",
+        "es": "Los milicianos sacaron a los niños."
+      },
+      "note": "Los milicianos.",
+      "type": "n.",
+      "word": "miliciano/a"
+    },
+    {
+      "en": "refugee",
+      "example": {
+        "en": "A refugee ship.",
+        "es": "Un barco de refugiados."
+      },
+      "note": "Un barco de refugiados.",
+      "type": "n./adj.",
+      "word": "refugiado/a"
+    },
+    {
+      "en": "exile",
+      "example": {
+        "en": "Half a million into exile.",
+        "es": "Medio millón hacia el exilio."
+      },
+      "note": "Hacia el exilio.",
+      "type": "n.m.",
+      "word": "exilio"
+    },
+    {
+      "en": "exiled person; exiled",
+      "example": {
+        "en": "The exiles wrote letters.",
+        "es": "Los exiliados escribían cartas."
+      },
+      "note": "Los exiliados escribían.",
+      "type": "n./adj.",
+      "word": "exiliado/a"
+    },
+    {
+      "en": "censorship",
+      "example": {
+        "en": "Without censorship preventing it.",
+        "es": "Sin que la censura pudiera impedirlo."
+      },
+      "note": "Sin que la censura pudiera.",
+      "type": "n.f.",
+      "word": "censura"
+    },
+    {
+      "en": "repression",
+      "example": {
+        "en": "Repression continued.",
+        "es": "La represión continuaba."
+      },
+      "note": "La represión continuaba.",
+      "type": "n.f.",
+      "word": "represión"
+    },
+    {
+      "en": "shooting (execution)",
+      "example": {
+        "en": "The shootings filled the graves.",
+        "es": "Los fusilamientos llenaban las fosas."
+      },
+      "note": "Los fusilamientos.",
+      "type": "n.m.",
+      "word": "fusilamiento"
+    },
+    {
+      "en": "grave, pit",
+      "example": {
+        "en": "The mass graves.",
+        "es": "Las fosas comunes."
+      },
+      "note": "Las fosas comunes.",
+      "type": "n.f.",
+      "word": "fosa"
+    },
+    {
+      "en": "famine, great hunger",
+      "example": {
+        "en": "The postwar hunger.",
+        "es": "La hambruna de posguerra."
+      },
+      "note": "La hambruna de posguerra.",
+      "type": "n.f.",
+      "word": "hambruna"
+    },
+    {
+      "en": "rationing",
+      "example": {
+        "en": "The ration card.",
+        "es": "La cartilla de racionamiento."
+      },
+      "note": "La cartilla de racionamiento.",
+      "type": "n.m.",
+      "word": "racionamiento"
+    },
+    {
+      "en": "memory (collective)",
+      "example": {
+        "en": "So that memory could speak.",
+        "es": "Para que la memoria pudiera hablar."
+      },
+      "note": "Para que la memoria pudiera hablar.",
+      "type": "n.f.",
+      "word": "memoria"
+    },
+    {
+      "en": "transition (to democracy)",
+      "example": {
+        "en": "The transition came in 1975.",
+        "es": "La transición llegó en 1975."
+      },
+      "note": "La Transición (1975–1982).",
+      "type": "n.f.",
+      "word": "transición"
+    },
+    {
+      "en": "amnesty",
+      "example": {
+        "en": "The amnesty opened the prisons.",
+        "es": "La amnistía abrió las cárceles."
+      },
+      "note": "La amnistía abrió las cárceles.",
+      "type": "n.f.",
+      "word": "amnistía"
+    },
+    {
+      "en": "strike",
+      "example": {
+        "en": "Slow strikes in the factories.",
+        "es": "Huelgas lentas en las fábricas."
+      },
+      "note": "Huelgas lentas.",
+      "type": "n.f.",
+      "word": "huelga"
+    },
+    {
+      "en": "trade union",
+      "example": {
+        "en": "The clandestine union.",
+        "es": "El sindicato clandestino."
+      },
+      "note": "El sindicato clandestino.",
+      "type": "n.m.",
+      "word": "sindicato"
+    },
+    {
+      "en": "poster",
+      "example": {
+        "en": "Posters on every corner.",
+        "es": "Carteles en cada esquina."
+      },
+      "note": "Pegaba carteles.",
+      "type": "n.m.",
+      "word": "cartel"
+    },
+    {
+      "en": "leaflet, pamphlet",
+      "example": {
+        "en": "They handed out leaflets at night.",
+        "es": "Repartían panfletos de noche."
+      },
+      "note": "Repartía panfletos.",
+      "type": "n.m.",
+      "word": "panfleto"
+    },
+    {
+      "en": "bulletin",
+      "example": {
+        "en": "Its triumphal bulletin.",
+        "es": "Su boletín triunfal."
+      },
+      "note": "Su boletín triunfal.",
+      "type": "n.m.",
+      "word": "boletín"
+    },
+    {
+      "en": "regime",
+      "example": {
+        "en": "The Franco regime.",
+        "es": "El régimen franquista."
+      },
+      "note": "El régimen franquista.",
+      "type": "n.m.",
+      "word": "régimen"
+    },
+    {
+      "en": "pronunciamiento (military uprising)",
+      "example": {
+        "en": "With the classic pronunciamiento.",
+        "es": "Con el pronunciamiento clásico."
+      },
+      "note": "Classic Spanish coup format.",
+      "type": "n.m.",
+      "word": "pronunciamiento"
+    },
+    {
+      "en": "announcer, presenter",
+      "example": {
+        "en": "An announcer told over the loudspeaker.",
+        "es": "Un locutor contó por el altavoz."
+      },
+      "note": "Un locutor contó.",
+      "type": "n.",
+      "word": "locutor/a"
+    },
+    {
+      "en": "news broadcast",
+      "example": {
+        "en": "They listened to the news on short wave.",
+        "es": "Escuchaban el noticiero por onda corta."
+      },
+      "note": "LatAm; Spain: el telediario.",
+      "type": "n.m.",
+      "word": "noticiero"
+    },
+    {
+      "en": "loudspeaker",
+      "example": {
+        "en": "Over the loudspeaker.",
+        "es": "Por el altavoz."
+      },
+      "note": "Contó por el altavoz.",
+      "type": "n.m.",
+      "word": "altavoz"
+    },
+    {
+      "en": "telegraph",
+      "example": {
+        "en": "She sent a telegram to Mexico.",
+        "es": "Envió un telegrama a México."
+      },
+      "note": "El aparato; el mensaje = telegrama.",
+      "type": "n.m.",
+      "word": "telégrafo"
+    },
+    {
+      "en": "crusade",
+      "example": {
+        "en": "Franco called the war a crusade.",
+        "es": "Franco llamó a la guerra una cruzada."
+      },
+      "ext": true,
+      "note": "Historical propaganda term.",
+      "type": "n.f.",
+      "word": "cruzada"
+    },
+    {
+      "en": "parade, march",
+      "example": {
+        "en": "The victory parade.",
+        "es": "El desfile de la victoria."
+      },
+      "ext": true,
+      "note": "El desfile de la victoria.",
+      "type": "n.m.",
+      "word": "desfile"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "lesson": 55,
+  "title": "Music & contemporary culture",
+  "words": [
+    {
+      "word": "cantaor",
+      "type": "n.m.",
+      "en": "flamenco singer (male)",
+      "note": "Con -ao andaluz: cantao. Fem.: cantaora. Un cantaor, una guitarra y palmas.",
+      "example": { "es": "Un cantaor, una guitarra y palmas.", "en": "A flamenco singer, a guitar and handclaps." }
+    },
+    {
+      "word": "guitarrista",
+      "type": "n.",
+      "en": "guitarist",
+      "note": "Paco de Lucía, el guitarrista que llevó el flamenco al mundo.",
+      "example": { "es": "Paco de Lucía llevó el flamenco al mundo.", "en": "Paco de Lucía took flamenco to the world." }
+    },
+    {
+      "word": "compás",
+      "type": "n.m.",
+      "en": "rhythm, beat (flamenco)",
+      "note": "El compás lo es todo: doce tiempos y taconeo.",
+      "example": { "es": "El compás lo es todo en el flamenco.", "en": "Rhythm is everything in flamenco." }
+    },
+    {
+      "word": "palmas",
+      "type": "n.f.pl.",
+      "en": "handclaps",
+      "note": "Tocar las palmas = to clap. Palmas y taconeo.",
+      "example": { "es": "El jaleo son gritos y palmas.", "en": "Jaleo is shouts and handclaps." }
+    },
+    {
+      "word": "taconeo",
+      "type": "n.m.",
+      "en": "heel-tapping (dance)",
+      "note": "El ruido de los zapatos del bailarín. Tacón → taconeo.",
+      "example": { "es": "Doce tiempos, taconeo y lamento.", "en": "Twelve beats, heel-tapping and lament." }
+    },
+    {
+      "word": "lamento",
+      "type": "n.m.",
+      "en": "lament, wail",
+      "note": "Canto triste y largo. Un lamento que viene de lejos.",
+      "example": { "es": "Un lamento que viene de lejos.", "en": "A lament that comes from far away." }
+    },
+    {
+      "word": "duende",
+      "type": "n.m.",
+      "en": "flamenco magic, soul",
+      "note": "Lorca: algo mágico que rompe la canción. Tener duende.",
+      "example": { "es": "Lorca lo llamó duende.", "en": "Lorca called it duende." }
+    },
+    {
+      "word": "jaleo",
+      "type": "n.m.",
+      "en": "cheering, rowdy encouragement",
+      "note": "Gritos y palmas para animar. Sin jaleo no hay fiesta.",
+      "example": { "es": "Sin jaleo no hay fiesta.", "en": "Without cheering there is no party." }
+    },
+    {
+      "word": "trovador",
+      "type": "n.m.",
+      "en": "troubadour, singer-poet",
+      "note": "Del trovador medieval al playlist de hoy.",
+      "example": { "es": "Del trovador medieval al playlist de hoy.", "en": "From the medieval troubadour to today's playlist." }
+    },
+    {
+      "word": "verso",
+      "type": "n.m.",
+      "en": "verse line",
+      "note": "Cada línea del poema. Sus versos tienen rima.",
+      "example": { "es": "Sus versos tienen rima y se aprenden solos.", "en": "His lines rhyme and learn themselves." }
+    },
+    {
+      "word": "estribillo",
+      "type": "n.m.",
+      "en": "chorus, refrain",
+      "note": "Lo que se repite. Gasolina tiene un estribillo que todos tararean.",
+      "example": { "es": "Tiene un estribillo que todos tararean.", "en": "It has a chorus everyone hums." }
+    },
+    {
+      "word": "rima",
+      "type": "n.f.",
+      "en": "rhyme",
+      "note": "Rimar = to rhyme. Versos con rima fácil.",
+      "example": { "es": "Sus versos tienen rima fácil.", "en": "His lines have easy rhymes." }
+    },
+    {
+      "word": "letra",
+      "type": "n.f.",
+      "en": "lyrics; letter",
+      "note": "Bailar y repetir la letra. Also: letra = letter of the alphabet.",
+      "example": { "es": "Bailar juntos y repetir la letra.", "en": "To dance together and repeat the lyrics." }
+    },
+    {
+      "word": "sonido",
+      "type": "n.m.",
+      "en": "sound",
+      "note": "Sonar → sonido. El sonido de la bocina llega a todo el barrio.",
+      "example": { "es": "El sonido de la bocina llega al barrio.", "en": "The speaker's sound reaches the neighbourhood." }
+    },
+    {
+      "word": "orquesta",
+      "type": "n.f.",
+      "en": "orchestra, dance band",
+      "note": "En la verbena toca la orquesta del pueblo.",
+      "example": { "es": "En la verbena toca la orquesta.", "en": "The band plays at the street party." }
+    },
+    {
+      "word": "coro",
+      "type": "n.m.",
+      "en": "choir; chorus of people",
+      "note": "Un coro de vecinos canta con la orquesta.",
+      "example": { "es": "Un coro de vecinos canta con ellos.", "en": "A chorus of neighbours sings with them." }
+    },
+    {
+      "word": "trompeta",
+      "type": "n.f.",
+      "en": "trumpet",
+      "note": "Trompetas y tambores: la salsa.",
+      "example": { "es": "Trompetas y tambores: la salsa.", "en": "Trumpets and drums: salsa." }
+    },
+    {
+      "word": "tambor",
+      "type": "n.m.",
+      "en": "drum",
+      "note": "El DJ samplea un tambor viejo.",
+      "example": { "es": "El DJ samplea un tambor viejo.", "en": "The DJ samples an old drum." }
+    },
+    {
+      "word": "acordeón",
+      "type": "n.m.",
+      "en": "accordion",
+      "note": "En el norte el acordeón es el rey: cumbias y rancheras.",
+      "example": { "es": "En el norte el acordeón es el rey.", "en": "In the north the accordion is king." }
+    },
+    {
+      "word": "tararear",
+      "type": "v.",
+      "en": "to hum",
+      "note": "Cantar sin letra: la-la-lá. Todos tararean el estribillo.",
+      "example": { "es": "Todos tararean el estribillo.", "en": "Everyone hums the chorus." }
+    },
+    {
+      "word": "discoteca",
+      "type": "n.f.",
+      "en": "club, disco",
+      "note": "El perreo llenó las discotecas.",
+      "example": { "es": "El perreo llenó las discotecas.", "en": "Perreo filled the clubs." }
+    },
+    {
+      "word": "bocina",
+      "type": "n.f.",
+      "en": "speaker, horn",
+      "note": "LatAm: altavoz grande. El sonido de la bocina llega lejos.",
+      "example": { "es": "El sonido de la bocina llega lejos.", "en": "The speaker's sound carries far." }
+    },
+    {
+      "word": "verbena",
+      "type": "n.f.",
+      "en": "open-air party, fair",
+      "note": "Fiesta de barrio en la calle. La fiesta sale a la calle en la verbena.",
+      "example": { "es": "La fiesta sale a la calle en la verbena.", "en": "The party spills into the street at the verbena." }
+    },
+    {
+      "word": "chiringuito",
+      "type": "n.m.",
+      "en": "beach bar",
+      "note": "En verano la música está en el chiringuito de la playa.",
+      "example": { "es": "En verano la música está en el chiringuito.", "en": "In summer the music is at the beach bar." }
+    },
+    {
+      "word": "botellón",
+      "type": "n.m.",
+      "en": "street drinking gathering",
+      "note": "Jóvenes que se reúnen en la calle. El botellón reúne a cien jóvenes.",
+      "example": { "es": "El botellón reúne a cien jóvenes.", "en": "The botellón gathers a hundred young people." }
+    },
+    {
+      "word": "movida",
+      "type": "n.f.",
+      "en": "scene, movement (youth)",
+      "note": "La Movida madrileña de los ochenta. Mover → movida.",
+      "example": { "es": "La movida fue la fiesta de Madrid.", "en": "La Movida was Madrid's party." }
+    },
+    {
+      "word": "contracultura",
+      "type": "n.f.",
+      "en": "counterculture",
+      "note": "Contra + cultura. La movida fue la contracultura de Madrid.",
+      "example": { "es": "La movida fue la contracultura de Madrid.", "en": "La Movida was Madrid's counterculture." }
+    },
+    {
+      "word": "underground",
+      "type": "adj./n.m.",
+      "en": "underground",
+      "note": "Anglicism. Era underground: nadie ganaba dinero.",
+      "example": { "es": "Era underground: nadie ganaba dinero.", "en": "It was underground: nobody earned money." }
+    },
+    {
+      "word": "fanzine",
+      "type": "n.m.",
+      "en": "fanzine",
+      "note": "Revista pobre y libre. Fanzines y noches sin fin.",
+      "example": { "es": "Hacían fanzines y noches sin fin.", "en": "They made fanzines and endless nights." }
+    },
+    {
+      "word": "perreo",
+      "type": "n.m.",
+      "en": "perreo (reggaetón dance)",
+      "note": "Bailar juntos el reguetón. El perreo llenó las discotecas.",
+      "example": { "es": "Bailar juntos: eso es el perreo.", "en": "Dancing together: that's perreo." }
+    },
+    {
+      "word": "dembow",
+      "type": "n.m.",
+      "en": "dembow (beat)",
+      "note": "El ritmo jamaicano padre del reguetón. Llegó de Jamaica a Panamá.",
+      "example": { "es": "El dembow llegó de Jamaica a Panamá.", "en": "Dembow came from Jamaica to Panama." }
+    },
+    {
+      "word": "pegada",
+      "type": "n.f.",
+      "en": "catchiness (song)",
+      "note": "Pegar → pegada. Tiene pegada: todo el mundo la canta.",
+      "example": { "es": "Tiene pegada: todo el mundo la canta.", "en": "It's catchy: everyone sings it." }
+    },
+    {
+      "word": "remezcla",
+      "type": "n.f.",
+      "en": "remix",
+      "note": "Re- + mezcla. Escucha la remezcla: dura seis minutos.",
+      "example": { "es": "Escucha la remezcla: dura seis minutos.", "en": "Listen to the remix: it lasts six minutes." }
+    },
+    {
+      "word": "samplear",
+      "type": "v.",
+      "en": "to sample (music)",
+      "note": "Anglicism from to sample. El DJ samplea un tambor viejo.",
+      "example": { "es": "Samplea un tambor viejo.", "en": "He samples an old drum." }
+    },
+    {
+      "word": "playlist",
+      "type": "n.f./m.",
+      "en": "playlist",
+      "note": "Anglicism (la/el playlist). Del trovador al playlist.",
+      "example": { "es": "Pasa tu playlist a los amigos.", "en": "Pass your playlist to your friends." }
+    },
+    {
+      "word": "reguetón",
+      "type": "n.m.",
+      "en": "reggaetón",
+      "note": "De Panamá a Puerto Rico: nació el reguetón. El reguetón nació del dembow.",
+      "example": { "es": "El reguetón nació del dembow.", "en": "Reggaetón was born from dembow." }
+    },
+    {
+      "word": "karaoke",
+      "type": "n.m.",
+      "en": "karaoke",
+      "note": "Cantar con la letra en pantalla. Cantamos en el karaoke.",
+      "ext": true,
+      "example": { "es": "Cantamos en el karaoke sin autotune.", "en": "We sang karaoke with no autotune." }
+    },
+    {
+      "word": "tocadiscos",
+      "type": "n.m.",
+      "en": "record player",
+      "note": "Toca + discos. Mi abuelo todavía tiene el tocadiscos.",
+      "ext": true,
+      "example": { "es": "Mi abuelo todavía tiene el tocadiscos.", "en": "My grandpa still has his record player." }
+    },
+    {
+      "word": "autotune",
+      "type": "n.m.",
+      "en": "autotune",
+      "note": "Efecto para la voz en la música de hoy.",
+      "ext": true,
+      "example": { "es": "Canta sin autotune.", "en": "He sings without autotune." }
+    },
+    {
+      "word": "viral",
+      "type": "adj.",
+      "en": "viral",
+      "note": "Que todos comparten. La canción se hizo viral.",
+      "ext": true,
+      "example": { "es": "La canción se hizo viral.", "en": "The song went viral." }
+    }
+  ]
+}

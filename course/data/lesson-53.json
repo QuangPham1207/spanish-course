@@ -1,0 +1,275 @@
+{
+  "lesson": 53,
+  "title": "The Latin American Boom",
+  "words": [
+    {
+      "word": "soledad",
+      "type": "n.f.",
+      "en": "solitude, loneliness",
+      "note": "Family: solo → soledad. Cien años de soledad.",
+      "example": { "es": "Muchos libros cuentan la soledad de un dictador.", "en": "Many books tell of a dictator's solitude." }
+    },
+    {
+      "word": "laberinto",
+      "type": "n.m.",
+      "en": "labyrinth, maze",
+      "note": "El símbolo de Borges: pasillos que se repiten sin fin.",
+      "example": { "es": "Borges se perdió en laberintos de papel.", "en": "Borges got lost in paper labyrinths." }
+    },
+    {
+      "word": "espejo",
+      "type": "n.m.",
+      "en": "mirror",
+      "note": "El otro símbolo de Borges: el espejo que copia el mundo.",
+      "example": { "es": "Sus cuentos hablan de espejos que se repiten.", "en": "His stories speak of mirrors that repeat themselves." }
+    },
+    {
+      "word": "infinito",
+      "type": "adj./n.m.",
+      "en": "infinite; infinity",
+      "note": "Sin fin. Decía que sus cuentos ya eran infinitos.",
+      "example": { "es": "Decía que sus cuentos ya eran infinitos.", "en": "He said his stories were already infinite." }
+    },
+    {
+      "word": "profecía",
+      "type": "n.f.",
+      "en": "prophecy",
+      "note": "Anunciar el futuro. La novela empieza con una profecía.",
+      "example": { "es": "La novela empieza con una profecía.", "en": "The novel begins with a prophecy." }
+    },
+    {
+      "word": "dictador",
+      "type": "n.m.",
+      "en": "dictator",
+      "note": "Family: dictadura → dictador. El otoño del patriarca y otros.",
+      "example": { "es": "El dictador vive solo en su palacio.", "en": "The dictator lives alone in his palace." }
+    },
+    {
+      "word": "selva",
+      "type": "n.f.",
+      "en": "jungle",
+      "note": "La selva es otro personaje: nadie sale igual de ella.",
+      "example": { "es": "La selva es otro personaje del libro.", "en": "The jungle is another character in the book." }
+    },
+    {
+      "word": "aldea",
+      "type": "n.f.",
+      "en": "village",
+      "note": "Más pequeña y rural que un pueblo. Llenó una aldea de prodigios.",
+      "example": { "es": "Llenó una aldea de prodigios.", "en": "He filled a village with marvels." }
+    },
+    {
+      "word": "crónica",
+      "type": "n.f.",
+      "en": "chronicle",
+      "note": "Contar hechos en orden. Crónica de una muerte anunciada.",
+      "example": { "es": "Aunque la crónica dice poco, cuenta cien años.", "en": "Although the chronicle says little, it tells a hundred years." }
+    },
+    {
+      "word": "cuento",
+      "type": "n.m.",
+      "en": "short story",
+      "note": "Borges nunca escribió novelas: solo cuentos. Contar → cuento.",
+      "example": { "es": "Borges solo escribió cuentos breves.", "en": "Borges only wrote short stories." }
+    },
+    {
+      "word": "relato",
+      "type": "n.m.",
+      "en": "tale, account",
+      "note": "Casi como cuento; sus relatos mezclan lo raro y lo diario.",
+      "example": { "es": "Sus relatos mezclan lo raro y lo diario.", "en": "His tales mix the strange and the everyday." }
+    },
+    {
+      "word": "olvido",
+      "type": "n.m.",
+      "en": "oblivion, forgetting",
+      "note": "Family: olvidar → olvido. El miedo central del libro es el olvido.",
+      "example": { "es": "El miedo central del libro es el olvido.", "en": "The book's central fear is oblivion." }
+    },
+    {
+      "word": "insomnio",
+      "type": "n.m.",
+      "en": "insomnia",
+      "note": "No poder dormir. En Macondo nadie duerme por el insomnio.",
+      "example": { "es": "En Macondo nadie duerme por el insomnio.", "en": "In Macondo nobody sleeps because of insomnia." }
+    },
+    {
+      "word": "mariposa",
+      "type": "n.f.",
+      "en": "butterfly",
+      "note": "Las mariposas amarillas anuncian el amor imposible.",
+      "example": { "es": "Vuelan mariposas amarillas sobre la aldea.", "en": "Yellow butterflies fly over the village." }
+    },
+    {
+      "word": "coronel",
+      "type": "n.m.",
+      "en": "colonel",
+      "note": "El coronel Aureliano Buendía, héroe de mil guerras perdidas.",
+      "example": { "es": "El coronel recuerda una tarde de su infancia.", "en": "The colonel remembers an afternoon from his childhood." }
+    },
+    {
+      "word": "general",
+      "type": "n.m.",
+      "en": "general",
+      "note": "Más alto que coronel. En Macondo hay coroneles y generales.",
+      "example": { "es": "En Macondo hay coroneles y generales.", "en": "In Macondo there are colonels and generals." }
+    },
+    {
+      "word": "estirpe",
+      "type": "n.f.",
+      "en": "lineage, stock",
+      "note": "Toda una familia en el tiempo. La estirpe de los Buendía.",
+      "example": { "es": "La estirpe de los Buendía se repite sin fin.", "en": "The Buendía line repeats itself endlessly." }
+    },
+    {
+      "word": "prodigio",
+      "type": "n.m.",
+      "en": "marvel, wonder",
+      "note": "Algo imposible y bello. Una aldea llena de prodigios.",
+      "example": { "es": "Macondo está llena de prodigios.", "en": "Macondo is full of marvels." }
+    },
+    {
+      "word": "mágico",
+      "type": "adj.",
+      "en": "magical",
+      "note": "Realismo mágico: lo imposible contado como normal.",
+      "example": { "es": "Lo llamaron realismo mágico.", "en": "They called it magical realism." }
+    },
+    {
+      "word": "realismo",
+      "type": "n.m.",
+      "en": "realism",
+      "note": "Family: real → realismo → realista. Contar lo real y lo imposible juntos.",
+      "example": { "es": "El realismo mágico mezcla dos mundos.", "en": "Magical realism mixes two worlds." }
+    },
+    {
+      "word": "alucinante",
+      "type": "adj.",
+      "en": "mind-blowing, hallucinatory",
+      "note": "Que parece un sueño. Una historia alucinante.",
+      "example": { "es": "Es una historia alucinante e inquietante.", "en": "It is a mind-blowing, unsettling story." }
+    },
+    {
+      "word": "circular",
+      "type": "adj.",
+      "en": "circular",
+      "note": "Que vuelve al principio. El tiempo es circular en Macondo.",
+      "example": { "es": "El tiempo es circular: el final ya estaba al principio.", "en": "Time is circular: the end was already in the beginning." }
+    },
+    {
+      "word": "inquietante",
+      "type": "adj.",
+      "en": "unsettling, disturbing",
+      "note": "Que te deja pensando. Inquietar → inquietante.",
+      "example": { "es": "El final es breve e inquietante.", "en": "The ending is brief and unsettling." }
+    },
+    {
+      "word": "prosa",
+      "type": "n.f.",
+      "en": "prose",
+      "note": "Escribir sin verso. Su prosa parece música.",
+      "example": { "es": "Su prosa parece música.", "en": "His prose sounds like music." }
+    },
+    {
+      "word": "editorial",
+      "type": "n.f.",
+      "en": "publishing house",
+      "note": "La empresa que publica libros. Al principio ninguna editorial lo quería.",
+      "example": { "es": "Al principio ninguna editorial quería el libro.", "en": "At first no publisher wanted the book." }
+    },
+    {
+      "word": "jurado",
+      "type": "n.m.",
+      "en": "jury, panel",
+      "note": "Quienes dan un premio. Un jurado en Estocolmo le dio el Nobel.",
+      "example": { "es": "Un jurado en Estocolmo le dio el Nobel.", "en": "A jury in Stockholm gave him the Nobel." }
+    },
+    {
+      "word": "superventas",
+      "type": "n.m.",
+      "en": "bestseller",
+      "note": "Super + ventas. Fue un superventas en todas las librerías.",
+      "example": { "es": "Fue un superventas en todo el mundo.", "en": "It was a bestseller worldwide." }
+    },
+    {
+      "word": "reedición",
+      "type": "n.f.",
+      "en": "reissue, reprint",
+      "note": "Re- + edición. Volver a publicar un libro que se vende.",
+      "example": { "es": "Cada reedición trae fotos nuevas.", "en": "Each reissue brings new photos." }
+    },
+    {
+      "word": "tirada",
+      "type": "n.f.",
+      "en": "print run",
+      "note": "Cuántos libros se imprimen de una vez. Cada tirada desaparece.",
+      "example": { "es": "Cada tirada desaparece de las tiendas.", "en": "Each print run vanishes from the shops." }
+    },
+    {
+      "word": "librería",
+      "type": "n.f.",
+      "en": "bookshop",
+      "note": "Donde se venden libros. Contrast: biblioteca (to borrow).",
+      "example": { "es": "Compra el libro antes de que cierre la librería.", "en": "Buy the book before the bookshop closes." }
+    },
+    {
+      "word": "consagrar",
+      "type": "v.",
+      "en": "to establish, to consecrate (a reputation)",
+      "note": "El Nobel lo consagró: lo hizo eterno.",
+      "example": { "es": "El Nobel lo consagró para siempre.", "en": "The Nobel established him forever." }
+    },
+    {
+      "word": "porque",
+      "type": "conn.",
+      "en": "because",
+      "note": "Gives the reason. Las cosas existen porque alguien las piensa.",
+      "example": { "es": "Nunca escribió novelas porque sus cuentos eran infinitos.", "en": "He never wrote novels because his stories were infinite." }
+    },
+    {
+      "word": "no obstante",
+      "type": "conn.",
+      "en": "nevertheless",
+      "note": "Formal connector, like sin embargo. Iba a salir en Buenos Aires; no obstante, salió en México.",
+      "example": { "es": "Iba a salir en Buenos Aires; no obstante, salió en México.", "en": "It was to come out in Buenos Aires; nevertheless, it came out in Mexico." }
+    },
+    {
+      "word": "a pesar de",
+      "type": "conn.",
+      "en": "despite, in spite of",
+      "note": "A pesar de + noun. Llueve cuatro años; a pesar de eso, nadie se va.",
+      "example": { "es": "Llueve cuatro años; a pesar de eso, nadie se va.", "en": "It rains for four years; despite that, nobody leaves." }
+    },
+    {
+      "word": "es decir",
+      "type": "conn.",
+      "en": "that is, in other words",
+      "note": "Para explicar mejor. Lo imposible es normal; es decir, Macondo.",
+      "example": { "es": "Lo imposible es normal; es decir, Macondo.", "en": "The impossible is normal; that is, Macondo." }
+    },
+    {
+      "word": "o sea",
+      "type": "conn.",
+      "en": "in other words, I mean",
+      "note": "Spoken version of es decir. Es circular, o sea, vuelve al principio.",
+      "ext": true,
+      "example": { "es": "Es circular, o sea, el final vuelve al principio.", "en": "It is circular; I mean, the ending returns to the beginning." }
+    },
+    {
+      "word": "mientras que",
+      "type": "conn.",
+      "en": "whereas, while",
+      "note": "Contrast between two facts, both indicative.",
+      "ext": true,
+      "example": { "es": "Mientras que uno inventaba pueblos, otro se perdía en bibliotecas.", "en": "Whereas one invented villages, the other got lost in libraries." }
+    },
+    {
+      "word": "dado que",
+      "type": "conn.",
+      "en": "given that, since",
+      "note": "Formal porque. Lo leo de noche, dado que de día trabajo.",
+      "ext": true,
+      "example": { "es": "Lo leo de noche, dado que de día trabajo.", "en": "I read it at night, since I work by day." }
+    }
+  ]
+}

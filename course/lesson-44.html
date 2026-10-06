@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 44 — Verb periphrases &amp; aspect</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-43.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 44 — VERB PERIPHRASES &amp; ASPECT</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Start, stop and repeat actions: <strong>acabar de, ponerse a, dejar de, volver a</strong>.</li>
+      <li>Show actions in progress and over time: <strong>seguir / llevar / ir + gerundio</strong>.</li>
+      <li>Show finished results: <strong>tener + participio</strong> (<span class="es">tengo ensayado…</span>).</li>
+      <li>Read about a theatre troupe racing toward opening night.</li>
+      <li>Pick up words: <span class="es">ensayar, estreno, gira, telón, camerino, aplauso, ovación</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">ensayar, ensayo, estrenar, estreno, gira, telón, madrugada, trasnochar, retomar, reanudar, abandonar, insistir, acostumbrarse, proponerse, posponer, camerino, aplauso, ovación, elenco, reparto, butaca, vestuario, maquillaje, acto, escena, guion, función, taquilla, entreacto, aforo, tramoya, apuntador</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">bis, preestreno, reestreno</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EL ESTRENO)</h2>
+<p><strong>Context:</strong> A small theatre company in Rosario has three weeks left before opening night. The director's diary is full of half-finished, restarted and finally completed actions.</p>
+<p class="lead">(A <em>periphrasis</em> is two verbs working as one: the first verb adds the shade of meaning — just finished, starting up, still going — and the second carries the action.)</p>
+
+<div class="phrase">
+  <p class="es">El <b>elenco</b> acaba de <b>retomar</b> los <b>ensayos</b> después de una semana de descanso.</p>
+  <p class="en">The cast has just resumed rehearsals after a week off.</p>
+</div>
+<div class="phrase">
+  <p class="es">La directora se puso a <b>reanudar</b> el segundo <b>acto</b> a las ocho de la mañana.</p>
+  <p class="en">The director got down to resuming Act Two at eight in the morning.</p>
+</div>
+<div class="phrase">
+  <p class="es">Llevan tres meses <b>ensayando</b> la misma <b>escena</b> del <b>guion</b>.</p>
+  <p class="en">They have been rehearsing the same scene of the script for three months.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los actores siguen <b>trasnochando</b> en el <b>camerino</b> hasta la <b>madrugada</b>.</p>
+  <p class="en">The actors keep staying up late in the dressing room until the early hours.</p>
+</div>
+<div class="phrase">
+  <p class="es">La compañía tuvo que <b>posponer</b> la <b>gira</b>, pero no piensa <b>abandonar</b> el <b>estreno</b>.</p>
+  <p class="en">The company had to postpone the tour, but it doesn't plan to abandon the opening.</p>
+</div>
+<div class="phrase">
+  <p class="es">El público ya va llenando las <b>butacas</b>: el <b>aforo</b> va creciendo cada día.</p>
+  <p class="en">The audience is already filling the seats: the house is growing every day.</p>
+</div>
+<div class="phrase">
+  <p class="es">Vuelven a <b>ensayar</b> el final porque el <b>apuntador</b> insiste en <b>acostumbrarse</b> a la <b>tramoya</b> nueva.</p>
+  <p class="en">They are rehearsing the ending again because the prompter insists on getting used to the new stage machinery.</p>
+</div>
+<div class="phrase">
+  <p class="es">La protagonista ya tiene <b>ensayados</b> todos sus <b>vestuarios</b> y el <b>maquillaje</b> de cada <b>función</b>.</p>
+  <p class="en">The lead actress already has all her costume changes rehearsed and the makeup for each performance ready.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cuando el <b>telón</b> se abra, dejarán de temblar y se propondrán disfrutar cada <b>aplauso</b> hasta la <b>ovación</b>.</p>
+  <p class="en">When the curtain opens, they will stop shaking and will set out to enjoy every round of applause up to the ovation.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">bis</span></td><td data-label="Type">n.m./interj.</td><td data-label="English">encore</td><td data-label="Notes">pedir un bis; ¡bis!</td></tr>
+    <tr><td data-label="Spanish"><span class="es">preestreno</span></td><td data-label="Type">n.m.</td><td data-label="English">preview (before opening)</td><td data-label="Notes">From estreno; el preestreno de ayer.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reestreno</span></td><td data-label="Type">n.m.</td><td data-label="English">revival, re-release</td><td data-label="Notes">From estreno; el reestreno del clásico.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> <span class="es">acaba de retomar</span> (just now), <span class="es">se puso a reanudar</span> (sudden start), <span class="es">llevan ensayando</span> (duration), <span class="es">siguen trasnochando</span> (continuation), <span class="es">va creciendo</span> (gradual change), <span class="es">tiene ensayados</span> (finished result).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Starting, stopping, repeating: acabar de · ponerse a · dejar de · volver a</h3>
+<p>Four periphrases with an <strong>infinitive</strong> cover the edges of an action: just done, suddenly starting, quitting, doing again. Note <span class="es">acabar de</span> + present = "have just" (but + past = "ended up …-ing").</p>
+<div class="formula"><b>acabar de</b> + inf. (just) · <b>ponerse a</b> + inf. (start suddenly) · <b>dejar de</b> + inf. (stop) · <b>volver a</b> + inf. (again)</div>
+<ul>
+  <li class="ex"><span class="es">Acaba de <b>retomar</b> los <b>ensayos</b>.</span><span class="en">She has just resumed rehearsals.</span></li>
+  <li class="ex"><span class="es">Se puso a <b>reanudar</b> el segundo <b>acto</b>.</span><span class="en">She set about resuming Act Two.</span> <em>(sudden, energetic start)</em></li>
+  <li class="ex"><span class="es">Dejarán de temblar cuando el <b>telón</b> se abra.</span><span class="en">They will stop shaking when the curtain opens.</span></li>
+  <li class="ex"><span class="es">Vuelven a <b>ensayar</b> el final.</span><span class="en">They're rehearsing the ending again.</span></li>
+  <li class="ex"><span class="es">Se <b>proponen</b> disfrutar cada <b>aplauso</b>.</span><span class="en">They intend to enjoy every round of applause.</span> <em>(proponerse + infinitive)</em></li>
+</ul>
+
+<h3>2.2. Actions over time: seguir · llevar · ir + gerundio</h3>
+<p>Three periphrases with a <strong>gerundio</strong> (<span class="es">-ando / -iendo</span>) paint duration: <strong>seguir</strong> = still going, <strong>llevar</strong> = "have been …-ing for (time)", <strong>ir</strong> = gradual change.</p>
+<div class="formula"><b>seguir</b> + ger. (keep) · <b>llevar</b> + time + ger. (have been) · <b>ir</b> + ger. (gradually)</div>
+<ul>
+  <li class="ex"><span class="es">Siguen <b>trasnochando</b> hasta la <b>madrugada</b>.</span><span class="en">They keep staying up late until the early hours.</span></li>
+  <li class="ex"><span class="es">Llevan tres meses <b>ensayando</b> la <b>escena</b>.</span><span class="en">They've been rehearsing the scene for three months.</span></li>
+  <li class="ex"><span class="es">El <b>aforo</b> va creciendo cada día.</span><span class="en">The house is growing every day.</span> <em>(gradual)</em></li>
+  <li class="ex"><span class="es">El público ya va llenando las <b>butacas</b>.</span><span class="en">The audience is already filling the seats.</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> these periphrases are identical everywhere. In speech, <span class="es">llevar + gerundio</span> often replaces the English "have been …-ing" in all countries.</div>
+
+<h3>2.3. Finished results: tener + participio</h3>
+<p><strong>Tener + participle</strong> (which agrees: <span class="es">ensayados, ensayadas</span>) stresses a <strong>completed result you now hold</strong> — stronger than a plain perfect.</p>
+<div class="formula"><b>tener</b> + participle (agrees) = finished and ready</div>
+<ul>
+  <li class="ex"><span class="es">Ya tiene <b>ensayados</b> todos sus <b>vestuarios</b>.</span><span class="en">She already has all her costume changes fully rehearsed.</span></li>
+  <li class="ex"><span class="es">Tenemos <b>vendidas</b> la mitad de las <b>funciones</b>.</span><span class="en">We already have half the performances sold out.</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistakes:</strong> <span class="es">dejar de</span> needs the <span class="es">de</span> (<span class="es">dejaron de temblar</span>, not <span class="es">dejaron temblar</span>); <span class="es">llevar</span> needs the time phrase (<span class="es">llevan tres meses ensayando</span>); and <span class="es">tener + participle</span> must agree (<span class="es">tiene ensayados</span>).</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">ensayar</span></td><td data-label="Type">v.</td><td data-label="English">to rehearse</td><td data-label="Notes">vuelven a ensayar el final.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ensayo</span></td><td data-label="Type">n.m.</td><td data-label="English">rehearsal</td><td data-label="Notes">retomar los ensayos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">estrenar</span></td><td data-label="Type">v.</td><td data-label="English">to premiere; to wear/use first time</td><td data-label="Notes">estrenar una obra.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">estreno</span></td><td data-label="Type">n.m.</td><td data-label="English">premiere, opening night</td><td data-label="Notes">no piensa abandonar el estreno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gira</span></td><td data-label="Type">n.f.</td><td data-label="English">tour</td><td data-label="Notes">posponer la gira.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">telón</span></td><td data-label="Type">n.m.</td><td data-label="English">curtain (theatre)</td><td data-label="Notes">cuando el telón se abra.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">madrugada</span></td><td data-label="Type">n.f.</td><td data-label="English">early morning, dawn hours</td><td data-label="Notes">hasta la madrugada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trasnochar</span></td><td data-label="Type">v.</td><td data-label="English">to stay up late</td><td data-label="Notes">siguen trasnochando.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">retomar</span></td><td data-label="Type">v.</td><td data-label="English">to resume, to take up again</td><td data-label="Notes">acaba de retomar los ensayos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reanudar</span></td><td data-label="Type">v.</td><td data-label="English">to resume, to renew</td><td data-label="Notes">se puso a reanudar el acto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">abandonar</span></td><td data-label="Type">v.</td><td data-label="English">to abandon, to give up</td><td data-label="Notes">no piensa abandonar el estreno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">insistir</span></td><td data-label="Type">v.</td><td data-label="English">to insist</td><td data-label="Notes">insiste en acostumbrarse.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">acostumbrarse</span></td><td data-label="Type">v.</td><td data-label="English">to get used to</td><td data-label="Notes">acostumbrarse a algo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">proponerse</span></td><td data-label="Type">v.</td><td data-label="English">to intend, to resolve to</td><td data-label="Notes">se proponen disfrutar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">posponer</span></td><td data-label="Type">v.</td><td data-label="English">to postpone</td><td data-label="Notes">posponer la gira.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">camerino</span></td><td data-label="Type">n.m.</td><td data-label="English">dressing room</td><td data-label="Notes">trasnochar en el camerino.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aplauso</span></td><td data-label="Type">n.m.</td><td data-label="English">applause</td><td data-label="Notes">disfrutar cada aplauso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ovación</span></td><td data-label="Type">n.f.</td><td data-label="English">ovation</td><td data-label="Notes">hasta la ovación final.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">elenco</span></td><td data-label="Type">n.m.</td><td data-label="English">cast</td><td data-label="Notes">el elenco retoma los ensayos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reparto</span></td><td data-label="Type">n.m.</td><td data-label="English">cast, distribution (of roles)</td><td data-label="Notes">el reparto completo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">butaca</span></td><td data-label="Type">n.f.</td><td data-label="English">seat (theatre/cinema)</td><td data-label="Notes">llenando las butacas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vestuario</span></td><td data-label="Type">n.m.</td><td data-label="English">costume; wardrobe</td><td data-label="Notes">tiene ensayados sus vestuarios.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">maquillaje</span></td><td data-label="Type">n.m.</td><td data-label="English">makeup</td><td data-label="Notes">el maquillaje de cada función.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">acto</span></td><td data-label="Type">n.m.</td><td data-label="English">act (of a play)</td><td data-label="Notes">el segundo acto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escena</span></td><td data-label="Type">n.f.</td><td data-label="English">scene</td><td data-label="Notes">ensayando la misma escena.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">guion</span></td><td data-label="Type">n.m.</td><td data-label="English">script</td><td data-label="Notes">una escena del guion.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">función</span></td><td data-label="Type">n.f.</td><td data-label="English">performance, show</td><td data-label="Notes">el maquillaje de cada función.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">taquilla</span></td><td data-label="Type">n.f.</td><td data-label="English">box office</td><td data-label="Notes">la cola de la taquilla.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">entreacto</span></td><td data-label="Type">n.m.</td><td data-label="English">interval, intermission</td><td data-label="Notes">durante el entreacto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aforo</span></td><td data-label="Type">n.m.</td><td data-label="English">capacity, house (audience)</td><td data-label="Notes">el aforo va creciendo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tramoya</span></td><td data-label="Type">n.f.</td><td data-label="English">stage machinery</td><td data-label="Notes">acostumbrarse a la tramoya.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">apuntador/a</span></td><td data-label="Type">n.</td><td data-label="English">prompter</td><td data-label="Notes">el apuntador insiste.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five periphrases. Read them once; no need to memorize.</p>
+
+<h3>1. Just finished:</h3>
+<div class="phrase">
+  <p class="es">Acaba de retomar los ensayos.</p>
+  <p class="en">She has just resumed rehearsals.</p>
+</div>
+<h3>2. Keep going:</h3>
+<div class="phrase">
+  <p class="es">Siguen trasnochando hasta la madrugada.</p>
+  <p class="en">They keep staying up late until the early hours.</p>
+</div>
+<h3>3. Duration:</h3>
+<div class="phrase">
+  <p class="es">Llevan tres meses ensayando la escena.</p>
+  <p class="en">They've been rehearsing the scene for three months.</p>
+</div>
+<h3>4. Doing again:</h3>
+<div class="phrase">
+  <p class="es">Vuelven a ensayar el final.</p>
+  <p class="en">They're rehearsing the ending again.</p>
+</div>
+<h3>5. Finished result:</h3>
+<div class="phrase">
+  <p class="es">Ya tiene ensayados todos sus vestuarios.</p>
+  <p class="en">She already has all her costume changes fully rehearsed.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two actors in the camerino before the preview.</p>
+
+<div class="phrase">
+  <p class="es">Nico: Acabo de dejar de fumar. Estoy de los nervios.</p>
+  <p class="en">Nico: I've just quit smoking. I'm a bundle of nerves.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luz: Yo dejé de fumar hace años. Ponte a respirar conmigo.</p>
+  <p class="en">Luz: I quit years ago. Start breathing with me.</p>
+</div>
+<div class="phrase">
+  <p class="es">Nico: Llevo una hora intentando calmarme y sigo temblando.</p>
+  <p class="en">Nico: I've been trying to calm down for an hour and I'm still shaking.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luz: El público ya va entrando. Tenemos vendidas todas las butacas.</p>
+  <p class="en">Luz: The audience is already coming in. We have every seat sold.</p>
+</div>
+<div class="phrase">
+  <p class="es">Nico: Pues volvamos a repasar el guion una última vez.</p>
+  <p class="en">Nico: Then let's go over the script one last time.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>repasar</strong> (to go over, to review) appears here in passing.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Edges:</strong> <span class="es">acabar de</span> (just), <span class="es">ponerse a</span> (sudden start), <span class="es">dejar de</span> (stop), <span class="es">volver a</span> (again) + infinitive.</li>
+  <li><strong>Duration:</strong> <span class="es">seguir</span> (keep), <span class="es">llevar + time</span> (have been …-ing), <span class="es">ir</span> (gradually) + gerundio.</li>
+  <li><strong>Result:</strong> <span class="es">tener + participle</span> (agrees): finished and ready.</li>
+</ul>
+
+<h3>5.2. Further reading — la gira que viene</h3>
+<p><strong>Context:</strong> The troupe dreams past opening night. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Si el <b>estreno</b> sale bien, <b>retomarán</b> la <b>gira</b> suspendida.</p>
+  <p class="en">If opening night goes well, they will resume the suspended tour.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ya se han <b>propuesto</b> no volver a <b>posponer</b> ninguna <b>función</b>.</p>
+  <p class="en">They have already resolved never to postpone another performance.</p>
+</div>
+<div class="phrase">
+  <p class="es">En cada ciudad, el <b>elenco</b> volverá a <b>ensayar</b> el primer <b>acto</b>.</p>
+  <p class="en">In each city, the cast will rehearse Act One again.</p>
+</div>
+<div class="phrase">
+  <p class="es">Llevarán meses viviendo entre <b>camerinos</b>, <b>taquillas</b> y <b>entreactos</b>.</p>
+  <p class="en">They will have spent months living between dressing rooms, box offices and intervals.</p>
+</div>
+<div class="phrase">
+  <p class="es">Y cada noche dejarán de ser ellos para ser el <b>reparto</b> que el público <b>ovaciona</b> de pie.</p>
+  <p class="en">And each night they will stop being themselves to become the cast the audience gives a standing ovation.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>de pie</strong> (standing) and <strong>suspender</strong> (to suspend) appear here in passing.</em></p>
+
+<hr>
+<p><strong>End of Lesson 44.</strong> Next, <strong>Review B1-2</strong>: a re-reading that weaves the whole module's grammar into one text. No exercises — just read.</p>
+
+<p class="topnav"><a href="review-b1-2.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

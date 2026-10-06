@@ -1,0 +1,359 @@
+{
+  "lesson": 44,
+  "title": "Verb periphrases & aspect",
+  "words": [
+    {
+      "en": "to rehearse",
+      "example": {
+        "en": "They're rehearsing the ending again.",
+        "es": "Vuelven a ensayar el final."
+      },
+      "note": "vuelven a ensayar el final.",
+      "type": "v.",
+      "word": "ensayar"
+    },
+    {
+      "en": "rehearsal",
+      "example": {
+        "en": "She has just resumed rehearsals.",
+        "es": "Acaba de retomar los ensayos."
+      },
+      "note": "retomar los ensayos.",
+      "type": "n.m.",
+      "word": "ensayo"
+    },
+    {
+      "en": "to premiere; to wear/use first time",
+      "example": {
+        "en": "To premiere a play.",
+        "es": "Estrenar una obra."
+      },
+      "note": "estrenar una obra.",
+      "type": "v.",
+      "word": "estrenar"
+    },
+    {
+      "en": "premiere, opening night",
+      "example": {
+        "en": "It doesn't plan to abandon the opening.",
+        "es": "No piensa abandonar el estreno."
+      },
+      "note": "no piensa abandonar el estreno.",
+      "type": "n.m.",
+      "word": "estreno"
+    },
+    {
+      "en": "tour",
+      "example": {
+        "en": "To postpone the tour.",
+        "es": "Posponer la gira."
+      },
+      "note": "posponer la gira.",
+      "type": "n.f.",
+      "word": "gira"
+    },
+    {
+      "en": "curtain (theatre)",
+      "example": {
+        "en": "When the curtain opens.",
+        "es": "Cuando el telón se abra."
+      },
+      "note": "cuando el telón se abra.",
+      "type": "n.m.",
+      "word": "telón"
+    },
+    {
+      "en": "early morning, dawn hours",
+      "example": {
+        "en": "Until the early hours.",
+        "es": "Hasta la madrugada."
+      },
+      "note": "hasta la madrugada.",
+      "type": "n.f.",
+      "word": "madrugada"
+    },
+    {
+      "en": "to stay up late",
+      "example": {
+        "en": "They keep staying up late.",
+        "es": "Siguen trasnochando."
+      },
+      "note": "siguen trasnochando.",
+      "type": "v.",
+      "word": "trasnochar"
+    },
+    {
+      "en": "to resume, to take up again",
+      "example": {
+        "en": "She has just resumed rehearsals.",
+        "es": "Acaba de retomar los ensayos."
+      },
+      "note": "acaba de retomar los ensayos.",
+      "type": "v.",
+      "word": "retomar"
+    },
+    {
+      "en": "to resume, to renew",
+      "example": {
+        "en": "She set about resuming Act Two.",
+        "es": "Se puso a reanudar el acto."
+      },
+      "note": "se puso a reanudar el acto.",
+      "type": "v.",
+      "word": "reanudar"
+    },
+    {
+      "en": "to abandon, to give up",
+      "example": {
+        "en": "It doesn't plan to abandon the opening.",
+        "es": "No piensa abandonar el estreno."
+      },
+      "note": "no piensa abandonar el estreno.",
+      "type": "v.",
+      "word": "abandonar"
+    },
+    {
+      "en": "to insist",
+      "example": {
+        "en": "He insists on getting used to it.",
+        "es": "Insiste en acostumbrarse."
+      },
+      "note": "insiste en acostumbrarse.",
+      "type": "v.",
+      "word": "insistir"
+    },
+    {
+      "en": "to get used to",
+      "example": {
+        "en": "To get used to something.",
+        "es": "Acostumbrarse a algo."
+      },
+      "note": "acostumbrarse a algo.",
+      "type": "v.",
+      "word": "acostumbrarse"
+    },
+    {
+      "en": "to intend, to resolve to",
+      "example": {
+        "en": "They intend to enjoy it.",
+        "es": "Se proponen disfrutar."
+      },
+      "note": "se proponen disfrutar.",
+      "type": "v.",
+      "word": "proponerse"
+    },
+    {
+      "en": "to postpone",
+      "example": {
+        "en": "To postpone the tour.",
+        "es": "Posponer la gira."
+      },
+      "note": "posponer la gira.",
+      "type": "v.",
+      "word": "posponer"
+    },
+    {
+      "en": "dressing room",
+      "example": {
+        "en": "Staying up late in the dressing room.",
+        "es": "Trasnochando en el camerino."
+      },
+      "note": "trasnochar en el camerino.",
+      "type": "n.m.",
+      "word": "camerino"
+    },
+    {
+      "en": "applause",
+      "example": {
+        "en": "To enjoy every round of applause.",
+        "es": "Disfrutar cada aplauso."
+      },
+      "note": "disfrutar cada aplauso.",
+      "type": "n.m.",
+      "word": "aplauso"
+    },
+    {
+      "en": "ovation",
+      "example": {
+        "en": "Up to the final ovation.",
+        "es": "Hasta la ovación final."
+      },
+      "note": "hasta la ovación final.",
+      "type": "n.f.",
+      "word": "ovación"
+    },
+    {
+      "en": "cast",
+      "example": {
+        "en": "The cast resumes rehearsals.",
+        "es": "El elenco retoma los ensayos."
+      },
+      "note": "el elenco retoma los ensayos.",
+      "type": "n.m.",
+      "word": "elenco"
+    },
+    {
+      "en": "cast, distribution (of roles)",
+      "example": {
+        "en": "The full cast.",
+        "es": "El reparto completo."
+      },
+      "note": "el reparto completo.",
+      "type": "n.m.",
+      "word": "reparto"
+    },
+    {
+      "en": "seat (theatre/cinema)",
+      "example": {
+        "en": "Filling the seats.",
+        "es": "Llenando las butacas."
+      },
+      "note": "llenando las butacas.",
+      "type": "n.f.",
+      "word": "butaca"
+    },
+    {
+      "en": "costume; wardrobe",
+      "example": {
+        "en": "She has her costume changes fully rehearsed.",
+        "es": "Tiene ensayados sus vestuarios."
+      },
+      "note": "tiene ensayados sus vestuarios.",
+      "type": "n.m.",
+      "word": "vestuario"
+    },
+    {
+      "en": "makeup",
+      "example": {
+        "en": "The makeup for each performance.",
+        "es": "El maquillaje de cada función."
+      },
+      "note": "el maquillaje de cada función.",
+      "type": "n.m.",
+      "word": "maquillaje"
+    },
+    {
+      "en": "act (of a play)",
+      "example": {
+        "en": "Act Two.",
+        "es": "El segundo acto."
+      },
+      "note": "el segundo acto.",
+      "type": "n.m.",
+      "word": "acto"
+    },
+    {
+      "en": "scene",
+      "example": {
+        "en": "Rehearsing the same scene.",
+        "es": "Ensayando la misma escena."
+      },
+      "note": "ensayando la misma escena.",
+      "type": "n.f.",
+      "word": "escena"
+    },
+    {
+      "en": "script",
+      "example": {
+        "en": "A scene from the script.",
+        "es": "Una escena del guion."
+      },
+      "note": "una escena del guion.",
+      "type": "n.m.",
+      "word": "guion"
+    },
+    {
+      "en": "performance, show",
+      "example": {
+        "en": "The makeup for each performance.",
+        "es": "El maquillaje de cada función."
+      },
+      "note": "el maquillaje de cada función.",
+      "type": "n.f.",
+      "word": "función"
+    },
+    {
+      "en": "box office",
+      "example": {
+        "en": "The box-office queue.",
+        "es": "La cola de la taquilla."
+      },
+      "note": "la cola de la taquilla.",
+      "type": "n.f.",
+      "word": "taquilla"
+    },
+    {
+      "en": "interval, intermission",
+      "example": {
+        "en": "During the interval.",
+        "es": "Durante el entreacto."
+      },
+      "note": "durante el entreacto.",
+      "type": "n.m.",
+      "word": "entreacto"
+    },
+    {
+      "en": "capacity, house (audience)",
+      "example": {
+        "en": "The house is growing.",
+        "es": "El aforo va creciendo."
+      },
+      "note": "el aforo va creciendo.",
+      "type": "n.m.",
+      "word": "aforo"
+    },
+    {
+      "en": "stage machinery",
+      "example": {
+        "en": "Getting used to the stage machinery.",
+        "es": "Acostumbrarse a la tramoya."
+      },
+      "note": "acostumbrarse a la tramoya.",
+      "type": "n.f.",
+      "word": "tramoya"
+    },
+    {
+      "en": "prompter",
+      "example": {
+        "en": "The prompter insists.",
+        "es": "El apuntador insiste."
+      },
+      "note": "el apuntador insiste.",
+      "type": "n.",
+      "word": "apuntador/a"
+    },
+    {
+      "en": "encore",
+      "example": {
+        "en": "To ask for an encore.",
+        "es": "Pedir un bis."
+      },
+      "ext": true,
+      "note": "pedir un bis; ¡bis!",
+      "type": "n.m./interj.",
+      "word": "bis"
+    },
+    {
+      "en": "preview (before opening)",
+      "example": {
+        "en": "Yesterday's preview.",
+        "es": "El preestreno de ayer."
+      },
+      "ext": true,
+      "note": "From estreno; el preestreno de ayer.",
+      "type": "n.m.",
+      "word": "preestreno"
+    },
+    {
+      "en": "revival, re-release",
+      "example": {
+        "en": "The revival of the classic.",
+        "es": "El reestreno del clásico."
+      },
+      "ext": true,
+      "note": "From estreno; el reestreno del clásico.",
+      "type": "n.m.",
+      "word": "reestreno"
+    }
+  ]
+}

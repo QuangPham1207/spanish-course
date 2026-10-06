@@ -1,0 +1,275 @@
+{
+  "lesson": 54,
+  "title": "Cinema & television",
+  "words": [
+    {
+      "word": "pantalla",
+      "type": "n.f.",
+      "en": "screen",
+      "note": "La pantalla grande (cine) y la pequeña (tele). Me gustaría verla en pantalla grande.",
+      "example": { "es": "Me gustaría verla en pantalla grande.", "en": "I'd like to see it on the big screen." }
+    },
+    {
+      "word": "rodaje",
+      "type": "n.m.",
+      "en": "filming, shoot",
+      "note": "El tiempo de filmar. El rodaje de Roma duró nueve semanas.",
+      "example": { "es": "El rodaje duró nueve semanas en la ciudad.", "en": "Filming lasted nine weeks in the city." }
+    },
+    {
+      "word": "director",
+      "type": "n.m.",
+      "en": "director (film)",
+      "note": "Dirige la película. Ganó el Óscar a mejor director.",
+      "example": { "es": "Ganó el Óscar a mejor director.", "en": "He won the Oscar for best director." }
+    },
+    {
+      "word": "actor",
+      "type": "n.m.",
+      "en": "actor",
+      "note": "Trabaja con actores nuevos, no famosos.",
+      "example": { "es": "Trabaja con actores nuevos.", "en": "He works with new actors." }
+    },
+    {
+      "word": "actriz",
+      "type": "n.f.",
+      "en": "actress",
+      "note": "Yalitza, sin ser actriz, dio una interpretación inolvidable.",
+      "example": { "es": "Sin ser actriz, dio una interpretación inolvidable.", "en": "Without being an actress, she gave an unforgettable performance." }
+    },
+    {
+      "word": "plano",
+      "type": "n.m.",
+      "en": "shot",
+      "note": "Lo que la cámara filma sin cortar. El plano más largo dura trece minutos.",
+      "example": { "es": "El plano más largo dura trece minutos.", "en": "The longest shot lasts thirteen minutes." }
+    },
+    {
+      "word": "secuencia",
+      "type": "n.f.",
+      "en": "sequence",
+      "note": "Varios planos que cuentan algo. Un plano secuencia no tiene montaje.",
+      "example": { "es": "La secuencia inicial no tiene montaje.", "en": "The opening sequence has no editing." }
+    },
+    {
+      "word": "montaje",
+      "type": "n.m.",
+      "en": "editing",
+      "note": "Unir los planos. Sin montaje, todo es un plano.",
+      "example": { "es": "El plano largo no tiene montaje.", "en": "The long shot has no editing." }
+    },
+    {
+      "word": "doblaje",
+      "type": "n.m.",
+      "en": "dubbing",
+      "note": "Spain prefers doblaje; Latin America often subtitles. Sería una pena verla doblada.",
+      "example": { "es": "En España se prefiere el doblaje.", "en": "In Spain dubbing is preferred." }
+    },
+    {
+      "word": "subtítulo",
+      "type": "n.m.",
+      "en": "subtitle",
+      "note": "Pl. subtítulos. Si la ves en versión original, lees los subtítulos.",
+      "example": { "es": "Si la ves en versión original, lees los subtítulos.", "en": "If you watch it in the original version, you read the subtitles." }
+    },
+    {
+      "word": "banda sonora",
+      "type": "phr.",
+      "en": "soundtrack",
+      "note": "La música de la película. Mezcla canciones y ruidos de calle.",
+      "example": { "es": "La banda sonora mezcla canciones y ruidos.", "en": "The soundtrack mixes songs and noises." }
+    },
+    {
+      "word": "premio",
+      "type": "n.m.",
+      "en": "prize, award",
+      "note": "Le dio su primer gran premio internacional.",
+      "example": { "es": "Le dio su primer gran premio.", "en": "It won him his first big prize." }
+    },
+    {
+      "word": "nominación",
+      "type": "n.f.",
+      "en": "nomination",
+      "note": "Estar entre los finalistas. Tuvo una nominación al Óscar.",
+      "example": { "es": "Tuvo una nominación al Óscar.", "en": "It got an Oscar nomination." }
+    },
+    {
+      "word": "galardón",
+      "type": "n.m.",
+      "en": "award (formal)",
+      "note": "Más formal que premio. El festival le dio un galardón.",
+      "example": { "es": "El festival le dio un galardón.", "en": "The festival gave him an award." }
+    },
+    {
+      "word": "palmarés",
+      "type": "n.m.",
+      "en": "track record, list of wins",
+      "note": "Todos los premios de alguien. Su palmarés tiene dos Óscar.",
+      "example": { "es": "Su palmarés tiene dos Óscar y un Goya.", "en": "His track record holds two Oscars and a Goya." }
+    },
+    {
+      "word": "festival",
+      "type": "n.m.",
+      "en": "festival",
+      "note": "Cannes, Venecia, San Sebastián: el circuito de festivales.",
+      "example": { "es": "Triunfó en el festival de Cannes.", "en": "He triumphed at the Cannes festival." }
+    },
+    {
+      "word": "alfombra roja",
+      "type": "phr.",
+      "en": "red carpet",
+      "note": "Pasaron por la alfombra roja sin miedo.",
+      "example": { "es": "Pasaron por la alfombra roja sin miedo.", "en": "They walked the red carpet without fear." }
+    },
+    {
+      "word": "protagonista",
+      "type": "n.",
+      "en": "protagonist, lead",
+      "note": "El personaje central. Su protagonista era una joven sin experiencia.",
+      "example": { "es": "Su protagonista era una joven sin experiencia.", "en": "His lead was a young woman with no experience." }
+    },
+    {
+      "word": "antagonista",
+      "type": "n.",
+      "en": "antagonist",
+      "note": "El contrario del protagonista. El antagonista no es un hombre, es la guerra.",
+      "example": { "es": "El antagonista no es un hombre, es la guerra.", "en": "The antagonist is not a man; it is war." }
+    },
+    {
+      "word": "interpretación",
+      "type": "n.f.",
+      "en": "performance, acting",
+      "note": "Cómo actúa un actor. Una interpretación inolvidable.",
+      "example": { "es": "Su interpretación es inolvidable.", "en": "Her performance is unforgettable." }
+    },
+    {
+      "word": "melodrama",
+      "type": "n.m.",
+      "en": "melodrama",
+      "note": "Emociones grandes: madres, amores y secretos. Sus melodramas ponen a las mujeres en el centro.",
+      "example": { "es": "Sus melodramas ponen a las mujeres en el centro.", "en": "His melodramas put women at the centre." }
+    },
+    {
+      "word": "terror",
+      "type": "n.m.",
+      "en": "horror (genre); terror",
+      "note": "Cine de terror; del Toro mezcla terror y cuento.",
+      "example": { "es": "La película mezcla terror y cuento.", "en": "The film mixes horror and fairy tale." }
+    },
+    {
+      "word": "fantasía",
+      "type": "n.f.",
+      "en": "fantasy",
+      "note": "Mundos imposibles. Una niña encuentra un mundo de fantasía.",
+      "example": { "es": "Encuentra un mundo de fantasía en la guerra.", "en": "She finds a fantasy world amid the war." }
+    },
+    {
+      "word": "suspenso",
+      "type": "n.m.",
+      "en": "suspense",
+      "note": "LatAm word; in Spain: suspense (same). Sus historias de suspenso no dejan dormir.",
+      "example": { "es": "Sus historias de suspenso no dejan dormir.", "en": "His suspense stories don't let you sleep." }
+    },
+    {
+      "word": "cortometraje",
+      "type": "n.m.",
+      "en": "short film",
+      "note": "Corto + metraje. Empezó con cortometrajes.",
+      "example": { "es": "Empezó con cortometrajes en los ochenta.", "en": "He started with short films in the eighties." }
+    },
+    {
+      "word": "largometraje",
+      "type": "n.m.",
+      "en": "feature film",
+      "note": "Largo + metraje. Su primer largometraje costó muy poco.",
+      "example": { "es": "Su primer largometraje costó muy poco.", "en": "His first feature film cost very little." }
+    },
+    {
+      "word": "ópera prima",
+      "type": "phr.",
+      "en": "debut work, first film",
+      "note": "La primera obra de un director. Su ópera prima llegó a los treinta años.",
+      "example": { "es": "Su ópera prima llegó a los treinta años.", "en": "His debut film came at thirty." }
+    },
+    {
+      "word": "precuela",
+      "type": "n.f.",
+      "en": "prequel",
+      "note": "Pre- + secuela. Cuenta lo que pasó antes. Hollywood pide una precuela; él dice que no.",
+      "example": { "es": "Hollywood pide una precuela; él dice que no.", "en": "Hollywood wants a prequel; he says no." }
+    },
+    {
+      "word": "remake",
+      "type": "n.m.",
+      "en": "remake",
+      "note": "Anglicism used as-is (el remake). Volver a hacer una película.",
+      "example": { "es": "No quiere un remake en inglés.", "en": "He doesn't want an English-language remake." }
+    },
+    {
+      "word": "platea",
+      "type": "n.f.",
+      "en": "stalls (seats); audience",
+      "note": "La platea aplaudió diez minutos.",
+      "example": { "es": "La platea aplaudió diez minutos.", "en": "The audience applauded for ten minutes." }
+    },
+    {
+      "word": "taquillazo",
+      "type": "n.m.",
+      "en": "box-office hit",
+      "note": "Taquilla + -azo (big). Fue un taquillazo en todo el mundo.",
+      "example": { "es": "Fue un taquillazo en todo el mundo.", "en": "It was a box-office hit worldwide." }
+    },
+    {
+      "word": "por consiguiente",
+      "type": "conn.",
+      "en": "therefore, consequently",
+      "note": "Formal connector. Quiere realismo; por consiguiente, trabaja con actores nuevos.",
+      "example": { "es": "Quiere realismo; por consiguiente, trabaja con actores nuevos.", "en": "He wants realism; therefore he works with new actors." }
+    },
+    {
+      "word": "puerta",
+      "type": "n.f.",
+      "en": "door",
+      "note": "Abrir la puerta = to open the door (also figurative).",
+      "example": { "es": "Abrió la puerta del cine a todos.", "en": "He opened the door of cinema to everyone." }
+    },
+    {
+      "word": "telenovela",
+      "type": "n.f.",
+      "en": "soap opera",
+      "note": "Tele + novela. Las telenovelas se veían en cien países.",
+      "example": { "es": "Las telenovelas se veían en cien países.", "en": "Soap operas were watched in a hundred countries." }
+    },
+    {
+      "word": "mixteco",
+      "type": "n.m.",
+      "en": "Mixtec (language)",
+      "note": "Lengua de México. En Roma se habla mixteco.",
+      "example": { "es": "En la película se habla mixteco.", "en": "Mixtec is spoken in the film." }
+    },
+    {
+      "word": "cameo",
+      "type": "n.m.",
+      "en": "cameo (appearance)",
+      "note": "El director sale un minuto en su propia película.",
+      "ext": true,
+      "example": { "es": "Sale en un cameo de un minuto.", "en": "He appears in a one-minute cameo." }
+    },
+    {
+      "word": "tráiler",
+      "type": "n.m.",
+      "en": "trailer",
+      "note": "El anuncio corto antes del estreno. El tráiler no cuenta nada.",
+      "ext": true,
+      "example": { "es": "El tráiler no cuenta nada.", "en": "The trailer gives nothing away." }
+    },
+    {
+      "word": "spoiler",
+      "type": "n.m.",
+      "en": "spoiler",
+      "note": "Anglicism; pl. spoilers. Contar el final = hacer un spoiler.",
+      "ext": true,
+      "example": { "es": "No me hagas spoilers del final.", "en": "Don't spoil the ending for me." }
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "lesson": 40,
+  "title": "Future perfect and conditional perfect",
+  "words": [
+    {
+      "en": "I will have",
+      "example": {
+        "en": "By then, I will already have figured it out.",
+        "es": "Para entonces, ya habré deducido lo ocurrido."
+      },
+      "note": "Future of haber; habré terminado.",
+      "type": "v.",
+      "word": "habré"
+    },
+    {
+      "en": "he/she/it will have; must have",
+      "example": {
+        "en": "The galleon must have set sail from Cartagena.",
+        "es": "El galeón habrá zarpado de Cartagena."
+      },
+      "note": "Habrá llegado; habrá zarpado (guess).",
+      "type": "v.",
+      "word": "habrá"
+    },
+    {
+      "en": "I/he/she would have",
+      "example": {
+        "en": "The craft would not have taken off on time.",
+        "es": "La nave no habría despegado a tiempo."
+      },
+      "note": "Conditional of haber; habría despegado.",
+      "type": "v.",
+      "word": "habría"
+    },
+    {
+      "en": "they would have",
+      "example": {
+        "en": "They would have recovered the treasure.",
+        "es": "Habrían rescatado el tesoro."
+      },
+      "note": "Habrían rescatado el tesoro.",
+      "type": "v.",
+      "word": "habrían"
+    },
+    {
+      "en": "probe",
+      "example": {
+        "en": "By 2032, the probe will have reached the orbit.",
+        "es": "Para 2032, la sonda habrá llegado a la órbita."
+      },
+      "note": "una sonda espacial.",
+      "type": "n.f.",
+      "word": "sonda"
+    },
+    {
+      "en": "crew",
+      "example": {
+        "en": "You could have warned the crew.",
+        "es": "Habrías podido avisar a la tripulación."
+      },
+      "note": "la tripulación de la nave.",
+      "type": "n.f.",
+      "word": "tripulación"
+    },
+    {
+      "en": "orbit",
+      "example": {
+        "en": "It will have crossed the comet's orbit.",
+        "es": "Habrá cruzado la órbita del cometa."
+      },
+      "note": "entrar en órbita.",
+      "type": "n.f.",
+      "word": "órbita"
+    },
+    {
+      "en": "comet",
+      "example": {
+        "en": "The old sailors must have seen the same comet.",
+        "es": "Los viejos habrán visto el mismo cometa."
+      },
+      "note": "la órbita del cometa.",
+      "type": "n.m.",
+      "word": "cometa"
+    },
+    {
+      "en": "eclipse",
+      "example": {
+        "en": "By the night of the eclipse, it will have crossed.",
+        "es": "Para la noche del eclipse, habrá cruzado."
+      },
+      "note": "el pronóstico del eclipse.",
+      "type": "n.m.",
+      "word": "eclipse"
+    },
+    {
+      "en": "takeoff, launch",
+      "example": {
+        "en": "They celebrated the launch of the twin capsule.",
+        "es": "Celebraron el despegue de la cápsula gemela."
+      },
+      "note": "el despegue de la cápsula.",
+      "type": "n.m.",
+      "word": "despegue"
+    },
+    {
+      "en": "to take off",
+      "example": {
+        "en": "The craft would not have taken off on time.",
+        "es": "La nave no habría despegado a tiempo."
+      },
+      "note": "la nave despegó a tiempo.",
+      "type": "v.",
+      "word": "despegar"
+    },
+    {
+      "en": "to land on the moon",
+      "example": {
+        "en": "It will have landed before the eclipse.",
+        "es": "Habrá alunizado antes del eclipse."
+      },
+      "note": "Habrá alunizado antes del eclipse.",
+      "type": "v.",
+      "word": "alunizar"
+    },
+    {
+      "en": "capsule",
+      "example": {
+        "en": "The launch of the twin capsule.",
+        "es": "El despegue de la cápsula gemela."
+      },
+      "note": "la cápsula gemela.",
+      "type": "n.f.",
+      "word": "cápsula"
+    },
+    {
+      "en": "craft, ship",
+      "example": {
+        "en": "The craft would not have taken off.",
+        "es": "La nave no habría despegado."
+      },
+      "note": "una nave espacial; la nave del tesoro.",
+      "type": "n.f.",
+      "word": "nave"
+    },
+    {
+      "en": "forecast",
+      "example": {
+        "en": "The eclipse must have changed the forecast.",
+        "es": "El eclipse habrá alterado el pronóstico."
+      },
+      "note": "el pronóstico del tiempo / del eclipse.",
+      "type": "n.m.",
+      "word": "pronóstico"
+    },
+    {
+      "en": "advance, breakthrough",
+      "example": {
+        "en": "Nobody would have bet on this breakthrough.",
+        "es": "Nadie habría apostado por este adelanto."
+      },
+      "note": "un adelanto científico.",
+      "type": "n.m.",
+      "word": "adelanto"
+    },
+    {
+      "en": "to deduce, to infer",
+      "example": {
+        "en": "By then, I will have figured out what happened.",
+        "es": "Para entonces, ya habré deducido lo ocurrido."
+      },
+      "note": "deducir lo ocurrido.",
+      "type": "v.",
+      "word": "deducir"
+    },
+    {
+      "en": "find, discovery",
+      "example": {
+        "en": "No expedition could have dreamed of a better find.",
+        "es": "Ninguna expedición habría soñado un hallazgo mejor."
+      },
+      "note": "un hallazgo arqueológico.",
+      "type": "n.m.",
+      "word": "hallazgo"
+    },
+    {
+      "en": "site, deposit (archaeology)",
+      "example": {
+        "en": "The first samples from the site.",
+        "es": "Las primeras muestras del yacimiento."
+      },
+      "note": "las muestras del yacimiento.",
+      "type": "n.m.",
+      "word": "yacimiento"
+    },
+    {
+      "en": "shipwreck (the wreck itself)",
+      "example": {
+        "en": "Each sample from the wreck will have told its story.",
+        "es": "Cada muestra del pecio habrá contado su historia."
+      },
+      "note": "un pecio con restos.",
+      "type": "n.m.",
+      "word": "pecio"
+    },
+    {
+      "en": "treasure",
+      "example": {
+        "en": "The galleon set sail with a treasure on board.",
+        "es": "El galeón zarpó con un tesoro a bordo."
+      },
+      "note": "un tesoro a bordo.",
+      "type": "n.m.",
+      "word": "tesoro"
+    },
+    {
+      "en": "compass",
+      "example": {
+        "en": "Without the compass, he would not have found the way.",
+        "es": "Sin la brújula, no habría encontrado el camino."
+      },
+      "note": "la brújula del capitán.",
+      "type": "n.f.",
+      "word": "brújula"
+    },
+    {
+      "en": "lighthouse",
+      "example": {
+        "en": "The compass and the bay's lighthouse.",
+        "es": "La brújula y el faro de la bahía."
+      },
+      "note": "el faro de la bahía.",
+      "type": "n.m.",
+      "word": "faro"
+    },
+    {
+      "en": "remains, rest",
+      "example": {
+        "en": "A wreck with remains of a shipwreck.",
+        "es": "Un pecio con restos de un naufragio."
+      },
+      "note": "Plural: restos de un naufragio.",
+      "type": "n.m.",
+      "word": "resto"
+    },
+    {
+      "en": "shipwreck (the event)",
+      "example": {
+        "en": "Remains of a shipwreck.",
+        "es": "Restos de un naufragio."
+      },
+      "note": "restos de un naufragio.",
+      "type": "n.m.",
+      "word": "naufragio"
+    },
+    {
+      "en": "sample",
+      "example": {
+        "en": "By year end, they will have recovered the first samples.",
+        "es": "Para fin de año, habrán rescatado las primeras muestras."
+      },
+      "note": "las primeras muestras.",
+      "type": "n.f.",
+      "word": "muestra"
+    },
+    {
+      "en": "clue, track",
+      "example": {
+        "en": "The divers found a clue.",
+        "es": "Los buzos encontraron una pista."
+      },
+      "note": "una pista del pecio.",
+      "type": "n.f.",
+      "word": "pista"
+    },
+    {
+      "en": "to set sail",
+      "example": {
+        "en": "The galleon must have set sail from Cartagena.",
+        "es": "El galeón habrá zarpado de Cartagena."
+      },
+      "note": "zarpar de Cartagena.",
+      "type": "v.",
+      "word": "zarpar"
+    },
+    {
+      "en": "to be shipwrecked, to sink",
+      "example": {
+        "en": "The galleon was shipwrecked in the storm.",
+        "es": "El galeón naufragó en la tormenta."
+      },
+      "note": "el galeón naufragó.",
+      "type": "v.",
+      "word": "naufragar"
+    },
+    {
+      "en": "to submerge, to sink",
+      "example": {
+        "en": "The storm sank it.",
+        "es": "La tormenta lo sumergió."
+      },
+      "note": "la tormenta lo sumergió.",
+      "type": "v.",
+      "word": "sumergir"
+    },
+    {
+      "en": "to rescue, to recover",
+      "example": {
+        "en": "They will have recovered the samples.",
+        "es": "Habrán rescatado las muestras."
+      },
+      "note": "rescatar las muestras.",
+      "type": "v.",
+      "word": "rescatar"
+    },
+    {
+      "en": "expedition",
+      "example": {
+        "en": "No expedition could have dreamed of a better find.",
+        "es": "Ninguna expedición habría soñado un hallazgo mejor."
+      },
+      "note": "la expedición arqueológica.",
+      "type": "n.f.",
+      "word": "expedición"
+    },
+    {
+      "en": "to delay",
+      "example": {
+        "en": "The launch was delayed.",
+        "es": "El lanzamiento se retrasó."
+      },
+      "ext": true,
+      "note": "El lanzamiento se retrasó.",
+      "type": "v.",
+      "word": "retrasar"
+    },
+    {
+      "en": "submersible; underwater",
+      "example": {
+        "en": "An underwater robot found the wreck.",
+        "es": "Un robot sumergible encontró el pecio."
+      },
+      "ext": true,
+      "note": "un robot sumergible.",
+      "type": "n.m./adj.",
+      "word": "sumergible"
+    },
+    {
+      "en": "moon landing",
+      "example": {
+        "en": "The moon landing was broadcast worldwide.",
+        "es": "El alunizaje se transmitió a todo el mundo."
+      },
+      "ext": true,
+      "note": "From alunizar.",
+      "type": "n.m.",
+      "word": "alunizaje"
+    }
+  ]
+}

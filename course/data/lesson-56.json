@@ -1,0 +1,268 @@
+{
+  "lesson": 56,
+  "title": "Language & identity (intro)",
+  "words": [
+    {
+      "word": "voseo",
+      "type": "n.m.",
+      "en": "use of vos",
+      "note": "Se llama voseo: vos tenés, vos podés. Argentina, Uruguay, Paraguay, Centroamérica.",
+      "example": { "es": "Se llama voseo: vos tenés, vos podés.", "en": "It's called voseo: vos tenés, vos podés." }
+    },
+    {
+      "word": "tuteo",
+      "type": "n.m.",
+      "en": "use of tú",
+      "note": "Tratar de tú. Con el tuteo de México y el usted de Colombia.",
+      "example": { "es": "Con el tuteo de México y el usted de Colombia.", "en": "With Mexico's tuteo and Colombia's usted." }
+    },
+    {
+      "word": "vos",
+      "type": "pron.",
+      "en": "you (voseo pronoun)",
+      "note": "En Buenos Aires nadie dice tú: dicen vos.",
+      "example": { "es": "En Buenos Aires dicen vos, no tú.", "en": "In Buenos Aires they say vos, not tú." }
+    },
+    {
+      "word": "lunfardo",
+      "type": "n.m.",
+      "en": "Buenos Aires slang",
+      "note": "Nació en el tango: palabras de Italia y de África.",
+      "example": { "es": "El lunfardo nació en el tango.", "en": "Lunfardo was born in tango." }
+    },
+    {
+      "word": "pibe",
+      "type": "n.m.",
+      "en": "kid, guy (Río de la Plata)",
+      "note": "Che, pibe: la frase del lunfardo. Informal y cariñosa.",
+      "example": { "es": "Todos dicen che, pibe.", "en": "Everyone says che, pibe." }
+    },
+    {
+      "word": "chamaco",
+      "type": "n.m.",
+      "en": "kid (Mexico)",
+      "note": "Mexican word. Mi chamaco dice que todo está chido.",
+      "example": { "es": "Mi chamaco dice que todo está chido.", "en": "My kid says everything is cool." }
+    },
+    {
+      "word": "chido",
+      "type": "adj.",
+      "en": "cool, great (Mexico)",
+      "note": "Mexican slang. Todo está chido.",
+      "example": { "es": "En México todo está chido.", "en": "In Mexico everything is cool." }
+    },
+    {
+      "word": "chévere",
+      "type": "adj.",
+      "en": "cool, great (Caribbean/Andean)",
+      "note": "Venezuela, Colombia, Caribe. Aquí todo está chévere.",
+      "example": { "es": "Aquí todo está chévere.", "en": "Here everything is great." }
+    },
+    {
+      "word": "majo",
+      "type": "adj.",
+      "en": "nice, cool (Spain)",
+      "note": "Spain slang. En Madrid todo está majo.",
+      "example": { "es": "En Madrid todo está majo.", "en": "In Madrid everything is nice." }
+    },
+    {
+      "word": "modismo",
+      "type": "n.m.",
+      "en": "idiom, expression",
+      "note": "Che es un modismo famoso del Río de la Plata.",
+      "example": { "es": "Che es un modismo famoso.", "en": "Che is a famous expression." }
+    },
+    {
+      "word": "calco",
+      "type": "n.m.",
+      "en": "calque, loan translation",
+      "note": "Copiar una palabra extranjera. Parquear es un calco del inglés.",
+      "example": { "es": "Parquear es un calco del inglés.", "en": "Parquear is a calque from English." }
+    },
+    {
+      "word": "espanglish",
+      "type": "n.m.",
+      "en": "Spanglish",
+      "note": "Mezcla de español e inglés. En Miami vive el espanglish.",
+      "example": { "es": "En Miami vive el espanglish.", "en": "Spanglish lives in Miami." }
+    },
+    {
+      "word": "alternancia",
+      "type": "n.f.",
+      "en": "code-switching",
+      "note": "Pasar de una lengua a otra. Pasar de una lengua a otra se llama alternancia.",
+      "example": { "es": "Pasar de una lengua a otra se llama alternancia.", "en": "Going from one language to another is called code-switching." }
+    },
+    {
+      "word": "bilingüe",
+      "type": "adj.",
+      "en": "bilingual",
+      "note": "Dos lenguas con prestigio. Paraguay es bilingüe.",
+      "example": { "es": "Paraguay es bilingüe.", "en": "Paraguay is bilingual." }
+    },
+    {
+      "word": "diglosia",
+      "type": "n.f.",
+      "en": "diglossia",
+      "note": "Dos lenguas, dos casas: una vive en la escuela y otra en la casa.",
+      "example": { "es": "Una lengua vive en la escuela y otra en la casa.", "en": "One language lives at school and another at home." }
+    },
+    {
+      "word": "prestigio",
+      "type": "n.m.",
+      "en": "prestige",
+      "note": "Dos lenguas con prestigio distinto.",
+      "example": { "es": "Dos lenguas con prestigio distinto.", "en": "Two languages with different prestige." }
+    },
+    {
+      "word": "norma",
+      "type": "n.f.",
+      "en": "standard, norm",
+      "note": "Cada país tiene su norma y su música.",
+      "example": { "es": "Cada país tiene su norma.", "en": "Each country has its standard." }
+    },
+    {
+      "word": "variedad",
+      "type": "n.f.",
+      "en": "variety (of a language)",
+      "note": "Cada variedad tiene su música.",
+      "example": { "es": "Cada variedad tiene su música.", "en": "Each variety has its music." }
+    },
+    {
+      "word": "dialecto",
+      "type": "n.m.",
+      "en": "dialect",
+      "note": "El dialecto de cada país. Nunca es peor: es distinto.",
+      "example": { "es": "El dialecto de cada país es distinto.", "en": "Each country's dialect is different." }
+    },
+    {
+      "word": "jerga",
+      "type": "n.f.",
+      "en": "slang, jargon",
+      "note": "La jerga de cada barrio y de cada grupo.",
+      "example": { "es": "La jerga de cada barrio.", "en": "Each neighbourhood's slang." }
+    },
+    {
+      "word": "muletilla",
+      "type": "n.f.",
+      "en": "filler word",
+      "note": "Palabras que dan tiempo: che, pues, o sea.",
+      "example": { "es": "El che es una muletilla famosa.", "en": "Che is a famous filler word." }
+    },
+    {
+      "word": "diminutivo",
+      "type": "n.m.",
+      "en": "diminutive",
+      "note": "-ito hace todo pequeño: cafecito, poquito.",
+      "example": { "es": "El diminutivo -ito hace todo pequeño.", "en": "The diminutive -ito makes everything small." }
+    },
+    {
+      "word": "aumentativo",
+      "type": "n.m.",
+      "en": "augmentative",
+      "note": "-azo lo hace grande: manaza, taquillazo.",
+      "example": { "es": "El aumentativo -azo lo hace grande.", "en": "The augmentative -azo makes it big." }
+    },
+    {
+      "word": "ceceo",
+      "type": "n.m.",
+      "en": "ceceo (th-sound, Spain)",
+      "note": "La zeta con la lengua entre los dientes. España: cerveza con ceceo.",
+      "example": { "es": "En España la zeta es el ceceo.", "en": "In Spain the zeta is ceceo." }
+    },
+    {
+      "word": "seseo",
+      "type": "n.m.",
+      "en": "seseo (s-sound, Americas)",
+      "note": "La letra suena como ese. América: seseo.",
+      "example": { "es": "En América la letra es el seseo.", "en": "In Latin America the letter is seseo." }
+    },
+    {
+      "word": "yeísmo",
+      "type": "n.m.",
+      "en": "yeísmo (ll/y merger)",
+      "note": "Casi todos dicen caballo con ye. En Buenos Aires suena casi como sh.",
+      "example": { "es": "Casi todos dicen caballo con yeísmo.", "en": "Almost everyone says caballo with yeísmo." }
+    },
+    {
+      "word": "quechua",
+      "type": "n.m.",
+      "en": "Quechua (language)",
+      "note": "Perú tiene dos lenguas: español y quechua.",
+      "example": { "es": "Perú tiene dos lenguas: español y quechua.", "en": "Peru has two languages: Spanish and Quechua." }
+    },
+    {
+      "word": "guaraní",
+      "type": "n.m.",
+      "en": "Guaraní (language)",
+      "note": "En Paraguay casi todos hablan guaraní.",
+      "example": { "es": "En Paraguay casi todos hablan guaraní.", "en": "In Paraguay almost everyone speaks Guaraní." }
+    },
+    {
+      "word": "náhuatl",
+      "type": "n.m.",
+      "en": "Nahuatl (language)",
+      "note": "En México el náhuatl vive en palabras de todos los días.",
+      "example": { "es": "El náhuatl vive en palabras de todos los días.", "en": "Nahuatl lives on in everyday words." }
+    },
+    {
+      "word": "maya",
+      "type": "n.m./adj.",
+      "en": "Maya (language/people)",
+      "note": "La lengua maya de Yucatán.",
+      "example": { "es": "La lengua maya vive en Yucatán.", "en": "The Maya language lives on in Yucatán." }
+    },
+    {
+      "word": "piropo",
+      "type": "n.m.",
+      "en": "flirtatious compliment",
+      "note": "Un piropo amable alegra el día.",
+      "example": { "es": "Un piropo amable alegra el día.", "en": "A kind piropo brightens the day." }
+    },
+    {
+      "word": "sobremesa",
+      "type": "n.f.",
+      "en": "after-meal chat",
+      "note": "Sobre + mesa. La sobremesa es hablar después de comer.",
+      "example": { "es": "La sobremesa es hablar después de comer.", "en": "Sobremesa is talking after eating." }
+    },
+    {
+      "word": "madrugar",
+      "type": "v.",
+      "en": "to get up early",
+      "note": "En el campo, madrugar es normal.",
+      "example": { "es": "En el campo, madrugar es normal.", "en": "In the countryside, getting up early is normal." }
+    },
+    {
+      "word": "verbo",
+      "type": "n.m.",
+      "en": "verb",
+      "note": "En Buenos Aires el verbo es distinto: vos tenés.",
+      "example": { "es": "El verbo es distinto: vos tenés.", "en": "The verb is different: vos tenés." }
+    },
+    {
+      "word": "aimara",
+      "type": "n.m.",
+      "en": "Aymara (language)",
+      "note": "En Bolivia también vive el aimara.",
+      "ext": true,
+      "example": { "es": "En Bolivia también vive el aimara.", "en": "Aymara also lives on in Bolivia." }
+    },
+    {
+      "word": "ustedeo",
+      "type": "n.m.",
+      "en": "use of usted",
+      "note": "En Colombia se dice usted a todos: es el ustedeo.",
+      "ext": true,
+      "example": { "es": "En Colombia se dice usted a todos.", "en": "In Colombia everyone is addressed as usted." }
+    },
+    {
+      "word": "guri",
+      "type": "n.m.",
+      "en": "kid (Uruguay)",
+      "note": "El pibe uruguayo. Aquí el guri habla de vos.",
+      "ext": true,
+      "example": { "es": "Aquí el guri habla de vos.", "en": "Here the kid speaks with vos." }
+    }
+  ]
+}

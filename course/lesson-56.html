@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 56 — Language &amp; identity (intro)</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-55.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 56 — LANGUAGE &amp; IDENTITY (INTRO)</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read how Spanish varies and mixes: <strong>voseo, ceceo/seseo, yeísmo, Spanglish</strong> and indigenous languages.</li>
+      <li>Recycle subjunctive <strong>noun clauses</strong> (<span class="es">es importante que…, quieren que…</span>).</li>
+      <li>Recycle relatives <strong><span class="es">lo que</span> and <span class="es">quien/quienes</span></strong>.</li>
+      <li>Pick up words: <span class="es">voseo, vos, seseo, yeísmo, espanglish, quechua, guaraní, sobremesa</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">voseo, tuteo, vos, lunfardo, pibe, chamaco, chido, chévere, majo, modismo, calco, espanglish, alternancia, bilingüe, diglosia, prestigio, norma, variedad, dialecto, jerga, muletilla, diminutivo, aumentativo, verbo, ceceo, seseo, yeísmo, quechua, guaraní, náhuatl, maya, piropo, sobremesa, madrugar</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">aimara, ustedeo, guri</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (UNA LENGUA, MUCHAS VOCES)</h2>
+<p><strong>Context:</strong> Spanish has 500 million speakers and no single centre. Short snapshots of its variety. Read each line; the English below it is only a check.</p>
+<p class="lead">(Wishes and opinions about language fill this text — <em>it is important that…</em> is today's grammar.)</p>
+
+<div class="phrase">
+  <p class="es">En Buenos Aires nadie dice tú: dicen <b>vos</b>, y el <b>verbo</b> es distinto, porque vos tenés y vos podés, y todos entienden.</p>
+  <p class="en">In Buenos Aires nobody says tú: they say vos, and the verb is different, because it's vos tenés and vos podés — and everyone understands.</p>
+</div>
+<div class="phrase">
+  <p class="es">Se llama <b>voseo</b>, y también vive en Uruguay, Paraguay y Centroamérica, donde cada país tiene su música.</p>
+  <p class="en">It's called voseo, and it also lives in Uruguay, Paraguay and Central America, where each country has its music.</p>
+</div>
+<div class="phrase">
+  <p class="es">Con el <b>tuteo</b> de México y el usted de Colombia, ya tienes tres maneras de hablar, y es bueno que vivan las tres, porque nadie quiere perderlas.</p>
+  <p class="en">With Mexico's tuteo and Colombia's usted, you already have three ways of speaking — and it's good that all three are alive, because nobody wants to lose them.</p>
+</div>
+<div class="phrase">
+  <p class="es">En Colombia se dice usted a todos: es el <b>ustedeo</b>, hasta en casa y hasta en la escuela.</p>
+  <p class="en">In Colombia everyone is addressed as usted: that's ustedeo, even at home and even at school.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un <b>piropo</b> amable alegra cada día, y un cafecito sabe mejor por la mañana.</p>
+  <p class="en">A kind compliment brightens every day, and a little coffee tastes better in the morning.</p>
+</div>
+<div class="phrase">
+  <p class="es">En España la zeta se dice con la lengua entre los dientes: es el <b>ceceo</b>, mientras en América la letra es como una ese y todos entienden el <b>seseo</b> en cada país.</p>
+  <p class="en">In Spain the zeta is said with the tongue between the teeth: that's ceceo — while in Latin America the letter is like an ese and everyone understands seseo in every country.</p>
+</div>
+<div class="phrase">
+  <p class="es">Con la elle pasa igual: casi todos dicen caballo con ye; es el <b>yeísmo</b> de cada día.</p>
+  <p class="en">The same happens with elle: almost everyone says caballo with a ye sound; that's everyday yeísmo.</p>
+</div>
+<div class="phrase">
+  <p class="es">En Buenos Aires la elle es casi como sh, y todos dicen che, <b>pibe</b>, cada día.</p>
+  <p class="en">In Buenos Aires the elle is almost like sh, and everyone says che, pibe every day.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>lunfardo</b> nació en el tango: palabras de Italia y de África mezcladas en la calle, y el tango, cuyas palabras vienen del <b>lunfardo</b>, nació en el puerto.</p>
+  <p class="en">Lunfardo was born in tango: words from Italy and Africa mixed in the street — and tango, whose words come from lunfardo, was born in the port.</p>
+</div>
+<div class="phrase">
+  <p class="es">En Miami y en Los Ángeles vive el <b>espanglish</b>: parquear la troca para ir al lonche, porque pasar de una lengua a otra se llama <b>alternancia</b>.</p>
+  <p class="en">In Miami and Los Angeles Spanglish lives: "parquear la troca" (to park the truck) to go to "el lonche" (lunch) — because going from one language to another is called code-switching.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los padres quieren que sus hijos hablen bien las dos lenguas en casa y en la escuela.</p>
+  <p class="en">Parents want their children to speak both languages well, at home and at school.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero el español también escucha: Perú tiene dos lenguas, español y <b>quechua</b>, y en Paraguay casi todos hablan <b>guaraní</b>.</p>
+  <p class="en">But Spanish also listens: Peru has two languages, Spanish and Quechua, and in Paraguay almost everyone speaks Guaraní.</p>
+</div>
+<div class="phrase">
+  <p class="es">En México el <b>náhuatl</b> vive en palabras de todos los días y en la lengua <b>maya</b> de Yucatán, donde todos lo hablan.</p>
+  <p class="en">In Mexico Nahuatl lives on in everyday words and in the Maya language of Yucatán, where everyone speaks it.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada país tiene su <b>norma</b> y su música: una lengua no es mejor que otra, y lo que más me gusta es escucharlas todas, siempre.</p>
+  <p class="en">Each country has its standard and its music: no language is better than another — and what I like most is listening to all of them, always.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">aimara</span></td><td data-label="Type">n.m.</td><td data-label="English">Aymara (language)</td><td data-label="Notes">En Bolivia también vive el aimara.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ustedeo</span></td><td data-label="Type">n.m.</td><td data-label="English">use of usted</td><td data-label="Notes">En Colombia se dice usted a todos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">guri</span></td><td data-label="Type">n.m.</td><td data-label="English">kid (Uruguay)</td><td data-label="Notes">The Uruguayan pibe.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> no variety is presented as wrong — <span class="es">una lengua no es mejor que otra</span>. That is the course rule too: Spain's <span class="es">ceceo</span> and America's <span class="es">seseo</span> are both correct Spanish.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Subjunctive noun clauses: opinions about language (recycled from L35-36)</h3>
+<p>Impersonal expressions (<span class="es">es importante que, es raro que</span>) and influence verbs (<span class="es">querer que, pedir que</span>) open subjunctive clauses.</p>
+<ul>
+  <li class="ex"><span class="es">Es importante <b>que</b> el <b>quechua</b> <b>viva</b> en la escuela.</span><span class="en">It's important for Quechua to live on at school.</span></li>
+  <li class="ex"><span class="es">Es raro <b>que</b> el <b>voseo</b> <b>desaparezca</b>: cada día crece.</span><span class="en">It's unlikely voseo will disappear: it grows every day.</span></li>
+  <li class="ex"><span class="es">Los padres quieren <b>que</b> sus hijos <b>hablen</b> dos lenguas.</span><span class="en">Parents want their children to speak two languages.</span></li>
+  <li class="ex"><span class="es">Piden <b>que</b> la escuela <b>hable</b> las dos lenguas.</span><span class="en">They ask the school to speak both languages.</span></li>
+</ul>
+
+<h3>2.2. Relatives: <span class="es">lo que</span> and <span class="es">quien/quienes</span> (recycled from L34)</h3>
+<ul>
+  <li class="ex"><span class="es"><b>Lo que</b> más me gusta es la <b>sobremesa</b>.</span><span class="en">What I like most is the after-meal chat.</span></li>
+  <li class="ex"><span class="es"><b>Quienes</b> hablan <b>guaraní</b> viven en dos mundos.</span><span class="en">Those who speak Guaraní live in two worlds.</span></li>
+  <li class="ex"><span class="es">El tango, <b>cuyas</b> palabras vienen del <b>lunfardo</b>, nació en el puerto.</span><span class="en">Tango, whose words come from lunfardo, was born in the port.</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistake:</strong> after <span class="es">entre, sin, con, para</span>, people need <span class="es">mí/ti</span>, but relative <span class="es">quien</span> never changes: <span class="es">la gente con <b>quien</b> hablo</span> (the people I talk to).</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">voseo</span></td><td data-label="Type">n.m.</td><td data-label="English">use of vos</td><td data-label="Notes">Vos tenés, vos podés. Río de la Plata + Centroamérica.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tuteo</span></td><td data-label="Type">n.m.</td><td data-label="English">use of tú</td><td data-label="Notes">Tratar de tú.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vos</span></td><td data-label="Type">pron.</td><td data-label="English">you (voseo)</td><td data-label="Notes">Dicen vos, no tú.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lunfardo</span></td><td data-label="Type">n.m.</td><td data-label="English">BA slang</td><td data-label="Notes">Born in tango; Italy + Africa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pibe</span></td><td data-label="Type">n.m.</td><td data-label="English">kid, guy</td><td data-label="Notes">Río de la Plata; che, pibe.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">chamaco</span></td><td data-label="Type">n.m.</td><td data-label="English">kid (Mexico)</td><td data-label="Notes">Mexican word.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">chido</span></td><td data-label="Type">adj.</td><td data-label="English">cool (Mexico)</td><td data-label="Notes">Mexican slang.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">chévere</span></td><td data-label="Type">adj.</td><td data-label="English">cool (Caribbean)</td><td data-label="Notes">Venezuela, Colombia, Caribe.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">majo</span></td><td data-label="Type">adj.</td><td data-label="English">nice (Spain)</td><td data-label="Notes">Spain slang.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">modismo</span></td><td data-label="Type">n.m.</td><td data-label="English">idiom, expression</td><td data-label="Notes">Che es un modismo famoso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">calco</span></td><td data-label="Type">n.m.</td><td data-label="English">calque</td><td data-label="Notes">Copying a foreign word; parquear.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">espanglish</span></td><td data-label="Type">n.m.</td><td data-label="English">Spanglish</td><td data-label="Notes">Spanish + English mixed.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alternancia</span></td><td data-label="Type">n.f.</td><td data-label="English">code-switching</td><td data-label="Notes">Going from one language to another.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bilingüe</span></td><td data-label="Type">adj.</td><td data-label="English">bilingual</td><td data-label="Notes">Paraguay es bilingüe.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">diglosia</span></td><td data-label="Type">n.f.</td><td data-label="English">diglossia</td><td data-label="Notes">One language at school, another at home.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prestigio</span></td><td data-label="Type">n.m.</td><td data-label="English">prestige</td><td data-label="Notes">Dos lenguas con prestigio distinto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">norma</span></td><td data-label="Type">n.f.</td><td data-label="English">standard, norm</td><td data-label="Notes">Cada país tiene su norma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">variedad</span></td><td data-label="Type">n.f.</td><td data-label="English">variety</td><td data-label="Notes">Cada variedad tiene su música.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dialecto</span></td><td data-label="Type">n.m.</td><td data-label="English">dialect</td><td data-label="Notes">Never worse — just different.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">jerga</span></td><td data-label="Type">n.f.</td><td data-label="English">slang, jargon</td><td data-label="Notes">Each neighbourhood's slang.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">muletilla</span></td><td data-label="Type">n.f.</td><td data-label="English">filler word</td><td data-label="Notes">Che, pues, o sea: words that buy time.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">diminutivo</span></td><td data-label="Type">n.m.</td><td data-label="English">diminutive</td><td data-label="Notes">-ito: cafecito, poquito.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aumentativo</span></td><td data-label="Type">n.m.</td><td data-label="English">augmentative</td><td data-label="Notes">-azo: manaza, taquillazo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">verbo</span></td><td data-label="Type">n.m.</td><td data-label="English">verb</td><td data-label="Notes">En Buenos Aires el verbo es distinto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ceceo</span></td><td data-label="Type">n.m.</td><td data-label="English">ceceo (th-sound)</td><td data-label="Notes">Spain; tongue between teeth.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">seseo</span></td><td data-label="Type">n.m.</td><td data-label="English">seseo (s-sound)</td><td data-label="Notes">The Americas; sounds like ese.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">yeísmo</span></td><td data-label="Type">n.m.</td><td data-label="English">yeísmo (ll/y merger)</td><td data-label="Notes">Caballo with ye; BA almost sh.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">quechua</span></td><td data-label="Type">n.m.</td><td data-label="English">Quechua</td><td data-label="Notes">Peru: español y quechua.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">guaraní</span></td><td data-label="Type">n.m.</td><td data-label="English">Guaraní</td><td data-label="Notes">Paraguay: almost everyone speaks it.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">náhuatl</span></td><td data-label="Type">n.m.</td><td data-label="English">Nahuatl</td><td data-label="Notes">Lives on in everyday Mexican words.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">maya</span></td><td data-label="Type">n.m./adj.</td><td data-label="English">Maya</td><td data-label="Notes">La lengua maya de Yucatán.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">piropo</span></td><td data-label="Type">n.m.</td><td data-label="English">compliment</td><td data-label="Notes">Un piropo amable alegra el día.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sobremesa</span></td><td data-label="Type">n.f.</td><td data-label="English">after-meal chat</td><td data-label="Notes">Sobre + mesa; talking after eating.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">madrugar</span></td><td data-label="Type">v.</td><td data-label="English">to get up early</td><td data-label="Notes">En el campo, madrugar es normal.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences about language. Read them once; no need to memorize.</p>
+
+<h3>1. Code-switching:</h3>
+<div class="phrase">
+  <p class="es">Pasar de una lengua a otra se llama alternancia.</p>
+  <p class="en">Going from one language to another is called code-switching.</p>
+</div>
+<h3>2. The calque:</h3>
+<div class="phrase">
+  <p class="es">Parquear es un calco del inglés.</p>
+  <p class="en">Parquear is a calque from English.</p>
+</div>
+<h3>3. The diminutive:</h3>
+<div class="phrase">
+  <p class="es">El diminutivo -ito hace todo pequeño: cafecito, poquito.</p>
+  <p class="en">The diminutive -ito makes everything small: cafecito, poquito.</p>
+</div>
+<h3>4. The augmentative:</h3>
+<div class="phrase">
+  <p class="es">Y el aumentativo -azo lo hace grande: manaza, taquillazo.</p>
+  <p class="en">And the augmentative -azo makes it big: manaza, taquillazo.</p>
+</div>
+<h3>5. Daily life:</h3>
+<div class="phrase">
+  <p class="es">La sobremesa es hablar después de comer.</p>
+  <p class="en">Sobremesa is talking after eating.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Four young friends compare their slang — Mexico, Venezuela, Madrid, Montevideo.</p>
+
+<div class="phrase">
+  <p class="es">Ana: Mi chamaco dice que todo está chido. ¿Y el tuyo?</p>
+  <p class="en">Ana: My kid says everything is cool. How about yours?</p>
+</div>
+<div class="phrase">
+  <p class="es">Pablo: Aquí todo está chévere.</p>
+  <p class="en">Pablo: Here everything is great.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pablo: El che es mi muletilla favorita, o sea, la digo siempre.</p>
+  <p class="en">Pablo: Che is my favourite filler — I mean, I say it all the time.</p>
+</div>
+<div class="phrase">
+  <p class="es">Carmen: En Madrid todo está majo. Y un piropo amable alegra el día.</p>
+  <p class="en">Carmen: In Madrid everything is nice. And a kind compliment brightens the day.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Aquí el guri habla de vos.</p>
+  <p class="en">Diego: Here the kid speaks with vos.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: En Colombia se dice usted a todos.</p>
+  <p class="en">Diego: In Colombia everyone is addressed as usted.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: Lo que más me gusta es la sobremesa: hablar después de comer.</p>
+  <p class="en">Ana: What I like most is the sobremesa: talking after eating.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>guri</strong> (Uruguayan kid), <strong>ustedeo</strong> (use of usted), <strong>muletilla</strong> (filler) — the slang map in five lines.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Subjunctive noun clauses:</strong> <span class="es">es importante que viva…, quieren que hablen…</span> — opinions and wishes about language.</li>
+  <li><strong>Relatives:</strong> <span class="es">lo que más me gusta</span>, <span class="es">quienes hablan guaraní</span>, <span class="es">cuyas palabras</span>.</li>
+  <li><strong>The map:</strong> voseo in the south, seseo across the ocean, Spanglish in the north, Quechua, Guaraní, Náhuatl and Maya underneath — and no variety is better than another.</li>
+</ul>
+
+<h3>5.2. Further reading — variedades y jergas</h3>
+<p><strong>Context:</strong> A short note on dialects, diglossia and the languages under Spanish. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Cada <b>variedad</b> tiene su música: el <b>dialecto</b> de cada país y la <b>jerga</b> de cada barrio.</p>
+  <p class="en">Each variety has its music: each country's dialect and each neighbourhood's slang.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>diglosia</b> es otra historia: una lengua vive en la escuela y otra en la casa.</p>
+  <p class="en">Diglossia is another story: one language lives at school and another at home.</p>
+</div>
+<div class="phrase">
+  <p class="es">Paraguay es <b>bilingüe</b>: dos lenguas con <b>prestigio</b> distinto.</p>
+  <p class="en">Paraguay is bilingual: two languages with different prestige.</p>
+</div>
+<div class="phrase">
+  <p class="es">En Bolivia también vive el <b>aimara</b>, y en el campo <b>madrugar</b> es normal.</p>
+  <p class="en">In Bolivia Aymara also lives on, and in the countryside getting up early is normal.</p>
+</div>
+<div class="phrase">
+  <p class="es">Quienes hablan <b>guaraní</b> viven en dos mundos, y <b>lo que</b> más me gusta es escucharlos.</p>
+  <p class="en">Those who speak Guaraní live in two worlds, and what I like most is listening to them.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>diglosia</strong> (diglossia), <strong>aimara</strong> (Aymara), <strong>bilingüe</strong> (bilingual) — from today's table.</em></p>
+
+<hr>
+<p><strong>End of Lesson 56.</strong> Next, <strong>Review B1</strong>: a cultural essay re-reading that closes the whole B1 level. No exercises — just read.</p>
+
+<p class="topnav"><a href="review-b1.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

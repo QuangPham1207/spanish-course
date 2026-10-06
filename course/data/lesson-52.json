@@ -1,0 +1,290 @@
+{
+  "lesson": 52,
+  "title": "Literature: Cervantes & Don Quijote",
+  "words": [
+    {
+      "word": "caballero",
+      "type": "n.m.",
+      "en": "knight; gentleman",
+      "note": "Un caballero andante viaja buscando aventuras. Contrast: caballo (horse).",
+      "example": { "es": "El caballero de la triste figura llegó a todas las casas.", "en": "The knight of the sorrowful face reached every home." }
+    },
+    {
+      "word": "escudero",
+      "type": "n.m.",
+      "en": "squire",
+      "note": "El ayudante del caballero. Sancho Panza, el escudero más famoso.",
+      "example": { "es": "Sancho aceptó ser su escudero a cambio de una ínsula.", "en": "Sancho agreed to be his squire in exchange for an island." }
+    },
+    {
+      "word": "molino",
+      "type": "n.m.",
+      "en": "mill, windmill",
+      "note": "Los molinos de viento de la Mancha, que tomó por gigantes.",
+      "example": { "es": "Tomó unos molinos de viento por gigantes.", "en": "He took some windmills for giants." }
+    },
+    {
+      "word": "gigante",
+      "type": "n.m./adj.",
+      "en": "giant; huge",
+      "note": "Los gigantes contra los que carga. Also adj.: un éxito gigante.",
+      "example": { "es": "Cargó contra gigantes que eran molinos.", "en": "He charged at giants that were windmills." }
+    },
+    {
+      "word": "hidalgo",
+      "type": "n.m.",
+      "en": "minor nobleman, gentleman",
+      "note": "Hijo de algo (son of something): noble pero pobre.",
+      "example": { "es": "Era un hidalgo pobre que leía libros de caballerías.", "en": "He was a poor gentleman who read books of chivalry." }
+    },
+    {
+      "word": "locura",
+      "type": "n.f.",
+      "en": "madness",
+      "note": "Family: loco → locura. Su locura es generosa y triste.",
+      "example": { "es": "Su locura convierte ventas en castillos.", "en": "His madness turns inns into castles." }
+    },
+    {
+      "word": "cordura",
+      "type": "n.f.",
+      "en": "sanity",
+      "note": "Lo contrario de locura. Al final recupera la cordura.",
+      "example": { "es": "Al final recupera la cordura y vuelve a ser Alonso.", "en": "At the end he recovers his sanity and is Alonso again." }
+    },
+    {
+      "word": "idealismo",
+      "type": "n.m.",
+      "en": "idealism",
+      "note": "Family: idea → ideal → idealismo. Querer arreglar el mundo.",
+      "example": { "es": "Su idealismo choca con un mundo injusto.", "en": "His idealism clashes with an unjust world." }
+    },
+    {
+      "word": "falso",
+      "type": "adj.",
+      "en": "false, fake",
+      "note": "Una segunda parte falsa con su personaje.",
+      "example": { "es": "Nueve años después escribió una parte falsa.", "en": "Nine years later he wrote a false part." }
+    },
+    {
+      "word": "historiador",
+      "type": "n.m.",
+      "en": "historian",
+      "note": "Cuenta lo que pasó. Dice que cuenta lo que escribió un historiador árabe.",
+      "example": { "es": "Dice que traduce a un historiador árabe.", "en": "He says he is translating an Arab historian." }
+    },
+    {
+      "word": "parodia",
+      "type": "n.f.",
+      "en": "parody",
+      "note": "Imitar un género para reírse de él con cariño.",
+      "example": { "es": "El libro es una parodia de las novelas de caballeros.", "en": "The book is a parody of knightly romances." }
+    },
+    {
+      "word": "capítulo",
+      "type": "n.m.",
+      "en": "chapter",
+      "note": "El capítulo de los molinos es el más conocido.",
+      "example": { "es": "El capítulo de los molinos es el más conocido.", "en": "The windmill chapter is the best known." }
+    },
+    {
+      "word": "novela",
+      "type": "n.f.",
+      "en": "novel",
+      "note": "El Quijote, la novela que más se ha traducido.",
+      "example": { "es": "Es la novela que más se ha traducido en el mundo.", "en": "It is the most translated novel in the world." }
+    },
+    {
+      "word": "prólogo",
+      "type": "n.m.",
+      "en": "prologue, preface",
+      "note": "El texto antes del capítulo uno. El prólogo habla al lector.",
+      "example": { "es": "El prólogo habla directamente al lector.", "en": "The prologue speaks directly to the reader." }
+    },
+    {
+      "word": "narrador",
+      "type": "n.m.",
+      "en": "narrator",
+      "note": "Quien cuenta la historia. Cervantes inventa varios narradores.",
+      "example": { "es": "El narrador dice que traduce un texto árabe.", "en": "The narrator says he is translating an Arabic text." }
+    },
+    {
+      "word": "personaje",
+      "type": "n.m.",
+      "en": "character",
+      "note": "Sancho, el personaje que más crece en el libro.",
+      "example": { "es": "Otro hombre escribió con su personaje.", "en": "Another man wrote using his character." }
+    },
+    {
+      "word": "ficción",
+      "type": "n.f.",
+      "en": "fiction",
+      "note": "Lo inventado; contrast: la realidad. La ficción juega con la vida.",
+      "example": { "es": "La ficción juega con la vida en la segunda parte.", "en": "Fiction plays with life in the second part." }
+    },
+    {
+      "word": "honra",
+      "type": "n.f.",
+      "en": "honour",
+      "note": "El valor central del hidalgo. Vivir de su honra.",
+      "example": { "es": "Dijo que un hidalgo vive de su honra.", "en": "He said a gentleman lives on his honour." }
+    },
+    {
+      "word": "linaje",
+      "type": "n.m.",
+      "en": "lineage, bloodline",
+      "note": "La familia de la que vienes. Preguntó de qué linaje era.",
+      "example": { "es": "Preguntó de qué linaje era el caballero.", "en": "He asked of what lineage the knight was." }
+    },
+    {
+      "word": "caballería",
+      "type": "n.f.",
+      "en": "chivalry, knighthood",
+      "note": "Los libros de caballerías volvieron loco a Alonso.",
+      "example": { "es": "Perdió la razón con libros de caballerías.", "en": "He lost his mind over books of chivalry." }
+    },
+    {
+      "word": "sátira",
+      "type": "n.f.",
+      "en": "satire",
+      "note": "Reírse del poder y de las modas. El libro es también sátira social.",
+      "example": { "es": "El libro es sátira social además de parodia.", "en": "The book is social satire as well as parody." }
+    },
+    {
+      "word": "ironía",
+      "type": "n.f.",
+      "en": "irony",
+      "note": "Decir lo contrario de lo que se piensa, con humor fino.",
+      "example": { "es": "Todo el libro está lleno de ironía.", "en": "The whole book is full of irony." }
+    },
+    {
+      "word": "humor",
+      "type": "n.m.",
+      "en": "humour",
+      "note": "El humor del libro: golpes, diálogos y malentendidos.",
+      "example": { "es": "El humor nace del choque entre amo y escudero.", "en": "The humour comes from the clash between master and squire." }
+    },
+    {
+      "word": "lector",
+      "type": "n.m./f.",
+      "en": "reader",
+      "note": "Desocupado lector: así empieza el prólogo.",
+      "example": { "es": "Cervantes juega con el lector en cada página.", "en": "Cervantes plays with the reader on every page." }
+    },
+    {
+      "word": "rebaño",
+      "type": "n.m.",
+      "en": "flock, herd",
+      "note": "Un grupo de ovejas; Quijote ve ejércitos donde hay rebaños.",
+      "example": { "es": "El rebaño cruza la sierra al amanecer.", "en": "The flock crosses the mountains at dawn." }
+    },
+    {
+      "word": "yelmo",
+      "type": "n.m.",
+      "en": "helmet",
+      "note": "El yelmo de Mambrino, que era un plato de barbero.",
+      "example": { "es": "Su yelmo era un simple plato de barbero.", "en": "His helmet was a mere barber's basin." }
+    },
+    {
+      "word": "lanza",
+      "type": "n.f.",
+      "en": "lance, spear",
+      "note": "El arma larga del caballero. Fue contra ellos con su lanza.",
+      "example": { "es": "Fue contra ellos con su lanza.", "en": "He went at them with his lance." }
+    },
+    {
+      "word": "armadura",
+      "type": "n.f.",
+      "en": "armour",
+      "note": "Hierro que protege al caballero. Se hizo una armadura con cartón.",
+      "example": { "es": "Se hizo una armadura con cartón viejo.", "en": "He made himself armour out of old cardboard." }
+    },
+    {
+      "word": "escudo",
+      "type": "n.m.",
+      "en": "shield",
+      "note": "Para defenderse. Lanza y escudo, las armas del caballero.",
+      "example": { "es": "Llevaba lanza y escudo como un héroe antiguo.", "en": "He carried lance and shield like an ancient hero." }
+    },
+    {
+      "word": "venta",
+      "type": "n.f.",
+      "en": "roadside inn",
+      "note": "Posada pobre del camino; Quijote la ve como castillo.",
+      "example": { "es": "Pasaron la noche en una venta del camino.", "en": "They spent the night in a roadside inn." }
+    },
+    {
+      "word": "hazaña",
+      "type": "n.f.",
+      "en": "feat, heroic deed",
+      "note": "Lo que el caballero sueña hacer. Soñaba con hazañas.",
+      "example": { "es": "Soñaba con hazañas que cantaran los poetas.", "en": "He dreamed of feats for poets to sing." }
+    },
+    {
+      "word": "imprenta",
+      "type": "n.f.",
+      "en": "printing press; print shop",
+      "note": "La primera parte salió de la imprenta en 1605.",
+      "example": { "es": "La primera parte salió de la imprenta en 1605.", "en": "The first part came off the press in 1605." }
+    },
+    {
+      "word": "edición",
+      "type": "n.f.",
+      "en": "edition",
+      "note": "Family: editar → edición. De la primera edición no quedó ni un libro.",
+      "example": { "es": "De la primera edición no quedó ni un libro.", "en": "Not a single book was left of the first edition." }
+    },
+    {
+      "word": "barbero",
+      "type": "n.m.",
+      "en": "barber",
+      "note": "El barbero del pueblo; su plato sirve de yelmo.",
+      "example": { "es": "El barbero prestó su plato sin saberlo.", "en": "The barber lent his basin without knowing it." }
+    },
+    {
+      "word": "gobernar",
+      "type": "v.",
+      "en": "to govern, to rule",
+      "note": "Sancho llegó a gobernar de verdad en la ínsula.",
+      "example": { "es": "Sancho llegó a gobernar de verdad.", "en": "Sancho actually came to govern." }
+    },
+    {
+      "word": "dama",
+      "type": "n.f.",
+      "en": "lady",
+      "note": "Su dama ideal: Dulcinea del Toboso.",
+      "example": { "es": "Su dama era una campesina llamada Aldonza.", "en": "His lady was a peasant woman called Aldonza." }
+    },
+    {
+      "word": "quijotesco",
+      "type": "adj.",
+      "en": "quixotic",
+      "note": "Noble y loco a la vez, como don Quijote.",
+      "ext": true,
+      "example": { "es": "Su aventura fue quijotesca: triste y divertida.", "en": "His adventure was quixotic: sad and funny." }
+    },
+    {
+      "word": "ínsula",
+      "type": "n.f.",
+      "en": "isle (literary)",
+      "note": "Isla en lengua antigua; la ínsula Barataria de Sancho.",
+      "ext": true,
+      "example": { "es": "Le prometió el gobierno de una ínsula.", "en": "He promised him the governorship of an isle." }
+    },
+    {
+      "word": "ventero",
+      "type": "n.m.",
+      "en": "innkeeper",
+      "note": "El dueño de la venta. El ventero le dio la mejor cama.",
+      "ext": true,
+      "example": { "es": "El ventero le dio la mejor cama.", "en": "The innkeeper gave him the best bed." }
+    },
+    {
+      "word": "manchego",
+      "type": "adj.",
+      "en": "from La Mancha",
+      "note": "El hidalgo manchego; also the famous cheese (queso manchego).",
+      "ext": true,
+      "example": { "es": "Era un hidalgo manchego de pueblo pequeño.", "en": "He was a Manchegan gentleman from a small town." }
+    }
+  ]
+}

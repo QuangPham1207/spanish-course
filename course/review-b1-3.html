@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Review B1-3 — A history feature</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-50.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>REVIEW B1-3 — A HISTORY FEATURE</h1>
+  <p class="lead">This is a <strong>re-reading</strong> lesson, not a test. There are no exercises and nothing to send. Read the two short texts and notice how much you already recognise.</p>
+  <div class="obj">
+    <strong>What this review re-reads:</strong>
+    <ul>
+      <li><strong>Lesson 45</strong> — Al-Ándalus &amp; medieval Spain (pluperfect timeline, relative clauses).</li>
+      <li><strong>Lesson 46</strong> — 1492: the fall of Granada, the expulsion, Columbus (passive <span class="es">ser/se</span>, <span class="es">por/para</span>).</li>
+      <li><strong>Lesson 47</strong> — Conquest &amp; colonial Latin America (reported speech, <span class="es">lo que/quienes</span>).</li>
+      <li><strong>Lesson 48</strong> — Independence: Bolívar, San Martín, Hidalgo (conditional, periphrases).</li>
+      <li><strong>Lesson 49</strong> — Civil War &amp; Franco (subjunctive in adverbial clauses).</li>
+      <li><strong>Lesson 50</strong> — Revolutions &amp; dictatorships (conditional perfect, passive).</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Almost every word here comes from Lessons 45-50.</b> A few extra, very common words appear in context (listed after the texts). No need to memorise anything &mdash; re-reading is exactly how it settles in.
+  </p>
+</header>
+
+<h2>READING 1 — FEATURE (MIL AÑOS EN UNA CIUDAD)</h2>
+<p><strong>Context:</strong> A magazine feature walks through Córdoba, Granada and Seville in a single day — a thousand years of history in three stops. Read it from top to bottom &mdash; the English below is only a check.</p>
+
+<div class="phrase">
+  <p class="es">La <b>mezquita</b> que el <b>emir</b> <b>había construido</b> sigue en pie, y los <b>traductores</b> que <b>tradujeron</b> sus libros <b>fueron recordados</b> en cada universidad.</p>
+  <p class="en">The mosque the emir had built still stands, and the translators who translated its books are remembered in every university.</p>
+</div>
+<div class="phrase">
+  <p class="es">Aquella <b>convivencia</b> de <b>musulmanes</b> y <b>cristianos</b> produjo un <b>legado</b> que ningún <b>decreto</b> pudo borrar.</p>
+  <p class="en">That coexistence of Muslims and Christians produced a legacy that no decree could erase.</p>
+</div>
+<div class="phrase">
+  <p class="es">En 1492 Granada <b>fue tomada</b> <b>por</b> los <b>reyes</b>, y los <b>judíos</b> <b>fueron expulsados</b> <b>para</b> siempre de los <b>puertos</b> de Andalucía.</p>
+  <p class="en">In 1492 Granada was taken by the monarchs, and the Jews were expelled forever from the ports of Andalusia.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>oro</b> y la <b>plata</b> que llegaron después <b>fueron contados</b> en <b>cofres</b>, y los cronistas dijeron que la <b>conquista</b> <b>había costado</b> más de lo que valía.</p>
+  <p class="en">The gold and silver that arrived afterwards were counted in chests, and the chroniclers said the conquest had cost more than it was worth.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Lo que</b> queda de aquel mundo <b>mestizo</b> son <b>palacios</b>, <b>templos</b> y una <b>herencia</b> que América aún discute.</p>
+  <p class="en">What remains of that mestizo world are palaces, temples and a heritage America still debates.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>virreyes</b> cobraban el <b>tributo</b> y firmaban <b>tratados</b>, mientras <b>quienes</b> trabajaban en la <b>mina</b> morían sin dejar <b>testimonio</b>.</p>
+  <p class="en">The viceroys collected tribute and signed treaties, while those who worked in the mine died without leaving testimony.</p>
+</div>
+
+<h2>READING 2 — FEATURE (DEL GRITO A LAS MADRES)</h2>
+<p><strong>Context:</strong> The second half of the feature: from Hidalgo's bell to the mothers of the disappeared. Read it quietly:</p>
+
+<div class="phrase">
+  <p class="es">El cura Hidalgo tocó la <b>campana</b> <b>para que</b> el pueblo despertara, y los <b>insurgentes</b> <b>siguieron</b> marchando pueblo tras pueblo.</p>
+  <p class="en">The priest Hidalgo rang the bell so the people would wake, and the insurgents kept marching town after town.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si los <b>libertadores</b> se hubieran puesto de acuerdo en Guayaquil, la <b>independencia</b> <b>habría costado</b> menos sangre.</p>
+  <p class="en">If the liberators had agreed in Guayaquil, independence would have cost less blood.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un siglo después, el <b>golpe</b> de 1936 dividió España en dos <b>bandos</b>, y el <b>bombardeo</b> de Guernica <b>fue condenado</b> en todo el mundo.</p>
+  <p class="en">A century later, the 1936 coup divided Spain into two sides, and the bombing of Guernica was condemned worldwide.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>exiliados</b> escribían <b>para que</b> sus familias supieran que vivían, <b>antes de que</b> la <b>censura</b> cerrara cada carta.</p>
+  <p class="en">The exiles wrote so their families would know they were alive, before censorship closed every letter.</p>
+</div>
+<div class="phrase">
+  <p class="es">Las <b>dictaduras</b> que siguieron <b>fueron denunciadas</b> por las <b>madres</b> de los <b>desaparecidos</b>, cuya <b>marcha</b> <b>habría avergonzado</b> a cualquier <b>tribunal</b>.</p>
+  <p class="en">The dictatorships that followed were denounced by the mothers of the disappeared, whose march would have shamed any court.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Sin que</b> nadie les pagara, los <b>militantes</b> reunían <b>testimonios</b> en cada <b>asamblea</b>, y cada <b>aniversario</b> se lee una <b>biografía</b> nueva.</p>
+  <p class="en">Without anyone paying them, the militants gathered testimonies in every assembly, and each anniversary a new biography is read.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>memoria</b>, dicen, es la única <b>victoria</b> segura: cada <b>huelga</b>, cada <b>protesta</b> y cada <b>manifestación</b> la mantienen viva.</p>
+  <p class="en">Memory, they say, is the only certain victory: every strike, every protest and every demonstration keeps it alive.</p>
+</div>
+
+<p class="lead"><strong>A few new words in these texts (read them once, no need to memorise):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">matanza</span></td><td data-label="Type">n.f.</td><td data-label="English">massacre, slaughter</td><td data-label="Notes">reprimida con una matanza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">borrar</span></td><td data-label="Type">v.</td><td data-label="English">to erase</td><td data-label="Notes">ningún decreto pudo borrar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">denunciar</span></td><td data-label="Type">v.</td><td data-label="English">to denounce</td><td data-label="Notes">fueron denunciadas por las madres.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">condenar</span></td><td data-label="Type">v.</td><td data-label="English">to condemn</td><td data-label="Notes">fue condenado en todo el mundo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ponerse de acuerdo</span></td><td data-label="Type">phr.</td><td data-label="English">to reach agreement</td><td data-label="Notes">si se hubieran puesto de acuerdo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">seguir en pie</span></td><td data-label="Type">phr.</td><td data-label="English">to still stand</td><td data-label="Notes">sigue en pie = it still stands.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Register note:</strong> a <em>history feature</em> mixes every grammar you own: the pluperfect orders the centuries (<span class="es">había construido</span>), the passive reports events (<span class="es">fue tomada</span>), reported speech quotes the chronicles (<span class="es">dijeron que había costado</span>), and the conditional imagines what-ifs (<span class="es">habría costado</span>). You are now reading all of it at once.</div>
+
+<hr>
+
+<h2>THE SENTENCES, BROKEN INTO PATTERNS</h2>
+<p>Re-read these mini-groups. Each one is a pattern you can reuse forever.</p>
+
+<h3>Pluperfect &amp; relatives (L45)</h3>
+<ul>
+  <li class="ex"><span class="es">La mezquita que el emir había construido sigue en pie.</span><span class="en">The mosque the emir had built still stands.</span></li>
+  <li class="ex"><span class="es">Sabios cuyas obras se leerían durante siglos.</span><span class="en">Scholars whose works would be read for centuries.</span></li>
+</ul>
+
+<h3>Passive ser/se &amp; por/para (L46)</h3>
+<ul>
+  <li class="ex"><span class="es">Granada fue tomada por los reyes.</span><span class="en">Granada was taken by the monarchs.</span></li>
+  <li class="ex"><span class="es">Fueron expulsados para siempre de los puertos.</span><span class="en">They were expelled forever from the ports.</span></li>
+  <li class="ex"><span class="es">Se firmó el decreto en marzo.</span><span class="en">The decree was signed in March.</span></li>
+</ul>
+
+<h3>Reported speech &amp; lo que/quienes (L47)</h3>
+<ul>
+  <li class="ex"><span class="es">Dijeron que la conquista había costado más de lo que valía.</span><span class="en">They said the conquest had cost more than it was worth.</span></li>
+  <li class="ex"><span class="es">Lo que queda son palacios y una herencia mezclada.</span><span class="en">What remains are palaces and a mixed heritage.</span></li>
+  <li class="ex"><span class="es">Quienes trabajaban en la mina morían sin dejar testimonio.</span><span class="en">Those who worked in the mine died without leaving testimony.</span></li>
+</ul>
+
+<h3>Conditional &amp; periphrases (L48)</h3>
+<ul>
+  <li class="ex"><span class="es">La victoria sería de los pueblos libres.</span><span class="en">Victory would belong to the free peoples.</span></li>
+  <li class="ex"><span class="es">San Martín acababa de liberar Lima.</span><span class="en">San Martín had just liberated Lima.</span></li>
+  <li class="ex"><span class="es">Los insurgentes siguieron marchando.</span><span class="en">The insurgents kept marching.</span></li>
+</ul>
+
+<h3>Subjunctive adverbials (L49)</h3>
+<ul>
+  <li class="ex"><span class="es">Tocó la campana para que el pueblo despertara.</span><span class="en">He rang the bell so the people would wake.</span></li>
+  <li class="ex"><span class="es">Escribían antes de que la censura cerrara cada carta.</span><span class="en">They wrote before censorship closed every letter.</span></li>
+  <li class="ex"><span class="es">Sin que nadie les pagara, reunían testimonios.</span><span class="en">Without anyone paying them, they gathered testimonies.</span></li>
+</ul>
+
+<h3>Conditional perfect &amp; passive (L50)</h3>
+<ul>
+  <li class="ex"><span class="es">La independencia habría costado menos sangre.</span><span class="en">Independence would have cost less blood.</span></li>
+  <li class="ex"><span class="es">Su marcha habría avergonzado a cualquier tribunal.</span><span class="en">Their march would have shamed any court.</span></li>
+  <li class="ex"><span class="es">Las dictaduras fueron denunciadas por las madres.</span><span class="en">The dictatorships were denounced by the mothers.</span></li>
+</ul>
+
+<div class="warn">⚠️ <strong>One last reminder:</strong> the only thing a review asks is that you read. No writing, no exercises, no memorising. If a sentence felt easy today, that is progress.</div>
+
+<hr>
+
+<h2>VOCABULARY RECAP TABLE (RE-READ, DON'T MEMORISE)</h2>
+<p>These are some core words from Lessons 45 to 50. Skim them; the ones you know will feel instant.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>English</th><th>Spanish</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">mezquita</span></td><td data-label="English">mosque</td><td data-label="Spanish2"><span class="es">califato</span></td><td data-label="English2">caliphate</td></tr>
+    <tr><td data-label="Spanish"><span class="es">convivencia</span></td><td data-label="English">coexistence</td><td data-label="Spanish2"><span class="es">manuscrito</span></td><td data-label="English2">manuscript</td></tr>
+    <tr><td data-label="Spanish"><span class="es">traductor</span></td><td data-label="English">translator</td><td data-label="Spanish2"><span class="es">legado</span></td><td data-label="English2">legacy</td></tr>
+    <tr><td data-label="Spanish"><span class="es">acequia</span></td><td data-label="English">irrigation channel</td><td data-label="Spanish2"><span class="es">zoco</span></td><td data-label="English2">souk, market</td></tr>
+    <tr><td data-label="Spanish"><span class="es">conquistar</span></td><td data-label="English">to conquer</td><td data-label="Spanish2"><span class="es">reino</span></td><td data-label="English2">kingdom</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reconquista</span></td><td data-label="English">Reconquista</td><td data-label="Spanish2"><span class="es">decreto</span></td><td data-label="English2">decree</td></tr>
+    <tr><td data-label="Spanish"><span class="es">expulsar</span></td><td data-label="English">to expel</td><td data-label="Spanish2"><span class="es">carabela</span></td><td data-label="English2">caravel</td></tr>
+    <tr><td data-label="Spanish"><span class="es">travesía</span></td><td data-label="English">crossing, voyage</td><td data-label="Spanish2"><span class="es">tratado</span></td><td data-label="English2">treaty</td></tr>
+    <tr><td data-label="Spanish"><span class="es">oro</span></td><td data-label="English">gold</td><td data-label="Spanish2"><span class="es">especias</span></td><td data-label="English2">spices</td></tr>
+    <tr><td data-label="Spanish"><span class="es">conquista</span></td><td data-label="English">conquest</td><td data-label="Spanish2"><span class="es">virrey</span></td><td data-label="English2">viceroy</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tributo</span></td><td data-label="English">tribute</td><td data-label="Spanish2"><span class="es">mina</span></td><td data-label="English2">mine</td></tr>
+    <tr><td data-label="Spanish"><span class="es">plata</span></td><td data-label="English">silver</td><td data-label="Spanish2"><span class="es">galeón</span></td><td data-label="English2">galleon</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hacienda</span></td><td data-label="English">hacienda, estate</td><td data-label="Spanish2"><span class="es">mestizo</span></td><td data-label="English2">mestizo, mixed</td></tr>
+    <tr><td data-label="Spanish"><span class="es">herencia</span></td><td data-label="English">heritage</td><td data-label="Spanish2"><span class="es">impuesto</span></td><td data-label="English2">tax</td></tr>
+    <tr><td data-label="Spanish"><span class="es">independencia</span></td><td data-label="English">independence</td><td data-label="Spanish2"><span class="es">criollo</span></td><td data-label="English2">criollo</td></tr>
+    <tr><td data-label="Spanish"><span class="es">libertador</span></td><td data-label="English">liberator</td><td data-label="Spanish2"><span class="es">campana</span></td><td data-label="English2">bell</td></tr>
+    <tr><td data-label="Spanish"><span class="es">constitución</span></td><td data-label="English">constitution</td><td data-label="Spanish2"><span class="es">derrota</span></td><td data-label="English2">defeat</td></tr>
+    <tr><td data-label="Spanish"><span class="es">victoria</span></td><td data-label="English">victory</td><td data-label="Spanish2"><span class="es">caudillo</span></td><td data-label="English2">caudillo, strongman</td></tr>
+    <tr><td data-label="Spanish"><span class="es">golpe</span></td><td data-label="English">coup</td><td data-label="Spanish2"><span class="es">bando</span></td><td data-label="English2">side (in war)</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bombardeo</span></td><td data-label="English">bombing</td><td data-label="Spanish2"><span class="es">exilio</span></td><td data-label="English2">exile</td></tr>
+    <tr><td data-label="Spanish"><span class="es">censura</span></td><td data-label="English">censorship</td><td data-label="Spanish2"><span class="es">memoria</span></td><td data-label="English2">memory</td></tr>
+    <tr><td data-label="Spanish"><span class="es">huelga</span></td><td data-label="English">strike</td><td data-label="Spanish2"><span class="es">régimen</span></td><td data-label="English2">regime</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dictadura</span></td><td data-label="English">dictatorship</td><td data-label="Spanish2"><span class="es">guerrilla</span></td><td data-label="English2">guerrilla</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desaparecido</span></td><td data-label="English">disappeared person</td><td data-label="Spanish2"><span class="es">fraude</span></td><td data-label="English2">fraud</td></tr>
+    <tr><td data-label="Spanish"><span class="es">madres</span></td><td data-label="English">mothers (Plaza de Mayo)</td><td data-label="Spanish2"><span class="es">testimonio</span></td><td data-label="English2">testimony</td></tr>
+    <tr><td data-label="Spanish"><span class="es">protesta</span></td><td data-label="English">protest</td><td data-label="Spanish2"><span class="es">marcha</span></td><td data-label="English2">march</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+<p><strong>End of Review B1-3.</strong> Module B1-3 is complete — from Córdoba to the Madres de la Plaza. Next up, <strong>Module B1-4</strong> begins with <strong>Lesson 51</strong>: art — Velázquez, Goya, Picasso, Kahlo, Rivera. There is no homework &mdash; just read.</p>
+
+<p class="topnav"><a href="../index.html">Home</a></p>
+
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

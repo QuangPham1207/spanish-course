@@ -1,0 +1,379 @@
+{
+  "lesson": 50,
+  "title": "20th-century Latin America: revolutions & dictatorships",
+  "words": [
+    {
+      "en": "dictatorship",
+      "example": {
+        "en": "The 1976 dictatorship set up centres.",
+        "es": "La dictadura de 1976 instaló centros."
+      },
+      "note": "La dictadura de 1976.",
+      "type": "n.f.",
+      "word": "dictadura"
+    },
+    {
+      "en": "guerrilla (warfare; fighters)",
+      "example": {
+        "en": "They said they fought the guerrilla.",
+        "es": "Decían que combatían a la guerrilla."
+      },
+      "note": "Combatían a la guerrilla.",
+      "type": "n.f.",
+      "word": "guerrilla"
+    },
+    {
+      "en": "militant, activist",
+      "example": {
+        "en": "The militants said fraud was open.",
+        "es": "Los militantes decían que el fraude era abierto."
+      },
+      "note": "Los militantes decían.",
+      "type": "n./adj.",
+      "word": "militante"
+    },
+    {
+      "en": "clandestine, underground",
+      "example": {
+        "en": "Clandestine centres.",
+        "es": "Centros clandestinos."
+      },
+      "note": "Centros clandestinos.",
+      "type": "adj.",
+      "word": "clandestino/a"
+    },
+    {
+      "en": "disappearance",
+      "example": {
+        "en": "Disappearance was the method.",
+        "es": "La desaparición era el método."
+      },
+      "note": "La desaparición era el método.",
+      "type": "n.f.",
+      "word": "desaparición"
+    },
+    {
+      "en": "disappeared person; disappeared",
+      "example": {
+        "en": "The mothers of the disappeared.",
+        "es": "Las madres de los desaparecidos."
+      },
+      "note": "Las madres de los desaparecidos.",
+      "type": "n./adj.",
+      "word": "desaparecido/a"
+    },
+    {
+      "en": "torture",
+      "example": {
+        "en": "Torture was routine.",
+        "es": "La tortura era rutina."
+      },
+      "note": "La tortura era rutina.",
+      "type": "n.f.",
+      "word": "tortura"
+    },
+    {
+      "en": "coup plotter, putschist",
+      "example": {
+        "en": "The coup-makers said.",
+        "es": "Los golpistas decían."
+      },
+      "note": "Los golpistas decían.",
+      "type": "n./adj.",
+      "word": "golpista"
+    },
+    {
+      "en": "fraud",
+      "example": {
+        "en": "Fraud was so open.",
+        "es": "El fraude era tan abierto."
+      },
+      "note": "El fraude era tan abierto.",
+      "type": "n.m.",
+      "word": "fraude"
+    },
+    {
+      "en": "elections",
+      "example": {
+        "en": "Elections every six years.",
+        "es": "Elecciones cada seis años."
+      },
+      "note": "Usually plural.",
+      "type": "n.f. pl.",
+      "word": "elecciones"
+    },
+    {
+      "en": "vote, voting",
+      "example": {
+        "en": "Winning every vote.",
+        "es": "Ganando cada votación."
+      },
+      "note": "Cada votación.",
+      "type": "n.f.",
+      "word": "votación"
+    },
+    {
+      "en": "president",
+      "example": {
+        "en": "The president was already chosen.",
+        "es": "El presidente ya estaba elegido."
+      },
+      "note": "Ya estaba elegido.",
+      "type": "n.",
+      "word": "presidente/a"
+    },
+    {
+      "en": "neoliberal",
+      "example": {
+        "en": "The neoliberal reforms of the nineties.",
+        "es": "Las reformas neoliberales de los noventa."
+      },
+      "note": "Economic term (advanced use).",
+      "type": "adj.",
+      "word": "neoliberal"
+    },
+    {
+      "en": "mothers (here: the Madres de Plaza de Mayo)",
+      "example": {
+        "en": "The mothers began circling the square.",
+        "es": "Las madres empezaron a dar vueltas."
+      },
+      "note": "Las madres de los desaparecidos.",
+      "type": "n.f. pl.",
+      "word": "madres"
+    },
+    {
+      "en": "testimony",
+      "example": {
+        "en": "They gathered testimonies.",
+        "es": "Reunían testimonios."
+      },
+      "note": "Reunían testimonios.",
+      "type": "n.m.",
+      "word": "testimonio"
+    },
+    {
+      "en": "anniversary",
+      "example": {
+        "en": "Each anniversary a biography is read.",
+        "es": "Cada aniversario se lee una biografía."
+      },
+      "note": "Cada aniversario.",
+      "type": "n.m.",
+      "word": "aniversario"
+    },
+    {
+      "en": "biography",
+      "example": {
+        "en": "His biography is read in schools.",
+        "es": "Su biografía se lee en las escuelas."
+      },
+      "note": "Se lee en las escuelas.",
+      "type": "n.f.",
+      "word": "biografía"
+    },
+    {
+      "en": "autonomy",
+      "example": {
+        "en": "Provinces demanding autonomy.",
+        "es": "Provincias que piden autonomía."
+      },
+      "note": "Piden autonomía.",
+      "type": "n.f.",
+      "word": "autonomía"
+    },
+    {
+      "en": "peasant; rural",
+      "example": {
+        "en": "Peasants demanded reform.",
+        "es": "Los campesinos pedían la reforma."
+      },
+      "note": "Los campesinos.",
+      "type": "n./adj.",
+      "word": "campesino/a"
+    },
+    {
+      "en": "worker; working-class",
+      "example": {
+        "en": "Workers organized the strike.",
+        "es": "Los obreros organizaban el paro."
+      },
+      "note": "Los obreros.",
+      "type": "n./adj.",
+      "word": "obrero/a"
+    },
+    {
+      "en": "reform",
+      "example": {
+        "en": "Agrarian reform.",
+        "es": "La reforma agraria."
+      },
+      "note": "La reforma agraria.",
+      "type": "n.f.",
+      "word": "reforma"
+    },
+    {
+      "en": "federal",
+      "example": {
+        "en": "The federal government argues.",
+        "es": "Los federales discuten."
+      },
+      "note": "Los federales.",
+      "type": "adj.",
+      "word": "federal"
+    },
+    {
+      "en": "desert",
+      "example": {
+        "en": "The Atacama desert.",
+        "es": "El desierto de Atacama."
+      },
+      "note": "El desierto de Atacama.",
+      "type": "n.m.",
+      "word": "desierto"
+    },
+    {
+      "en": "isthmus",
+      "example": {
+        "en": "The Central American isthmus.",
+        "es": "El istmo centroamericano."
+      },
+      "note": "El istmo centroamericano.",
+      "type": "n.m.",
+      "word": "istmo"
+    },
+    {
+      "en": "murga (carnival street band)",
+      "example": {
+        "en": "The murga sings what was silenced.",
+        "es": "La murga canta lo silenciado."
+      },
+      "note": "Río de la Plata tradition.",
+      "type": "n.f.",
+      "word": "murga"
+    },
+    {
+      "en": "demonstration, march",
+      "example": {
+        "en": "A peaceful demonstration.",
+        "es": "Una manifestación pacífica."
+      },
+      "note": "Una manifestación pacífica.",
+      "type": "n.f.",
+      "word": "manifestación"
+    },
+    {
+      "en": "protest",
+      "example": {
+        "en": "The protest was crushed.",
+        "es": "La protesta fue reprimida."
+      },
+      "note": "La protesta fue reprimida.",
+      "type": "n.f.",
+      "word": "protesta"
+    },
+    {
+      "en": "march",
+      "example": {
+        "en": "Their silent march.",
+        "es": "Su marcha silenciosa."
+      },
+      "note": "Su marcha silenciosa.",
+      "type": "n.f.",
+      "word": "marcha"
+    },
+    {
+      "en": "strike, stoppage",
+      "example": {
+        "en": "The general strike.",
+        "es": "El paro general."
+      },
+      "note": "In Spain el paro = unemployment.",
+      "type": "n.m.",
+      "word": "paro"
+    },
+    {
+      "en": "assembly",
+      "example": {
+        "en": "Every neighbourhood assembly.",
+        "es": "Cada asamblea barrial."
+      },
+      "note": "Cada asamblea barrial.",
+      "type": "n.f.",
+      "word": "asamblea"
+    },
+    {
+      "en": "embassy",
+      "example": {
+        "en": "Asylum in every embassy.",
+        "es": "Asilo en cada embajada."
+      },
+      "note": "En cada embajada.",
+      "type": "n.f.",
+      "word": "embajada"
+    },
+    {
+      "en": "asylum",
+      "example": {
+        "en": "They sought asylum.",
+        "es": "Pedían asilo."
+      },
+      "note": "Pedían asilo.",
+      "type": "n.m.",
+      "word": "asilo"
+    },
+    {
+      "en": "court, tribunal",
+      "example": {
+        "en": "Would have shamed any court.",
+        "es": "Habría avergonzado a cualquier tribunal."
+      },
+      "note": "Cualquier tribunal.",
+      "type": "n.m.",
+      "word": "tribunal"
+    },
+    {
+      "en": "network (radio/TV); chain",
+      "example": {
+        "en": "Every foreign radio network.",
+        "es": "Cada cadena de radio extranjera."
+      },
+      "note": "Cada cadena de radio.",
+      "type": "n.f.",
+      "word": "cadena"
+    },
+    {
+      "en": "microphone",
+      "example": {
+        "en": "They sing into the microphone.",
+        "es": "Cantan ante el micrófono."
+      },
+      "ext": true,
+      "note": "Hablar ante el micrófono.",
+      "type": "n.m.",
+      "word": "micrófono"
+    },
+    {
+      "en": "radio (medium; set)",
+      "example": {
+        "en": "Local radio broadcasts the tribute.",
+        "es": "La radio local transmite el homenaje."
+      },
+      "ext": true,
+      "note": "La radio; el radio (device, LatAm).",
+      "type": "n.f./m.",
+      "word": "radio"
+    },
+    {
+      "en": "stadium",
+      "example": {
+        "en": "He sang in stadiums.",
+        "es": "Cantaba en estadios."
+      },
+      "ext": true,
+      "note": "Cantaba en estadios.",
+      "type": "n.m.",
+      "word": "estadio"
+    }
+  ]
+}

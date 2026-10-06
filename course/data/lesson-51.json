@@ -1,0 +1,282 @@
+{
+  "lesson": 51,
+  "title": "Art: Velázquez, Goya, Picasso, Kahlo, Rivera",
+  "words": [
+    {
+      "word": "cuadro",
+      "type": "n.m.",
+      "en": "painting, picture",
+      "note": "Un cuadro cuelga en la pared. Family: cuadro → encuadrar.",
+      "example": { "es": "Las Meninas es el cuadro más famoso del Prado.", "en": "Las Meninas is the most famous painting in the Prado." }
+    },
+    {
+      "word": "lienzo",
+      "type": "n.m.",
+      "en": "canvas",
+      "note": "La tela sobre la que se pinta; also the finished painting.",
+      "example": { "es": "El Guernica es un lienzo enorme de casi ocho metros.", "en": "Guernica is an enormous canvas almost eight metres wide." }
+    },
+    {
+      "word": "pincel",
+      "type": "n.m.",
+      "en": "paintbrush",
+      "note": "Velázquez aparece con el pincel en la mano.",
+      "example": { "es": "El pintor dejó el pincel y miró el lienzo.", "en": "The painter put down his brush and looked at the canvas." }
+    },
+    {
+      "word": "pincelada",
+      "type": "n.f.",
+      "en": "brushstroke",
+      "note": "Family: pincel → pincelada. Las pinceladas sueltas de Goya.",
+      "example": { "es": "De cerca solo se ven manchas y pinceladas.", "en": "Up close you only see stains and brushstrokes." }
+    },
+    {
+      "word": "retrato",
+      "type": "n.m.",
+      "en": "portrait",
+      "note": "Family: retrato → retratar. Un retrato muestra a una persona.",
+      "example": { "es": "Goya pintó retratos de reyes y de amigos.", "en": "Goya painted portraits of kings and of friends." }
+    },
+    {
+      "word": "autorretrato",
+      "type": "n.m.",
+      "en": "self-portrait",
+      "note": "auto- (self) + retrato. Kahlo pintó decenas de autorretratos.",
+      "example": { "es": "Sus autorretratos muestran su dolor sin miedo.", "en": "Her self-portraits show her pain without fear." }
+    },
+    {
+      "word": "bodegón",
+      "type": "n.m.",
+      "en": "still life (esp. with food)",
+      "note": "De joven, Velázquez pintó bodegones: cocinas y comida.",
+      "example": { "es": "De joven pintó bodegones con pan y huevos.", "en": "As a young man he painted still lifes with bread and eggs." }
+    },
+    {
+      "word": "óleo",
+      "type": "n.m.",
+      "en": "oil painting, oil (paint)",
+      "note": "Un óleo sobre lienzo. Contrast: acuarela.",
+      "example": { "es": "Es un óleo sobre lienzo de 1656.", "en": "It is an oil on canvas from 1656." }
+    },
+    {
+      "word": "acuarela",
+      "type": "n.f.",
+      "en": "watercolour",
+      "note": "Pintura con agua; colores suaves y transparentes.",
+      "example": { "es": "Rivera empezó con dibujos y acuarelas.", "en": "Rivera started with drawings and watercolours." }
+    },
+    {
+      "word": "escultura",
+      "type": "n.f.",
+      "en": "sculpture",
+      "note": "Arte en tres dimensiones; el escultor la crea.",
+      "example": { "es": "El museo tiene pintura y escultura.", "en": "The museum has painting and sculpture." }
+    },
+    {
+      "word": "muralista",
+      "type": "n.",
+      "en": "mural painter",
+      "note": "Rivera fue el gran muralista mexicano.",
+      "example": { "es": "Rivera fue el muralista del pueblo mexicano.", "en": "Rivera was the mural painter of the Mexican people." }
+    },
+    {
+      "word": "muralismo",
+      "type": "n.m.",
+      "en": "muralism (movement)",
+      "note": "Family: muro → mural → muralismo. Arte público en paredes.",
+      "example": { "es": "El muralismo llevó el arte a la calle.", "en": "Muralism took art out into the street." }
+    },
+    {
+      "word": "paleta",
+      "type": "n.f.",
+      "en": "palette (colours / board)",
+      "note": "La gama de colores de un pintor; also the board itself.",
+      "example": { "es": "Goya pasó a una paleta oscura, casi negra.", "en": "Goya moved to a dark palette, almost black." }
+    },
+    {
+      "word": "mecenas",
+      "type": "n.",
+      "en": "patron (of the arts)",
+      "note": "Quien paga y protege a un artista. El rey fue su mecenas.",
+      "example": { "es": "El rey fue su mecenas durante cuarenta años.", "en": "The king was his patron for forty years." }
+    },
+    {
+      "word": "obra",
+      "type": "n.f.",
+      "en": "work (of art)",
+      "note": "Una obra maestra = a masterpiece. Su obra más conocida.",
+      "example": { "es": "El Tres de mayo es su obra más conocida.", "en": "The Third of May is his best-known work." }
+    },
+    {
+      "word": "maestro",
+      "type": "n.m.",
+      "en": "master (artist)",
+      "note": "Un gran pintor; also teacher. El maestro sevillano.",
+      "example": { "es": "Picasso admiraba al maestro sevillano.", "en": "Picasso admired the Sevillian master." }
+    },
+    {
+      "word": "mirada",
+      "type": "n.f.",
+      "en": "gaze, look",
+      "note": "Family: mirar → mirada. Su mirada sigue fuerte.",
+      "example": { "es": "Su mirada no pide compasión.", "en": "Her gaze asks for no pity." }
+    },
+    {
+      "word": "fondo",
+      "type": "n.m.",
+      "en": "background",
+      "note": "Lo que está detrás; contrast: primer plano.",
+      "example": { "es": "La familia real observa desde el fondo.", "en": "The royal family watches from the background." }
+    },
+    {
+      "word": "sala",
+      "type": "n.f.",
+      "en": "hall, gallery room",
+      "note": "Una sala del museo; also cinema hall (L54).",
+      "example": { "es": "La sala del Guernica siempre está llena.", "en": "The Guernica room is always full." }
+    },
+    {
+      "word": "pared",
+      "type": "n.f.",
+      "en": "wall (indoor)",
+      "note": "Pared (inside) vs muro (outside, thick). Llenó las paredes de pesadillas.",
+      "example": { "es": "Pintó pesadillas en las paredes de su casa.", "en": "He painted nightmares on the walls of his house." }
+    },
+    {
+      "word": "luz",
+      "type": "n.f.",
+      "en": "light",
+      "note": "Feminine: la luz. Jugar con la luz y la sombra.",
+      "example": { "es": "El claroscuro juega con la luz y la sombra.", "en": "Chiaroscuro plays with light and shade." }
+    },
+    {
+      "word": "toro",
+      "type": "n.m.",
+      "en": "bull",
+      "note": "El toro del Guernica; also bullfighting (los toros).",
+      "example": { "es": "El toro observa la escena sin moverse.", "en": "The bull watches the scene without moving." }
+    },
+    {
+      "word": "caballo",
+      "type": "n.m.",
+      "en": "horse",
+      "note": "El caballo herido del Guernica grita de dolor.",
+      "example": { "es": "El caballo herido grita de dolor.", "en": "The wounded horse screams with pain." }
+    },
+    {
+      "word": "sordo",
+      "type": "adj.",
+      "en": "deaf",
+      "note": "Quedarse sordo = to go deaf. La Quinta del Sordo.",
+      "example": { "es": "Goya quedó sordo a los cuarenta y seis años.", "en": "Goya went deaf at forty-six." }
+    },
+    {
+      "word": "pesadilla",
+      "type": "n.f.",
+      "en": "nightmare",
+      "note": "Un mal sueño; las Pinturas Negras son pesadillas.",
+      "example": { "es": "Sus últimas obras son puras pesadillas.", "en": "His last works are pure nightmares." }
+    },
+    {
+      "word": "bufón",
+      "type": "n.m.",
+      "en": "court jester",
+      "note": "En la corte divertían al rey; Velázquez los retrató con dignidad.",
+      "example": { "es": "Velázquez retrató a los bufones con dignidad.", "en": "Velázquez portrayed the jesters with dignity." }
+    },
+    {
+      "word": "menina",
+      "type": "n.f.",
+      "en": "lady-in-waiting (young)",
+      "note": "Palabra portuguesa; las jóvenes que servían a la infanta.",
+      "example": { "es": "La infanta está con sus meninas.", "en": "The infanta is with her ladies-in-waiting." }
+    },
+    {
+      "word": "claroscuro",
+      "type": "n.m.",
+      "en": "chiaroscuro (light-dark)",
+      "note": "Claro + oscuro. El juego de luz y sombra.",
+      "example": { "es": "Su claroscuro hace salir las caras de la sombra.", "en": "His chiaroscuro brings faces out of the dark." }
+    },
+    {
+      "word": "tenebrismo",
+      "type": "n.m.",
+      "en": "tenebrism (extreme dark style)",
+      "note": "De tenebra (sombra). Fondos casi negros, luz brutal.",
+      "example": { "es": "El tenebrismo de Ribera influyó en Goya.", "en": "Ribera's tenebrism influenced Goya." }
+    },
+    {
+      "word": "composición",
+      "type": "n.f.",
+      "en": "composition",
+      "note": "Cómo están colocadas las figuras en el cuadro.",
+      "example": { "es": "La composición pone al pintor a la izquierda.", "en": "The composition places the painter on the left." }
+    },
+    {
+      "word": "retratar",
+      "type": "v.",
+      "en": "to portray, to depict",
+      "note": "Family: retrato → retratar. Retratar a alguien con dignidad.",
+      "example": { "es": "Retrató a reyes y a gente humilde.", "en": "He portrayed kings and humble people." }
+    },
+    {
+      "word": "inmortalizar",
+      "type": "v.",
+      "en": "to immortalise",
+      "note": "Hacer eterno; un retrato inmortaliza a una persona.",
+      "example": { "es": "El cuadro inmortalizó a la pequeña infanta.", "en": "The painting immortalised the little infanta." }
+    },
+    {
+      "word": "cubismo",
+      "type": "n.m.",
+      "en": "cubism",
+      "note": "El movimiento de Picasso y Braque: caras y cuerpos rotos en formas.",
+      "example": { "es": "El Guernica debe mucho al cubismo.", "en": "Guernica owes much to cubism." }
+    },
+    {
+      "word": "surrealismo",
+      "type": "n.m.",
+      "en": "surrealism",
+      "note": "Sueños y símbolos; Kahlo siempre negó ser surrealista.",
+      "example": { "es": "Kahlo negó ser surrealista: pintaba su realidad.", "en": "Kahlo denied being a surrealist: she painted her reality." }
+    },
+    {
+      "word": "perspectiva",
+      "type": "n.f.",
+      "en": "perspective",
+      "note": "La profundidad en el lienzo; also point of view.",
+      "example": { "es": "La perspectiva mete al visitante dentro del cuadro.", "en": "The perspective pulls the visitor inside the painting." }
+    },
+    {
+      "word": "corte",
+      "type": "n.f.",
+      "en": "royal court",
+      "note": "La corte = el rey, su familia y sus nobles. Contrast: cortar (to cut).",
+      "example": { "es": "Vivió en la corte y pintó a la familia real.", "en": "He lived at court and painted the royal family." }
+    },
+    {
+      "word": "vanguardia",
+      "type": "n.f.",
+      "en": "avant-garde",
+      "note": "El arte más nuevo y rompedor de su tiempo.",
+      "ext": true,
+      "example": { "es": "Picasso llevó la vanguardia a París.", "en": "Picasso brought the avant-garde to Paris." }
+    },
+    {
+      "word": "autoría",
+      "type": "n.f.",
+      "en": "authorship",
+      "note": "Quién hizo la obra; una obra de autoría dudosa.",
+      "ext": true,
+      "example": { "es": "La autoría del cuadro estuvo en duda años.", "en": "The painting's authorship was in doubt for years." }
+    },
+    {
+      "word": "franquismo",
+      "type": "n.m.",
+      "en": "Franco's regime",
+      "note": "El Guernica volvió a España después del franquismo, en 1981.",
+      "ext": true,
+      "example": { "es": "El Guernica volvió en 1981, después del franquismo.", "en": "Guernica returned in 1981, after Franco's regime." }
+    }
+  ]
+}

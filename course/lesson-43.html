@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 43 — Por vs para (full)</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-42.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 43 — POR VS PARA (FULL)</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Master all core uses of <strong>para</strong>: purpose, recipient, destination, deadline, opinion, comparison.</li>
+      <li>Master all core uses of <strong>por</strong>: cause, means, exchange, movement through, time periods, passive agent.</li>
+      <li>Read about sending a parcel and bargaining at the market — every line uses <em>por</em> or <em>para</em>.</li>
+      <li>Pick up words: <span class="es">encomienda, encargo, envío, destinatario, trueque, regatear, propina</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">encomienda, encargo, encargar, encargado/a, envío, remitente, destinatario, multa, propina, regatear, trueque, canjear, canje, franqueo, mensajería, acarreo, culpa, tendero/a, balanza, pesar, vuelto, rebaja, factura, flete, cartero/a, buzón, paquete, envolver, nudo, sello, cobrar, a cambio de</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">estampilla, truecar, reenvío</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (UNA ENCOMIENDA PARA LA ABUELA)</h2>
+<p><strong>Context:</strong> Elena sends a parcel to her grandmother and stops at the market on the way back. Nearly every sentence turns on <em>por</em> or <em>para</em>.</p>
+<p class="lead">(Read for the story first; the <em>por/para</em> logic is explained in section 2. <strong>Bold</strong> marks new vocabulary.)</p>
+
+<div class="phrase">
+  <p class="es">Elena preparó una <b>encomienda</b> <b>para</b> su abuela <b>por</b> su cumpleaños.</p>
+  <p class="en">Elena prepared a parcel for her grandmother for (because of) her birthday.</p>
+</div>
+<div class="phrase">
+  <p class="es">Fue a la oficina de <b>mensajería</b> <b>para</b> enviar el <b>paquete</b> antes del viernes.</p>
+  <p class="en">She went to the courier office to send the package before Friday.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>encargado</b> pesó el <b>paquete</b> en la <b>balanza</b> y cobró el <b>flete</b> <b>por</b> kilo.</p>
+  <p class="en">The clerk weighed the package on the scale and charged the shipping per kilo.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ella pagó con tarjeta <b>por</b> no llevar efectivo <b>para</b> el <b>vuelto</b>.</p>
+  <p class="en">She paid by card for not carrying cash for the change.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>cartero</b> pasará <b>por</b> su casa <b>para</b> recoger otro <b>encargo</b> mañana por la mañana.</p>
+  <p class="en">The mail carrier will come by her house to pick up another order tomorrow morning.</p>
+</div>
+<div class="phrase">
+  <p class="es">De vuelta, se detuvo en el mercado <b>para</b> comprar queso y <b>regateó</b> <b>por</b> el precio.</p>
+  <p class="en">On the way back, she stopped at the market to buy cheese and haggled over the price.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>tendero</b> le ofreció una <b>rebaja</b> a <b>cambio de</b> llevarse también unas frutas.</p>
+  <p class="en">The shopkeeper offered her a discount in exchange for also taking some fruit.</p>
+</div>
+<div class="phrase">
+  <p class="es">Caminó <b>por</b> el centro <b>para</b> no pagar el autobús y llegó a casa <b>para</b> las tres.</p>
+  <p class="en">She walked through the centre so as not to pay for the bus and got home by three.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Para</b> ella, fue una mañana perfecta: todo salió bien <b>por</b> la ayuda del <b>tendero</b>.</p>
+  <p class="en">For her, it was a perfect morning: everything went well thanks to the shopkeeper's help.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">estampilla</span></td><td data-label="Type">n.f.</td><td data-label="English">postage stamp (LatAm)</td><td data-label="Notes">In Spain: sello.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">truecar</span></td><td data-label="Type">v.</td><td data-label="English">to barter</td><td data-label="Notes">From trueque; rare, literary.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reenvío</span></td><td data-label="Type">n.m.</td><td data-label="English">forwarding</td><td data-label="Notes">From envío; pedir el reenvío.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> <span class="es">para su abuela</span> (recipient) vs <span class="es">por su cumpleaños</span> (cause); <span class="es">para enviar</span> (purpose) vs <span class="es">por kilo</span> (rate/exchange); <span class="es">por su casa</span> (movement through) vs <span class="es">para las tres</span> (deadline).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Para: looking forward (purpose, destination, deadline…)</h3>
+<p><strong>Para</strong> points <strong>forward</strong>: what something is for, for whom, where to, by when, and opinions or comparisons.</p>
+<div class="formula"><b>para</b> = purpose · recipient · destination · deadline · opinion · comparison</div>
+<ul>
+  <li class="ex"><span class="es">Una <b>encomienda para</b> su abuela.</span><span class="en">A parcel for her grandmother.</span> <em>(recipient)</em></li>
+  <li class="ex"><span class="es">Fue <b>para</b> enviar el <b>paquete</b>.</span><span class="en">She went (in order) to send the package.</span> <em>(purpose)</em></li>
+  <li class="ex"><span class="es">Sale <b>para</b> Bogotá mañana.</span><span class="en">It leaves for Bogotá tomorrow.</span> <em>(destination)</em></li>
+  <li class="ex"><span class="es">Llegó a casa <b>para</b> las tres.</span><span class="en">She got home by three.</span> <em>(deadline)</em></li>
+  <li class="ex"><span class="es"><b>Para</b> ella, fue una mañana perfecta.</span><span class="en">For her / In her opinion, it was a perfect morning.</span> <em>(opinion)</em></li>
+  <li class="ex"><span class="es"><b>Para</b> ser lunes, hay mucha gente.</span><span class="en">For a Monday, there are a lot of people.</span> <em>(comparison)</em></li>
+  <li class="ex"><span class="es">Este <b>sello</b> es <b>para</b> el <b>destinatario</b>.</span><span class="en">This stamp is for the addressee.</span></li>
+</ul>
+
+<h3>2.2. Por: cause, means, exchange, movement, time</h3>
+<p><strong>Por</strong> looks <strong>back or around</strong>: why, by what means, at what rate, through where, for how long — plus the agent of the passive and gratitude.</p>
+<div class="formula"><b>por</b> = cause · means · exchange/rate · through/along · time period · agent · gratitude</div>
+<ul>
+  <li class="ex"><span class="es">Todo salió bien <b>por</b> la ayuda del <b>tendero</b>.</span><span class="en">Everything went well thanks to / because of the shopkeeper's help.</span> <em>(cause)</em></li>
+  <li class="ex"><span class="es">Pagó con tarjeta <b>por</b> no llevar efectivo.</span><span class="en">She paid by card for not carrying cash.</span> <em>(por + infinitive = reason)</em></li>
+  <li class="ex"><span class="es">Cobró el <b>flete por</b> kilo.</span><span class="en">He charged shipping per kilo.</span> <em>(rate)</em></li>
+  <li class="ex"><span class="es">Le ofreció una <b>rebaja a cambio de</b> llevarse fruta.</span><span class="en">He offered a discount in exchange for taking fruit.</span> <em>(exchange)</em></li>
+  <li class="ex"><span class="es">Caminó <b>por</b> el centro.</span><span class="en">She walked through the centre.</span> <em>(movement)</em></li>
+  <li class="ex"><span class="es">El cartero pasará mañana <b>por</b> la mañana.</span><span class="en">The mail carrier will come tomorrow morning.</span> <em>(time period)</em></li>
+  <li class="ex"><span class="es">Gracias <b>por</b> el <b>envío</b>.</span><span class="en">Thanks for the shipment.</span> <em>(gratitude takes por)</em></li>
+</ul>
+<div class="tip">💡 <strong>Two pairs to fix forever:</strong> <span class="es">para las tres</span> (by three = deadline) vs <span class="es">por la mañana</span> (during the morning); <span class="es">para su abuela</span> (for her = recipient) vs <span class="es">por su cumpleaños</span> (because of her birthday).</div>
+<div class="warn">⚠️ <strong>Common mistakes:</strong> gratitude is always <span class="es">gracias <b>por</b></span>, never <span class="es">por</span> with purpose (<span class="es">para enviar</span>, not <span class="es">por enviar</span>), and the passive agent is <span class="es">fue enviado <b>por</b> mensajería</span> (Lesson 41).</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">encomienda</span></td><td data-label="Type">n.f.</td><td data-label="English">parcel (sent)</td><td data-label="Notes">una encomienda para la abuela.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">encargo</span></td><td data-label="Type">n.m.</td><td data-label="English">order; errand</td><td data-label="Notes">recoger un encargo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">encargar</span></td><td data-label="Type">v.</td><td data-label="English">to order; to entrust</td><td data-label="Notes">encargar un paquete.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">encargado/a</span></td><td data-label="Type">n./adj.</td><td data-label="English">clerk, person in charge</td><td data-label="Notes">el encargado pesó el paquete.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">envío</span></td><td data-label="Type">n.m.</td><td data-label="English">shipment, sending</td><td data-label="Notes">gracias por el envío.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">remitente</span></td><td data-label="Type">n.</td><td data-label="English">sender</td><td data-label="Notes">Opposite: destinatario.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">destinatario/a</span></td><td data-label="Type">n.</td><td data-label="English">addressee</td><td data-label="Notes">el sello es para el destinatario.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">multa</span></td><td data-label="Type">n.f.</td><td data-label="English">fine</td><td data-label="Notes">una multa por exceso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">propina</span></td><td data-label="Type">n.f.</td><td data-label="English">tip</td><td data-label="Notes">dejar propina.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">regatear</span></td><td data-label="Type">v.</td><td data-label="English">to haggle</td><td data-label="Notes">regateó por el precio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trueque</span></td><td data-label="Type">n.m.</td><td data-label="English">barter</td><td data-label="Notes">un trueque justo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">canjear</span></td><td data-label="Type">v.</td><td data-label="English">to exchange, to redeem</td><td data-label="Notes">canjear un cupón.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">canje</span></td><td data-label="Type">n.m.</td><td data-label="English">exchange, redemption</td><td data-label="Notes">el canje del cupón.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">franqueo</span></td><td data-label="Type">n.m.</td><td data-label="English">postage</td><td data-label="Notes">pagar el franqueo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mensajería</span></td><td data-label="Type">n.f.</td><td data-label="English">courier service</td><td data-label="Notes">la oficina de mensajería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">acarreo</span></td><td data-label="Type">n.m.</td><td data-label="English">haulage, carrying</td><td data-label="Notes">el acarreo del paquete.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">culpa</span></td><td data-label="Type">n.f.</td><td data-label="English">fault, blame</td><td data-label="Notes">por tu culpa; echar la culpa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tendero/a</span></td><td data-label="Type">n.</td><td data-label="English">shopkeeper</td><td data-label="Notes">la ayuda del tendero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">balanza</span></td><td data-label="Type">n.f.</td><td data-label="English">scale</td><td data-label="Notes">pesar en la balanza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pesar</span></td><td data-label="Type">v.</td><td data-label="English">to weigh</td><td data-label="Notes">pesó el paquete.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vuelto</span></td><td data-label="Type">n.m.</td><td data-label="English">change (money back)</td><td data-label="Notes">LatAm; Spain: la vuelta. Efectivo para el vuelto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rebaja</span></td><td data-label="Type">n.f.</td><td data-label="English">discount, sale</td><td data-label="Notes">una rebaja a cambio de algo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">factura</span></td><td data-label="Type">n.f.</td><td data-label="English">bill, invoice</td><td data-label="Notes">pedir la factura.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">flete</span></td><td data-label="Type">n.m.</td><td data-label="English">freight, shipping cost</td><td data-label="Notes">LatAm; cobrar el flete por kilo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cartero/a</span></td><td data-label="Type">n.</td><td data-label="English">mail carrier</td><td data-label="Notes">pasará por su casa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">buzón</span></td><td data-label="Type">n.m.</td><td data-label="English">mailbox</td><td data-label="Notes">echar al buzón.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">paquete</span></td><td data-label="Type">n.m.</td><td data-label="English">package</td><td data-label="Notes">enviar el paquete.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">envolver</span></td><td data-label="Type">v.</td><td data-label="English">to wrap</td><td data-label="Notes">envolver la encomienda.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nudo</span></td><td data-label="Type">n.m.</td><td data-label="English">knot</td><td data-label="Notes">atar con un nudo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sello</span></td><td data-label="Type">n.m.</td><td data-label="English">stamp; seal</td><td data-label="Notes">Spain. LatAm often: estampilla.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cobrar</span></td><td data-label="Type">v.</td><td data-label="English">to charge; to collect (money)</td><td data-label="Notes">cobró el flete por kilo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">a cambio de</span></td><td data-label="Type">phr.</td><td data-label="English">in exchange for</td><td data-label="Notes">With por-exchange logic.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five <em>por/para</em> sentences. Read them once; no need to memorize.</p>
+
+<h3>1. Recipient + cause:</h3>
+<div class="phrase">
+  <p class="es">Una encomienda para su abuela por su cumpleaños.</p>
+  <p class="en">A parcel for her grandmother for her birthday.</p>
+</div>
+<h3>2. Purpose:</h3>
+<div class="phrase">
+  <p class="es">Fue para enviar el paquete antes del viernes.</p>
+  <p class="en">She went to send the package before Friday.</p>
+</div>
+<h3>3. Rate:</h3>
+<div class="phrase">
+  <p class="es">Cobró el flete por kilo.</p>
+  <p class="en">He charged the shipping per kilo.</p>
+</div>
+<h3>4. Deadline:</h3>
+<div class="phrase">
+  <p class="es">Llegó a casa para las tres.</p>
+  <p class="en">She got home by three.</p>
+</div>
+<h3>5. Gratitude:</h3>
+<div class="phrase">
+  <p class="es">Gracias por el envío.</p>
+  <p class="en">Thanks for the shipment.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Elena at the courier counter.</p>
+
+<div class="phrase">
+  <p class="es">Encargado: ¿El paquete es para Bogotá?</p>
+  <p class="en">Clerk: Is the package for Bogotá?</p>
+</div>
+<div class="phrase">
+  <p class="es">Elena: Sí, es para mi abuela. ¿Cuánto cobran por el acarreo?</p>
+  <p class="en">Elena: Yes, it's for my grandmother. How much do you charge for the carriage?</p>
+</div>
+<div class="phrase">
+  <p class="es">Encargado: Por este peso, tres dólares. Sale mañana por la mañana.</p>
+  <p class="en">Clerk: For this weight, three dollars. It leaves tomorrow morning.</p>
+</div>
+<div class="phrase">
+  <p class="es">Elena: ¿Y si lo envuelvo yo? ¿Me hacen una rebaja?</p>
+  <p class="en">Elena: And if I wrap it myself? Will you give me a discount?</p>
+</div>
+<div class="phrase">
+  <p class="es">Encargado: Por supuesto. Para usted, siempre hay rebaja.</p>
+  <p class="en">Clerk: Of course. For you, there's always a discount.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>peso</strong> (weight) appears here in passing.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Para</strong> (forward): purpose (<span class="es">para enviar</span>), recipient (<span class="es">para su abuela</span>), destination (<span class="es">para Bogotá</span>), deadline (<span class="es">para las tres</span>), opinion (<span class="es">para ella</span>).</li>
+  <li><strong>Por</strong> (back/around): cause (<span class="es">por su cumpleaños</span>), means/reason (<span class="es">por no llevar</span>), rate (<span class="es">por kilo</span>), movement (<span class="es">por el centro</span>), time (<span class="es">por la mañana</span>), gratitude (<span class="es">gracias por</span>), passive agent.</li>
+</ul>
+
+<h3>5.2. Further reading — el trueque de la feria</h3>
+<p><strong>Context:</strong> A market story with the oldest exchange of all. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En la feria del pueblo todavía se practica el <b>trueque</b>.</p>
+  <p class="en">At the village fair, barter is still practised.</p>
+</div>
+<div class="phrase">
+  <p class="es">Una vecina cambió queso <b>por</b> miel <b>para</b> la fiesta de su hijo.</p>
+  <p class="en">One neighbour swapped cheese for honey for her son's party.</p>
+</div>
+<div class="phrase">
+  <p class="es">Otro <b>canjeó</b> su <b>factura</b> vieja <b>por</b> una <b>multa</b> perdonada: una historia larga.</p>
+  <p class="en">Another exchanged his old bill for a forgiven fine: a long story.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>tendero</b> lo envolvió todo <b>para</b> regalo con un <b>nudo</b> perfecto.</p>
+  <p class="en">The shopkeeper wrapped everything as a gift with a perfect knot.</p>
+</div>
+<div class="phrase">
+  <p class="es">Fue una tarde de risas, y nadie pagó de más <b>por</b> <b>culpa</b> de los precios.</p>
+  <p class="en">It was an afternoon of laughter, and nobody overpaid because of the prices.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>miel</strong> (honey) appears here in passing.</em></p>
+
+<hr>
+<p><strong>End of Lesson 43.</strong> Next, <strong>Lesson 44</strong>: verb periphrases &amp; aspect — <em>acabar de, volver a, ponerse a, dejar de, seguir/llevar + gerundio</em> and more. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-44.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

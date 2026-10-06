@@ -1,0 +1,359 @@
+{
+  "lesson": 48,
+  "title": "Independence: Bolívar, San Martín, Hidalgo",
+  "words": [
+    {
+      "en": "independence",
+      "example": {
+        "en": "Each council signed an act of independence.",
+        "es": "Cada cabildo firmaba un acta de independencia."
+      },
+      "note": "El acta de independencia.",
+      "type": "n.f.",
+      "word": "independencia"
+    },
+    {
+      "en": "criollo (Spaniard born in America)",
+      "example": {
+        "en": "The criollos no longer accepted it.",
+        "es": "Los criollos ya no lo aceptaban."
+      },
+      "note": "Los criollos.",
+      "type": "n./adj.",
+      "word": "criollo/a"
+    },
+    {
+      "en": "peninsular (born in Spain)",
+      "example": {
+        "en": "The peninsulares held the best posts.",
+        "es": "Los peninsulares ocupaban los mejores cargos."
+      },
+      "note": "From península.",
+      "type": "n./adj.",
+      "word": "peninsular"
+    },
+    {
+      "en": "junta, council, board",
+      "example": {
+        "en": "The constituent assembly declared.",
+        "es": "La junta constituyente declaró."
+      },
+      "note": "La junta constituyente.",
+      "type": "n.f.",
+      "word": "junta"
+    },
+    {
+      "en": "liberator",
+      "example": {
+        "en": "The liberator came down from the Andes.",
+        "es": "El libertador bajaba de los Andes."
+      },
+      "note": "El libertador Bolívar.",
+      "type": "n.",
+      "word": "libertador/a"
+    },
+    {
+      "en": "proclamation",
+      "example": {
+        "en": "Only a cold proclamation the next day.",
+        "es": "Solo una proclama fría al día siguiente."
+      },
+      "note": "Una proclama fría.",
+      "type": "n.f.",
+      "word": "proclama"
+    },
+    {
+      "en": "manifesto",
+      "example": {
+        "en": "His manifestos promised victory.",
+        "es": "Sus manifiestos prometían la victoria."
+      },
+      "note": "Sus manifiestos prometían.",
+      "type": "n.m.",
+      "word": "manifiesto"
+    },
+    {
+      "en": "uprising",
+      "example": {
+        "en": "His uprising was crushed.",
+        "es": "Su levantamiento fue aplastado."
+      },
+      "note": "Su levantamiento fue aplastado.",
+      "type": "n.m.",
+      "word": "levantamiento"
+    },
+    {
+      "en": "to raise up, to stir to revolt",
+      "example": {
+        "en": "The injustice stirred the first revolt.",
+        "es": "La injusticia sublevó la primera protesta."
+      },
+      "note": "Word family: la sublevación.",
+      "type": "v.",
+      "word": "sublevar"
+    },
+    {
+      "en": "uprising, revolt",
+      "example": {
+        "en": "The first uprising had just begun.",
+        "es": "Acababa de empezar la primera sublevación."
+      },
+      "note": "La primera sublevación.",
+      "type": "n.f.",
+      "word": "sublevación"
+    },
+    {
+      "en": "caudillo (military strongman)",
+      "example": {
+        "en": "The caudillos who followed.",
+        "es": "Los caudillos que siguieron."
+      },
+      "note": "Los caudillos.",
+      "type": "n.m.",
+      "word": "caudillo"
+    },
+    {
+      "en": "caudillismo (rule by strongmen)",
+      "example": {
+        "en": "Caudillismo would be the sickness of the century.",
+        "es": "El caudillismo sería la enfermedad del siglo."
+      },
+      "note": "Word family: caudillo.",
+      "type": "n.m.",
+      "word": "caudillismo"
+    },
+    {
+      "en": "town council (colonial)",
+      "example": {
+        "en": "Each town council signed an act.",
+        "es": "Cada cabildo firmaba un acta."
+      },
+      "note": "Cada cabildo.",
+      "type": "n.m.",
+      "word": "cabildo"
+    },
+    {
+      "en": "royalist",
+      "example": {
+        "en": "After the royalist defeat.",
+        "es": "Tras la derrota realista."
+      },
+      "note": "La derrota realista.",
+      "type": "n./adj.",
+      "word": "realista"
+    },
+    {
+      "en": "patriot",
+      "example": {
+        "en": "A war among patriots.",
+        "es": "Una guerra entre patriotas."
+      },
+      "note": "Guerra entre patriotas.",
+      "type": "n./adj.",
+      "word": "patriota"
+    },
+    {
+      "en": "insurgent",
+      "example": {
+        "en": "The insurgents kept marching.",
+        "es": "Los insurgentes seguían marchando."
+      },
+      "note": "Los insurgentes.",
+      "type": "n./adj.",
+      "word": "insurgente"
+    },
+    {
+      "en": "montonera (irregular rural troops)",
+      "example": {
+        "en": "With his montoneras of plainsmen.",
+        "es": "Con sus montoneras de llaneros."
+      },
+      "note": "Sus montoneras.",
+      "type": "n.f.",
+      "word": "montonera"
+    },
+    {
+      "en": "defeat",
+      "example": {
+        "en": "After the defeat at Ayacucho.",
+        "es": "Tras la derrota de Ayacucho."
+      },
+      "note": "Tras la derrota.",
+      "type": "n.f.",
+      "word": "derrota"
+    },
+    {
+      "en": "victory",
+      "example": {
+        "en": "Victory would belong to free peoples.",
+        "es": "La victoria sería de los pueblos libres."
+      },
+      "note": "La victoria sería.",
+      "type": "n.f.",
+      "word": "victoria"
+    },
+    {
+      "en": "to liberate",
+      "example": {
+        "en": "He had just liberated Lima.",
+        "es": "Acababa de liberar Lima."
+      },
+      "note": "Acababa de liberar Lima.",
+      "type": "v.",
+      "word": "liberar"
+    },
+    {
+      "en": "constitution",
+      "example": {
+        "en": "Each congress wrote a constitution.",
+        "es": "Cada congreso escribió una constitución."
+      },
+      "note": "Escribió una constitución.",
+      "type": "n.f.",
+      "word": "constitución"
+    },
+    {
+      "en": "constituent",
+      "example": {
+        "en": "The constituent assembly.",
+        "es": "La junta constituyente."
+      },
+      "note": "La junta constituyente.",
+      "type": "adj.",
+      "word": "constituyente"
+    },
+    {
+      "en": "sovereignty",
+      "example": {
+        "en": "Sovereignty resided in the nation.",
+        "es": "La soberanía residía en la nación."
+      },
+      "note": "La soberanía.",
+      "type": "n.f.",
+      "word": "soberanía"
+    },
+    {
+      "en": "congress",
+      "example": {
+        "en": "Each congress wrote a constitution.",
+        "es": "Cada congreso escribió una constitución."
+      },
+      "note": "Cada congreso.",
+      "type": "n.m.",
+      "word": "congreso"
+    },
+    {
+      "en": "deputy, member of parliament",
+      "example": {
+        "en": "It elected deputies.",
+        "es": "Eligió diputados."
+      },
+      "note": "Eligió diputados.",
+      "type": "n.",
+      "word": "diputado/a"
+    },
+    {
+      "en": "nation",
+      "example": {
+        "en": "Sovereignty resided in the nation.",
+        "es": "La soberanía residía en la nación."
+      },
+      "note": "Residía en la nación.",
+      "type": "n.f.",
+      "word": "nación"
+    },
+    {
+      "en": "anthem",
+      "example": {
+        "en": "A new anthem in every square.",
+        "es": "Un himno nuevo en cada plaza."
+      },
+      "note": "Cantar un himno nuevo.",
+      "type": "n.m.",
+      "word": "himno"
+    },
+    {
+      "en": "bell",
+      "example": {
+        "en": "He rang the bell.",
+        "es": "Tocó la campana."
+      },
+      "note": "Tocó la campana.",
+      "type": "n.f.",
+      "word": "campana"
+    },
+    {
+      "en": "sermon",
+      "example": {
+        "en": "He launched a sermon.",
+        "es": "Lanzó un sermón."
+      },
+      "note": "Lanzó un sermón.",
+      "type": "n.m.",
+      "word": "sermón"
+    },
+    {
+      "en": "minutes, official record",
+      "example": {
+        "en": "There were no minutes.",
+        "es": "No hubo acta."
+      },
+      "note": "Firmaba un acta; no hubo acta.",
+      "type": "n.f.",
+      "word": "acta"
+    },
+    {
+      "en": "national hero, prócer",
+      "example": {
+        "en": "Próceres in bronze.",
+        "es": "Próceres en bronce."
+      },
+      "note": "Próceres en bronce.",
+      "type": "n.m.",
+      "word": "prócer"
+    },
+    {
+      "en": "heroine",
+      "example": {
+        "en": "A little-remembered heroine.",
+        "es": "Una heroína poco recordada."
+      },
+      "note": "Una heroína.",
+      "type": "n.f.",
+      "word": "heroína"
+    },
+    {
+      "en": "parish",
+      "example": {
+        "en": "The bell of his parish.",
+        "es": "La campana de su parroquia."
+      },
+      "ext": true,
+      "note": "La campana de su parroquia.",
+      "type": "n.f.",
+      "word": "parroquia"
+    },
+    {
+      "en": "tribute, homage",
+      "example": {
+        "en": "Her tribute took a century.",
+        "es": "Su homenaje tardó un siglo."
+      },
+      "ext": true,
+      "note": "Un homenaje a los próceres.",
+      "type": "n.m.",
+      "word": "homenaje"
+    },
+    {
+      "en": "anniversary (of a historical event)",
+      "example": {
+        "en": "Ecuador celebrates her anniversary.",
+        "es": "El Ecuador celebra su efeméride."
+      },
+      "ext": true,
+      "note": "Las efemérides patrias.",
+      "type": "n.f.",
+      "word": "efeméride"
+    }
+  ]
+}

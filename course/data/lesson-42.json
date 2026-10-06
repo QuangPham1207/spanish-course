@@ -1,0 +1,359 @@
+{
+  "lesson": 42,
+  "title": "Reported speech",
+  "words": [
+    {
+      "en": "rumour",
+      "example": {
+        "en": "Rumour has it that he will resign.",
+        "es": "Corre el rumor de que dimitirá."
+      },
+      "note": "corre el rumor de que…",
+      "type": "n.m.",
+      "word": "rumor"
+    },
+    {
+      "en": "gossip (piece of)",
+      "example": {
+        "en": "She was tired of gossip.",
+        "es": "Estaba cansada de los chismes."
+      },
+      "note": "LatAm also: chisme de pasillo.",
+      "type": "n.m.",
+      "word": "chisme"
+    },
+    {
+      "en": "accusation",
+      "example": {
+        "en": "The mayor denied the accusation.",
+        "es": "El alcalde negó la acusación."
+      },
+      "note": "negó la acusación.",
+      "type": "n.f.",
+      "word": "acusación"
+    },
+    {
+      "en": "treasurer",
+      "example": {
+        "en": "The treasurer had confessed everything.",
+        "es": "El tesorero había confesado todo."
+      },
+      "note": "el tesorero había confesado.",
+      "type": "n.",
+      "word": "tesorero/a"
+    },
+    {
+      "en": "judge",
+      "example": {
+        "en": "He appeared before the judge.",
+        "es": "Compareció ante el juez."
+      },
+      "note": "comparecer ante el juez.",
+      "type": "n.",
+      "word": "juez"
+    },
+    {
+      "en": "proof, evidence; test",
+      "example": {
+        "en": "He would present proof the next day.",
+        "es": "Al día siguiente presentaría pruebas."
+      },
+      "note": "presentar pruebas.",
+      "type": "n.f.",
+      "word": "prueba"
+    },
+    {
+      "en": "to assure, to claim",
+      "example": {
+        "en": "He assured them he would present proof.",
+        "es": "Aseguró que presentaría pruebas."
+      },
+      "note": "aseguró que presentaría pruebas.",
+      "type": "v.",
+      "word": "asegurar"
+    },
+    {
+      "en": "to deny",
+      "example": {
+        "en": "The mayor denied the accusation.",
+        "es": "El alcalde negó la acusación."
+      },
+      "note": "negó la acusación.",
+      "type": "v.",
+      "word": "negar"
+    },
+    {
+      "en": "to confess",
+      "example": {
+        "en": "The treasurer had confessed everything.",
+        "es": "El tesorero había confesado todo."
+      },
+      "note": "había confesado todo.",
+      "type": "v.",
+      "word": "confesar"
+    },
+    {
+      "en": "confession",
+      "example": {
+        "en": "A full confession.",
+        "es": "Una confesión completa."
+      },
+      "note": "From confesar.",
+      "type": "n.f.",
+      "word": "confesión"
+    },
+    {
+      "en": "to affirm, to state",
+      "example": {
+        "en": "She claimed she knew nothing.",
+        "es": "Afirmó que no sabía nada."
+      },
+      "note": "afirmó que no sabía nada.",
+      "type": "v.",
+      "word": "afirmar"
+    },
+    {
+      "en": "journalist",
+      "example": {
+        "en": "The journalist asked whether there was a leak.",
+        "es": "La periodista preguntó si había una filtración."
+      },
+      "note": "la periodista preguntó si…",
+      "type": "n.",
+      "word": "periodista"
+    },
+    {
+      "en": "correspondent",
+      "example": {
+        "en": "A correspondent in the capital.",
+        "es": "Un corresponsal en la capital."
+      },
+      "note": "un corresponsal en la capital.",
+      "type": "n.",
+      "word": "corresponsal"
+    },
+    {
+      "en": "headline",
+      "example": {
+        "en": "According to today's headline.",
+        "es": "Según el titular de hoy."
+      },
+      "note": "según el titular de hoy.",
+      "type": "n.m.",
+      "word": "titular"
+    },
+    {
+      "en": "spokesperson",
+      "example": {
+        "en": "The spokesperson announced the resignation.",
+        "es": "El portavoz anunció la dimisión."
+      },
+      "note": "el portavoz anunció la dimisión.",
+      "type": "n.",
+      "word": "portavoz"
+    },
+    {
+      "en": "appearance (official)",
+      "example": {
+        "en": "An appearance before the press.",
+        "es": "Una comparecencia ante la prensa."
+      },
+      "note": "una comparecencia ante la prensa.",
+      "type": "n.f.",
+      "word": "comparecencia"
+    },
+    {
+      "en": "to appear (officially)",
+      "example": {
+        "en": "He appeared before the judge.",
+        "es": "Compareció ante el juez."
+      },
+      "note": "comparecer ante el juez.",
+      "type": "v.",
+      "word": "comparecer"
+    },
+    {
+      "en": "leak (of info)",
+      "example": {
+        "en": "A leak about a bribe.",
+        "es": "Una filtración sobre un soborno."
+      },
+      "note": "una filtración sobre un soborno.",
+      "type": "n.f.",
+      "word": "filtración"
+    },
+    {
+      "en": "to leak",
+      "example": {
+        "en": "To leak a document.",
+        "es": "Filtrar un documento."
+      },
+      "note": "filtrar un documento.",
+      "type": "v.",
+      "word": "filtrar"
+    },
+    {
+      "en": "to deny, to refute",
+      "example": {
+        "en": "The scandal was impossible to deny.",
+        "es": "El escándalo era imposible de desmentir."
+      },
+      "note": "imposible de desmentir.",
+      "type": "v.",
+      "word": "desmentir"
+    },
+    {
+      "en": "to rectify, to correct",
+      "example": {
+        "en": "The paper corrected the headline.",
+        "es": "El diario rectificó el titular."
+      },
+      "note": "el diario rectificó el titular.",
+      "type": "v.",
+      "word": "rectificar"
+    },
+    {
+      "en": "bribe",
+      "example": {
+        "en": "A leak about a bribe.",
+        "es": "Una filtración sobre un soborno."
+      },
+      "note": "una filtración sobre un soborno.",
+      "type": "n.m.",
+      "word": "soborno"
+    },
+    {
+      "en": "to bribe",
+      "example": {
+        "en": "He tried to bribe the judge.",
+        "es": "Intentó sobornar al juez."
+      },
+      "note": "intentó sobornar al juez.",
+      "type": "v.",
+      "word": "sobornar"
+    },
+    {
+      "en": "to interrogate, to question",
+      "example": {
+        "en": "To question the treasurer.",
+        "es": "Interrogar al tesorero."
+      },
+      "note": "interrogar al tesorero.",
+      "type": "v.",
+      "word": "interrogar"
+    },
+    {
+      "en": "to admit",
+      "example": {
+        "en": "Nobody had admitted it.",
+        "es": "Nadie lo había admitido."
+      },
+      "note": "nadie lo había admitido.",
+      "type": "v.",
+      "word": "admitir"
+    },
+    {
+      "en": "to swear",
+      "example": {
+        "en": "He swore he would tell the truth.",
+        "es": "Juró que diría la verdad."
+      },
+      "note": "juró que diría la verdad.",
+      "type": "v.",
+      "word": "jurar"
+    },
+    {
+      "en": "to testify",
+      "example": {
+        "en": "To testify before the judge.",
+        "es": "Testificar ante el juez."
+      },
+      "note": "testificar ante el juez.",
+      "type": "v.",
+      "word": "testificar"
+    },
+    {
+      "en": "to quote; to mention",
+      "example": {
+        "en": "He mentioned three meetings.",
+        "es": "Citó tres reuniones."
+      },
+      "note": "citó tres reuniones.",
+      "type": "v.",
+      "word": "citar"
+    },
+    {
+      "en": "press conference (rueda de prensa)",
+      "example": {
+        "en": "At the end of the press conference.",
+        "es": "Al final de la rueda."
+      },
+      "note": "al final de la rueda.",
+      "type": "n.f.",
+      "word": "rueda"
+    },
+    {
+      "en": "to resign",
+      "example": {
+        "en": "He is not thinking of resigning.",
+        "es": "No piensa dimitir."
+      },
+      "note": "no piensa dimitir.",
+      "type": "v.",
+      "word": "dimitir"
+    },
+    {
+      "en": "resignation",
+      "example": {
+        "en": "He announced the resignation.",
+        "es": "Anunció la dimisión."
+      },
+      "note": "anunció la dimisión.",
+      "type": "n.f.",
+      "word": "dimisión"
+    },
+    {
+      "en": "scandal",
+      "example": {
+        "en": "The scandal was impossible to deny.",
+        "es": "El escándalo era imposible de desmentir."
+      },
+      "note": "el escándalo era imposible de desmentir.",
+      "type": "n.m.",
+      "word": "escándalo"
+    },
+    {
+      "en": "gossipy; gossip",
+      "example": {
+        "en": "A gossipy neighbour.",
+        "es": "Una vecina chismosa."
+      },
+      "ext": true,
+      "note": "From chisme; un vecino chismoso.",
+      "type": "adj./n.",
+      "word": "chismoso/a"
+    },
+    {
+      "en": "shocking, scandalous; loud",
+      "example": {
+        "en": "A shocking case.",
+        "es": "Un caso escandaloso."
+      },
+      "ext": true,
+      "note": "From escándalo; un caso escandaloso.",
+      "type": "adj.",
+      "word": "escandaloso/a"
+    },
+    {
+      "en": "to rumour",
+      "example": {
+        "en": "Rumour has it that he will resign.",
+        "es": "Se rumorea que dimitirá."
+      },
+      "ext": true,
+      "note": "Se rumorea que dimitirá.",
+      "type": "v.",
+      "word": "rumorear"
+    }
+  ]
+}

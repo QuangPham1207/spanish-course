@@ -1,0 +1,359 @@
+{
+  "lesson": 43,
+  "title": "Por vs para (full)",
+  "words": [
+    {
+      "en": "parcel (sent)",
+      "example": {
+        "en": "A parcel for her grandmother.",
+        "es": "Una encomienda para su abuela."
+      },
+      "note": "una encomienda para la abuela.",
+      "type": "n.f.",
+      "word": "encomienda"
+    },
+    {
+      "en": "order; errand",
+      "example": {
+        "en": "To pick up another order.",
+        "es": "Recoger otro encargo."
+      },
+      "note": "recoger un encargo.",
+      "type": "n.m.",
+      "word": "encargo"
+    },
+    {
+      "en": "to order; to entrust",
+      "example": {
+        "en": "To order a package.",
+        "es": "Encargar un paquete."
+      },
+      "note": "encargar un paquete.",
+      "type": "v.",
+      "word": "encargar"
+    },
+    {
+      "en": "clerk, person in charge",
+      "example": {
+        "en": "The clerk weighed the package.",
+        "es": "El encargado pesó el paquete."
+      },
+      "note": "el encargado pesó el paquete.",
+      "type": "n./adj.",
+      "word": "encargado/a"
+    },
+    {
+      "en": "shipment, sending",
+      "example": {
+        "en": "Thanks for the shipment.",
+        "es": "Gracias por el envío."
+      },
+      "note": "gracias por el envío.",
+      "type": "n.m.",
+      "word": "envío"
+    },
+    {
+      "en": "sender",
+      "example": {
+        "en": "Sender and addressee on the form.",
+        "es": "Remitente y destinatario en el formulario."
+      },
+      "note": "Opposite: destinatario.",
+      "type": "n.",
+      "word": "remitente"
+    },
+    {
+      "en": "addressee",
+      "example": {
+        "en": "The stamp is for the addressee.",
+        "es": "El sello es para el destinatario."
+      },
+      "note": "el sello es para el destinatario.",
+      "type": "n.",
+      "word": "destinatario/a"
+    },
+    {
+      "en": "fine",
+      "example": {
+        "en": "A fine for speeding.",
+        "es": "Una multa por exceso."
+      },
+      "note": "una multa por exceso.",
+      "type": "n.f.",
+      "word": "multa"
+    },
+    {
+      "en": "tip",
+      "example": {
+        "en": "To leave a tip.",
+        "es": "Dejar propina."
+      },
+      "note": "dejar propina.",
+      "type": "n.f.",
+      "word": "propina"
+    },
+    {
+      "en": "to haggle",
+      "example": {
+        "en": "She haggled over the price.",
+        "es": "Regateó por el precio."
+      },
+      "note": "regateó por el precio.",
+      "type": "v.",
+      "word": "regatear"
+    },
+    {
+      "en": "barter",
+      "example": {
+        "en": "Barter is still practised at the fair.",
+        "es": "En la feria todavía se practica el trueque."
+      },
+      "note": "un trueque justo.",
+      "type": "n.m.",
+      "word": "trueque"
+    },
+    {
+      "en": "to exchange, to redeem",
+      "example": {
+        "en": "To redeem a coupon.",
+        "es": "Canjear un cupón."
+      },
+      "note": "canjear un cupón.",
+      "type": "v.",
+      "word": "canjear"
+    },
+    {
+      "en": "exchange, redemption",
+      "example": {
+        "en": "The coupon redemption.",
+        "es": "El canje del cupón."
+      },
+      "note": "el canje del cupón.",
+      "type": "n.m.",
+      "word": "canje"
+    },
+    {
+      "en": "postage",
+      "example": {
+        "en": "To pay the postage.",
+        "es": "Pagar el franqueo."
+      },
+      "note": "pagar el franqueo.",
+      "type": "n.m.",
+      "word": "franqueo"
+    },
+    {
+      "en": "courier service",
+      "example": {
+        "en": "The courier office.",
+        "es": "La oficina de mensajería."
+      },
+      "note": "la oficina de mensajería.",
+      "type": "n.f.",
+      "word": "mensajería"
+    },
+    {
+      "en": "haulage, carrying",
+      "example": {
+        "en": "How much for the carriage?",
+        "es": "¿Cuánto cobran por el acarreo?"
+      },
+      "note": "el acarreo del paquete.",
+      "type": "n.m.",
+      "word": "acarreo"
+    },
+    {
+      "en": "fault, blame",
+      "example": {
+        "en": "Nobody overpaid because of the prices.",
+        "es": "Nadie pagó de más por culpa de los precios."
+      },
+      "note": "por tu culpa; echar la culpa.",
+      "type": "n.f.",
+      "word": "culpa"
+    },
+    {
+      "en": "shopkeeper",
+      "example": {
+        "en": "Thanks to the shopkeeper's help.",
+        "es": "Por la ayuda del tendero."
+      },
+      "note": "la ayuda del tendero.",
+      "type": "n.",
+      "word": "tendero/a"
+    },
+    {
+      "en": "scale",
+      "example": {
+        "en": "To weigh on the scale.",
+        "es": "Pesar en la balanza."
+      },
+      "note": "pesar en la balanza.",
+      "type": "n.f.",
+      "word": "balanza"
+    },
+    {
+      "en": "to weigh",
+      "example": {
+        "en": "He weighed the package.",
+        "es": "Pesó el paquete."
+      },
+      "note": "pesó el paquete.",
+      "type": "v.",
+      "word": "pesar"
+    },
+    {
+      "en": "change (money back)",
+      "example": {
+        "en": "Cash for the change.",
+        "es": "Efectivo para el vuelto."
+      },
+      "note": "LatAm; Spain: la vuelta. Efectivo para el vuelto.",
+      "type": "n.m.",
+      "word": "vuelto"
+    },
+    {
+      "en": "discount, sale",
+      "example": {
+        "en": "A discount in exchange for taking fruit.",
+        "es": "Una rebaja a cambio de llevarse fruta."
+      },
+      "note": "una rebaja a cambio de algo.",
+      "type": "n.f.",
+      "word": "rebaja"
+    },
+    {
+      "en": "bill, invoice",
+      "example": {
+        "en": "To ask for the bill.",
+        "es": "Pedir la factura."
+      },
+      "note": "pedir la factura.",
+      "type": "n.f.",
+      "word": "factura"
+    },
+    {
+      "en": "freight, shipping cost",
+      "example": {
+        "en": "He charged shipping per kilo.",
+        "es": "Cobró el flete por kilo."
+      },
+      "note": "LatAm; cobrar el flete por kilo.",
+      "type": "n.m.",
+      "word": "flete"
+    },
+    {
+      "en": "mail carrier",
+      "example": {
+        "en": "The mail carrier will come by.",
+        "es": "El cartero pasará por su casa."
+      },
+      "note": "pasará por su casa.",
+      "type": "n.",
+      "word": "cartero/a"
+    },
+    {
+      "en": "mailbox",
+      "example": {
+        "en": "To drop into the mailbox.",
+        "es": "Echar al buzón."
+      },
+      "note": "echar al buzón.",
+      "type": "n.m.",
+      "word": "buzón"
+    },
+    {
+      "en": "package",
+      "example": {
+        "en": "To send the package.",
+        "es": "Enviar el paquete."
+      },
+      "note": "enviar el paquete.",
+      "type": "n.m.",
+      "word": "paquete"
+    },
+    {
+      "en": "to wrap",
+      "example": {
+        "en": "To wrap the parcel.",
+        "es": "Envolver la encomienda."
+      },
+      "note": "envolver la encomienda.",
+      "type": "v.",
+      "word": "envolver"
+    },
+    {
+      "en": "knot",
+      "example": {
+        "en": "To tie with a knot.",
+        "es": "Atar con un nudo."
+      },
+      "note": "atar con un nudo.",
+      "type": "n.m.",
+      "word": "nudo"
+    },
+    {
+      "en": "stamp; seal",
+      "example": {
+        "en": "The stamp is for the addressee.",
+        "es": "El sello es para el destinatario."
+      },
+      "note": "Spain. LatAm often: estampilla.",
+      "type": "n.m.",
+      "word": "sello"
+    },
+    {
+      "en": "to charge; to collect (money)",
+      "example": {
+        "en": "He charged shipping per kilo.",
+        "es": "Cobró el flete por kilo."
+      },
+      "note": "cobró el flete por kilo.",
+      "type": "v.",
+      "word": "cobrar"
+    },
+    {
+      "en": "in exchange for",
+      "example": {
+        "en": "A discount in exchange for taking fruit.",
+        "es": "Una rebaja a cambio de llevarse fruta."
+      },
+      "note": "With por-exchange logic.",
+      "type": "phr.",
+      "word": "a cambio de"
+    },
+    {
+      "en": "postage stamp (LatAm)",
+      "example": {
+        "en": "A stamp for the parcel.",
+        "es": "Una estampilla para la encomienda."
+      },
+      "ext": true,
+      "note": "In Spain: sello.",
+      "type": "n.f.",
+      "word": "estampilla"
+    },
+    {
+      "en": "to barter",
+      "example": {
+        "en": "They bartered cheese for honey.",
+        "es": "Truecaron queso por miel."
+      },
+      "ext": true,
+      "note": "From trueque; rare, literary.",
+      "type": "v.",
+      "word": "truecar"
+    },
+    {
+      "en": "forwarding",
+      "example": {
+        "en": "To request forwarding.",
+        "es": "Pedir el reenvío."
+      },
+      "ext": true,
+      "note": "From envío; pedir el reenvío.",
+      "type": "n.m.",
+      "word": "reenvío"
+    }
+  ]
+}

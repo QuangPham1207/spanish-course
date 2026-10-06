@@ -1,0 +1,359 @@
+{
+  "lesson": 41,
+  "title": "The passive voice",
+  "words": [
+    {
+      "en": "to open, to unveil",
+      "example": {
+        "en": "In 1910 the monument was unveiled.",
+        "es": "En 1910 se inauguró el monumento."
+      },
+      "note": "se inauguró el monumento.",
+      "type": "v.",
+      "word": "inaugurar"
+    },
+    {
+      "en": "to knock down, to topple",
+      "example": {
+        "en": "The dome was toppled by the earthquake.",
+        "es": "La cúpula fue derribada por el terremoto."
+      },
+      "note": "la cúpula fue derribada.",
+      "type": "v.",
+      "word": "derribar"
+    },
+    {
+      "en": "to proclaim",
+      "example": {
+        "en": "Independence was proclaimed from the balcony.",
+        "es": "La independencia fue proclamada desde el balcón."
+      },
+      "note": "fue proclamada la independencia.",
+      "type": "v.",
+      "word": "proclamar"
+    },
+    {
+      "en": "to overthrow",
+      "example": {
+        "en": "After the defeat, he was overthrown.",
+        "es": "Tras la derrota, fue derrocado."
+      },
+      "note": "derrocar al gobierno.",
+      "type": "v.",
+      "word": "derrocar"
+    },
+    {
+      "en": "to remove from office",
+      "example": {
+        "en": "The general was removed for betrayal.",
+        "es": "El general fue destituido por traición."
+      },
+      "note": "fue destituido por traición.",
+      "type": "v.",
+      "word": "destituir"
+    },
+    {
+      "en": "to crown",
+      "example": {
+        "en": "The king was crowned very young.",
+        "es": "El rey fue coronado muy joven."
+      },
+      "note": "coronar al rey.",
+      "type": "v.",
+      "word": "coronar"
+    },
+    {
+      "en": "to besiege",
+      "example": {
+        "en": "It was besieged by the king's troops.",
+        "es": "Fue sitiada por las tropas del rey."
+      },
+      "note": "fue sitiada por las tropas.",
+      "type": "v.",
+      "word": "sitiar"
+    },
+    {
+      "en": "surrender",
+      "example": {
+        "en": "The city was defended until the final surrender.",
+        "es": "La ciudad sería defendida hasta la rendición final."
+      },
+      "note": "hasta la rendición final.",
+      "type": "n.f.",
+      "word": "rendición"
+    },
+    {
+      "en": "to surrender; to yield",
+      "example": {
+        "en": "The governor refused to surrender.",
+        "es": "El gobernador no quiso rendirse."
+      },
+      "note": "rendirse (to give up); no quiso rendirse.",
+      "type": "v.",
+      "word": "rendir"
+    },
+    {
+      "en": "statue",
+      "example": {
+        "en": "A statue beneath a stone arch.",
+        "es": "Una estatua bajo un arco de piedra."
+      },
+      "note": "una estatua bajo un arco.",
+      "type": "n.f.",
+      "word": "estatua"
+    },
+    {
+      "en": "betrayal",
+      "example": {
+        "en": "Sentenced to exile for his betrayal.",
+        "es": "Condenado al destierro por su traición."
+      },
+      "note": "condenado por su traición.",
+      "type": "n.f.",
+      "word": "traición"
+    },
+    {
+      "en": "to betray",
+      "example": {
+        "en": "He betrayed his people.",
+        "es": "Traicionó a su gente."
+      },
+      "note": "traicionar a su gente.",
+      "type": "v.",
+      "word": "traicionar"
+    },
+    {
+      "en": "pardon",
+      "example": {
+        "en": "He asked for a pardon.",
+        "es": "Pidió el indulto."
+      },
+      "note": "pedir el indulto.",
+      "type": "n.m.",
+      "word": "indulto"
+    },
+    {
+      "en": "to pardon",
+      "example": {
+        "en": "They say he was pardoned years later.",
+        "es": "Dicen que fue indultado años después."
+      },
+      "note": "fue indultado por el rey.",
+      "type": "v.",
+      "word": "indultar"
+    },
+    {
+      "en": "exile",
+      "example": {
+        "en": "Sentenced to exile.",
+        "es": "Condenado al destierro."
+      },
+      "note": "condenado al destierro.",
+      "type": "n.m.",
+      "word": "destierro"
+    },
+    {
+      "en": "to exile, to banish",
+      "example": {
+        "en": "He was banished from the country.",
+        "es": "Fue desterrado del país."
+      },
+      "note": "fue desterrado del país.",
+      "type": "v.",
+      "word": "desterrar"
+    },
+    {
+      "en": "proclamation, announcement",
+      "example": {
+        "en": "The festival proclamation.",
+        "es": "El pregón de las fiestas."
+      },
+      "note": "el pregón de las fiestas.",
+      "type": "n.m.",
+      "word": "pregón"
+    },
+    {
+      "en": "to announce publicly",
+      "example": {
+        "en": "The festivals are announced in the square.",
+        "es": "Las fiestas se pregonan en la plaza."
+      },
+      "note": "se pregonan las fiestas.",
+      "type": "v.",
+      "word": "pregonar"
+    },
+    {
+      "en": "mural",
+      "example": {
+        "en": "A big colourful mural.",
+        "es": "Un gran mural de colores."
+      },
+      "note": "un mural de colores.",
+      "type": "n.m.",
+      "word": "mural"
+    },
+    {
+      "en": "arch",
+      "example": {
+        "en": "A stone arch.",
+        "es": "Un arco de piedra."
+      },
+      "note": "un arco de piedra.",
+      "type": "n.m.",
+      "word": "arco"
+    },
+    {
+      "en": "dome",
+      "example": {
+        "en": "The palace dome.",
+        "es": "La cúpula del palacio."
+      },
+      "note": "la cúpula del palacio.",
+      "type": "n.f.",
+      "word": "cúpula"
+    },
+    {
+      "en": "fortress",
+      "example": {
+        "en": "The fortress of the bay.",
+        "es": "La fortaleza de la bahía."
+      },
+      "note": "la fortaleza de la bahía.",
+      "type": "n.f.",
+      "word": "fortaleza"
+    },
+    {
+      "en": "to declare",
+      "example": {
+        "en": "The whole site is declared heritage.",
+        "es": "Todo el conjunto se declara patrimonio."
+      },
+      "note": "se declara patrimonio.",
+      "type": "v.",
+      "word": "declarar"
+    },
+    {
+      "en": "to elect, to choose",
+      "example": {
+        "en": "The carnival royalty are elected there.",
+        "es": "Allí se eligen los reyes del carnaval."
+      },
+      "note": "se eligen los reyes del carnaval.",
+      "type": "v.",
+      "word": "elegir"
+    },
+    {
+      "en": "plaque",
+      "example": {
+        "en": "A bronze plaque.",
+        "es": "Una placa de bronce."
+      },
+      "note": "una placa de bronce.",
+      "type": "n.f.",
+      "word": "placa"
+    },
+    {
+      "en": "monument",
+      "example": {
+        "en": "In 1910 the monument was unveiled.",
+        "es": "En 1910 se inauguró el monumento."
+      },
+      "note": "se inauguró el monumento.",
+      "type": "n.m.",
+      "word": "monumento"
+    },
+    {
+      "en": "crown",
+      "example": {
+        "en": "The king's crown.",
+        "es": "La corona del rey."
+      },
+      "note": "la corona del rey.",
+      "type": "n.f.",
+      "word": "corona"
+    },
+    {
+      "en": "throne",
+      "example": {
+        "en": "To take the throne.",
+        "es": "Subir al trono."
+      },
+      "note": "subir al trono.",
+      "type": "n.m.",
+      "word": "trono"
+    },
+    {
+      "en": "reign",
+      "example": {
+        "en": "During his reign.",
+        "es": "Durante su reinado."
+      },
+      "note": "durante su reinado.",
+      "type": "n.m.",
+      "word": "reinado"
+    },
+    {
+      "en": "to reign",
+      "example": {
+        "en": "He reigned for twenty years.",
+        "es": "Reinó veinte años."
+      },
+      "note": "reinó veinte años.",
+      "type": "v.",
+      "word": "reinar"
+    },
+    {
+      "en": "siege",
+      "example": {
+        "en": "The siege of 1815.",
+        "es": "El asedio de 1815."
+      },
+      "note": "el asedio de 1815.",
+      "type": "n.m.",
+      "word": "asedio"
+    },
+    {
+      "en": "troop",
+      "example": {
+        "en": "The king's troops.",
+        "es": "Las tropas del rey."
+      },
+      "note": "Plural: las tropas del rey.",
+      "type": "n.f.",
+      "word": "tropa"
+    },
+    {
+      "en": "to execute by firing squad",
+      "example": {
+        "en": "He was executed.",
+        "es": "Fue fusilado."
+      },
+      "ext": true,
+      "note": "History contexts; fue fusilado.",
+      "type": "v.",
+      "word": "fusilar"
+    },
+    {
+      "en": "execution wall",
+      "example": {
+        "en": "Taken to the wall.",
+        "es": "Llevado al paredón."
+      },
+      "ext": true,
+      "note": "llevar al paredón.",
+      "type": "n.m.",
+      "word": "paredón"
+    },
+    {
+      "en": "coronation",
+      "example": {
+        "en": "The coronation was a great party.",
+        "es": "La coronación fue una gran fiesta."
+      },
+      "ext": true,
+      "note": "From coronar.",
+      "type": "n.f.",
+      "word": "coronación"
+    }
+  ]
+}

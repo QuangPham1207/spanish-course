@@ -1,0 +1,359 @@
+{
+  "lesson": 39,
+  "title": "The conditional & si-clauses",
+  "words": [
+    {
+      "en": "I/he/she would do",
+      "example": {
+        "en": "What would you do in her place?",
+        "es": "¿Qué harías tú en su lugar?"
+      },
+      "note": "Conditional of hacer.",
+      "type": "v.",
+      "word": "haría"
+    },
+    {
+      "en": "you would be able to, could",
+      "example": {
+        "en": "Could you help me with the paperwork?",
+        "es": "¿Podrías ayudarme con el papeleo?"
+      },
+      "note": "Conditional of poder; polite requests.",
+      "type": "v.",
+      "word": "podrías"
+    },
+    {
+      "en": "I would like",
+      "example": {
+        "en": "I would like to live abroad.",
+        "es": "Me gustaría vivir en el extranjero."
+      },
+      "note": "Softer than quiero.",
+      "type": "phr.",
+      "word": "me gustaría"
+    },
+    {
+      "en": "I/he/she should, ought to",
+      "example": {
+        "en": "You should accept the scholarship.",
+        "es": "Deberías aceptar la beca."
+      },
+      "note": "Conditional of deber; advice.",
+      "type": "v.",
+      "word": "debería"
+    },
+    {
+      "en": "it would be",
+      "example": {
+        "en": "The debt would be huge.",
+        "es": "La deuda sería enorme."
+      },
+      "note": "Conditional of ser.",
+      "type": "v.",
+      "word": "sería"
+    },
+    {
+      "en": "you would have",
+      "example": {
+        "en": "If you accepted, you would have to ask for a loan.",
+        "es": "Si aceptaras, tendrías que pedir un préstamo."
+      },
+      "note": "Conditional of tener (tendr-).",
+      "type": "v.",
+      "word": "tendrías"
+    },
+    {
+      "en": "scholarship, grant",
+      "example": {
+        "en": "She has a scholarship to study in Bogotá.",
+        "es": "Tiene una beca para estudiar en Bogotá."
+      },
+      "note": "una beca de estudios.",
+      "type": "n.f.",
+      "word": "beca"
+    },
+    {
+      "en": "loan",
+      "example": {
+        "en": "If she had to take out a loan, the debt would be huge.",
+        "es": "Si tuviera que pedir un préstamo, la deuda sería enorme."
+      },
+      "note": "pedir un préstamo.",
+      "type": "n.m.",
+      "word": "préstamo"
+    },
+    {
+      "en": "debt",
+      "example": {
+        "en": "He doesn't want to pile up more debts.",
+        "es": "No quiere acumular más deudas."
+      },
+      "note": "tener deudas.",
+      "type": "n.f.",
+      "word": "deuda"
+    },
+    {
+      "en": "rent",
+      "example": {
+        "en": "She would pay the rent and the move.",
+        "es": "Pagaría el alquiler y la mudanza."
+      },
+      "note": "pagar el alquiler; de alquiler.",
+      "type": "n.m.",
+      "word": "alquiler"
+    },
+    {
+      "en": "move (house)",
+      "example": {
+        "en": "He would cover his move with his savings.",
+        "es": "Costearía su mudanza con sus ahorros."
+      },
+      "note": "hacer la mudanza.",
+      "type": "n.f.",
+      "word": "mudanza"
+    },
+    {
+      "en": "paperwork",
+      "example": {
+        "en": "I'll prepare the paperwork for the visa.",
+        "es": "Prepararé el papeleo del visado."
+      },
+      "note": "Colloquial; hacer el papeleo.",
+      "type": "n.m.",
+      "word": "papeleo"
+    },
+    {
+      "en": "visa",
+      "example": {
+        "en": "The student visa takes weeks.",
+        "es": "El visado de estudiante tarda semanas."
+      },
+      "note": "el visado de estudiante.",
+      "type": "n.m.",
+      "word": "visado"
+    },
+    {
+      "en": "foreign; abroad",
+      "example": {
+        "en": "She will live abroad for two years.",
+        "es": "Vivirá dos años en el extranjero."
+      },
+      "note": "vivir en el extranjero.",
+      "type": "adj./n.",
+      "word": "extranjero/a"
+    },
+    {
+      "en": "courage",
+      "example": {
+        "en": "In the bravest scenario, she accepts.",
+        "es": "En el supuesto más valiente, acepta."
+      },
+      "note": "Opposite: cobardía.",
+      "type": "n.f.",
+      "word": "valentía"
+    },
+    {
+      "en": "indecision",
+      "example": {
+        "en": "But indecision keeps her awake.",
+        "es": "Pero la indecisión no la deja dormir."
+      },
+      "note": "la indecisión no la deja dormir.",
+      "type": "n.f.",
+      "word": "indecisión"
+    },
+    {
+      "en": "undecided",
+      "example": {
+        "en": "He is still undecided.",
+        "es": "Todavía está indeciso."
+      },
+      "note": "estar indeciso.",
+      "type": "adj.",
+      "word": "indeciso/a"
+    },
+    {
+      "en": "assumption, scenario; supposed",
+      "example": {
+        "en": "In the bravest scenario, she dares.",
+        "es": "En el supuesto más valiente, se atreve."
+      },
+      "note": "en el supuesto de que…",
+      "type": "n.m./adj.",
+      "word": "supuesto/a"
+    },
+    {
+      "en": "consequence",
+      "example": {
+        "en": "The consequence she fears most is not failing.",
+        "es": "La consecuencia que más teme no es fracasar."
+      },
+      "note": "sufrir las consecuencias.",
+      "type": "n.f.",
+      "word": "consecuencia"
+    },
+    {
+      "en": "hypothesis",
+      "example": {
+        "en": "It is an interesting hypothesis.",
+        "es": "Es una hipótesis interesante."
+      },
+      "note": "una hipótesis valiente.",
+      "type": "n.f.",
+      "word": "hipótesis"
+    },
+    {
+      "en": "motive, reason",
+      "example": {
+        "en": "His motive is clear.",
+        "es": "Su motivo es claro."
+      },
+      "note": "el motivo de la decisión.",
+      "type": "n.m.",
+      "word": "motivo"
+    },
+    {
+      "en": "deadline, instalment",
+      "example": {
+        "en": "If the deadline ends today, we decide now.",
+        "es": "Si el plazo termina hoy, decidimos ya."
+      },
+      "note": "el plazo termina hoy; a plazos.",
+      "type": "n.m.",
+      "word": "plazo"
+    },
+    {
+      "en": "to deserve; to be worth",
+      "example": {
+        "en": "What if risking so much isn't worth it?",
+        "es": "¿Y si no merece la pena arriesgar tanto?"
+      },
+      "note": "merece la pena (it's worth it).",
+      "type": "v.",
+      "word": "merecer"
+    },
+    {
+      "en": "to risk",
+      "example": {
+        "en": "She doesn't dare risk so much.",
+        "es": "No se atreve a arriesgar tanto."
+      },
+      "note": "arriesgar mucho.",
+      "type": "v.",
+      "word": "arriesgar"
+    },
+    {
+      "en": "risky, daring",
+      "example": {
+        "en": "It would be a risky decision.",
+        "es": "Sería una decisión arriesgada."
+      },
+      "note": "una decisión arriesgada.",
+      "type": "adj.",
+      "word": "arriesgado/a"
+    },
+    {
+      "en": "to regret",
+      "example": {
+        "en": "She wonders whether she would regret it.",
+        "es": "Se pregunta si se arrepentiría."
+      },
+      "note": "arrepentirse de algo.",
+      "type": "v.",
+      "word": "arrepentirse"
+    },
+    {
+      "en": "to dare",
+      "example": {
+        "en": "She dares and starts the journey.",
+        "es": "Se atreve y emprende el viaje."
+      },
+      "note": "atreverse a hacer algo.",
+      "type": "v.",
+      "word": "atreverse"
+    },
+    {
+      "en": "to pay for, to cover (costs)",
+      "example": {
+        "en": "The programme would cover her studies.",
+        "es": "El programa le costearía los estudios."
+      },
+      "note": "costear los estudios.",
+      "type": "v.",
+      "word": "costear"
+    },
+    {
+      "en": "to start, to undertake",
+      "example": {
+        "en": "He will start the journey with little luggage.",
+        "es": "Emprenderá el viaje con lo puesto."
+      },
+      "note": "emprender un viaje; un negocio.",
+      "type": "v.",
+      "word": "emprender"
+    },
+    {
+      "en": "to suppose; to mean, to entail",
+      "example": {
+        "en": "The paperwork is no problem.",
+        "es": "El papeleo no supone ningún problema."
+      },
+      "note": "supone un problema; supongo que sí.",
+      "type": "v.",
+      "word": "suponer"
+    },
+    {
+      "en": "deserved, well-earned",
+      "example": {
+        "en": "A well-earned job after years of effort.",
+        "es": "Un trabajo merecido después de años de esfuerzo."
+      },
+      "note": "un descanso merecido.",
+      "type": "adj.",
+      "word": "merecido/a"
+    },
+    {
+      "en": "favour",
+      "example": {
+        "en": "He doesn't want to ask any favours.",
+        "es": "No quiere pedir ningún favor."
+      },
+      "note": "pedir / hacer un favor.",
+      "type": "n.m.",
+      "word": "favor"
+    },
+    {
+      "en": "imagine (informal command)",
+      "example": {
+        "en": "Imagine living two years away.",
+        "es": "Imagínate vivir dos años fuera."
+      },
+      "ext": true,
+      "note": "Imagínate dentro de diez años.",
+      "type": "interj.",
+      "word": "imagínate"
+    },
+    {
+      "en": "cowardice",
+      "example": {
+        "en": "It wasn't cowardice, it was prudence.",
+        "es": "No fue cobardía, fue prudencia."
+      },
+      "ext": true,
+      "note": "Opposite: valentía.",
+      "type": "n.f.",
+      "word": "cobardía"
+    },
+    {
+      "en": "to retire",
+      "example": {
+        "en": "He retired at 65.",
+        "es": "Se jubiló a los 65 años."
+      },
+      "ext": true,
+      "note": "Se jubiló a los 65 años.",
+      "type": "v.",
+      "word": "jubilarse"
+    }
+  ]
+}

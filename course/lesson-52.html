@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 52 — Literature: Cervantes &amp; Don Quijote</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-51.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 52 — LITERATURE: CERVANTES &amp; DON QUIJOTE</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read the story of <strong>Don Quijote</strong>: the knight, his squire, the fake sequel and the real one.</li>
+      <li>Recycle <strong>reported speech</strong> (<span class="es">dijo que…, preguntó si…</span>) with tense backshift.</li>
+      <li>Recycle the <strong>pluperfect timeline</strong> (<span class="es">ya había escrito</span>).</li>
+      <li>Pick up words: <span class="es">caballero, escudero, molino, novela, personaje, locura, gobernar</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">caballero, escudero, molino, gigante, hidalgo, locura, cordura, idealismo, falso, historiador, parodia, capítulo, novela, prólogo, narrador, personaje, ficción, honra, linaje, caballería, sátira, ironía, humor, lector, rebaño, yelmo, lanza, armadura, escudo, venta, hazaña, imprenta, edición, barbero, gobernar, dama</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">quijotesco, ínsula, ventero, manchego</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EL CABALLERO QUE PERDIÓ LA RAZÓN)</h2>
+<p><strong>Context:</strong> The plot of the most famous Spanish novel, line by line. Read each line; the English below it is only a check.</p>
+<p class="lead">(A novel about reading novels — pay attention to who says what, because reported speech is today's grammar.)</p>
+
+<div class="phrase">
+  <p class="es">En un pueblo de España vivía un <b>hidalgo</b> <b>manchego</b> que perdió la razón con libros de <b>caballerías</b>.</p>
+  <p class="en">In a Spanish village there lived a Manchegan gentleman who lost his mind over books of chivalry.</p>
+</div>
+<div class="phrase">
+  <p class="es">Se puso el nombre de don Quijote, se hizo una <b>armadura</b> con cartón viejo y salió a buscar aventuras.</p>
+  <p class="en">He took the name Don Quijote, made himself armour out of old cardboard and rode out seeking adventures.</p>
+</div>
+<div class="phrase">
+  <p class="es">Antes de escribir, Cervantes había perdido una mano en la guerra y había viajado por media España, y conocía la vida de los pobres.</p>
+  <p class="en">Before writing, Cervantes had lost a hand in the war and had travelled through half of Spain, and he knew the life of the poor.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tomó unos <b>molinos</b> de viento por <b>gigantes</b> y fue contra ellos con su <b>lanza</b>, y la <b>lanza</b> se rompió en el aire.</p>
+  <p class="en">He took some windmills for giants and went at them with his lance, and the lance broke in the air.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su vecino Sancho, un campesino bueno, aceptó ser su <b>escudero</b> a cambio de <b>gobernar</b> una <b>ínsula</b>.</p>
+  <p class="en">His neighbour Sancho, a good peasant, agreed to be his squire in exchange for governing an isle.</p>
+</div>
+<div class="phrase">
+  <p class="es">Y lo mejor es que Sancho llegó a <b>gobernar</b> de verdad, y todos dicen que lo hizo bien, y se fue tan pobre como antes.</p>
+  <p class="en">And the best of it is that Sancho actually came to govern, and everyone says he did it well — and he left as poor as before.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su <b>dama</b> era una campesina llamada Aldonza, a la que él llamaba Dulcinea y servía como a una reina.</p>
+  <p class="en">His lady was a peasant woman called Aldonza, whom he called Dulcinea and served as a queen.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cervantes juega con el <b>lector</b>: dice que solo cuenta lo que escribió un <b>historiador</b> árabe.</p>
+  <p class="en">Cervantes plays with the reader: he says he is only telling what an Arab historian wrote.</p>
+</div>
+<div class="phrase">
+  <p class="es">La primera parte salió de la <b>imprenta</b> en 1605 y gustó a ricos y a pobres: el <b>caballero</b> de la triste figura llegó a todas las casas, donde ricos y pobres la leían por las noches.</p>
+  <p class="en">The first part came off the press in 1605 and pleased rich and poor alike: the knight of the sorrowful face reached every home, where rich and poor read it at night.</p>
+</div>
+<div class="phrase">
+  <p class="es">Don Quijote escribe cartas a Dulcinea, y Sancho las lleva con hambre y con miedo, y siempre llega tarde.</p>
+  <p class="en">Don Quijote writes letters to Dulcinea, and Sancho carries them, hungry and afraid — and he always arrives late.</p>
+</div>
+<div class="phrase">
+  <p class="es">Nueve años después, otro hombre escribió una segunda parte <b>falsa</b> con su <b>personaje</b>.</p>
+  <p class="en">Nine years later, another man wrote a false second part using his character.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cervantes respondió con la segunda parte de verdad en 1615: allí don Quijote ya sabe que hay un libro falso de sus aventuras.</p>
+  <p class="en">Cervantes answered with the true second part in 1615: there Don Quijote already knows there is a false book about his adventures.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al final, enfermo en la cama, don Quijote recupera la <b>cordura</b> y vuelve a ser Alonso Quijano.</p>
+  <p class="en">At the end, sick in bed, Don Quijote recovers his sanity and becomes Alonso Quijano again.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cuatro siglos después, el <b>caballero</b> y su <b>escudero</b> siguen vivos en todas las lenguas: el Quijote es la <b>novela</b> que más se ha traducido en el mundo, después de la Biblia, que todos leen, jóvenes y viejos.</p>
+  <p class="en">Four centuries later, the knight and his squire live on in every language: Quijote is the most translated novel in the world, after the Bible, which everyone reads, young and old.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">quijotesco</span></td><td data-label="Type">adj.</td><td data-label="English">quixotic</td><td data-label="Notes">Noble y loco a la vez, como don Quijote.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ínsula</span></td><td data-label="Type">n.f.</td><td data-label="English">isle (literary)</td><td data-label="Notes">Isla en lengua antigua; la ínsula Barataria.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ventero</span></td><td data-label="Type">n.m.</td><td data-label="English">innkeeper</td><td data-label="Notes">El dueño de la venta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">manchego</span></td><td data-label="Type">adj.</td><td data-label="English">from La Mancha</td><td data-label="Notes">Also the famous cheese: queso manchego.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> <span class="es">dice que solo cuenta…</span> — when we report words, the tenses step one step back (see §2.1). And <span class="es">ya había escrito</span> puts one past before another past (§2.2).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Reported speech: one step back (recycled from L42)</h3>
+<p>Reporting moves the verb one step into the past: present → imperfect, future → conditional. Questions with <span class="es">si</span> (whether) never take the subjunctive here — they keep the indicative.</p>
+<div class="formula">dice: «son gigantes» &nbsp;→&nbsp; <b>dijo que eran</b> gigantes</div>
+<ul>
+  <li class="ex"><span class="es">Dijo <b>que</b> los molinos <b>eran</b> gigantes.</span><span class="en">He said the windmills were giants.</span> <em>(direct: «son gigantes»)</em></li>
+  <li class="ex"><span class="es">Sancho preguntó <b>si</b> Dulcinea <b>era</b> tan hermosa como decían.</span><span class="en">Sancho asked whether Dulcinea was as beautiful as they said.</span></li>
+  <li class="ex"><span class="es">Dijo que un <b>hidalgo</b> vive de su <b>honra</b>.</span><span class="en">He said a gentleman lives on his honour.</span> <em>(timeless truth → present stays)</em></li>
+  <li class="ex"><span class="es">Preguntó de qué <b>linaje</b> era el <b>caballero</b>.</span><span class="en">He asked of what lineage the knight was.</span></li>
+</ul>
+
+<h3>2.2. The pluperfect timeline (recycled from L33)</h3>
+<p><span class="es">Había</span> + participle marks the earlier of two past events — perfect for publication history.</p>
+<ul>
+  <li class="ex"><span class="es">Cuando salió la parte falsa, Cervantes ya <b>había escrito</b> la verdadera.</span><span class="en">When the false part came out, Cervantes had already written the true one.</span></li>
+  <li class="ex"><span class="es">Años antes <b>había</b> perdido una mano en la guerra y <b>había</b> viajado por media España.</span><span class="en">Years earlier he had lost a hand in the war and had travelled through half of Spain.</span></li>
+  <li class="ex"><span class="es">Sancho nunca <b>había gobernado</b> nada antes de la ínsula.</span><span class="en">Sancho had never governed anything before the isle.</span></li>
+</ul>
+<div class="tip">💡 <strong>Cervantes in one line:</strong> pobre y valiente — y el escritor que inventó la <span class="es">novela</span> moderna. En Lepanto perdió la mano en la batalla, antes de escribir.</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">caballero</span></td><td data-label="Type">n.m.</td><td data-label="English">knight; gentleman</td><td data-label="Notes">Un caballero andante busca aventuras. Contrast: caballo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escudero</span></td><td data-label="Type">n.m.</td><td data-label="English">squire</td><td data-label="Notes">The knight's helper; Sancho, the most famous.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">molino</span></td><td data-label="Type">n.m.</td><td data-label="English">mill, windmill</td><td data-label="Notes">Los molinos de la Mancha.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gigante</span></td><td data-label="Type">n./adj.</td><td data-label="English">giant; huge</td><td data-label="Notes">Also adjective: un éxito gigante.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hidalgo</span></td><td data-label="Type">n.m.</td><td data-label="English">minor nobleman</td><td data-label="Notes">Hijo de algo: noble but poor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">locura</span></td><td data-label="Type">n.f.</td><td data-label="English">madness</td><td data-label="Notes">Family: loco → locura.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cordura</span></td><td data-label="Type">n.f.</td><td data-label="English">sanity</td><td data-label="Notes">Opposite of locura.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">idealismo</span></td><td data-label="Type">n.m.</td><td data-label="English">idealism</td><td data-label="Notes">Family: idea → ideal → idealismo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">falso</span></td><td data-label="Type">adj.</td><td data-label="English">false, fake</td><td data-label="Notes">Una segunda parte falsa con su personaje.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">historiador</span></td><td data-label="Type">n.m.</td><td data-label="English">historian</td><td data-label="Notes">Cuenta lo que pasó; el historiador árabe.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">parodia</span></td><td data-label="Type">n.f.</td><td data-label="English">parody</td><td data-label="Notes">Imitating a genre to laugh at it kindly.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">capítulo</span></td><td data-label="Type">n.m.</td><td data-label="English">chapter</td><td data-label="Notes">El capítulo de los molinos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">novela</span></td><td data-label="Type">n.f.</td><td data-label="English">novel</td><td data-label="Notes">El Quijote, la novela más traducida.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prólogo</span></td><td data-label="Type">n.m.</td><td data-label="English">prologue, preface</td><td data-label="Notes">The text before chapter one.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">narrador</span></td><td data-label="Type">n.m.</td><td data-label="English">narrator</td><td data-label="Notes">Who tells the story; Cervantes invents several.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">personaje</span></td><td data-label="Type">n.m.</td><td data-label="English">character</td><td data-label="Notes">Sancho, the character who grows most.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ficción</span></td><td data-label="Type">n.f.</td><td data-label="English">fiction</td><td data-label="Notes">The invented; contrast: reality.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">honra</span></td><td data-label="Type">n.f.</td><td data-label="English">honour</td><td data-label="Notes">The gentleman's central value.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">linaje</span></td><td data-label="Type">n.m.</td><td data-label="English">lineage</td><td data-label="Notes">The family you come from.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">caballería</span></td><td data-label="Type">n.f.</td><td data-label="English">chivalry</td><td data-label="Notes">Libros de caballerías: knightly romances.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sátira</span></td><td data-label="Type">n.f.</td><td data-label="English">satire</td><td data-label="Notes">Laughing at power and fashion.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ironía</span></td><td data-label="Type">n.f.</td><td data-label="English">irony</td><td data-label="Notes">Saying the opposite, with fine humour.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">humor</span></td><td data-label="Type">n.m.</td><td data-label="English">humour</td><td data-label="Notes">Blows, dialogues and misunderstandings.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lector</span></td><td data-label="Type">n.</td><td data-label="English">reader</td><td data-label="Notes">«Desocupado lector» opens the prologue.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rebaño</span></td><td data-label="Type">n.m.</td><td data-label="English">flock, herd</td><td data-label="Notes">Quijote sees armies where there are flocks.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">yelmo</span></td><td data-label="Type">n.m.</td><td data-label="English">helmet</td><td data-label="Notes">El yelmo de Mambrino, a barber's basin.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lanza</span></td><td data-label="Type">n.f.</td><td data-label="English">lance, spear</td><td data-label="Notes">The knight's long weapon.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">armadura</span></td><td data-label="Type">n.f.</td><td data-label="English">armour</td><td data-label="Notes">Iron that protects the knight.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escudo</span></td><td data-label="Type">n.m.</td><td data-label="English">shield</td><td data-label="Notes">Lanza y escudo: the knight's arms.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">venta</span></td><td data-label="Type">n.f.</td><td data-label="English">roadside inn</td><td data-label="Notes">Poor inn; Quijote sees a castle.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hazaña</span></td><td data-label="Type">n.f.</td><td data-label="English">feat, heroic deed</td><td data-label="Notes">What the knight dreams of doing.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">imprenta</span></td><td data-label="Type">n.f.</td><td data-label="English">printing press</td><td data-label="Notes">Salir de la imprenta = to come off the press.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">edición</span></td><td data-label="Type">n.f.</td><td data-label="English">edition</td><td data-label="Notes">Family: editar → edición.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">barbero</span></td><td data-label="Type">n.m.</td><td data-label="English">barber</td><td data-label="Notes">His basin serves as a helmet.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gobernar</span></td><td data-label="Type">v.</td><td data-label="English">to govern, to rule</td><td data-label="Notes">Sancho gobernó la ínsula bien.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dama</span></td><td data-label="Type">n.f.</td><td data-label="English">lady</td><td data-label="Notes">Su dama ideal: Dulcinea.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences from the world of the novel. Read them once; no need to memorize.</p>
+
+<h3>1. The helmet:</h3>
+<div class="phrase">
+  <p class="es">Su yelmo era un simple plato de barbero.</p>
+  <p class="en">His helmet was a mere barber's basin.</p>
+</div>
+<h3>2. The idealist:</h3>
+<div class="phrase">
+  <p class="es">Tiene idealismo: quiere arreglar el mundo con su lanza.</p>
+  <p class="en">He has idealism: he wants to fix the world with his lance.</p>
+</div>
+<h3>3. The prologue:</h3>
+<div class="phrase">
+  <p class="es">El prólogo habla directamente al lector: «Desocupado lector».</p>
+  <p class="en">The prologue speaks directly to the reader: "Idle reader".</p>
+</div>
+<h3>4. The genre:</h3>
+<div class="phrase">
+  <p class="es">El libro es una parodia llena de ironía y de humor.</p>
+  <p class="en">The book is a parody full of irony and humour.</p>
+</div>
+<h3>5. The edition:</h3>
+<div class="phrase">
+  <p class="es">De la primera edición no quedó ni un libro en las tiendas.</p>
+  <p class="en">Not a single book of the first edition was left in the shops.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Night at the inn. Don Quijote thanks the innkeeper — and Sancho counts the cost.</p>
+
+<div class="phrase">
+  <p class="es">Quijote: Gracias, buen ventero. Este castillo tiene un caballero.</p>
+  <p class="en">Quijote: Thank you, good innkeeper. This castle has a knight.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ventero: No es castillo, señor, es una venta pobre.</p>
+  <p class="en">Innkeeper: It is no castle, sir, it is a poor inn.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ventero: Pero le doy mi mejor cama.</p>
+  <p class="en">Innkeeper: But I'll give you my best bed.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sancho: Mi amo dice que los gigantes son molinos cuando pierde, y molinos gigantes cuando gana.</p>
+  <p class="en">Sancho: My master says giants are windmills when he loses, and giant windmills when he wins.</p>
+</div>
+<div class="phrase">
+  <p class="es">Quijote: Callad, Sancho: la cordura del escudero es la locura del caballero.</p>
+  <p class="en">Quijote: Hush, Sancho: the squire's sanity is the knight's madness.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ventero: Pues aquí hay vino y pan para la locura y para la cordura.</p>
+  <p class="en">Innkeeper: Well, here there is wine and bread for madness and for sanity alike.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>ventero</strong> (innkeeper), <strong>venta</strong> (inn) — Sancho's irony does the rest.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Reported speech:</strong> present → imperfect (<span class="es">son → eran</span>), questions with <span class="es">si</span>, timeless truths stay in the present.</li>
+  <li><strong>Pluperfect:</strong> <span class="es">ya había escrito</span> marks the earlier past — essential for literary history.</li>
+  <li><strong>The story:</strong> a gentleman goes mad on romances, mistakes mills for giants, gains the wisest squire in literature, survives a fake sequel — and recovers his sanity only to die.</li>
+</ul>
+
+<h3>5.2. Further reading — las armas del caballero</h3>
+<p><strong>Context:</strong> A short note on Quijote's equipment — and what the book really laughs at. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Llevaba <b>lanza</b>, <b>escudo</b> y <b>yelmo</b>, y soñaba con <b>hazañas</b> de poeta.</p>
+  <p class="en">He carried lance, shield and helmet, and dreamed of a poet's feats.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su aventura fue <b>quijotesca</b>: triste y divertida a la vez.</p>
+  <p class="en">His adventure was quixotic: sad and funny at the same time.</p>
+</div>
+<div class="phrase">
+  <p class="es">Detrás de la <b>parodia</b> hay <b>sátira</b>: el libro se ríe de un mundo que solo respeta el dinero y el <b>linaje</b>.</p>
+  <p class="en">Behind the parody there is satire: the book laughs at a world that respects only money and bloodline.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>ficción</b> juega con la vida: los <b>personajes</b> leen el libro falso y hablan de él.</p>
+  <p class="en">Fiction plays with life: the characters read the false book and talk about it.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por eso cada <b>capítulo</b> nuevo esconde una pregunta: ¿quién está loco aquí, el <b>caballero</b> o el mundo?</p>
+  <p class="en">That is why each new chapter hides a question: who is mad here, the knight or the world?</p>
+</div>
+
+<p class="lead"><em>New words: <strong>sátira</strong> (satire), <strong>quijotesco</strong> (quixotic) — from today's table.</em></p>
+
+<hr>
+<p><strong>End of Lesson 52.</strong> Next, <strong>Lesson 53</strong>: the Latin American Boom — García Márquez, Borges, Cortázar. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-53.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

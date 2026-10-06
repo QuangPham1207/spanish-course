@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 41 — The passive voice</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-40.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 41 — THE PASSIVE VOICE</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Form the passive with <strong>ser + participle</strong> in any tense: <span class="es">fue construido, será inaugurado</span>.</li>
+      <li>Distinguish the <strong>passive <em>se</em></strong> (<span class="es">se venden casas</span>) from the <strong>impersonal <em>se</em></strong> (<span class="es">se vive bien</span>).</li>
+      <li>Read the turbulent history of a city monument.</li>
+      <li>Pick up words: <span class="es">inaugurar, derribar, proclamar, destituir, coronar, sitiar, estatua, fortaleza</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">inaugurar, derribar, proclamar, derrocar, destituir, coronar, sitiar, rendición, rendir, estatua, traición, traicionar, indulto, indultar, destierro, desterrar, pregón, pregonar, mural, arco, cúpula, fortaleza, declarar, elegir, placa, monumento, corona, trono, reinado, reinar, asedio, tropa</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">fusilar, paredón, coronación</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EL MONUMENTO DE LA PLAZA)</h2>
+<p><strong>Context:</strong> A local chronicle tells the story of a fortress, a statue and an arch in a Latin American city — built, destroyed and rebuilt across two centuries.</p>
+<p class="lead">(In history writing the <em>doer</em> often matters less than the <em>event</em> — that is exactly where the passive lives.)</p>
+
+<div class="phrase">
+  <p class="es">La <b>fortaleza</b> fue construida en el siglo XVIII para defender la bahía.</p>
+  <p class="en">The fortress was built in the 18th century to defend the bay.</p>
+</div>
+<div class="phrase">
+  <p class="es">Durante el <b>asedio</b> de 1815, fue <b>sitiada</b> por las <b>tropas</b> del rey.</p>
+  <p class="en">During the siege of 1815, it was besieged by the king's troops.</p>
+</div>
+<div class="phrase">
+  <p class="es">El gobernador no quiso <b>rendirse</b>: la ciudad <b>sería</b> defendida hasta la <b>rendición</b> final.</p>
+  <p class="en">The governor refused to surrender: the city would be defended until the final surrender.</p>
+</div>
+<div class="phrase">
+  <p class="es">Años después, la independencia fue <b>proclamada</b> desde el balcón del cabildo.</p>
+  <p class="en">Years later, independence was proclaimed from the town-hall balcony.</p>
+</div>
+<div class="phrase">
+  <p class="es">El general traidor fue <b>destituido</b> y condenado al <b>destierro</b> por su <b>traición</b>.</p>
+  <p class="en">The traitorous general was removed from office and sentenced to exile for his betrayal.</p>
+</div>
+<div class="phrase">
+  <p class="es">En 1910 se <b>inauguró</b> el <b>monumento</b>: una <b>estatua</b> bajo un <b>arco</b> de piedra.</p>
+  <p class="en">In 1910 the monument was unveiled: a statue beneath a stone arch.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>cúpula</b> del palacio vecino fue <b>derribada</b> por el terremoto y nunca fue reconstruida.</p>
+  <p class="en">The neighbouring palace's dome was toppled by the earthquake and was never rebuilt.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hoy se <b>declara</b> patrimonio a todo el conjunto y se <b>eligen</b> allí los reyes del carnaval.</p>
+  <p class="en">Today the whole site is declared heritage and the carnival kings and queens are elected there.</p>
+</div>
+<div class="phrase">
+  <p class="es">En esta plaza no solo se recuerda la historia: se <b>pregonan</b> también las fiestas con un gran <b>mural</b> de colores.</p>
+  <p class="en">In this square history is not only remembered: the festivals are also announced with a big colourful mural.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">fusilar</span></td><td data-label="Type">v.</td><td data-label="English">to execute by firing squad</td><td data-label="Notes">History contexts; fue fusilado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">paredón</span></td><td data-label="Type">n.m.</td><td data-label="English">execution wall</td><td data-label="Notes">llevar al paredón.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">coronación</span></td><td data-label="Type">n.f.</td><td data-label="English">coronation</td><td data-label="Notes">From coronar.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> <span class="es">fue construida, fue sitiada, fue proclamada</span> (ser-passive, formal history) vs <span class="es">se inauguró, se declaran, se pregonan</span> (se-passive, everyday use). Both hide the doer — but only one can name an agent with <span class="es">por</span>.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The ser-passive: formation and agreement</h3>
+<p>The true passive uses <strong>ser + past participle</strong> in any tense. The participle <strong>agrees</strong> with the subject (<span class="es">fue construido / fue construida / fueron construidos</span>). The agent, when named, follows <span class="es">por</span>.</p>
+<div class="formula"><b>ser</b> (any tense) + participle (agrees) &nbsp;·&nbsp; agent with <b>por</b></div>
+<ul>
+  <li class="ex"><span class="es">La fortaleza <b>fue construida</b> en el siglo XVIII.</span><span class="en">The fortress was built in the 18th century.</span></li>
+  <li class="ex"><span class="es">Fue <b>sitiada por</b> las <b>tropas</b> del rey.</span><span class="en">It was besieged by the king's troops.</span></li>
+  <li class="ex"><span class="es">La independencia <b>fue proclamada</b> desde el balcón.</span><span class="en">Independence was proclaimed from the balcony.</span></li>
+  <li class="ex"><span class="es">El general <b>fue destituido</b> y condenado al <b>destierro</b>.</span><span class="en">The general was removed and sentenced to exile.</span></li>
+  <li class="ex"><span class="es">La ciudad <b>será</b> defendida hasta la <b>rendición</b>.</span><span class="en">The city will be defended until the surrender.</span></li>
+</ul>
+
+<h3>2.2. The se-passive and the impersonal se</h3>
+<p>Everyday Spanish prefers <strong>se + third person verb</strong> with no agent. If the verb <strong>agrees with a thing</strong>, it is the <strong>passive <em>se</em></strong> (<span class="es">se venden casas</span>). If there is <strong>no thing to agree with</strong> (verb stays singular), it is the <strong>impersonal <em>se</em></strong> (<span class="es">se vive bien</span>).</p>
+<div class="formula"><b>se</b> + verb agreeing with the thing (passive) &nbsp;·&nbsp; <b>se</b> + singular verb, no subject (impersonal)</div>
+<ul>
+  <li class="ex"><span class="es">En 1910 <b>se inauguró</b> el <b>monumento</b>.</span><span class="en">In 1910 the monument was unveiled.</span> <em>(passive se: agrees with el monumento)</em></li>
+  <li class="ex"><span class="es">Allí <b>se eligen</b> los reyes del carnaval.</span><span class="en">The carnival royalty are elected there.</span> <em>(passive se: plural)</em></li>
+  <li class="ex"><span class="es">En esta plaza <b>se</b> recuerda la historia.</span><span class="en">In this square, history is remembered / people remember history.</span> <em>(impersonal se)</em></li>
+  <li class="ex"><span class="es"><b>Se vive</b> bien en esta ciudad.</span><span class="en">People live well in this city.</span> <em>(impersonal se: no subject)</em></li>
+</ul>
+<div class="tip">💡 <strong>Rule of thumb:</strong> formal writing and history books use <span class="es">fue construido</span>; news, signs and speech use <span class="es">se construyó</span>. Never add <span class="es">por</span> + agent to a <span class="es">se</span>-sentence.</div>
+<div class="warn">⚠️ <strong>Common mistake:</strong> the participle must agree — <span class="es">la cúpula fue derribada</span>, not <span class="es">fue derribado</span>. And <span class="es">se</span> already hides the doer, so <span class="es">se inauguró por el alcalde</span> is wrong; say <span class="es">fue inaugurado por el alcalde</span>.</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">inaugurar</span></td><td data-label="Type">v.</td><td data-label="English">to open, to unveil</td><td data-label="Notes">se inauguró el monumento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">derribar</span></td><td data-label="Type">v.</td><td data-label="English">to knock down, to topple</td><td data-label="Notes">la cúpula fue derribada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">proclamar</span></td><td data-label="Type">v.</td><td data-label="English">to proclaim</td><td data-label="Notes">fue proclamada la independencia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">derrocar</span></td><td data-label="Type">v.</td><td data-label="English">to overthrow</td><td data-label="Notes">derrocar al gobierno.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">destituir</span></td><td data-label="Type">v.</td><td data-label="English">to remove from office</td><td data-label="Notes">fue destituido por traición.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">coronar</span></td><td data-label="Type">v.</td><td data-label="English">to crown</td><td data-label="Notes">coronar al rey.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sitiar</span></td><td data-label="Type">v.</td><td data-label="English">to besiege</td><td data-label="Notes">fue sitiada por las tropas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rendición</span></td><td data-label="Type">n.f.</td><td data-label="English">surrender</td><td data-label="Notes">hasta la rendición final.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rendir</span></td><td data-label="Type">v.</td><td data-label="English">to surrender; to yield</td><td data-label="Notes">rendirse (to give up); no quiso rendirse.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">estatua</span></td><td data-label="Type">n.f.</td><td data-label="English">statue</td><td data-label="Notes">una estatua bajo un arco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">traición</span></td><td data-label="Type">n.f.</td><td data-label="English">betrayal</td><td data-label="Notes">condenado por su traición.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">traicionar</span></td><td data-label="Type">v.</td><td data-label="English">to betray</td><td data-label="Notes">traicionar a su gente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">indulto</span></td><td data-label="Type">n.m.</td><td data-label="English">pardon</td><td data-label="Notes">pedir el indulto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">indultar</span></td><td data-label="Type">v.</td><td data-label="English">to pardon</td><td data-label="Notes">fue indultado por el rey.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">destierro</span></td><td data-label="Type">n.m.</td><td data-label="English">exile</td><td data-label="Notes">condenado al destierro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desterrar</span></td><td data-label="Type">v.</td><td data-label="English">to exile, to banish</td><td data-label="Notes">fue desterrado del país.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pregón</span></td><td data-label="Type">n.m.</td><td data-label="English">proclamation, announcement</td><td data-label="Notes">el pregón de las fiestas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pregonar</span></td><td data-label="Type">v.</td><td data-label="English">to announce publicly</td><td data-label="Notes">se pregonan las fiestas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mural</span></td><td data-label="Type">n.m.</td><td data-label="English">mural</td><td data-label="Notes">un mural de colores.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">arco</span></td><td data-label="Type">n.m.</td><td data-label="English">arch</td><td data-label="Notes">un arco de piedra.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cúpula</span></td><td data-label="Type">n.f.</td><td data-label="English">dome</td><td data-label="Notes">la cúpula del palacio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fortaleza</span></td><td data-label="Type">n.f.</td><td data-label="English">fortress</td><td data-label="Notes">la fortaleza de la bahía.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">declarar</span></td><td data-label="Type">v.</td><td data-label="English">to declare</td><td data-label="Notes">se declara patrimonio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">elegir</span></td><td data-label="Type">v.</td><td data-label="English">to elect, to choose</td><td data-label="Notes">se eligen los reyes del carnaval.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">placa</span></td><td data-label="Type">n.f.</td><td data-label="English">plaque</td><td data-label="Notes">una placa de bronce.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">monumento</span></td><td data-label="Type">n.m.</td><td data-label="English">monument</td><td data-label="Notes">se inauguró el monumento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">corona</span></td><td data-label="Type">n.f.</td><td data-label="English">crown</td><td data-label="Notes">la corona del rey.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trono</span></td><td data-label="Type">n.m.</td><td data-label="English">throne</td><td data-label="Notes">subir al trono.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reinado</span></td><td data-label="Type">n.m.</td><td data-label="English">reign</td><td data-label="Notes">durante su reinado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reinar</span></td><td data-label="Type">v.</td><td data-label="English">to reign</td><td data-label="Notes">reinó veinte años.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">asedio</span></td><td data-label="Type">n.m.</td><td data-label="English">siege</td><td data-label="Notes">el asedio de 1815.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tropa</span></td><td data-label="Type">n.f.</td><td data-label="English">troop</td><td data-label="Notes">Plural: las tropas del rey.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five passive sentences. Read them once; no need to memorize.</p>
+
+<h3>1. Formal passive:</h3>
+<div class="phrase">
+  <p class="es">La fortaleza fue construida en el siglo XVIII.</p>
+  <p class="en">The fortress was built in the 18th century.</p>
+</div>
+<h3>2. Passive with agent:</h3>
+<div class="phrase">
+  <p class="es">Fue sitiada por las tropas del rey.</p>
+  <p class="en">It was besieged by the king's troops.</p>
+</div>
+<h3>3. Everyday se-passive:</h3>
+<div class="phrase">
+  <p class="es">En 1910 se inauguró el monumento.</p>
+  <p class="en">In 1910 the monument was unveiled.</p>
+</div>
+<h3>4. Plural se-passive:</h3>
+<div class="phrase">
+  <p class="es">Allí se eligen los reyes del carnaval.</p>
+  <p class="en">The carnival royalty are elected there.</p>
+</div>
+<h3>5. Impersonal se:</h3>
+<div class="phrase">
+  <p class="es">En esta plaza se vive la historia.</p>
+  <p class="en">In this square, history is lived / people live history.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two visitors read the square's information plaque.</p>
+
+<div class="phrase">
+  <p class="es">Guía: Esta estatua fue traída desde España en 1910.</p>
+  <p class="en">Guide: This statue was brought from Spain in 1910.</p>
+</div>
+<div class="phrase">
+  <p class="es">Turista: ¿Y el arco? Se construyó después, ¿no?</p>
+  <p class="en">Tourist: And the arch? It was built later, right?</p>
+</div>
+<div class="phrase">
+  <p class="es">Guía: Sí, se construyó en 1925. La cúpula, en cambio, fue derribada.</p>
+  <p class="en">Guide: Yes, it was built in 1925. The dome, on the other hand, was knocked down.</p>
+</div>
+<div class="phrase">
+  <p class="es">Turista: ¿Se sabe quién la derribó?</p>
+  <p class="en">Tourist: Is it known who knocked it down?</p>
+</div>
+<div class="phrase">
+  <p class="es">Guía: El terremoto. Aquí se recuerda cada año con un pregón y un mural nuevo.</p>
+  <p class="en">Guide: The earthquake. Here it is remembered every year with a proclamation and a new mural.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>traer</strong> appears in the passive here; <strong>en cambio</strong> (on the other hand) is a useful connector.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Ser-passive</strong> (formal): <span class="es">fue construida, fueron destituidos</span>. Participle agrees; agent with <span class="es">por</span>.</li>
+  <li><strong>Passive <em>se</em></strong> (everyday): <span class="es">se inauguró, se eligen</span>. Verb agrees with the thing; no agent.</li>
+  <li><strong>Impersonal <em>se</em></strong>: <span class="es">se vive, se recuerda</span>. Verb stays singular; no subject at all.</li>
+</ul>
+
+<h3>5.2. Further reading — la corona del destierro</h3>
+<p><strong>Context:</strong> A short chronicle of a dethroned king. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">El rey fue <b>coronado</b> muy joven y reinó apenas diez años.</p>
+  <p class="en">The king was crowned very young and reigned barely ten years.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su <b>trono</b> fue defendido por pocas <b>tropas</b> durante el último <b>asedio</b>.</p>
+  <p class="en">His throne was defended by few troops during the last siege.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tras la derrota, fue <b>derrocado</b> y condenado al <b>destierro</b>.</p>
+  <p class="en">After the defeat, he was overthrown and sentenced to exile.</p>
+</div>
+<div class="phrase">
+  <p class="es">Dicen que fue <b>indultado</b> años después, pero nunca regresó.</p>
+  <p class="en">They say he was pardoned years later, but he never returned.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hoy su <b>corona</b> se guarda en un museo y su historia se <b>declara</b> en cada <b>pregón</b> escolar.</p>
+  <p class="en">Today his crown is kept in a museum and his story is told in every school assembly speech.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>derrota</strong> (defeat) appears here in passing.</em></p>
+
+<hr>
+<p><strong>End of Lesson 41.</strong> Next, <strong>Lesson 42</strong>: reported speech — statements, questions and tense backshift. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-42.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

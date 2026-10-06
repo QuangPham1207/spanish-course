@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 40 — Future perfect &amp; conditional perfect</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-39.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 40 — FUTURE PERFECT &amp; CONDITIONAL PERFECT</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Use the <strong>future perfect</strong> (<span class="es">habré hecho</span>) for actions finished before a future point — and for guesses about the past.</li>
+      <li>Use the <strong>conditional perfect</strong> (<span class="es">habría hecho</span>) for what <em>would have</em> happened.</li>
+      <li>Read about a space probe and a sunken galleon: two races against time.</li>
+      <li>Pick up words: <span class="es">sonda, tripulación, órbita, hallazgo, yacimiento, pecio, naufragio</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">habré, habrá, habría, habrían, sonda, tripulación, órbita, cometa, eclipse, despegue, despegar, alunizar, cápsula, nave, pronóstico, adelanto, deducir, hallazgo, yacimiento, pecio, tesoro, brújula, faro, resto, naufragio, muestra, pista, zarpar, naufragar, sumergir, rescatar, expedición</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">retrasar, sumergible, alunizaje</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (DOS CARRERAS CONTRA EL TIEMPO)</h2>
+<p><strong>Context:</strong> A science feature follows two expeditions: a probe heading for a comet, and divers searching for an 18th-century galleon off Cartagena.</p>
+<p class="lead">(Both stories look <em>back from the future</em> — "by 2032, it will have arrived" — and imagine what <em>would have</em> happened otherwise.)</p>
+
+<div class="phrase">
+  <p class="es">Para el año 2032, la <b>sonda</b> <b>habrá</b> llegado a la <b>órbita</b> del <b>cometa</b>.</p>
+  <p class="en">By 2032, the probe will have reached the comet's orbit.</p>
+</div>
+<div class="phrase">
+  <p class="es">Para entonces, la <b>tripulación</b> de ingenieros ya <b>habrá</b> celebrado el <b>despegue</b> de la <b>cápsula</b> gemela.</p>
+  <p class="en">By then, the crew of engineers will already have celebrated the launch of the twin capsule.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sin el <b>pronóstico</b> del <b>eclipse</b>, la <b>nave</b> no <b>habría</b> despegado a tiempo.</p>
+  <p class="en">Without the forecast of the eclipse, the craft would not have taken off on time.</p>
+</div>
+<div class="phrase">
+  <p class="es">Bajo el mar, los buzos creen que ya han encontrado una <b>pista</b>: un <b>pecio</b> con <b>restos</b> de un <b>naufragio</b>.</p>
+  <p class="en">Under the sea, the divers believe they have already found a clue: a wreck with remains of a shipwreck.</p>
+</div>
+<div class="phrase">
+  <p class="es">El galeón <b>habrá</b> zarpado de Cartagena con un <b>tesoro</b> a bordo.</p>
+  <p class="en">The galleon must have set sail from Cartagena with a treasure on board. <em>(guess about the past)</em></p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>brújula</b> y el <b>faro</b> de la bahía no <b>habrían</b> bastado para salvarlo de la tormenta.</p>
+  <p class="en">The compass and the bay's lighthouse would not have been enough to save it from the storm.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si la tormenta no lo hubiera <b>sumergido</b>, la <b>expedición</b> nunca habría existido.</p>
+  <p class="en">If the storm hadn't sunk it, the expedition would never have existed.</p>
+</div>
+<div class="phrase">
+  <p class="es">Para fin de año, los arqueólogos <b>habrán</b> rescatado las primeras <b>muestras</b> del <b>yacimiento</b>.</p>
+  <p class="en">By the end of the year, the archaeologists will have recovered the first samples from the site.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada <b>hallazgo</b> <b>habrá</b> merecido el esfuerzo: nadie <b>habría</b> apostado por este <b>adelanto</b> hace diez años.</p>
+  <p class="en">Each find will have been worth the effort: nobody would have bet on this breakthrough ten years ago.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">retrasar</span></td><td data-label="Type">v.</td><td data-label="English">to delay</td><td data-label="Notes">El lanzamiento se retrasó.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sumergible</span></td><td data-label="Type">n.m./adj.</td><td data-label="English">submersible; underwater</td><td data-label="Notes">un robot sumergible.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alunizaje</span></td><td data-label="Type">n.m.</td><td data-label="English">moon landing</td><td data-label="Notes">From alunizar.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> <span class="es">habrá llegado</span> looks forward and back at once ("will have arrived"); <span class="es">habría despegado</span> imagines a past that never happened ("would have taken off"); <span class="es">habrá zarpado</span> guesses about history ("must have set sail").</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Future perfect: haber in the future + participle</h3>
+<p>The <strong>future perfect</strong> (<span class="es">habré hecho</span>) has two uses. First, an action that <strong>will be finished before a future moment</strong>, often with <span class="es">para… / para entonces / ya</span>. Second, a <strong>conjecture about the past</strong> ("must have… / probably…").</p>
+<div class="formula"><b>habré, habrás, habrá, habremos, habréis, habrán</b> + participle</div>
+<ul>
+  <li class="ex"><span class="es">Para el año 2032, la sonda <b>habrá llegado</b>.</span><span class="en">By 2032, the probe will have arrived.</span></li>
+  <li class="ex"><span class="es">Para fin de año, <b>habrán rescatado</b> las <b>muestras</b>.</span><span class="en">By the end of the year, they will have recovered the samples.</span></li>
+  <li class="ex"><span class="es">El galeón <b>habrá zarpado</b> de Cartagena.</span><span class="en">The galleon must have set sail from Cartagena.</span> <em>(guess)</em></li>
+  <li class="ex"><span class="es">¿Dónde <b>habrá</b> quedado el <b>pecio</b>?</span><span class="en">Where can the wreck have ended up?</span> <em>(guess)</em></li>
+</ul>
+
+<h3>2.2. Conditional perfect: haber in the conditional + participle</h3>
+<p>The <strong>conditional perfect</strong> (<span class="es">habría hecho</span>) means <strong>"would have done"</strong>: unreal pasts, reproaches, and the result of type-3 <span class="es">si</span>-clauses (full type 3 comes in Lesson 58; recognise it here).</p>
+<div class="formula"><b>habría, habrías, habría, habríamos, habríais, habrían</b> + participle</div>
+<ul>
+  <li class="ex"><span class="es">La nave no <b>habría despegado</b> a tiempo.</span><span class="en">The craft would not have taken off on time.</span></li>
+  <li class="ex"><span class="es">Nadie <b>habría apostado</b> por este <b>adelanto</b>.</span><span class="en">Nobody would have bet on this breakthrough.</span></li>
+  <li class="ex"><span class="es">Si la tormenta no lo hubiera sumergido, la <b>expedición</b> nunca <b>habría</b> existido.</span><span class="en">If the storm hadn't sunk it, the expedition would never have existed.</span></li>
+  <li class="ex"><span class="es"><b>Habrías</b> podido avisar a la <b>tripulación</b>.</span><span class="en">You could have warned the crew.</span> <em>(reproach)</em></li>
+</ul>
+
+<h3>2.3. Telling the two apart</h3>
+<ul>
+  <li class="ex"><span class="es"><b>Habrá alunizado</b> antes del eclipse.</span><span class="en">It will have landed on the moon before the eclipse.</span> <em>(future perfect: a plan)</em></li>
+  <li class="ex"><span class="es"><b>Habría alunizado</b> antes del eclipse.</span><span class="en">It would have landed on the moon before the eclipse.</span> <em>(conditional perfect: it didn't happen)</em></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistake:</strong> <span class="es">habrá hecho</span> (future perfect) is about the future or a guess — never use it for a simple completed past. For "he did it yesterday", use the preterite: <span class="es">lo hizo ayer</span>.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">habré</span></td><td data-label="Type">v.</td><td data-label="English">I will have</td><td data-label="Notes">Future of haber; habré terminado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">habrá</span></td><td data-label="Type">v.</td><td data-label="English">he/she/it will have; must have</td><td data-label="Notes">Habrá llegado; habrá zarpado (guess).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">habría</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she would have</td><td data-label="Notes">Conditional of haber; habría despegado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">habrían</span></td><td data-label="Type">v.</td><td data-label="English">they would have</td><td data-label="Notes">Habrían rescatado el tesoro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sonda</span></td><td data-label="Type">n.f.</td><td data-label="English">probe</td><td data-label="Notes">una sonda espacial.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tripulación</span></td><td data-label="Type">n.f.</td><td data-label="English">crew</td><td data-label="Notes">la tripulación de la nave.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">órbita</span></td><td data-label="Type">n.f.</td><td data-label="English">orbit</td><td data-label="Notes">entrar en órbita.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cometa</span></td><td data-label="Type">n.m.</td><td data-label="English">comet</td><td data-label="Notes">la órbita del cometa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">eclipse</span></td><td data-label="Type">n.m.</td><td data-label="English">eclipse</td><td data-label="Notes">el pronóstico del eclipse.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">despegue</span></td><td data-label="Type">n.m.</td><td data-label="English">takeoff, launch</td><td data-label="Notes">el despegue de la cápsula.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">despegar</span></td><td data-label="Type">v.</td><td data-label="English">to take off</td><td data-label="Notes">la nave despegó a tiempo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alunizar</span></td><td data-label="Type">v.</td><td data-label="English">to land on the moon</td><td data-label="Notes">Habrá alunizado antes del eclipse.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cápsula</span></td><td data-label="Type">n.f.</td><td data-label="English">capsule</td><td data-label="Notes">la cápsula gemela.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nave</span></td><td data-label="Type">n.f.</td><td data-label="English">craft, ship</td><td data-label="Notes">una nave espacial; la nave del tesoro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pronóstico</span></td><td data-label="Type">n.m.</td><td data-label="English">forecast</td><td data-label="Notes">el pronóstico del tiempo / del eclipse.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">adelanto</span></td><td data-label="Type">n.m.</td><td data-label="English">advance, breakthrough</td><td data-label="Notes">un adelanto científico.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">deducir</span></td><td data-label="Type">v.</td><td data-label="English">to deduce, to infer</td><td data-label="Notes">deducir lo ocurrido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hallazgo</span></td><td data-label="Type">n.f.</td><td data-label="English">find, discovery</td><td data-label="Notes">un hallazgo arqueológico.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">yacimiento</span></td><td data-label="Type">n.m.</td><td data-label="English">site, deposit (archaeology)</td><td data-label="Notes">las muestras del yacimiento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pecio</span></td><td data-label="Type">n.m.</td><td data-label="English">shipwreck (the wreck itself)</td><td data-label="Notes">un pecio con restos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tesoro</span></td><td data-label="Type">n.m.</td><td data-label="English">treasure</td><td data-label="Notes">un tesoro a bordo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">brújula</span></td><td data-label="Type">n.f.</td><td data-label="English">compass</td><td data-label="Notes">la brújula del capitán.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">faro</span></td><td data-label="Type">n.m.</td><td data-label="English">lighthouse</td><td data-label="Notes">el faro de la bahía.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">resto</span></td><td data-label="Type">n.m.</td><td data-label="English">remains, rest</td><td data-label="Notes">Plural: restos de un naufragio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">naufragio</span></td><td data-label="Type">n.m.</td><td data-label="English">shipwreck (the event)</td><td data-label="Notes">restos de un naufragio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">muestra</span></td><td data-label="Type">n.f.</td><td data-label="English">sample</td><td data-label="Notes">las primeras muestras.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pista</span></td><td data-label="Type">n.f.</td><td data-label="English">clue, track</td><td data-label="Notes">una pista del pecio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">zarpar</span></td><td data-label="Type">v.</td><td data-label="English">to set sail</td><td data-label="Notes">zarpar de Cartagena.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">naufragar</span></td><td data-label="Type">v.</td><td data-label="English">to be shipwrecked, to sink</td><td data-label="Notes">el galeón naufragó.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sumergir</span></td><td data-label="Type">v.</td><td data-label="English">to submerge, to sink</td><td data-label="Notes">la tormenta lo sumergió.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rescatar</span></td><td data-label="Type">v.</td><td data-label="English">to rescue, to recover</td><td data-label="Notes">rescatar las muestras.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">expedición</span></td><td data-label="Type">n.f.</td><td data-label="English">expedition</td><td data-label="Notes">la expedición arqueológica.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences with compound tenses. Read them once; no need to memorize.</p>
+
+<h3>1. Finished before a future point:</h3>
+<div class="phrase">
+  <p class="es">Para fin de año, habrán rescatado las muestras.</p>
+  <p class="en">By the end of the year, they will have recovered the samples.</p>
+</div>
+<h3>2. A guess about the past:</h3>
+<div class="phrase">
+  <p class="es">El galeón habrá zarpado de Cartagena.</p>
+  <p class="en">The galleon must have set sail from Cartagena.</p>
+</div>
+<h3>3. An unreal past:</h3>
+<div class="phrase">
+  <p class="es">La nave no habría despegado a tiempo.</p>
+  <p class="en">The craft would not have taken off on time.</p>
+</div>
+<h3>4. A reproach:</h3>
+<div class="phrase">
+  <p class="es">Habrías podido avisar a la tripulación.</p>
+  <p class="en">You could have warned the crew.</p>
+</div>
+<h3>5. Looking back from tomorrow:</h3>
+<div class="phrase">
+  <p class="es">Para entonces, ya habré deducido lo ocurrido.</p>
+  <p class="en">By then, I will already have figured out what happened.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two journalists discuss the expeditions.</p>
+
+<div class="phrase">
+  <p class="es">Ana: ¿Crees que habrán encontrado el pecio?</p>
+  <p class="en">Ana: Do you think they will have found the wreck (by now)?</p>
+</div>
+<div class="phrase">
+  <p class="es">Bruno: Dicen que para mañana ya habrán rescatado el tesoro.</p>
+  <p class="en">Bruno: They say that by tomorrow they will already have recovered the treasure.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: ¿Y la sonda? Habría llegado antes sin el retraso.</p>
+  <p class="en">Ana: And the probe? It would have arrived earlier without the delay.</p>
+</div>
+<div class="phrase">
+  <p class="es">Bruno: El eclipse habrá alterado el pronóstico, supongo.</p>
+  <p class="en">Bruno: The eclipse must have changed the forecast, I suppose.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ana: Cada hallazgo habrá merecido la pena.</p>
+  <p class="en">Ana: Each find will have been worth it.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>retraso</strong> is an extension preview; <strong>alterar</strong> (to alter) appears here in passing.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Future perfect:</strong> <span class="es">haber</span> in the future + participle. Finished-before-a-future-point (<span class="es">para entonces, ya habré…</span>) and guesses about the past (<span class="es">habrá zarpado</span> = must have set sail).</li>
+  <li><strong>Conditional perfect:</strong> <span class="es">haber</span> in the conditional + participle. What <em>would have</em> happened (<span class="es">habría despegado</span>), including reproaches.</li>
+  <li>The participle never changes: <span class="es">habrá llegado, habrían rescatado</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — el cometa de la bahía</h3>
+<p><strong>Context:</strong> A short note linking the sky and the sea. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Para la noche del <b>eclipse</b>, la <b>sonda</b> ya <b>habrá</b> cruzado la <b>órbita</b> del <b>cometa</b>.</p>
+  <p class="en">By the night of the eclipse, the probe will already have crossed the comet's orbit.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los viejos del puerto dicen que el galeón <b>habrá</b> visto el mismo <b>cometa</b> antes de <b>zarpar</b>.</p>
+  <p class="en">The old sailors say the galleon must have seen the same comet before setting sail.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sin la <b>brújula</b>, el capitán no <b>habría</b> encontrado ni el <b>faro</b> ni la <b>pista</b> de vuelta.</p>
+  <p class="en">Without the compass, the captain would have found neither the lighthouse nor the way back.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tres siglos después, cada <b>muestra</b> del <b>pecio</b> <b>habrá</b> contado su historia.</p>
+  <p class="en">Three centuries later, each sample from the wreck will have told its story.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ninguna <b>expedición</b> <b>habría</b> soñado un <b>hallazgo</b> mejor.</p>
+  <p class="en">No expedition could have dreamed of a better find.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>cruzar</strong> (to cross) appears here in passing.</em></p>
+
+<hr>
+<p><strong>End of Lesson 40.</strong> Next, <strong>Lesson 41</strong>: the passive voice — <em>ser</em> + participle, and passive vs impersonal <em>se</em>. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-41.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>
