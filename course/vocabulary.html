@@ -64,6 +64,23 @@
     border-radius:999px; padding:.2rem .7rem;
   }
   #lesson-nav a:hover{border-color:var(--accent); color:var(--accent)}
+  #lesson-filter{
+    margin:.7rem 0 0; border:1px solid var(--border);
+    border-radius:10px; background:var(--card);
+  }
+  #lesson-filter > summary{
+    cursor:pointer; list-style:none;
+    display:flex; align-items:center; gap:.5rem;
+    padding:.45rem .8rem; font-size:.9rem; font-weight:700;
+  }
+  #lesson-filter > summary::-webkit-details-marker{display:none}
+  #lesson-filter > summary::after{
+    content:"\25B8"; color:var(--accent); margin-left:auto;
+    transition:transform .15s;
+  }
+  #lesson-filter[open] > summary::after{transform:rotate(90deg)}
+  #lesson-filter #lesson-nav{margin:0; padding:.1rem .7rem .7rem}
+  #filter-count{color:var(--muted); font-weight:600; font-size:.85rem}
   #count{color:var(--muted); font-size:.85rem; margin:.5rem 0 0}
 
   .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
@@ -116,7 +133,10 @@
 
 <div class="toolbar">
   <input id="search" type="search" placeholder="Search Spanish, English, type or notes..." autocomplete="off">
-  <nav id="lesson-nav" aria-label="Lesson list"></nav>
+  <details id="lesson-filter">
+    <summary>Filter by lesson<span id="filter-count"></span></summary>
+    <nav id="lesson-nav" aria-label="Lesson list"></nav>
+  </details>
   <p id="count"></p>
 </div>
 
@@ -199,6 +219,7 @@
   });
 
   countEl.textContent = totalWords + ' words · ' + data.length + ' lesson(s) · ' + extWords + ' extension';
+  document.getElementById('filter-count').textContent = ' · ' + data.length + ' lessons';
 
   var search = document.getElementById('search');
   search.addEventListener('input', function(){
