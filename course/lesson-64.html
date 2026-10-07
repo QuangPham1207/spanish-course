@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 64 — Word formation II: word families</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-63.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 64 — WORD FORMATION II: WORD FAMILIES</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Grow word families: <strong>-ción / -sión, -dad / -tad, -mente, -ísimo</strong>.</li>
+      <li>Use diminutives (<strong>-ito, -illo</strong>) and augmentatives (<strong>-ón, -azo</strong>).</li>
+      <li>Read full families like <strong>pan → panadero → panadería</strong>.</li>
+      <li>Read a family story at the Sunday market, rich in endings big and small.</li>
+      <li>Pick up words: <span class="es">mercadillo, frutero, carnicero, cafecito, baratísimo, amabilidad</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">mercadillo, tendero, frutero, frutería, carnicero, carnicería, panadero, panadería, pescadero, pescadería, quesero, quesería, flor, florero, florería, cafecito, poquito, rapidito, abuelito, abuelo, chiquillo, platillo, cucharón, hombrón, ollaza, golpazo, amabilidad, igualdad, libertad, felicidad, rápidamente, lentamente, organización, decisión, fresquísimo, baratísimo, buenísimo</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">grandote, limonada, ahorita, dormilón</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EL MERCADILLO DE LOS DOMINGOS)</h2>
+<p><strong>Context:</strong> Every Sunday, one family walks the same small market — and every stall shows a word family at work: the fruit man and his fruit shop, the bread man and his bakery, small coffees and giant pots.</p>
+<p class="lead">(You already know one great family from earlier lessons: <em>nación → nacional → nacionalidad</em>. Today's text is full of new ones — read each line and spot the relatives.)</p>
+
+<div class="phrase">
+  <p class="es">Cada domingo, la familia entera va al <b>mercadillo</b> de la plaza, y el <b>abuelo</b> guía al grupo con la lista de la compra en la mano.</p>
+  <p class="en">Every Sunday, the whole family goes to the little market in the square, and grandpa leads the group with the shopping list in his hand.</p>
+</div>
+<div class="phrase">
+  <p class="es">El nieto más <b>chiquillo</b> corre <b>rapidito</b> entre los puestos con su prima, que lo espera riendo junto a las flores.</p>
+  <p class="en">The littlest grandson runs quickly between the stalls with his cousin, who waits for him laughing beside the flowers.</p>
+</div>
+<div class="phrase">
+  <p class="es">Primera parada: la <b>frutería</b> de doña Carmen, donde el <b>frutero</b> ya los conoce por su nombre y les guarda lo mejor.</p>
+  <p class="en">First stop: Doña Carmen's fruit shop, where the fruit seller already knows them by name and keeps the best for them.</p>
+</div>
+<div class="phrase">
+  <p class="es">Las naranjas están <b>fresquísimas</b> esta mañana y el melón, <b>baratísimo</b> hoy, casi regalado.</p>
+  <p class="en">The oranges are super fresh this morning and the melon is dirt cheap today — almost a gift.</p>
+</div>
+<div class="phrase">
+  <p class="es">El abuelo pide <b>poquito</b> de todo: un kilo de esto, medio kilo de aquello, y siempre prueba un poco antes.</p>
+  <p class="en">Grandpa asks for a little bit of everything: a kilo of this, half a kilo of that — and he always tastes a little first.</p>
+</div>
+<div class="phrase">
+  <p class="es">Segunda parada: la <b>carnicería</b>, donde el <b>carnicero</b> atiende <b>rápidamente</b> a cada cliente sin hacerlo esperar.</p>
+  <p class="en">Second stop: the butcher's, where the butcher serves each customer rapidly without keeping them waiting.</p>
+</div>
+<div class="phrase">
+  <p class="es">El hombre es un <b>hombrón</b> de voz grave, pero trata a todos con <b>amabilidad</b> y nunca levanta la voz.</p>
+  <p class="en">The man is a big fellow with a deep voice, but he treats everyone with kindness and never raises his voice.</p>
+</div>
+<div class="phrase">
+  <p class="es">En la <b>panadería</b>, el <b>panadero</b> regala un pan casero a los niños, que llegan corriendo.</p>
+  <p class="en">At the bakery, the baker gives the children — who come running — a homemade loaf.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luego pasan por la <b>pescadería</b>: el <b>pescadero</b> sirve <b>lentamente</b> porque explica cada pescado y dice cómo cocinarlo.</p>
+  <p class="en">Then they pass the fish stall: the fishmonger serves slowly because he explains every fish and says how to cook it.</p>
+</div>
+<div class="phrase">
+  <p class="es">En la <b>quesería</b>, el <b>quesero</b> deja probar un queso <b>buenísimo</b> a cada cliente nuevo.</p>
+  <p class="en">At the cheese stall, the cheese man lets every new customer taste an excellent cheese.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>tendero</b> de la <b>florería</b> regala una <b>flor</b> a la niña y vende el <b>florero</b> baratísimo, casi al precio de la flor.</p>
+  <p class="en">The keeper of the flower stall gives the little girl a flower and sells the vase dirt cheap — almost at the price of the flower.</p>
+</div>
+<div class="phrase">
+  <p class="es">A mediodía paran en el bar del mercado a tomar un <b>cafecito</b> con el <b>abuelito</b>, que hoy invita a todos.</p>
+  <p class="en">At midday they stop at the market café for a little coffee with grandpa, who is treating everyone today.</p>
+</div>
+<div class="phrase">
+  <p class="es">El camarero, que ya los conoce, trae un bocadillo <b>grandote</b> y una <b>limonada</b> fresquísima para compartir.</p>
+  <p class="en">The waiter, who already knows them, brings a giant sandwich and a super-fresh lemonade to share.</p>
+</div>
+<div class="phrase">
+  <p class="es">El cocinero sirve la sopa con un <b>cucharón</b> enorme; el guiso llega en una <b>ollaza</b> que echa humo y huele muy bien.</p>
+  <p class="en">The cook serves the soup with a huge ladle; the stew arrives in a giant pot that's steaming and smells wonderful.</p>
+</div>
+<div class="phrase">
+  <p class="es">De postre, un <b>platillo</b> de natillas para los niños, que lo terminan en un minuto.</p>
+  <p class="en">For dessert, a little dish of custard for the children, who finish it in a minute.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al cerrar el puesto, se oye un <b>golpazo</b>: el cartel cae al suelo con el viento y todos se ríen.</p>
+  <p class="en">As the stall closes, there's a loud bang: the sign falls to the ground in the wind and everyone laughs.</p>
+</div>
+<div class="phrase">
+  <p class="es">Detrás de todo hay buena <b>organización</b>: cada tendero conoce su sitio y saluda a sus vecinos.</p>
+  <p class="en">Behind it all there's good organisation: every stallholder knows their place and greets their neighbours.</p>
+</div>
+<div class="phrase">
+  <p class="es">La mejor <b>decisión</b> del domingo se toma <b>ahorita</b>, entre todos: volver el domingo que viene.</p>
+  <p class="en">The best decision of the Sunday is made right now, all together: to come back next Sunday.</p>
+</div>
+<div class="phrase">
+  <p class="es">En casa, el chiquillo, hecho un <b>dormilón</b>, se duerme en el sofá, y el abuelo dice que el mercado es pura <b>felicidad</b> de siempre: <b>igualdad</b>, <b>libertad</b> y buena gente.</p>
+  <p class="en">At home, the little boy — a total sleepyhead — falls asleep on the sofa, and grandpa says the market is the same pure happiness as always: equality, freedom and good people.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">grandote</span></td><td data-label="Type">adj.</td><td data-label="English">huge, big</td><td data-label="Notes">grande + -ote. Un bocadillo grandote.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">limonada</span></td><td data-label="Type">n.f.</td><td data-label="English">lemonade</td><td data-label="Notes">limón + -ada (drink made of). Una limonada fresquísima.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ahorita</span></td><td data-label="Type">adv.</td><td data-label="English">right now (LatAm)</td><td data-label="Notes">ahora + -ita. In Spain people say ahora mismo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dormilón</span></td><td data-label="Type">n./adj.</td><td data-label="English">sleepyhead</td><td data-label="Notes">dormir + -ilón. Hecho un dormilón.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> whole families march together — <span class="es">fruta → frutero → frutería</span>, <span class="es">pan → panadero → panadería</span>, <span class="es">abuelo → abuelito</span>. Learn one member and you almost know the rest.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Big abstractions: -ción / -sión and -dad / -tad</h3>
+<p>Two suffixes build the nouns of public and inner life. <strong>-ción / -sión</strong> turns verbs into events and results (<span class="es">organizar → organización, decidir → decisión</span>); <strong>-dad / -tad</strong> turns adjectives into qualities (<span class="es">amable → amabilidad, igual → igualdad, libre → libertad, feliz → felicidad</span>).</p>
+<div class="formula"><b>verbo</b> + <b>-ción/-sión</b> = event · <b>adjetivo</b> + <b>-dad/-tad</b> = quality</div>
+<ul>
+  <li class="ex"><span class="es">Detrás de todo hay buena <b>organización</b>. (← organizar)</span><span class="en">Behind it all there's good organisation. (← to organise)</span></li>
+  <li class="ex"><span class="es">La mejor <b>decisión</b> se toma ahorita. (← decidir)</span><span class="en">The best decision is made right now. (← to decide)</span></li>
+  <li class="ex"><span class="es">Trata a todos con <b>amabilidad</b>. (← amable, kind)</span><span class="en">He treats everyone with kindness. (← kind)</span></li>
+  <li class="ex"><span class="es">El mercado es <b>igualdad</b>, <b>libertad</b> y <b>felicidad</b>. (← igual, libre, feliz)</span><span class="en">The market is equality, freedom and happiness. (← equal, free, happy)</span></li>
+</ul>
+
+<h3>2.2. Manner and extreme: -mente and -ísimo</h3>
+<p><strong>-mente</strong> turns an adjective into an adverb of manner (<span class="es">rápida → rápidamente, lenta → lentamente</span>); <strong>-ísimo</strong> pushes an adjective to its extreme (<span class="es">fresco → fresquísimo, barato → baratísimo, bueno → buenísimo</span>).</p>
+<div class="formula"><b>adjetivo</b> + <b>-mente</b> = how · <b>adjetivo</b> + <b>-ísimo</b> = extremely</div>
+<ul>
+  <li class="ex"><span class="es">El carnicero atiende <b>rápidamente</b>; el pescadero sirve <b>lentamente</b>.</span><span class="en">The butcher serves rapidly; the fishmonger serves slowly.</span></li>
+  <li class="ex"><span class="es">Las naranjas están <b>fresquísimas</b> y el melón, <b>baratísimo</b>.</span><span class="en">The oranges are super fresh and the melon is dirt cheap.</span></li>
+  <li class="ex"><span class="es">El quesero deja probar un queso <b>buenísimo</b>.</span><span class="en">The cheese man lets them taste an excellent cheese.</span></li>
+</ul>
+<div class="tip">💡 <strong>Tip:</strong> <span class="es">-mente</span> adverbs keep the adjective's written accent — <span class="es">rápida → rápidamente</span> — and <span class="es">-ísimo</span> always carries its own: <span class="es">fresquísimo, baratísimo, buenísimo</span>. Two accents, zero exceptions.</div>
+
+<h3>2.3. Small and big: -ito / -illo and -ón / -azo</h3>
+<p>Diminutives make things small or affectionate (<span class="es">café → cafecito, poco → poquito, chico → chiquillo, plato → platillo, mercado → mercadillo</span>); augmentatives make them big or intense (<span class="es">cuchara → cucharón, hombre → hombrón, olla → ollaza, golpe → golpazo</span>). Market families show the pattern perfectly: <span class="es">pan → panadero → panadería</span>.</p>
+<div class="formula"><b>base</b> + <b>-ito/-illo</b> = smaller · <b>base</b> + <b>-ón/-azo</b> = bigger</div>
+<ul>
+  <li class="ex"><span class="es">Toman un <b>cafecito</b> con el <b>abuelito</b>. (= café pequeño, abuelo querido)</span><span class="en">They have a little coffee with grandpa. (= small coffee, dear grandpa)</span></li>
+  <li class="ex"><span class="es">El nieto más <b>chiquillo</b> corre <b>rapidito</b>. (= pequeño, rápido con cariño)</span><span class="en">The littlest grandson runs quickly along. (= little, with affection)</span></li>
+  <li class="ex"><span class="es">Sirve la sopa con un <b>cucharón</b> enorme. (= cuchara grande)</span><span class="en">He serves the soup with a huge ladle. (= big spoon)</span></li>
+  <li class="ex"><span class="es">El guiso llega en una <b>ollaza</b> que echa humo. (= olla grande)</span><span class="en">The stew arrives in a giant pot that's steaming. (= big pot)</span></li>
+  <li class="ex"><span class="es">Se oye un <b>golpazo</b> al cerrar el puesto. (= golpe fuerte)</span><span class="en">There's a loud bang as the stall closes. (= a hard knock)</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistakes:</strong> diminutives are not always small — <span class="es">ahorita</span> means "right now", not "a small now". And <span class="es">-azo</span> can be the blow itself: <span class="es">golpazo</span> is a big bang, not a big <span class="es">golpe</span> you can hold. Always check the family, not just the ending.</div>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> <span class="es">-ito</span> works everywhere, but <span class="es">-illo</span> rules in Andalusia, Colombia and the Caribbean (<span class="es">chiquillo</span>), while Costa Rica prefers <span class="es">-ico</span> (<span class="es">chiquitico</span>). And <span class="es">ahorita</span> is everyday Latin America; in Spain people say <span class="es">ahora mismo</span>.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">mercadillo</span></td><td data-label="Type">n.m.</td><td data-label="English">small/street market</td><td data-label="Notes">mercado (L07) + -illo. El mercadillo de los domingos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tendero</span></td><td data-label="Type">n.m.</td><td data-label="English">shopkeeper, stallholder</td><td data-label="Notes">Family: tienda → tendero. El tendero de la florería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">frutero</span></td><td data-label="Type">n.m.</td><td data-label="English">fruit seller; fruit bowl</td><td data-label="Notes">Family: fruta (L07) → frutero → frutería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">frutería</span></td><td data-label="Type">n.f.</td><td data-label="English">fruit shop</td><td data-label="Notes">-ería = shop that sells. La frutería de doña Carmen.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">carnicero</span></td><td data-label="Type">n.m.</td><td data-label="English">butcher</td><td data-label="Notes">Family: carne (L07) → carnicero → carnicería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">carnicería</span></td><td data-label="Type">n.f.</td><td data-label="English">butcher's shop</td><td data-label="Notes">-ería = shop. Segunda parada: la carnicería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">panadero</span></td><td data-label="Type">n.m.</td><td data-label="English">baker</td><td data-label="Notes">Family: pan (L07) → panadero → panadería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">panadería</span></td><td data-label="Type">n.f.</td><td data-label="English">bakery</td><td data-label="Notes">-ería = shop. En la panadería regalan pan casero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pescadero</span></td><td data-label="Type">n.m.</td><td data-label="English">fishmonger</td><td data-label="Notes">Family: pescado (L07) → pescadero → pescadería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pescadería</span></td><td data-label="Type">n.f.</td><td data-label="English">fish stall/shop</td><td data-label="Notes">-ería = shop. Luego pasan por la pescadería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">quesero</span></td><td data-label="Type">n.m.</td><td data-label="English">cheese seller/maker</td><td data-label="Notes">Family: queso (L28) → quesero → quesería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">quesería</span></td><td data-label="Type">n.f.</td><td data-label="English">cheese stall/shop</td><td data-label="Notes">-ería = shop. En la quesería dejan probar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">flor</span></td><td data-label="Type">n.f.</td><td data-label="English">flower</td><td data-label="Notes">Family: flor → florero → florería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">florero</span></td><td data-label="Type">n.m.</td><td data-label="English">vase</td><td data-label="Notes">flor + -ero (holder). Vende el florero baratísimo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">florería</span></td><td data-label="Type">n.f.</td><td data-label="English">flower shop/stall</td><td data-label="Notes">-ería = shop. El tendero de la florería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cafecito</span></td><td data-label="Type">n.m.</td><td data-label="English">small coffee</td><td data-label="Notes">café + -cito. Tomar un cafecito. Affectionate.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">poquito</span></td><td data-label="Type">n./adv.</td><td data-label="English">a little bit</td><td data-label="Notes">poco + -ito. Pide poquito de todo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rapidito</span></td><td data-label="Type">adv.</td><td data-label="English">quickly (with affection)</td><td data-label="Notes">rápido + -ito. Corre rapidito. Diminutive on an adverb.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">abuelito</span></td><td data-label="Type">n.m.</td><td data-label="English">grandpa (affectionate)</td><td data-label="Notes">Family: abuelo → abuelito. Un cafecito con el abuelito.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">abuelo</span></td><td data-label="Type">n.m.</td><td data-label="English">grandfather; grandpa</td><td data-label="Notes">Base of abuelito. El abuelo guía al grupo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">chiquillo</span></td><td data-label="Type">n./adj.</td><td data-label="English">little kid</td><td data-label="Notes">chico + -illo. -illo rules in Andalucía, Colombia, Caribe; Costa Rica prefers -ico.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">platillo</span></td><td data-label="Type">n.m.</td><td data-label="English">small dish; saucer</td><td data-label="Notes">plato + -illo. Un platillo de natillas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cucharón</span></td><td data-label="Type">n.m.</td><td data-label="English">ladle</td><td data-label="Notes">cuchara + -ón (big). Sirve la sopa con un cucharón.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hombrón</span></td><td data-label="Type">n.m.</td><td data-label="English">big/hearty fellow</td><td data-label="Notes">hombre (L05) + -ón. Un hombrón de voz grave.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ollaza</span></td><td data-label="Type">n.f.</td><td data-label="English">giant pot</td><td data-label="Notes">olla + -aza. El guiso llega en una ollaza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">golpazo</span></td><td data-label="Type">n.m.</td><td data-label="English">loud bang</td><td data-label="Notes">golpe (L49) + -azo (blow). Se oye un golpazo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">amabilidad</span></td><td data-label="Type">n.f.</td><td data-label="English">kindness</td><td data-label="Notes">Family: amable (L17) → amabilidad. Trata con amabilidad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">igualdad</span></td><td data-label="Type">n.f.</td><td data-label="English">equality</td><td data-label="Notes">Family: igual (L26) → igualdad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">libertad</span></td><td data-label="Type">n.f.</td><td data-label="English">freedom, liberty</td><td data-label="Notes">Family: libre (L16) → libertad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">felicidad</span></td><td data-label="Type">n.f.</td><td data-label="English">happiness</td><td data-label="Notes">Family: feliz (L16) → felicidad. Pura felicidad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rápidamente</span></td><td data-label="Type">adv.</td><td data-label="English">rapidly, quickly</td><td data-label="Notes">rápida + -mente. Keeps the written accent.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lentamente</span></td><td data-label="Type">adv.</td><td data-label="English">slowly</td><td data-label="Notes">lenta + -mente. Sirve lentamente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">organización</span></td><td data-label="Type">n.f.</td><td data-label="English">organisation</td><td data-label="Notes">Family: organizar → organización. Buena organización.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">decisión</span></td><td data-label="Type">n.f.</td><td data-label="English">decision</td><td data-label="Notes">Family: decidir → decisión (-sión after d). La mejor decisión.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fresquísimo</span></td><td data-label="Type">adj.</td><td data-label="English">super fresh</td><td data-label="Notes">fresco + -ísimo. Las naranjas están fresquísimas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">baratísimo</span></td><td data-label="Type">adj.</td><td data-label="English">dirt cheap</td><td data-label="Notes">barato + -ísimo. El melón, baratísimo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">buenísimo</span></td><td data-label="Type">adj.</td><td data-label="English">excellent, really good</td><td data-label="Notes">bueno → buen- + -ísimo. Un queso buenísimo.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five market sentences. Read them once; no need to memorize.</p>
+
+<h3>1. The habit:</h3>
+<div class="phrase">
+  <p class="es">El mercadillo abre los domingos por la mañana.</p>
+  <p class="en">The little market opens on Sunday mornings.</p>
+</div>
+<h3>2. The advice:</h3>
+<div class="phrase">
+  <p class="es">Pide poquito de todo y prueba antes de comprar.</p>
+  <p class="en">Ask for a little of everything and taste before buying.</p>
+</div>
+<h3>3. The homemade rule:</h3>
+<div class="phrase">
+  <p class="es">Lo casero sabe mejor: pan casero, trato casero.</p>
+  <p class="en">Homemade tastes better: homemade bread, homestyle service.</p>
+</div>
+<h3>4. The kindness rule:</h3>
+<div class="phrase">
+  <p class="es">Con amabilidad todo se vende rapidito.</p>
+  <p class="en">With kindness everything sells quickly.</p>
+</div>
+<h3>5. The decision:</h3>
+<div class="phrase">
+  <p class="es">La mejor decisión: volver el domingo que viene.</p>
+  <p class="en">The best decision: to come back next Sunday.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> The little boy and his cousin stop at the cheese stall while grandpa pays for the fruit.</p>
+
+<div class="phrase">
+  <p class="es">Nico: ¿Probamos ese queso buenísimo?</p>
+  <p class="en">Nico: Shall we taste that excellent cheese?</p>
+</div>
+<div class="phrase">
+  <p class="es">Alba: El quesero deja probar poquito.</p>
+  <p class="en">Alba: The cheese man lets you taste a little.</p>
+</div>
+<div class="phrase">
+  <p class="es">Nico: ¿Y si compramos un platillo de aceitunas también?</p>
+  <p class="en">Nico: What if we buy a little dish of olives too?</p>
+</div>
+<div class="phrase">
+  <p class="es">Alba: El abuelito dice que hoy todo está baratísimo.</p>
+  <p class="en">Alba: Grandpa says everything is dirt cheap today.</p>
+</div>
+<div class="phrase">
+  <p class="es">Nico: Entonces corremos rapidito a la frutería.</p>
+  <p class="en">Nico: Then let's run quickly to the fruit shop.</p>
+</div>
+<div class="phrase">
+  <p class="es">Alba: Y después un cafecito con el abuelito.</p>
+  <p class="en">Alba: And afterwards a little coffee with grandpa.</p>
+</div>
+<div class="phrase">
+  <p class="es">Nico: La mejor decisión del domingo.</p>
+  <p class="en">Nico: The best decision of the Sunday.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: none — every word comes back from today's table and passage (buenísimo, poquito, baratísimo, cafecito, decisión).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Families:</strong> <span class="es">fruta → frutero → frutería</span>, <span class="es">pan → panadero → panadería</span>, <span class="es">flor → florero → florería</span> — learn one member, almost know the rest.</li>
+  <li><strong>Big abstractions:</strong> <span class="es">-ción/-sión</span> (events: organización, decisión), <span class="es">-dad/-tad</span> (qualities: amabilidad, igualdad, libertad, felicidad).</li>
+  <li><strong>Manner and extreme:</strong> <span class="es">-mente</span> (rápidamente, lentamente), <span class="es">-ísimo</span> (fresquísimo, baratísimo, buenísimo).</li>
+  <li><strong>Small and big:</strong> <span class="es">-ito/-illo</span> (cafecito, chiquillo, platillo), <span class="es">-ón/-azo</span> (cucharón, hombrón, ollaza, golpazo).</li>
+</ul>
+
+<h3>5.2. Further reading — se cierra el mercadillo</h3>
+<p><strong>Context:</strong> Evening falls and the market packs up. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">A las ocho, el <b>mercadillo</b> se vacía <b>lentamente</b>.</p>
+  <p class="en">At eight, the little market empties slowly.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>panadero</b> guarda el pan casero; el <b>frutero</b> cubre la <b>frutería</b>.</p>
+  <p class="en">The baker puts away the homemade bread; the fruit seller covers up the fruit shop.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>tendero</b> riega la <b>flor</b> que no vendió.</p>
+  <p class="en">The stallholder waters the flower he didn't sell.</p>
+</div>
+<div class="phrase">
+  <p class="es">Qué <b>felicidad</b> volver a casa con la compra <b>buenísima</b> y <b>baratísima</b>.</p>
+  <p class="en">What happiness to go home with shopping that's excellent and dirt cheap.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mañana, la <b>decisión</b> de siempre: volver <b>rapidito</b> el domingo.</p>
+  <p class="en">Tomorrow, the usual decision: to come back quickly on Sunday.</p>
+</div>
+
+<p class="lead"><em>New words: none — every word comes back from today's table and passage.</em></p>
+
+<hr>
+<p><strong>End of Lesson 64.</strong> Next, <strong>Lesson 65</strong>: discourse connectors and register — the glue of formal Spanish. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-65.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

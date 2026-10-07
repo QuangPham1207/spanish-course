@@ -1,0 +1,289 @@
+{
+  "lesson": 61,
+  "title": "Non-finite clauses",
+  "words": [
+    {
+      "word": "restauración",
+      "type": "n.f.",
+      "en": "restoration",
+      "note": "Terminada la restauración del altar.",
+      "example": { "es": "Terminada la restauración, abrimos la iglesia.", "en": "With the restoration finished, we open the church." }
+    },
+    {
+      "word": "restaurar",
+      "type": "v.",
+      "en": "to restore",
+      "note": "Restaurar es decidir: infinitive as subject.",
+      "example": { "es": "Restaurar bien lleva tiempo.", "en": "Restoring well takes time." }
+    },
+    {
+      "word": "marco",
+      "type": "n.m.",
+      "en": "frame",
+      "note": "Lijando el marco con cuidado.",
+      "example": { "es": "Lijando el marco, encontró el año.", "en": "While sanding the frame, he found the year." }
+    },
+    {
+      "word": "barniz",
+      "type": "n.m.",
+      "en": "varnish",
+      "note": "Limpio ya el barniz viejo.",
+      "example": { "es": "Solo falta el barniz.", "en": "Only the varnish is missing." }
+    },
+    {
+      "word": "grieta",
+      "type": "n.f.",
+      "en": "crack",
+      "note": "Documentar cada grieta.",
+      "example": { "es": "Documentada cada grieta, empezó el trabajo.", "en": "With every crack documented, the work began." }
+    },
+    {
+      "word": "andamio",
+      "type": "n.m.",
+      "en": "scaffolding",
+      "note": "Subieron al andamio.",
+      "example": { "es": "Subieron al andamio con lija.", "en": "They climbed the scaffolding with sandpaper." }
+    },
+    {
+      "word": "fresco",
+      "type": "n.m.",
+      "en": "fresco (wall painting)",
+      "note": "El fresco del altar se quedó como estaba.",
+      "example": { "es": "El fresco se quedó como estaba.", "en": "The fresco stayed as it was." }
+    },
+    {
+      "word": "altar",
+      "type": "n.m.",
+      "en": "altar",
+      "note": "La restauración del altar.",
+      "example": { "es": "La restauración del altar terminó en mayo.", "en": "The restoration of the altar finished in May." }
+    },
+    {
+      "word": "viga",
+      "type": "n.f.",
+      "en": "beam",
+      "note": "Estando rota la viga… (advanced).",
+      "example": { "es": "Tuvo que reponer una viga.", "en": "He had to replace a beam." }
+    },
+    {
+      "word": "escombro",
+      "type": "n.m.",
+      "en": "rubble, debris",
+      "note": "Llevó el escombro fuera de la iglesia.",
+      "example": { "es": "Llevó el escombro fuera.", "en": "He carried the rubble outside." }
+    },
+    {
+      "word": "artesano",
+      "type": "n.m./f.",
+      "en": "craftsperson, artisan",
+      "note": "Los artesanos subieron al andamio.",
+      "example": { "es": "Los artesanos subieron al andamio.", "en": "The craftspeople climbed the scaffolding." }
+    },
+    {
+      "word": "ebanista",
+      "type": "n.m./f.",
+      "en": "cabinetmaker",
+      "note": "Limpió el dorado con agua y tiempo.",
+      "example": { "es": "El ebanista limpió el dorado.", "en": "The cabinetmaker cleaned the gilding." }
+    },
+    {
+      "word": "dorado",
+      "type": "n.m.",
+      "en": "gilding",
+      "note": "El dorado, ya pulido, parece nuevo.",
+      "example": { "es": "El dorado parece nuevo.", "en": "The gilding looks new." }
+    },
+    {
+      "word": "bastidor",
+      "type": "n.m.",
+      "en": "stretcher (frame support)",
+      "note": "Consolidar el bastidor del marco.",
+      "example": { "es": "Consolidó el bastidor del marco.", "en": "He consolidated the frame's stretcher." }
+    },
+    {
+      "word": "carpintero",
+      "type": "n.m./f.",
+      "en": "carpenter",
+      "note": "Tuvo que reponer una viga.",
+      "example": { "es": "El carpintero repuso una viga.", "en": "The carpenter replaced a beam." }
+    },
+    {
+      "word": "retablo",
+      "type": "n.m.",
+      "en": "altarpiece",
+      "note": "Church art: el retablo parecía otro.",
+      "example": { "es": "Una vez desmontado el retablo…", "en": "Once the altarpiece was taken apart…" }
+    },
+    {
+      "word": "vitral",
+      "type": "n.m.",
+      "en": "stained-glass window",
+      "note": "Latin America: vitral. Spain also: vidriera.",
+      "example": { "es": "El vitral se limpió poco a poco.", "en": "The stained-glass window was cleaned little by little." }
+    },
+    {
+      "word": "cantero",
+      "type": "n.m./f.",
+      "en": "stonemason",
+      "note": "Llevó el escombro fuera.",
+      "example": { "es": "El cantero llevó el escombro.", "en": "The stonemason carried the rubble." }
+    },
+    {
+      "word": "lija",
+      "type": "n.f.",
+      "en": "sandpaper",
+      "note": "Con la lija en la mano.",
+      "example": { "es": "Pasó la semana con la lija en la mano.", "en": "He spent the week with sandpaper in his hand." }
+    },
+    {
+      "word": "lijar",
+      "type": "v.",
+      "en": "to sand",
+      "note": "Lijar a mano es lento; lijando el marco…",
+      "example": { "es": "Lijar a mano es lento.", "en": "Sanding by hand is slow." }
+    },
+    {
+      "word": "desmontar",
+      "type": "v.",
+      "en": "to take apart, to dismantle",
+      "note": "Una vez desmontado el retablo…",
+      "example": { "es": "Una vez desmontado el retablo, subieron.", "en": "Once the altarpiece was taken apart, they climbed up." }
+    },
+    {
+      "word": "catalogar",
+      "type": "v.",
+      "en": "to catalogue",
+      "note": "Catalogar todo.",
+      "example": { "es": "Catalogó todo durante dos semanas.", "en": "He catalogued everything for two weeks." }
+    },
+    {
+      "word": "documentar",
+      "type": "v.",
+      "en": "to document",
+      "note": "Documentada cada grieta, empezó el trabajo.",
+      "example": { "es": "Documentó cada grieta.", "en": "He documented every crack." }
+    },
+    {
+      "word": "diagnóstico",
+      "type": "n.m.",
+      "en": "diagnosis, assessment",
+      "note": "El primer trabajo fue el diagnóstico.",
+      "example": { "es": "El diagnóstico duró dos semanas.", "en": "The assessment took two weeks." }
+    },
+    {
+      "word": "consolidar",
+      "type": "v.",
+      "en": "to consolidate, to strengthen",
+      "note": "Consolidar el bastidor.",
+      "example": { "es": "Consolidó el bastidor del marco.", "en": "He consolidated the frame's stretcher." }
+    },
+    {
+      "word": "reponer",
+      "type": "v.",
+      "en": "to replace, to restore (a part)",
+      "note": "Tuvo que reponer una viga.",
+      "example": { "es": "Tuvo que reponer una viga.", "en": "He had to replace a beam." }
+    },
+    {
+      "word": "pátina",
+      "type": "n.f.",
+      "en": "patina",
+      "note": "Cuidando la pátina de tres siglos.",
+      "example": { "es": "Cuidó la pátina de tres siglos.", "en": "He took care of the three-centuries-old patina." }
+    },
+    {
+      "word": "craquelado",
+      "type": "n.m.",
+      "en": "craquelure (fine cracks)",
+      "note": "Un craquelado fino.",
+      "example": { "es": "Mostraba un craquelado fino.", "en": "It showed a fine craquelure." }
+    },
+    {
+      "word": "meticuloso",
+      "type": "adj.",
+      "en": "meticulous",
+      "note": "El aprendiz, meticuloso, pasó una semana.",
+      "example": { "es": "El aprendiz, meticuloso, lijó a mano.", "en": "The apprentice, meticulous, sanded by hand." }
+    },
+    {
+      "word": "aprendiz",
+      "type": "n.m./f.",
+      "en": "apprentice",
+      "note": "Lijando el marco, el aprendiz encontró el año.",
+      "example": { "es": "El aprendiz encontró el año 1798.", "en": "The apprentice found the year 1798." }
+    },
+    {
+      "word": "pulir",
+      "type": "v.",
+      "en": "to polish",
+      "note": "El lijar y el pulir; ya pulido a mano.",
+      "example": { "es": "Pulir lleva tiempo.", "en": "Polishing takes time." }
+    },
+    {
+      "word": "policromía",
+      "type": "n.f.",
+      "en": "polychromy (multi-colour paint)",
+      "note": "La policromía mostraba un craquelado.",
+      "example": { "es": "La policromía mostraba grietas.", "en": "The polychromy showed cracks." }
+    },
+    {
+      "word": "fumar",
+      "type": "v.",
+      "en": "to smoke",
+      "note": "Fumar es malo: infinitive as subject.",
+      "example": { "es": "Fumar es malo para la pintura.", "en": "Smoking is bad for the painting." }
+    },
+    {
+      "word": "pintura",
+      "type": "n.f.",
+      "en": "painting; paint",
+      "note": "Fumar es malo para la pintura.",
+      "example": { "es": "Decapó la pintura nueva.", "en": "He stripped off the newer paint." }
+    },
+    {
+      "word": "polvo",
+      "type": "n.m.",
+      "en": "dust",
+      "note": "Lleno de polvo.",
+      "example": { "es": "Llevaba años lleno de polvo.", "en": "It had spent years covered in dust." }
+    },
+    {
+      "word": "cliente",
+      "type": "n.m./f.",
+      "en": "client, customer",
+      "note": "El cliente pagó el precio justo.",
+      "example": { "es": "El cliente pagó el precio justo.", "en": "The client paid the fair price." }
+    },
+    {
+      "word": "calidad",
+      "type": "n.f.",
+      "en": "quality",
+      "note": "Un trabajo de gran calidad.",
+      "example": { "es": "La calidad lo pide.", "en": "Quality demands it." }
+    },
+    {
+      "word": "decapar",
+      "type": "v.",
+      "en": "to strip (paint, varnish)",
+      "note": "Decapamos la pintura nueva.",
+      "ext": true,
+      "example": { "es": "Decapamos la pintura nueva.", "en": "We stripped off the newer paint." }
+    },
+    {
+      "word": "reintegración",
+      "type": "n.f.",
+      "en": "reintegration, infilling (restoration)",
+      "note": "Terminada la reintegración, solo falta el barniz.",
+      "ext": true,
+      "example": { "es": "Terminada la reintegración, falta el barniz.", "en": "Once the infilling is done, only the varnish is missing." }
+    },
+    {
+      "word": "impoluto",
+      "type": "adj.",
+      "en": "spotless, pristine",
+      "note": "Formal word: el dorado queda impoluto.",
+      "ext": true,
+      "example": { "es": "El dorado queda impoluto.", "en": "The gilding is spotless." }
+    }
+  ]
+}

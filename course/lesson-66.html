@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 66 — Advanced pronouns</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-65.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 66 — ADVANCED PRONOUNS</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read a detective story: <strong>La carta que nadie reclamó</strong> (the letter nobody claimed).</li>
+      <li>Master pronoun clusters: <span class="es">se lo, se la, me lo, nos la</span> — and their fixed order.</li>
+      <li>Meet neuter <span class="es">lo</span> (<span class="es">lo bueno, lo que, es lo que</span>) and formal <span class="es">el cual / la cual</span> vs plain <span class="es">que</span>.</li>
+      <li>Understand <strong>leísmo</strong> (Spain <span class="es">le</span> vs neutral <span class="es">lo</span>) — with neutral advice.</li>
+      <li>Pick up words: <span class="es">sobre, cartero, destinatario, buhardilla, sospechoso, testigo, coartada, enigma</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">sobre, cartero, destinatario, reclamar, reclamación, extraviar, sospechoso, testigo, coartada, enigma, revelar, sospechar, sospecha, esconder, descubrir, entregar, pertenecer, recompensa, comisaría, buhardilla, cajón, escritorio, tinta, matasellos, certificada, anónimo, indicio, inocente, detective, leísmo, neutro, el/la cual</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">misterio, secreto, veredicto, sereno</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (LA CARTA QUE NADIE RECLAMÓ)</h2>
+<p><strong>Context:</strong> A yellow envelope sleeps in a police station. A postman, a caretaker, a detective and an old lady all touch it — and every touch is a pronoun (<em>se lo dio, se la escribieron</em>). Read each line; the English below it is only a check.</p>
+<p class="lead">(Watch the tiny words: <em>se lo, se la, lo que, el cual</em>. They carry the whole mystery.)</p>
+
+<div class="phrase">
+  <p class="es">En la <b>comisaría</b> del barrio hay un <b>sobre</b> amarillo: llegó hace un mes y nadie lo <b>reclama</b>.</p>
+  <p class="en">At the neighbourhood police station there is a yellow envelope: it arrived a month ago and nobody claims it.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>cartero</b> lo llevó tres veces a la misma casa, pero nunca había nadie.</p>
+  <p class="en">The postman took it to the same house three times, but there was never anyone there.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al final se lo dio al portero, y el portero se lo dio a una señora de la escalera.</p>
+  <p class="en">In the end he gave it to the caretaker, and the caretaker gave it to a lady from the staircase.</p>
+</div>
+<div class="phrase">
+  <p class="es">La señora lo abrió: dentro había una carta escrita con <b>tinta</b> azul y un <b>matasellos</b> viejo.</p>
+  <p class="en">The lady opened it: inside there was a letter written in blue ink with an old postmark.</p>
+</div>
+<div class="phrase">
+  <p class="es">La carta no tenía <b>destinatario</b>: solo decía «Para quien lea esto».</p>
+  <p class="en">The letter had no addressee: it only said "For whoever reads this".</p>
+</div>
+<div class="phrase">
+  <p class="es">Lo que hay en este sobre —decía la carta— <b>pertenece</b> a quien espera desde 1974.</p>
+  <p class="en">What is in this envelope —said the letter— belongs to whoever has been waiting since 1974.</p>
+</div>
+<div class="phrase">
+  <p class="es">El portero se la dio a un <b>detective</b> amigo suyo.</p>
+  <p class="en">The caretaker gave it to a detective friend of his.</p>
+</div>
+<div class="phrase">
+  <p class="es">El detective, <b>el cual</b> tenía setenta años y todo el tiempo del mundo, leyó la carta dos veces.</p>
+  <p class="en">The detective, who was seventy years old and had all the time in the world, read the letter twice.</p>
+</div>
+<div class="phrase">
+  <p class="es">«Esta carta se la escribieron a mi madre —dijo el detective—, pero nunca se la <b>entregaron</b>».</p>
+  <p class="en">"They wrote this letter to my mother —said the detective— but they never delivered it to her."</p>
+</div>
+<div class="phrase">
+  <p class="es">«Y es lo que me faltaba para terminar la historia» —dijo, y pidió ver el rellano y el felpudo de la casa.</p>
+  <p class="en">"And it's just what I needed to finish the story" —he said, and asked to see the landing and the doormat of the house.</p>
+</div>
+<div class="phrase">
+  <p class="es">En el rellano no había huellas, pero en el felpudo había una huella pequeña.</p>
+  <p class="en">On the landing there were no footprints, but on the doormat there was one small footprint.</p>
+</div>
+<div class="phrase">
+  <p class="es">El único <b>sospechoso</b> era un hombre que nunca hablaba con nadie.</p>
+  <p class="en">The only suspect was a man who never spoke to anyone.</p>
+</div>
+<div class="phrase">
+  <p class="es">«Yo no sé nada —dijo el hombre—; el <b>testigo</b> es el del quiosco: él lo ve todo».</p>
+  <p class="en">"I know nothing —said the man—; the witness is the kiosk guy: he sees everything."</p>
+</div>
+<div class="phrase">
+  <p class="es">El del quiosco tenía una <b>coartada</b> perfecta: aquella tarde lo vieron en el mercado con su hijo.</p>
+  <p class="en">The kiosk man had a perfect alibi: that afternoon they saw him at the market with his son.</p>
+</div>
+<div class="phrase">
+  <p class="es">«Lo importante —dijo el detective— no es quién la escribió».</p>
+  <p class="en">"What matters —said the detective— is not who wrote it."</p>
+</div>
+<div class="phrase">
+  <p class="es">«Lo que quiero saber es quién la espera desde 1974».</p>
+  <p class="en">"What I want to know is who has been waiting for it since 1974."</p>
+</div>
+<div class="phrase">
+  <p class="es">Entonces llegó una señora mayor con una <b>reclamación</b> escrita: «Yo soy la que espera; la carta es mía».</p>
+  <p class="en">Then an elderly lady arrived with a written claim: "I am the one who waits; the letter is mine."</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>indicio</b> final estaba en la <b>buhardilla</b> de la casa: un <b>cajón</b> del <b>escritorio</b> con una carta <b>certificada</b> y la respuesta al <b>enigma</b>.</p>
+  <p class="en">The final clue was in the attic of the house: a desk drawer with a registered letter and the answer to the enigma.</p>
+</div>
+<div class="phrase">
+  <p class="es">La señora <b>reveló</b> el <b>secreto</b>: su marido le escribía cada mes, y ella nunca <b>sospechó</b> que una carta se había <b>extraviado</b>.</p>
+  <p class="en">The lady revealed the secret: her husband wrote to her every month, and she never suspected that a letter had gone astray.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">misterio</span></td><td data-label="Type">n.m.</td><td data-label="English">mystery</td><td data-label="Notes">La carta misteriosa del quiosco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">secreto</span></td><td data-label="Type">n.m.</td><td data-label="English">secret</td><td data-label="Notes">La señora reveló el secreto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">veredicto</span></td><td data-label="Type">n.m.</td><td data-label="English">verdict</td><td data-label="Notes">El veredicto fue claro: inocente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sereno</span></td><td data-label="Type">n.m.</td><td data-label="English">night guard, watchman</td><td data-label="Notes">El sereno de la casa ve todo de noche.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> one envelope travels through six hands, and pronouns do all the carrying — <span class="es">lo llevó, se lo dio, se la escribieron, se la entregaron</span>. If you followed <em>who gave what to whom</em>, your pronouns already work.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Pronoun clusters: se lo, se la (order is fixed)</h3>
+<p>When two pronouns meet, the order never changes: <strong>indirect</strong> first, <strong>direct</strong> second. And <span class="es">le/les</span> turns into <span class="es">se</span> before <span class="es">lo/la/los/las</span> — always.</p>
+<ul>
+  <li class="ex"><span class="es">Se lo di al <b>cartero</b>. (= Le di el sobre al cartero.)</span><span class="en">I gave it to the postman. (le + lo → se lo)</span></li>
+  <li class="ex"><span class="es">Se la escribieron a su madre. (= Le escribieron la carta.)</span><span class="en">They wrote it to his mother. (le + la → se la)</span></li>
+  <li class="ex"><span class="es">Me lo dio el <b>testigo</b>.</span><span class="en">The witness gave it to me. (me + lo → me lo)</span></li>
+  <li class="ex"><span class="es">Nos la <b>entregó</b> el <b>detective</b>.</span><span class="en">The detective handed it to us. (nos + la → nos la)</span></li>
+</ul>
+<div class="formula">le / les + lo / la / los / las → se lo · se la · se los · se las</div>
+
+<h3>2.2. Neuter lo, lo que — and el cual vs que (+ leísmo)</h3>
+<p><b>Neutro</b> <span class="es">lo</span> points at an abstract idea, not a thing: <span class="es">lo importante</span> (what matters), <span class="es">lo bueno</span> (the good thing). With <span class="es">que</span> it becomes <span class="es">lo que</span> (what) and <span class="es">es lo que</span> (it's what). Formal writing prefers <b>el cual / la cual</b> over plain <span class="es">que</span> after commas and prepositions.</p>
+<ul>
+  <li class="ex"><span class="es"><b>El sobre</b>, <b>el cual</b> era amarillo, estaba en la <b>comisaría</b>.</span><span class="en">The envelope, which was yellow, was at the station. (formal: el cual)</span></li>
+  <li class="ex"><span class="es">La casa, <b>la cual</b> tenía cien años, estaba vacía.</span><span class="en">The house, which was a hundred years old, was empty.</span></li>
+  <li class="ex"><span class="es">Lo que quiero es ver el rellano.</span><span class="en">What I want is to see the landing.</span></li>
+  <li class="ex"><span class="es">Es lo que me faltaba: una <b>coartada</b> perfecta.</span><span class="en">It's just what I needed: a perfect alibi.</span></li>
+</ul>
+<div class="formula">lo + adjetivo = the abstract thing · lo que = what · el cual = que (formal)</div>
+<p><b>Leísmo</b> note: in Spain you will hear <span class="es">le vi</span> (I saw him) for a man, where Latin America says <span class="es">lo vi</span>. Neither is wrong — but the neutral advice for everywhere is simple: use <span class="es">lo/la</span> for the person or thing directly acted on, and <span class="es">le</span> only for the indirect object (to whom).</p>
+<div class="warn">⚠️ <strong>Common mistake:</strong> <span class="es">le lo di</span> never exists. The moment <span class="es">le</span> meets <span class="es">lo/la</span>, it becomes <span class="es">se</span>: <span class="es">se lo di, se la entregaron</span>. If you catch yourself writing <span class="es">le lo</span>, replace <span class="es">le</span> with <span class="es">se</span>.</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">sobre</span></td><td data-label="Type">n.m.</td><td data-label="English">envelope</td><td data-label="Notes">Un sobre amarillo. (Also a preposition: sobre la mesa.)</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cartero</span></td><td data-label="Type">n.m./f.</td><td data-label="English">postman, mail carrier</td><td data-label="Notes">El cartero lo llevó tres veces.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">destinatario</span></td><td data-label="Type">n.m.</td><td data-label="English">addressee</td><td data-label="Notes">La carta no tenía destinatario.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reclamar</span></td><td data-label="Type">v.</td><td data-label="English">to claim, to demand</td><td data-label="Notes">Nadie lo reclama. La carta que nadie reclamó.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reclamación</span></td><td data-label="Type">n.f.</td><td data-label="English">claim, complaint</td><td data-label="Notes">Una reclamación escrita.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">extraviar</span></td><td data-label="Type">v.</td><td data-label="English">to lose, to mislay</td><td data-label="Notes">Se había extraviado: it had gone astray.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sospechoso</span></td><td data-label="Type">n.m./adj.</td><td data-label="English">suspect; suspicious</td><td data-label="Notes">El único sospechoso era un hombre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">testigo</span></td><td data-label="Type">n.m./f.</td><td data-label="English">witness</td><td data-label="Notes">El testigo es el del quiosco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">coartada</span></td><td data-label="Type">n.f.</td><td data-label="English">alibi</td><td data-label="Notes">Una coartada perfecta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">enigma</span></td><td data-label="Type">n.m.</td><td data-label="English">enigma, riddle</td><td data-label="Notes">La respuesta al enigma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">revelar</span></td><td data-label="Type">v.</td><td data-label="English">to reveal</td><td data-label="Notes">La señora reveló el secreto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sospechar</span></td><td data-label="Type">v.</td><td data-label="English">to suspect</td><td data-label="Notes">Ella nunca sospechó nada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sospecha</span></td><td data-label="Type">n.f.</td><td data-label="English">suspicion</td><td data-label="Notes">Todos tenían la misma sospecha.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">esconder</span></td><td data-label="Type">v.</td><td data-label="English">to hide</td><td data-label="Notes">Alguien escondió la carta en el trastero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">descubrir</span></td><td data-label="Type">v.</td><td data-label="English">to discover</td><td data-label="Notes">El detective descubrió la verdad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">entregar</span></td><td data-label="Type">v.</td><td data-label="English">to deliver, to hand over</td><td data-label="Notes">Nunca se la entregaron.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pertenecer</span></td><td data-label="Type">v.</td><td data-label="English">to belong</td><td data-label="Notes">Pertenece a quien espera desde 1974.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">recompensa</span></td><td data-label="Type">n.f.</td><td data-label="English">reward</td><td data-label="Notes">La recompensa sigue en la comisaría.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comisaría</span></td><td data-label="Type">n.f.</td><td data-label="English">police station</td><td data-label="Notes">En la comisaría del barrio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">buhardilla</span></td><td data-label="Type">n.f.</td><td data-label="English">attic</td><td data-label="Notes">El indicio estaba en la buhardilla.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cajón</span></td><td data-label="Type">n.m.</td><td data-label="English">drawer</td><td data-label="Notes">Un cajón del escritorio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escritorio</span></td><td data-label="Type">n.m.</td><td data-label="English">desk</td><td data-label="Notes">Un cajón del escritorio con una carta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tinta</span></td><td data-label="Type">n.f.</td><td data-label="English">ink</td><td data-label="Notes">Escrita con tinta azul.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">matasellos</span></td><td data-label="Type">n.m.</td><td data-label="English">postmark</td><td data-label="Notes">Un matasellos viejo en el sobre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">certificada</span></td><td data-label="Type">adj.</td><td data-label="English">registered (mail)</td><td data-label="Notes">Una carta certificada. Carta certificada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">anónimo</span></td><td data-label="Type">adj.</td><td data-label="English">anonymous</td><td data-label="Notes">Era una carta anónima, sin nombre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">indicio</span></td><td data-label="Type">n.m.</td><td data-label="English">clue, sign, indication</td><td data-label="Notes">El indicio final estaba en la buhardilla.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inocente</span></td><td data-label="Type">adj.</td><td data-label="English">innocent</td><td data-label="Notes">Al final, el hombre era inocente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">detective</span></td><td data-label="Type">n.m./f.</td><td data-label="English">detective</td><td data-label="Notes">Un detective amigo suyo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">leísmo</span></td><td data-label="Type">n.m.</td><td data-label="English">leísmo (using le for lo)</td><td data-label="Notes">Spain le vi vs neutral lo vi. Neutral advice: lo for things.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">neutro</span></td><td data-label="Type">adj./n.m.</td><td data-label="English">neuter</td><td data-label="Notes">Lo neutro: lo bueno, lo importante, lo que.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">el/la cual</span></td><td data-label="Type">pron.</td><td data-label="English">which, who (formal)</td><td data-label="Notes">Formal que: el detective, el cual tenía setenta años.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences from the case file. Read them once; no need to memorize.</p>
+
+<h3>1. The discovery:</h3>
+<div class="phrase">
+  <p class="es">El detective descubrió la verdad en un cajón.</p>
+  <p class="en">The detective discovered the truth in a drawer.</p>
+</div>
+<h3>2. The reward:</h3>
+<div class="phrase">
+  <p class="es">La recompensa sigue en la comisaría.</p>
+  <p class="en">The reward is still at the police station.</p>
+</div>
+<h3>3. The anonymous letter:</h3>
+<div class="phrase">
+  <p class="es">Era una carta anónima, sin nombre.</p>
+  <p class="en">It was an anonymous letter, with no name.</p>
+</div>
+<h3>4. The suspicion:</h3>
+<div class="phrase">
+  <p class="es">Todos tenían la misma sospecha: el portero.</p>
+  <p class="en">Everyone had the same suspicion: the caretaker.</p>
+</div>
+<h3>5. The innocent man:</h3>
+<div class="phrase">
+  <p class="es">Al final, el sospechoso era inocente.</p>
+  <p class="en">In the end, the suspect was innocent.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> The detective questions the night guard of the house.</p>
+
+<div class="phrase">
+  <p class="es">Detective: Buenos días. Busco al sereno de esta casa.</p>
+  <p class="en">Detective: Good morning. I'm looking for the night guard of this house.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sereno: Soy yo. ¿Qué pasa con la carta misteriosa?</p>
+  <p class="en">Guard: That's me. What's happening with the mysterious letter?</p>
+</div>
+<div class="phrase">
+  <p class="es">Detective: La carta se la dio el cartero al portero, ¿verdad?</p>
+  <p class="en">Detective: The postman gave the letter to the caretaker, right?</p>
+</div>
+<div class="phrase">
+  <p class="es">Sereno: Es lo que dicen, pero yo no vi nada.</p>
+  <p class="en">Guard: That's what they say, but I didn't see anything.</p>
+</div>
+<div class="phrase">
+  <p class="es">Detective: ¿Y el trastero? ¿Qué hay en el trastero de la buhardilla?</p>
+  <p class="en">Detective: And the storage room? What's in the attic storage room?</p>
+</div>
+<div class="phrase">
+  <p class="es">Sereno: Ropa vieja y un escritorio viejo.</p>
+  <p class="en">Guard: Old clothes and an old desk.</p>
+</div>
+<div class="phrase">
+  <p class="es">Detective: Bien. Voy a verlo yo mismo.</p>
+  <p class="en">Detective: Fine. I'll go and see it myself.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>sereno</strong> (night guard), <strong>misterio</strong> (mystery) — two answers, zero confessions (and the <em>trastero</em> you know from Lesson 60).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Pronoun clusters:</strong> indirect + direct, always in that order — <span class="es">se lo di, se la escribieron, me lo dio, nos la entregó</span>. <span class="es">Le</span> becomes <span class="es">se</span> before <span class="es">lo/la</span>.</li>
+  <li><strong>Neuter lo:</strong> <span class="es">lo importante, lo que quiero, es lo que me faltaba</span> — the abstract <em>what</em>.</li>
+  <li><strong>El cual vs que:</strong> formal <span class="es">el cual / la cual</span> after commas and prepositions; plain <span class="es">que</span> everywhere else.</li>
+  <li><strong>Leísmo:</strong> Spain's <span class="es">le vi</span> vs neutral <span class="es">lo vi</span> — neutral advice: <span class="es">lo/la</span> for what is acted on, <span class="es">le</span> only for <em>to whom</em>.</li>
+</ul>
+
+<h3>5.2. Further reading — el caso cerrado</h3>
+<p><strong>Context:</strong> The detective closes the file. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">La <b>sospecha</b> del detective era simple: alguien <b>escondió</b> la carta en el trastero.</p>
+  <p class="en">The detective's suspicion was simple: somebody hid the letter in the storage room.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>testigo</b> lo vio todo, pero no dijo nada porque tenía miedo.</p>
+  <p class="en">The witness saw everything but said nothing out of fear.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al final, el hombre era <b>inocente</b> y el <b>veredicto</b> fue claro.</p>
+  <p class="en">In the end, the man was innocent and the verdict was clear.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>detective</b> <b>entregó</b> la carta a la señora mayor.</p>
+  <p class="en">The detective delivered the letter to the elderly lady.</p>
+</div>
+<div class="phrase">
+  <p class="es">Y así se terminó el <b>enigma</b> de la carta.</p>
+  <p class="en">And that is how the enigma of the letter ended.</p>
+</div>
+
+<p class="lead"><em>All words are from today's table — <strong>sospecha</strong> (suspicion), <strong>esconder</strong> (to hide) and <strong>inocente</strong> (innocent) appear here for the first time.</em></p>
+
+<hr>
+<p><strong>End of Lesson 66.</strong> Next, <strong>Review B2-1</strong>: advanced grammar in context — a formal letter and an opinion column re-reading everything from Lessons 57 to 66. No exercises — just read.</p>
+
+<p class="topnav"><a href="review-b2-1.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

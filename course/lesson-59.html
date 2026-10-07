@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 59 — The pluperfect subjunctive in all uses</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-58.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 59 — THE PLUPERFECT SUBJUNCTIVE IN ALL USES</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Form it: <strong>hubiera / hubiese + participle</strong> (<span class="es">hubiera hecho, hubiese dicho</span>).</li>
+      <li>Use it after <strong>como si</strong> and <strong>ojalá</strong> for unreal pasts.</li>
+      <li>Use it in past reporting: <strong>había pedido que hubiera hecho…</strong></li>
+      <li>Read a memory piece: a family after the storm, acting as if nothing had happened.</li>
+      <li>Pick up words: <span class="es">huracán, escombros, cauce, arrasar, gotera, remendar, remordimiento</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">hubiese, hubiera hecho, dicho, hecho, escrito, huracán, escombros, tejado, inundar, derrumbar, reconstruir, refugio, apagón, linterna, barro, charco, cauce, arrasar, azotea, gotera, trueno, relámpago, ráfaga, calma, remendar, fingir, disimular, suspiro, duelo, resignación, alivio, remordimiento, huella, cicatriz, evocar, revivir, atesorar</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">vela, ribera, tablón, sollozo</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (COMO SI NADA HUBIERA PASADO)</h2>
+<p><strong>Context:</strong> Three days after the hurricane, the narrator returns to the family house. The roof is gone, the street is rubble — but his mother serves dinner as if nothing had happened. Read each line; the English below it is only a check.</p>
+<p class="lead">(Unreal pasts fill this memory — <em>as if nothing had happened, I wish it hadn't…</em> is today's grammar.)</p>
+
+<div class="phrase">
+  <p class="es">Volví al pueblo tres días después del <b>huracán</b>, con una <b>linterna</b> en la mano y las botas llenas de <b>barro</b> hasta las rodillas.</p>
+  <p class="en">I came back to the village three days after the hurricane, with a flashlight in my hand and my boots full of mud up to my knees.</p>
+</div>
+<div class="phrase">
+  <p class="es">La calle estaba llena de <b>escombros</b>: un <b>tablón</b> roto, tejas y un <b>charco</b> negro donde antes jugábamos por las tardes, sin miedo a nada.</p>
+  <p class="en">The street was full of rubble: a broken plank, roof tiles and a black puddle where we used to play in the afternoons, afraid of nothing.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>tejado</b> de casa había volado, y la primera noche dormimos en el <b>refugio</b> del colegio, entre sillas rotas y libros mojados.</p>
+  <p class="en">The roof of the house had flown off, and the first night we slept in the school shelter, among broken chairs and wet books.</p>
+</div>
+<div class="phrase">
+  <p class="es">El río, salido de su <b>cauce</b>, parecía querer <b>inundar</b> la planta baja; en la <b>ribera</b> ya había logrado <b>arrasar</b> dos casas, y medio pueblo contenía la respiración.</p>
+  <p class="en">The river, out of its course, seemed to want to flood the ground floor; on the bank it had already managed to sweep away two houses, and half the village held its breath.</p>
+</div>
+<div class="phrase">
+  <p class="es">De noche, una <b>ráfaga</b> logró <b>derrumbar</b> el muro del fondo, y por la <b>azotea</b> abierta se veía un cielo limpio, lleno de estrellas, como si pidiera calma.</p>
+  <p class="en">At night, a gust managed to knock down the back wall, and through the open flat roof a clean sky could be seen, full of stars, as if asking for calm.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi madre, en cambio, barría el portal con fuerza, como si no <b>hubiese</b> pasado nada, como cada mañana de su vida.</p>
+  <p class="en">My mother, in contrast, swept the doorway firmly, as if nothing had happened, like every morning of her life.</p>
+</div>
+<div class="phrase">
+  <p class="es">Había encendido dos velas porque el <b>apagón</b> duraba ya tres días y la comida se echaba a perder en la cocina.</p>
+  <p class="en">She had lit two candles because the blackout had already lasted three days and the food was spoiling in the kitchen.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cenamos en silencio, como si nadie hubiera <b>dicho</b> la palabra huracán.</p>
+  <p class="en">We had dinner in silence, as if nobody had said the word hurricane.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi madre servía la sopa como si el viento no hubiera <b>hecho</b> nada.</p>
+  <p class="en">My mother served the soup as if the wind hadn't done anything.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi padre prefería <b>fingir</b> que leía el periódico, mojado aún en sus manos temblorosas, sin pasar ni una página.</p>
+  <p class="en">My father preferred to pretend he was reading the newspaper, still wet in his trembling hands, without turning a single page.</p>
+</div>
+<div class="phrase">
+  <p class="es">Yo intentaba <b>disimular</b> el miedo, pero cada <b>trueno</b> lejano y cada <b>relámpago</b> me hacían temblar bajo la mesa, con el corazón en la boca.</p>
+  <p class="en">I tried to hide my fear, but every distant thunder and every lightning flash made me shake under the table, with my heart in my mouth.</p>
+</div>
+<div class="phrase">
+  <p class="es">Solo se oía la <b>gotera</b> de la cocina y, muy lejos, el <b>sollozo</b> de una vecina que había perdido todo, hasta las fotos de su boda.</p>
+  <p class="en">All you could hear was the kitchen leak and, far away, the sobbing of a neighbour who had lost everything, even her wedding photos.</p>
+</div>
+<div class="phrase">
+  <p class="es">Después supe que mi abuela había pedido que mi tío <b>hubiera hecho</b> guardia en la puerta.</p>
+  <p class="en">Later I learned that my grandmother had asked for my uncle to have stood guard at the door.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ojalá el viento no hubiera hecho tanto daño, pensaba yo cada noche antes de dormir, con los ojos cerrados.</p>
+  <p class="en">If only the wind hadn't done so much damage, I thought every night before sleeping, with my eyes closed.</p>
+</div>
+<div class="phrase">
+  <p class="es">Parecía una historia que alguien hubiera <b>escrito</b> con crueldad.</p>
+  <p class="en">It seemed like a story someone had written with cruelty.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi madre no lloraba: decía que llorar era perder la <b>calma</b>, y se ponía a <b>remendar</b> cortinas rotas mientras cantaba en voz baja.</p>
+  <p class="en">My mother didn't cry: she said crying was losing your calm, and she would start mending torn curtains while humming softly.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero en sus ojos había un <b>duelo</b> antiguo, una <b>resignación</b> sin <b>alivio</b> y un <b>suspiro</b> que no terminaba nunca, ni siquiera cuando dormía.</p>
+  <p class="en">But in her eyes there was an old grief, a resignation with no relief, and a sigh that never ended, not even when she slept.</p>
+</div>
+<div class="phrase">
+  <p class="es">Con los años entendí su <b>remordimiento</b>: sentía no haber podido <b>reconstruir</b> la casa ella sola.</p>
+  <p class="en">Over the years I understood her remorse: she felt she hadn't been able to rebuild the house alone.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hoy suelo <b>evocar</b> aquella noche para <b>revivir</b> su valor: la casa guarda la <b>huella</b> del agua como una <b>cicatriz</b>, y yo prefiero <b>atesorar</b> su ejemplo y contar esta historia a mis hijos cuando pregunten por la huella de la pared.</p>
+  <p class="en">Today I usually recall that night to relive her courage: the house keeps the mark of the water like a scar, and I prefer to treasure her example and tell this story to my children when they ask about the mark on the wall.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">vela</span></td><td data-label="Type">n.f.</td><td data-label="English">candle</td><td data-label="Notes">Había encendido dos velas por el apagón.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ribera</span></td><td data-label="Type">n.f.</td><td data-label="English">riverbank</td><td data-label="Notes">En la ribera ya había arrasado dos casas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tablón</span></td><td data-label="Type">n.m.</td><td data-label="English">plank</td><td data-label="Notes">Un tablón roto entre los escombros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sollozo</span></td><td data-label="Type">n.m.</td><td data-label="English">sob, sobbing</td><td data-label="Notes">El sollozo de una vecina, muy lejos.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> three doors into the same room — <span class="es">como si no hubiese pasado nada</span> (as if), <span class="es">ojalá no hubiera hecho tanto daño</span> (wish), <span class="es">había pedido que hubiera hecho guardia</span> (past reporting). All three use <span class="es">hubiera/hubiese + participle</span>.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The form: hubiera / hubiese + participle</h3>
+<p>Put <strong>haber</strong> in the imperfect subjunctive (<span class="es">hubiera / hubiese</span> — the L57 twins again) before a <strong>past participle</strong>. Regular participles end in <span class="es">-ado / -ido</span>; the key irregulars are <span class="es">dicho, hecho, escrito</span>.</p>
+<div class="formula"><b>hubiera / hubiese</b> + participle → hubiera hecho, hubiese pasado, hubieran dicho</div>
+<ul>
+  <li class="ex"><span class="es">Como si no <b>hubiese pasado</b> nada.</span><span class="en">As if nothing had happened.</span></li>
+  <li class="ex"><span class="es">Como si nadie hubiera <b>dicho</b> la palabra huracán.</span><span class="en">As if nobody had said the word hurricane.</span></li>
+  <li class="ex"><span class="es">Como si el viento no hubiera <b>hecho</b> nada.</span><span class="en">As if the wind hadn't done anything.</span></li>
+  <li class="ex"><span class="es">Parecía una historia que alguien hubiera <b>escrito</b> con crueldad.</span><span class="en">It seemed like a story someone had written with cruelty.</span></li>
+</ul>
+
+<h3>2.2. Como si and ojalá about the past</h3>
+<p><span class="es">Como si</span> always opens an unreal scene: with a <strong>past</strong> scene it takes the <strong>pluperfect subjunctive</strong> (<span class="es">como si no hubiese pasado nada</span>). <span class="es">Ojalá</span> about the <strong>past</strong> works the same — it is a regret, something that can no longer change.</p>
+<div class="formula"><b>como si / ojalá</b> + hubiera + participle → unreal or regretted past</div>
+<ul>
+  <li class="ex"><span class="es">Barría el portal <b>como si</b> no hubiese pasado nada.</span><span class="en">She swept the doorway as if nothing had happened.</span></li>
+  <li class="ex"><span class="es"><b>Ojalá</b> el viento no <b>hubiera hecho</b> tanto daño.</span><span class="en">If only the wind hadn't done so much damage.</span></li>
+  <li class="ex"><span class="es">Fingía leer, <b>como si</b> el periódico no hubiera <b>dicho</b> nada.</span><span class="en">He pretended to read, as if the newspaper had said nothing.</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> <span class="es">hubiera</span> and <span class="es">hubiese</span> are both correct everywhere — same twins as L57. In Latin America <span class="es">hubiera</span> dominates in speech and <span class="es">hubiese</span> can sound literary; in Spain you will hear both, with <span class="es">hubiera</span> still first.</div>
+
+<h3>2.3. Past reporting: past main verb + que + pluperfect subjunctive</h3>
+<p>Extend the L57 sequence one step back. A main verb in a <strong>past perfect</strong> (<span class="es">había pedido</span>) reporting something <strong>already finished before that</strong> takes the <strong>pluperfect subjunctive</strong>: <span class="es">había pedido que hubiera hecho…</span></p>
+<div class="formula"><b>past perfect</b> main + <b>que</b> + <b>pluperfect subjunctive</b> → había pedido que hubiera hecho</div>
+<ul>
+  <li class="ex"><span class="es">Mi abuela <b>había pedido</b> que mi tío <b>hubiera hecho</b> guardia.</span><span class="en">My grandmother had asked for my uncle to have stood guard. (the guard duty was already over)</span></li>
+  <li class="ex"><span class="es">Dijeron que <b>hubiera</b> sido mejor salir antes.</span><span class="en">They said it would have been better to leave earlier.</span></li>
+  <li class="ex"><span class="es">Me había pedido que lo <b>hubiera</b> terminado antes del viernes.</span><span class="en">He had asked me to have finished it before Friday.</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistakes:</strong> <span class="es">como si</span> never takes the indicative: <span class="es">*como si no ha pasado nada</span> is wrong — always <span class="es">como si no hubiera/hubiese pasado</span>. And after a past main verb, don't use <span class="es">haya hecho</span> (present perfect subjunctive): <span class="es">*había pedido que haya hecho</span> is wrong — the past sequence needs <span class="es">hubiera hecho</span>.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">hubiese</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she had (imp. subj. of haber, -se form)</td><td data-label="Notes">Como si no hubiese pasado nada. Twin: hubiera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hubiera hecho</span></td><td data-label="Type">phr.</td><td data-label="English">he/she had done (pluperfect subjunctive)</td><td data-label="Notes">Ojalá no hubiera hecho tanto daño. Hubiera (L58) + hecho.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dicho</span></td><td data-label="Type">part.</td><td data-label="English">said (past participle of decir)</td><td data-label="Notes">Como si nadie hubiera dicho nada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hecho</span></td><td data-label="Type">part.</td><td data-label="English">done/made (past participle of hacer)</td><td data-label="Notes">Como si no hubiera hecho nada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escrito</span></td><td data-label="Type">part.</td><td data-label="English">written (past participle of escribir)</td><td data-label="Notes">Que alguien hubiera escrito con crueldad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">huracán</span></td><td data-label="Type">n.m.</td><td data-label="English">hurricane</td><td data-label="Notes">Tres días después del huracán.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escombros</span></td><td data-label="Type">n.m.pl.</td><td data-label="English">rubble, debris</td><td data-label="Notes">La calle estaba llena de escombros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tejado</span></td><td data-label="Type">n.m.</td><td data-label="English">roof (tiles)</td><td data-label="Notes">El tejado había volado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inundar</span></td><td data-label="Type">v.</td><td data-label="English">to flood</td><td data-label="Notes">Parecía querer inundar la planta baja.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">derrumbar</span></td><td data-label="Type">v.</td><td data-label="English">to knock down, to collapse</td><td data-label="Notes">Logró derrumbar el muro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reconstruir</span></td><td data-label="Type">v.</td><td data-label="English">to rebuild</td><td data-label="Notes">No haber podido reconstruir la casa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">refugio</span></td><td data-label="Type">n.m.</td><td data-label="English">shelter</td><td data-label="Notes">Dormimos en el refugio del colegio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">apagón</span></td><td data-label="Type">n.m.</td><td data-label="English">blackout, power cut</td><td data-label="Notes">El apagón duraba ya tres días.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">linterna</span></td><td data-label="Type">n.f.</td><td data-label="English">flashlight</td><td data-label="Notes">Volví con una linterna.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">barro</span></td><td data-label="Type">n.m.</td><td data-label="English">mud</td><td data-label="Notes">Las botas llenas de barro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">charco</span></td><td data-label="Type">n.m.</td><td data-label="English">puddle</td><td data-label="Notes">Un charco negro donde jugábamos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cauce</span></td><td data-label="Type">n.m.</td><td data-label="English">riverbed, course</td><td data-label="Notes">El río, salido de su cauce.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">arrasar</span></td><td data-label="Type">v.</td><td data-label="English">to sweep away, to devastate</td><td data-label="Notes">Había logrado arrasar dos casas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">azotea</span></td><td data-label="Type">n.f.</td><td data-label="English">flat roof, rooftop terrace</td><td data-label="Notes">Por la azotea abierta se veía el cielo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gotera</span></td><td data-label="Type">n.f.</td><td data-label="English">leak (in a roof)</td><td data-label="Notes">Solo se oía la gotera de la cocina.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trueno</span></td><td data-label="Type">n.m.</td><td data-label="English">thunder</td><td data-label="Notes">Cada trueno lejano me hacía temblar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">relámpago</span></td><td data-label="Type">n.m.</td><td data-label="English">lightning flash</td><td data-label="Notes">Cada relámpago bajo la mesa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ráfaga</span></td><td data-label="Type">n.f.</td><td data-label="English">gust (of wind)</td><td data-label="Notes">Una ráfaga logró derrumbar el muro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">calma</span></td><td data-label="Type">n.f.</td><td data-label="English">calm</td><td data-label="Notes">Llorar era perder la calma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">remendar</span></td><td data-label="Type">v.</td><td data-label="English">to mend, to patch</td><td data-label="Notes">Se ponía a remendar cortinas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fingir</span></td><td data-label="Type">v.</td><td data-label="English">to pretend, to feign</td><td data-label="Notes">Prefería fingir que leía.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">disimular</span></td><td data-label="Type">v.</td><td data-label="English">to hide, to conceal (feelings)</td><td data-label="Notes">Intentaba disimular el miedo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">suspiro</span></td><td data-label="Type">n.m.</td><td data-label="English">sigh</td><td data-label="Notes">Un suspiro que no terminaba nunca.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">duelo</span></td><td data-label="Type">n.m.</td><td data-label="English">grief, mourning</td><td data-label="Notes">Un duelo antiguo en sus ojos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">resignación</span></td><td data-label="Type">n.f.</td><td data-label="English">resignation</td><td data-label="Notes">Una resignación sin alivio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alivio</span></td><td data-label="Type">n.m.</td><td data-label="English">relief</td><td data-label="Notes">Sin alivio. Qué alivio: what a relief.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">remordimiento</span></td><td data-label="Type">n.m.</td><td data-label="English">remorse</td><td data-label="Notes">Entendí su remordimiento con los años.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">huella</span></td><td data-label="Type">n.f.</td><td data-label="English">mark, trace, footprint</td><td data-label="Notes">La huella del agua en la pared.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cicatriz</span></td><td data-label="Type">n.f.</td><td data-label="English">scar</td><td data-label="Notes">Como una cicatriz en la casa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">evocar</span></td><td data-label="Type">v.</td><td data-label="English">to recall, to evoke</td><td data-label="Notes">Suelo evocar aquella noche.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">revivir</span></td><td data-label="Type">v.</td><td data-label="English">to relive, to revive</td><td data-label="Notes">Para revivir su valor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">atesorar</span></td><td data-label="Type">v.</td><td data-label="English">to treasure</td><td data-label="Notes">Prefiero atesorar su ejemplo.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five unreal pasts. Read them once; no need to memorize.</p>
+
+<h3>1. As if:</h3>
+<div class="phrase">
+  <p class="es">Como si nada hubiera pasado.</p>
+  <p class="en">As if nothing had happened.</p>
+</div>
+<h3>2. The regret:</h3>
+<div class="phrase">
+  <p class="es">Ojalá no hubiera hecho tanto daño.</p>
+  <p class="en">If only it hadn't done so much damage.</p>
+</div>
+<h3>3. The reported order:</h3>
+<div class="phrase">
+  <p class="es">Me había pedido que lo <b>hubiera hecho</b> antes del viernes.</p>
+  <p class="en">He had asked me to have done it before Friday.</p>
+</div>
+<h3>4. As if never:</h3>
+<div class="phrase">
+  <p class="es">Como si no hubiese llovido nunca.</p>
+  <p class="en">As if it had never rained.</p>
+</div>
+<h3>5. The cruel story:</h3>
+<div class="phrase">
+  <p class="es">Lo contó como si lo hubiera escrito un novelista cruel.</p>
+  <p class="en">He told it as if a cruel novelist had written it.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> The mother and a neighbour talk in the doorway, three days after the storm.</p>
+
+<div class="phrase">
+  <p class="es">Vecina: ¿Dormisteis en el refugio del colegio?</p>
+  <p class="en">Neighbour: Did you sleep in the school shelter?</p>
+</div>
+<div class="phrase">
+  <p class="es">Madre: Sí, con la linterna y dos velas.</p>
+  <p class="en">Mother: Yes, with the flashlight and two candles.</p>
+</div>
+<div class="phrase">
+  <p class="es">Vecina: Ojalá me hubieras avisado; habría ido contigo.</p>
+  <p class="en">Neighbour: If only you'd told me; I'd have gone with you.</p>
+</div>
+<div class="phrase">
+  <p class="es">Madre: Fue todo tan rápido, como si no hubiera pasado el tiempo.</p>
+  <p class="en">Mother: It was all so fast, as if time hadn't passed.</p>
+</div>
+<div class="phrase">
+  <p class="es">Vecina: Hay que remendar las cortinas con calma.</p>
+  <p class="en">Neighbour: We must mend the curtains calmly.</p>
+</div>
+<div class="phrase">
+  <p class="es">Madre: Y reconstruir el muro antes de las lluvias.</p>
+  <p class="en">Mother: And rebuild the wall before the rains.</p>
+</div>
+<div class="phrase">
+  <p class="es">Vecina: Entre todas lo haremos, ya verás.</p>
+  <p class="en">Neighbour: Together we'll do it, you'll see.</p>
+</div>
+
+<p class="lead"><em>No new words — the dialogue reuses <strong>refugio</strong> (shelter), <strong>linterna</strong> (flashlight), <strong>remendar</strong> (to mend), <strong>calma</strong> (calm) and <strong>reconstruir</strong> (to rebuild) from today's table.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>The form:</strong> <span class="es">hubiera / hubiese + participle</span> (<span class="es">hubiera hecho, hubiese pasado</span>), with irregulars <span class="es">dicho, hecho, escrito</span>.</li>
+  <li><strong>Como si + ojalá:</strong> unreal or regretted pasts — <span class="es">como si no hubiese pasado nada, ojalá no hubiera hecho tanto daño</span>.</li>
+  <li><strong>Past reporting:</strong> <span class="es">past perfect + que + pluperfect subjunctive</span> (<span class="es">había pedido que hubiera hecho guardia</span>).</li>
+</ul>
+
+<h3>5.2. Further reading — la marca en la pared</h3>
+<p><strong>Context:</strong> Years later, the mark of the water is still there. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">La <b>huella</b> del agua sigue en la pared del portal.</p>
+  <p class="en">The mark of the water is still on the doorway wall.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi madre la llama su <b>cicatriz</b> favorita.</p>
+  <p class="en">My mother calls it her favourite scar.</p>
+</div>
+<div class="phrase">
+  <p class="es">Dice que <b>evocar</b> el miedo le enseña a no tenerlo.</p>
+  <p class="en">She says that recalling the fear teaches her not to feel it.</p>
+</div>
+<div class="phrase">
+  <p class="es">Yo prefiero <b>atesorar</b> sus palabras más que las fotos.</p>
+  <p class="en">I prefer to treasure her words more than the photos.</p>
+</div>
+<div class="phrase">
+  <p class="es">Y cada vez que llueve, dormimos tranquilos: la casa ya demostró que aguanta.</p>
+  <p class="en">And every time it rains, we sleep peacefully: the house has already shown it holds up.</p>
+</div>
+
+<p class="lead"><em>No new words — it reuses <strong>huella</strong> (mark), <strong>cicatriz</strong> (scar), <strong>evocar</strong> (to recall) and <strong>atesorar</strong> (to treasure) from today's table.</em></p>
+
+<hr>
+<p><strong>End of Lesson 59.</strong> Next, <strong>Lesson 60</strong>: the many values of <em>se</em> — reflexive, reciprocal, passive, impersonal and more. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-60.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

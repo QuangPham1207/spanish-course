@@ -1,0 +1,31 @@
+{
+  "lesson": 90,
+  "title": "Capstone: the library of lost trains",
+  "words": [
+    {"word": "bibliotecaria", "type": "n.f.", "en": "librarian (female)", "note": "El masculino: bibliotecario.", "example": {"es": "Alba ahora es bibliotecaria.", "en": "Alba is now a librarian."}},
+    {"word": "donación", "type": "n.f.", "en": "donation", "note": "De donar. Así llegan los libros.", "example": {"es": "Recibimos una donación de libros.", "en": "We received a donation of books."}},
+    {"word": "marquesina", "type": "n.f.", "en": "platform canopy, shelter", "note": "El techo del andén (andén: L12).", "example": {"es": "Dejan los paquetes bajo la marquesina.", "en": "They leave the parcels under the canopy."}},
+    {"word": "convoy", "type": "n.m.", "en": "train (of carriages)", "note": "El tren con sus vagones (vagón: L58).", "example": {"es": "El convoy llega a las cinco.", "en": "The train arrives at five."}},
+    {"word": "traqueteo", "type": "n.m.", "en": "rattling, clatter", "note": "El sonido del tren antes de verlo.", "example": {"es": "Se oye el traqueteo antes que el tren.", "en": "The clatter is heard before the train."}},
+    {"word": "silbido", "type": "n.m.", "en": "whistle", "note": "Silbar → el silbido.", "example": {"es": "Después se oye el silbido.", "en": "Then the whistle is heard."}},
+    {"word": "hollín", "type": "n.m.", "en": "soot", "note": "El polvo negro del tren.", "example": {"es": "Hay hollín en el aire.", "en": "There is soot in the air."}},
+    {"word": "estantería", "type": "n.f.", "en": "bookshelf", "note": "En LatAm el mueble también es el librero.", "example": {"es": "Levantan la gran estantería.", "en": "They raise the great bookshelf."}},
+    {"word": "lomo", "type": "n.m.", "en": "spine (of a book)", "note": "Abrir el libro por el lomo.", "example": {"es": "Abre el libro por el lomo.", "en": "Open the book by the spine."}},
+    {"word": "ficha", "type": "n.f.", "en": "index card", "note": "La ficha del catálogo.", "example": {"es": "Prepara las fichas una por una.", "en": "She prepares the cards one by one."}},
+    {"word": "tomo", "type": "n.m.", "en": "volume, tome", "note": "Un libro en varios tomos.", "example": {"es": "Ponen los tomos uno por uno.", "en": "They set the volumes one by one."}},
+    {"word": "encuadernación", "type": "n.f.", "en": "binding", "note": "La cubierta dura del libro.", "example": {"es": "Una encuadernación casi negra.", "en": "An almost-black binding."}},
+    {"word": "dedicatoria", "type": "n.f.", "en": "dedication (inscription)", "note": "«Para mi hija»: alguien dedica el libro.", "example": {"es": "Busca la dedicatoria.", "en": "Look for the dedication."}},
+    {"word": "consigna", "type": "n.f.", "en": "left-luggage office", "note": "En la estación.", "example": {"es": "Dejan los libros en la consigna.", "en": "They leave the books at the left-luggage."}},
+    {"word": "campanada", "type": "n.f.", "en": "stroke (of a bell)", "note": "Las campanadas del reloj.", "example": {"es": "Suenan las campanadas.", "en": "The bell strokes ring out."}},
+    {"word": "timbre", "type": "n.m.", "en": "(door)bell", "note": "El timbre de la puerta.", "example": {"es": "Suena el timbre tres veces.", "en": "The bell rings three times."}},
+    {"word": "carnet", "type": "n.m.", "en": "membership card", "note": "El carnet azul del lector.", "example": {"es": "Escribe el primer carnet.", "en": "She writes out the first card."}},
+    {"word": "vencimiento", "type": "n.m.", "en": "due date, expiry", "note": "De vencer. Veinte días.", "example": {"es": "Cada libro tiene un vencimiento.", "en": "Every book has a due date."}},
+    {"word": "catálogo", "type": "n.m.", "en": "catalogue", "note": "Las fichas, una por una.", "example": {"es": "Prepara el catálogo.", "en": "He prepares the catalogue."}},
+    {"word": "madera", "type": "n.f.", "en": "wood", "note": "La madera cruje (L85).", "example": {"es": "La alegría cruje como la madera.", "en": "Joy creaks like wood."}},
+    {"word": "perdido", "type": "adj.", "en": "lost", "note": "Trenes perdidos → encontrados.", "example": {"es": "Ya no espera trenes perdidos.", "en": "It no longer waits for lost trains."}},
+    {"word": "estilo indirecto libre", "type": "phr.", "en": "free indirect style", "note": "(advanced) La voz de L85.", "ext": true, "example": {"es": "Ya era lo mismo: estilo indirecto libre.", "en": "It was already the same: free indirect style."}},
+    {"word": "epílogo", "type": "n.m.", "en": "epilogue", "note": "El final después del final.", "ext": true, "example": {"es": "Este es el epílogo.", "en": "This is the epilogue."}},
+    {"word": "colofón", "type": "n.m.", "en": "colophon; finishing touch", "note": "(advanced) La nota final; también = broche.", "ext": true, "example": {"es": "La biblioteca fue el colofón.", "en": "The library was the finishing touch."}},
+    {"word": "exlibris", "type": "n.m.", "en": "ex-libris, bookplate", "note": "Del latín: de entre los libros.", "ext": true, "example": {"es": "Cada tomo lleva su exlibris.", "en": "Every volume bears its bookplate."}}
+  ]
+}

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 74 — Economy, migration & inequality</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-73.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 74 — ECONOMY, MIGRATION &amp; INEQUALITY</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read about the real economy: the <strong>informal market</strong>, the <strong>tanda</strong>, the <strong>fiado</strong> notebook.</li>
+      <li>Follow two migration routes: the <strong>Darién</strong> jungle and the <strong>patera</strong> to the Canary Islands.</li>
+      <li>Learn money-and-border words: <span class="es">precariedad, inflación, deportación, coyote, trocha, valla</span>.</li>
+      <li>Use trend grammar: <span class="es">seguir + gerundio, llevar + gerundio</span> for things that keep rising.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">informalidad, precariedad, desempleo, subempleo, inflación, austeridad, subsidio, microcrédito, cooperativa, cuentapropista, changa, jornalero, maquila, olla común, comedor popular, merendero, asentamiento, villa miseria, chabolismo, fuga de capitales, lavado de dinero, paraíso fiscal, tanda, fiado, caravana, muro, deportación, deportado, redada, centro de detención, coyote, pollero, trocha, Darién, tapón del Darién, patera, cayuco, valla, pedir asilo, paso fronterizo</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">efecto llamada, fuga de cerebros, dólar blue, coyotaje</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (THE MARKET, THE JUNGLE, THE SEA)</h2>
+<p><strong>Context:</strong> In much of Latin America most jobs are informal: no contract, no payslip. And when money runs out, people move — north through the jungle, or east across the sea. Three scenes, one story.</p>
+<p class="lead">(Bold words are in the vocabulary table. The English is only a check.)</p>
+
+<div class="phrase">
+  <p class="es">En el mercado de La Parada, en Lima, doña Rosa vende fruta sin contrato ni boleta: pura <b>informalidad</b>.</p>
+  <p class="en">In La Parada market, in Lima, doña Rosa sells fruit with no contract or receipt: pure informality.</p>
+</div>
+<div class="phrase">
+  <p class="es">Es <b>cuentapropista</b>: trabaja por su cuenta, y cuando no hay venta, hace <b>changas</b> donde salgan.</p>
+  <p class="en">She is self-employed: she works for herself, and when there is no sale, she picks up odd jobs wherever they come up.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>desempleo</b> baja en las estadísticas, pero el <b>subempleo</b> no: millones viven en la <b>precariedad</b>.</p>
+  <p class="en">Unemployment falls in the statistics, but underemployment doesn't: millions live in precariousness.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>inflación</b> <b>sigue subiendo</b>: el aceite que costaba 10 cuesta 15, y el cuaderno del <b>fiado</b> engorda.</p>
+  <p class="en">Inflation keeps rising: the oil that cost 10 costs 15, and the tick notebook grows fat.</p>
+</div>
+<div class="phrase">
+  <p class="es">Doña Rosa ahorra en una <b>tanda</b> con diez vecinas: cada mes una se lleva todo el pozo.</p>
+  <p class="en">Doña Rosa saves in a rotating fund with ten neighbours: each month one takes the whole pot.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su hijo pidió un <b>microcrédito</b> a una <b>cooperativa</b>; el banco le había pedido garantías imposibles.</p>
+  <p class="en">Her son asked a cooperative for a microloan; the bank had asked him for impossible guarantees.</p>
+</div>
+<div class="phrase">
+  <p class="es">En el barrio hay <b>olla común</b> los domingos y <b>comedor popular</b> entre semana; el <b>merendero</b> alimenta a los niños.</p>
+  <p class="en">In the neighbourhood there is a communal pot on Sundays and a people's canteen on weekdays; the snack centre feeds the children.</p>
+</div>
+<div class="phrase">
+  <p class="es">Muchas familias llegaron del campo a un <b>asentamiento</b>: en Argentina lo llaman <b>villa miseria</b>, en España, <b>chabolismo</b>.</p>
+  <p class="en">Many families arrived from the countryside to an informal settlement: in Argentina they call it villa miseria, in Spain, shantytowns.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>jornaleros</b> del campo y las obreras de la <b>maquila</b> <b>llevan años encadenando</b> contratos de días.</p>
+  <p class="en">Farm day-labourers and maquila factory women have spent years chaining together day-long contracts.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mientras tanto, la <b>fuga de capitales</b> <b>sigue vaciando</b> el país: el <b>lavado de dinero</b> pasa por un <b>paraíso fiscal</b>.</p>
+  <p class="en">Meanwhile, capital flight keeps draining the country: money laundering passes through a tax haven.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>austeridad</b> recortó el <b>subsidio</b> del transporte; el pasaje subió y el sueldo no.</p>
+  <p class="en">Austerity cut the transport subsidy; the fare went up and the wage didn't.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por eso cada año sale una <b>caravana</b> hacia el norte: miles cruzan el <b>tapón del Darién</b>, la selva entre Colombia y Panamá.</p>
+  <p class="en">That is why a caravan leaves north every year: thousands cross the Darién Gap, the jungle between Colombia and Panama.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>trocha</b> es de barro y ríos crecidos; los guías cobran miles, y al <b>coyote</b> mexicano lo llaman <b>pollero</b>.</p>
+  <p class="en">The trail is mud and swollen rivers; the guides charge thousands, and the Mexican coyote is called pollero.</p>
+</div>
+<div class="phrase">
+  <p class="es">Quien llega al <b>muro</b> puede <b>pedir asilo</b> en un <b>paso fronterizo</b>… o esperar una <b>redada</b> y acabar en un <b>centro de detención</b>.</p>
+  <p class="en">Whoever reaches the wall can claim asylum at a border crossing… or await a raid and end up in a detention centre.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>deportado</b> vuelve sin nada: la <b>deportación</b> lo deja en la frontera con lo puesto.</p>
+  <p class="en">The deportee returns with nothing: deportation leaves him at the border with only the clothes on his back.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al otro lado del Atlántico, la ruta es el mar: una <b>patera</b> —o un <b>cayuco</b> grande— sale de Senegal rumbo a Canarias.</p>
+  <p class="en">On the other side of the Atlantic, the route is the sea: a small patera boat — or a big cayuco — leaves Senegal for the Canaries.</p>
+</div>
+<div class="phrase">
+  <p class="es">En Ceuta y Melilla está la <b>valla</b>: seis metros de concertinas que separan dos continentes.</p>
+  <p class="en">In Ceuta and Melilla stands the fence: six metres of barbed wire separating two continents.</p>
+</div>
+<div class="phrase">
+  <p class="es">Del mercado a la selva y al mar: la <b>precariedad</b> expulsa, la <b>caravana</b> camina, y la <b>tanda</b> resiste.</p>
+  <p class="en">From the market to the jungle to the sea: precariousness expels, the caravan walks, and the tanda endures.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (read only):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">efecto llamada</span></td><td data-label="Type">phr.</td><td data-label="English">pull effect</td><td data-label="Notes">La idea de que ayudar atrae a más migrantes. Muy debatida.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fuga de cerebros</span></td><td data-label="Type">phr.</td><td data-label="English">brain drain</td><td data-label="Notes">Médicos e ingenieros que emigran.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dólar blue</span></td><td data-label="Type">phr.</td><td data-label="English">blue dollar (parallel rate)</td><td data-label="Notes">Argentina: el dólar paralelo, fuera del banco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">coyotaje</span></td><td data-label="Type">n.m.</td><td data-label="English">people-smuggling business</td><td data-label="Notes">El negocio del coyote. Ilegal y peligroso.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> one chain links everything — <span class="es">inflación → fiado → tanda → caravana → trocha → muro / valla</span>. The market notebook and the jungle trail belong to the same story.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Trends that never stop: seguir / llevar + gerundio</h3>
+<p>Economic Spanish lives on two periphrases: <span class="es">seguir + gerundio</span> (it keeps happening) and <span class="es">llevar + time + gerundio</span> (it has been happening for…). Both take the gerund, never the infinitive.</p>
+<ul>
+  <li class="ex"><span class="es">La inflación <b>sigue subiendo</b> mes a mes.</span><span class="en">Inflation keeps rising month by month.</span></li>
+  <li class="ex"><span class="es">La fuga de capitales <b>sigue vaciando</b> el país.</span><span class="en">Capital flight keeps draining the country.</span></li>
+  <li class="ex"><span class="es"><b>Llevan años encadenando</b> contratos de días.</span><span class="en">They have spent years chaining together day-long contracts.</span></li>
+  <li class="ex"><span class="es"><b>Llevo meses pagando</b> el microcrédito gota a gota.</span><span class="en">I have spent months paying off the microloan drop by drop.</span></li>
+</ul>
+<div class="formula">seguir + gerundio = keeps …-ing · llevar + tiempo + gerundio = have been …-ing for …</div>
+
+<h3>2.2. Reported voices: dijo que, contó que</h3>
+<p>Migration stories are told through others: <span class="es">dijo que, contó que, explicó que</span> + backshift (present → imperfect, <span class="es">voy → iba</span>). The frame carries the testimony.</p>
+<ul>
+  <li class="ex"><span class="es">El deportado <b>contó que</b> lo dejaron en la frontera con lo puesto.</span><span class="en">The deportee told how they left him at the border with only his clothes.</span></li>
+  <li class="ex"><span class="es">Doña Rosa <b>dijo que</b> la tanda era su único banco.</span><span class="en">Doña Rosa said the tanda was her only bank.</span></li>
+  <li class="ex"><span class="es"><b>Explicó que</b> el coyote cobraba miles por la trocha.</span><span class="en">She explained that the coyote charged thousands for the trail.</span></li>
+</ul>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">informalidad</span></td><td data-label="Type">n.f.</td><td data-label="English">informality (no contract)</td><td data-label="Notes">Sin contrato ni boleta. La mayoría trabaja así.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">precariedad</span></td><td data-label="Type">n.f.</td><td data-label="English">precariousness</td><td data-label="Notes">Vivir en la precariedad. Trabajo precario.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desempleo</span></td><td data-label="Type">n.m.</td><td data-label="English">unemployment</td><td data-label="Notes">El desempleo baja, el subempleo no.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">subempleo</span></td><td data-label="Type">n.m.</td><td data-label="English">underemployment</td><td data-label="Notes">Trabajar poco o por debajo del nivel.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inflación</span></td><td data-label="Type">n.f.</td><td data-label="English">inflation</td><td data-label="Notes">La inflación sigue subiendo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">austeridad</span></td><td data-label="Type">n.f.</td><td data-label="English">austerity</td><td data-label="Notes">La austeridad recortó el subsidio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">subsidio</span></td><td data-label="Type">n.m.</td><td data-label="English">subsidy</td><td data-label="Notes">Subsidio del transporte. Con tilde en la i.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">microcrédito</span></td><td data-label="Type">n.m.</td><td data-label="English">microloan</td><td data-label="Notes">Préstamo pequeño de una cooperativa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cooperativa</span></td><td data-label="Type">n.f.</td><td data-label="English">cooperative</td><td data-label="Notes">El banco de los pobres, a veces.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cuentapropista</span></td><td data-label="Type">n.m./f.</td><td data-label="English">self-employed person</td><td data-label="Notes">Cuba y Cono Sur: trabaja por su cuenta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">changa</span></td><td data-label="Type">n.f.</td><td data-label="English">odd job</td><td data-label="Notes">Río de la Plata: changas donde salgan.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">jornalero</span></td><td data-label="Type">n.m.</td><td data-label="English">day labourer</td><td data-label="Notes">Cobra por jornal (día de trabajo).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">maquila</span></td><td data-label="Type">n.f.</td><td data-label="English">maquila (assembly factory)</td><td data-label="Notes">México y Centroamérica: fábrica de ensamblaje.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">olla común</span></td><td data-label="Type">phr.</td><td data-label="English">communal cooking pot</td><td data-label="Notes">Los vecinos cocinan juntos para todos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comedor popular</span></td><td data-label="Type">phr.</td><td data-label="English">people's canteen</td><td data-label="Notes">Come quien lo necesita, casi gratis.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">merendero</span></td><td data-label="Type">n.m.</td><td data-label="English">community snack centre</td><td data-label="Notes">Alimenta a los niños del barrio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">asentamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">informal settlement</td><td data-label="Notes">Barrio levantado sin permiso ni plano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">villa miseria</span></td><td data-label="Type">phr.</td><td data-label="English">shantytown (Argentina)</td><td data-label="Notes">Argentina: barrio precario. Las villas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">chabolismo</span></td><td data-label="Type">n.m.</td><td data-label="English">shantytowns (Spain)</td><td data-label="Notes">España: chabolas (casetas precarias).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fuga de capitales</span></td><td data-label="Type">phr.</td><td data-label="English">capital flight</td><td data-label="Notes">El dinero rico se va fuera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lavado de dinero</span></td><td data-label="Type">phr.</td><td data-label="English">money laundering</td><td data-label="Notes">Blanquear: hacer legal lo ilegal. Lavar dinero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">paraíso fiscal</span></td><td data-label="Type">phr.</td><td data-label="English">tax haven</td><td data-label="Notes">Donde el dinero se esconde sin impuestos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tanda</span></td><td data-label="Type">n.f.</td><td data-label="English">rotating savings fund</td><td data-label="Notes">México y Perú: cada mes una se lleva el pozo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fiado</span></td><td data-label="Type">n.m.</td><td data-label="English">tick, buying on credit</td><td data-label="Notes">El cuaderno del fiado: «me lo apuntas».</td></tr>
+    <tr><td data-label="Spanish"><span class="es">caravana</span></td><td data-label="Type">n.f.</td><td data-label="English">caravan (of migrants)</td><td data-label="Notes">Miles caminan juntos al norte.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">muro</span></td><td data-label="Type">n.m.</td><td data-label="English">wall</td><td data-label="Notes">El muro fronterizo. Llegar al muro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">deportación</span></td><td data-label="Type">n.f.</td><td data-label="English">deportation</td><td data-label="Notes">La deportación lo deja en la frontera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">deportado</span></td><td data-label="Type">n.m.</td><td data-label="English">deportee</td><td data-label="Notes">El deportado vuelve sin nada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">redada</span></td><td data-label="Type">n.f.</td><td data-label="English">raid</td><td data-label="Notes">Redada policial/migratoria. Caer en una redada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">centro de detención</span></td><td data-label="Type">phr.</td><td data-label="English">detention centre</td><td data-label="Notes">Encierro para migrantes sin papeles.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">coyote</span></td><td data-label="Type">n.m.</td><td data-label="English">coyote (smuggler)</td><td data-label="Notes">Cruza migrantes por dinero. Peligroso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pollero</span></td><td data-label="Type">n.m.</td><td data-label="English">pollero (Mexican smuggler)</td><td data-label="Notes">México: el coyote local. «Pollos» = migrantes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trocha</span></td><td data-label="Type">n.f.</td><td data-label="English">trail, jungle path</td><td data-label="Notes">La trocha es de barro y ríos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">Darién</span></td><td data-label="Type">n.m.</td><td data-label="English">Darién (jungle region)</td><td data-label="Notes">Selva entre Colombia y Panamá.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tapón del Darién</span></td><td data-label="Type">phr.</td><td data-label="English">Darién Gap</td><td data-label="Notes">El tramo sin carretera: solo selva.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">patera</span></td><td data-label="Type">n.f.</td><td data-label="English">small migrant boat</td><td data-label="Notes">España: barca precaria hacia Canarias o el Estrecho.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cayuco</span></td><td data-label="Type">n.m.</td><td data-label="English">large wooden migrant boat</td><td data-label="Notes">De Senegal a Canarias: días de mar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">valla</span></td><td data-label="Type">n.f.</td><td data-label="English">fence (border)</td><td data-label="Notes">La valla de Ceuta y Melilla.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pedir asilo</span></td><td data-label="Type">phr.</td><td data-label="English">to claim asylum</td><td data-label="Notes">Pedir protección en un paso fronterizo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">paso fronterizo</span></td><td data-label="Type">phr.</td><td data-label="English">border crossing</td><td data-label="Notes">El punto legal para cruzar.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences to read once. No need to memorize.</p>
+
+<h3>1. The market:</h3>
+<div class="phrase">
+  <p class="es">La informalidad es la norma y la tanda es el banco.</p>
+  <p class="en">Informality is the norm and the tanda is the bank.</p>
+</div>
+<h3>2. The trend:</h3>
+<div class="phrase">
+  <p class="es">La inflación sigue subiendo y el fiado engorda.</p>
+  <p class="en">Inflation keeps rising and the tick notebook grows.</p>
+</div>
+<h3>3. The trail:</h3>
+<div class="phrase">
+  <p class="es">La caravana cruza el tapón del Darién trocha a trocha.</p>
+  <p class="en">The caravan crosses the Darién Gap trail by trail.</p>
+</div>
+<h3>4. The wall:</h3>
+<div class="phrase">
+  <p class="es">Quien llega al muro puede pedir asilo.</p>
+  <p class="en">Whoever reaches the wall can claim asylum.</p>
+</div>
+<h3>5. The sea:</h3>
+<div class="phrase">
+  <p class="es">El cayuco sale de noche rumbo a Canarias.</p>
+  <p class="en">The cayuco leaves at night bound for the Canaries.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> read the five slowly once. They carry the whole lesson.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two neighbours, Marisol and Yésica, chat at the Lima market stall.</p>
+
+<div class="phrase">
+  <p class="es">Marisol: La inflación sigue subiendo, casera. ¿Me lo apuntas en el fiado?</p>
+  <p class="en">Marisol: Inflation keeps rising, love. Put it on my tick?</p>
+</div>
+<div class="phrase">
+  <p class="es">Yésica: Claro. Dijo el del puesto que el aceite sube otra vez mañana.</p>
+  <p class="en">Yésica: Of course. The stall guy said the oil goes up again tomorrow.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marisol: Llevo meses haciendo changas y no alcanza. Mi primo se fue en la caravana.</p>
+  <p class="en">Marisol: I've spent months doing odd jobs and it's not enough. My cousin left with the caravan.</p>
+</div>
+<div class="phrase">
+  <p class="es">Yésica: Contó su hermana que cruzaron el Darién en seis días de trocha.</p>
+  <p class="en">Yésica: His sister told how they crossed the Darién in six days of trail.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marisol: ¿Y si lo agarran? La deportación lo deja sin nada.</p>
+  <p class="en">Marisol: And if they catch him? Deportation leaves him with nothing.</p>
+</div>
+<div class="phrase">
+  <p class="es">Yésica: Por eso ahorramos en la tanda: para que al menos una salga adelante.</p>
+  <p class="en">Yésica: That's why we save in the tanda: so at least one of us gets ahead.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>casera</strong> (n.f., familiar address for a market woman — «casera, ¿me lo apuntas?») appears once for local colour. Everything else is from today's table.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Money words:</strong> <span class="es">informalidad, precariedad, inflación, tanda, fiado, microcrédito, fuga de capitales</span> — how money really moves.</li>
+  <li><strong>Border words:</strong> <span class="es">caravana, trocha, Darién, coyote, muro, valla, patera, cayuco, deportación</span> — two routes, one hope.</li>
+  <li><strong>Trend grammar:</strong> <span class="es">seguir + gerundio</span> (keeps rising) and <span class="es">llevar + tiempo + gerundio</span> (have been doing for…).</li>
+</ul>
+
+<h3>5.2. Further reading — el cayuco de la madrugada</h3>
+<p><strong>Context:</strong> Dawn in the Canary Islands. A rescue boat approaches. Read quietly:</p>
+<div class="phrase">
+  <p class="es">El <b>cayuco</b> llegó de madrugada con sesenta personas y un solo bidón de agua.</p>
+  <p class="en">The cayuco arrived at dawn with sixty people and a single water can.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Llevaban</b> nueve días navegando; la <b>valla</b> del mar —las olas— casi los traga.</p>
+  <p class="en">They had spent nine days sailing; the sea's fence — the waves — almost swallowed them.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los voluntarios explicaron que podían <b>pedir asilo</b> en el <b>paso fronterizo</b> del puerto.</p>
+  <p class="en">Volunteers explained they could claim asylum at the port's border post.</p>
+</div>
+<div class="phrase">
+  <p class="es">Uno contó que había vendido su <b>changa</b> del taller para pagar el viaje.</p>
+  <p class="en">One told how he had sold his odd-job tools to pay for the trip.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>precariedad</b> los expulsó; la <b>cooperativa</b> del puerto les dio la primera comida caliente.</p>
+  <p class="en">Precariousness expelled them; the port cooperative gave them their first hot meal.</p>
+</div>
+
+<p class="lead"><em>All words are from today's table — <strong>cayuco</strong>, <strong>valla</strong> and <strong>pedir asilo</strong> appear here for the first time in context.</em></p>
+
+<hr>
+<p><strong>End of Lesson 74.</strong> Next, <strong>Lesson 75</strong>: climate and environment — from the melting Andes to the lithium flats. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-75.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

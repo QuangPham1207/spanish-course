@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 60 — The many values of se</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-59.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 60 — THE MANY VALUES OF <span class="es">SE</span></h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Tell apart reflexive <span class="es">se</span> (<span class="es">se sienta</span>) and reciprocal <span class="es">se</span> (<span class="es">se saludan, se pelean</span>).</li>
+      <li>Read passive <span class="es">se</span> (<span class="es">se alquila, se venden</span>) and impersonal <span class="es">se</span> (<span class="es">se vive bien</span>).</li>
+      <li>Master accidental <span class="es">se</span> (<span class="es">se me cayeron las llaves</span>) and aspectual <span class="es">se</span> (<span class="es">se comió todo, se durmió</span>).</li>
+      <li>Read about one week in an apartment building where nobody escapes <span class="es">se</span>.</li>
+      <li>Pick up words: <span class="es">vecindad, rellano, zaguán, tendedero, derrama, conserje, trastero</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">vecino, vecindad, portero, escalera, ascensor, rellano, conserje, cuota, avería, fontanero, cerrajero, inquilino, casero, trastero, zaguán, tendedero, derrama, llave, quejarse, sentarse, saludarse, pelearse, escribirse, alquilarse, venderse, caerse, romperse, perderse, comerse, beberse, dormirse, acordarse, olvidarse, mirarse, cortarse</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">consorcio, moroso, felpudo, reja</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (UNA SEMANA EN LA VECINDAD)</h2>
+<p><strong>Context:</strong> A week in an old apartment building in Mexico City. Almost every sentence hides a different <span class="es">se</span> — reflexive, reciprocal, passive, impersonal, accidental or aspectual. Read each line; the English below it is only a check.</p>
+<p class="lead">(One tiny word, six jobs. By the end of this text you will have met them all.)</p>
+
+<div class="phrase">
+  <p class="es">En nuestra <b>vecindad</b> viven cuarenta <b>vecinos</b> en tres <b>escaleras</b>, y aquí todo el mundo se conoce por su nombre.</p>
+  <p class="en">In our apartment block live forty neighbours across three stairwells, and here everyone knows each other by name.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por la mañana, el <b>portero</b> abre el <b>zaguán</b> a las siete, sube en el <b>ascensor</b> hasta la azotea y baja andando para ver cada <b>rellano</b>.</p>
+  <p class="en">In the morning, the doorman opens the entrance hall at seven, rides the lift up to the roof terrace and walks down to check each landing.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>inquilinos</b> del tercero se <b>saludan</b> todos los días en el rellano, mientras el <b>casero</b> solo viene cuando hay que pagar la <b>cuota</b>.</p>
+  <p class="en">The tenants on the third floor greet each other every day on the landing, while the landlord only shows up when the monthly fee is due.</p>
+</div>
+<div class="phrase">
+  <p class="es">Se <b>alquila</b> el piso pequeño del primero, y ayer lo dijo el portero en la escalera, y todos los vecinos ya lo saben.</p>
+  <p class="en">The small flat on the first floor is for rent — the doorman said so yesterday on the stairs, and all the neighbours already know.</p>
+</div>
+<div class="phrase">
+  <p class="es">En el quinto se <b>venden</b> dos <b>trasteros</b> llenos de cosas viejas, porque la familia ya vive en otra ciudad.</p>
+  <p class="en">On the fifth floor two storage rooms full of old things are for sale, because the family already lives in another city.</p>
+</div>
+<div class="phrase">
+  <p class="es">En esta casa se vive bien: a las diez de la noche se apaga la luz de la escalera y nadie hace ruido.</p>
+  <p class="en">Life is good in this building: at ten at night the stairwell light goes off and nobody makes noise.</p>
+</div>
+<div class="phrase">
+  <p class="es">El lunes salió una gotera en el segundo, y el <b>fontanero</b> vino dos días después a ver la <b>avería</b>.</p>
+  <p class="en">On Monday a leak appeared on the second floor, and the plumber came two days later to look at the breakdown.</p>
+</div>
+<div class="phrase">
+  <p class="es">A la vecina del cuarto se le <b>cayeron</b> las <b>llaves</b> dentro del ascensor, y hubo que llamar al <b>cerrajero</b>.</p>
+  <p class="en">The neighbour on the fourth floor dropped her keys inside the lift (the keys fell on her), and they had to call the locksmith.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al niño del primero se le <b>perdió</b> la llave de la azotea, y su madre dice que siempre se le pierde todo.</p>
+  <p class="en">The boy on the first floor lost the roof-terrace key (it got lost on him), and his mother says everything always gets lost on him.</p>
+</div>
+<div class="phrase">
+  <p class="es">A mí se me <b>olvidaron</b> las llaves dentro de casa, y el <b>conserje</b> me abrió la puerta con su llave.</p>
+  <p class="en">I forgot my keys inside the house (they slipped my mind), and the caretaker opened the door for me with his key.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi vecino dice que nunca se le olvida nada, pero ayer se <b>acordó</b> del pan cuando las tiendas ya estaban cerradas.</p>
+  <p class="en">My neighbour says he never forgets anything, but yesterday he remembered the bread only when the shops were already closed.</p>
+</div>
+<div class="phrase">
+  <p class="es">Las dos hermanas del sexto se <b>pelean</b> cada semana por el <b>tendedero</b> de la azotea: las dos quieren usarlo a la misma hora.</p>
+  <p class="en">The two sisters on the sixth floor fight each other every week over the roof-terrace clothesline: both want to use it at the same time.</p>
+</div>
+<div class="phrase">
+  <p class="es">En cambio, los abuelos del bajo se <b>miran</b> y se <b>sientan</b> cada tarde en el zaguán a hablar con la gente.</p>
+  <p class="en">The grandparents on the ground floor, on the other hand, look at each other and sit down every afternoon in the entrance hall to chat with people.</p>
+</div>
+<div class="phrase">
+  <p class="es">El domingo el conserje se <b>durmió</b> después de comer y nadie pudo entrar en casa hasta las tres de la tarde.</p>
+  <p class="en">On Sunday the caretaker fell asleep after lunch and nobody could get into the building until three in the afternoon.</p>
+</div>
+<div class="phrase">
+  <p class="es">En la fiesta del barrio, la vecina del segundo se <b>comió</b> tres platos de paella y se <b>bebió</b> todo el vino de la mesa.</p>
+  <p class="en">At the neighbourhood party, the neighbour from the second floor ate up three plates of paella and drank up all the wine on the table.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los vecinos se <b>quejan</b> de la <b>derrama</b> de este año, porque la cuota de cada familia es más alta.</p>
+  <p class="en">The neighbours are complaining about this year's special building levy, because each family's fee is higher.</p>
+</div>
+<div class="phrase">
+  <p class="es">A la niña del segundo se le <b>rompió</b> un plato en la escalera, y su hermano se <b>cortó</b> la mano.</p>
+  <p class="en">The little girl on the second floor broke a plate on the stairs (it broke on her), and her brother cut his hand.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por las noches, los jóvenes del edificio se <b>escriben</b> para bajar a la calle, y así nadie se siente solo en esta vecindad.</p>
+  <p class="en">At night, the young people in the building write to each other to go down to the street, so nobody feels alone in this block.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">consorcio</span></td><td data-label="Type">n.m.</td><td data-label="English">building association</td><td data-label="Notes">El consorcio se reúne cada mes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">moroso</span></td><td data-label="Type">n.m./adj.</td><td data-label="English">defaulter, late payer</td><td data-label="Notes">El moroso del quinto debe tres cuotas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">felpudo</span></td><td data-label="Type">n.m.</td><td data-label="English">doormat</td><td data-label="Notes">Límpiate los pies en el felpudo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reja</span></td><td data-label="Type">n.f.</td><td data-label="English">grille, iron gate</td><td data-label="Notes">Quieren poner otra reja en el zaguán.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> count the jobs — <span class="es">se conocen, se saludan, se pelean, se miran, se escriben</span> (each other), <span class="es">se alquila, se venden, se vive, se apaga</span> (nobody in particular), <span class="es">se le cayeron, se le perdió, se me olvidaron, se le rompió</span> (accidents), <span class="es">se sientan, se durmió, se comió, se bebió, se acordó, se cortó</span> (to oneself / completely).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Reflexive <span class="es">se</span> and reciprocal <span class="es">se</span>: to oneself vs each other</h3>
+<p>Reflexive <span class="es">se</span> means the subject acts on itself (<span class="es">ella se sienta</span> — she sits herself down). Reciprocal <span class="es">se</span> needs a plural subject and means "each other" — the same form, but two people acting on each other.</p>
+<div class="formula">Reflexive (one person): <b>sentarse</b>, <b>dormirse</b> — ella se sienta · Reciprocal (two or more): <b>saludarse</b>, <b>pelearse</b> — ellas se saludan</div>
+<ul>
+  <li class="ex"><span class="es">Los abuelos se <b>sientan</b> en el <b>zaguán</b>.</span><span class="en">The grandparents sit down in the entrance hall. (reflexive)</span></li>
+  <li class="ex"><span class="es">El conserje se <b>durmió</b> después de comer.</span><span class="en">The caretaker fell asleep after lunch. (reflexive: change of state)</span></li>
+  <li class="ex"><span class="es">Se <b>saludan</b> en el <b>rellano</b>.</span><span class="en">They greet each other on the landing. (reciprocal)</span></li>
+  <li class="ex"><span class="es">Se <b>pelean</b> por el <b>tendedero</b>.</span><span class="en">They fight each other over the clothesline. (reciprocal)</span></li>
+  <li class="ex"><span class="es">Se <b>miran</b> y se <b>sientan</b> a hablar.</span><span class="en">They look at each other and sit down to chat. (both in one line)</span></li>
+</ul>
+
+<h3>2.2. Passive <span class="es">se</span> and impersonal <span class="es">se</span>: nobody in particular</h3>
+<p>Passive <span class="es">se</span> hides the agent: the verb agrees with the thing (<span class="es">se venden trasteros</span> — storage rooms are for sale). Impersonal <span class="es">se</span> has no subject at all and always stays singular (<span class="es">se vive bien</span> — life is good / one lives well).</p>
+<div class="formula">Passive: verb agrees with the thing (<b>venderse</b> → se venden trasteros) · Impersonal: always 3rd singular (<b>alquilarse</b> → se alquila el piso; se vive bien)</div>
+<ul>
+  <li class="ex"><span class="es">Se <b>alquila</b> el piso del primero.</span><span class="en">The first-floor flat is for rent. (passive se, singular)</span></li>
+  <li class="ex"><span class="es">Se <b>venden</b> dos <b>trasteros</b>.</span><span class="en">Two storage rooms are for sale. (passive se, plural)</span></li>
+  <li class="ex"><span class="es">Aquí se vive bien.</span><span class="en">Life is good here. (impersonal se — literally "one lives well")</span></li>
+  <li class="ex"><span class="es">En casa se habla español.</span><span class="en">Spanish is spoken at home. (impersonal se)</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> close friends in Spain say <span class="es">os veis</span> (you see each other), in Latin America <span class="es">se ven</span> — because <span class="es">ustedes</span> replaces <span class="es">vosotros</span>. All six values of <span class="es">se</span> in this lesson are identical in every country.</div>
+
+<h3>2.3. Accidental <span class="es">se</span> and aspectual <span class="es">se</span>: oops vs all gone</h3>
+<p>Accidental <span class="es">se</span> apologizes for you: <span class="es">se</span> + <span class="es">me/te/le…</span> + a verb that agrees with the thing lost or broken (<span class="es">se me cayeron las llaves</span> — it wasn't my fault!). Aspectual <span class="es">se</span> eats the whole thing: it adds "completely, up" (<span class="es">se comió todo, se bebió todo, se durmió</span>).</p>
+<div class="formula">Accident: se + me/te/le… + verb agreeing with the thing (<b>caerse</b>, <b>olvidarse</b>, <b>romperse</b>, <b>perderse</b>) · Totality: verb + se (<b>comerse</b>, <b>beberse</b>, <b>dormirse</b>)</div>
+<ul>
+  <li class="ex"><span class="es">Se me <b>cayeron</b> las <b>llaves</b>.</span><span class="en">I dropped my keys. (literally "the keys fell on me")</span></li>
+  <li class="ex"><span class="es">Se le <b>rompió</b> un plato.</span><span class="en">She broke a plate. (literally "a plate broke on her")</span></li>
+  <li class="ex"><span class="es">Se <b>comió</b> tres platos de paella.</span><span class="en">She ate up three plates of paella. (aspectual: completely)</span></li>
+  <li class="ex"><span class="es">Se <b>bebió</b> todo el vino.</span><span class="en">He drank up all the wine. (aspectual: totally)</span></li>
+  <li class="ex"><span class="es">Ayer se <b>acordó</b> del pan.</span><span class="en">Yesterday he remembered the bread. (acordarse: memory "comes back")</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistakes:</strong> <span class="es">se venden pisos</span> means "flats are for sale" — not "the flats sell themselves". And never drop the dative in accidents: <span class="es">se me cayeron</span> (my keys, poor me), not <span class="es">se cayeron</span> (they just fell).</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">vecino</span></td><td data-label="Type">n.m./f.</td><td data-label="English">neighbour</td><td data-label="Notes">Los vecinos se quejan de la derrama.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vecindad</span></td><td data-label="Type">n.f.</td><td data-label="English">apartment block, tenement</td><td data-label="Notes">Mexico: en nuestra vecindad. Neutral synonym: edificio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">portero</span></td><td data-label="Type">n.m./f.</td><td data-label="English">doorman, caretaker</td><td data-label="Notes">Abre el zaguán a las siete.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escalera</span></td><td data-label="Type">n.f.</td><td data-label="English">stairs, stairwell</td><td data-label="Notes">Tres escaleras; se apaga la luz de la escalera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ascensor</span></td><td data-label="Type">n.m.</td><td data-label="English">lift, elevator</td><td data-label="Notes">Sube en el ascensor hasta la azotea.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rellano</span></td><td data-label="Type">n.m.</td><td data-label="English">landing (stairs)</td><td data-label="Notes">Se saludan en el rellano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">conserje</span></td><td data-label="Type">n.m./f.</td><td data-label="English">caretaker, janitor</td><td data-label="Notes">Me abrió la puerta con su llave.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cuota</span></td><td data-label="Type">n.f.</td><td data-label="English">fee, share, quota</td><td data-label="Notes">La cuota de cada familia es más alta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">avería</span></td><td data-label="Type">n.f.</td><td data-label="English">breakdown, fault</td><td data-label="Notes">Vino a ver la avería.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fontanero</span></td><td data-label="Type">n.m./f.</td><td data-label="English">plumber</td><td data-label="Notes">Spain: fontanero. LatAm also: plomero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cerrajero</span></td><td data-label="Type">n.m./f.</td><td data-label="English">locksmith</td><td data-label="Notes">Hubo que llamar al cerrajero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inquilino</span></td><td data-label="Type">n.m./f.</td><td data-label="English">tenant</td><td data-label="Notes">Los inquilinos del tercero se saludan.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">casero</span></td><td data-label="Type">n.m./f.</td><td data-label="English">landlord, landlady</td><td data-label="Notes">As adj.: homemade (comida casera).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trastero</span></td><td data-label="Type">n.m.</td><td data-label="English">storage room</td><td data-label="Notes">Se venden dos trasteros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">zaguán</span></td><td data-label="Type">n.m.</td><td data-label="English">entrance hall, vestibule</td><td data-label="Notes">Se sientan en el zaguán.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tendedero</span></td><td data-label="Type">n.m.</td><td data-label="English">clothesline, drying rack</td><td data-label="Notes">Se pelean por el tendedero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">derrama</span></td><td data-label="Type">n.f.</td><td data-label="English">special building levy</td><td data-label="Notes">Extra fee shared by neighbours.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">llave</span></td><td data-label="Type">n.f.</td><td data-label="English">key</td><td data-label="Notes">Se me olvidaron las llaves.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">quejarse</span></td><td data-label="Type">v.</td><td data-label="English">to complain</td><td data-label="Notes">Se quejan de la derrama.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sentarse</span></td><td data-label="Type">v.</td><td data-label="English">to sit down</td><td data-label="Notes">Reflexive: se sientan cada tarde.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">saludarse</span></td><td data-label="Type">v.</td><td data-label="English">to greet each other</td><td data-label="Notes">Reciprocal, plural: se saludan.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pelearse</span></td><td data-label="Type">v.</td><td data-label="English">to fight each other</td><td data-label="Notes">Reciprocal: se pelean cada semana.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escribirse</span></td><td data-label="Type">v.</td><td data-label="English">to write to each other</td><td data-label="Notes">Reciprocal: se escriben por las noches.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alquilarse</span></td><td data-label="Type">v.</td><td data-label="English">to be for rent (passive se)</td><td data-label="Notes">Se alquila el piso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">venderse</span></td><td data-label="Type">v.</td><td data-label="English">to be for sale (passive se)</td><td data-label="Notes">Se venden dos trasteros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">caerse</span></td><td data-label="Type">v.</td><td data-label="English">to fall, to drop (accidental se)</td><td data-label="Notes">Se me cayeron las llaves.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">romperse</span></td><td data-label="Type">v.</td><td data-label="English">to break (accidental se)</td><td data-label="Notes">Se le rompió un plato.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">perderse</span></td><td data-label="Type">v.</td><td data-label="English">to get lost (accidental se)</td><td data-label="Notes">Se le perdió la llave.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comerse</span></td><td data-label="Type">v.</td><td data-label="English">to eat up (aspectual se)</td><td data-label="Notes">Se comió tres platos: completely.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">beberse</span></td><td data-label="Type">v.</td><td data-label="English">to drink up (aspectual se)</td><td data-label="Notes">Se bebió todo el vino.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dormirse</span></td><td data-label="Type">v.</td><td data-label="English">to fall asleep</td><td data-label="Notes">Se durmió después de comer.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">acordarse</span></td><td data-label="Type">v.</td><td data-label="English">to remember</td><td data-label="Notes">Acordarse de algo: se acordó del pan.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">olvidarse</span></td><td data-label="Type">v.</td><td data-label="English">to forget</td><td data-label="Notes">Se me olvidaron las llaves.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mirarse</span></td><td data-label="Type">v.</td><td data-label="English">to look at each other</td><td data-label="Notes">Reciprocal: se miran con cariño.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cortarse</span></td><td data-label="Type">v.</td><td data-label="English">to cut oneself</td><td data-label="Notes">Se cortó la mano.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five <span class="es">se</span> sentences. Read them once; no need to memorize.</p>
+
+<h3>1. The for-rent sign:</h3>
+<div class="phrase">
+  <p class="es">Se alquila el piso del primero.</p>
+  <p class="en">The first-floor flat is for rent.</p>
+</div>
+<h3>2. The classic excuse:</h3>
+<div class="phrase">
+  <p class="es">Se me cayeron las llaves.</p>
+  <p class="en">I dropped my keys. (The keys fell on me.)</p>
+</div>
+<h3>3. All gone:</h3>
+<div class="phrase">
+  <p class="es">Se comió todo lo del plato.</p>
+  <p class="en">She ate up everything on her plate.</p>
+</div>
+<h3>4. Good neighbours:</h3>
+<div class="phrase">
+  <p class="es">Los vecinos se saludan todos los días.</p>
+  <p class="en">The neighbours greet each other every day.</p>
+</div>
+<h3>5. Life is good:</h3>
+<div class="phrase">
+  <p class="es">Aquí se vive muy bien.</p>
+  <p class="en">Life is very good here. (One lives very well here.)</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two neighbours meet on the stairs and talk about the late payer on the fifth floor.</p>
+
+<div class="phrase">
+  <p class="es">Marta: Buenos días. ¿Ya pagó la cuota el <b>moroso</b> del quinto?</p>
+  <p class="en">Marta: Morning. Has the late payer on the fifth paid his fee yet?</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: No. Dice que se le <b>olvidó</b> pagar.</p>
+  <p class="en">Luis: No. He says he forgot to pay. (Paying slipped his mind.)</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Siempre se le olvida todo. El lunes se le <b>cayeron</b> las llaves y llamó al <b>cerrajero</b>.</p>
+  <p class="en">Marta: He always forgets everything. On Monday he dropped his keys and called the locksmith.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Y ayer se <b>quejó</b> de la gotera, pero la <b>avería</b> está en su casa.</p>
+  <p class="en">Luis: And yesterday he complained about the leak — but the fault is inside his own flat.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Mira su <b>felpudo</b> nuevo: dice "aquí se vive bien".</p>
+  <p class="en">Marta: Look at his new doormat: it says "life is good here".</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Pues dile que se <b>siente</b> en el <b>zaguán</b> y hable con el <b>conserje</b>.</p>
+  <p class="en">Luis: Then tell him to sit down in the entrance hall and talk to the caretaker.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Esta tarde hablo con él en la <b>escalera</b>.</p>
+  <p class="en">Marta: I'll talk to him this afternoon on the stairs.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>moroso</strong> (late payer), <strong>felpudo</strong> (doormat) — both extension words from today's table.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Reflexive:</strong> <span class="es">se sientan, se durmió, se cortó</span> — the subject acts on itself.</li>
+  <li><strong>Reciprocal:</strong> <span class="es">se saludan, se pelean, se miran, se escriben</span> — plural subject, "each other".</li>
+  <li><strong>Passive &amp; impersonal:</strong> <span class="es">se alquila, se venden</span> (verb agrees with the thing) vs <span class="es">se vive bien</span> (always singular, no subject).</li>
+  <li><strong>Accidental:</strong> <span class="es">se me cayeron, se me olvidaron, se le perdió, se le rompió</span> — with <span class="es">me/te/le…</span>, nobody's fault.</li>
+  <li><strong>Aspectual:</strong> <span class="es">se comió, se bebió</span> — completely, all up.</li>
+</ul>
+
+<h3>5.2. Further reading — la reunión del consorcio</h3>
+<p><strong>Context:</strong> The building association meets to decide on a new gate. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">El <b>consorcio</b> se reúne el primer lunes de cada mes en el <b>zaguán</b>.</p>
+  <p class="en">The building association meets on the first Monday of every month in the entrance hall.</p>
+</div>
+<div class="phrase">
+  <p class="es">Quieren poner otra <b>reja</b> en la puerta de la <b>escalera</b>.</p>
+  <p class="en">They want to put another iron gate on the stairwell door.</p>
+</div>
+<div class="phrase">
+  <p class="es">Se piden ideas a todos los <b>vecinos</b> antes de decidir nada.</p>
+  <p class="en">Ideas are requested from all the neighbours before deciding anything.</p>
+</div>
+<div class="phrase">
+  <p class="es">Las <b>llaves</b> de la azotea las tiene el <b>conserje</b>.</p>
+  <p class="en">The caretaker holds the roof-terrace keys.</p>
+</div>
+<div class="phrase">
+  <p class="es">En esta <b>vecindad</b> todos se conocen, y nadie se <b>queja</b> dos veces de lo mismo.</p>
+  <p class="en">In this block everyone knows each other, and nobody complains twice about the same thing.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>consorcio</strong> (building association), <strong>reja</strong> (iron gate) — extension and core words from today's table.</em></p>
+
+<hr>
+<p><strong>End of Lesson 60.</strong> Next, <strong>Lesson 61</strong>: non-finite clauses — absolute participles, the infinitive as a noun, and gerund clauses. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-61.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

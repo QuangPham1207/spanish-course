@@ -1,0 +1,30 @@
+{
+  "lesson": 86,
+  "title": "Historical feature: the 1918 flu",
+  "words": [
+    {"word": "telegrama", "type": "n.m.", "en": "telegram", "note": "Dictó un telegrama urgente.", "example": {"es": "Dictó un telegrama a la capital.", "en": "He dictated a telegram to the capital."}},
+    {"word": "fallecer", "type": "v.", "en": "to pass away, die", "note": "Formal. Hoy han fallecido siete.", "example": {"es": "Hoy han fallecido siete personas.", "en": "Today seven people have died."}},
+    {"word": "neutralidad", "type": "n.f.", "en": "neutrality", "note": "España mantenía la neutralidad.", "example": {"es": "España mantenía la neutralidad.", "en": "Spain kept its neutrality."}},
+    {"word": "pabellón", "type": "n.m.", "en": "hospital ward, pavilion", "note": "El pabellón de infecciosos.", "example": {"es": "El pabellón seguía abarrotado.", "en": "The ward was still overcrowded."}},
+    {"word": "abarrotado", "type": "adj.", "en": "overcrowded, packed", "note": "Seguía abarrotado de enfermos.", "example": {"es": "El pabellón estaba abarrotado.", "en": "The ward was packed."}},
+    {"word": "entierro", "type": "n.m.", "en": "burial, funeral", "note": "En LatAm también velorio para la vigilia.", "example": {"es": "Los entierros se hacían de noche.", "en": "Burials were done at night."}},
+    {"word": "toser", "type": "v.", "en": "to cough", "note": "Llegaban tosiendo sin parar.", "example": {"es": "Se oía toser en el pasillo.", "en": "Coughing could be heard in the corridor."}},
+    {"word": "remitir", "type": "v.", "en": "to subside (fever)", "note": "La fiebre no remitía. También: enviar.", "example": {"es": "La fiebre no remitía en días.", "en": "The fever did not subside for days."}},
+    {"word": "provisional", "type": "adj.", "en": "makeshift, temporary", "note": "Camas provisionales en el puerto.", "example": {"es": "Prepararon camas provisionales.", "en": "They prepared makeshift beds."}},
+    {"word": "tinta", "type": "n.f.", "en": "ink", "note": "Escribió con tinta espesa.", "example": {"es": "Escribió con tinta espesa.", "en": "She wrote in thick ink."}},
+    {"word": "fosa", "type": "n.f.", "en": "pit, grave", "note": "Una fosa común: mass grave.", "example": {"es": "Se abrió una fosa común.", "en": "A mass grave was opened."}},
+    {"word": "aislar", "type": "v.", "en": "to isolate", "note": "Aislar a los pasajeros.", "example": {"es": "Hay que aislar a la tripulación.", "en": "The crew must be isolated."}},
+    {"word": "desinfectar", "type": "v.", "en": "to disinfect", "note": "Desinfectar el barco.", "example": {"es": "Desinfectaron cada camarote.", "en": "They disinfected every cabin."}},
+    {"word": "muelle", "type": "n.m.", "en": "pier, dock", "note": "Subió al muelle.", "example": {"es": "El doctor subió al muelle.", "en": "The doctor went to the dock."}},
+    {"word": "tripulación", "type": "n.f.", "en": "crew", "note": "La tripulación presentaba fiebre.", "example": {"es": "La tripulación tenía fiebre alta.", "en": "The crew had high fever."}},
+    {"word": "corresponsal", "type": "n.m./f.", "en": "correspondent", "note": "Un corresponsal en París.", "example": {"es": "Un corresponsal lo explicó así.", "en": "A correspondent explained it like this."}},
+    {"word": "titular", "type": "n.m.", "en": "headline", "note": "Grandes titulares en portada.", "example": {"es": "La prensa publicó grandes titulares.", "en": "The press published big headlines."}},
+    {"word": "trinchera", "type": "n.f.", "en": "trench", "note": "En las trincheras morían miles.", "example": {"es": "En las trincheras morían miles.", "en": "Thousands were dying in the trenches."}},
+    {"word": "oleada", "type": "n.f.", "en": "wave (of epidemic)", "note": "La segunda oleada ya estaba aquí.", "example": {"es": "Llegó la segunda oleada.", "en": "The second wave arrived."}},
+    {"word": "mortandad", "type": "n.f.", "en": "death toll, mortality", "note": "Formal. Contar la mortandad.", "example": {"es": "La mortandad llegó a millones.", "en": "The death toll reached millions."}},
+    {"word": "retaguardia", "type": "n.f.", "en": "home front, rear", "note": "(advanced) Detrás del frente.", "ext": true, "example": {"es": "Noticias de la retaguardia.", "en": "News from the home front."}},
+    {"word": "censura militar", "type": "phr.", "en": "military censorship", "note": "La que calló las trincheras.", "ext": true, "example": {"es": "La censura militar calló las muertes.", "en": "Military censorship silenced the deaths."}},
+    {"word": "barco correo", "type": "phr.", "en": "mail steamer", "note": "Trae cartas y noticias.", "ext": true, "example": {"es": "Llegó el barco correo.", "en": "The mail steamer arrived."}},
+    {"word": "convalecencia", "type": "n.f.", "en": "convalescence, recovery", "note": "(advanced) Después de la fiebre.", "ext": true, "example": {"es": "Una larga convalecencia.", "en": "A long recovery."}}
+  ]
+}

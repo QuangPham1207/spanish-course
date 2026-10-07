@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 82 — News report: the fire is under control</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-81.html">&larr; Previous</a> &middot; <a href="lesson-83.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 82 — NEWS REPORT: THE FIRE IS UNDER CONTROL</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read a straight news report: who, what, when, where — <strong>incendio</strong>, <strong>bomberos</strong>, <strong>humo</strong>.</li>
+      <li>Learn newsroom words: <strong>desalojar</strong>, <strong>estabilizar</strong>, <strong>foco</strong>, <strong>perímetro</strong>.</li>
+      <li>Notice headline grammar: participles (<strong>controlado, desalojadas</strong>) and the <strong>se</strong> of news.</li>
+      <li>Follow the inverted pyramid: the key facts first, the details after.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">incendio, bombero, humo, desalojar, evacuado, foco, perímetro, estabilizar, controlado, extinguir, daños materiales, herido leve, según fuentes, operativo, parte, alerta, cortafuegos</span> (plus known words <span class="es">portavoz, rueda de prensa, declarar, madrugada, ladera, ráfaga</span>)<br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">hidrante, retén, piromanía, titular de apertura</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (CONTROLADO EL INCENDIO DE LA SIERRA)</h2>
+<p><strong>Context:</strong> A night fire in the Valencian hills, told like a real brief: headline first, facts first. Fully glossed — read for who/what/when/where.</p>
+<p class="lead">(Bold words are in the vocabulary table. The English is only a check.)</p>
+
+<div class="phrase">
+  <p class="es"><b>Controlado</b> el <b>incendio</b> de la sierra tras tres días de trabajo.</p>
+  <p class="en">Sierra fire under control after three days of work.</p>
+</div>
+<div class="phrase">
+  <p class="es">El fuego se declaró en la madrugada del lunes en una ladera seca, empujado por ráfagas de viento.</p>
+  <p class="en">The fire broke out in the early hours of Monday on a dry hillside, driven by gusts of wind.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>bomberos</b> trabajaron entre el <b>humo</b>: dos <b>focos</b> activos al amanecer, un solo <b>perímetro</b> al mediodía.</p>
+  <p class="en">Firefighters worked through the smoke: two active fronts at dawn, a single perimeter by noon.</p>
+</div>
+<div class="phrase">
+  <p class="es">Se <b>desalojó</b> a 200 vecinos: 180 ya volvieron, 20 siguen <b>evacuados</b> por precaución.</p>
+  <p class="en">200 residents were evacuated: 180 have returned, 20 remain evacuated as a precaution.</p>
+</div>
+<div class="phrase">
+  <p class="es">No hay muertos; hay tres <b>heridos leves</b> y solo <b>daños materiales</b> en dos naves.</p>
+  <p class="en">There are no deaths; three people are lightly injured and there is only material damage to two warehouses.</p>
+</div>
+<div class="phrase">
+  <p class="es">El fuego se <b>estabilizó</b> anoche tras abrir un <b>cortafuegos</b> en la pista norte.</p>
+  <p class="en">The fire was stabilised last night after a firebreak was cut on the north track.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ahora toca <b>extinguir</b> brasas y vigilar: hay <b>alerta</b> amarilla por viento en toda la sierra.</p>
+  <p class="en">Now comes extinguishing embers and watching: there is a yellow wind alert across the hills.</p>
+</div>
+<div class="phrase">
+  <p class="es">En rueda de prensa, el portavoz declaró: «La noche fue dura, pero el perímetro aguanta».</p>
+  <p class="en">At a press conference, the spokesperson stated: "The night was tough, but the perimeter is holding."</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Según fuentes</b> del <b>operativo</b>, el origen podría estar en una quema agrícola.</p>
+  <p class="en">According to operation sources, the origin could be an agricultural burning.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los vecinos desalojados dormían en el polideportivo: «Salimos con lo puesto», dice una vecina.</p>
+  <p class="en">The evacuated residents slept in the sports hall: "We left with what we had on," one neighbour says.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>parte</b> de hoy es claro: incendio <b>controlado</b>, que no apagado; prudencia hasta el viernes.</p>
+  <p class="en">Today's report is clear: fire under control, not out; caution until Friday.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (read only):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">hidrante</span></td><td data-label="Type">n.m.</td><td data-label="English">hydrant</td><td data-label="Notes">El hidrante de la esquina. Cognate.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">retén</span></td><td data-label="Type">n.m.</td><td data-label="English">fire crew on standby</td><td data-label="Notes">El retén de guardia: el equipo que espera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">piromanía</span></td><td data-label="Type">n.f.</td><td data-label="English">pyromania, arson craze</td><td data-label="Notes">(advanced) Nada que ver con este incendio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">titular de apertura</span></td><td data-label="Type">phr.</td><td data-label="English">lead headline</td><td data-label="Notes">El titular que abre el informativo.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>News method (from L81):</strong> read <b>por encima</b> first — headline + first line = the whole story. Then read <b>en diagonal</b> for numbers (200, 180, 20, tres días). Names and quotes come last.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Headline grammar: the participle does the work</h3>
+<p>Spanish headlines drop the verb <span class="es">ser/estar</span>: <span class="es">Controlado el incendio</span> (= <span class="es">el incendio ha sido controlado</span>). The news <span class="es">se</span> reports without naming who: <span class="es">se desalojó, se estabilizó</span>.</p>
+<ul>
+  <li class="ex"><span class="es"><b>Controlado</b> el incendio; 200 vecinos <b>desalojados</b>.</span><span class="en">Fire under control; 200 residents evacuated.</span></li>
+  <li class="ex"><span class="es">Se <b>desalojó</b> a 200 vecinos; se <b>estabilizó</b> el fuego.</span><span class="en">200 residents were evacuated; the fire was stabilised.</span></li>
+  <li class="ex"><span class="es">Incendio <b>controlado</b>, que no apagado: toca <b>extinguir</b>.</span><span class="en">Fire controlled, not out: now to extinguish.</span></li>
+</ul>
+
+<h3>2.2. Numbers, sources and quotes</h3>
+<p>News counts everything (<span class="es">200 vecinos, tres heridos leves</span>), cites vaguely (<span class="es">según fuentes</span>) and quotes directly (<span class="es">declaró: «…»</span>). In Latin America you will also hear <span class="es">declaró que…</span> with backshift (you met reported speech in Lesson 42).</p>
+<ul>
+  <li class="ex"><span class="es"><b>Según fuentes</b> del operativo, el origen podría estar en una quema.</span><span class="en">According to operation sources, the origin could be a burning.</span></li>
+  <li class="ex"><span class="es">El portavoz declaró: «El perímetro aguanta».</span><span class="en">The spokesperson stated: "The perimeter is holding."</span></li>
+  <li class="ex"><span class="es">Hay tres <b>heridos leves</b> y solo <b>daños materiales</b>.</span><span class="en">Three lightly injured and only material damage.</span></li>
+</ul>
+<div class="formula">titular (participio) → qué/cuándo/dónde → cifras → declaración → prudencia</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">incendio</span></td><td data-label="Type">n.m.</td><td data-label="English">fire</td><td data-label="Notes">Incendio forestal: el del monte.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bombero</span></td><td data-label="Type">n.m.</td><td data-label="English">firefighter</td><td data-label="Notes">La bombera, los bomberos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">humo</span></td><td data-label="Type">n.m.</td><td data-label="English">smoke</td><td data-label="Notes">Entre el humo: sin ver.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desalojar</span></td><td data-label="Type">v.</td><td data-label="English">to evacuate (people)</td><td data-label="Notes">Se desalojó a 200 vecinos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">evacuado</span></td><td data-label="Type">adj.</td><td data-label="English">evacuated</td><td data-label="Notes">Siguen evacuados por precaución.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">foco</span></td><td data-label="Type">n.m.</td><td data-label="English">fire front, hotspot</td><td data-label="Notes">Dos focos activos al amanecer.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">perímetro</span></td><td data-label="Type">n.m.</td><td data-label="English">perimeter</td><td data-label="Notes">El perímetro aguanta: no avanza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">estabilizar</span></td><td data-label="Type">v.</td><td data-label="English">to stabilise</td><td data-label="Notes">Se estabilizó anoche.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">controlado</span></td><td data-label="Type">adj.</td><td data-label="English">under control</td><td data-label="Notes">Controlado, que no apagado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">extinguir</span></td><td data-label="Type">v.</td><td data-label="English">to extinguish, put out</td><td data-label="Notes">Extinguir brasas: apagar del todo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">daños materiales</span></td><td data-label="Type">phr.</td><td data-label="English">material damage</td><td data-label="Notes">Solo daños materiales: sin muertos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">herido leve</span></td><td data-label="Type">phr.</td><td data-label="English">lightly injured person</td><td data-label="Notes">Tres heridos leves.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">según fuentes</span></td><td data-label="Type">phr.</td><td data-label="English">according to sources</td><td data-label="Notes">Cita vaga típica de prensa (declarar lo viste en L41).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">operativo</span></td><td data-label="Type">n.m.</td><td data-label="English">operation (emergency/police)</td><td data-label="Notes">El operativo: el despliegue coordinado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">parte</span></td><td data-label="Type">n.m.</td><td data-label="English">report, bulletin</td><td data-label="Notes">El parte de hoy: parte meteorológico, parte médico.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alerta</span></td><td data-label="Type">n.f.</td><td data-label="English">alert</td><td data-label="Notes">Alerta amarilla: precaución oficial.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cortafuegos</span></td><td data-label="Type">n.m.</td><td data-label="English">firebreak</td><td data-label="Notes">Abrir un cortafuegos: cortar vegetación.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences to read once. No need to memorize.</p>
+
+<h3>1. The headline:</h3>
+<div class="phrase">
+  <p class="es">Controlado el incendio tras tres días de trabajo.</p>
+  <p class="en">Fire under control after three days of work.</p>
+</div>
+<h3>2. The evacuation:</h3>
+<div class="phrase">
+  <p class="es">Se desalojó a doscientos vecinos por precaución.</p>
+  <p class="en">Two hundred residents were evacuated as a precaution.</p>
+</div>
+<h3>3. The balance:</h3>
+<div class="phrase">
+  <p class="es">Sin muertos; tres heridos leves y daños materiales.</p>
+  <p class="en">No deaths; three lightly injured and material damage.</p>
+</div>
+<h3>4. The quote:</h3>
+<div class="phrase">
+  <p class="es">«La noche fue dura, pero el perímetro aguanta».</p>
+  <p class="en">"The night was tough, but the perimeter is holding."</p>
+</div>
+<h3>5. The caution:</h3>
+<div class="phrase">
+  <p class="es">Controlado, que no apagado: prudencia hasta el viernes.</p>
+  <p class="en">Controlled, not out: caution until Friday.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> read the five once. They are the whole inverted pyramid.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two flatmates follow the news over breakfast. No questions — just read.</p>
+
+<div class="phrase">
+  <p class="es">Marta: Mira el titular: «Controlado el incendio». ¿Eso es bueno?</p>
+  <p class="en">Marta: Look at the headline: "Fire under control." Is that good?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Bueno, pero no apagado. Dice que sigue el viento.</p>
+  <p class="en">Diego: Good, but not out. It says the wind continues.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Doscientos desalojados… ¿Dónde duermen?</p>
+  <p class="en">Marta: Two hundred evacuated… Where do they sleep?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: En el polideportivo, según fuentes. Solo daños materiales.</p>
+  <p class="en">Diego: In the sports hall, according to sources. Only material damage.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Pues prudencia hasta el viernes. ¿Bajamos a ayudar?</p>
+  <p class="en">Marta: Caution until Friday, then. Shall we go down to help?</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Sí: agua, mantas y nada de curiosos en la ladera.</p>
+  <p class="en">Diego: Yes: water, blankets, and no onlookers on the hillside.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: none — all from today's table or earlier lessons. Notice the headline read aloud (<strong>titular</strong>) and the quote with <strong>según fuentes</strong>.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Headline grammar:</strong> <span class="es">participio (controlado, desalojados)</span> + <span class="es">se (se desalojó, se estabilizó)</span>.</li>
+  <li><strong>News words:</strong> <span class="es">incendio, foco, perímetro, cortafuegos, heridos leves, daños materiales</span>.</li>
+  <li><strong>Method:</strong> <span class="es">titular → cifras → declaración → prudencia</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — el parte de mañana</h3>
+<p><strong>Context:</strong> The next morning's brief. Short, factual, fully glossed:</p>
+<div class="phrase">
+  <p class="es">El <b>perímetro</b> aguantó la noche: ningún <b>foco</b> nuevo, poco <b>humo</b> al amanecer.</p>
+  <p class="en">The perimeter held the night: no new front, little smoke at dawn.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>bomberos</b> siguen <b>extinguiendo</b> brasas; los <b>evacuados</b> vuelven por la tarde.</p>
+  <p class="en">Firefighters keep extinguishing embers; evacuees return in the afternoon.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Controlado</b>, casi apagado: la sierra respira.</p>
+  <p class="en">Controlled, almost out: the hills breathe again.</p>
+</div>
+
+<p class="lead"><em>All words are from today's table. Read it <strong>en diagonal</strong> first: what changed overnight?</em></p>
+
+<hr>
+<p><strong>End of Lesson 82.</strong> Next, <strong>Lesson 83</strong>: an opinion column — whose city is it, the car's or the pedestrian's? Light gloss: stance first, details second. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-83.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

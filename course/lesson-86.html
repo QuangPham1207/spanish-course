@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 86 — Historical feature: the 1918 flu</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-85.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a> &middot; <a href="lesson-87.html">Next &rarr;</a></p>
+
+<header class="top">
+  <h1>LESSON 86 — HISTORICAL FEATURE: THE 1918 FLU</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read a historical feature, <strong>semi-glossed</strong>: dense paragraphs, dates and numbers, only feature words bolded.</li>
+      <li>Learn feature words: <strong>telegrama</strong>, <strong>oleada</strong>, <strong>mortandad</strong>, <strong>titular</strong>.</li>
+      <li>Read dates and years fluently: <strong>el 4 de octubre de 1918</strong>, <strong>mil novecientos dieciocho</strong>.</li>
+      <li>Meet Carmen, a night nurse in Zamora, and Dr. Fuentes, a port doctor in Veracruz.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">telegrama, fallecer, neutralidad, pabellón, abarrotado, entierro, toser, remitir, provisional, tinta, fosa, aislar, desinfectar, muelle, tripulación, corresponsal, titular, trinchera, oleada, mortandad</span> (plus known words <span class="es">gripe, enfermera, puerto, censura, cuarentena</span>)<br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">retaguardia, censura militar, barco correo, convalecencia</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (LA GRIPE DE 1918: ZAMORA — VERACRUZ)</h2>
+<p><strong>Context:</strong> Autumn 1918. A nurse in Zamora writes night notes while a port doctor in Veracruz waits for a ship from Spain. The flu was not born in Spain — but the world called it "Spanish". Semi-glossed: only the bold words are new.</p>
+<p class="lead">(Bold words are in the vocabulary table. The English is only a check — read the Spanish first.)</p>
+
+<div class="phrase">
+  <p class="es">ZAMORA, 4 DE OCTUBRE DE 1918. <b>Terminada</b> la primavera, el <b>pabellón</b> de infecciosos seguía <b>abarrotado</b>. Carmen, enfermera de noche, escribió con <b>tinta</b> espesa: hoy han <b>fallecido</b> siete personas.</p>
+  <p class="en">ZAMORA, 4 OCTOBER 1918. With spring over, the infectious ward was still overcrowded. Carmen, a night nurse, wrote in thick ink: today seven people have died.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los enfermos llegaban tosiendo sin parar; muchos no podían respirar y la fiebre no <b>remitía</b> en días. Se oía <b>toser</b> en los pasillos desde las tres de la mañana.</p>
+  <p class="en">The sick arrived coughing without stop; many could not breathe and the fever did not subside for days. Coughing could be heard in the corridors from three in the morning.</p>
+</div>
+<div class="phrase">
+  <p class="es">En Madrid, la prensa hablaba ya de la epidemia con grandes <b>titulares</b>. España mantenía la <b>neutralidad</b> en la guerra, y sus periódicos publicaban lo que en Francia y Alemania callaba la censura.</p>
+  <p class="en">In Madrid, the press already spoke of the epidemic with big headlines. Spain kept its neutrality in the war, and its newspapers published what censorship silenced in France and Germany.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un <b>corresponsal</b> en París lo explicó así: en las <b>trincheras</b> morían miles de soldados, pero ningún diario podía escribirlo. Solo España, país neutral, contaba los muertos en portada.</p>
+  <p class="en">A correspondent in Paris explained it like this: in the trenches thousands of soldiers were dying, but no newspaper could write it. Only Spain, a neutral country, counted the dead on its front pages.</p>
+</div>
+<div class="phrase">
+  <p class="es">VERACRUZ, 9 DE OCTUBRE DE 1918. <b>Llegado</b> el barco de La Habana, el doctor Fuentes subió al <b>muelle</b> con dos ayudantes. La <b>tripulación</b> presentaba fiebre alta y tos seca.</p>
+  <p class="en">VERACRUZ, 9 OCTOBER 1918. With the ship from Havana arrived, Dr. Fuentes went up to the dock with two assistants. The crew showed high fever and dry cough.</p>
+</div>
+<div class="phrase">
+  <p class="es">El doctor dictó un <b>telegrama</b> urgente a la capital: <b>aislar</b> a los pasajeros, <b>desinfectar</b> el barco, preparar camas <b>provisionales</b> en el puerto. La segunda <b>oleada</b> ya estaba aquí.</p>
+  <p class="en">The doctor dictated an urgent telegram to the capital: isolate the passengers, disinfect the ship, prepare makeshift beds in the port. The second wave was already here.</p>
+</div>
+<div class="phrase">
+  <p class="es">En Zamora, Carmen anotó el 22 de octubre de 1918: cuarenta y tres muertos en una semana. Faltaban ataúdes y los <b>entierros</b> se hacían de noche; se abrió una <b>fosa</b> común detrás del cementerio.</p>
+  <p class="en">In Zamora, Carmen noted on 22 October 1918: forty-three dead in one week. Coffins ran out and burials were done at night; a mass grave was opened behind the cemetery.</p>
+</div>
+<div class="phrase">
+  <p class="es">Entre mayo de 1918 y abril de 1919, la <b>mortandad</b> en el mundo llegó a decenas de millones. Los historiadores hablan hoy de entre veinte y cincuenta millones de fallecidos.</p>
+  <p class="en">Between May 1918 and April 1919, the death toll in the world reached tens of millions. Historians today speak of between twenty and fifty million dead.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Firmado</b> el último parte de guardia, Carmen guardó el cuaderno. La gripe no era española; español era solo el nombre que le puso una prensa libre en un continente callado.</p>
+  <p class="en">With the last duty report signed, Carmen put away the notebook. The flu was not Spanish; Spanish was only the name given to it by a free press on a silenced continent.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (read only):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">retaguardia</span></td><td data-label="Type">n.f.</td><td data-label="English">home front, rear</td><td data-label="Notes">(advanced) Lo que está detrás del frente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">censura militar</span></td><td data-label="Type">phr.</td><td data-label="English">military censorship</td><td data-label="Notes">La que calló las trincheras.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">barco correo</span></td><td data-label="Type">phr.</td><td data-label="English">mail steamer</td><td data-label="Notes">Barco que trae cartas y noticias.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">convalecencia</span></td><td data-label="Type">n.f.</td><td data-label="English">convalescence, recovery</td><td data-label="Notes">(advanced) Después de remitir la fiebre.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Feature method:</strong> read dates first — <b>4 de octubre de 1918, 22 de octubre, entre mayo y abril</b> — to fix the timeline (L33), then read verbs. Absolute participles (<b>Terminada la primavera, Llegado el barco, Firmado el parte</b>) always mark "with X already done" (L61).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Dense dates and numbers: reading the timeline</h3>
+<p>Historical features are built on dates. Read years in full: <span class="es">1918 = mil novecientos dieciocho</span>. Day + month + year always takes <span class="es">el … de … de …</span>, and periods take <span class="es">entre … y …</span>. Order the tenses as in Lesson 33: pluperfect → preterite → present.</p>
+<ul>
+  <li class="ex"><span class="es">El <b>4 de octubre de 1918</b> (mil novecientos dieciocho) el pabellón seguía abarrotado.</span><span class="en">On 4 October 1918 the ward was still overcrowded.</span></li>
+  <li class="ex"><span class="es"><b>Entre mayo de 1918 y abril de 1919</b> murieron decenas de millones.</span><span class="en">Between May 1918 and April 1919 tens of millions died.</span></li>
+  <li class="ex"><span class="es">Habían llegado tosiendo; el doctor <b>dictó</b> un telegrama; hoy la prensa lo <b>cuenta</b> así.</span><span class="en">They had arrived coughing; the doctor dictated a telegram; today the press tells it like this.</span></li>
+</ul>
+
+<h3>2.2. Absolute participles: Terminada la guerra…</h3>
+<p>You met these in Lesson 61. A participle + noun at the start of a sentence, with no <span class="es">haber</span>, means "once / with X done". It agrees with the noun: <span class="es">Terminada la primavera, Llegado el barco, Firmado el parte</span>.</p>
+<ul>
+  <li class="ex"><span class="es"><b>Terminada</b> la primavera, el pabellón seguía abarrotado.</span><span class="en">With spring over, the ward was still overcrowded.</span></li>
+  <li class="ex"><span class="es"><b>Llegado</b> el barco, el doctor subió al muelle.</span><span class="en">Once the ship had arrived, the doctor went up to the dock.</span></li>
+  <li class="ex"><span class="es"><b>Firmado</b> el parte, Carmen guardó el cuaderno.</span><span class="en">Once the report was signed, Carmen put away the notebook.</span></li>
+</ul>
+<div class="formula">fecha (el 4 de octubre de 1918) + absoluto (Terminada…) → pretérito (dictó, abrió) → titular</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">telegrama</span></td><td data-label="Type">n.m.</td><td data-label="English">telegram</td><td data-label="Notes">Dictó un telegrama urgente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fallecer</span></td><td data-label="Type">v.</td><td data-label="English">to pass away, die</td><td data-label="Notes">Formal. Han fallecido siete personas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">neutralidad</span></td><td data-label="Type">n.f.</td><td data-label="English">neutrality</td><td data-label="Notes">España mantenía la neutralidad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pabellón</span></td><td data-label="Type">n.m.</td><td data-label="English">hospital ward, pavilion</td><td data-label="Notes">El pabellón de infecciosos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">abarrotado</span></td><td data-label="Type">adj.</td><td data-label="English">overcrowded, packed</td><td data-label="Notes">Seguía abarrotado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">entierro</span></td><td data-label="Type">n.m.</td><td data-label="English">burial, funeral</td><td data-label="Notes">En LatAm también se oye <i>velorio</i> para la vigilia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">toser</span></td><td data-label="Type">v.</td><td data-label="English">to cough</td><td data-label="Notes">Llegaban tosiendo sin parar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">remitir</span></td><td data-label="Type">v.</td><td data-label="English">to subside (fever), remit</td><td data-label="Notes">La fiebre no remitía. También: enviar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">provisional</span></td><td data-label="Type">adj.</td><td data-label="English">makeshift, temporary</td><td data-label="Notes">Camas provisionales en el puerto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tinta</span></td><td data-label="Type">n.f.</td><td data-label="English">ink</td><td data-label="Notes">Escribió con tinta espesa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fosa</span></td><td data-label="Type">n.f.</td><td data-label="English">pit, grave</td><td data-label="Notes">Una fosa común: mass grave.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aislar</span></td><td data-label="Type">v.</td><td data-label="English">to isolate</td><td data-label="Notes">Aislar a los pasajeros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desinfectar</span></td><td data-label="Type">v.</td><td data-label="English">to disinfect</td><td data-label="Notes">Desinfectar el barco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">muelle</span></td><td data-label="Type">n.m.</td><td data-label="English">pier, dock</td><td data-label="Notes">Subió al muelle con dos ayudantes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tripulación</span></td><td data-label="Type">n.f.</td><td data-label="English">crew</td><td data-label="Notes">La tripulación presentaba fiebre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">corresponsal</span></td><td data-label="Type">n.m./f.</td><td data-label="English">correspondent</td><td data-label="Notes">Un corresponsal en París.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">titular</span></td><td data-label="Type">n.m.</td><td data-label="English">headline</td><td data-label="Notes">Grandes titulares en portada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trinchera</span></td><td data-label="Type">n.f.</td><td data-label="English">trench</td><td data-label="Notes">En las trincheras morían miles.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">oleada</span></td><td data-label="Type">n.f.</td><td data-label="English">wave (of epidemic)</td><td data-label="Notes">La segunda oleada ya estaba aquí.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mortandad</span></td><td data-label="Type">n.f.</td><td data-label="English">death toll, mortality</td><td data-label="Notes">Formal. La mortandad llegó a millones.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences to read once. No need to memorize.</p>
+
+<h3>1. The ward:</h3>
+<div class="phrase">
+  <p class="es">Terminada la primavera, el pabellón seguía abarrotado.</p>
+  <p class="en">With spring over, the ward was still overcrowded.</p>
+</div>
+<h3>2. The press:</h3>
+<div class="phrase">
+  <p class="es">España mantenía la neutralidad y publicaba grandes titulares.</p>
+  <p class="en">Spain kept its neutrality and published big headlines.</p>
+</div>
+<h3>3. The ship:</h3>
+<div class="phrase">
+  <p class="es">Llegado el barco, el doctor subió al muelle con dos ayudantes.</p>
+  <p class="en">Once the ship arrived, the doctor went to the dock with two assistants.</p>
+</div>
+<h3>4. The order:</h3>
+<div class="phrase">
+  <p class="es">Hay que aislar a los pasajeros y desinfectar el barco.</p>
+  <p class="en">The passengers must be isolated and the ship disinfected.</p>
+</div>
+<h3>5. The name:</h3>
+<div class="phrase">
+  <p class="es">La gripe no era española; español era solo el nombre.</p>
+  <p class="en">The flu was not Spanish; Spanish was only the name.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> read the five once. A whole epidemic in five beats.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Carmen in Zamora speaks by telephone with Dr. Fuentes in Veracruz. They compare notes. Just read.</p>
+
+<div class="phrase">
+  <p class="es">Carmen: Doctor, aquí en Zamora el pabellón sigue abarrotado esta noche.</p>
+  <p class="en">Carmen: Doctor, here in Zamora the ward is still overcrowded tonight.</p>
+</div>
+<div class="phrase">
+  <p class="es">Fuentes: Lo mismo en el muelle. Acabo de dictar un telegrama a la capital.</p>
+  <p class="en">Fuentes: The same at the dock. I have just dictated a telegram to the capital.</p>
+</div>
+<div class="phrase">
+  <p class="es">Carmen: La fiebre no remite y los entierros se hacen de noche.</p>
+  <p class="en">Carmen: The fever does not subside and burials are done at night.</p>
+</div>
+<div class="phrase">
+  <p class="es">Fuentes: Hay que aislar a la tripulación y desinfectar cada camarote.</p>
+  <p class="en">Fuentes: The crew must be isolated and every cabin disinfected.</p>
+</div>
+<div class="phrase">
+  <p class="es">Carmen: Terminada la guardia, escribo todo con tinta espesa en el cuaderno.</p>
+  <p class="en">Carmen: Once the shift is over, I write everything in thick ink in the notebook.</p>
+</div>
+<div class="phrase">
+  <p class="es">Fuentes: Gracias, Carmen. Su parte de Zamora nos ayuda mucho en Veracruz.</p>
+  <p class="en">Fuentes: Thank you, Carmen. Your report from Zamora helps us a lot in Veracruz.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: none — all from today's table or earlier lessons. Notice the feature's tools living in speech (<strong>pabellón, telegrama, aislar, desinfectar</strong>) and the absolute echo (<strong>Terminada la guardia</strong>).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Feature words:</strong> <span class="es">telegrama, pabellón, titular, oleada, mortandad</span> — the furniture of 1918.</li>
+  <li><strong>Dates:</strong> <span class="es">el 4 de octubre de 1918; entre mayo de 1918 y abril de 1919</span> — day, month, year.</li>
+  <li><strong>Voice:</strong> <span class="es">Terminada la primavera… Llegado el barco… Firmado el parte…</span> — absolute participles (L61).</li>
+</ul>
+
+<h3>5.2. Further reading — el nombre (semi-glossed)</h3>
+<p><strong>Context:</strong> Why "Spanish"? A historian sums it up a century later. Only two words are glossed — guess the rest:</p>
+<div class="phrase">
+  <p class="es">La gripe nació probablemente en cuarteles y puertos de medio mundo, no en España.</p>
+  <p class="en">The flu was probably born in barracks and ports around the world, not in Spain.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero en 1918 solo la prensa de un país neutral podía contar la <b>mortandad</b> en grandes <b>titulares</b>.</p>
+  <p class="en">But in 1918 only the press of a neutral country could report the death toll in big headlines.</p>
+</div>
+<div class="phrase">
+  <p class="es">El mundo leyó la noticia en español y, por pereza, la llamó española para siempre.</p>
+  <p class="en">The world read the news in Spanish and, out of laziness, called it Spanish forever.</p>
+</div>
+
+<p class="lead"><em>Almost unglossed — only <strong>mortandad</strong> and <strong>titular</strong> are marked (censorship, <strong>censura</strong>, you know since L49). This is the Ladder's promise: soon, no bold at all.</em></p>
+
+<hr>
+<p><strong>End of Lesson 86.</strong> Next, <strong>Lesson 87</strong>: an interview and profile — direct speech and reported speech together, semi-glossed. No exercises — just read.</p>
+
+<p class="topnav"><a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "lesson": 81,
+  "title": "Reading strategies: how to read the real world",
+  "words": [
+    {"word": "estrategia", "type": "n.f.", "en": "strategy", "note": "Cognate. Una estrategia de lectura.", "example": {"es": "Leer es una estrategia diaria.", "en": "Reading is a daily strategy."}},
+    {"word": "contexto", "type": "n.m.", "en": "context", "note": "Adivinar por el contexto.", "example": {"es": "El contexto da la primera pista.", "en": "Context gives the first clue."}},
+    {"word": "cognado", "type": "n.m.", "en": "cognate", "note": "Palabras hermanas entre lenguas.", "example": {"es": "Hospital es un cognado.", "en": "Hospital is a cognate."}},
+    {"word": "falso amigo", "type": "phr.", "en": "false friend", "note": "Éxito, actual, sensible.", "example": {"es": "Éxito es un falso amigo.", "en": "Éxito is a false friend."}},
+    {"word": "adivinar", "type": "v.", "en": "to guess", "note": "Adivina y comprueba.", "example": {"es": "Adivina la palabra difícil.", "en": "Guess the difficult word."}},
+    {"word": "comprobar", "type": "v.", "en": "to check, verify", "note": "Comprueba tu idea después.", "example": {"es": "Comprueba tu idea en la frase siguiente.", "en": "Check your idea in the next sentence."}},
+    {"word": "releer", "type": "v.", "en": "to re-read", "note": "Re + leer. La segunda lectura aclara.", "example": {"es": "Relee la frase anterior.", "en": "Re-read the previous sentence."}},
+    {"word": "hojear", "type": "v.", "en": "to flip/leaf through", "note": "Pasar las hojas.", "example": {"es": "Hojea el periódico primero.", "en": "Flip through the paper first."}},
+    {"word": "subrayar", "type": "v.", "en": "to underline", "note": "Subraya poco.", "example": {"es": "Subraya tres palabras por página.", "en": "Underline three words per page."}},
+    {"word": "acepción", "type": "n.f.", "en": "sense (of a word)", "note": "La acepción 2 suele ser la del texto.", "example": {"es": "Lee la segunda acepción.", "en": "Read the second sense."}},
+    {"word": "diccionario", "type": "n.m.", "en": "dictionary", "note": "Viene al final, no al principio.", "example": {"es": "Consulta el diccionario al final.", "en": "Check the dictionary at the end."}},
+    {"word": "atascado", "type": "adj.", "en": "stuck", "note": "Quedarse atascado.", "example": {"es": "Me quedé atascado aquí.", "en": "I got stuck here."}},
+    {"word": "por encima", "type": "phr.", "en": "over, superficially", "note": "Leer por encima.", "example": {"es": "Lee el titular por encima.", "en": "Read the headline over."}},
+    {"word": "en diagonal", "type": "phr.", "en": "skimming", "note": "Buscar datos.", "example": {"es": "Lee en diagonal el párrafo.", "en": "Skim the paragraph."}},
+    {"word": "de un vistazo", "type": "phr.", "en": "at a glance", "note": "Los cognados.", "example": {"es": "Se entiende de un vistazo.", "en": "It is understood at a glance."}},
+    {"word": "vistazo", "type": "n.m.", "en": "glance, look", "note": "Echar un vistazo: mirar rápido.", "example": {"es": "Echa un vistazo a la foto.", "en": "Take a look at the photo."}},
+    {"word": "seguir adelante", "type": "phr.", "en": "to keep going", "note": "Seguir + gerundio.", "example": {"es": "Sigo adelante una página más.", "en": "I keep going one more page."}},
+    {"word": "consultar", "type": "v.", "en": "to consult, look up", "note": "Al final.", "example": {"es": "Consulta el diccionario al final.", "en": "Check the dictionary at the end."}},
+    {"word": "entrada de diccionario", "type": "phr.", "en": "dictionary entry", "note": "Lee el ejemplo primero.", "example": {"es": "La entrada trae tres acepciones.", "en": "The entry has three senses."}},
+    {"word": "filología", "type": "n.f.", "en": "philology", "note": "(advanced) Estudio de textos y lengua.", "ext": true, "example": {"es": "Estudia filología hispánica.", "en": "She studies Hispanic philology."}},
+    {"word": "etimología", "type": "n.f.", "en": "etymology", "note": "De dónde viene una palabra.", "ext": true, "example": {"es": "Busca la etimología.", "en": "Look up the etymology."}},
+    {"word": "sigla", "type": "n.f.", "en": "initialism (letters)", "note": "DACA, ONU: se leen letra a letra.", "ext": true, "example": {"es": "DACA es una sigla.", "en": "DACA is an initialism."}},
+    {"word": "acrónimo", "type": "n.m.", "en": "acronym (read as word)", "note": "TIC, ovni: se leen como palabra.", "ext": true, "example": {"es": "TIC es un acrónimo.", "en": "TIC is an acronym."}}
+  ]
+}

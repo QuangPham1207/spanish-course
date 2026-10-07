@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 62 — Nominalization &amp; formal written syntax</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-61.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 62 — NOMINALIZATION &amp; FORMAL WRITTEN SYNTAX</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read nominalizations: <span class="es">el aumento de, la ejecución de, la puesta en marcha de</span> — actions turned into nouns.</li>
+      <li>Use the formal support verb <span class="es">llevar a cabo</span> (to carry out).</li>
+      <li>Handle formal connectors: <span class="es">en virtud de, con arreglo a, asimismo</span> (plus <span class="es">por consiguiente</span>, which you know from Lesson 54).</li>
+      <li>Read a municipal report about a neighbourhood market renovation, in full formal register.</li>
+      <li>Pick up words: <span class="es">ayuntamiento, expediente, licitación, adjudicar, subvención, prórroga</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">ayuntamiento, concejal, pleno, ordenanza, expediente, licitación, adjudicar, contratista, comerciante, subvención, presupuesto, prórroga, aumento, sede, convenio, dotación, ejecución, inauguración, clausura, adecuación, asimismo, abasto, mostrador, abastecimiento, saneamiento, solado, albañil, techumbre, adjudicataria, licitar, tramitación, concurrencia, entoldado, llevar a cabo, puesta en marcha, en virtud de, con arreglo a</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">acristalamiento, fontanería, hornacina</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (INFORME MUNICIPAL: EL MERCADO CENTRAL)</h2>
+<p><strong>Context:</strong> A city council report on renovating the old central market. Formal Spanish loves nouns where speech uses verbs — <span class="es">el aumento</span> instead of <span class="es">subir</span>, <span class="es">la clausura</span> instead of <span class="es">cerrar</span>. Read each line; the English below it is only a check.</p>
+<p class="lead">(Register = how formal the language is. This whole text speaks in the heavy, noun-based voice of administration.)</p>
+
+<div class="phrase">
+  <p class="es">El <b>ayuntamiento</b> abrió ayer el <b>expediente</b> de la reforma del mercado central.</p>
+  <p class="en">The city council opened the file on the central market's renovation yesterday.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>pleno</b> habló del <b>aumento</b> del <b>presupuesto</b> durante tres horas.</p>
+  <p class="en">The plenary session discussed the budget increase for three hours.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>concejala</b> de mercados leyó los números en voz alta.</p>
+  <p class="en">The markets councillor read out the figures aloud.</p>
+</div>
+<div class="phrase">
+  <p class="es">Se <b>licita</b> la <b>ejecución</b> de las obras por un plazo de ocho meses.</p>
+  <p class="en">The execution of the works is put out to tender for a period of eight months.</p>
+</div>
+<div class="phrase">
+  <p class="es">Se <b>adjudicó</b> la obra a una <b>contratista</b> local, <b>en virtud de</b> la <b>ordenanza</b> de mercados.</p>
+  <p class="en">The work was awarded to a local contractor, by virtue of the markets by-law.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>adecuación</b> del edificio trae solado nuevo, <b>saneamiento</b> y <b>techumbre</b> nueva.</p>
+  <p class="en">The adaptation of the building brings new flooring, sanitation and a new roof.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>albañiles</b> empezaron por los puestos de la entrada.</p>
+  <p class="en">The bricklayers started with the stalls by the entrance.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada <b>comerciante</b> tiene su <b>mostrador</b> con su número.</p>
+  <p class="en">Each trader keeps his counter with his number.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>abasto</b> de agua sigue igual, y el <b>abastecimiento</b> llega cada mañana.</p>
+  <p class="en">The water supply stays the same, and deliveries arrive every morning.</p>
+</div>
+<div class="phrase">
+  <p class="es">El mercado tendrá un <b>entoldado</b> nuevo para la <b>concurrencia</b> de los sábados.</p>
+  <p class="en">The market will have a new awning for the Saturday crowds.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>puesta en marcha</b> será poco a poco: primero los puestos de comida y después los de ropa.</p>
+  <p class="en">The launch will be gradual: first the food stalls, then the clothes ones.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Asimismo</b>, se <b>llevará a cabo</b> la <b>clausura</b> de dos calles durante un mes.</p>
+  <p class="en">Likewise, the closure of two streets will be carried out for one month.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los vecinos pidieron una <b>prórroga</b> para opinar sobre el ruido.</p>
+  <p class="en">The neighbours asked for an extension to give their opinion on the noise.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>convenio</b> con los <b>comerciantes</b> incluye una <b>subvención</b> para cada puesto.</p>
+  <p class="en">The agreement with the traders includes a grant for each stall.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>dotación</b> total sale del <b>presupuesto</b> del año.</p>
+  <p class="en">The total funding comes out of this year's budget.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Con arreglo a</b> la <b>ordenanza</b>, la <b>tramitación</b> termina en seis meses.</p>
+  <p class="en">In accordance with the by-law, the procedure finishes in six months.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por consiguiente, la <b>inauguración</b> será en primavera.</p>
+  <p class="en">Consequently, the opening ceremony will be in spring.</p>
+</div>
+<div class="phrase">
+  <p class="es">El mercado sigue en su <b>sede</b> de siempre, entre la plaza y el río.</p>
+  <p class="en">The market stays at its usual site, between the square and the river.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">acristalamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">glazing (glass fitting)</td><td data-label="Notes">Pido el acristalamiento de las ventanas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fontanería</span></td><td data-label="Type">n.f.</td><td data-label="English">plumbing (system)</td><td data-label="Notes">La fontanería de los baños entra en la obra.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hornacina</span></td><td data-label="Type">n.f.</td><td data-label="English">niche (in a wall)</td><td data-label="Notes">La hornacina de la entrada se queda como está.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> verbs become nouns — <span class="es">aumentar → el aumento, ejecutar → la ejecución, tramitar → la tramitación, adecuar → la adecuación, inaugurar → la inauguración</span>. One empty verb does the heavy lifting: <span class="es">llevar a cabo</span>. And three connectors hold the formal tone: <span class="es">en virtud de, con arreglo a, asimismo</span> (with <span class="es">por consiguiente</span> from Lesson 54).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Nominalization: el aumento de, la puesta en marcha de</h3>
+<p>Formal Spanish turns actions into nouns: <span class="es">el/la</span> + noun + <span class="es">de</span> + the object. The noun keeps the verb's family (<span class="es">aumentar → aumento, ejecutar → ejecución</span>) and the sentence sounds official instead of chatty.</p>
+<div class="formula">el / la + noun + de: <b>aumento</b> del presupuesto · <b>ejecución</b> de las obras · <b>puesta en marcha</b> del mercado</div>
+<ul>
+  <li class="ex"><span class="es">Hablaron del <b>aumento</b> del <b>presupuesto</b> tres horas.</span><span class="en">They discussed the budget increase for three hours. (plain: subir el presupuesto)</span></li>
+  <li class="ex"><span class="es">Se licita la <b>ejecución</b> de las obras.</span><span class="en">The execution of the works is put out to tender. (plain: ejecutar las obras)</span></li>
+  <li class="ex"><span class="es">La <b>puesta en marcha</b> será poco a poco.</span><span class="en">The launch will be gradual. (plain: empezar)</span></li>
+  <li class="ex"><span class="es">La <b>adecuación</b> del edificio trae solado nuevo.</span><span class="en">The adaptation of the building brings new flooring. (plain: adecuar)</span></li>
+  <li class="ex"><span class="es">La <b>tramitación</b> termina en seis meses.</span><span class="en">The procedure finishes in six months. (plain: tramitar)</span></li>
+</ul>
+
+<h3>2.2. The empty verb: llevar a cabo</h3>
+<p><span class="es">Llevar a cabo</span> + noun means "to carry out" — the formal twin of <span class="es">hacer</span>. The noun carries the meaning (<span class="es">la clausura, la ejecución, la adecuación</span>); the verb is just the engine.</p>
+<div class="formula"><b>llevar a cabo</b> + noun = to carry out (formal hacer)</div>
+<ul>
+  <li class="ex"><span class="es">Se <b>llevará a cabo</b> la <b>clausura</b>.</span><span class="en">The closure will be carried out. (plain: se cerrará)</span></li>
+  <li class="ex"><span class="es">Llevaron a cabo la <b>ejecución</b> en ocho meses.</span><span class="en">They carried out the execution in eight months.</span></li>
+  <li class="ex"><span class="es">Hay que <b>llevar a cabo</b> la <b>adecuación</b>.</span><span class="en">The adaptation must be carried out.</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> this whole register is shared: councils in Mexico, Argentina and Spain all write <span class="es">llevar a cabo, en virtud de</span> and <span class="es">asimismo</span>. Only the office names change, never the syntax.</div>
+
+<h3>2.3. Formal connectors: en virtud de, con arreglo a, asimismo</h3>
+<p>Three fixed phrases glue formal texts together: two give the legal basis (<span class="es">en virtud de, con arreglo a</span> + noun), one adds (<span class="es">asimismo</span> = also). The conclusion you already know: <span class="es">por consiguiente</span> (Lesson 54).</p>
+<div class="formula"><b>en virtud de</b> + noun · <b>con arreglo a</b> + noun · <b>asimismo</b>, …</div>
+<ul>
+  <li class="ex"><span class="es"><b>En virtud de</b> la <b>ordenanza</b>, se adjudicó la obra.</span><span class="en">By virtue of the by-law, the work was awarded.</span></li>
+  <li class="ex"><span class="es"><b>Con arreglo a</b> la <b>ordenanza</b>, la <b>tramitación</b> termina.</span><span class="en">In accordance with the by-law, the procedure finishes.</span></li>
+  <li class="ex"><span class="es"><b>Asimismo</b>, la <b>inauguración</b> será en primavera.</span><span class="en">Likewise, the opening will be in spring.</span></li>
+  <li class="ex"><span class="es"><b>Asimismo</b>, se pedirá una <b>prórroga</b>.</span><span class="en">Likewise, an extension will be requested.</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistakes:</strong> a nominalization always needs <span class="es">de</span> plus the article — <span class="es">la <b>ejecución</b> de las obras</span>, never <span class="es">la ejecución las obras</span>. And <span class="es"><b>en virtud de</b></span> takes a noun (<span class="es">en virtud de la ordenanza</span>), never a verb.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">ayuntamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">city council, town hall</td><td data-label="Notes">Abrió el expediente de la reforma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">concejal</span></td><td data-label="Type">n.m./f.</td><td data-label="English">councillor</td><td data-label="Notes">La concejala de mercados leyó los números.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pleno</span></td><td data-label="Type">n.m.</td><td data-label="English">plenary session, full council</td><td data-label="Notes">El pleno habló del aumento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ordenanza</span></td><td data-label="Type">n.f.</td><td data-label="English">by-law, ordinance</td><td data-label="Notes">En virtud de / con arreglo a la ordenanza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">expediente</span></td><td data-label="Type">n.m.</td><td data-label="English">file, dossier, proceedings</td><td data-label="Notes">Abrió el expediente de la reforma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">licitación</span></td><td data-label="Type">n.f.</td><td data-label="English">tender, bidding process</td><td data-label="Notes">La licitación se adjudicó…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">adjudicar</span></td><td data-label="Type">v.</td><td data-label="English">to award (a contract)</td><td data-label="Notes">Se adjudicó la obra a una contratista.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">contratista</span></td><td data-label="Type">n.m./f.</td><td data-label="English">contractor</td><td data-label="Notes">Una contratista local.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comerciante</span></td><td data-label="Type">n.m./f.</td><td data-label="English">trader, shopkeeper</td><td data-label="Notes">Cada comerciante tiene su mostrador.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">subvención</span></td><td data-label="Type">n.f.</td><td data-label="English">grant, subsidy</td><td data-label="Notes">Una subvención para cada puesto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">presupuesto</span></td><td data-label="Type">n.m.</td><td data-label="English">budget</td><td data-label="Notes">El aumento del presupuesto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prórroga</span></td><td data-label="Type">n.f.</td><td data-label="English">extension (of a deadline)</td><td data-label="Notes">Pidieron una prórroga para opinar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aumento</span></td><td data-label="Type">n.m.</td><td data-label="English">increase</td><td data-label="Notes">Nominalization: aumentar → el aumento de.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sede</span></td><td data-label="Type">n.f.</td><td data-label="English">site, seat, headquarters</td><td data-label="Notes">El mercado sigue en su sede.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">convenio</span></td><td data-label="Type">n.m.</td><td data-label="English">agreement, convention</td><td data-label="Notes">El convenio incluye una subvención.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dotación</span></td><td data-label="Type">n.f.</td><td data-label="English">funding, endowment</td><td data-label="Notes">La dotación total sale del presupuesto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ejecución</span></td><td data-label="Type">n.f.</td><td data-label="English">execution, carrying out</td><td data-label="Notes">La ejecución de las obras.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inauguración</span></td><td data-label="Type">n.f.</td><td data-label="English">opening, inauguration</td><td data-label="Notes">La inauguración será en primavera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">clausura</span></td><td data-label="Type">n.f.</td><td data-label="English">closure</td><td data-label="Notes">Formal for cerrar: la clausura de dos calles.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">adecuación</span></td><td data-label="Type">n.f.</td><td data-label="English">adaptation, fitting-out</td><td data-label="Notes">La adecuación del edificio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">asimismo</span></td><td data-label="Type">adv.</td><td data-label="English">likewise, also (formal)</td><td data-label="Notes">Asimismo, se llevará a cabo…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">abasto</span></td><td data-label="Type">n.m.</td><td data-label="English">supply (of goods)</td><td data-label="Notes">El abasto de agua sigue igual.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mostrador</span></td><td data-label="Type">n.m.</td><td data-label="English">counter (shop/stall)</td><td data-label="Notes">Cada comerciante tiene su mostrador.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">abastecimiento</span></td><td data-label="Type">n.m.</td><td data-label="English">supplying, provisioning</td><td data-label="Notes">El abastecimiento llega cada mañana.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">saneamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">sanitation, drainage</td><td data-label="Notes">Solado nuevo y saneamiento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">solado</span></td><td data-label="Type">n.m.</td><td data-label="English">flooring, paving</td><td data-label="Notes">La adecuación trae solado nuevo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">albañil</span></td><td data-label="Type">n.m./f.</td><td data-label="English">bricklayer</td><td data-label="Notes">Los albañiles empezaron por la entrada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">techumbre</span></td><td data-label="Type">n.f.</td><td data-label="English">roof, roofing</td><td data-label="Notes">Techumbre nueva para el mercado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">adjudicataria</span></td><td data-label="Type">n.f.</td><td data-label="English">successful bidder (fem.)</td><td data-label="Notes">La obra se adjudicó a la adjudicataria.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">licitar</span></td><td data-label="Type">v.</td><td data-label="English">to put out to tender</td><td data-label="Notes">Se licita la ejecución de las obras.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tramitación</span></td><td data-label="Type">n.f.</td><td data-label="English">procedure, processing</td><td data-label="Notes">La tramitación termina en seis meses.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">concurrencia</span></td><td data-label="Type">n.f.</td><td data-label="English">crowd, turnout</td><td data-label="Notes">La concurrencia de los sábados.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">entoldado</span></td><td data-label="Type">n.m.</td><td data-label="English">awning, canopy</td><td data-label="Notes">Un entoldado nuevo para el mercado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">llevar a cabo</span></td><td data-label="Type">v. phr.</td><td data-label="English">to carry out</td><td data-label="Notes">Formal hacer: llevar a cabo la clausura.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">puesta en marcha</span></td><td data-label="Type">n.f.</td><td data-label="English">launch, setting in motion</td><td data-label="Notes">La puesta en marcha será poco a poco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">en virtud de</span></td><td data-label="Type">prep.</td><td data-label="English">by virtue of, under</td><td data-label="Notes">En virtud de la ordenanza + noun.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">con arreglo a</span></td><td data-label="Type">prep.</td><td data-label="English">in accordance with</td><td data-label="Notes">Con arreglo a la ordenanza + noun.</td></tr>
+</tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five report sentences. Read them once; no need to memorize.</p>
+
+<h3>1. The tender:</h3>
+<div class="phrase">
+  <p class="es">Se licita la ejecución de las obras.</p>
+  <p class="en">The execution of the works is put out to tender.</p>
+</div>
+<h3>2. The award:</h3>
+<div class="phrase">
+  <p class="es">La obra se adjudicó a la adjudicataria.</p>
+  <p class="en">The work was awarded to the successful bidder.</p>
+</div>
+<h3>3. The money:</h3>
+<div class="phrase">
+  <p class="es">El aumento del presupuesto es pequeño.</p>
+  <p class="en">The budget increase is small.</p>
+</div>
+<h3>4. The opening:</h3>
+<div class="phrase">
+  <p class="es">La inauguración será en primavera.</p>
+  <p class="en">The opening will be in spring.</p>
+</div>
+<h3>5. The conclusion:</h3>
+<div class="phrase">
+  <p class="es">Por consiguiente, habrá una prórroga.</p>
+  <p class="en">Consequently, there will be an extension.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two stallholders read the council notice pinned by their counters.</p>
+
+<div class="phrase">
+  <p class="es">Rosa: ¿Supiste lo del <b>ayuntamiento</b>? Cierran dos calles.</p>
+  <p class="en">Rosa: Did you hear about the council? They're closing two streets.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pedro: Sí. La <b>clausura</b> es de un mes.</p>
+  <p class="en">Pedro: Yes. The closure is for one month.</p>
+</div>
+<div class="phrase">
+  <p class="es">Rosa: Y la <b>fontanería</b> de los baños también entra en la obra.</p>
+  <p class="en">Rosa: And the bathrooms' plumbing is included in the work too.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pedro: Mi <b>mostrador</b> necesita luz: pido el <b>acristalamiento</b> de las ventanas.</p>
+  <p class="en">Pedro: My counter needs light: I'm asking for the windows to be glazed.</p>
+</div>
+<div class="phrase">
+  <p class="es">Rosa: Pide también la <b>subvención</b>: sale en el <b>convenio</b>.</p>
+  <p class="en">Rosa: Ask for the grant too: it's in the agreement.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pedro: ¿Y el <b>entoldado</b>? En verano el sol pega fuerte.</p>
+  <p class="en">Pedro: And the awning? In summer the sun beats down hard.</p>
+</div>
+<div class="phrase">
+  <p class="es">Rosa: Tranquilo: <b>con arreglo a</b> la <b>ordenanza</b>, todo llega.</p>
+  <p class="en">Rosa: Don't worry: in accordance with the by-law, everything will come.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>fontanería</strong> (plumbing), <strong>acristalamiento</strong> (glazing) — both extension words from today's table.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Nominalization:</strong> <span class="es">el aumento de, la ejecución de, la puesta en marcha de, la tramitación de</span> — verbs turned into <span class="es">el/la + noun + de</span>.</li>
+  <li><strong>Empty verb:</strong> <span class="es">llevar a cabo la clausura / la ejecución / la adecuación</span> — formal "to carry out".</li>
+  <li><strong>Connectors:</strong> <span class="es">en virtud de</span> and <span class="es">con arreglo a</span> (legal basis + noun), <span class="es">asimismo</span> (addition) — plus known <span class="es">por consiguiente</span> (conclusion).</li>
+</ul>
+
+<h3>5.2. Further reading — el mercado no se rinde</h3>
+<p><strong>Context:</strong> The market's own voice, after the report. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">El mercado tiene cien años y tres reformas en su historia.</p>
+  <p class="en">The market is a hundred years old, with three renovations in its history.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>hornacina</b> de la entrada se queda como está.</p>
+  <p class="en">The niche by the entrance stays as it is.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>concejales</b> visitan los <b>puestos</b> cada viernes.</p>
+  <p class="en">The councillors visit the stalls every Friday.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>pleno</b> habla del mercado una vez al mes.</p>
+  <p class="en">The plenary discusses the market once a month.</p>
+</div>
+<div class="phrase">
+  <p class="es">Y el barrio, por consiguiente, tendrá mercado para muchos años.</p>
+  <p class="en">And the neighbourhood, consequently, will have its market for many years to come.</p>
+</div>
+
+<p class="lead"><em>New words: <strong>hornacina</strong> (wall niche) — an extension word from today's table. The rest is recap.</em></p>
+
+<hr>
+<p><strong>End of Lesson 62.</strong> Next, <strong>Lesson 63</strong>: word formation I — prefixes and suffixes for decoding unknown words. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-63.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

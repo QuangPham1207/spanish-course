@@ -1,0 +1,297 @@
+{
+  "lesson": 64,
+  "title": "Word formation II: word families",
+  "words": [
+    {
+      "word": "mercadillo",
+      "type": "n.m.",
+      "en": "small/street market",
+      "note": "mercado (L07) + -illo. El mercadillo de los domingos.",
+      "example": { "es": "El mercadillo abre los domingos.", "en": "The little market opens on Sundays." }
+    },
+    {
+      "word": "tendero",
+      "type": "n.m.",
+      "en": "shopkeeper, stallholder",
+      "note": "Family: tienda → tendero. El tendero de la florería.",
+      "example": { "es": "Cada tendero conoce su sitio.", "en": "Every stallholder knows their place." }
+    },
+    {
+      "word": "frutero",
+      "type": "n.m.",
+      "en": "fruit seller; fruit bowl",
+      "note": "Family: fruta (L07) → frutero → frutería.",
+      "example": { "es": "El frutero ya los conoce.", "en": "The fruit seller already knows them." }
+    },
+    {
+      "word": "frutería",
+      "type": "n.f.",
+      "en": "fruit shop",
+      "note": "-ería = shop that sells. La frutería de doña Carmen.",
+      "example": { "es": "Corren rapidito a la frutería.", "en": "They run quickly to the fruit shop." }
+    },
+    {
+      "word": "carnicero",
+      "type": "n.m.",
+      "en": "butcher",
+      "note": "Family: carne (L07) → carnicero → carnicería.",
+      "example": { "es": "El carnicero atiende rápidamente.", "en": "The butcher serves rapidly." }
+    },
+    {
+      "word": "carnicería",
+      "type": "n.f.",
+      "en": "butcher's shop",
+      "note": "-ería = shop. Segunda parada: la carnicería.",
+      "example": { "es": "Segunda parada: la carnicería.", "en": "Second stop: the butcher's." }
+    },
+    {
+      "word": "panadero",
+      "type": "n.m.",
+      "en": "baker",
+      "note": "Family: pan (L07) → panadero → panadería.",
+      "example": { "es": "El panadero regala un pan casero.", "en": "The baker gives away a homemade loaf." }
+    },
+    {
+      "word": "panadería",
+      "type": "n.f.",
+      "en": "bakery",
+      "note": "-ería = shop. En la panadería regalan pan casero.",
+      "example": { "es": "En la panadería huele a pan casero.", "en": "The bakery smells of homemade bread." }
+    },
+    {
+      "word": "pescadero",
+      "type": "n.m.",
+      "en": "fishmonger",
+      "note": "Family: pescado (L07) → pescadero → pescadería.",
+      "example": { "es": "El pescadero explica cada pescado.", "en": "The fishmonger explains every fish." }
+    },
+    {
+      "word": "pescadería",
+      "type": "n.f.",
+      "en": "fish stall/shop",
+      "note": "-ería = shop. Luego pasan por la pescadería.",
+      "example": { "es": "Luego pasan por la pescadería.", "en": "Then they pass the fish stall." }
+    },
+    {
+      "word": "quesero",
+      "type": "n.m.",
+      "en": "cheese seller/maker",
+      "note": "Family: queso (L28) → quesero → quesería.",
+      "example": { "es": "El quesero deja probar poquito.", "en": "The cheese man lets you taste a little." }
+    },
+    {
+      "word": "quesería",
+      "type": "n.f.",
+      "en": "cheese stall/shop",
+      "note": "-ería = shop. En la quesería dejan probar.",
+      "example": { "es": "En la quesería dejan probar el queso.", "en": "At the cheese stall they let you taste the cheese." }
+    },
+    {
+      "word": "flor",
+      "type": "n.f.",
+      "en": "flower",
+      "note": "Family: flor → florero → florería.",
+      "example": { "es": "Regala una flor a la niña.", "en": "He gives the little girl a flower." }
+    },
+    {
+      "word": "florero",
+      "type": "n.m.",
+      "en": "vase",
+      "note": "flor + -ero (holder). Vende el florero baratísimo.",
+      "example": { "es": "Vende el florero baratísimo.", "en": "He sells the vase dirt cheap." }
+    },
+    {
+      "word": "florería",
+      "type": "n.f.",
+      "en": "flower shop/stall",
+      "note": "-ería = shop. El tendero de la florería.",
+      "example": { "es": "El tendero de la florería regala flores.", "en": "The flower-stall keeper gives away flowers." }
+    },
+    {
+      "word": "cafecito",
+      "type": "n.m.",
+      "en": "small coffee",
+      "note": "café + -cito. Tomar un cafecito. Affectionate, not just small.",
+      "example": { "es": "Toman un cafecito con el abuelito.", "en": "They have a little coffee with grandpa." }
+    },
+    {
+      "word": "poquito",
+      "type": "n./adv.",
+      "en": "a little bit",
+      "note": "poco + -ito. Pide poquito de todo.",
+      "example": { "es": "Pide poquito de todo.", "en": "He asks for a little bit of everything." }
+    },
+    {
+      "word": "rapidito",
+      "type": "adv.",
+      "en": "quickly (with affection)",
+      "note": "rápido + -ito. Corre rapidito. Diminutive on an adverb.",
+      "example": { "es": "El niño corre rapidito entre los puestos.", "en": "The boy runs quickly between the stalls." }
+    },
+    {
+      "word": "abuelito",
+      "type": "n.m.",
+      "en": "grandpa (affectionate)",
+      "note": "Family: abuelo → abuelito. Un cafecito con el abuelito.",
+      "example": { "es": "Un cafecito con el abuelito.", "en": "A little coffee with grandpa." }
+    },
+    {
+      "word": "abuelo",
+      "type": "n.m.",
+      "en": "grandfather; grandpa",
+      "note": "Base of abuelito. El abuelo guía al grupo.",
+      "example": { "es": "El abuelo guía al grupo.", "en": "Grandpa leads the group." }
+    },
+    {
+      "word": "chiquillo",
+      "type": "n./adj.",
+      "en": "little kid",
+      "note": "chico + -illo. -illo rules in Andalucía, Colombia, Caribe; Costa Rica prefers -ico.",
+      "example": { "es": "El nieto más chiquillo corre rapidito.", "en": "The littlest grandson runs quickly along." }
+    },
+    {
+      "word": "platillo",
+      "type": "n.m.",
+      "en": "small dish; saucer",
+      "note": "plato + -illo. Un platillo de natillas.",
+      "example": { "es": "De postre, un platillo de natillas.", "en": "For dessert, a little dish of custard." }
+    },
+    {
+      "word": "cucharón",
+      "type": "n.m.",
+      "en": "ladle",
+      "note": "cuchara + -ón (big). Sirve la sopa con un cucharón.",
+      "example": { "es": "Sirve la sopa con un cucharón enorme.", "en": "He serves the soup with a huge ladle." }
+    },
+    {
+      "word": "hombrón",
+      "type": "n.m.",
+      "en": "big/hearty fellow",
+      "note": "hombre (L05) + -ón. Un hombrón de voz grave.",
+      "example": { "es": "Es un hombrón de voz grave.", "en": "He is a big fellow with a deep voice." }
+    },
+    {
+      "word": "ollaza",
+      "type": "n.f.",
+      "en": "giant pot",
+      "note": "olla + -aza. El guiso llega en una ollaza.",
+      "example": { "es": "El guiso llega en una ollaza que echa humo.", "en": "The stew arrives in a giant steaming pot." }
+    },
+    {
+      "word": "golpazo",
+      "type": "n.m.",
+      "en": "loud bang",
+      "note": "golpe (L49) + -azo (blow). Se oye un golpazo.",
+      "example": { "es": "Se oye un golpazo al cerrar.", "en": "There's a loud bang as it closes." }
+    },
+    {
+      "word": "amabilidad",
+      "type": "n.f.",
+      "en": "kindness",
+      "note": "Family: amable (L17) → amabilidad. Trata con amabilidad.",
+      "example": { "es": "Con amabilidad todo se vende rapidito.", "en": "With kindness everything sells quickly." }
+    },
+    {
+      "word": "igualdad",
+      "type": "n.f.",
+      "en": "equality",
+      "note": "Family: igual (L26) → igualdad.",
+      "example": { "es": "El mercado es igualdad y libertad.", "en": "The market is equality and freedom." }
+    },
+    {
+      "word": "libertad",
+      "type": "n.f.",
+      "en": "freedom, liberty",
+      "note": "Family: libre (L16) → libertad.",
+      "example": { "es": "El mercado es igualdad, libertad y felicidad.", "en": "The market is equality, freedom and happiness." }
+    },
+    {
+      "word": "felicidad",
+      "type": "n.f.",
+      "en": "happiness",
+      "note": "Family: feliz (L16) → felicidad. Pura felicidad.",
+      "example": { "es": "El mercado es pura felicidad.", "en": "The market is pure happiness." }
+    },
+    {
+      "word": "rápidamente",
+      "type": "adv.",
+      "en": "rapidly, quickly",
+      "note": "rápida + -mente. Keeps the written accent.",
+      "example": { "es": "El carnicero atiende rápidamente.", "en": "The butcher serves rapidly." }
+    },
+    {
+      "word": "lentamente",
+      "type": "adv.",
+      "en": "slowly",
+      "note": "lenta + -mente. Sirve lentamente.",
+      "example": { "es": "El mercadillo se vacía lentamente.", "en": "The little market empties slowly." }
+    },
+    {
+      "word": "organización",
+      "type": "n.f.",
+      "en": "organisation",
+      "note": "Family: organizar → organización. Buena organización.",
+      "example": { "es": "Detrás de todo hay buena organización.", "en": "Behind it all there's good organisation." }
+    },
+    {
+      "word": "decisión",
+      "type": "n.f.",
+      "en": "decision",
+      "note": "Family: decidir → decisión (-sión after d). La mejor decisión.",
+      "example": { "es": "La mejor decisión: volver el domingo.", "en": "The best decision: to come back on Sunday." }
+    },
+    {
+      "word": "fresquísimo",
+      "type": "adj.",
+      "en": "super fresh",
+      "note": "fresco + -ísimo. Las naranjas están fresquísimas.",
+      "example": { "es": "Las naranjas están fresquísimas.", "en": "The oranges are super fresh." }
+    },
+    {
+      "word": "baratísimo",
+      "type": "adj.",
+      "en": "dirt cheap",
+      "note": "barato + -ísimo. El melón, baratísimo.",
+      "example": { "es": "El melón está baratísimo hoy.", "en": "The melon is dirt cheap today." }
+    },
+    {
+      "word": "buenísimo",
+      "type": "adj.",
+      "en": "excellent, really good",
+      "note": "bueno → buen- + -ísimo. Un queso buenísimo.",
+      "example": { "es": "Deja probar un queso buenísimo.", "en": "He lets them taste an excellent cheese." }
+    },
+    {
+      "word": "grandote",
+      "type": "adj.",
+      "en": "huge, big",
+      "note": "grande + -ote (augmentative). Un bocadillo grandote.",
+      "ext": true,
+      "example": { "es": "Trae un bocadillo grandote.", "en": "He brings a giant sandwich." }
+    },
+    {
+      "word": "limonada",
+      "type": "n.f.",
+      "en": "lemonade",
+      "note": "limón + -ada (drink made of). Una limonada fresquísima.",
+      "ext": true,
+      "example": { "es": "Una limonada fresquísima, por favor.", "en": "A super-fresh lemonade, please." }
+    },
+    {
+      "word": "ahorita",
+      "type": "adv.",
+      "en": "right now (LatAm)",
+      "note": "ahora + -ita. Everyday Latin America; Spain says ahora mismo.",
+      "ext": true,
+      "example": { "es": "La decisión se toma ahorita.", "en": "The decision is made right now." }
+    },
+    {
+      "word": "dormilón",
+      "type": "n./adj.",
+      "en": "sleepyhead",
+      "note": "dormir + -ilón. Hecho un dormilón.",
+      "ext": true,
+      "example": { "es": "El niño, hecho un dormilón, se duerme.", "en": "The boy, a total sleepyhead, falls asleep." }
+    }
+  ]
+}

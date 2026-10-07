@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 61 — Non-finite clauses</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-60.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 61 — NON-FINITE CLAUSES</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read absolute participles: <span class="es">terminada la restauración…, una vez desmontado…</span></li>
+      <li>Use the infinitive as a noun: <span class="es">restaurar bien lleva tiempo, fumar es malo…</span></li>
+      <li>Read gerund clauses — including the advanced <span class="es">habiéndose…</span> form.</li>
+      <li>Follow a restoration workshop bringing a church altarpiece back to life.</li>
+      <li>Pick up words: <span class="es">retablo, barniz, pátina, ebanista, andamio, dorado</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">restauración, restaurar, marco, barniz, grieta, andamio, fresco, altar, viga, escombro, artesano, ebanista, dorado, bastidor, carpintero, retablo, vitral, cantero, lija, lijar, desmontar, catalogar, documentar, diagnóstico, consolidar, reponer, pátina, craquelado, meticuloso, aprendiz, pulir, policromía, fumar, pintura, polvo, cliente, calidad</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">decapar, reintegración, impoluto</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (TERMINADA LA RESTAURACIÓN)</h2>
+<p><strong>Context:</strong> A small restoration workshop in Puebla spends four months on a church altarpiece. The chronicle is full of participles standing alone, infinitives acting as nouns, and gerunds carrying whole scenes.</p>
+<p class="lead">(Non-finite = a verb with no person and no tense: the participle, the infinitive and the gerund doing the work of whole clauses.)</p>
+
+<div class="phrase">
+  <p class="es"><b>Terminada</b> la <b>restauración</b> del <b>altar</b>, la iglesia del pueblo volvió a abrir sus puertas.</p>
+  <p class="en">With the restoration of the altar finished, the village church opened its doors again.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>retablo</b>, una <b>pintura</b> del siglo dieciocho sobre madera, llevaba doscientos años lleno de <b>polvo</b>.</p>
+  <p class="en">The altarpiece, an 18th-century painting on wood, had spent two hundred years covered in dust.</p>
+</div>
+<div class="phrase">
+  <p class="es">El primer trabajo fue el <b>diagnóstico</b>: <b>catalogar</b> todo y <b>documentar</b> cada <b>grieta</b> del <b>retablo</b> durante dos semanas.</p>
+  <p class="en">The first job was the diagnosis: cataloguing everything and documenting every crack in the altarpiece for two weeks.</p>
+</div>
+<div class="phrase">
+  <p class="es">Una vez <b>desmontado</b> el <b>retablo</b>, los <b>artesanos</b> subieron al <b>andamio</b> con <b>lija</b> y pinceles.</p>
+  <p class="en">Once the altarpiece was taken apart, the craftspeople climbed the scaffolding with sandpaper and brushes.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Lijar</b> a mano es lento, y el <b>aprendiz</b>, <b>meticuloso</b>, pasó una semana entera con la <b>lija</b> en la mano.</p>
+  <p class="en">Sanding by hand is slow, and the apprentice — meticulous — spent a whole week with the sandpaper in his hand.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>carpintero</b> tuvo que <b>reponer</b> una <b>viga</b> comida por los años y <b>consolidar</b> el <b>bastidor</b> del <b>marco</b>.</p>
+  <p class="en">The carpenter had to replace a beam eaten away by the years and consolidate the frame's inner stretcher.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>ebanista</b> limpió el <b>dorado</b> con agua y tiempo, cuidando la <b>pátina</b> de tres siglos.</p>
+  <p class="en">The cabinetmaker cleaned the gilding with water and patience, taking care of the three-centuries-old patina.</p>
+</div>
+<div class="phrase">
+  <p class="es">De cerca, la <b>policromía</b> mostraba un <b>craquelado</b> fino, lleno de pequeñas <b>grietas</b>.</p>
+  <p class="en">Up close, the polychromy showed a fine craquelure, full of tiny cracks.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Restaurar</b> es decidir: el <b>fresco</b> del <b>altar</b> se quedó como estaba.</p>
+  <p class="en">To restore is to decide: the fresco on the altar stayed as it was.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>lijar</b> y el <b>pulir</b> llevaron todo el mes de mayo.</p>
+  <p class="en">The sanding and the polishing took up the whole month of May.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>cliente</b> dice que <b>fumar</b> es malo para la <b>pintura</b>.</p>
+  <p class="en">The client says that smoking is bad for the painting.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>vitral</b> del coro se limpió con agua clara, poco a poco.</p>
+  <p class="en">The choir's stained-glass window was cleaned with clear water, little by little.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Lijando</b> el <b>marco</b> con cuidado, el <b>aprendiz</b> encontró un año escrito a mano: 1798.</p>
+  <p class="en">While sanding the frame carefully, the apprentice found a year written by hand: 1798.</p>
+</div>
+<div class="phrase">
+  <p class="es">Limpio ya el <b>barniz</b> viejo, los colores parecían nuevos.</p>
+  <p class="en">With the old varnish now cleaned off, the colours looked new.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>cantero</b> llevó el <b>escombro</b> fuera de la iglesia, en tres viajes.</p>
+  <p class="en">The stonemason carried the rubble out of the church in three trips.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al final, el <b>cliente</b> pagó el precio justo por un trabajo de gran <b>calidad</b>.</p>
+  <p class="en">In the end, the client paid the fair price for a job of great quality.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>dorado</b>, ya <b>pulido</b> a mano, parece nuevo.</p>
+  <p class="en">The gilding, now hand-polished, looks new.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Terminada</b> la obra, el pueblo entró a mirar: el <b>retablo</b> parecía otro.</p>
+  <p class="en">With the work finished, the village came in to look: the altarpiece seemed a different one.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">decapar</span></td><td data-label="Type">v.</td><td data-label="English">to strip (paint/varnish)</td><td data-label="Notes">Decapamos la pintura nueva.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reintegración</span></td><td data-label="Type">n.f.</td><td data-label="English">reintegration, infilling (restoration)</td><td data-label="Notes">Terminada la reintegración, solo falta el barniz.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">impoluto</span></td><td data-label="Type">adj.</td><td data-label="English">spotless, pristine</td><td data-label="Notes">Formal word: el dorado queda impoluto.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> <span class="es">terminada la restauración</span> and <span class="es">limpio ya el barniz</span> have no verb with a person — the participle opens the scene. <span class="es">Restaurar es decidir</span> and <span class="es">fumar es malo</span> use infinitives as nouns. <span class="es">Lijando el marco…</span> packs a whole "while" clause into one gerund.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Absolute participles: terminada la restauración…</h3>
+<p>An absolute construction is a participle that agrees with a noun, followed by the main clause — with no connector like <span class="es">cuando</span> or <span class="es">porque</span>. <span class="es">Una vez</span> often introduces it. It is the signature opening of chronicles and reports.</p>
+<div class="formula">Participle (agrees: terminar → terminada/terminados) + noun + main clause</div>
+<ul>
+  <li class="ex"><span class="es"><b>Terminada</b> la <b>restauración</b>, la iglesia volvió a abrir.</span><span class="en">With the restoration finished, the church reopened.</span></li>
+  <li class="ex"><span class="es">Una vez <b>desmontado</b> el <b>retablo</b>, subieron al <b>andamio</b>.</span><span class="en">Once the altarpiece was taken apart, they climbed the scaffolding.</span></li>
+  <li class="ex"><span class="es">Limpio ya el <b>barniz</b>, los colores parecían nuevos.</span><span class="en">With the varnish now cleaned, the colours looked new.</span></li>
+  <li class="ex"><span class="es"><b>Documentada</b> cada <b>grieta</b>, empezó el trabajo.</span><span class="en">With every crack documented, the work began. (feminine: documentada)</span></li>
+</ul>
+
+<h3>2.2. The infinitive as a noun: restaurar es decidir</h3>
+<p>A Spanish infinitive works as a masculine singular noun — subject, or object with <span class="es">el</span>. No plural, no article changes: <span class="es">el lijar y el pulir</span> (the sanding and the polishing).</p>
+<div class="formula">Infinitive = masculine singular noun: <b>restaurar</b> es decidir · <b>fumar</b> es malo · el <b>lijar</b> y el <b>pulir</b></div>
+<ul>
+  <li class="ex"><span class="es"><b>Restaurar</b> es decidir.</span><span class="en">To restore is to decide. (infinitive as subject)</span></li>
+  <li class="ex"><span class="es"><b>Lijar</b> a mano es lento.</span><span class="en">Sanding by hand is slow.</span></li>
+  <li class="ex"><span class="es">El <b>cliente</b> dice que <b>fumar</b> es malo.</span><span class="en">The client says smoking is bad.</span></li>
+  <li class="ex"><span class="es">El <b>lijar</b> y el <b>pulir</b> llevaron mayo.</span><span class="en">The sanding and polishing took up May. (with article: el + infinitive)</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> these constructions are identical everywhere. You will meet absolute participles most in writing from Spain's press and in Latin American formal reports alike — it is a written-register tool, not a regional one.</div>
+
+<h3>2.3. Gerund clauses: lijando… / habiéndose… (advanced)</h3>
+<p>A gerund clause sets the background — "while / by / after …-ing". The advanced form <span class="es">habiéndose + participle</span> marks something already finished when the main action starts; read it for recognition only.</p>
+<div class="formula">Gerund + main clause (<b>lijar</b> → lijando…) · (advanced) terminar → habiéndose terminado…</div>
+<ul>
+  <li class="ex"><span class="es"><b>Lijando</b> el <b>marco</b>, encontró el año.</span><span class="en">While sanding the frame, he found the year. (= mientras lijaba)</span></li>
+  <li class="ex"><span class="es">Cuidando la <b>pátina</b>, limpió el <b>dorado</b>.</span><span class="en">Taking care of the patina, she cleaned the gilding.</span></li>
+  <li class="ex"><span class="es">Estando rota la <b>viga</b>, no se pudo seguir.</span><span class="en">The beam being broken, they couldn't go on. (advanced absolute gerund)</span></li>
+  <li class="ex"><span class="es"><b>Habiéndose terminado</b> la obra, cerraron el taller.</span><span class="en">The work having been finished, they closed the workshop. (advanced)</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistakes:</strong> a gerund can never be the subject: <span class="es"><b>lijar</b> es lento</span> (right), not <span class="es">lijando es lento</span> (wrong — use the infinitive). And an absolute participle must agree: <span class="es"><b>terminada</b> la obra</span>, <span class="es"><b>documentada</b> cada grieta</span>.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">restauración</span></td><td data-label="Type">n.f.</td><td data-label="English">restoration</td><td data-label="Notes">Terminada la restauración del altar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">restaurar</span></td><td data-label="Type">v.</td><td data-label="English">to restore</td><td data-label="Notes">Restaurar es decidir.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">marco</span></td><td data-label="Type">n.m.</td><td data-label="English">frame</td><td data-label="Notes">Lijando el marco con cuidado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">barniz</span></td><td data-label="Type">n.m.</td><td data-label="English">varnish</td><td data-label="Notes">Limpio ya el barniz viejo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">grieta</span></td><td data-label="Type">n.f.</td><td data-label="English">crack</td><td data-label="Notes">Documentar cada grieta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">andamio</span></td><td data-label="Type">n.m.</td><td data-label="English">scaffolding</td><td data-label="Notes">Subieron al andamio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fresco</span></td><td data-label="Type">n.m.</td><td data-label="English">fresco (wall painting)</td><td data-label="Notes">El fresco del altar se quedó como estaba.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">altar</span></td><td data-label="Type">n.m.</td><td data-label="English">altar</td><td data-label="Notes">La restauración del altar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">viga</span></td><td data-label="Type">n.f.</td><td data-label="English">beam</td><td data-label="Notes">Estando rota la viga… (advanced).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">escombro</span></td><td data-label="Type">n.m.</td><td data-label="English">rubble, debris</td><td data-label="Notes">Llevó el escombro fuera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">artesano</span></td><td data-label="Type">n.m./f.</td><td data-label="English">craftsperson, artisan</td><td data-label="Notes">Los artesanos subieron al andamio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ebanista</span></td><td data-label="Type">n.m./f.</td><td data-label="English">cabinetmaker</td><td data-label="Notes">Limpiaron el dorado con agua y tiempo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dorado</span></td><td data-label="Type">n.m.</td><td data-label="English">gilding</td><td data-label="Notes">El dorado, ya pulido, parece nuevo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bastidor</span></td><td data-label="Type">n.m.</td><td data-label="English">stretcher (frame support)</td><td data-label="Notes">Consolidar el bastidor del marco.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">carpintero</span></td><td data-label="Type">n.m./f.</td><td data-label="English">carpenter</td><td data-label="Notes">Tuvo que reponer una viga.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">retablo</span></td><td data-label="Type">n.m.</td><td data-label="English">altarpiece</td><td data-label="Notes">Church art: el retablo parecía otro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vitral</span></td><td data-label="Type">n.m.</td><td data-label="English">stained-glass window</td><td data-label="Notes">LatAm: vitral. Spain also: vidriera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cantero</span></td><td data-label="Type">n.m./f.</td><td data-label="English">stonemason</td><td data-label="Notes">Llevó el escombro fuera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lija</span></td><td data-label="Type">n.f.</td><td data-label="English">sandpaper</td><td data-label="Notes">Con la lija en la mano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lijar</span></td><td data-label="Type">v.</td><td data-label="English">to sand</td><td data-label="Notes">Lijar a mano es lento; lijando el marco…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desmontar</span></td><td data-label="Type">v.</td><td data-label="English">to take apart, to dismantle</td><td data-label="Notes">Una vez desmontado el retablo…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">catalogar</span></td><td data-label="Type">v.</td><td data-label="English">to catalogue</td><td data-label="Notes">Catalogar todo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">documentar</span></td><td data-label="Type">v.</td><td data-label="English">to document</td><td data-label="Notes">Documentada cada grieta…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">diagnóstico</span></td><td data-label="Type">n.m.</td><td data-label="English">diagnosis, assessment</td><td data-label="Notes">El primer trabajo fue el diagnóstico.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">consolidar</span></td><td data-label="Type">v.</td><td data-label="English">to consolidate, to strengthen</td><td data-label="Notes">Consolidar el bastidor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reponer</span></td><td data-label="Type">v.</td><td data-label="English">to replace, to restore (a part)</td><td data-label="Notes">Tuvo que reponer una viga.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pátina</span></td><td data-label="Type">n.f.</td><td data-label="English">patina</td><td data-label="Notes">Cuidando la pátina de tres siglos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">craquelado</span></td><td data-label="Type">n.m.</td><td data-label="English">craquelure (fine cracks)</td><td data-label="Notes">Un craquelado fino.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">meticuloso</span></td><td data-label="Type">adj.</td><td data-label="English">meticulous</td><td data-label="Notes">El aprendiz, meticuloso…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">aprendiz</span></td><td data-label="Type">n.m./f.</td><td data-label="English">apprentice</td><td data-label="Notes">Lijando el marco, el aprendiz encontró…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pulir</span></td><td data-label="Type">v.</td><td data-label="English">to polish</td><td data-label="Notes">El lijar y el pulir; ya pulido a mano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">policromía</span></td><td data-label="Type">n.f.</td><td data-label="English">polychromy (multi-colour paint)</td><td data-label="Notes">La policromía mostraba un craquelado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fumar</span></td><td data-label="Type">v.</td><td data-label="English">to smoke</td><td data-label="Notes">Fumar es malo: infinitive as subject.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pintura</span></td><td data-label="Type">n.f.</td><td data-label="English">painting; paint</td><td data-label="Notes">Fumar es malo para la pintura.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">polvo</span></td><td data-label="Type">n.m.</td><td data-label="English">dust</td><td data-label="Notes">Lleno de polvo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cliente</span></td><td data-label="Type">n.m./f.</td><td data-label="English">client, customer</td><td data-label="Notes">El cliente pagó el precio justo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">calidad</span></td><td data-label="Type">n.f.</td><td data-label="English">quality</td><td data-label="Notes">Un trabajo de gran calidad.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five workshop sentences. Read them once; no need to memorize.</p>
+
+<h3>1. The opener:</h3>
+<div class="phrase">
+  <p class="es">Terminada la restauración, abrimos la iglesia.</p>
+  <p class="en">With the restoration finished, we open the church.</p>
+</div>
+<h3>2. The motto:</h3>
+<div class="phrase">
+  <p class="es">Restaurar bien lleva tiempo.</p>
+  <p class="en">Restoring well takes time.</p>
+</div>
+<h3>3. The rule:</h3>
+<div class="phrase">
+  <p class="es">Fumar es malo para la pintura.</p>
+  <p class="en">Smoking is bad for the painting.</p>
+</div>
+<h3>4. The lesson:</h3>
+<div class="phrase">
+  <p class="es">Lijando se aprende.</p>
+  <p class="en">You learn by sanding.</p>
+</div>
+<h3>5. The bill:</h3>
+<div class="phrase">
+  <p class="es">El precio es justo por esta calidad.</p>
+  <p class="en">The price is fair for this quality.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> The client visits the workshop to see how his altarpiece is doing.</p>
+
+<div class="phrase">
+  <p class="es">Cliente: ¿Cuándo <b>terminan</b> la <b>restauración</b> del <b>retablo</b>?</p>
+  <p class="en">Client: When will the restoration of the altarpiece be finished?</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: <b>Terminada</b> la <b>reintegración</b>, solo falta el <b>barniz</b>.</p>
+  <p class="en">Lucía: Once the infilling is done, only the varnish is missing.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cliente: ¿Ese color es el de 1798?</p>
+  <p class="en">Client: Is that colour the one from 1798?</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Sí. <b>Decapamos</b> la <b>pintura</b> nueva y salió el color de 1798.</p>
+  <p class="en">Lucía: Yes. We stripped off the newer paint and the 1798 colour came out.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cliente: ¿El <b>dorado</b> queda <b>impoluto</b>?</p>
+  <p class="en">Client: Will the gilding be spotless?</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: <b>Pulido</b> a mano, como nuevo. <b>Pulir</b> lleva tiempo, pero la <b>calidad</b> lo pide.</p>
+  <p class="en">Lucía: Hand-polished, like new. Polishing takes time, but quality demands it.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cliente: El precio es justo. Hablamos el lunes.</p>
+  <p class="en">Client: The price is fair. We'll talk on Monday.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>decapar</strong> (to strip), <strong>reintegración</strong> (infilling), <strong>impoluto</strong> (spotless) — all extension words from today's table.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Absolute participles:</strong> <span class="es">terminada la restauración…, una vez desmontado…, limpio ya el barniz…</span> — participle agrees with its noun, no connector.</li>
+  <li><strong>Infinitive as noun:</strong> <span class="es">restaurar es decidir, fumar es malo, el lijar y el pulir</span> — masculine singular, never a gerund as subject.</li>
+  <li><strong>Gerund clauses:</strong> <span class="es">lijando el marco…, encontró…</span> — background action; <span class="es">habiéndose terminado…</span> is advanced, read for recognition.</li>
+</ul>
+
+<h3>5.2. Further reading — el taller de cada día</h3>
+<p><strong>Context:</strong> Everyday life in the workshop, after the altarpiece is gone. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En el taller se <b>restaura</b> de todo: <b>marcos</b>, <b>altares</b> y <b>frescos</b> de pueblo.</p>
+  <p class="en">In the workshop they restore everything: frames, altars and village frescoes.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>ebanista</b> y el <b>carpintero</b> trabajan juntos desde hace años.</p>
+  <p class="en">The cabinetmaker and the carpenter have worked together for years.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>aprendiz</b> <b>cataloga</b> y <b>documenta</b>, <b>meticuloso</b>, cada mañana.</p>
+  <p class="en">The apprentice catalogues and documents, meticulous, every morning.</p>
+</div>
+<div class="phrase">
+  <p class="es">A las dos se cierra y se habla del <b>diagnóstico</b> de la tarde.</p>
+  <p class="en">At two they close up and discuss the afternoon's assessment.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Terminado</b> el día, todos vuelven a casa contentos.</p>
+  <p class="en">With the day finished, everyone goes home happy.</p>
+</div>
+
+<p class="lead"><em>No new words here — everything comes from today's table. Notice the last line: another absolute participle (<strong>terminado</strong> el día).</em></p>
+
+<hr>
+<p><strong>End of Lesson 61.</strong> Next, <strong>Lesson 62</strong>: nominalization and formal written syntax — how reports turn actions into nouns. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-62.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 70 — Language & identity</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-69.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a> &middot; <a href="lesson-71.html">Next &rarr;</a></p>
+
+<header class="top">
+  <h1>LESSON 70 — LANGUAGE &amp; IDENTITY</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read how Quechua, Guaraní and Náhuatl live today — plus Spanglish in the US.</li>
+      <li>Learn metalinguistic words: <span class="es">préstamo, bilingüismo, diglosia, prestigio, norma</span>.</li>
+      <li>Take a stance politely: <span class="es">desde mi punto de vista, en mi opinión, cabe señalar que, es innegable que</span>.</li>
+      <li>Follow the RAE vs inclusive-language debate (<span class="es">todes, elle</span>).</li>
+      <li>Pick up words: <span class="es">hablante, cooficial, anglicismo, polémica, revitalizar</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">préstamo, bilingüismo, bilingüe, diglosia, prestigio, prestigioso, norma, lengua materna, hablante, quechua, guaraní, náhuatl, cooficial, constitución, alfabetizar, prohibir, castigo, avergonzar, espanglish, fronterizo, chicano, alternancia, anglicismo, calco, academia, RAE, pronombre, inclusivo, proponer, polémica, debate, defender, criticar, desde mi punto de vista, en mi opinión, cabe señalar que, es innegable que, vitalidad, transmitir, desplazamiento, revitalizar, inmigrante, barrio</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">jopara, mapudungun, elle, todes</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (¿DE QUIÉN ES EL ESPAÑOL?)</h2>
+<p><strong>Context:</strong> A law student in Asunción speaks Guaraní at home. A rapper in Los Angeles mixes English and Spanish. A teacher in Madrid corrects <em>todes</em> in red. All three ask the same question: who decides what correct Spanish is?</p>
+<p class="lead">(Words about language itself are in <b>bold</b>. Read the English only to check.)</p>
+
+<div class="phrase">
+  <p class="es">El español no está solo: en América convive con el <b>quechua</b>, el <b>guaraní</b> y el <b>náhuatl</b>, entre muchas lenguas.</p>
+  <p class="en">Spanish is not alone: in America it lives alongside Quechua, Guaraní and Nahuatl, among many languages.</p>
+</div>
+<div class="phrase">
+  <p class="es">El quechua tiene millones de <b>hablantes</b> en Perú y Bolivia; para muchos es su <b>lengua materna</b>.</p>
+  <p class="en">Quechua has millions of speakers in Peru and Bolivia; for many it is their mother tongue.</p>
+</div>
+<div class="phrase">
+  <p class="es">El náhuatl, lengua de los mexicas, sobrevive en México con más de un millón de hablantes y fuerte <b>vitalidad</b>.</p>
+  <p class="en">Nahuatl, language of the Mexica, survives in Mexico with over a million speakers and strong vitality.</p>
+</div>
+<div class="phrase">
+  <p class="es">El caso especial es Paraguay: su <b>constitución</b> declara al guaraní lengua <b>cooficial</b> junto al español.</p>
+  <p class="en">The special case is Paraguay: its constitution declares Guaraní co-official alongside Spanish.</p>
+</div>
+<div class="phrase">
+  <p class="es">Allí el <b>bilingüismo</b> es cotidiano: en la calle se escucha el <b>jopara</b>, mezcla diaria de guaraní y español.</p>
+  <p class="en">There bilingualism is everyday: in the street you hear jopara, a daily mix of Guaraní and Spanish.</p>
+</div>
+<div class="phrase">
+  <p class="es">La mayoría de los paraguayos es <b>bilingüe</b>, aunque el español conserva más <b>prestigio</b> en la escuela y el gobierno.</p>
+  <p class="en">Most Paraguayans are bilingual, although Spanish keeps more prestige in school and government.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los lingüistas llaman a eso <b>diglosia</b>: dos lenguas viven juntas, pero una manda y la otra obedece.</p>
+  <p class="en">Linguists call that diglossia: two languages live together, but one commands and the other obeys.</p>
+</div>
+<div class="phrase">
+  <p class="es">Esa jerarquía no es natural: durante siglos se <b>prohibió</b> hablar lenguas indígenas en la escuela, con <b>castigo</b> físico.</p>
+  <p class="en">That hierarchy is not natural: for centuries speaking indigenous languages at school was forbidden, with physical punishment.</p>
+</div>
+<div class="phrase">
+  <p class="es">Muchos abuelos aún se <b>avergüenzan</b> de su lengua; sus nietos, en cambio, quieren <b>revitalizarla</b> y <b>transmitirla</b>.</p>
+  <p class="en">Many grandparents are still ashamed of their language; their grandchildren, in contrast, want to revitalize and pass it on.</p>
+</div>
+<div class="phrase">
+  <p class="es">Programas de <b>alfabetización</b> en quechua y guaraní llevan hoy esas lenguas a libros, radio y teléfonos.</p>
+  <p class="en">Literacy programmes in Quechua and Guaraní bring those languages today to books, radio and phones.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero el <b>desplazamiento</b> sigue: los jóvenes migran a la ciudad y dejan de hablar la lengua de sus padres.</p>
+  <p class="en">But displacement continues: young people migrate to the city and stop speaking their parents' language.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al norte del río Bravo aparece otro fenómeno: el <b>espanglish</b> de los barrios <b>fronterizos</b> y <b>chicanos</b>.</p>
+  <p class="en">North of the Rio Grande another phenomenon appears: the Spanglish of border and Chicano neighbourhoods.</p>
+</div>
+<div class="phrase">
+  <p class="es">«Voy a parquear la troca», dice un <b>inmigrante</b> en Texas: son <b>préstamos</b> del inglés adaptados al español.</p>
+  <p class="en">"I'm going to park the truck," says an immigrant in Texas: they are loans from English adapted to Spanish.</p>
+</div>
+<div class="phrase">
+  <p class="es">Otros ejemplos son <b>anglicismos</b> directos (<i>email, show</i>) y <b>calcos</b> como «te llamo para atrás» (<i>I'll call you back</i>).</p>
+  <p class="en">Other examples are direct anglicisms (email, show) and calques like "te llamo para atrás" (I'll call you back).</p>
+</div>
+<div class="phrase">
+  <p class="es">Los hablantes cambian de lengua a mitad de frase: esa <b>alternancia</b> es rápida, creativa y normal.</p>
+  <p class="en">Speakers switch languages mid-sentence: that alternation is fast, creative and normal.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Cabe señalar que</b> el espanglish tiene reglas propias; no es «español roto», como dicen sus críticos.</p>
+  <p class="en">It should be noted that Spanglish has its own rules; it is not "broken Spanish", as its critics say.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Es innegable que</b> muchos lo <b>critican</b>; otros lo <b>defienden</b> como identidad viva de la diáspora.</p>
+  <p class="en">It is undeniable that many criticize it; others defend it as a living identity of the diaspora.</p>
+</div>
+<div class="phrase">
+  <p class="es">El tercer debate está en España y el Cono Sur: el lenguaje <b>inclusivo</b> y la <b>norma</b> de la <b>RAE</b>.</p>
+  <p class="en">The third debate is in Spain and the Southern Cone: inclusive language and the RAE norm.</p>
+</div>
+<div class="phrase">
+  <p class="es">Jóvenes y colectivos <b>proponen</b> <b>todes</b> y el <b>pronombre</b> <b>elle</b> para incluir a personas no binarias.</p>
+  <p class="en">Young people and groups propose "todes" and the pronoun "elle" to include non-binary people.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>academia</b> responde que la <b>norma</b> ya incluye a todos con el masculino genérico y rechaza esas formas.</p>
+  <p class="en">The academy answers that the norm already includes everyone with the generic masculine and rejects those forms.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>polémica</b> llena periódicos: <b>en mi opinión</b>, dicen unos, la lengua la hace la gente; <b>desde mi punto de vista</b>, dicen otros, la escuela debe guardar la unidad.</p>
+  <p class="en">The controversy fills newspapers: in my opinion, say some, language is made by the people; from my point of view, say others, school must guard unity.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>debate</b> sigue abierto en el <b>barrio</b>, en la universidad y en la familia: ¿quién manda en la lengua?</p>
+  <p class="en">The debate remains open in the neighbourhood, at university and in the family: who commands language?</p>
+</div>
+<div class="phrase">
+  <p class="es">Quizá la respuesta está en Paraguay, en Los Ángeles y en los Andes: la lengua vive donde se habla con <b>orgullo</b>.</p>
+  <p class="en">Perhaps the answer is in Paraguay, Los Angeles and the Andes: language lives where it is spoken with pride.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">jopara</span></td><td data-label="Type">n.m.</td><td data-label="English">jopara (Guaraní-Spanish mix)</td><td data-label="Notes">Mezcla diaria en Paraguay.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mapudungun</span></td><td data-label="Type">n.m.</td><td data-label="English">Mapudungun (Mapuche language)</td><td data-label="Notes">Lengua mapuche en Chile y Argentina.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">elle</span></td><td data-label="Type">pron.</td><td data-label="English">elle (inclusive pronoun)</td><td data-label="Notes">Propuesta no binaria; no aceptado por la RAE.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">todes</span></td><td data-label="Type">pron.</td><td data-label="English">todes (inclusive form)</td><td data-label="Notes">Lenguaje inclusivo: todes vs todos.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> Paraguay shows <span class="es">bilingüismo</span> with <span class="es">diglosia</span> (two languages, unequal <span class="es">prestigio</span>). Spanglish shows <span class="es">préstamos</span> and <span class="es">alternancia</span> — also about prestige, but at the border.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Metalinguistic vocabulary: préstamo, bilingüismo, diglosia, prestigio, norma</h3>
+<p>Five technical words let you talk <em>about</em> language. They are worth learning precisely.</p>
+<ul>
+  <li class="ex"><span class="es">Un <b>préstamo</b> es una palabra tomada de otra lengua: <i>troca</i> viene de <i>truck</i>.</span><span class="en">A loanword is a word taken from another language: troca comes from truck.</span></li>
+  <li class="ex"><span class="es">Un <b>anglicismo</b> es un <b>préstamo</b> del inglés; un <b>calco</b> es una traducción literal («llamar para atrás»).</span><span class="en">An anglicism is a loan from English; a calque is a literal translation ("call back").</span></li>
+  <li class="ex"><span class="es">El <b>bilingüismo</b> paraguayo es real, pero con <b>diglosia</b>: el guaraní en casa, el español <b>prestigioso</b> en la oficina.</span><span class="en">Paraguayan bilingualism is real, but with diglossia: Guaraní at home, prestigious Spanish at the office.</span></li>
+  <li class="ex"><span class="es">La <b>norma</b> de la <b>RAE</b> y las <b>academias</b> dice qué es «correcto»; la calle decide qué vive.</span><span class="en">The RAE and academies' norm says what is "correct"; the street decides what lives.</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> Paraguay is the only country with an indigenous language fully <span class="es">cooficial</span> and spoken by most non-indigenous people. In Spain, <span class="es">cooficial</span> means Catalan, Basque, Galician alongside Spanish. <span class="es">Voseo</span> (vos) is standard in Paraguay and Argentina.</div>
+
+<h3>2.2. Stance markers: giving your opinion at B2</h3>
+<p>At B2 you must mark <em>who thinks what</em>. These four frames do that work.</p>
+<ul>
+  <li class="ex"><span class="es"><b>Desde mi punto de vista</b>, la lengua la hace la gente.</span><span class="en">From my point of view, language is made by the people.</span></li>
+  <li class="ex"><span class="es"><b>En mi opinión</b>, el espanglish es identidad viva.</span><span class="en">In my opinion, Spanglish is living identity.</span></li>
+  <li class="ex"><span class="es"><b>Cabe señalar que</b> el espanglish tiene reglas propias.</span><span class="en">It should be noted that Spanglish has its own rules.</span></li>
+  <li class="ex"><span class="es"><b>Es innegable que</b> muchos critican el lenguaje inclusivo. (+ indic.)</span><span class="en">It is undeniable that many criticize inclusive language.</span></li>
+</ul>
+<div class="formula">opinión personal: en mi opinión · desde mi punto de vista — distancia formal: cabe señalar que · es innegable que + indicativo</div>
+<div class="warn">⚠️ <strong>Common mistake:</strong> <span class="es">es innegable que + subjuntivo</span> is wrong — facts take indicative: <span class="es">es innegable que tiene reglas</span>. And <span class="es">desde mi punto de vista</span> needs <span class="es">desde</span>, never <span class="es">en mi punto de vista</span>.</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">préstamo</span></td><td data-label="Type">n.m.</td><td data-label="English">loanword</td><td data-label="Notes">Palabra tomada: troca de truck.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bilingüismo</span></td><td data-label="Type">n.m.</td><td data-label="English">bilingualism</td><td data-label="Notes">El bilingüismo es cotidiano en Paraguay.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bilingüe</span></td><td data-label="Type">adj.</td><td data-label="English">bilingual</td><td data-label="Notes">La mayoría es bilingüe.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">diglosia</span></td><td data-label="Type">n.f.</td><td data-label="English">diglossia</td><td data-label="Notes">(advanced) Dos lenguas con prestigio desigual.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prestigio</span></td><td data-label="Type">n.m.</td><td data-label="English">prestige</td><td data-label="Notes">El español conserva más prestigio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prestigioso</span></td><td data-label="Type">adj.</td><td data-label="English">prestigious</td><td data-label="Notes">Español prestigioso en la oficina.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">norma</span></td><td data-label="Type">n.f.</td><td data-label="English">norm, standard</td><td data-label="Notes">La norma de la RAE.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lengua materna</span></td><td data-label="Type">phr.</td><td data-label="English">mother tongue</td><td data-label="Notes">Para muchos es su lengua materna.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hablante</span></td><td data-label="Type">n.m./f.</td><td data-label="English">speaker</td><td data-label="Notes">Millones de hablantes de quechua.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">quechua</span></td><td data-label="Type">n.m.</td><td data-label="English">Quechua</td><td data-label="Notes">Lengua andina; Perú y Bolivia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">guaraní</span></td><td data-label="Type">n.m.</td><td data-label="English">Guaraní</td><td data-label="Notes">Lengua cooficial en Paraguay.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">náhuatl</span></td><td data-label="Type">n.m.</td><td data-label="English">Nahuatl</td><td data-label="Notes">Lengua de los mexicas en México.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cooficial</span></td><td data-label="Type">adj.</td><td data-label="English">co-official</td><td data-label="Notes">Guaraní cooficial junto al español.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">constitución</span></td><td data-label="Type">n.f.</td><td data-label="English">constitution</td><td data-label="Notes">Su constitución declara dos lenguas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alfabetizar</span></td><td data-label="Type">v.</td><td data-label="English">to teach literacy</td><td data-label="Notes">Alfabetización en quechua y guaraní.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prohibir</span></td><td data-label="Type">v.</td><td data-label="English">to forbid</td><td data-label="Notes">Se prohibió hablar lenguas indígenas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">castigo</span></td><td data-label="Type">n.m.</td><td data-label="English">punishment</td><td data-label="Notes">Con castigo físico en la escuela.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">avergonzar</span></td><td data-label="Type">v.</td><td data-label="English">to shame; to be ashamed</td><td data-label="Notes">Se avergüenzan de su lengua.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">espanglish</span></td><td data-label="Type">n.m.</td><td data-label="English">Spanglish</td><td data-label="Notes">Also spelled spanglish; US border barrios.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fronterizo</span></td><td data-label="Type">adj.</td><td data-label="English">border (adj.)</td><td data-label="Notes">Barrios fronterizos y chicanos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">chicano</span></td><td data-label="Type">adj./n.m.</td><td data-label="English">Chicano (Mexican-American)</td><td data-label="Notes">Identidad chicana en EE. UU.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alternancia</span></td><td data-label="Type">n.f.</td><td data-label="English">alternation, code-switching</td><td data-label="Notes">Alternancia a mitad de frase.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">anglicismo</span></td><td data-label="Type">n.m.</td><td data-label="English">anglicism</td><td data-label="Notes">Anglicismos directos: email, show.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">calco</span></td><td data-label="Type">n.m.</td><td data-label="English">calque (literal translation)</td><td data-label="Notes">Calcos como «llamar para atrás».</td></tr>
+    <tr><td data-label="Spanish"><span class="es">academia</span></td><td data-label="Type">n.f.</td><td data-label="English">academy</td><td data-label="Notes">La academia y la norma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">RAE</span></td><td data-label="Type">n.f.</td><td data-label="English">RAE (Royal Spanish Academy)</td><td data-label="Notes">Real Academia Española; guarda la norma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pronombre</span></td><td data-label="Type">n.m.</td><td data-label="English">pronoun</td><td data-label="Notes">El pronombre elle (propuesta).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inclusivo</span></td><td data-label="Type">adj.</td><td data-label="English">inclusive</td><td data-label="Notes">Lenguaje inclusivo y polémica.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">proponer</span></td><td data-label="Type">v.</td><td data-label="English">to propose</td><td data-label="Notes">Proponen todes y elle.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">polémica</span></td><td data-label="Type">n.f.</td><td data-label="English">controversy</td><td data-label="Notes">La polémica llena periódicos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">debate</span></td><td data-label="Type">n.m.</td><td data-label="English">debate</td><td data-label="Notes">El debate sigue abierto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">defender</span></td><td data-label="Type">v.</td><td data-label="English">to defend</td><td data-label="Notes">Lo defienden como identidad viva.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">criticar</span></td><td data-label="Type">v.</td><td data-label="English">to criticize</td><td data-label="Notes">Muchos lo critican con dureza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desde mi punto de vista</span></td><td data-label="Type">phr.</td><td data-label="English">from my point of view</td><td data-label="Notes">Stance marker; needs desde.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">en mi opinión</span></td><td data-label="Type">phr.</td><td data-label="English">in my opinion</td><td data-label="Notes">Stance marker personal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cabe señalar que</span></td><td data-label="Type">phr.</td><td data-label="English">it should be noted that</td><td data-label="Notes">Formal stance; + indicative.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">es innegable que</span></td><td data-label="Type">phr.</td><td data-label="English">it is undeniable that</td><td data-label="Notes">Strong stance; + indicative.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vitalidad</span></td><td data-label="Type">n.f.</td><td data-label="English">vitality</td><td data-label="Notes">Fuerte vitalidad del náhuatl.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">transmitir</span></td><td data-label="Type">v.</td><td data-label="English">to transmit, to pass on</td><td data-label="Notes">Quieren transmitir la lengua.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desplazamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">displacement (language loss)</td><td data-label="Notes">El desplazamiento sigue en la ciudad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">revitalizar</span></td><td data-label="Type">v.</td><td data-label="English">to revitalize</td><td data-label="Notes">Quieren revitalizar la lengua.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inmigrante</span></td><td data-label="Type">n.m./f.</td><td data-label="English">immigrant</td><td data-label="Notes">Un inmigrante en Texas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">barrio</span></td><td data-label="Type">n.m.</td><td data-label="English">neighbourhood</td><td data-label="Notes">Barrios fronterizos y chicanos.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences to carry with you. Read them once; no need to memorize.</p>
+
+<h3>1. Paraguay:</h3>
+<div class="phrase">
+  <p class="es">La mayoría de los paraguayos es bilingüe.</p>
+  <p class="en">Most Paraguayans are bilingual.</p>
+</div>
+<h3>2. Diglossia:</h3>
+<div class="phrase">
+  <p class="es">Dos lenguas viven juntas, pero una manda.</p>
+  <p class="en">Two languages live together, but one commands.</p>
+</div>
+<h3>3. Spanglish:</h3>
+<div class="phrase">
+  <p class="es">Cabe señalar que el espanglish tiene reglas propias.</p>
+  <p class="en">It should be noted that Spanglish has its own rules.</p>
+</div>
+<h3>4. Opinion:</h3>
+<div class="phrase">
+  <p class="es">En mi opinión, el espanglish es identidad viva.</p>
+  <p class="en">In my opinion, Spanglish is living identity.</p>
+</div>
+<h3>5. Debate:</h3>
+<div class="phrase">
+  <p class="es">Es innegable que el debate sigue abierto.</p>
+  <p class="en">It is undeniable that the debate remains open.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two students in Asunción talk after a Guaraní class.</p>
+
+<div class="phrase">
+  <p class="es">Luz: En mi casa hablamos jopara: guaraní con mi abuela, español en la escuela.</p>
+  <p class="en">Luz: At home we speak jopara: Guaraní with my grandma, Spanish at school.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Desde mi punto de vista, eso es una suerte: eres bilingüe de verdad.</p>
+  <p class="en">Diego: From my point of view, that's lucky: you're really bilingual.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luz: Cabe señalar que antes se prohibía el guaraní, con castigo.</p>
+  <p class="en">Luz: It should be noted that Guaraní used to be forbidden, with punishment.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Es innegable que hoy tiene más prestigio: es cooficial por la constitución.</p>
+  <p class="en">Diego: It's undeniable that today it has more prestige: it's co-official by the constitution.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luz: Sí, pero muchos jóvenes dejan de transmitirlo en la ciudad.</p>
+  <p class="en">Luz: Yes, but many young people stop passing it on in the city.</p>
+</div>
+<div class="phrase">
+  <p class="es">Diego: Por eso quiero ser maestro y alfabetizar en guaraní.</p>
+  <p class="en">Diego: That's why I want to be a teacher and teach literacy in Guaraní.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue use today's table — <strong>jopara</strong> (mix), <strong>castigo</strong> (punishment) and <strong>alfabetizar</strong> (to teach literacy). <strong>Elle</strong> and <strong>todes</strong> belong to the Madrid debate, not this one.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Metalanguage:</strong> <span class="es">préstamo, anglicismo, calco, bilingüismo, diglosia, prestigio, norma</span> — words to talk about words.</li>
+  <li><strong>Stance:</strong> <span class="es">desde mi punto de vista, en mi opinión</span> (personal) vs <span class="es">cabe señalar que, es innegable que</span> (formal, + indicative).</li>
+  <li><strong>Culture:</strong> Quechua and Náhuatl vitality vs <span class="es">desplazamiento</span>; Paraguay's <span class="es">cooficial</span> Guaraní and <span class="es">jopara</span>; Spanglish <span class="es">alternancia</span>; RAE vs <span class="es">todes / elle</span> <span class="es">polémica</span>.</li>
+  <li><strong>History:</strong> <span class="es">prohibir</span> and <span class="es">castigo</span> produced shame (<span class="es">avergonzar</span>); <span class="es">revitalizar</span> and <span class="es">transmitir</span> repair it.</li>
+</ul>
+
+<h3>5.2. Further reading — mapudungun en la ciudad</h3>
+<p><strong>Context:</strong> A short extra from the south:</p>
+<div class="phrase">
+  <p class="es">En Santiago, una niña aprende <b>mapudungun</b> con su abuelo cada sábado.</p>
+  <p class="en">In Santiago, a girl learns Mapudungun with her grandfather every Saturday.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>En mi opinión</b>, dice el abuelo, la lengua es casa: si la dejas, vives fuera.</p>
+  <p class="en">"In my opinion," says the grandfather, "language is home: if you leave it, you live outside."</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Cabe señalar que</b> el mapudungun no es <b>cooficial</b>, pero gana <b>prestigio</b> joven.</p>
+  <p class="en">It should be noted that Mapudungun is not co-official, but it is gaining young prestige.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Es innegable que</b> la escuela aún <b>prohíbe</b> poco y <b>transmite</b> poco.</p>
+  <p class="en">It is undeniable that school still forbids little and transmits little.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Desde mi punto de vista</b>, dice la niña, hablar dos lenguas es tener dos madres.</p>
+  <p class="en">"From my point of view," says the girl, "speaking two languages is having two mothers."</p>
+</div>
+
+<p class="lead"><em>All words are from today's table — <strong>mapudungun</strong> (Mapuche language) is extension; <strong>prestigio</strong> (prestige), <strong>transmitir</strong> (to pass on) and <strong>cooficial</strong> (co-official) appear here for the first time.</em></p>
+
+<hr>
+<p><strong>End of Lesson 70.</strong> Next, <strong>Lesson 71</strong>: art and aesthetics — muralism, avant-garde and contemporary art. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-69.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a> &middot; <a href="lesson-71.html">Next &rarr;</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

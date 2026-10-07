@@ -1,0 +1,283 @@
+{
+  "lesson": 63,
+  "title": "Word formation I: prefixes and suffixes",
+  "words": [
+    {
+      "word": "prefijo",
+      "type": "n.m.",
+      "en": "prefix",
+      "note": "The piece at the front of a word: des-, re-, pre-.",
+      "example": { "es": "Ante una palabra larga, busca el prefijo.", "en": "Faced with a long word, look for the prefix." }
+    },
+    {
+      "word": "sufijo",
+      "type": "n.m.",
+      "en": "suffix",
+      "note": "The piece at the end of a word: -ble, -dor, -aje.",
+      "example": { "es": "El sufijo -ble significa que se puede.", "en": "The suffix -ble means that it can be done." }
+    },
+    {
+      "word": "raíz",
+      "type": "n.f.",
+      "en": "root (of a word)",
+      "note": "The core piece carrying the meaning: contamin- in descontaminar.",
+      "example": { "es": "Quita el prefijo y el sufijo y lee la raíz.", "en": "Take off the prefix and the suffix and read the root." }
+    },
+    {
+      "word": "desalinizar",
+      "type": "v.",
+      "en": "to desalinate",
+      "note": "des- (remove) + sal (salt) + -izar. Desalinizar deja de ser un sueño caro.",
+      "example": { "es": "Quieren desalinizar agua del mar.", "en": "They want to desalinate seawater." }
+    },
+    {
+      "word": "descontaminar",
+      "type": "v.",
+      "en": "to decontaminate",
+      "note": "Family: contaminar → descontaminar → anticontaminante.",
+      "example": { "es": "Quieren descontaminar todo el río.", "en": "They want to decontaminate the whole river." }
+    },
+    {
+      "word": "desinfectar",
+      "type": "v.",
+      "en": "to disinfect",
+      "note": "des- (remove) + infección. Hay que desinfectar los tanques.",
+      "example": { "es": "Hay que desinfectar los tanques con luz especial.", "en": "The tanks must be disinfected with special light." }
+    },
+    {
+      "word": "desperdicio",
+      "type": "n.m.",
+      "en": "waste, rubbish",
+      "note": "Todo desperdicio que trae el drenaje.",
+      "example": { "es": "Con menos desperdicio, el agua alcanza para todos.", "en": "With less waste, the water is enough for everyone." }
+    },
+    {
+      "word": "desagüe",
+      "type": "n.m.",
+      "en": "drain",
+      "note": "des- + agua: water going away. El desagüe de casa.",
+      "example": { "es": "El agua sucia viaja por el desagüe.", "en": "Dirty water travels through the drain." }
+    },
+    {
+      "word": "impermeable",
+      "type": "adj.",
+      "en": "waterproof",
+      "note": "im- (= in-, not) + permeable. Membranas impermeables.",
+      "example": { "es": "La membrana impermeable frena la sal.", "en": "The waterproof membrane stops salt." }
+    },
+    {
+      "word": "insalubre",
+      "type": "adj.",
+      "en": "unhealthy, insanitary",
+      "note": "in- (not) + salubre (healthy). Agua insalubre.",
+      "example": { "es": "El agua insalubre enferma a la gente.", "en": "Unhealthy water makes people ill." }
+    },
+    {
+      "word": "inagotable",
+      "type": "adj.",
+      "en": "inexhaustible",
+      "note": "in- (not) + agotable (that can run out).",
+      "example": { "es": "El abastecimiento parece inagotable.", "en": "The supply seems inexhaustible." }
+    },
+    {
+      "word": "invisible",
+      "type": "adj.",
+      "en": "invisible",
+      "note": "in- (not) + visible. Bacterias invisibles.",
+      "example": { "es": "Detecta bacterias invisibles a simple vista.", "en": "It detects bacteria invisible to the naked eye." }
+    },
+    {
+      "word": "reutilizar",
+      "type": "v.",
+      "en": "to reuse",
+      "note": "Family: utilizar → reutilizar → reutilización → reutilizable.",
+      "example": { "es": "Decidieron reutilizar cada gota.", "en": "They decided to reuse every drop." }
+    },
+    {
+      "word": "reutilización",
+      "type": "n.f.",
+      "en": "reuse",
+      "note": "re- (again) + utilizar + -ización (process). La reutilización del agua.",
+      "example": { "es": "La reutilización del agua ya funciona.", "en": "Water reuse already works." }
+    },
+    {
+      "word": "reutilizable",
+      "type": "adj.",
+      "en": "reusable",
+      "note": "-ble = that can be. Agua reutilizable para beber.",
+      "example": { "es": "El agua ya es reutilizable para beber.", "en": "The water is already reusable for drinking." }
+    },
+    {
+      "word": "regenerar",
+      "type": "v.",
+      "en": "to regenerate",
+      "note": "re- (again) + generar. Regenerar los ríos.",
+      "example": { "es": "El tercer paso busca regenerar los ríos.", "en": "Step three aims to regenerate the rivers." }
+    },
+    {
+      "word": "renovable",
+      "type": "adj.",
+      "en": "renewable",
+      "note": "re- (again) + nov- (new) + -able. Energía renovable.",
+      "example": { "es": "Producen energía renovable en la planta.", "en": "They produce renewable energy in the plant." }
+    },
+    {
+      "word": "pretratamiento",
+      "type": "n.m.",
+      "en": "pre-treatment",
+      "note": "Family: tratar → tratamiento → pretratamiento → postratamiento.",
+      "example": { "es": "El pretratamiento separa lo grande.", "en": "Pre-treatment takes out the big stuff." }
+    },
+    {
+      "word": "prever",
+      "type": "v.",
+      "en": "to foresee, to anticipate",
+      "note": "pre- (before) + ver. Pueden prever años secos.",
+      "example": { "es": "Pueden prever años secos.", "en": "They can foresee dry years." }
+    },
+    {
+      "word": "previsible",
+      "type": "adj.",
+      "en": "foreseeable",
+      "note": "Family: prever → previsible (pre- + vis- + -ible).",
+      "example": { "es": "Costó menos de lo previsible.", "en": "It cost less than foreseeable." }
+    },
+    {
+      "word": "postratamiento",
+      "type": "n.m.",
+      "en": "post-treatment",
+      "note": "post- (after) + tratamiento. Después del postratamiento.",
+      "example": { "es": "Después del postratamiento final, el agua es segura.", "en": "After the final post-treatment, the water is safe." }
+    },
+    {
+      "word": "anticontaminante",
+      "type": "adj.",
+      "en": "anti-pollution",
+      "note": "anti- (against) + contaminante. Filtros anticontaminantes.",
+      "example": { "es": "Hay filtros anticontaminantes en las fábricas.", "en": "There are anti-pollution filters in the factories." }
+    },
+    {
+      "word": "antiséquía",
+      "type": "adj.",
+      "en": "anti-drought",
+      "note": "anti- + sequía (drought, L37). Un plan antiséquía.",
+      "example": { "es": "Aprobaron un plan antiséquía.", "en": "They approved an anti-drought plan." }
+    },
+    {
+      "word": "superbacteria",
+      "type": "n.f.",
+      "en": "superbug",
+      "note": "super- (over, beyond) + bacteria. A resistant germ.",
+      "example": { "es": "Ni una superbacteria pasa el filtro.", "en": "Not even a superbug gets through the filter." }
+    },
+    {
+      "word": "potable",
+      "type": "adj.",
+      "en": "drinkable, safe to drink",
+      "note": "-ble = that can be. Agua potable.",
+      "example": { "es": "El agua ya parece potable.", "en": "The water already looks drinkable." }
+    },
+    {
+      "word": "depurar",
+      "type": "v.",
+      "en": "to purify (water)",
+      "note": "Family: depurar → depuración → depurador.",
+      "example": { "es": "Las máquinas empiezan a depurar el agua.", "en": "The machines start purifying the water." }
+    },
+    {
+      "word": "depuración",
+      "type": "n.f.",
+      "en": "purification",
+      "note": "depurar + -ción. La depuración tiene tres pasos.",
+      "example": { "es": "La depuración tiene tres pasos.", "en": "Purification has three steps." }
+    },
+    {
+      "word": "depurador",
+      "type": "n.m.",
+      "en": "purifier (device)",
+      "note": "-dor = device that purifies. Un depurador limpia el agua.",
+      "example": { "es": "Un depurador limpia el agua de toda una ciudad.", "en": "One purifier cleans the water of a whole city." }
+    },
+    {
+      "word": "tratamiento",
+      "type": "n.m.",
+      "en": "treatment",
+      "note": "tratar + -miento. La planta de tratamiento.",
+      "example": { "es": "El agua viaja hasta la planta de tratamiento.", "en": "Water travels to the treatment plant." }
+    },
+    {
+      "word": "funcionamiento",
+      "type": "n.m.",
+      "en": "workings, operation",
+      "note": "funcionar + -miento. How something works.",
+      "example": { "es": "Su funcionamiento sigue día y noche.", "en": "Its workings go on day and night." }
+    },
+    {
+      "word": "drenaje",
+      "type": "n.m.",
+      "en": "drainage",
+      "note": "drenar + -aje. El drenaje de las calles.",
+      "example": { "es": "El drenaje lleva el agua a la planta.", "en": "The drainage carries water to the plant." }
+    },
+    {
+      "word": "reciclaje",
+      "type": "n.m.",
+      "en": "recycling",
+      "note": "reciclar (L37) + -aje. El reciclaje empieza en casa.",
+      "example": { "es": "El reciclaje empieza en casa.", "en": "Recycling starts at home." }
+    },
+    {
+      "word": "almacenaje",
+      "type": "n.m.",
+      "en": "storage",
+      "note": "almacenar + -aje. El almacenaje del agua.",
+      "example": { "es": "El almacenaje del agua es la clave.", "en": "Storing water is the key." }
+    },
+    {
+      "word": "potabilizar",
+      "type": "v.",
+      "en": "to make drinkable",
+      "note": "potable + -izar. Potabilizar el agua con carbón.",
+      "example": { "es": "Hay que potabilizar el agua con carbón.", "en": "The water must be made drinkable with carbon." }
+    },
+    {
+      "word": "planta",
+      "type": "n.f.",
+      "en": "plant (industrial)",
+      "note": "La planta de tratamiento. Also means factory.",
+      "example": { "es": "El agua llega a la planta de tratamiento.", "en": "Water reaches the treatment plant." }
+    },
+    {
+      "word": "microorganismo",
+      "type": "n.m.",
+      "en": "microorganism",
+      "note": "micro- (tiny) + organismo.",
+      "ext": true,
+      "example": { "es": "Elimina los microorganismos más insalubres.", "en": "It eliminates the unhealthiest microorganisms." }
+    },
+    {
+      "word": "bacteria",
+      "type": "n.f.",
+      "en": "bacterium, germ",
+      "note": "Base of superbacteria. Detecta bacterias invisibles.",
+      "ext": true,
+      "example": { "es": "Detecta bacterias invisibles.", "en": "It detects invisible bacteria." }
+    },
+    {
+      "word": "desigual",
+      "type": "adj.",
+      "en": "uneven, unequal",
+      "note": "des- (not) + igual (equal, L26).",
+      "ext": true,
+      "example": { "es": "Un solo vertido desigual arruina el sistema.", "en": "A single uneven discharge ruins the system." }
+    },
+    {
+      "word": "desconocido",
+      "type": "adj.",
+      "en": "unknown",
+      "note": "des- (not) + conocido (known).",
+      "ext": true,
+      "example": { "es": "Su funcionamiento es desconocido para casi todos.", "en": "Its workings are unknown to almost everyone." }
+    }
+  ]
+}

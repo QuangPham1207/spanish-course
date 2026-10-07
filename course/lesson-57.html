@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 57 — Imperfect subjunctive &amp; tense sequences</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="review-b1.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 57 — IMPERFECT SUBJUNCTIVE &amp; TENSE SEQUENCES</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Form the imperfect subjunctive: <strong>hablara / hablase, quisiera, pudiera, fuera</strong>.</li>
+      <li>Master tense sequences: <strong>quería que vinieras</strong> (past main verb → imperfect subjunctive).</li>
+      <li>Meet <strong>si + imperfect subjunctive</strong>: <span class="es">si pudiera volver…</span></li>
+      <li>Read an emigrant's letter full of wishes about the past.</li>
+      <li>Pick up words: <span class="es">añoranza, morriña, desarraigo, arraigo, remesa, terruño, reencuentro</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">quisiera, pudiera, hablara, hablase, vinieras, fuera, fuese, añoranza, morriña, desarraigo, arraigo, remesa, retorno, terruño, reencuentro, despedida, nostalgia, sacrificio, integrarse, consuelo, consolar, extrañar, lejanía, patria, llamada, enviar, anhelar, rogar, suplicar, adaptarse, resignarse, paisano, compatriota, melancolía, videollamada, valija</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">ultramar, repatriar, repatriado, anochecer</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (SI PUDIERA VOLVER)</h2>
+<p><strong>Context:</strong> Elena, an Ecuadorian emigrant living in Madrid for six years, writes a letter to her mother. She remembers the goodbye, describes her new life, and dreams of return. Read each line; the English below it is only a check.</p>
+<p class="lead">(Wishes about the past fill this letter — <em>she wanted him to come, if I could go back…</em> is today's grammar.)</p>
+
+<div class="phrase">
+  <p class="es">Querida mamá: te escribo desde un piso pequeño de Madrid, y si <b>pudiera</b> volver atrás, reviviría nuestra <b>despedida</b> en el aeropuerto.</p>
+  <p class="en">Dear Mom: I'm writing from a small flat in Madrid, and if I could go back, I would relive our goodbye at the airport.</p>
+</div>
+<div class="phrase">
+  <p class="es">Me pediste que fuera fuerte, aunque yo solo <b>quisiera</b> quedarme contigo en casa.</p>
+  <p class="en">You asked me to be strong, although all I wanted was to stay home with you.</p>
+</div>
+<div class="phrase">
+  <p class="es">El avión despegó de noche, y miré por la ventanilla como si <b>fuera</b> la última vez que veía mi <b>patria</b>, con sus montañas verdes y su cielo tan alto.</p>
+  <p class="en">The plane took off at night, and I looked out of the little window as if it were the last time I would see my homeland, with its green mountains and its sky so high.</p>
+</div>
+<div class="phrase">
+  <p class="es">Aquí la <b>nostalgia</b> tiene otro nombre: los gallegos la llaman <b>morriña</b>, y ahora entiendo esa <b>añoranza</b> que no se cura con nada.</p>
+  <p class="en">Here nostalgia has another name: Galicians call it morriña, and now I understand that longing which nothing cures.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al principio todo era <b>desarraigo</b>: otra comida, otro frío y ni una cara conocida; ni siquiera el español sonaba igual en la calle.</p>
+  <p class="en">At first everything was uprootedness: different food, different cold, and not one familiar face; not even Spanish sounded the same in the street.</p>
+</div>
+<div class="phrase">
+  <p class="es">Poco a poco encontré trabajo, aprendí las costumbres, y entendí que para <b>adaptarse</b> hay que perder la vergüenza y preguntar todo dos veces.</p>
+  <p class="en">Little by little I found work, I learned the customs, and I understood that to adapt you have to lose your shyness and ask everything twice.</p>
+</div>
+<div class="phrase">
+  <p class="es">Eso es el <b>arraigo</b>, me dijo una amiga que trabaja con inmigrantes: no olvidar de dónde vienes, sino vivir tranquila donde estás, porque hasta un <b>repatriado</b> puede volver a empezar.</p>
+  <p class="en">That's putting down roots, a friend who works with immigrants told me: not forgetting where you come from, but living calmly where you are — because even a returnee can start over.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada mes logro <b>enviar</b> una <b>remesa</b> pequeña, y me dices que con eso pagan la luz, los remedios del abuelo y los libros de mis hermanos pequeños.</p>
+  <p class="en">Every month I manage to send a small remittance, and you tell me that with it they pay for the electricity, Grandpa's medicines and my little brothers' schoolbooks.</p>
+</div>
+<div class="phrase">
+  <p class="es">No es mucho, pero es mi <b>sacrificio</b> con amor: trabajar horas extra para que ustedes vivan mejor.</p>
+  <p class="en">It's not much, but it's my sacrifice with love: working extra hours so that you live better.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un <b>paisano</b> del centro sabe <b>consolar</b> cuando estoy triste, y con un <b>compatriota</b> cerca la <b>lejanía</b> duele menos.</p>
+  <p class="en">A fellow countryman at the migrants' center knows how to comfort me when I'm sad, and with a compatriot nearby, distance hurts less.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hablamos de la tierra, del <b>terruño</b> que dejamos, y soñamos con el <b>reencuentro</b> de diciembre; a veces lloramos un poco, pero de alegría.</p>
+  <p class="en">We talk about our land, about the native soil we left behind, and we dream of the reunion in December; sometimes we cry a little, but with joy.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mis jefes querían que <b>vinieras</b> a visitarme en verano, y tuve que <b>rogar</b>les que te pagaran el pasaje.</p>
+  <p class="en">My bosses wanted you to come visit me in the summer, and I had to beg them to pay for your ticket.</p>
+</div>
+<div class="phrase">
+  <p class="es">Llegué a <b>suplicar</b>les que entendieran: una madre no debería viajar a <b>ultramar</b> sola a su edad.</p>
+  <p class="en">I went so far as to plead with them to understand: a mother shouldn't travel overseas alone at her age.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si el consulado <b>hablara</b> más claro, todo sería fácil; pero cada papel tarda meses y cada respuesta es un misterio que nadie sabe explicar.</p>
+  <p class="en">If the consulate spoke more clearly, everything would be easy; but every document takes months and every answer is a mystery nobody can explain.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mi abogado dice que a nadie van a <b>repatriar</b> sin abogado, pero que si yo <b>hablase</b> con el juez en persona, mis papeles saldrían antes de la fiesta de diciembre.</p>
+  <p class="en">My lawyer says nobody will be repatriated without a lawyer, but that if I spoke to the judge in person, my papers would come through before the December party.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hacemos una <b>videollamada</b> cada domingo, y me río contigo sin dejar de <b>extrañar</b> tu voz ni de <b>anhelar</b> tu comida.</p>
+  <p class="en">We make a video call every Sunday, and I laugh with you while still missing your voice and longing for your cooking.</p>
+</div>
+<div class="phrase">
+  <p class="es">Guardo tu <b>valija</b> vieja bajo la cama, y cuando llega la <b>melancolía</b> del <b>anochecer</b>, la abro y huele a casa, a café recién hecho y a ropa limpia.</p>
+  <p class="en">I keep your old suitcase under the bed, and when the nightfall melancholy arrives, I open it and it smells of home — of freshly made coffee and clean clothes.</p>
+</div>
+<div class="phrase">
+  <p class="es">Solo te pido un <b>consuelo</b>: que me esperes con paciencia, porque nadie debería <b>resignarse</b> a vivir lejos para siempre, y yo creo en el <b>retorno</b>; algún día comeremos juntas otra vez.</p>
+  <p class="en">I only ask one comfort of you: wait for me patiently, because nobody should resign themselves to living far away forever — and I believe in return; one day we'll eat together again.</p>
+</div>
+<div class="phrase">
+  <p class="es">Dicen que <b>integrarse</b> es dejar de ser de fuera, pero yo creo que es ser de dos lugares a la vez.</p>
+  <p class="en">They say that integrating is stopping being an outsider, but I think it's being from two places at once.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">ultramar</span></td><td data-label="Type">n.m.</td><td data-label="English">overseas, lands beyond the sea</td><td data-label="Notes">Viajar a ultramar; de ultramar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">repatriar</span></td><td data-label="Type">v.</td><td data-label="English">to repatriate, to send back home</td><td data-label="Notes">A nadie van a repatriar sin abogado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">repatriado</span></td><td data-label="Type">n.m.</td><td data-label="English">deportee, returned migrant</td><td data-label="Notes">Hasta un repatriado me habría mirado con pena.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">anochecer</span></td><td data-label="Type">n.m.</td><td data-label="English">nightfall</td><td data-label="Notes">La melancolía del anochecer. Also a verb: to get dark.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> past wishes open past subjunctives — <span class="es">querían que vinieras, me pediste que fuera, tuve que rogarles que pagaran</span>. Whenever the main verb is past, the <span class="es">que</span>-clause steps one tense back. That is today's whole game.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The form: third-person plural preterite minus -ron, plus -ra / -se</h3>
+<p>Take the <strong>ellos form of the preterite</strong> (<span class="es">hablaron, quisieron, pudieron, fueron</span>), drop <span class="es">-ron</span>, and add the endings <span class="es">-ra, -ras, -ra, -ramos, -rais, -ran</span>. Every verb works the same way — even the irregular ones. There is a twin set with <span class="es">-se</span> (<span class="es">hablase, quisiese</span>) that means exactly the same.</p>
+<div class="formula">ellos preterite − <b>-ron</b> + <b>-ra / -se</b> → quisiera / quisiese, pudiera / pudiese, hablara / hablase</div>
+<ul>
+  <li class="ex"><span class="es">Yo solo <b>quisiera</b> quedarme contigo.</span><span class="en">All I wanted was to stay with you. (querer → quisieron → quisiera)</span></li>
+  <li class="ex"><span class="es">Si <b>pudiera</b> volver atrás, lo reviviría todo.</span><span class="en">If I could go back, I would relive it all. (poder → pudieron → pudiera)</span></li>
+  <li class="ex"><span class="es">Si el consulado <b>hablara</b> más claro… / …si yo <b>hablase</b> con el juez…</span><span class="en">If the consulate spoke more clearly… / …if I spoke to the judge… (-ra and -se are twins)</span></li>
+  <li class="ex"><span class="es">Como si <b>fuera</b> la última vez. / Como si <b>fuese</b> la última vez.</span><span class="en">As if it were the last time. (ser/ir → fueron → fuera/fuese)</span></li>
+</ul>
+
+<h3>2.2. Tense sequences: past main verb → imperfect subjunctive</h3>
+<p>You know the present pattern (<span class="es">quiero que vengas</span>). When the main verb moves to the <strong>past</strong>, the subjunctive moves to the <strong>imperfect subjunctive</strong>: <span class="es">quería que vinieras</span>. Wishes, orders, requests and feelings about things that were present-or-future <em>at that past moment</em>.</p>
+<div class="formula">main verb in <b>past</b> + <b>que</b> + <b>imperfect subjunctive</b> → quería que vinieras</div>
+<ul>
+  <li class="ex"><span class="es">Mis jefes querían que <b>vinieras</b> en verano.</span><span class="en">My bosses wanted you to come in summer.</span></li>
+  <li class="ex"><span class="es">Me pediste que <b>fuera</b> fuerte.</span><span class="en">You asked me to be strong.</span></li>
+  <li class="ex"><span class="es">Tuve que rogarles que te <b>pagaran</b> el pasaje.</span><span class="en">I had to beg them to pay for your ticket.</span></li>
+  <li class="ex"><span class="es">Llegué a suplicarles que <b>entendieran</b>.</span><span class="en">I went so far as to plead with them to understand.</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> <span class="es">-ra</span> and <span class="es">-se</span> are both correct everywhere — no variety is wrong. In speech, <span class="es">-ra</span> (<span class="es">hablara, quisiera</span>) is more common on both sides of the ocean. And <span class="es">quisiera</span> has a second life everywhere as a polite <em>I would like</em>: <span class="es">quisiera pedirle un favor</span> (I would like to ask you a favour).</div>
+
+<h3>2.3. First taste of <span class="es">si</span> + imperfect subjunctive</h3>
+<p>Unreal <span class="es">si</span>-clauses about the present or future take the <strong>imperfect subjunctive</strong>, and the result takes the <strong>conditional</strong>. Full unreal and mixed conditionals come in L58; for now, just taste the pattern.</p>
+<div class="formula"><b>si</b> + imperfect subjunctive + <b>conditional</b> → si pudiera, volvería</div>
+<ul>
+  <li class="ex"><span class="es">Si <b>pudiera</b> volver atrás, lo <b>reviviría</b> todo.</span><span class="en">If I could go back, I would relive it all.</span></li>
+  <li class="ex"><span class="es">Si el consulado <b>hablara</b> más claro, todo <b>sería</b> fácil.</span><span class="en">If the consulate spoke more clearly, everything would be easy.</span></li>
+  <li class="ex"><span class="es"><b>Quisiera</b> pedirle un favor.</span><span class="en">I would like to ask you a favour. (polite quisiera, no si needed)</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistakes:</strong> after <span class="es">si</span>, never use the conditional: <span class="es">*si podría, *si hablaría</span> are wrong — always <span class="es">si pudiera, si hablara</span>. The <span class="es">-ía</span> ending lives only in the result (<span class="es">volvería, sería</span>), never in the <span class="es">si</span>-clause.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">quisiera</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she would like; wanted (imp. subj. of querer)</td><td data-label="Notes">Yo solo quisiera quedarme. Also polite: quisiera pedirle un favor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pudiera</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she could (imp. subj. of poder)</td><td data-label="Notes">Si pudiera volver atrás.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hablara</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she spoke (imp. subj. of hablar, -ra form)</td><td data-label="Notes">Si hablara más claro. Twin: hablase.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hablase</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she spoke (imp. subj. of hablar, -se form)</td><td data-label="Notes">Si yo hablase con el juez. Same as hablara.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vinieras</span></td><td data-label="Type">v.</td><td data-label="English">you came (imp. subj. of venir, tú)</td><td data-label="Notes">Querían que vinieras en verano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fuera</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she was/went (imp. subj. of ser/ir)</td><td data-label="Notes">Como si fuera la última vez. Twin: fuese.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fuese</span></td><td data-label="Type">v.</td><td data-label="English">same as fuera (-se form)</td><td data-label="Notes">Como si fuese la última vez. Twins, both correct everywhere.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">añoranza</span></td><td data-label="Type">n.f.</td><td data-label="English">longing, homesickness</td><td data-label="Notes">Esa añoranza que no se cura con nada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">morriña</span></td><td data-label="Type">n.f.</td><td data-label="English">homesickness (Galician word used in Spanish)</td><td data-label="Notes">Los gallegos la llaman morriña.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desarraigo</span></td><td data-label="Type">n.m.</td><td data-label="English">uprootedness</td><td data-label="Notes">Sin raíz: todo era desarraigo al principio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">arraigo</span></td><td data-label="Type">n.m.</td><td data-label="English">putting down roots</td><td data-label="Notes">Con raíz: eso es el arraigo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">remesa</span></td><td data-label="Type">n.f.</td><td data-label="English">remittance (money sent home)</td><td data-label="Notes">Enviar una remesa pequeña cada mes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">retorno</span></td><td data-label="Type">n.m.</td><td data-label="English">return</td><td data-label="Notes">Yo creo en el retorno. More formal than vuelta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">terruño</span></td><td data-label="Type">n.m.</td><td data-label="English">native soil, homeland earth</td><td data-label="Notes">Literary and fond: el terruño que dejamos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reencuentro</span></td><td data-label="Type">n.m.</td><td data-label="English">reunion</td><td data-label="Notes">Soñamos con el reencuentro de diciembre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">despedida</span></td><td data-label="Type">n.f.</td><td data-label="English">goodbye, farewell</td><td data-label="Notes">Reviviría nuestra despedida en el aeropuerto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nostalgia</span></td><td data-label="Type">n.f.</td><td data-label="English">nostalgia</td><td data-label="Notes">Aquí la nostalgia tiene otro nombre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sacrificio</span></td><td data-label="Type">n.m.</td><td data-label="English">sacrifice</td><td data-label="Notes">Mi sacrificio con amor: trabajar horas extra.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">integrarse</span></td><td data-label="Type">v.</td><td data-label="English">to integrate, to fit in</td><td data-label="Notes">Integrarse es ser de dos lugares a la vez.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">consuelo</span></td><td data-label="Type">n.m.</td><td data-label="English">comfort, consolation</td><td data-label="Notes">Solo te pido un consuelo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">consolar</span></td><td data-label="Type">v.</td><td data-label="English">to comfort</td><td data-label="Notes">Sabe consolar cuando estoy triste.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">extrañar</span></td><td data-label="Type">v.</td><td data-label="English">to miss (someone/something)</td><td data-label="Notes">Very Latin American; in Spain often echar de menos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lejanía</span></td><td data-label="Type">n.f.</td><td data-label="English">distance, remoteness</td><td data-label="Notes">La lejanía duele menos entre paisanos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">patria</span></td><td data-label="Type">n.f.</td><td data-label="English">homeland</td><td data-label="Notes">La última vez que veía mi patria.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">llamada</span></td><td data-label="Type">n.f.</td><td data-label="English">call</td><td data-label="Notes">Te debo una llamada larga el domingo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">enviar</span></td><td data-label="Type">v.</td><td data-label="English">to send</td><td data-label="Notes">Logro enviar una remesa pequeña.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">anhelar</span></td><td data-label="Type">v.</td><td data-label="English">to long for</td><td data-label="Notes">Formal and deep: anhelar tu comida.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rogar</span></td><td data-label="Type">v.</td><td data-label="English">to beg, to plead</td><td data-label="Notes">Tuve que rogarles que pagaran. Rogar + que + subjunctive.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">suplicar</span></td><td data-label="Type">v.</td><td data-label="English">to implore, to beseech</td><td data-label="Notes">Stronger than rogar: llegué a suplicarles.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">adaptarse</span></td><td data-label="Type">v.</td><td data-label="English">to adapt</td><td data-label="Notes">Para adaptarse hay que perder la vergüenza.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">resignarse</span></td><td data-label="Type">v.</td><td data-label="English">to resign oneself</td><td data-label="Notes">Nadie debería resignarse a vivir lejos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">paisano</span></td><td data-label="Type">n.m.</td><td data-label="English">fellow countryman</td><td data-label="Notes">Un paisano del centro. Also: peasant, villager.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">compatriota</span></td><td data-label="Type">n.</td><td data-label="English">compatriot</td><td data-label="Notes">Con un compatriota cerca.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">melancolía</span></td><td data-label="Type">n.f.</td><td data-label="English">melancholy</td><td data-label="Notes">La melancolía del anochecer.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">videollamada</span></td><td data-label="Type">n.f.</td><td data-label="English">video call</td><td data-label="Notes">Hacemos una videollamada cada domingo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">valija</span></td><td data-label="Type">n.f.</td><td data-label="English">suitcase</td><td data-label="Notes">Latin America; in Spain usually maleta.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences of wishes and politeness. Read them once; no need to memorize.</p>
+
+<h3>1. The polite wish:</h3>
+<div class="phrase">
+  <p class="es">Quisiera pedirle un favor.</p>
+  <p class="en">I would like to ask you a favour.</p>
+</div>
+<h3>2. The impossible return:</h3>
+<div class="phrase">
+  <p class="es">Si pudiera, volvería mañana.</p>
+  <p class="en">If I could, I'd come back tomorrow.</p>
+</div>
+<h3>3. The past request:</h3>
+<div class="phrase">
+  <p class="es">Me pidió que viniera en verano.</p>
+  <p class="en">She asked me to come in summer.</p>
+</div>
+<h3>4. As if:</h3>
+<div class="phrase">
+  <p class="es">Como si fuera la última vez.</p>
+  <p class="en">As if it were the last time.</p>
+</div>
+<h3>5. The promised call:</h3>
+<div class="phrase">
+  <p class="es">Te debo una <b>llamada</b> larga el domingo.</p>
+  <p class="en">I owe you a long call on Sunday.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Elena and her friend Marta, in a café in Madrid, talk about the lawyer and the papers.</p>
+
+<div class="phrase">
+  <p class="es">Marta: Elena, ¿ya hablaste con el abogado?</p>
+  <p class="en">Marta: Elena, did you talk to the lawyer yet?</p>
+</div>
+<div class="phrase">
+  <p class="es">Elena: Sí, y me dijo que si yo hablase con el juez, todo iría más rápido.</p>
+  <p class="en">Elena: Yes, and he told me that if I spoke to the judge, everything would go faster.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: ¿Y si le escribieras una carta antes de la cita?</p>
+  <p class="en">Marta: What if you wrote him a letter before the appointment?</p>
+</div>
+<div class="phrase">
+  <p class="es">Elena: Quisiera, pero me pidió que llevara testigos.</p>
+  <p class="en">Elena: I'd like to, but he asked me to bring witnesses.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Yo te acompaño. Y esta noche hacemos una videollamada con tu mamá.</p>
+  <p class="en">Marta: I'll go with you. And tonight we'll make a video call with your mom.</p>
+</div>
+<div class="phrase">
+  <p class="es">Elena: Gracias. Soñar con el reencuentro me da consuelo.</p>
+  <p class="en">Elena: Thanks. Dreaming of the reunion comforts me.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Y cuando lleguen los papeles, celebramos sin nostalgia.</p>
+  <p class="en">Marta: And when the papers arrive, we'll celebrate with no nostalgia.</p>
+</div>
+
+<p class="lead"><em>No new words here — the dialogue reuses <strong>videollamada</strong> (video call), <strong>reencuentro</strong> (reunion) and <strong>consuelo</strong> (comfort) from today's table.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>The form:</strong> <span class="es">ellos</span> preterite minus <span class="es">-ron</span> + <span class="es">-ra/-se</span>: <span class="es">quisiera, pudiera, hablara/hablase, fuera</span>. Twins, both correct everywhere.</li>
+  <li><strong>Tense sequences:</strong> present main verb → present subjunctive (<span class="es">quiero que vengas</span>); past main verb → imperfect subjunctive (<span class="es">quería que vinieras</span>).</li>
+  <li><strong>Si-taste:</strong> <span class="es">si + imperfect subjunctive + conditional</span> (<span class="es">si pudiera, volvería</span>) — never a conditional after <span class="es">si</span>. Full conditionals arrive in L58.</li>
+</ul>
+
+<h3>5.2. Further reading — la fiesta del centro</h3>
+<p><strong>Context:</strong> Elena describes the migrants' center party in December. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En el centro de paisanos organizan una fiesta cada diciembre para no <b>extrañar</b> tanto.</p>
+  <p class="en">At the fellow-countrymen's center they organize a party every December so as not to miss home so much.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada <b>compatriota</b> trae un plato de su tierra y cuenta una historia del <b>terruño</b>.</p>
+  <p class="en">Each compatriot brings a dish from their land and tells a story of their native soil.</p>
+</div>
+<div class="phrase">
+  <p class="es">Este año quieren que yo cante, aunque yo <b>quisiera</b> solo escuchar.</p>
+  <p class="en">This year they want me to sing, although I'd just like to listen.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si lloviera, la harían dentro; si hiciera frío, encenderían la estufa.</p>
+  <p class="en">If it rained, they'd hold it inside; if it were cold, they'd light the heater.</p>
+</div>
+<div class="phrase">
+  <p class="es">Y a medianoche brindarían por el <b>retorno</b>, sin <b>resignarse</b> nunca.</p>
+  <p class="en">And at midnight they'd toast the return, never resigning themselves.</p>
+</div>
+
+<p class="lead"><em>No new words — it reuses <strong>extrañar</strong> (to miss), <strong>compatriota</strong> (compatriot), <strong>terruño</strong> (native soil), <strong>quisiera</strong>, <strong>retorno</strong> (return) and <strong>resignarse</strong> from today's table.</em></p>
+
+<hr>
+<p><strong>End of Lesson 57.</strong> Next, <strong>Lesson 58</strong>: unreal and mixed conditionals — what if the train had arrived? No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-58.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

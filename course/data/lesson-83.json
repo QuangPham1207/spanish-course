@@ -1,0 +1,28 @@
+{
+  "lesson": 83,
+  "title": "Opinion column: whose city is it?",
+  "words": [
+    {"word": "postura", "type": "n.f.", "en": "stance, position", "note": "Mi postura es clara.", "example": {"es": "Mi postura es clara.", "en": "My stance is clear."}},
+    {"word": "argumento", "type": "n.m.", "en": "argument", "note": "El primer argumento es de salud.", "example": {"es": "El primer argumento es de salud.", "en": "The first argument is about health."}},
+    {"word": "matiz", "type": "n.m.", "en": "nuance", "note": "Con matices: sin extremos.", "example": {"es": "Peatonalización con matices.", "en": "Pedestrianisation with nuances."}},
+    {"word": "réplica", "type": "n.f.", "en": "reply, rebuttal", "note": "Anticipo la réplica.", "example": {"es": "Anticipo la réplica.", "en": "I anticipate the reply."}},
+    {"word": "a mi juicio", "type": "phr.", "en": "in my judgment", "note": "Marca de postura. Formal.", "example": {"es": "A mi juicio, la pregunta está mal.", "en": "In my judgment, the question is wrong."}},
+    {"word": "es evidente que", "type": "phr.", "en": "it is evident that", "note": "+ indicativo.", "example": {"es": "Es evidente que el coche ganó.", "en": "It is evident the car won."}},
+    {"word": "no es que… sino que…", "type": "phr.", "en": "it's not that… but that…", "note": "Corrige: no A, sino B.", "example": {"es": "No es que sea enemigo, sino que el diseño obliga.", "en": "It's not that he's the enemy, but that design forces him."}},
+    {"word": "cabe preguntarse", "type": "phr.", "en": "one may ask", "note": "Desafío educado.", "example": {"es": "Cabe preguntarse de quién es la calle.", "en": "One may ask whose the street is."}},
+    {"word": "peatonalización", "type": "n.f.", "en": "pedestrianisation", "note": "Calles sin coches.", "example": {"es": "Piden peatonalización con matices.", "en": "They ask for nuanced pedestrianisation."}},
+    {"word": "carril bici", "type": "n.m.", "en": "bike lane", "note": "En LatAm ciclovía, bicisenda.", "example": {"es": "Hay carril bici nuevo.", "en": "There is a new bike lane."}},
+    {"word": "ciclovía", "type": "n.f.", "en": "bike lane (LatAm)", "note": "La palabra americana.", "example": {"es": "La ciclovía de Bogotá.", "en": "Bogotá's bike lane."}},
+    {"word": "calzada", "type": "n.f.", "en": "roadway", "note": "Donde circulan los coches.", "example": {"es": "Repartir la calzada.", "en": "Sharing the roadway."}},
+    {"word": "estacionar", "type": "v.", "en": "to park (LatAm)", "note": "En España aparcar.", "example": {"es": "Estacionar en América.", "en": "To park in America."}},
+    {"word": "hora punta", "type": "phr.", "en": "rush hour", "note": "En LatAm también hora pico.", "example": {"es": "En hora punta el aire pica.", "en": "At rush hour the air stings."}},
+    {"word": "disuasorio", "type": "adj.", "en": "dissuasive, park-and-ride", "note": "Parking disuasorio.", "example": {"es": "Un parking disuasorio convence.", "en": "A park-and-ride convinces."}},
+    {"word": "convivir", "type": "v.", "en": "to live together, coexist", "note": "Convivir es ceder.", "example": {"es": "Convivir es repartir la calle.", "en": "Living together is sharing the street."}},
+    {"word": "ceder el paso", "type": "phr.", "en": "to yield, give way", "note": "Ceder el paso al peatón.", "example": {"es": "Convivir es ceder el paso.", "en": "Living together means yielding."}},
+    {"word": "paso de cebra", "type": "phr.", "en": "zebra crossing", "note": "En México paso peatonal.", "example": {"es": "El paso de cebra lo dice todo.", "en": "The zebra crossing says it all."}},
+    {"word": "editorialista", "type": "n.m./f.", "en": "columnist", "note": "Quien firma la columna.", "ext": true, "example": {"es": "La editorialista firma en tribuna.", "en": "The columnist signs in the op-ed section."}},
+    {"word": "tribuna", "type": "n.f.", "en": "op-ed section", "note": "Opinión del periódico.", "ext": true, "example": {"es": "Lo leí en la tribuna.", "en": "I read it in the op-ed section."}},
+    {"word": "publirreportaje", "type": "n.m.", "en": "advertorial", "note": "Publicidad con forma de artículo.", "ext": true, "example": {"es": "Era un publirreportaje.", "en": "It was an advertorial."}},
+    {"word": "línea editorial", "type": "phr.", "en": "editorial line", "note": "La postura del periódico.", "ext": true, "example": {"es": "Sigue la línea editorial.", "en": "It follows the editorial line."}}
+  ]
+}

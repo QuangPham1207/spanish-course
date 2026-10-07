@@ -1,0 +1,29 @@
+{
+  "lesson": 85,
+  "title": "Short story: the house on the hill",
+  "words": [
+    {"word": "desván", "type": "n.m.", "en": "attic", "note": "En LatAm también ático, altillo.", "example": {"es": "Subió al desván.", "en": "She climbed to the attic."}},
+    {"word": "mecedora", "type": "n.f.", "en": "rocking chair", "note": "La mecedora dormía.", "example": {"es": "La mecedora dormía.", "en": "The rocking chair slept."}},
+    {"word": "crujir", "type": "v.", "en": "to creak", "note": "La madera cruje.", "example": {"es": "La madera empezó a crujir.", "en": "The wood began to creak."}},
+    {"word": "susurrar", "type": "v.", "en": "to whisper", "note": "Etiqueta literaria.", "example": {"es": "Susurró la casa.", "en": "The house whispered."}},
+    {"word": "parpadear", "type": "v.", "en": "to flicker, blink", "note": "Aviso.", "example": {"es": "La bombilla parpadeó.", "en": "The bulb flickered."}},
+    {"word": "postigo", "type": "n.m.", "en": "shutter (window)", "note": "Entornado: medio cerrado.", "example": {"es": "Bajo el postigo entornado.", "en": "Under the half-closed shutter."}},
+    {"word": "pasillo", "type": "n.m.", "en": "corridor, hallway", "note": "Quedó un susurro.", "example": {"es": "En el pasillo quedó un susurro.", "en": "A whisper lingered in the corridor."}},
+    {"word": "susurro", "type": "n.m.", "en": "whisper (noun)", "note": "Susurrar → el susurro.", "example": {"es": "Quedó un susurro.", "en": "A whisper lingered."}},
+    {"word": "antaño", "type": "adv.", "en": "yesteryear, long ago", "note": "Literary.", "example": {"es": "Antaño blanca.", "en": "Once white."}},
+    {"word": "penumbra", "type": "n.f.", "en": "half-light, gloom", "note": "En el recibidor.", "example": {"es": "En la penumbra del recibidor.", "en": "In the half-light of the hall."}},
+    {"word": "telaraña", "type": "n.f.", "en": "cobweb", "note": "Tela de araña.", "example": {"es": "Una telaraña en la esquina.", "en": "A cobweb in the corner."}},
+    {"word": "baúl", "type": "n.m.", "en": "trunk, chest", "note": "La esperaba.", "example": {"es": "El baúl la esperaba.", "en": "The trunk waited for her."}},
+    {"word": "carta amarillenta", "type": "phr.", "en": "yellowed letter", "note": "Que tira a amarillo.", "example": {"es": "Cartas amarillentas atadas.", "en": "Yellowed letters tied up."}},
+    {"word": "solapa", "type": "n.f.", "en": "flap (of envelope)", "note": "Su nombre en la solapa.", "example": {"es": "Su nombre en la solapa.", "en": "Her name on the flap."}},
+    {"word": "escalón", "type": "n.m.", "en": "step (of stairs)", "note": "Siete escalones.", "example": {"es": "Contó los escalones.", "en": "She counted the steps."}},
+    {"word": "pasamanos", "type": "n.m.", "en": "handrail, banister", "note": "Agarrada al pasamanos.", "example": {"es": "Agarrada al pasamanos.", "en": "Holding the handrail."}},
+    {"word": "aldaba", "type": "n.f.", "en": "door knocker", "note": "Golpeó dos veces.", "example": {"es": "Golpeó la aldaba.", "en": "The knocker struck."}},
+    {"word": "umbral", "type": "n.m.", "en": "threshold", "note": "Se detuvo en el umbral.", "example": {"es": "Se detuvo en el umbral.", "en": "She stopped on the threshold."}},
+    {"word": "desempolvar", "type": "v.", "en": "to dust off", "note": "Des- + polvo.", "example": {"es": "Lo desempolvó con la manga.", "en": "She dusted it with her sleeve."}},
+    {"word": "narrador omnisciente", "type": "phr.", "en": "omniscient narrator", "note": "(advanced) El que lo sabe todo.", "ext": true, "example": {"es": "Un narrador omnisciente.", "en": "An omniscient narrator."}},
+    {"word": "flashback", "type": "n.m.", "en": "flashback", "note": "Salto al pasado.", "ext": true, "example": {"es": "Un flashback a la infancia.", "en": "A flashback to childhood."}},
+    {"word": "elipsis", "type": "n.f.", "en": "ellipsis (time skip)", "note": "(advanced) Lo que el relato calla.", "ext": true, "example": {"es": "Una elipsis de veinte años.", "en": "A twenty-year ellipsis."}},
+    {"word": "clímax", "type": "n.m.", "en": "climax", "note": "El punto más tenso.", "ext": true, "example": {"es": "El clímax: la aldaba.", "en": "The climax: the knocker."}}
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "lesson": 59,
+  "title": "The pluperfect subjunctive in all uses",
+  "words": [
+    {
+      "word": "hubiese",
+      "type": "v.",
+      "en": "I/he/she had (imperfect subjunctive of haber, -se form)",
+      "note": "Como si no hubiese pasado nada. Twin: hubiera; both correct everywhere.",
+      "example": { "es": "Como si no hubiese llovido nunca.", "en": "As if it had never rained." }
+    },
+    {
+      "word": "hubiera hecho",
+      "type": "phr.",
+      "en": "he/she had done (pluperfect subjunctive)",
+      "note": "Ojalá no hubiera hecho tanto daño. Hubiera (L58) + hecho.",
+      "example": { "es": "Me había pedido que lo hubiera hecho antes del viernes.", "en": "He had asked me to have done it before Friday." }
+    },
+    {
+      "word": "dicho",
+      "type": "part.",
+      "en": "said (past participle of decir)",
+      "note": "Como si nadie hubiera dicho nada.",
+      "example": { "es": "Como si nadie hubiera dicho la palabra huracán.", "en": "As if nobody had said the word hurricane." }
+    },
+    {
+      "word": "hecho",
+      "type": "part.",
+      "en": "done/made (past participle of hacer)",
+      "note": "Como si el viento no hubiera hecho nada.",
+      "example": { "es": "Como si el viento no hubiera hecho nada.", "en": "As if the wind hadn't done anything." }
+    },
+    {
+      "word": "escrito",
+      "type": "part.",
+      "en": "written (past participle of escribir)",
+      "note": "Que alguien hubiera escrito con crueldad.",
+      "example": { "es": "Parecía una historia que alguien hubiera escrito.", "en": "It seemed like a story someone had written." }
+    },
+    {
+      "word": "huracán",
+      "type": "n.m.",
+      "en": "hurricane",
+      "note": "Tres días después del huracán.",
+      "example": { "es": "Tres días después del huracán.", "en": "Three days after the hurricane." }
+    },
+    {
+      "word": "escombros",
+      "type": "n.m.pl.",
+      "en": "rubble, debris",
+      "note": "La calle estaba llena de escombros.",
+      "example": { "es": "La calle estaba llena de escombros.", "en": "The street was full of rubble." }
+    },
+    {
+      "word": "tejado",
+      "type": "n.m.",
+      "en": "roof (tiles)",
+      "note": "El tejado había volado.",
+      "example": { "es": "El tejado de casa había volado.", "en": "The roof of the house had flown off." }
+    },
+    {
+      "word": "inundar",
+      "type": "v.",
+      "en": "to flood",
+      "note": "Parecía querer inundar la planta baja.",
+      "example": { "es": "Parecía querer inundar la planta baja.", "en": "It seemed to want to flood the ground floor." }
+    },
+    {
+      "word": "derrumbar",
+      "type": "v.",
+      "en": "to knock down, to collapse",
+      "note": "Logró derrumbar el muro.",
+      "example": { "es": "Una ráfaga logró derrumbar el muro.", "en": "A gust managed to knock down the wall." }
+    },
+    {
+      "word": "reconstruir",
+      "type": "v.",
+      "en": "to rebuild",
+      "note": "No haber podido reconstruir la casa.",
+      "example": { "es": "Y reconstruir el muro antes de las lluvias.", "en": "And rebuild the wall before the rains." }
+    },
+    {
+      "word": "refugio",
+      "type": "n.m.",
+      "en": "shelter",
+      "note": "Dormimos en el refugio del colegio.",
+      "example": { "es": "Dormimos en el refugio del colegio.", "en": "We slept in the school shelter." }
+    },
+    {
+      "word": "apagón",
+      "type": "n.m.",
+      "en": "blackout, power cut",
+      "note": "El apagón duraba ya tres días.",
+      "example": { "es": "El apagón duraba ya tres días.", "en": "The blackout had already lasted three days." }
+    },
+    {
+      "word": "linterna",
+      "type": "n.f.",
+      "en": "flashlight",
+      "note": "Volví con una linterna.",
+      "example": { "es": "Volví con una linterna.", "en": "I came back with a flashlight." }
+    },
+    {
+      "word": "barro",
+      "type": "n.m.",
+      "en": "mud",
+      "note": "Las botas llenas de barro.",
+      "example": { "es": "Las botas llenas de barro.", "en": "Boots full of mud." }
+    },
+    {
+      "word": "charco",
+      "type": "n.m.",
+      "en": "puddle",
+      "note": "Un charco negro donde jugábamos.",
+      "example": { "es": "Un charco negro donde antes jugábamos.", "en": "A black puddle where we used to play." }
+    },
+    {
+      "word": "cauce",
+      "type": "n.m.",
+      "en": "riverbed, course",
+      "note": "El río, salido de su cauce.",
+      "example": { "es": "El río, salido de su cauce.", "en": "The river, out of its course." }
+    },
+    {
+      "word": "arrasar",
+      "type": "v.",
+      "en": "to sweep away, to devastate",
+      "note": "Había logrado arrasar dos casas.",
+      "example": { "es": "Había logrado arrasar dos casas.", "en": "It had managed to sweep away two houses." }
+    },
+    {
+      "word": "azotea",
+      "type": "n.f.",
+      "en": "flat roof, rooftop terrace",
+      "note": "Por la azotea abierta se veía el cielo.",
+      "example": { "es": "Por la azotea abierta se veía el cielo.", "en": "Through the open flat roof the sky could be seen." }
+    },
+    {
+      "word": "gotera",
+      "type": "n.f.",
+      "en": "leak (in a roof)",
+      "note": "Solo se oía la gotera de la cocina.",
+      "example": { "es": "Solo se oía la gotera de la cocina.", "en": "All you could hear was the kitchen leak." }
+    },
+    {
+      "word": "trueno",
+      "type": "n.m.",
+      "en": "thunder",
+      "note": "Cada trueno lejano me hacía temblar.",
+      "example": { "es": "Cada trueno lejano me hacía temblar.", "en": "Every distant thunder made me shake." }
+    },
+    {
+      "word": "relámpago",
+      "type": "n.m.",
+      "en": "lightning flash",
+      "note": "Cada relámpago bajo la mesa.",
+      "example": { "es": "Cada relámpago me hacía temblar.", "en": "Every lightning flash made me shake." }
+    },
+    {
+      "word": "ráfaga",
+      "type": "n.f.",
+      "en": "gust (of wind)",
+      "note": "Una ráfaga logró derrumbar el muro.",
+      "example": { "es": "Una ráfaga logró derrumbar el muro.", "en": "A gust managed to knock down the wall." }
+    },
+    {
+      "word": "calma",
+      "type": "n.f.",
+      "en": "calm",
+      "note": "Llorar era perder la calma.",
+      "example": { "es": "Llorar era perder la calma.", "en": "Crying was losing your calm." }
+    },
+    {
+      "word": "remendar",
+      "type": "v.",
+      "en": "to mend, to patch",
+      "note": "Se ponía a remendar cortinas.",
+      "example": { "es": "Hay que remendar las cortinas con calma.", "en": "We must mend the curtains calmly." }
+    },
+    {
+      "word": "fingir",
+      "type": "v.",
+      "en": "to pretend, to feign",
+      "note": "Prefería fingir que leía.",
+      "example": { "es": "Prefería fingir que leía el periódico.", "en": "He preferred to pretend he was reading the newspaper." }
+    },
+    {
+      "word": "disimular",
+      "type": "v.",
+      "en": "to hide, to conceal (feelings)",
+      "note": "Intentaba disimular el miedo.",
+      "example": { "es": "Yo intentaba disimular el miedo.", "en": "I tried to hide my fear." }
+    },
+    {
+      "word": "suspiro",
+      "type": "n.m.",
+      "en": "sigh",
+      "note": "Un suspiro que no terminaba nunca.",
+      "example": { "es": "Un suspiro que no terminaba nunca.", "en": "A sigh that never ended." }
+    },
+    {
+      "word": "duelo",
+      "type": "n.m.",
+      "en": "grief, mourning",
+      "note": "Un duelo antiguo en sus ojos.",
+      "example": { "es": "En sus ojos había un duelo antiguo.", "en": "In her eyes there was an old grief." }
+    },
+    {
+      "word": "resignación",
+      "type": "n.f.",
+      "en": "resignation",
+      "note": "Una resignación sin alivio.",
+      "example": { "es": "Una resignación sin alivio.", "en": "A resignation with no relief." }
+    },
+    {
+      "word": "alivio",
+      "type": "n.m.",
+      "en": "relief",
+      "note": "Sin alivio. Qué alivio: what a relief.",
+      "example": { "es": "Una resignación sin alivio.", "en": "A resignation with no relief." }
+    },
+    {
+      "word": "remordimiento",
+      "type": "n.m.",
+      "en": "remorse",
+      "note": "Entendí su remordimiento con los años.",
+      "example": { "es": "Con los años entendí su remordimiento.", "en": "Over the years I understood her remorse." }
+    },
+    {
+      "word": "huella",
+      "type": "n.f.",
+      "en": "mark, trace, footprint",
+      "note": "La huella del agua en la pared.",
+      "example": { "es": "La huella del agua sigue en la pared.", "en": "The mark of the water is still on the wall." }
+    },
+    {
+      "word": "cicatriz",
+      "type": "n.f.",
+      "en": "scar",
+      "note": "Como una cicatriz en la casa.",
+      "example": { "es": "Mi madre la llama su cicatriz favorita.", "en": "My mother calls it her favourite scar." }
+    },
+    {
+      "word": "evocar",
+      "type": "v.",
+      "en": "to recall, to evoke",
+      "note": "Suelo evocar aquella noche.",
+      "example": { "es": "Hoy suelo evocar aquella noche.", "en": "Today I usually recall that night." }
+    },
+    {
+      "word": "revivir",
+      "type": "v.",
+      "en": "to relive, to revive",
+      "note": "Para revivir su valor.",
+      "example": { "es": "Para revivir su valor.", "en": "To relive her courage." }
+    },
+    {
+      "word": "atesorar",
+      "type": "v.",
+      "en": "to treasure",
+      "note": "Prefiero atesorar su ejemplo.",
+      "example": { "es": "Yo prefiero atesorar sus palabras.", "en": "I prefer to treasure her words." }
+    },
+    {
+      "word": "vela",
+      "type": "n.f.",
+      "en": "candle",
+      "note": "Había encendido dos velas por el apagón.",
+      "ext": true,
+      "example": { "es": "Había encendido una vela.", "en": "She had lit a candle." }
+    },
+    {
+      "word": "ribera",
+      "type": "n.f.",
+      "en": "riverbank",
+      "note": "En la ribera ya había arrasado dos casas.",
+      "ext": true,
+      "example": { "es": "En la ribera había arrasado dos casas.", "en": "On the bank it had swept away two houses." }
+    },
+    {
+      "word": "tablón",
+      "type": "n.m.",
+      "en": "plank",
+      "note": "Un tablón roto entre los escombros.",
+      "ext": true,
+      "example": { "es": "Un tablón roto entre los escombros.", "en": "A broken plank among the rubble." }
+    },
+    {
+      "word": "sollozo",
+      "type": "n.m.",
+      "en": "sob, sobbing",
+      "note": "El sollozo de una vecina, muy lejos.",
+      "ext": true,
+      "example": { "es": "El sollozo de una vecina.", "en": "A neighbour's sobbing." }
+    }
+  ]
+}

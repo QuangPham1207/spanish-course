@@ -1,0 +1,290 @@
+{
+  "lesson": 58,
+  "title": "Unreal & mixed conditionals",
+  "words": [
+    {
+      "word": "tuviera",
+      "type": "v.",
+      "en": "I/he/she had (imperfect subjunctive of tener)",
+      "note": "Si el pueblo tuviera su apeadero.",
+      "example": { "es": "Si tuviera tiempo, vendría.", "en": "If I had time, I'd come." }
+    },
+    {
+      "word": "hubiera",
+      "type": "v.",
+      "en": "I/he/she had (imperfect subjunctive of haber; helper for past-unreal si)",
+      "note": "Si no hubiera llegado aquella noche. Always + participle.",
+      "example": { "es": "Si hubiera llegado el tren, todo habría cambiado.", "en": "If the train had arrived, everything would have changed." }
+    },
+    {
+      "word": "supiera",
+      "type": "v.",
+      "en": "I/he/she knew (imperfect subjunctive of saber)",
+      "note": "Si mi abuelo supiera leer los planos.",
+      "example": { "es": "Si supiera la verdad, te la diría.", "en": "If I knew the truth, I'd tell you." }
+    },
+    {
+      "word": "hiciera",
+      "type": "v.",
+      "en": "I/he/she did/made (imperfect subjunctive of hacer)",
+      "note": "Si el ingeniero hiciera hoy el plano.",
+      "example": { "es": "Si hiciera buen tiempo, iríamos a la romería.", "en": "If the weather were good, we'd go to the pilgrimage festival." }
+    },
+    {
+      "word": "diera",
+      "type": "v.",
+      "en": "I/he/she gave (imperfect subjunctive of dar)",
+      "note": "Si diera su firma.",
+      "example": { "es": "Si me diera su firma, todo se arreglaría.", "en": "If he gave me his signature, everything would be fixed." }
+    },
+    {
+      "word": "estuviera",
+      "type": "v.",
+      "en": "I/he/she was (imperfect subjunctive of estar)",
+      "note": "Si el pueblo estuviera en la línea principal.",
+      "example": { "es": "Si el pueblo estuviera en la línea, tendría hospital.", "en": "If the village were on the line, it would have a hospital." }
+    },
+    {
+      "word": "desvío",
+      "type": "n.m.",
+      "en": "railway switch; detour, diversion",
+      "note": "Marcó mal un desvío. Also: tomar un desvío.",
+      "example": { "es": "El ingeniero marcó mal un desvío.", "en": "The engineer mis-marked a switch." }
+    },
+    {
+      "word": "desenlace",
+      "type": "n.m.",
+      "en": "ending, outcome (of a story)",
+      "note": "Formal: el desenlace de la historia.",
+      "example": { "es": "Aquel fue el desenlace de la historia del tren.", "en": "That was the ending of the train story." }
+    },
+    {
+      "word": "bifurcación",
+      "type": "n.f.",
+      "en": "fork, branching",
+      "note": "La bifurcación del valle, donde la línea se partía.",
+      "example": { "es": "El error estaba en la bifurcación del valle.", "en": "The mistake was at the fork of the valley." }
+    },
+    {
+      "word": "comarca",
+      "type": "n.f.",
+      "en": "district, region",
+      "note": "Un pueblo tranquilo de la comarca.",
+      "example": { "es": "San Miguel es un pueblo de la comarca.", "en": "San Miguel is a village of the district." }
+    },
+    {
+      "word": "cacique",
+      "type": "n.m.",
+      "en": "local boss, political strongman",
+      "note": "El alcalde y el cacique cerraron un trato.",
+      "example": { "es": "El alcalde y el cacique cerraron un trato.", "en": "The mayor and the local boss sealed a deal." }
+    },
+    {
+      "word": "alcalde",
+      "type": "n.m.",
+      "en": "mayor",
+      "note": "Si el alcalde hubiera firmado.",
+      "example": { "es": "Si el alcalde hubiera firmado a tiempo.", "en": "If the mayor had signed on time." }
+    },
+    {
+      "word": "pregonero",
+      "type": "n.m.",
+      "en": "town crier",
+      "note": "El pregonero anunció la promesa.",
+      "example": { "es": "El pregonero anunció la promesa.", "en": "The town crier announced the promise." }
+    },
+    {
+      "word": "campanario",
+      "type": "n.m.",
+      "en": "bell tower",
+      "note": "Desde el campanario, aunque el badajo estaba roto.",
+      "example": { "es": "El pregonero anunció desde el campanario.", "en": "The crier announced from the bell tower." }
+    },
+    {
+      "word": "locomotora",
+      "type": "n.f.",
+      "en": "locomotive",
+      "note": "La locomotora nueva.",
+      "example": { "es": "Prometió traer la locomotora nueva.", "en": "He promised to bring the new locomotive." }
+    },
+    {
+      "word": "vagón",
+      "type": "n.m.",
+      "en": "wagon, carriage",
+      "note": "Un solo vagón de regalos.",
+      "example": { "es": "Un solo vagón de regalos.", "en": "A single wagon of gifts." }
+    },
+    {
+      "word": "apeadero",
+      "type": "n.m.",
+      "en": "railway halt (small stop)",
+      "note": "Smaller than una estación: su apeadero.",
+      "example": { "es": "Si el pueblo tuviera su apeadero.", "en": "If the village had its halt." }
+    },
+    {
+      "word": "hundir",
+      "type": "v.",
+      "en": "to sink",
+      "note": "La riada logró hundir el puente.",
+      "example": { "es": "La riada logró hundir el puente.", "en": "The flood managed to sink the bridge." }
+    },
+    {
+      "word": "herrero",
+      "type": "n.m.",
+      "en": "blacksmith",
+      "note": "El herrero lloró de amargura.",
+      "example": { "es": "El herrero lloró de amargura.", "en": "The blacksmith wept with bitterness." }
+    },
+    {
+      "word": "taberna",
+      "type": "n.f.",
+      "en": "tavern, old-style bar",
+      "note": "Cerraron un trato en la taberna.",
+      "example": { "es": "Cerraron un trato en la taberna.", "en": "They sealed a deal in the tavern." }
+    },
+    {
+      "word": "vía",
+      "type": "n.f.",
+      "en": "track, line; way",
+      "note": "Llevar la vía hasta el pueblo. Vía muerta: disused track.",
+      "example": { "es": "Cerrar los ojos en la vía muerta.", "en": "To close your eyes on the disused track." }
+    },
+    {
+      "word": "maquinista",
+      "type": "n.",
+      "en": "engine driver",
+      "note": "El joven maquinista prometió traer la locomotora.",
+      "example": { "es": "El joven maquinista prometió traer la locomotora.", "en": "The young engine driver promised to bring the locomotive." }
+    },
+    {
+      "word": "cambiar",
+      "type": "v.",
+      "en": "to change",
+      "note": "Cambiar el curso de la comarca.",
+      "example": { "es": "Quería cambiar el curso de la comarca.", "en": "He wanted to change the course of the district." }
+    },
+    {
+      "word": "curso",
+      "type": "n.m.",
+      "en": "course (of events, of a river)",
+      "note": "El curso de la comarca; el curso del río.",
+      "example": { "es": "Cambiar el curso de la comarca.", "en": "To change the course of the district." }
+    },
+    {
+      "word": "azar",
+      "type": "n.m.",
+      "en": "chance, randomness",
+      "note": "Fue el azar. Juegos de azar: games of chance.",
+      "example": { "es": "Dicen que fue el azar.", "en": "They say it was chance." }
+    },
+    {
+      "word": "fatalidad",
+      "type": "n.f.",
+      "en": "fate, fateful misfortune",
+      "note": "Otros hablan de fatalidad.",
+      "example": { "es": "Otros hablan de fatalidad.", "en": "Others speak of fate." }
+    },
+    {
+      "word": "designio",
+      "type": "n.m.",
+      "en": "design, plan (of God/fate)",
+      "note": "Formal: el designio de Dios.",
+      "example": { "es": "Mi abuela habla del designio de Dios.", "en": "My grandmother speaks of God's design." }
+    },
+    {
+      "word": "arrepentimiento",
+      "type": "n.m.",
+      "en": "regret, repentance",
+      "note": "Qué arrepentimiento para el alcalde.",
+      "example": { "es": "Qué arrepentimiento para el alcalde.", "en": "What regret for the mayor." }
+    },
+    {
+      "word": "amargura",
+      "type": "n.f.",
+      "en": "bitterness",
+      "note": "Lloró de amargura.",
+      "example": { "es": "Lloró de amargura ante su familia.", "en": "He wept with bitterness before his family." }
+    },
+    {
+      "word": "desengaño",
+      "type": "n.m.",
+      "en": "disappointment, disillusion",
+      "note": "Qué desengaño para todos.",
+      "example": { "es": "Qué desengaño para todos.", "en": "What a disappointment for everyone." }
+    },
+    {
+      "word": "promesa",
+      "type": "n.f.",
+      "en": "promise",
+      "note": "El pregonero anunció la promesa.",
+      "example": { "es": "El pregonero anunció la promesa.", "en": "The town crier announced the promise." }
+    },
+    {
+      "word": "juramento",
+      "type": "n.m.",
+      "en": "oath, vow",
+      "note": "Stronger than promesa: un juramento solemne.",
+      "example": { "es": "Había hecho un juramento solemne.", "en": "He had made a solemn vow." }
+    },
+    {
+      "word": "trato",
+      "type": "n.m.",
+      "en": "deal, agreement",
+      "note": "Cerraron un trato en la taberna.",
+      "example": { "es": "Brindemos por el trato.", "en": "Let's drink to the deal." }
+    },
+    {
+      "word": "apuesta",
+      "type": "n.f.",
+      "en": "bet",
+      "note": "Hicieron una apuesta: si el tren llegaba…",
+      "example": { "es": "Hicieron una apuesta en la taberna.", "en": "They made a bet in the tavern." }
+    },
+    {
+      "word": "imaginarse",
+      "type": "v.",
+      "en": "to imagine",
+      "note": "Para imaginarse su silbido hay que cerrar los ojos.",
+      "example": { "es": "Para imaginarse su silbido hay que cerrar los ojos.", "en": "To imagine its whistle you have to close your eyes." }
+    },
+    {
+      "word": "farol",
+      "type": "n.m.",
+      "en": "lamp, lantern; streetlight",
+      "note": "Con un farol encendido.",
+      "example": { "es": "Verás un farol entre la niebla.", "en": "You'll see a lamp in the mist." }
+    },
+    {
+      "word": "badajo",
+      "type": "n.m.",
+      "en": "clapper (of a bell)",
+      "note": "El badajo roto del campanario.",
+      "ext": true,
+      "example": { "es": "El badajo estaba roto.", "en": "The clapper was broken." }
+    },
+    {
+      "word": "cencerro",
+      "type": "n.m.",
+      "en": "cowbell",
+      "note": "Un cencerro atado atrás, por broma.",
+      "ext": true,
+      "example": { "es": "Un cencerro atado atrás, por broma.", "en": "A cowbell tied at the back, as a joke." }
+    },
+    {
+      "word": "romería",
+      "type": "n.f.",
+      "en": "pilgrimage festival",
+      "note": "La romería de octubre. Village fiesta + procession.",
+      "ext": true,
+      "example": { "es": "Su romería de octubre.", "en": "Its October pilgrimage festival." }
+    },
+    {
+      "word": "quinqué",
+      "type": "n.m.",
+      "en": "oil lamp",
+      "note": "A la luz de un quinqué, en la taberna.",
+      "ext": true,
+      "example": { "es": "A la luz de un quinqué.", "en": "By the light of an oil lamp." }
+    }
+  ]
+}

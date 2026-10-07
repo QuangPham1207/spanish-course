@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 58 — Unreal &amp; mixed conditionals</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-57.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 58 — UNREAL &amp; MIXED CONDITIONALS</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Build present-unreal conditionals: <strong>si tuviera… haría…</strong></li>
+      <li>Build past-unreal conditionals: <strong>si hubiera… habría…</strong></li>
+      <li>Mix the halves: past condition with present result, and back.</li>
+      <li>Read an alternate-history vignette: what if the train had arrived?</li>
+      <li>Pick up words: <span class="es">desvío, desenlace, bifurcación, comarca, pregonero, apeadero, maquinista</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">tuviera, hubiera, supiera, hiciera, diera, estuviera, desvío, desenlace, bifurcación, comarca, cacique, alcalde, pregonero, campanario, locomotora, vagón, apeadero, hundir, herrero, taberna, vía, maquinista, cambiar, curso, azar, fatalidad, designio, arrepentimiento, amargura, desengaño, promesa, juramento, trato, apuesta, imaginarse, farol</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">badajo, cencerro, romería, quinqué</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EL TREN QUE NUNCA LLEGÓ)</h2>
+<p><strong>Context:</strong> San Miguel del Monte is a quiet village today. But in 1911 the railway almost arrived — and the village still wonders what would have happened if it had. Read each line; the English below it is only a check.</p>
+<p class="lead">(Unreal pasts fill this story — <em>if it had arrived, everything would have changed…</em> is today's grammar.)</p>
+
+<div class="phrase">
+  <p class="es">San Miguel del Monte es hoy un pueblo tranquilo de la <b>comarca</b>, famoso por su queso de oveja y por su <b>romería</b> de octubre, cuando todo el pueblo sale al campo.</p>
+  <p class="en">San Miguel del Monte is today a quiet village of the district, famous for its sheep cheese and its October pilgrimage festival, when the whole village goes out to the countryside.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero en 1911 todo pudo ser distinto: la compañía quería llevar la <b>vía</b> hasta el pueblo y <b>cambiar</b> el <b>curso</b> de la comarca, y soñaba con fábricas, con escuelas y con calles llenas de gente.</p>
+  <p class="en">But in 1911 everything could have been different: the company wanted to bring the track to the village and change the course of the district, and dreamed of factories, schools and streets full of people.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>alcalde</b> y el <b>cacique</b> cerraron un <b>trato</b> en la <b>taberna</b>, a la luz de un <b>quinqué</b>, entre vasos de vino y papeles firmados a medias.</p>
+  <p class="en">The mayor and the local boss sealed a deal in the tavern, by the light of an oil lamp, among glasses of wine and half-signed papers.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hicieron una <b>apuesta</b>: si el tren llegaba antes de Navidad, el cacique pagaba la fiesta; si no, pagaba el alcalde.</p>
+  <p class="en">They made a bet: if the train arrived before Christmas, the boss would pay for the fiesta; if not, the mayor would pay.</p>
+</div>
+<div class="phrase">
+  <p class="es">El joven <b>maquinista</b> prometió traer la <b>locomotora</b> nueva tirando de un solo <b>vagón</b> de regalos, con un <b>farol</b> encendido y un <b>cencerro</b> atado atrás, por broma, y los niños aplaudían al ver pasar la máquina negra.</p>
+  <p class="en">The young engine driver promised to bring the new locomotive pulling a single wagon of gifts, with a lamp lit and a cowbell tied at the back, as a joke — and the children clapped as they watched the black machine go by.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>pregonero</b> anunció la <b>promesa</b> desde el <b>campanario</b>, aunque el <b>badajo</b> estaba roto y la campana sonaba ronca y triste.</p>
+  <p class="en">The town crier announced the promise from the bell tower, even though the clapper was broken and the bell sounded hoarse and sad.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si el pueblo <b>tuviera</b> su <b>apeadero</b>, decían, los jóvenes no se irían a la ciudad.</p>
+  <p class="en">If the village had its halt, they said, young people wouldn't leave for the city.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si mi abuelo <b>supiera</b> leer los planos, habría visto el error del ingeniero.</p>
+  <p class="en">If my grandfather had known how to read blueprints, he would have seen the engineer's mistake.</p>
+</div>
+<div class="phrase">
+  <p class="es">El ingeniero marcó mal un <b>desvío</b> en la <b>bifurcación</b> del valle, y nadie revisó su trabajo.</p>
+  <p class="en">The engineer mis-marked a switch at the fork of the valley, and nobody checked his work.</p>
+</div>
+<div class="phrase">
+  <p class="es">La riada de noviembre logró <b>hundir</b> el puente nuevo antes del primer viaje, con todo el pueblo mirando desde la plaza.</p>
+  <p class="en">The November flood managed to sink the new bridge before the first journey, with the whole village watching from the square.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si la riada no <b>hubiera</b> llegado aquella noche, el puente seguiría en pie.</p>
+  <p class="en">If the flood hadn't come that night, the bridge would still be standing.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si el alcalde hubiera firmado el contrato a tiempo, la compañía habría pagado otro puente.</p>
+  <p class="en">If the mayor had signed the contract on time, the company would have paid for another bridge.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero el alcalde no firmó: dijo que si <b>diera</b> su firma, el cacique se quedaría con todo, hasta con la taberna y las tierras del valle.</p>
+  <p class="en">But the mayor didn't sign: he said that if he gave his signature, the boss would keep everything, even the tavern and the valley lands.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si el ingeniero <b>hiciera</b> hoy el mismo plano, cualquier alumno vería el error.</p>
+  <p class="en">If the engineer drew the same blueprint today, any schoolchild would see the mistake.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>herrero</b>, que había hecho un <b>juramento</b> solemne, lloró de <b>amargura</b> ante su familia y no trabajó en tres días.</p>
+  <p class="en">The blacksmith, who had made a solemn vow, wept with bitterness before his family and didn't work for three days.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si el pueblo <b>estuviera</b> hoy en la línea principal, tendría hospital y universidad.</p>
+  <p class="en">If the village were on the main line today, it would have a hospital and a university.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los viejos dicen que fue el <b>azar</b>, otros hablan de <b>fatalidad</b>; mi abuela habla del <b>designio</b> de Dios, que nadie puede cambiar.</p>
+  <p class="en">Old people say it was chance, others speak of fate; my grandmother speaks of God's design, which nobody can change.</p>
+</div>
+<div class="phrase">
+  <p class="es">Solo el tren fantasma visita el pueblo: para <b>imaginarse</b> su silbido hay que cerrar los ojos en la vía muerta y escuchar el viento entre los árboles.</p>
+  <p class="en">Only the ghost train visits the village: to imagine its whistle you have to close your eyes on the disused track and listen to the wind in the trees.</p>
+</div>
+<div class="phrase">
+  <p class="es">Qué <b>desengaño</b> para todos, y qué <b>arrepentimiento</b> para el alcalde: aquel fue el <b>desenlace</b> de la historia del tren en San Miguel.</p>
+  <p class="en">What a disappointment for everyone, and what regret for the mayor: that was the ending of the train story in San Miguel.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">badajo</span></td><td data-label="Type">n.m.</td><td data-label="English">clapper (of a bell)</td><td data-label="Notes">El badajo roto del campanario.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cencerro</span></td><td data-label="Type">n.m.</td><td data-label="English">cowbell</td><td data-label="Notes">Un cencerro atado atrás, por broma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">romería</span></td><td data-label="Type">n.f.</td><td data-label="English">pilgrimage festival</td><td data-label="Notes">La romería de octubre. Village fiesta + procession.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">quinqué</span></td><td data-label="Type">n.m.</td><td data-label="English">oil lamp</td><td data-label="Notes">A la luz de un quinqué, en la taberna.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> three clocks are running — present-unreal (<span class="es">si tuviera… no se irían</span>), past-unreal (<span class="es">si hubiera firmado… habría pagado</span>), and mixed (<span class="es">si no hubiera llegado… seguiría en pie</span>: a past condition with a present result).</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. Present-unreal: si + imperfect subjunctive + conditional</h3>
+<p>Dreams about a <strong>different present or future</strong>: the <span class="es">si</span>-clause takes the imperfect subjunctive (L57), and the result takes the <strong>conditional</strong>. Order of halves doesn't matter.</p>
+<div class="formula"><b>si</b> + imperfect subjunctive + <b>conditional</b> → si tuviera… no se irían</div>
+<ul>
+  <li class="ex"><span class="es">Si el pueblo <b>tuviera</b> su apeadero, los jóvenes no se <b>irían</b>.</span><span class="en">If the village had its halt, young people wouldn't leave.</span></li>
+  <li class="ex"><span class="es">Si el pueblo <b>estuviera</b> en la línea principal, <b>tendría</b> hospital.</span><span class="en">If the village were on the main line, it would have a hospital.</span></li>
+  <li class="ex"><span class="es">Si el ingeniero <b>hiciera</b> hoy el plano, cualquier alumno <b>vería</b> el error.</span><span class="en">If the engineer drew the blueprint today, any schoolchild would see the mistake.</span></li>
+  <li class="ex"><span class="es">Dijo que si <b>diera</b> su firma, el cacique se <b>quedaría</b> con todo.</span><span class="en">He said that if he gave his signature, the boss would keep everything.</span></li>
+</ul>
+
+<h3>2.2. Past-unreal: si + pluperfect subjunctive + conditional perfect</h3>
+<p>Dreams about a <strong>different past</strong>: the <span class="es">si</span>-clause takes <span class="es">hubiera + participle</span> (full forms in L59), and the result takes <span class="es">habría + participle</span>. Both halves look backward.</p>
+<div class="formula"><b>si</b> + hubiera + participle + <b>habría</b> + participle → si hubiera firmado… habría pagado</div>
+<ul>
+  <li class="ex"><span class="es">Si el alcalde <b>hubiera firmado</b>, la compañía <b>habría pagado</b> otro puente.</span><span class="en">If the mayor had signed, the company would have paid for another bridge.</span></li>
+  <li class="ex"><span class="es">Si mi abuelo <b>supiera</b> leer los planos, <b>habría visto</b> el error.</span><span class="en">If my grandfather had known how to read blueprints, he would have seen the mistake.</span> <em>(mixed: past result, see 2.3)</em></li>
+  <li class="ex"><span class="es">Si la riada no <b>hubiera llegado</b>, el puente <b>seguiría</b> en pie.</span><span class="en">If the flood hadn't come, the bridge would still be standing.</span> <em>(mixed: present result)</em></li>
+</ul>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> this whole system is identical everywhere — the train story works the same in Madrid and in México. Only the endings vary: <span class="es">hubiera</span> dominates in speech on both sides; <span class="es">hubiese</span> sounds more literary, a little more so in Latin America.</div>
+
+<h3>2.3. Mixed conditionals: borrow each half where you need it</h3>
+<p>Real thinking mixes clocks: a <strong>past condition</strong> with a <strong>present result</strong>, or a <strong>present condition</strong> with a <strong>past result</strong>. Just combine the halves from 2.1 and 2.2.</p>
+<div class="formula">past condition + present result · or · present condition + past result</div>
+<ul>
+  <li class="ex"><span class="es">Si la riada no hubiera llegado, el puente <b>seguiría</b> en pie.</span><span class="en">If the flood hadn't come, the bridge would still be standing. (then → now)</span></li>
+  <li class="ex"><span class="es">Si mi abuelo supiera leer los planos, <b>habría visto</b> el error.</span><span class="en">If my grandfather knew how to read blueprints, he would have seen the mistake. (now → then)</span></li>
+  <li class="ex"><span class="es">Si el pueblo estuviera en la línea, hoy <b>habríamos nacido</b> en otro pueblo.</span><span class="en">If the village were on the line, today we would have been born in a different village. (now → then)</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistakes:</strong> the <span class="es">si</span>-clause never takes a conditional: <span class="es">*si tendría, *si habría llegado</span> are wrong — always <span class="es">si tuviera, si hubiera llegado</span>. And the result never takes a subjunctive: <span class="es">*si tuviera, pagara</span> is wrong — the result needs <span class="es">pagaría / habría pagado</span>.</div>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">tuviera</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she had (imp. subj. of tener)</td><td data-label="Notes">Si el pueblo tuviera su apeadero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hubiera</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she had (imp. subj. of haber; helper for past-unreal si)</td><td data-label="Notes">Si no hubiera llegado aquella noche. + participle.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">supiera</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she knew (imp. subj. of saber)</td><td data-label="Notes">Si mi abuelo supiera leer los planos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hiciera</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she did/made (imp. subj. of hacer)</td><td data-label="Notes">Si el ingeniero hiciera hoy el plano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">diera</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she gave (imp. subj. of dar)</td><td data-label="Notes">Si diera su firma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">estuviera</span></td><td data-label="Type">v.</td><td data-label="English">I/he/she was (imp. subj. of estar)</td><td data-label="Notes">Si el pueblo estuviera en la línea principal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desvío</span></td><td data-label="Type">n.m.</td><td data-label="English">railway switch; detour, diversion</td><td data-label="Notes">Marcó mal un desvío. Also: tomar un desvío.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desenlace</span></td><td data-label="Type">n.m.</td><td data-label="English">ending, outcome (of a story)</td><td data-label="Notes">Formal: el desenlace de la historia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bifurcación</span></td><td data-label="Type">n.f.</td><td data-label="English">fork, branching</td><td data-label="Notes">La bifurcación del valle, donde la línea se partía.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comarca</span></td><td data-label="Type">n.f.</td><td data-label="English">district, region</td><td data-label="Notes">Un pueblo tranquilo de la comarca.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cacique</span></td><td data-label="Type">n.m.</td><td data-label="English">local boss, political strongman</td><td data-label="Notes">El alcalde y el cacique cerraron un trato.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alcalde</span></td><td data-label="Type">n.m.</td><td data-label="English">mayor</td><td data-label="Notes">Si el alcalde hubiera firmado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pregonero</span></td><td data-label="Type">n.m.</td><td data-label="English">town crier</td><td data-label="Notes">El pregonero anunció la promesa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">campanario</span></td><td data-label="Type">n.m.</td><td data-label="English">bell tower</td><td data-label="Notes">Desde el campanario, aunque el badajo estaba roto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">locomotora</span></td><td data-label="Type">n.f.</td><td data-label="English">locomotive</td><td data-label="Notes">La locomotora nueva.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vagón</span></td><td data-label="Type">n.m.</td><td data-label="English">wagon, carriage</td><td data-label="Notes">Un solo vagón de regalos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">apeadero</span></td><td data-label="Type">n.m.</td><td data-label="English">railway halt (small stop)</td><td data-label="Notes">Smaller than una estación: su apeadero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hundir</span></td><td data-label="Type">v.</td><td data-label="English">to sink</td><td data-label="Notes">La riada logró hundir el puente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">herrero</span></td><td data-label="Type">n.m.</td><td data-label="English">blacksmith</td><td data-label="Notes">El herrero lloró de amargura.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">taberna</span></td><td data-label="Type">n.f.</td><td data-label="English">tavern, old-style bar</td><td data-label="Notes">Cerraron un trato en la taberna.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vía</span></td><td data-label="Type">n.f.</td><td data-label="English">track, line; way</td><td data-label="Notes">Llevar la vía hasta el pueblo. Vía muerta: disused track.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">maquinista</span></td><td data-label="Type">n.</td><td data-label="English">engine driver</td><td data-label="Notes">El joven maquinista prometió traer la locomotora.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cambiar</span></td><td data-label="Type">v.</td><td data-label="English">to change</td><td data-label="Notes">Cambiar el curso de la comarca.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">curso</span></td><td data-label="Type">n.m.</td><td data-label="English">course (of events, of a river)</td><td data-label="Notes">El curso de la comarca; el curso del río.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">azar</span></td><td data-label="Type">n.m.</td><td data-label="English">chance, randomness</td><td data-label="Notes">Fue el azar. Juegos de azar: games of chance.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fatalidad</span></td><td data-label="Type">n.f.</td><td data-label="English">fate, fateful misfortune</td><td data-label="Notes">Otros hablan de fatalidad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">designio</span></td><td data-label="Type">n.m.</td><td data-label="English">design, plan (of God/fate)</td><td data-label="Notes">Formal: el designio de Dios.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">arrepentimiento</span></td><td data-label="Type">n.m.</td><td data-label="English">regret, repentance</td><td data-label="Notes">Qué arrepentimiento para el alcalde.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">amargura</span></td><td data-label="Type">n.f.</td><td data-label="English">bitterness</td><td data-label="Notes">Lloró de amargura.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desengaño</span></td><td data-label="Type">n.m.</td><td data-label="English">disappointment, disillusion</td><td data-label="Notes">Qué desengaño para todos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">promesa</span></td><td data-label="Type">n.f.</td><td data-label="English">promise</td><td data-label="Notes">El pregonero anunció la promesa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">juramento</span></td><td data-label="Type">n.m.</td><td data-label="English">oath, vow</td><td data-label="Notes">Stronger than promesa: un juramento solemne.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trato</span></td><td data-label="Type">n.m.</td><td data-label="English">deal, agreement</td><td data-label="Notes">Cerraron un trato en la taberna.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">apuesta</span></td><td data-label="Type">n.f.</td><td data-label="English">bet</td><td data-label="Notes">Hicieron una apuesta: si el tren llegaba…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">imaginarse</span></td><td data-label="Type">v.</td><td data-label="English">to imagine</td><td data-label="Notes">Para imaginarse su silbido hay que cerrar los ojos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">farol</span></td><td data-label="Type">n.m.</td><td data-label="English">lamp, lantern; streetlight</td><td data-label="Notes">Con un farol encendido.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five unreal sentences. Read them once; no need to memorize.</p>
+
+<h3>1. Present dream:</h3>
+<div class="phrase">
+  <p class="es">Si tuviera tiempo, vendría.</p>
+  <p class="en">If I had time, I'd come.</p>
+</div>
+<h3>2. Past dream:</h3>
+<div class="phrase">
+  <p class="es">Si hubiera llegado el tren, todo habría cambiado.</p>
+  <p class="en">If the train had arrived, everything would have changed.</p>
+</div>
+<h3>3. Knowing:</h3>
+<div class="phrase">
+  <p class="es">Si supiera la verdad, te la diría.</p>
+  <p class="en">If I knew the truth, I'd tell you.</p>
+</div>
+<h3>4. Giving:</h3>
+<div class="phrase">
+  <p class="es">Si me diera su firma, todo se arreglaría.</p>
+  <p class="en">If he gave me his signature, everything would be fixed.</p>
+</div>
+<h3>5. Weather:</h3>
+<div class="phrase">
+  <p class="es">Si hiciera buen tiempo, iríamos a la romería.</p>
+  <p class="en">If the weather were good, we'd go to the pilgrimage festival.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two neighbours, Julián and Rosa, drink wine in the taberna and replay the old story.</p>
+
+<div class="phrase">
+  <p class="es">Julián: Si el tren hubiera llegado, yo habría nacido en otro pueblo.</p>
+  <p class="en">Julián: If the train had arrived, I would have been born in a different village.</p>
+</div>
+<div class="phrase">
+  <p class="es">Rosa: Y si tu abuelo supiera leer planos, sería ingeniero.</p>
+  <p class="en">Rosa: And if your grandfather knew how to read blueprints, he'd be an engineer.</p>
+</div>
+<div class="phrase">
+  <p class="es">Julián: Hicimos una apuesta en esta taberna, ¿te acuerdas?</p>
+  <p class="en">Julián: We made a bet in this tavern, remember?</p>
+</div>
+<div class="phrase">
+  <p class="es">Rosa: Sí: si ganaba el alcalde, pagaba la fiesta.</p>
+  <p class="en">Rosa: Yes: if the mayor won, he'd pay for the fiesta.</p>
+</div>
+<div class="phrase">
+  <p class="es">Julián: Qué desengaño, y qué desenlace tan triste.</p>
+  <p class="en">Julián: What a disappointment, and what a sad ending.</p>
+</div>
+<div class="phrase">
+  <p class="es">Rosa: No fue el azar, fue la fatalidad del río.</p>
+  <p class="en">Rosa: It wasn't chance, it was the fatefulness of the river.</p>
+</div>
+<div class="phrase">
+  <p class="es">Julián: Pues brindemos por el trato: que vuelva el tren, aunque sea fantasma.</p>
+  <p class="en">Julián: Then let's drink to the deal: may the train return, even as a ghost.</p>
+</div>
+
+<p class="lead"><em>No new words — the dialogue reuses <strong>apuesta</strong> (bet), <strong>taberna</strong> (tavern), <strong>desenlace</strong> (ending), <strong>azar</strong> (chance) and <strong>trato</strong> (deal) from today's table.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Present-unreal:</strong> <span class="es">si + imperfect subjunctive + conditional</span> (<span class="es">si tuviera… no se irían</span>).</li>
+  <li><strong>Past-unreal:</strong> <span class="es">si + hubiera + participle + habría + participle</span> (<span class="es">si hubiera firmado… habría pagado</span>).</li>
+  <li><strong>Mixed:</strong> combine halves freely — past condition with present result (<span class="es">seguiría en pie</span>), present condition with past result (<span class="es">habría visto</span>).</li>
+</ul>
+
+<h3>5.2. Further reading — el tren fantasma</h3>
+<p><strong>Context:</strong> What the village hears at night. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">Dicen que de noche se oye un silbido junto a la <b>vía</b> muerta.</p>
+  <p class="en">They say that at night a whistle is heard by the disused track.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si te quedas allí a las doce, verás un <b>farol</b> entre la niebla.</p>
+  <p class="en">If you stay there at midnight, you'll see a lamp in the mist.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sería el <b>maquinista</b> fantasma, que sigue buscando su <b>apeadero</b>.</p>
+  <p class="en">It would be the ghost engine driver, still looking for his halt.</p>
+</div>
+<div class="phrase">
+  <p class="es">Para <b>imaginarse</b> la escena hay que cerrar los ojos y escuchar el <b>campanario</b>.</p>
+  <p class="en">To imagine the scene you have to close your eyes and listen to the bell tower.</p>
+</div>
+<div class="phrase">
+  <p class="es">Y si el tren volviera, el pueblo haría fiesta como en la <b>romería</b>.</p>
+  <p class="en">And if the train came back, the village would party as at the pilgrimage festival.</p>
+</div>
+
+<p class="lead"><em>No new words — it reuses <strong>vía</strong> (track), <strong>farol</strong> (lamp), <strong>maquinista</strong> (engine driver), <strong>apeadero</strong> (halt), <strong>imaginarse</strong> (to imagine), <strong>campanario</strong> (bell tower) and <strong>romería</strong> from today's table.</em></p>
+
+<hr>
+<p><strong>End of Lesson 58.</strong> Next, <strong>Lesson 59</strong>: the pluperfect subjunctive in all its uses — a family after the storm. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-59.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Review B2-2 — Thought & identity in context</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-72.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>REVIEW B2-2 — THOUGHT &amp; IDENTITY IN CONTEXT</h1>
+  <p class="lead">This is a <strong>re-reading</strong> lesson, not a test. There are no exercises and nothing to send. Read the two short texts and notice how much of Module B2-2 you already recognise.</p>
+  <div class="obj">
+    <strong>What this review re-reads:</strong>
+    <ul>
+      <li><strong>Lesson 67</strong> — Spanish philosophy: Unamuno &amp; Ortega (<span class="es">intrahistoria, circunstancia, en el fondo…</span>).</li>
+      <li><strong>Lesson 68</strong> — Latin American thought (<span class="es">la explotación de, por consiguiente, periferia…</span>).</li>
+      <li><strong>Lesson 69</strong> — religion, race &amp; <span class="es">mestizaje</span> (<span class="es">sincretismo, aunque, a pesar de…</span>).</li>
+      <li><strong>Lesson 70</strong> — language &amp; identity (<span class="es">bilingüismo, prestigio, cabe señalar que…</span>).</li>
+      <li><strong>Lesson 71</strong> — art &amp; aesthetics (<span class="es">representa, evoca, a primera vista…</span>).</li>
+      <li><strong>Lesson 72</strong> — literature &amp; memory (<span class="es">testimonio, según cuenta, nunca más…</span>).</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Almost every word here comes from Lessons 67-72.</b> A few extra, very common words appear in context (listed after the texts). No need to memorise anything &mdash; re-reading is exactly how it settles in.
+  </p>
+</header>
+
+<h2>READING 1 — PHILOSOPHICAL ESSAY (¿QUIÉN PIENSA A QUIÉN?)</h2>
+<p><strong>Context:</strong> A short essay for a cultural magazine, tying the whole module together: what does it mean to think from one's own place? Read it from top to bottom &mdash; the English below is only a check.</p>
+
+<div class="phrase">
+  <p class="es">Unamuno decía «me duele España»; Mariátegui, <b>en cambio</b>, preguntaba quién trabaja la <b>tierra</b>.</p>
+  <p class="en">Unamuno said "Spain hurts me"; Mariátegui, on the other hand, asked who works the land.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Es decir</b>, el dolor de uno era la <b>angustia</b> interior; el del otro, <b>la explotación de</b> los <b>campesinos</b>.</p>
+  <p class="en">That is to say, one man's pain was inner anguish; the other's, the exploitation of peasants.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ortega pedía salvar la <b>circunstancia</b>; Dussel pedía escuchar a <b>el otro</b>, al <b>oprimido</b>.</p>
+  <p class="en">Ortega asked to save one's circumstance; Dussel asked to listen to the Other, to the oppressed.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>En el fondo</b>, los cuatro dicen lo mismo: piensa desde donde vives, no desde prestado.</p>
+  <p class="en">Deep down, all four say the same thing: think from where you live, not from borrowed ideas.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Debido a</b> esta lección, hoy hablamos de <b>dependencia</b>: ¿quién decide lo que vale en la <b>periferia</b>?</p>
+  <p class="en">Owing to this lesson, today we speak of dependence: who decides what has value in the periphery?</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Por consiguiente</b>, la filosofía aquí es también una <b>denuncia</b>: la <b>desigualdad</b> no es natural.</p>
+  <p class="en">Consequently, philosophy here is also a denunciation: inequality is not natural.</p>
+</div>
+
+<h2>READING 2 — IDENTITY TODAY (VIRGEN, LENGUA, MURO Y MEMORIA)</h2>
+<p><strong>Context:</strong> A second essay, on the other half of the module — faith, language, art and memory as identity. Read it quietly:</p>
+
+<div class="phrase">
+  <p class="es"><b>Aunque</b> la <b>Virgen</b> de Guadalupe une a millones, muchos <b>afrodescendientes</b> recuerdan que el <b>mestizaje</b> los <b>invisibiliza</b>.</p>
+  <p class="en">Although the Virgin of Guadalupe unites millions, many Afro-descendants recall that mestizaje makes them invisible.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Si bien</b> el <b>sincretismo</b> mezcló la <b>fe</b> con la <b>devoción</b> antigua, la <b>jerarquía</b> colonial dejó heridas.</p>
+  <p class="en">Although syncretism mixed faith with older devotion, the colonial hierarchy left wounds.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Cabe señalar que</b> el guaraní es lengua <b>cooficial</b> en Paraguay, pero el español conserva más <b>prestigio</b>.</p>
+  <p class="en">It should be noted that Guaraní is a co-official language in Paraguay, but Spanish keeps more prestige.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Es innegable que</b> el <b>bilingüismo</b> vive en la calle, en el <b>espanglish</b> de la frontera y en cada <b>préstamo</b>.</p>
+  <p class="en">It is undeniable that bilingualism lives in the street, in border Spanglish and in every loanword.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>A primera vista</b> el <b>mural</b> de Rivera celebra al pueblo; <b>en el fondo</b> <b>simboliza</b> su lucha.</p>
+  <p class="en">At first sight Rivera's mural celebrates ordinary people; deep down it symbolizes their struggle.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <i>Guernica</i> <b>representa</b> un bombardeo y <b>evoca</b> todas las guerras; Salcedo <b>conmueve</b> sin mostrar sangre.</p>
+  <p class="en">Guernica depicts a bombing and evokes all wars; Salcedo moves you without showing blood.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Según cuenta</b> Walsh en su <b>Carta abierta</b>, la <b>memoria</b> es una forma de justicia contra el <b>olvido</b>.</p>
+  <p class="en">As Walsh tells it in his Open Letter, memory is a form of justice against forgetting.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Tal como relatan</b> los <b>testimonios</b>, del <b>exilio</b> también se vuelve: <b>nunca más</b>.</p>
+  <p class="en">As testimonios relate, one also returns from exile: never again.</p>
+</div>
+
+<p class="lead"><strong>A few new words in these texts (read them once, no need to memorise):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">prestado</span></td><td data-label="Type">adj.</td><td data-label="English">borrowed</td><td data-label="Notes">Pensar desde prestado: thinking with borrowed ideas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">herida</span></td><td data-label="Type">n.f.</td><td data-label="English">wound</td><td data-label="Notes">La jerarquía colonial dejó heridas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">calle</span></td><td data-label="Type">n.f.</td><td data-label="English">street</td><td data-label="Notes">El bilingüismo vive en la calle.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lucha</span></td><td data-label="Type">n.f.</td><td data-label="English">struggle, fight</td><td data-label="Notes">Simboliza su lucha. Luchar → la lucha.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">justicia</span></td><td data-label="Type">n.f.</td><td data-label="English">justice</td><td data-label="Notes">La memoria es una forma de justicia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">olvido</span></td><td data-label="Type">n.m.</td><td data-label="English">forgetting, oblivion</td><td data-label="Notes">Justicia contra el olvido. Olvidar → el olvido.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Register note:</strong> a <em>philosophical essay</em> lives on abstract nouns (<span class="es">la explotación de…, la dependencia de…</span>), contrast and cause connectors (<span class="es">en cambio, debido a, por consiguiente</span>) and evidential frames (<span class="es">según cuenta, cabe señalar que</span>). You are now reading all three at once.</div>
+
+<hr>
+
+<h2>THE SENTENCES, BROKEN INTO PATTERNS</h2>
+<p>Re-read these mini-groups. Each one is a pattern you can reuse forever.</p>
+
+<h3>Abstract nouns (L67)</h3>
+<ul>
+  <li class="ex"><span class="es">Europeizar → la europeización; meditar → la meditación.</span><span class="en">-ción = process; -ismo = doctrine (el perspectivismo).</span></li>
+  <li class="ex"><span class="es">Me duele España; yo soy yo y mi circunstancia.</span><span class="en">Two sentences that carry two philosophies.</span></li>
+</ul>
+
+<h3>Nominalization &amp; cause (L68)</h3>
+<ul>
+  <li class="ex"><span class="es">La explotación de los campesinos produce desigualdad.</span><span class="en">The exploitation of peasants produces inequality.</span></li>
+  <li class="ex"><span class="es">Debido al deterioro, la periferia recibe menos; por consiguiente, crece la deuda.</span><span class="en">Owing to deterioration, the periphery gets less; consequently, debt grows.</span></li>
+</ul>
+
+<h3>Concession (L69)</h3>
+<ul>
+  <li class="ex"><span class="es">Aunque su idea sonaba generosa, muchos la critican.</span><span class="en">Although his idea sounded generous, many criticize it.</span></li>
+  <li class="ex"><span class="es">Si bien parecen inocentes, enseñaban jerarquía. (formal)</span><span class="en">Although they look innocent, they taught hierarchy.</span></li>
+  <li class="ex"><span class="es">A pesar de hablar de unión, soñaba con blanqueamiento.</span><span class="en">Despite speaking of unity, he dreamed of whitening.</span></li>
+</ul>
+
+<h3>Stance markers (L70)</h3>
+<ul>
+  <li class="ex"><span class="es">Cabe señalar que el guaraní es cooficial.</span><span class="en">It should be noted that Guaraní is co-official.</span></li>
+  <li class="ex"><span class="es">Es innegable que el bilingüismo vive en la calle.</span><span class="en">It is undeniable that bilingualism lives in the street.</span></li>
+</ul>
+
+<h3>Interpretation frames (L71)</h3>
+<ul>
+  <li class="ex"><span class="es">A primera vista es gris; en el fondo es dolor.</span><span class="en">At first sight it is grey; deep down it is pain.</span></li>
+  <li class="ex"><span class="es">El cuadro representa una guerra y evoca todas.</span><span class="en">The painting depicts one war and evokes all of them.</span></li>
+</ul>
+
+<h3>Evidential frames (L72)</h3>
+<ul>
+  <li class="ex"><span class="es">Según cuenta Walsh, la memoria es justicia.</span><span class="en">As Walsh tells it, memory is justice.</span></li>
+  <li class="ex"><span class="es">Tal como relatan los testimonios, del exilio se vuelve.</span><span class="en">As testimonios relate, one returns from exile.</span></li>
+</ul>
+
+<div class="warn">⚠️ <strong>One last reminder:</strong> the only thing a review asks is that you read. No writing, no exercises, no memorising. If a sentence felt easy today, that is progress &mdash; and watch the connectors: formal on paper (<span class="es">por consiguiente, cabe señalar, si bien</span>), neutral in speech (<span class="es">por eso, aunque</span>).</div>
+
+<hr>
+
+<h2>VOCABULARY RECAP TABLE (RE-READ, DON'T MEMORISE)</h2>
+<p>These are core words from Lessons 67–72 — five from each lesson. Skim them; the ones you know will feel instant.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>English</th><th>Spanish</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">angustia</span></td><td data-label="English">anguish, anxiety</td><td data-label="Spanish2"><span class="es">circunstancia</span></td><td data-label="English2">circumstance</td></tr>
+    <tr><td data-label="Spanish"><span class="es">intrahistoria</span></td><td data-label="English">intrahistory</td><td data-label="Spanish2"><span class="es">perspectiva</span></td><td data-label="English2">perspective</td></tr>
+    <tr><td data-label="Spanish"><span class="es">destierro</span></td><td data-label="English">exile</td><td data-label="Spanish2"><span class="es">explotación</span></td><td data-label="English2">exploitation</td></tr>
+    <tr><td data-label="Spanish"><span class="es">latifundio</span></td><td data-label="English">large estate</td><td data-label="Spanish2"><span class="es">periferia</span></td><td data-label="English2">periphery</td></tr>
+    <tr><td data-label="Spanish"><span class="es">oprimido</span></td><td data-label="English">oppressed person</td><td data-label="Spanish2"><span class="es">compromiso</span></td><td data-label="English2">commitment</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mestizaje</span></td><td data-label="English">mixing</td><td data-label="Spanish2"><span class="es">sincretismo</span></td><td data-label="English2">syncretism</td></tr>
+    <tr><td data-label="Spanish"><span class="es">jerarquía</span></td><td data-label="English">hierarchy</td><td data-label="Spanish2"><span class="es">reivindicar</span></td><td data-label="English2">to reclaim</td></tr>
+    <tr><td data-label="Spanish"><span class="es">invisibilizar</span></td><td data-label="English">to make invisible</td><td data-label="Spanish2"><span class="es">bilingüismo</span></td><td data-label="English2">bilingualism</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prestigio</span></td><td data-label="English">prestige</td><td data-label="Spanish2"><span class="es">préstamo</span></td><td data-label="English2">loanword</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hablante</span></td><td data-label="English">speaker</td><td data-label="Spanish2"><span class="es">mural</span></td><td data-label="English2">mural</td></tr>
+    <tr><td data-label="Spanish"><span class="es">evocar</span></td><td data-label="English">to evoke</td><td data-label="Spanish2"><span class="es">simbolizar</span></td><td data-label="English2">to symbolize</td></tr>
+    <tr><td data-label="Spanish"><span class="es">patrimonio</span></td><td data-label="English">heritage</td><td data-label="Spanish2"><span class="es">testimonio</span></td><td data-label="English2">testimonio, testimony</td></tr>
+    <tr><td data-label="Spanish"><span class="es">exilio</span></td><td data-label="English">exile</td><td data-label="Spanish2"><span class="es">denuncia</span></td><td data-label="English2">denunciation</td></tr>
+    <tr><td data-label="Spanish"><span class="es">memoria</span></td><td data-label="English">memory</td><td data-label="Spanish2"><span class="es">olvido</span></td><td data-label="English2">forgetting, oblivion</td></tr>
+    <tr><td data-label="Spanish"><span class="es">en el fondo</span></td><td data-label="English">deep down</td><td data-label="Spanish2"><span class="es">por consiguiente</span></td><td data-label="English2">consequently</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+<p><strong>End of Review B2-2.</strong> Module B2-2 is complete: six lessons of thought and identity, from Unamuno's Salamanca to the memory museums of Buenos Aires. Next up, <strong>Module B2-3</strong> begins with democracy and politics in Spain and Latin America. There is no homework &mdash; just read.</p>
+
+<p class="topnav"><a href="lesson-73.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

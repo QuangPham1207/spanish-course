@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 67 — Spanish philosophy: Unamuno and Ortega</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="topnav"><a href="review-b2-1.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+<header class="top">
+  <h1>LESSON 67 — SPANISH PHILOSOPHY: UNAMUNO AND ORTEGA</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read about two Spanish thinkers: Miguel de <strong>Unamuno</strong> in Salamanca and José <strong>Ortega y Gasset</strong> in Madrid.</li>
+      <li>Understand key ideas: <span class="es">intrahistoria, nivola, "me duele España", "yo soy yo y mi circunstancia", el hombre-masa, el perspectivismo</span>.</li>
+      <li>Learn abstract nouns in <span class="es">-ción / -dad / -ismo</span> (<span class="es">angustia, circunstancia, europeización, perspectivismo</span>).</li>
+      <li>Use contrastive connectors: <span class="es">en cambio, es decir, por el contrario, en el fondo</span>.</li>
+      <li>Pick up words: <span class="es">rector, destierro, ensayo, ensimismamiento, minoría, rebelión</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">filósofo, pensamiento, ensimismamiento, circunstancia, perspectiva, perspectivismo, angustia, inmortalidad, fe, duda, razón, sentimiento, trágico, intrahistoria, cotidiano, silencioso, doler, rector, destierro, generación, ensayo, nivola, niebla, personaje, europeización, europeizar, atraso, masa, hombre-masa, minoría, rebelión, meditación, existencia, modernizar, plantear, sostener, afirmar, vital, salvar, en cambio, es decir, por el contrario, en el fondo, mientras que</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">catedrático, claustro, casticismo, deshumanización</span>
+  </p>
+</header>
+<h2>1. READING PASSAGE (DOS FILÓSOFOS QUE PENSARON ESPAÑA)</h2>
+<p><strong>Context:</strong> Spain, around 1900. The country has lost its last colonies, and two professors ask a painful question: what is Spain, and how should it live? One writes in Salamanca; the other, in Madrid.</p>
+<p class="lead">(Watch the abstract nouns — <em>angustia, circunstancia, europeización</em> — and the contrast words: <em>en cambio, es decir, por el contrario</em>.)</p>
+<div class="phrase">
+  <p class="es">Miguel de Unamuno fue <b>filósofo</b>, escritor y <b>rector</b> de la Universidad de Salamanca.</p>
+  <p class="en">Miguel de Unamuno was a philosopher, writer and rector of the University of Salamanca.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pertenece a la <b>generación</b> del 98, un grupo de <b>pensamiento</b> que reflexionó sobre el futuro del país.</p>
+  <p class="en">He belongs to the Generation of '98, a group of thinkers who reflected on the future of the country.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su frase más famosa es íntima y política a la vez: «Me <b>duele</b> España».</p>
+  <p class="en">His most famous sentence is intimate and political at the same time: "Spain hurts me."</p>
+</div>
+<div class="phrase">
+  <p class="es">Unamuno no habla solo de reyes y batallas; <b>plantea</b> la idea de la <b>intrahistoria</b>.</p>
+  <p class="en">Unamuno does not speak only of kings and battles; he puts forward the idea of intrahistory.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>intrahistoria</b> es la vida <b>silenciosa</b> y <b>cotidiana</b> del pueblo: el trabajo, la familia, la costumbre.</p>
+  <p class="en">Intrahistory is the silent, everyday life of ordinary people: work, family, custom.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Es decir</b>, la historia verdadera no está solo en los libros, sino en la gente común.</p>
+  <p class="en">That is to say, true history is not only in books, but in ordinary people.</p>
+</div>
+<div class="phrase">
+  <p class="es">En su juventud defendió la <b>europeización</b> de España: había que <b>europeizar</b> el país para sacarlo del <b>atraso</b>.</p>
+  <p class="en">In his youth he defended the Europeanization of Spain: the country had to be Europeanized to pull it out of backwardness.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>En cambio</b>, con los años defendió también lo propio, lo español, frente a la simple copia de Europa.</p>
+  <p class="en">On the other hand, with the years he also defended what was one's own, what was Spanish, against simply copying Europe.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su libro <i>Del sentimiento trágico de la vida</i> <b>plantea</b> una lucha interior: la <b>razón</b> contra la <b>fe</b>.</p>
+  <p class="en">His book <i>The Tragic Sense of Life</i> poses an inner struggle: reason against faith.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>razón</b> dice que la muerte es el final; el <b>sentimiento</b> quiere la <b>inmortalidad</b>.</p>
+  <p class="en">Reason says that death is the end; feeling wants immortality.</p>
+</div>
+<div class="phrase">
+  <p class="es">De esa tensión nace la <b>angustia</b> y también la <b>duda</b>: no saber, y no poder dejar de preguntar.</p>
+  <p class="en">From that tension anguish is born, and also doubt: not knowing, and not being able to stop asking.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por eso su vida es <b>trágica</b>, <b>en el fondo</b>: piensa contra sí mismo.</p>
+  <p class="en">That is why his life is tragic, deep down: he thinks against himself.</p>
+</div>
+<div class="phrase">
+  <p class="es">Unamuno también inventó la <b>nivola</b>, una novela abierta donde el <b>personaje</b> discute con el autor.</p>
+  <p class="en">Unamuno also invented the nivola, an open novel where the character argues with the author.</p>
+</div>
+<div class="phrase">
+  <p class="es">En <i>Niebla</i>, Augusto decide su final entre la <b>niebla</b> de la <b>existencia</b>: ¿vive, o es soñado por otro?</p>
+  <p class="en">In <i>Mist</i>, Augusto decides his ending amid the mist of existence: does he live, or is he dreamed by another?</p>
+</div>
+<div class="phrase">
+  <p class="es">Unamuno pagó sus ideas con el <b>destierro</b> y con años de conflicto como <b>rector</b>.</p>
+  <p class="en">Unamuno paid for his ideas with exile and with years of conflict as rector.</p>
+</div>
+<div class="phrase">
+  <p class="es">José Ortega y Gasset, <b>en cambio</b>, pensó desde Madrid y desde el <b>ensayo</b> corto y claro.</p>
+  <p class="en">José Ortega y Gasset, on the other hand, thought from Madrid and from the short, clear essay.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su frase central es: «Yo soy yo y mi <b>circunstancia</b>, y si no la salvo a ella no me salvo yo».</p>
+  <p class="en">His central sentence is: "I am I and my circumstance, and if I do not save it I do not save myself."</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Es decir</b>, la persona no vive sola: debe <b>salvar</b> su lugar, su tiempo, su mundo.</p>
+  <p class="en">That is to say, the person does not live alone: he must save his place, his time, his world.</p>
+</div>
+<div class="phrase">
+  <p class="es">De aquí nace su <b>perspectiva</b> más famosa: el <b>perspectivismo</b>.</p>
+  <p class="en">From here his most famous perspective is born: perspectivism.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada vida ve la verdad desde un punto distinto; <b>por el contrario</b>, nadie la ve completa solo.</p>
+  <p class="en">Each life sees truth from a different point; on the contrary, nobody sees it complete alone.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ortega <b>sostiene</b> que hay que unir razón y vida: lo llama razón <b>vital</b>.</p>
+  <p class="en">Ortega maintains that reason and life must be joined: he calls it vital reason.</p>
+</div>
+<div class="phrase">
+  <p class="es">En <i>La rebelión de las masas</i> <b>afirma</b> que el <b>hombre-masa</b> no escucha y solo opina.</p>
+  <p class="en">In <i>The Revolt of the Masses</i> he claims that mass-man does not listen and only gives opinions.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>masa</b>, dice, no dialoga; <b>mientras que</b> la <b>minoría</b> selecta propone y crea.</p>
+  <p class="en">The mass, he says, does not hold dialogue; whereas the select minority proposes and creates.</p>
+</div>
+<div class="phrase">
+  <p class="es">Frente al ruido, Ortega propone el <b>ensimismamiento</b> y la <b>meditación</b>: entrar en uno mismo para pensar.</p>
+  <p class="en">Against the noise, Ortega proposes self-absorption and meditation: going into oneself in order to think.</p>
+</div>
+<div class="phrase">
+  <p class="es">Unamuno y Ortega, <b>en el fondo</b>, quieren lo mismo: <b>modernizar</b> España sin perder su alma.</p>
+  <p class="en">Unamuno and Ortega, deep down, want the same thing: to modernize Spain without losing its soul.</p>
+</div>
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">catedrático</span></td><td data-label="Type">n.m./f.</td><td data-label="English">full professor, chair holder</td><td data-label="Notes">Unamuno era catedrático en Salamanca.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">claustro</span></td><td data-label="Type">n.m.</td><td data-label="English">faculty council; cloister</td><td data-label="Notes">El claustro discutió con el rector.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">casticismo</span></td><td data-label="Type">n.m.</td><td data-label="English">traditionalism, purism (Spanishness)</td><td data-label="Notes">De su libro <i>En torno al casticismo</i>.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">deshumanización</span></td><td data-label="Type">n.f.</td><td data-label="English">dehumanization</td><td data-label="Notes">De <i>La deshumanización del arte</i>, de Ortega.</td></tr>
+  </tbody>
+</table>
+</div>
+<div class="tip">💡 <strong>Notice:</strong> Unamuno looks <em>inward</em> — <span class="es">angustia, duda, intrahistoria</span>. Ortega looks <em>outward</em> — <span class="es">circunstancia, perspectiva, masa</span>. Both ask: how can Spain be modern and still itself?</div>
+<hr>
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+<h3>2.1. Abstract nouns in -ción / -dad / -ismo</h3>
+<p>Philosophical Spanish loves abstract nouns. Three endings do most of the work: <strong>-ción</strong> (process or result: <span class="es">europeización, meditación, rebelión</span>), <strong>-dad</strong> (quality: <span class="es">inmortalidad</span>), <strong>-ismo</strong> (doctrine or attitude: <span class="es">perspectivismo</span>). Learn the family together: verb → noun.</p>
+<ul>
+  <li class="ex"><span class="es">europeizar → la <b>europeización</b> de España.</span><span class="en">to Europeanize → the Europeanization of Spain. (-ar verbs: -izar → -ización)</span></li>
+  <li class="ex"><span class="es">meditar → la <b>meditación</b>; rebelarse → la <b>rebelión</b>.</span><span class="en">to meditate → meditation; to rebel → rebellion.</span></li>
+  <li class="ex"><span class="es">inmortal → la <b>inmortalidad</b>; la <b>angustia</b> existencial.</span><span class="en">immortal → immortality; existential anguish. (-dad = -ity)</span></li>
+  <li class="ex"><span class="es">La <b>perspectiva</b> de cada uno → el <b>perspectivismo</b>.</span><span class="en">Each person's perspective → perspectivism. (-ismo = doctrine)</span></li>
+</ul>
+<div class="formula">-ción = process · -dad = quality · -ismo = doctrine</div>
+<p>Other useful pairs from the text: <span class="es">existir → la existencia; moderno → modernizar → la modernización; ensimismarse → el ensimismamiento</span>. Note <span class="es">el ensimismamiento</span> is masculine despite ending in <span class="es">-miento</span> (all <span class="es">-miento</span> nouns are masculine).</p>
+<div class="warn">⚠️ <strong>Common mistake:</strong> <span class="es">la perspectivismo</span> never exists — <span class="es">-ismo</span> words are always masculine: <span class="es">el perspectivismo, el existencialismo</span>. And <span class="es">-ción / -dad</span> words are always feminine: <span class="es">la europeización, la inmortalidad</span>.</div>
+<h3>2.2. Contrastive and clarifying connectors</h3>
+<p>Philosophy compares and corrects itself. Four connectors carry that movement: <span class="es">en cambio</span> (a different case), <span class="es">por el contrario</span> (stronger: the opposite), <span class="es">es decir</span> (clarification), <span class="es">en el fondo</span> (the deep truth behind appearances).</p>
+<ul>
+  <li class="ex"><span class="es">Unamuno mira a Salamanca; Ortega, <b>en cambio</b>, mira a Madrid.</span><span class="en">Unamuno looks to Salamanca; Ortega, on the other hand, looks to Madrid. (en cambio = whereas)</span></li>
+  <li class="ex"><span class="es">La masa no dialoga; <b>por el contrario</b>, impone su opinión.</span><span class="en">The mass does not hold dialogue; on the contrary, it imposes its opinion. (stronger contrast)</span></li>
+  <li class="ex"><span class="es">Defendió la intrahistoria, <b>es decir</b>, la vida cotidiana del pueblo.</span><span class="en">He defended intrahistory, that is to say, the everyday life of ordinary people.</span></li>
+  <li class="ex"><span class="es"><b>En el fondo</b>, los dos quieren modernizar España.</span><span class="en">Deep down, both want to modernize Spain. (en el fondo = fundamentally)</span></li>
+</ul>
+<div class="formula">en cambio (different) · por el contrario (opposite) · es decir (clarifies) · en el fondo (deep truth)</div>
+<p><span class="es">Mientras que</span> works like <span class="es">en cambio</span> inside one sentence: <span class="es">la masa opina, mientras que la minoría crea</span> (the mass gives opinions, whereas the minority creates).</p>
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">filósofo</span></td><td data-label="Type">n.m./f.</td><td data-label="English">philosopher</td><td data-label="Notes">Unamuno fue filósofo y escritor. Fem. la filósofa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pensamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">thought, thinking</td><td data-label="Notes">Un grupo de pensamiento. Pensar → pensamiento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ensimismamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">inwardness, self-absorption</td><td data-label="Notes">Ortega: entrar en uno mismo. Always masculine.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">circunstancia</span></td><td data-label="Type">n.f.</td><td data-label="English">circumstance</td><td data-label="Notes">Yo soy yo y mi circunstancia. Save your circumstance.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">perspectiva</span></td><td data-label="Type">n.f.</td><td data-label="English">perspective, view</td><td data-label="Notes">Cada vida tiene su perspectiva.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">perspectivismo</span></td><td data-label="Type">n.m.</td><td data-label="English">perspectivism</td><td data-label="Notes">Doctrine: truth depends on point of view. -ismo = masc.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">angustia</span></td><td data-label="Type">n.f.</td><td data-label="English">anguish, anxiety</td><td data-label="Notes">La angustia de no saber. Key existential word.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inmortalidad</span></td><td data-label="Type">n.f.</td><td data-label="English">immortality</td><td data-label="Notes">El sentimiento quiere la inmortalidad. Inmortal → -dad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">fe</span></td><td data-label="Type">n.f.</td><td data-label="English">faith</td><td data-label="Notes">La razón contra la fe. Short but central.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">duda</span></td><td data-label="Type">n.f.</td><td data-label="English">doubt</td><td data-label="Notes">Dudar → la duda. No poder dejar de preguntar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">razón</span></td><td data-label="Type">n.f.</td><td data-label="English">reason</td><td data-label="Notes">Tener razón (to be right) vs la razón (reason). Razón vital.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sentimiento</span></td><td data-label="Type">n.m.</td><td data-label="English">feeling</td><td data-label="Notes">Del sentimiento trágico de la vida. Sentir → sentimiento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trágico</span></td><td data-label="Type">adj.</td><td data-label="English">tragic</td><td data-label="Notes">El sentimiento trágico: reason and faith cannot agree.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">intrahistoria</span></td><td data-label="Type">n.f.</td><td data-label="English">intrahistory</td><td data-label="Notes">Unamuno's word: silent daily life beneath official history.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cotidiano</span></td><td data-label="Type">adj.</td><td data-label="English">everyday, daily</td><td data-label="Notes">La vida cotidiana del pueblo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">silencioso</span></td><td data-label="Type">adj.</td><td data-label="English">silent</td><td data-label="Notes">La vida silenciosa. Silencio → silencioso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">doler</span></td><td data-label="Type">v.</td><td data-label="English">to hurt, to ache</td><td data-label="Notes">Me duele España. Like gustar: me duele, le duele.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rector</span></td><td data-label="Type">n.m./f.</td><td data-label="English">rector, university head</td><td data-label="Notes">Rector de Salamanca. Fem. la rectora.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">destierro</span></td><td data-label="Type">n.m.</td><td data-label="English">exile</td><td data-label="Notes">Pagó sus ideas con el destierro. Desterrar → destierro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">generación</span></td><td data-label="Type">n.f.</td><td data-label="English">generation</td><td data-label="Notes">La generación del 98. Generar → generación.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ensayo</span></td><td data-label="Type">n.m.</td><td data-label="English">essay</td><td data-label="Notes">Ortega: el ensayo corto y claro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nivola</span></td><td data-label="Type">n.f.</td><td data-label="English">nivola (Unamuno's open novel)</td><td data-label="Notes">Not novela: character argues with the author.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">niebla</span></td><td data-label="Type">n.f.</td><td data-label="English">fog, mist</td><td data-label="Notes">Title <i>Niebla</i> (1914). La niebla de la existencia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">personaje</span></td><td data-label="Type">n.m.</td><td data-label="English">character (fiction)</td><td data-label="Notes">El personaje discute con el autor. Always masculine.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">europeización</span></td><td data-label="Type">n.f.</td><td data-label="English">Europeanization</td><td data-label="Notes">Europeizar → europeización. Feminine -ción.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">europeizar</span></td><td data-label="Type">v.</td><td data-label="English">to Europeanize</td><td data-label="Notes">Había que europeizar el país.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">atraso</span></td><td data-label="Type">n.m.</td><td data-label="English">backwardness, lag</td><td data-label="Notes">Sacarlo del atraso. Atrás → atraso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">masa</span></td><td data-label="Type">n.f.</td><td data-label="English">mass, crowd</td><td data-label="Notes">La rebelión de las masas. La masa no dialoga.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hombre-masa</span></td><td data-label="Type">n.m.</td><td data-label="English">mass-man</td><td data-label="Notes">Ortega's term: opina sin escuchar. Hyphenated noun.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">minoría</span></td><td data-label="Type">n.f.</td><td data-label="English">minority</td><td data-label="Notes">La minoría selecta propone y crea. Opposite: mayoría.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rebelión</span></td><td data-label="Type">n.f.</td><td data-label="English">rebellion, revolt</td><td data-label="Notes">La rebelión de las masas (1930). Rebelarse → rebelión.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">meditación</span></td><td data-label="Type">n.f.</td><td data-label="English">meditation, reflection</td><td data-label="Notes"><i>Meditaciones del Quijote</i>. Meditar → meditación.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">existencia</span></td><td data-label="Type">n.f.</td><td data-label="English">existence</td><td data-label="Notes">La niebla de la existencia. Existir → existencia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">modernizar</span></td><td data-label="Type">v.</td><td data-label="English">to modernize</td><td data-label="Notes">Modernizar sin perder el alma. Moderno → modernizar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">plantear</span></td><td data-label="Type">v.</td><td data-label="English">to pose, to raise (a question)</td><td data-label="Notes">Plantea una lucha interior. Also: plantear un problema.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sostener</span></td><td data-label="Type">v.</td><td data-label="English">to maintain, to hold (an opinion)</td><td data-label="Notes">Sostiene que hay que unir razón y vida. Irregular: sostengo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">afirmar</span></td><td data-label="Type">v.</td><td data-label="English">to affirm, to claim</td><td data-label="Notes">Afirma que el hombre-masa no escucha.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vital</span></td><td data-label="Type">adj.</td><td data-label="English">vital, of life</td><td data-label="Notes">La razón vital: reason joined to life. Vida → vital.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">salvar</span></td><td data-label="Type">v.</td><td data-label="English">to save</td><td data-label="Notes">Si no la salvo a ella no me salvo yo. Salvar la circunstancia.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">en cambio</span></td><td data-label="Type">phr.</td><td data-label="English">on the other hand, whereas</td><td data-label="Notes">Unamuno mira a Salamanca; Ortega, en cambio, a Madrid.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">es decir</span></td><td data-label="Type">phr.</td><td data-label="English">that is to say, i.e.</td><td data-label="Notes">Clarifies: la intrahistoria, es decir, la vida cotidiana.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">por el contrario</span></td><td data-label="Type">phr.</td><td data-label="English">on the contrary</td><td data-label="Notes">Stronger than en cambio: the opposite is true.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">en el fondo</span></td><td data-label="Type">phr.</td><td data-label="English">deep down, fundamentally</td><td data-label="Notes">En el fondo, quieren lo mismo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mientras que</span></td><td data-label="Type">conj.</td><td data-label="English">whereas, while</td><td data-label="Notes">La masa opina, mientras que la minoría crea.</td></tr>
+  </tbody>
+</table>
+</div>
+<hr>
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Four sentences to carry with you. Read them once; no need to memorize.</p>
+<h3>1. The pain:</h3>
+<div class="phrase">
+  <p class="es">Me duele España, escribió Unamuno.</p>
+  <p class="en">Spain hurts me, wrote Unamuno.</p>
+</div>
+<h3>2. The circumstance:</h3>
+<div class="phrase">
+  <p class="es">Yo soy yo y mi circunstancia.</p>
+  <p class="en">I am I and my circumstance.</p>
+</div>
+<h3>3. The everyday:</h3>
+<div class="phrase">
+  <p class="es">La intrahistoria es la vida silenciosa del pueblo.</p>
+  <p class="en">Intrahistory is the silent life of ordinary people.</p>
+</div>
+<h3>4. The deep truth:</h3>
+<div class="phrase">
+  <p class="es">En el fondo, pensar es pensar contra uno mismo.</p>
+  <p class="en">Deep down, to think is to think against oneself.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all four out loud once. Not required.</div>
+<hr>
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two students rest on the old stone wall in Salamanca, in front of the university.</p>
+<div class="phrase">
+  <p class="es">Lucía: Aquí enseñó Unamuno. ¿Sabes lo de «me duele España»?</p>
+  <p class="en">Lucía: Unamuno taught here. Do you know about "Spain hurts me"?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: Sí, y lo del rector contra el claustro. ¡Qué carácter!</p>
+  <p class="en">Marco: Yes, and the rector against the faculty council. What a character!</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Es decir, no era solo filosofía: era su vida.</p>
+  <p class="en">Lucía: That is to say, it wasn't only philosophy: it was his life.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: Ortega, en cambio, me gusta más. Lo de la circunstancia es muy claro.</p>
+  <p class="en">Marco: Ortega, on the other hand, I like more. The circumstance thing is very clear.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Y lo del hombre-masa… Por el contrario, yo sí escucho.</p>
+  <p class="en">Lucía: And the mass-man thing… On the contrary, I do listen.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: En el fondo, los dos dicen: piensa por ti mismo.</p>
+  <p class="en">Marco: Deep down, both say: think for yourself.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Vamos a ver la estatua de Unamuno, mientras que sale el sol.</p>
+  <p class="en">Lucía: Let's go and see Unamuno's statue, while the sun comes out.</p>
+</div>
+<p class="lead"><em>New words in the dialogue: <strong>catedrático</strong> is implied (Unamuno taught here), <strong>claustro</strong> (faculty council) — one statue, two philosophers, zero exams.</em></p>
+<hr>
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Unamuno (Salamanca):</strong> <span class="es">intrahistoria</span> (silent daily life), <span class="es">me duele España</span>, reason vs <span class="es">fe</span>, <span class="es">angustia, duda, inmortalidad</span>, the <span class="es">nivola</span> (<span class="es">Niebla</span>).</li>
+  <li><strong>Ortega (Madrid):</strong> <span class="es">yo soy yo y mi circunstancia</span>, <span class="es">perspectivismo</span>, razón <span class="es">vital</span>, <span class="es">hombre-masa</span> vs <span class="es">minoría</span>, <span class="es">ensimismamiento</span>.</li>
+  <li><strong>Abstract nouns:</strong> <span class="es">-ción</span> (process: <span class="es">europeización, meditación, rebelión</span>), <span class="es">-dad</span> (quality: <span class="es">inmortalidad</span>), <span class="es">-ismo</span> (doctrine, masculine: <span class="es">perspectivismo</span>).</li>
+  <li><strong>Connectors:</strong> <span class="es">en cambio</span> (different), <span class="es">por el contrario</span> (opposite), <span class="es">es decir</span> (clarifies), <span class="es">en el fondo</span> (deep truth).</li>
+</ul>
+<h3>5.2. Further reading — Salamanca hoy</h3>
+<p><strong>Context:</strong> Today, students still walk past Unamuno's house. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">La casa de Unamuno está junto a la universidad, <b>silenciosa</b> entre la <b>niebla</b> de invierno.</p>
+  <p class="en">Unamuno's house stands next to the university, silent amid the winter mist.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los guías <b>afirman</b> que escribía de noche, entre la <b>duda</b> y la <b>fe</b>.</p>
+  <p class="en">The guides claim that he wrote at night, between doubt and faith.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su <b>pensamiento</b>, <b>en cambio</b>, sigue vivo en cada <b>ensayo</b> que lo cita.</p>
+  <p class="en">His thinking, on the other hand, remains alive in every essay that quotes him.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Es decir</b>, Salamanca guarda su <b>perspectiva</b> mejor que ningún museo.</p>
+  <p class="en">That is to say, Salamanca keeps his perspective better than any museum.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>En el fondo</b>, la ciudad entera es su mejor <b>nivola</b>.</p>
+  <p class="en">Deep down, the whole city is his best nivola.</p>
+</div>
+<p class="lead"><em>All words are from today's table — <strong>silenciosa, niebla, pensamiento</strong> return here in a new light.</em></p>
+<hr>
+<p><strong>End of Lesson 67.</strong> Next, <strong>Lesson 68</strong>: Latin American thought — Mariátegui, liberation philosophy and dependency theory. No exercises — just read.</p>
+<p class="topnav"><a href="lesson-68.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

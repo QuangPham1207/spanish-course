@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 76 — Media, technology & disinformation</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-75.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 76 — MEDIA, TECHNOLOGY &amp; DISINFORMATION</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Enter a <strong>redacción</strong> on election night: a <strong>bulo</strong> goes viral and the <strong>verificadores</strong> race it.</li>
+      <li>Visit the dark side: <span class="es">granja de troles, deepfake, cámara de eco, burbuja de filtro</span>.</li>
+      <li>Learn press words: <span class="es">portada, exclusiva, primicia, rueda de prensa, pauta oficial</span>.</li>
+      <li>Use rumour grammar: the conditional (<span class="es">habría nacido</span>) and evidentials (<span class="es">se dice que, según</span>).</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">bulo, desinformación, verificación, verificador, chequeo de datos, algoritmo, burbuja de filtro, cámara de eco, trol, granja de troles, deepfake, clickbait, discurso de odio, prensa, portada, redacción, tertulia, pódcast, streaming, plataforma, suscripción, suscriptor, pauta oficial, influencer, seguidor, cadena de WhatsApp, lista de difusión, noticia falsa, teoría conspirativa, negacionismo, sesgo, sesgo de confirmación, alfabetización mediática, rueda de prensa, nota de prensa, exclusiva, primicia, directo, transmisión en vivo, moderador</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">periodismo de datos, desmentido, rectificación, derecho a réplica</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (THE NIGHT OF THE BULO)</h2>
+<p><strong>Context:</strong> Election night in Bogotá. At 8 p.m. a video explodes on WhatsApp: stuffed ballot boxes, says the message. The newsroom has two hours to verify before the morning edition. Read it like a thriller.</p>
+<p class="lead">(Bold words are in the vocabulary table. The English is only a check.)</p>
+
+<div class="phrase">
+  <p class="es">A las ocho de la noche, la <b>redacción</b> hierve: una <b>cadena de WhatsApp</b> muestra urnas llenas de <b>noticias falsas</b>.</p>
+  <p class="en">At eight at night, the newsroom boils: a WhatsApp chain shows ballot boxes full of fake news.</p>
+</div>
+<div class="phrase">
+  <p class="es">El vídeo, granuloso y sin fecha, <b>sería</b> de otro país y de otro año: el <b>bulo habría nacido</b> en una <b>granja de troles</b>.</p>
+  <p class="en">The video, grainy and undated, is allegedly from another country and year: the hoax supposedly originated on a troll farm.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Según</b> los metadatos, el archivo se grabó en 2019; <b>se dice que</b> lo resucitan en cada elección.</p>
+  <p class="en">According to the metadata, the file was recorded in 2019; it is said they revive it every election.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>algoritmo</b> no espera: la <b>plataforma</b> lo empuja a millones porque indigna, y lo que indigna se comparte.</p>
+  <p class="en">The algorithm doesn't wait: the platform pushes it to millions because it outrages, and what outrages gets shared.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada usuario vive en su <b>burbuja de filtro</b>: solo ve lo que confirma su <b>sesgo</b>, su <b>sesgo de confirmación</b>.</p>
+  <p class="en">Each user lives in their filter bubble: they only see what confirms their bias, their confirmation bias.</p>
+</div>
+<div class="phrase">
+  <p class="es">En la <b>cámara de eco</b> del grupo familiar, el tío reenvía el vídeo a la <b>lista de difusión</b> sin leerlo.</p>
+  <p class="en">In the echo chamber of the family group, the uncle forwards the video to the broadcast list without reading it.</p>
+</div>
+<div class="phrase">
+  <p class="es">El equipo de <b>verificación</b> abre el <b>chequeo de datos</b>: geolocalizan la pared, la ropa, la matrícula.</p>
+  <p class="en">The verification team opens the fact-check: they geolocate the wall, the clothes, the licence plate.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>verificador</b> jefe dicta la regla de oro: dos fuentes o no se publica; la <b>primicia</b> puede esperar.</p>
+  <p class="en">The chief verifier dictates the golden rule: two sources or it isn't published; the scoop can wait.</p>
+</div>
+<div class="phrase">
+  <p class="es">A las diez, la <b>prensa</b> seria publica el desmentido; la <b>portada</b> digital titula: «Es un bulo de 2019».</p>
+  <p class="en">At ten, the serious press publishes the denial; the digital front page headlines: "It's a 2019 hoax".</p>
+</div>
+<div class="phrase">
+  <p class="es">Pero el <b>clickbait</b> ya ganó: el <b>deepfake</b> del candidato llorando <b>seguiría circulando</b> toda la noche.</p>
+  <p class="en">But clickbait already won: the deepfake of the crying candidate would keep circulating all night.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>troles</b> cobran por mensaje; la <b>granja de troles</b> funciona como una <b>maquila</b> del insulto.</p>
+  <p class="en">Trolls are paid per message; the troll farm works like a maquila of insults.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>discurso de odio</b> y el <b>negacionismo</b> —«el fraude no existe porque lo digo yo»— inundan la zona de comentarios.</p>
+  <p class="en">Hate speech and denialism — "fraud doesn't exist because I say so" — flood the comments section.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>moderador</b> borra mil mensajes por hora; la <b>teoría conspirativa</b> muta más rápido que sus manos.</p>
+  <p class="en">The moderator deletes a thousand messages per hour; the conspiracy theory mutates faster than his hands.</p>
+</div>
+<div class="phrase">
+  <p class="es">A medianoche, el candidato da una <b>rueda de prensa</b> en <b>directo</b>: la <b>transmisión en vivo</b> la ven dos millones.</p>
+  <p class="en">At midnight, the candidate holds a press conference live: two million watch the livestream.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lee una <b>nota de prensa</b> de tres líneas y anuncia una <b>exclusiva</b>: demandará a la granja.</p>
+  <p class="en">He reads a three-line press release and announces an exclusive: he will sue the farm.</p>
+</div>
+<div class="phrase">
+  <p class="es">Al día siguiente, la <b>tertulia</b> de radio discute la <b>pauta oficial</b>: ¿quién pagó la campaña sucia, el gobierno o la oposición?</p>
+  <p class="en">The next day, the radio talk show discusses official advertising money: who paid for the dirty campaign, the government or the opposition?</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>influencer</b> de turno pide perdón ante tres millones de <b>seguidores</b>; el <b>pódcast</b> del barrio explica el bulo con calma.</p>
+  <p class="en">The influencer of the moment apologises before three million followers; the neighbourhood podcast calmly explains the hoax.</p>
+</div>
+<div class="phrase">
+  <p class="es">La lección cabe en un <b>streaming</b> de un minuto: sin <b>alfabetización mediática</b>, la <b>desinformación</b> vota por ti.</p>
+  <p class="en">The lesson fits in a one-minute stream: without media literacy, disinformation votes for you.</p>
+</div>
+<div class="phrase">
+  <p class="es">Y la <b>suscripción</b> al diario —cien mil nuevos <b>suscriptores</b> en una noche— demuestra que la verdad también vende.</p>
+  <p class="en">And the newspaper subscription — a hundred thousand new subscribers in one night — proves truth sells too.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (read only):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">periodismo de datos</span></td><td data-label="Type">phr.</td><td data-label="English">data journalism</td><td data-label="Notes">Cruzar bases de datos para contar historias.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desmentido</span></td><td data-label="Type">n.m.</td><td data-label="English">denial, debunking</td><td data-label="Notes">La prensa seria publica el desmentido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rectificación</span></td><td data-label="Type">n.f.</td><td data-label="English">correction</td><td data-label="Notes">Rectificar: corregir en público lo publicado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">derecho a réplica</span></td><td data-label="Type">phr.</td><td data-label="English">right of reply</td><td data-label="Notes">El aludido puede responder en el mismo medio.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> the whole chain in one night — <span class="es">granja de troles → cadena → algoritmo → burbuja → verificación → portada → tertulia</span>. Lies travel fast; checking travels on foot.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The conditional of rumour</h3>
+<p>Spanish reports unconfirmed claims with the conditional: <span class="es">sería de otro país</span> (it is allegedly from…), <span class="es">habría nacido en…</span> (it supposedly originated in…). No one asserts — everyone distances.</p>
+<ul>
+  <li class="ex"><span class="es">El vídeo <b>sería</b> de otro país y de otro año.</span><span class="en">The video is allegedly from another country and year.</span></li>
+  <li class="ex"><span class="es">El bulo <b>habría nacido</b> en una granja de troles.</span><span class="en">The hoax supposedly originated on a troll farm.</span></li>
+  <li class="ex"><span class="es">El deepfake <b>seguiría circulando</b> toda la noche.</span><span class="en">The deepfake would keep circulating all night.</span></li>
+</ul>
+<div class="formula">conditional = allegedly / supposedly · habría + participle = supposedly happened</div>
+
+<h3>2.2. Evidentials: según, se dice que</h3>
+<p>Same shields as Lesson 72, now in the newsroom: <span class="es">según los metadatos</span> (source named), <span class="es">se dice que</span> (source hidden). Distance is honesty.</p>
+<ul>
+  <li class="ex"><span class="es"><b>Según</b> los metadatos, el archivo se grabó en 2019.</span><span class="en">According to the metadata, the file was recorded in 2019.</span></li>
+  <li class="ex"><span class="es"><b>Se dice que</b> lo resucitan en cada elección.</span><span class="en">It is said they revive it every election.</span></li>
+  <li class="ex"><span class="es"><b>Seguiría circulando</b>, <b>según</b> los verificadores.</span><span class="en">It would keep circulating, according to the verifiers.</span></li>
+</ul>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">bulo</span></td><td data-label="Type">n.m.</td><td data-label="English">hoax, fake story</td><td data-label="Notes">España: bulo. América: noticia falsa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desinformación</span></td><td data-label="Type">n.f.</td><td data-label="English">disinformation</td><td data-label="Notes">Mentira con intención. Sin tilde en -ción? Sí: desinformación.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">verificación</span></td><td data-label="Type">n.f.</td><td data-label="English">verification, fact-checking</td><td data-label="Notes">El equipo de verificación.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">verificador</span></td><td data-label="Type">n.m.</td><td data-label="English">fact-checker</td><td data-label="Notes">El verificador jefe. Verificar → verificador.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">chequeo de datos</span></td><td data-label="Type">phr.</td><td data-label="English">fact-check</td><td data-label="Notes">Abren el chequeo: geolocalizan todo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">algoritmo</span></td><td data-label="Type">n.m.</td><td data-label="English">algorithm</td><td data-label="Notes">El algoritmo empuja lo que indigna.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">burbuja de filtro</span></td><td data-label="Type">phr.</td><td data-label="English">filter bubble</td><td data-label="Notes">Solo ves lo que confirma tu sesgo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cámara de eco</span></td><td data-label="Type">phr.</td><td data-label="English">echo chamber</td><td data-label="Notes">El grupo familiar: todos repiten lo mismo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">trol</span></td><td data-label="Type">n.m.</td><td data-label="English">troll</td><td data-label="Notes">Cobran por mensaje. Los troles insultan.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">granja de troles</span></td><td data-label="Type">phr.</td><td data-label="English">troll farm</td><td data-label="Notes">Maquila del insulto. Bulo habría nacido allí.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">deepfake</span></td><td data-label="Type">n.m.</td><td data-label="English">deepfake</td><td data-label="Notes">Vídeo falso con IA. El deepfake del candidato.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">clickbait</span></td><td data-label="Type">n.m.</td><td data-label="English">clickbait</td><td data-label="Notes">Titular trampa para clics.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">discurso de odio</span></td><td data-label="Type">phr.</td><td data-label="English">hate speech</td><td data-label="Notes">Inunda la zona de comentarios.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prensa</span></td><td data-label="Type">n.f.</td><td data-label="English">press</td><td data-label="Notes">La prensa seria publica el desmentido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">portada</span></td><td data-label="Type">n.f.</td><td data-label="English">front page</td><td data-label="Notes">La portada digital titula…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">redacción</span></td><td data-label="Type">n.f.</td><td data-label="English">newsroom</td><td data-label="Notes">La redacción hierve en noche electoral.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tertulia</span></td><td data-label="Type">n.f.</td><td data-label="English">talk show, round table</td><td data-label="Notes">La tertulia de radio discute.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pódcast</span></td><td data-label="Type">n.m.</td><td data-label="English">podcast</td><td data-label="Notes">El pódcast del barrio explica con calma.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">streaming</span></td><td data-label="Type">n.m.</td><td data-label="English">streaming, livestream</td><td data-label="Notes">Un streaming de un minuto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">plataforma</span></td><td data-label="Type">n.f.</td><td data-label="English">platform</td><td data-label="Notes">La plataforma lo empuja a millones.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">suscripción</span></td><td data-label="Type">n.f.</td><td data-label="English">subscription</td><td data-label="Notes">La suscripción al diario.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">suscriptor</span></td><td data-label="Type">n.m.</td><td data-label="English">subscriber</td><td data-label="Notes">Cien mil nuevos suscriptores.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pauta oficial</span></td><td data-label="Type">phr.</td><td data-label="English">official advertising money</td><td data-label="Notes">LatAm: el gobierno paga anuncios. ¿A quién?</td></tr>
+    <tr><td data-label="Spanish"><span class="es">influencer</span></td><td data-label="Type">n.m./f.</td><td data-label="English">influencer</td><td data-label="Notes">El influencer pide perdón.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">seguidor</span></td><td data-label="Type">n.m.</td><td data-label="English">follower</td><td data-label="Notes">Tres millones de seguidores.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cadena de WhatsApp</span></td><td data-label="Type">phr.</td><td data-label="English">WhatsApp chain message</td><td data-label="Notes">Reenviada sin leer. La cadena muestra…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lista de difusión</span></td><td data-label="Type">phr.</td><td data-label="English">broadcast list</td><td data-label="Notes">El tío reenvía a la lista.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">noticia falsa</span></td><td data-label="Type">phr.</td><td data-label="English">fake news story</td><td data-label="Notes">América: noticia falsa. España: bulo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">teoría conspirativa</span></td><td data-label="Type">phr.</td><td data-label="English">conspiracy theory</td><td data-label="Notes">Muta más rápido que las manos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">negacionismo</span></td><td data-label="Type">n.m.</td><td data-label="English">denialism</td><td data-label="Notes">Negar lo evidente: el fraude, el virus, el clima.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sesgo</span></td><td data-label="Type">n.m.</td><td data-label="English">bias</td><td data-label="Notes">Solo ve lo que confirma su sesgo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sesgo de confirmación</span></td><td data-label="Type">phr.</td><td data-label="English">confirmation bias</td><td data-label="Notes">Buscar solo lo que ya crees.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alfabetización mediática</span></td><td data-label="Type">phr.</td><td data-label="English">media literacy</td><td data-label="Notes">Sin ella, la desinformación vota por ti.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rueda de prensa</span></td><td data-label="Type">phr.</td><td data-label="English">press conference</td><td data-label="Notes">Da una rueda de prensa en directo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nota de prensa</span></td><td data-label="Type">phr.</td><td data-label="English">press release</td><td data-label="Notes">Tres líneas oficiales.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">exclusiva</span></td><td data-label="Type">n.f.</td><td data-label="English">exclusive (story)</td><td data-label="Notes">Anuncia una exclusiva: demandará.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">primicia</span></td><td data-label="Type">n.f.</td><td data-label="English">scoop</td><td data-label="Notes">La primicia puede esperar (a la verificación).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">directo</span></td><td data-label="Type">n.m.</td><td data-label="English">live broadcast</td><td data-label="Notes">En directo: ahora mismo en antena.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">transmisión en vivo</span></td><td data-label="Type">phr.</td><td data-label="English">livestream</td><td data-label="Notes">Dos millones ven la transmisión.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">moderador</span></td><td data-label="Type">n.m.</td><td data-label="English">moderator</td><td data-label="Notes">Borra mil mensajes por hora.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences to read once. No need to memorize.</p>
+
+<h3>1. The hoax:</h3>
+<div class="phrase">
+  <p class="es">El bulo habría nacido en una granja de troles.</p>
+  <p class="en">The hoax supposedly originated on a troll farm.</p>
+</div>
+<h3>2. The bubble:</h3>
+<div class="phrase">
+  <p class="es">Cada usuario vive en su burbuja de filtro.</p>
+  <p class="en">Each user lives in their filter bubble.</p>
+</div>
+<h3>3. The rule:</h3>
+<div class="phrase">
+  <p class="es">Dos fuentes o no se publica.</p>
+  <p class="en">Two sources or it isn't published.</p>
+</div>
+<h3>4. The money:</h3>
+<div class="phrase">
+  <p class="es">Los troles cobran por mensaje.</p>
+  <p class="en">Trolls are paid per message.</p>
+</div>
+<h3>5. The lesson:</h3>
+<div class="phrase">
+  <p class="es">Sin alfabetización mediática, la desinformación vota por ti.</p>
+  <p class="en">Without media literacy, disinformation votes for you.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> read the five slowly once. They carry the whole lesson.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two friends, Camila and Jorge, argue about the video in the family group.</p>
+
+<div class="phrase">
+  <p class="es">Camila: No reenvíes eso: sería de 2019, según los verificadores.</p>
+  <p class="en">Camila: Don't forward that: it's allegedly from 2019, according to the checkers.</p>
+</div>
+<div class="phrase">
+  <p class="es">Jorge: Pero lo vi en tres listas de difusión y en un directo con miles de vistas.</p>
+  <p class="en">Jorge: But I saw it on three broadcast lists and on a livestream with thousands of views.</p>
+</div>
+<div class="phrase">
+  <p class="es">Camila: Eso es la cámara de eco: tu burbuja te muestra solo tu sesgo.</p>
+  <p class="en">Camila: That's the echo chamber: your bubble only shows you your bias.</p>
+</div>
+<div class="phrase">
+  <p class="es">Jorge: El influencer lo compartió. ¿También es un trol?</p>
+  <p class="en">Jorge: The influencer shared it. Is he a troll too?</p>
+</div>
+<div class="phrase">
+  <p class="es">Camila: Se dice que cobra por publicación; la pauta manda más que la verdad.</p>
+  <p class="en">Camila: It is said he's paid per post; ad money commands more than truth.</p>
+</div>
+<div class="phrase">
+  <p class="es">Jorge: Vale. Espero la portada de mañana y borro la cadena.</p>
+  <p class="en">Jorge: OK. I'll wait for tomorrow's front page and delete the chain.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: none new — all words are from today's table. Notice the rumour conditional (<strong>sería</strong>) doing the doubting work.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Lie words:</strong> <span class="es">bulo, desinformación, deepfake, clickbait, granja de troles, teoría conspirativa</span> — how lies travel.</li>
+  <li><strong>Press words:</strong> <span class="es">redacción, verificación, portada, exclusiva, primicia, rueda de prensa</span> — how truth answers.</li>
+  <li><strong>Rumour grammar:</strong> the conditional of allegation (<span class="es">sería, habría nacido</span>) and evidentials (<span class="es">según, se dice que</span>).</li>
+</ul>
+
+<h3>5.2. Further reading — el pódcast del barrio</h3>
+<p><strong>Context:</strong> A neighbourhood podcast explains the hoax to its listeners. Read quietly:</p>
+<div class="phrase">
+  <p class="es">El <b>pódcast</b> abre con calma: «pausa antes de reenviar la <b>cadena</b>».</p>
+  <p class="en">The podcast opens calmly: "pause before forwarding the chain".</p>
+</div>
+<div class="phrase">
+  <p class="es">Muestra el <b>chequeo de datos</b>: el <b>bulo</b> es de 2019 y el <b>deepfake</b>, de un <b>trol</b> con prisas.</p>
+  <p class="en">It shows the fact-check: the hoax is from 2019 and the deepfake from a troll in a hurry.</p>
+</div>
+<div class="phrase">
+  <p class="es">Explica el <b>algoritmo</b>: lo que indigna sube; tu <b>sesgo</b> hace el resto.</p>
+  <p class="en">It explains the algorithm: what outrages rises; your bias does the rest.</p>
+</div>
+<div class="phrase">
+  <p class="es">Pide dos fuentes antes del <b>directo</b> y una <b>suscripción</b> a la <b>prensa</b> que verifica.</p>
+  <p class="en">It asks for two sources before going live and a subscription to press that verifies.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cierra con <b>alfabetización mediática</b>: la <b>verificación</b> también es quererse.</p>
+  <p class="en">It closes with media literacy: verification is also self-care.</p>
+</div>
+
+<p class="lead"><em>All words are from today's table — <strong>bulo</strong>, <strong>algoritmo</strong> and <strong>verificación</strong> appear here for the first time in context.</em></p>
+
+<hr>
+<p><strong>End of Lesson 76.</strong> Next, <strong>Lesson 77</strong>: gender, feminism and social change — from the green wave to shared care. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-77.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

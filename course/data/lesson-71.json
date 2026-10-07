@@ -1,0 +1,346 @@
+{
+  "lesson": 71,
+  "title": "Art & aesthetics: from murals to the avant-garde",
+  "words": [
+    {
+      "word": "mural",
+      "type": "n.m./adj.",
+      "en": "mural",
+      "note": "Painting on a wall. El muralismo mexicano.",
+      "example": { "es": "Siqueiros dio movimiento al mural.", "en": "Siqueiros gave movement to the mural." }
+    },
+    {
+      "word": "fresco",
+      "type": "n.m.",
+      "en": "fresco",
+      "note": "Technique on damp plaster. Pintar al fresco.",
+      "example": { "es": "Rivera pintó al fresco.", "en": "Rivera painted in fresco." }
+    },
+    {
+      "word": "lienzo",
+      "type": "n.m.",
+      "en": "canvas",
+      "note": "El Guernica es un lienzo gigante.",
+      "example": { "es": "Picasso respondió con un lienzo gigante.", "en": "Picasso answered with a giant canvas." }
+    },
+    {
+      "word": "trazo",
+      "type": "n.m.",
+      "en": "stroke, line",
+      "note": "Un trazo duro y trágico (Orozco).",
+      "example": { "es": "Orozco trabajó con un trazo duro.", "en": "Orozco worked with a hard line." }
+    },
+    {
+      "word": "boceto",
+      "type": "n.m.",
+      "en": "sketch, draft",
+      "note": "El boceto prepara la obra final.",
+      "example": { "es": "Preparaba cada boceto con cuidado.", "en": "He prepared each sketch carefully." }
+    },
+    {
+      "word": "exposición",
+      "type": "n.f.",
+      "en": "exhibition",
+      "note": "Una exposición en tres salas.",
+      "example": { "es": "La exposición evoca a Picasso.", "en": "The exhibition evokes Picasso." }
+    },
+    {
+      "word": "comisario",
+      "type": "n.m./f.",
+      "en": "curator",
+      "note": "La comisaria organizó la muestra. Spain also: police chief.",
+      "example": { "es": "La comisaria dice eso en el folleto.", "en": "The curator says that in the leaflet." }
+    },
+    {
+      "word": "comisariar",
+      "type": "v.",
+      "en": "to curate",
+      "note": "Formal, advanced. Everyday: organizar una exposición.",
+      "example": { "es": "Comisarió la exposición en tres salas.", "en": "She curated the exhibition in three rooms." }
+    },
+    {
+      "word": "vanguardia",
+      "type": "n.f.",
+      "en": "avant-garde",
+      "note": "La vanguardia rompe las reglas.",
+      "example": { "es": "Es vanguardia al servicio de la memoria.", "en": "It is the avant-garde in the service of memory." }
+    },
+    {
+      "word": "vanguardista",
+      "type": "adj.",
+      "en": "avant-garde",
+      "note": "Una obra vanguardista.",
+      "example": { "es": "Es una obra vanguardista.", "en": "It is an avant-garde work." }
+    },
+    {
+      "word": "muralismo",
+      "type": "n.m.",
+      "en": "muralism",
+      "note": "Rivera, Orozco, Siqueiros.",
+      "example": { "es": "Nació el muralismo.", "en": "Muralism was born." }
+    },
+    {
+      "word": "paleta",
+      "type": "n.f.",
+      "en": "palette",
+      "note": "Mezclar colores en la paleta.",
+      "example": { "es": "Mezclaba los colores en su paleta.", "en": "He mixed the colours on his palette." }
+    },
+    {
+      "word": "caballete",
+      "type": "n.m.",
+      "en": "easel",
+      "note": "Del caballete al muro.",
+      "example": { "es": "Del caballete al muro.", "en": "From the easel to the wall." }
+    },
+    {
+      "word": "andamio",
+      "type": "n.m.",
+      "en": "scaffold",
+      "note": "Pintar sobre andamios altísimos.",
+      "example": { "es": "Pintó sobre andamios altísimos.", "en": "He painted on very high scaffolds." }
+    },
+    {
+      "word": "retratar",
+      "type": "v.",
+      "en": "to portray",
+      "note": "Retratan indígenas y obreros. Retratar a alguien.",
+      "example": { "es": "Retratan obreros y conquistadores.", "en": "They portray workers and conquerors." }
+    },
+    {
+      "word": "retrato",
+      "type": "n.m.",
+      "en": "portrait",
+      "note": "Cada mueble es un retrato sin cara.",
+      "example": { "es": "Cada mueble es un retrato sin cara.", "en": "Each piece of furniture is a portrait without a face." }
+    },
+    {
+      "word": "escala",
+      "type": "n.f.",
+      "en": "scale",
+      "note": "De escala monumental.",
+      "example": { "es": "Sus figuras son de escala monumental.", "en": "His figures are monumental in scale." }
+    },
+    {
+      "word": "monumental",
+      "type": "adj.",
+      "en": "monumental",
+      "note": "Figuras monumentales.",
+      "example": { "es": "Sus figuras son monumentales.", "en": "His figures are monumental." }
+    },
+    {
+      "word": "patrimonio",
+      "type": "n.m.",
+      "en": "heritage",
+      "note": "Patrimonio de todos.",
+      "example": { "es": "Forma parte del patrimonio de todos.", "en": "It is part of everyone's heritage." }
+    },
+    {
+      "word": "legado",
+      "type": "n.m.",
+      "en": "legacy",
+      "note": "El legado de los muralistas.",
+      "example": { "es": "El arte deja un legado.", "en": "Art leaves a legacy." }
+    },
+    {
+      "word": "encargo",
+      "type": "n.m.",
+      "en": "commission",
+      "note": "El gobierno les dio un encargo.",
+      "example": { "es": "Les dio un encargo enorme.", "en": "It gave them an enormous commission." }
+    },
+    {
+      "word": "perdurar",
+      "type": "v.",
+      "en": "to endure, to last",
+      "note": "La obra perdura cien años después.",
+      "example": { "es": "En el fondo el dibujo perdura.", "en": "Deep down the drawing endures." }
+    },
+    {
+      "word": "contemplar",
+      "type": "v.",
+      "en": "to contemplate, to gaze at",
+      "note": "Contemplar en silencio.",
+      "example": { "es": "Lo contemplan en silencio.", "en": "They contemplate it in silence." }
+    },
+    {
+      "word": "espectador",
+      "type": "n.m./f.",
+      "en": "viewer, spectator",
+      "note": "Miles de espectadores.",
+      "example": { "es": "Miles de espectadores lo contemplan.", "en": "Thousands of viewers contemplate it." }
+    },
+    {
+      "word": "representar",
+      "type": "v.",
+      "en": "to depict, to represent",
+      "note": "Representa el bombardeo. No a for things.",
+      "example": { "es": "El cuadro representa un hecho real.", "en": "The painting depicts a real event." }
+    },
+    {
+      "word": "simbolizar",
+      "type": "v.",
+      "en": "to symbolize",
+      "note": "El toro simboliza la brutalidad.",
+      "example": { "es": "Cada figura simboliza el dolor.", "en": "Each figure symbolizes pain." }
+    },
+    {
+      "word": "evocar",
+      "type": "v.",
+      "en": "to evoke",
+      "note": "Evoca todas las guerras.",
+      "example": { "es": "Ese puente evoca otra obra famosa.", "en": "That bridge evokes another famous work." }
+    },
+    {
+      "word": "poner en cuestión",
+      "type": "phr.",
+      "en": "to call into question",
+      "note": "Pone en cuestión la violencia.",
+      "example": { "es": "Pone en cuestión la violencia.", "en": "It calls violence into question." }
+    },
+    {
+      "word": "a primera vista",
+      "type": "phr.",
+      "en": "at first sight",
+      "note": "A primera vista solo vemos grises.",
+      "example": { "es": "A primera vista es gris.", "en": "At first sight it is grey." }
+    },
+    {
+      "word": "en el fondo",
+      "type": "phr.",
+      "en": "deep down, fundamentally",
+      "note": "En el fondo, habla del dolor.",
+      "example": { "es": "En el fondo es dolor.", "en": "Deep down it is pain." }
+    },
+    {
+      "word": "denuncia",
+      "type": "n.f.",
+      "en": "denunciation",
+      "note": "Una denuncia de la violencia.",
+      "example": { "es": "Se conserva como denuncia de la violencia.", "en": "It is kept as a denunciation of violence." }
+    },
+    {
+      "word": "memoria",
+      "type": "n.f.",
+      "en": "memory",
+      "note": "Arte al servicio de la memoria.",
+      "example": { "es": "Es vanguardia al servicio de la memoria.", "en": "It is the avant-garde in the service of memory." }
+    },
+    {
+      "word": "campesino",
+      "type": "n.m./adj.",
+      "en": "peasant; rural",
+      "note": "El campesino y el obrero.",
+      "example": { "es": "Es un libro para el campesino.", "en": "It is a book for the peasant." }
+    },
+    {
+      "word": "obrero",
+      "type": "n.m.",
+      "en": "worker",
+      "note": "Obreros y campesinos.",
+      "example": { "es": "Retratan indígenas y obreros.", "en": "They portray Indigenous people and workers." }
+    },
+    {
+      "word": "volumen",
+      "type": "n.m.",
+      "en": "volume, bulk",
+      "note": "El volumen de Botero.",
+      "example": { "es": "Su volumen no es un chiste.", "en": "His volume is not a joke." }
+    },
+    {
+      "word": "desproporción",
+      "type": "n.f.",
+      "en": "disproportion",
+      "note": "Volumen y desproporción: marca Botero.",
+      "example": { "es": "Su desproporción celebra la vida popular.", "en": "His disproportion celebrates popular life." }
+    },
+    {
+      "word": "conmover",
+      "type": "v.",
+      "en": "to move (emotionally)",
+      "note": "La obra conmueve sin mostrar sangre.",
+      "example": { "es": "Su obra no muestra horror, pero conmueve.", "en": "Her work does not show horror, but it moves you." }
+    },
+    {
+      "word": "lectura",
+      "type": "n.f.",
+      "en": "reading, interpretation",
+      "note": "Cada lectura ofrece algo nuevo.",
+      "example": { "es": "Cada lectura nos ayuda a recordar.", "en": "Each reading helps us remember." }
+    },
+    {
+      "word": "homenaje",
+      "type": "n.m.",
+      "en": "homage, tribute",
+      "note": "Un homenaje abierto.",
+      "example": { "es": "Son un homenaje abierto.", "en": "They are an open homage." }
+    },
+    {
+      "word": "sala",
+      "type": "n.f.",
+      "en": "gallery room, hall",
+      "note": "Tres salas de exposición.",
+      "example": { "es": "Del muro a la sala.", "en": "From the wall to the gallery room." }
+    },
+    {
+      "word": "restauración",
+      "type": "n.f.",
+      "en": "restoration",
+      "note": "La restauración del fresco.",
+      "example": { "es": "La restauración empieza con paciencia.", "en": "The restoration begins with patience." }
+    },
+    {
+      "word": "interpretación",
+      "type": "n.f.",
+      "en": "interpretation",
+      "note": "Una interpretación distinta.",
+      "example": { "es": "Cada lectura ofrece una interpretación distinta.", "en": "Each reading offers a different interpretation." }
+    },
+    {
+      "word": "denuncia social",
+      "type": "phr.",
+      "en": "social denunciation",
+      "note": "Orozco: denuncia social directa.",
+      "example": { "es": "Es una denuncia social directa.", "en": "It is a direct social denunciation." }
+    },
+    {
+      "word": "arte público",
+      "type": "phr.",
+      "en": "public art",
+      "note": "El arte público es un libro abierto.",
+      "example": { "es": "El arte público es un libro abierto.", "en": "Public art is an open book." }
+    },
+    {
+      "word": "desgarrador",
+      "type": "adj.",
+      "en": "harrowing, heartbreaking",
+      "note": "Un grito desgarrador.",
+      "ext": true,
+      "example": { "es": "El caballo tiene un gesto desgarrador.", "en": "The horse has a harrowing expression." }
+    },
+    {
+      "word": "mecenas",
+      "type": "n.m./f.",
+      "en": "patron",
+      "note": "El mecenas paga el encargo.",
+      "ext": true,
+      "example": { "es": "El mecenas pagó el fresco.", "en": "The patron paid for the fresco." }
+    },
+    {
+      "word": "retrospectiva",
+      "type": "n.f.",
+      "en": "retrospective",
+      "note": "Una retrospectiva de Botero.",
+      "ext": true,
+      "example": { "es": "Visité una retrospectiva de Botero.", "en": "I visited a Botero retrospective." }
+    },
+    {
+      "word": "claroscuro",
+      "type": "n.m.",
+      "en": "chiaroscuro, light-dark",
+      "note": "El claroscuro del Guernica.",
+      "ext": true,
+      "example": { "es": "El claroscuro crea drama sin color.", "en": "Chiaroscuro creates drama without colour." }
+    }
+  ]
+}

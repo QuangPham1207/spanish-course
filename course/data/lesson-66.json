@@ -1,0 +1,262 @@
+{
+  "lesson": 66,
+  "title": "Advanced pronouns",
+  "words": [
+    {
+      "word": "sobre",
+      "type": "n.m.",
+      "en": "envelope",
+      "note": "Un sobre amarillo. Also a preposition: sobre la mesa (on the table).",
+      "example": { "es": "Hay un sobre amarillo.", "en": "There is a yellow envelope." }
+    },
+    {
+      "word": "cartero",
+      "type": "n.m./f.",
+      "en": "postman, mail carrier",
+      "note": "El cartero lo llevó tres veces.",
+      "example": { "es": "Se lo di al cartero.", "en": "I gave it to the postman." }
+    },
+    {
+      "word": "destinatario",
+      "type": "n.m.",
+      "en": "addressee",
+      "note": "La carta no tenía destinatario.",
+      "example": { "es": "La carta no tenía destinatario.", "en": "The letter had no addressee." }
+    },
+    {
+      "word": "reclamar",
+      "type": "v.",
+      "en": "to claim, to demand",
+      "note": "Nadie lo reclama. La carta que nadie reclamó.",
+      "example": { "es": "Nadie lo reclama.", "en": "Nobody claims it." }
+    },
+    {
+      "word": "reclamación",
+      "type": "n.f.",
+      "en": "claim, complaint",
+      "note": "Llegó con una reclamación escrita.",
+      "example": { "es": "Llegó con una reclamación escrita.", "en": "She arrived with a written claim." }
+    },
+    {
+      "word": "extraviar",
+      "type": "v.",
+      "en": "to lose, to mislay",
+      "note": "Se había extraviado: it had gone astray.",
+      "example": { "es": "La carta se había extraviado.", "en": "The letter had gone astray." }
+    },
+    {
+      "word": "sospechoso",
+      "type": "n.m./adj.",
+      "en": "suspect; suspicious",
+      "note": "El único sospechoso era un hombre.",
+      "example": { "es": "El sospechoso era inocente.", "en": "The suspect was innocent." }
+    },
+    {
+      "word": "testigo",
+      "type": "n.m./f.",
+      "en": "witness",
+      "note": "El testigo es el del quiosco.",
+      "example": { "es": "Me lo dio el testigo.", "en": "The witness gave it to me." }
+    },
+    {
+      "word": "coartada",
+      "type": "n.f.",
+      "en": "alibi",
+      "note": "Una coartada perfecta.",
+      "example": { "es": "Tenía una coartada perfecta.", "en": "He had a perfect alibi." }
+    },
+    {
+      "word": "enigma",
+      "type": "n.m.",
+      "en": "enigma, riddle",
+      "note": "La respuesta al enigma.",
+      "example": { "es": "Y así se terminó el enigma.", "en": "And that is how the enigma ended." }
+    },
+    {
+      "word": "revelar",
+      "type": "v.",
+      "en": "to reveal",
+      "note": "La señora reveló el secreto.",
+      "example": { "es": "La señora reveló el secreto.", "en": "The lady revealed the secret." }
+    },
+    {
+      "word": "sospechar",
+      "type": "v.",
+      "en": "to suspect",
+      "note": "Ella nunca sospechó nada.",
+      "example": { "es": "Ella nunca sospechó nada.", "en": "She never suspected anything." }
+    },
+    {
+      "word": "sospecha",
+      "type": "n.f.",
+      "en": "suspicion",
+      "note": "Todos tenían la misma sospecha.",
+      "example": { "es": "Todos tenían la misma sospecha.", "en": "Everyone had the same suspicion." }
+    },
+    {
+      "word": "esconder",
+      "type": "v.",
+      "en": "to hide",
+      "note": "Alguien escondió la carta en el trastero.",
+      "example": { "es": "Alguien escondió la carta.", "en": "Somebody hid the letter." }
+    },
+    {
+      "word": "descubrir",
+      "type": "v.",
+      "en": "to discover",
+      "note": "El detective descubrió la verdad.",
+      "example": { "es": "El detective descubrió la verdad.", "en": "The detective discovered the truth." }
+    },
+    {
+      "word": "entregar",
+      "type": "v.",
+      "en": "to deliver, to hand over",
+      "note": "Nunca se la entregaron.",
+      "example": { "es": "Nos la entregó el detective.", "en": "The detective handed it to us." }
+    },
+    {
+      "word": "pertenecer",
+      "type": "v.",
+      "en": "to belong",
+      "note": "Pertenece a quien espera desde 1974.",
+      "example": { "es": "Pertenece a quien espera.", "en": "It belongs to whoever waits." }
+    },
+    {
+      "word": "recompensa",
+      "type": "n.f.",
+      "en": "reward",
+      "note": "La recompensa sigue en la comisaría.",
+      "example": { "es": "La recompensa sigue allí.", "en": "The reward is still there." }
+    },
+    {
+      "word": "comisaría",
+      "type": "n.f.",
+      "en": "police station",
+      "note": "En la comisaría del barrio.",
+      "example": { "es": "Hay un sobre en la comisaría.", "en": "There is an envelope at the police station." }
+    },
+    {
+      "word": "buhardilla",
+      "type": "n.f.",
+      "en": "attic",
+      "note": "El indicio estaba en la buhardilla.",
+      "example": { "es": "El indicio estaba en la buhardilla.", "en": "The clue was in the attic." }
+    },
+    {
+      "word": "cajón",
+      "type": "n.m.",
+      "en": "drawer",
+      "note": "Un cajón del escritorio.",
+      "example": { "es": "Descubrió la verdad en un cajón.", "en": "He discovered the truth in a drawer." }
+    },
+    {
+      "word": "escritorio",
+      "type": "n.m.",
+      "en": "desk",
+      "note": "Un cajón del escritorio con una carta.",
+      "example": { "es": "Hay ropa y un escritorio viejo.", "en": "There are old clothes and an old desk." }
+    },
+    {
+      "word": "tinta",
+      "type": "n.f.",
+      "en": "ink",
+      "note": "Escrita con tinta azul.",
+      "example": { "es": "Está escrita con tinta azul.", "en": "It is written in blue ink." }
+    },
+    {
+      "word": "matasellos",
+      "type": "n.m.",
+      "en": "postmark",
+      "note": "Un matasellos viejo en el sobre.",
+      "example": { "es": "Tiene un matasellos viejo.", "en": "It has an old postmark." }
+    },
+    {
+      "word": "certificada",
+      "type": "adj.",
+      "en": "registered (mail)",
+      "note": "Una carta certificada llega con firma.",
+      "example": { "es": "Era una carta certificada.", "en": "It was a registered letter." }
+    },
+    {
+      "word": "anónimo",
+      "type": "adj.",
+      "en": "anonymous",
+      "note": "Era una carta anónima, sin nombre.",
+      "example": { "es": "Era una carta anónima.", "en": "It was an anonymous letter." }
+    },
+    {
+      "word": "indicio",
+      "type": "n.m.",
+      "en": "clue, sign, indication",
+      "note": "El indicio final estaba en la buhardilla.",
+      "example": { "es": "Ese fue el indicio final.", "en": "That was the final clue." }
+    },
+    {
+      "word": "inocente",
+      "type": "adj.",
+      "en": "innocent",
+      "note": "Al final, el hombre era inocente.",
+      "example": { "es": "El hombre era inocente.", "en": "The man was innocent." }
+    },
+    {
+      "word": "detective",
+      "type": "n.m./f.",
+      "en": "detective",
+      "note": "Un detective amigo suyo.",
+      "example": { "es": "Es un detective amigo suyo.", "en": "He is a detective friend of his." }
+    },
+    {
+      "word": "leísmo",
+      "type": "n.m.",
+      "en": "leísmo (using le for lo)",
+      "note": "Spain le vi vs neutral lo vi. Neutral advice: lo for things.",
+      "example": { "es": "El leísmo es común en España.", "en": "Leísmo is common in Spain." }
+    },
+    {
+      "word": "neutro",
+      "type": "adj./n.m.",
+      "en": "neuter",
+      "note": "Lo neutro: lo bueno, lo importante, lo que.",
+      "example": { "es": "Lo importante no es quién la escribió.", "en": "What matters is not who wrote it." }
+    },
+    {
+      "word": "el/la cual",
+      "type": "pron.",
+      "en": "which, who (formal)",
+      "note": "Formal que: el detective, el cual tenía setenta años.",
+      "example": { "es": "El sobre, el cual era amarillo, estaba allí.", "en": "The envelope, which was yellow, was there." }
+    },
+    {
+      "word": "misterio",
+      "type": "n.m.",
+      "en": "mystery",
+      "note": "La carta misteriosa del quiosco.",
+      "ext": true,
+      "example": { "es": "¿Qué pasa con la carta misteriosa?", "en": "What's happening with the mysterious letter?" }
+    },
+    {
+      "word": "secreto",
+      "type": "n.m.",
+      "en": "secret",
+      "note": "La señora reveló el secreto.",
+      "ext": true,
+      "example": { "es": "La señora reveló el secreto.", "en": "The lady revealed the secret." }
+    },
+    {
+      "word": "veredicto",
+      "type": "n.m.",
+      "en": "verdict",
+      "note": "El veredicto fue claro: inocente.",
+      "ext": true,
+      "example": { "es": "El veredicto fue claro.", "en": "The verdict was clear." }
+    },
+    {
+      "word": "sereno",
+      "type": "n.m.",
+      "en": "night guard, watchman",
+      "note": "El sereno de la casa ve todo de noche.",
+      "ext": true,
+      "example": { "es": "Busco al sereno de esta casa.", "en": "I'm looking for the night guard of this house." }
+    }
+  ]
+}

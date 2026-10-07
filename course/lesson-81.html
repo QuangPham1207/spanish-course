@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 81 — Reading strategies: how to read the real world</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="review-b2-3.html">&larr; Previous</a> &middot; <a href="lesson-82.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 81 — READING STRATEGIES: HOW TO READ THE REAL WORLD</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Learn the four moves of the Reading Ladder: <strong>estrategia</strong>, <strong>contexto</strong>, <strong>cognado</strong> and a good <strong>diccionario</strong>.</li>
+      <li> practise guessing from context: <strong>adivinar</strong>, <strong>releer</strong>, <strong>hojear</strong> — without stopping at every word.</li>
+      <li>Meet the traitors: <strong>falsos amigos</strong> like <span class="es">éxito, actual, sensible</span>.</li>
+      <li>Read your first ladder text: a morning at a Mexico City newsstand, fully glossed.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">estrategia, contexto, cognado, falso amigo, adivinar, comprobar, releer, hojear, subrayar, diccionario, acepción, atascado, por encima, en diagonal, de un vistazo, vistazo, seguir adelante, consultar, entrada de diccionario</span> (plus known words <span class="es">hipótesis, paciencia, rendirse</span>)<br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">filología, etimología, sigla, acrónimo</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (THE NEWSSTAND)</h2>
+<p><strong>Context:</strong> The Reading Ladder starts here. From this lesson on, the glosses get lighter and the texts get longer — but the method stays the same. Read this demonstration text slowly; every bold word is in the table below.</p>
+<p class="lead">(Bold words are in the vocabulary table. The English is only a check.)</p>
+
+<div class="phrase">
+  <p class="es">Leer en español ya no es estudiar: es una <b>estrategia</b> de todos los días.</p>
+  <p class="en">Reading in Spanish is no longer studying: it is an everyday strategy.</p>
+</div>
+<div class="phrase">
+  <p class="es">Son las ocho en Ciudad de México y el puesto de periódicos hierve: titulares, fotos, gritos.</p>
+  <p class="en">It is eight in Mexico City and the newsstand is buzzing: headlines, photos, shouts.</p>
+</div>
+<div class="phrase">
+  <p class="es">No entiendes cada palabra, y no pasa nada: el <b>contexto</b> te da la primera pista.</p>
+  <p class="en">You don't understand every word, and that's fine: context gives you the first clue.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mira los <b>cognados</b>: <i>electoral, crisis, cultural, hospital</i> se entienden <b>de un vistazo</b>.</p>
+  <p class="en">Look at the cognates: electoral, crisis, cultural, hospital are understood at a glance.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lee primero <b>por encima</b>: quién, qué, dónde. Los detalles ya vendrán.</p>
+  <p class="en">Read over it first: who, what, where. The details will come.</p>
+</div>
+<div class="phrase">
+  <p class="es">Después lee <b>en diagonal</b> el segundo párrafo y formula una hipótesis: ¿de qué va?</p>
+  <p class="en">Then skim the second paragraph and form a hypothesis: what is it about?</p>
+</div>
+<div class="phrase">
+  <p class="es">Ahora <b>adivina</b> la palabra difícil y sigue: <b>comprueba</b> tu idea en la frase siguiente.</p>
+  <p class="en">Now guess the difficult word and go on: check your idea in the next sentence.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si te quedas <b>atascado</b>, no te rindas: <b>relee</b> la frase anterior con paciencia.</p>
+  <p class="en">If you get stuck, don't give up: re-read the previous sentence patiently.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marca solo lo esencial: <b>subraya</b> tres palabras por página, no treinta.</p>
+  <p class="en">Mark only what is essential: underline three words per page, not thirty.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>diccionario</b> viene al final: busca la palabra, lee la <b>acepción</b> número dos, mira el ejemplo.</p>
+  <p class="en">The dictionary comes at the end: look the word up, read sense number two, look at the example.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cada <b>entrada de diccionario</b> es un mapa: <b>consulta</b> el ejemplo antes que la definición.</p>
+  <p class="en">Every dictionary entry is a map: check the example before the definition.</p>
+</div>
+<div class="phrase">
+  <p class="es">Cuidado con los <b>falsos amigos</b>: <i>éxito</i> no es <i>exit</i>, <i>actual</i> no es <i>actual</i>.</p>
+  <p class="en">Beware false friends: éxito is not exit, actual is not actual.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Hojea</b> el resto del periódico y elige un artículo: ese es tu texto de mañana.</p>
+  <p class="en">Flip through the rest of the paper and choose one article: that is tomorrow's text.</p>
+</div>
+<div class="phrase">
+  <p class="es">Así se sube la escalera: <b>seguir adelante</b>, siempre, una página más.</p>
+  <p class="en">That's how you climb the ladder: keep going, always, one more page.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (read only):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">filología</span></td><td data-label="Type">n.f.</td><td data-label="English">philology</td><td data-label="Notes">(advanced) El estudio de los textos y la lengua.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">etimología</span></td><td data-label="Type">n.f.</td><td data-label="English">etymology</td><td data-label="Notes">De dónde viene una palabra.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sigla</span></td><td data-label="Type">n.f.</td><td data-label="English">initialism, acronym (letters)</td><td data-label="Notes">DACA, ONU, RAE: se leen letra a letra.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">acrónimo</span></td><td data-label="Type">n.m.</td><td data-label="English">acronym (read as a word)</td><td data-label="Notes">TIC, ovni: se leen como palabra. (Préstamos y calcos los viste en L56.)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>How the Ladder works:</strong> L81 teaches the method (full gloss). L82 is a glossed news report, L83–L84 are lightly glossed, L85 is semi-glossed — and L89–L90 will be unglossed. Same method every time: skim, guess, check, dictionary last.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The four moves: skim, guess, check, dictionary</h3>
+<p>Real readers don't read word by word. They read <span class="es">por encima</span> (over the top), then <span class="es">en diagonal</span> (skimming), then they guess (<span class="es">adivinar</span>) and check (<span class="es">comprobar</span>). The dictionary is the last move, not the first.</p>
+<ul>
+    <li class="ex"><span class="es">Lee el titular <b>por encima</b> y formula una hipótesis.</span><span class="en">Read the headline over and form a hypothesis.</span></li>
+  <li class="ex"><span class="es"><b>Adivina</b> la palabra por el <b>contexto</b> y <b>comprueba</b> tu idea después.</span><span class="en">Guess the word from context and check your idea afterwards.</span></li>
+    <li class="ex"><span class="es">Si te quedas <b>atascado</b>, <b>relee</b>: no te rindas.</span><span class="en">If you get stuck, re-read: don't give up.</span></li>
+</ul>
+<div class="formula">por encima → en diagonal → adivinar → comprobar → diccionario</div>
+
+<h3>2.2. Cognates and false friends</h3>
+<p>A <span class="es">cognado</span> helps: <span class="es">electoral, cultural, hospital</span>. A <span class="es">falso amigo</span> betrays: <span class="es">éxito</span> means <i>success</i> (not <i>exit</i> = <span class="es">salida</span>), <span class="es">actual</span> means <i>current</i> (not <i>actual</i> = <span class="es">real, verdadero</span>), <span class="es">sensible</span> means <i>sensitive</i> (not <i>sensible</i> = <span class="es">sensato</span>).</p>
+<ul>
+  <li class="ex"><span class="es">El <b>éxito</b> actual del programa es evidente.</span><span class="en">The program's current success is evident.</span></li>
+  <li class="ex"><span class="es">Es un lector <b>sensible</b> y <b>sensato</b>: siente y piensa.</span><span class="en">He is a sensitive, sensible reader: he feels and thinks.</span></li>
+  <li class="ex"><span class="es">La <b>entrada de diccionario</b> trae tres <b>acepciones</b>: lee el ejemplo.</span><span class="en">The dictionary entry has three senses: read the example.</span></li>
+</ul>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">estrategia</span></td><td data-label="Type">n.f.</td><td data-label="English">strategy</td><td data-label="Notes">Cognate. Una estrategia de lectura.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">contexto</span></td><td data-label="Type">n.m.</td><td data-label="English">context</td><td data-label="Notes">Cognate. Adivinar por el contexto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cognado</span></td><td data-label="Type">n.m.</td><td data-label="English">cognate</td><td data-label="Notes">Palabras hermanas entre lenguas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">falso amigo</span></td><td data-label="Type">phr.</td><td data-label="English">false friend</td><td data-label="Notes">Éxito, actual, sensible, constipado.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">adivinar</span></td><td data-label="Type">v.</td><td data-label="English">to guess</td><td data-label="Notes">Adivina y comprueba.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">comprobar</span></td><td data-label="Type">v.</td><td data-label="English">to check, verify</td><td data-label="Notes">Comprueba tu idea en la frase siguiente.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">releer</span></td><td data-label="Type">v.</td><td data-label="English">to re-read</td><td data-label="Notes">Releer (re + leer). La segunda lectura aclara.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hojear</span></td><td data-label="Type">v.</td><td data-label="English">to flip/leaf through</td><td data-label="Notes">Hojear el periódico: pasar las hojas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">subrayar</span></td><td data-label="Type">v.</td><td data-label="English">to underline</td><td data-label="Notes">Subraya poco: tres palabras por página.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">acepción</span></td><td data-label="Type">n.f.</td><td data-label="English">sense (of a word)</td><td data-label="Notes">La acepción 2 suele ser la del texto.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">diccionario</span></td><td data-label="Type">n.m.</td><td data-label="English">dictionary</td><td data-label="Notes">El diccionario viene al final, no al principio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">atascado</span></td><td data-label="Type">adj.</td><td data-label="English">stuck</td><td data-label="Notes">Quedarse atascado. No pasa nada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">por encima</span></td><td data-label="Type">phr.</td><td data-label="English">over, superficially</td><td data-label="Notes">Leer por encima: captar lo general.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">en diagonal</span></td><td data-label="Type">phr.</td><td data-label="English">diagonally, skimming</td><td data-label="Notes">Leer en diagonal: buscar datos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">de un vistazo</span></td><td data-label="Type">phr.</td><td data-label="English">at a glance</td><td data-label="Notes">Los cognados se entienden de un vistazo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vistazo</span></td><td data-label="Type">n.m.</td><td data-label="English">glance, look</td><td data-label="Notes">Echar un vistazo: mirar rápido. (La paciencia la traes de L37.)</td></tr>
+    <tr><td data-label="Spanish"><span class="es">seguir adelante</span></td><td data-label="Type">phr.</td><td data-label="English">to keep going</td><td data-label="Notes">Seguir + gerundio: seguir leyendo. (Rendirse quedó en L37.)</td></tr>
+    <tr><td data-label="Spanish"><span class="es">consultar</span></td><td data-label="Type">v.</td><td data-label="English">to consult, look up</td><td data-label="Notes">Consultar el diccionario al final.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">entrada de diccionario</span></td><td data-label="Type">phr.</td><td data-label="English">dictionary entry</td><td data-label="Notes">Lee el ejemplo antes que la definición.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences to read once. No need to memorize.</p>
+
+<h3>1. The method:</h3>
+<div class="phrase">
+  <p class="es">Lee por encima, adivina por el contexto, comprueba después.</p>
+  <p class="en">Read over, guess from context, check afterwards.</p>
+</div>
+<h3>2. The stuck moment:</h3>
+<div class="phrase">
+  <p class="es">Si te quedas atascado, relee con paciencia.</p>
+  <p class="en">If you get stuck, re-read patiently.</p>
+</div>
+<h3>3. The traitors:</h3>
+<div class="phrase">
+  <p class="es">Cuidado con los falsos amigos: el contexto manda.</p>
+  <p class="en">Beware false friends: context rules.</p>
+</div>
+<h3>4. The dictionary:</h3>
+<div class="phrase">
+  <p class="es">El diccionario viene al final, no al principio.</p>
+  <p class="en">The dictionary comes at the end, not at the start.</p>
+</div>
+<h3>5. The ladder:</h3>
+<div class="phrase">
+  <p class="es">Sigue adelante: una página más cada día.</p>
+  <p class="en">Keep going: one more page each day.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> read the five slowly once. They are the whole method.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Lucía teaches her cousin how to read the paper without fear. No questions — just read.</p>
+
+<div class="phrase">
+  <p class="es">Lucía: No busques cada palabra. Lee el titular por encima: ¿de qué va?</p>
+  <p class="en">Lucía: Don't look up every word. Read the headline over: what's it about?</p>
+</div>
+<div class="phrase">
+  <p class="es">Tomás: Creo que habla de un hospital… Hay muchos cognados.</p>
+  <p class="en">Tomás: I think it's about a hospital… There are lots of cognates.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Exacto. Ahora adivina esta frase y comprueba en la siguiente.</p>
+  <p class="en">Lucía: Exactly. Now guess this sentence and check in the next one.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Echa un vistazo a la foto antes de leer: la imagen también informa.</p>
+  <p class="en">Lucía: Take a look at the photo before reading: the image informs too.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tomás: Me quedé atascado aquí… ¿Releo?</p>
+  <p class="en">Tomás: I got stuck here… Should I re-read?</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Sí, con paciencia. Y subraya solo tres palabras, no treinta.</p>
+  <p class="en">Lucía: Yes, patiently. And underline only three words, not thirty.</p>
+</div>
+<div class="phrase">
+  <p class="es">Tomás: Vale. Sigo adelante: ¡una página más!</p>
+  <p class="en">Tomás: OK. I keep going: one more page!</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: none — every word comes from today's table or earlier lessons. Notice the imperatives of method (<strong>lee, adivina, comprueba, relee, subraya, sigue</strong>).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Method:</strong> <span class="es">por encima → en diagonal → adivinar → comprobar → diccionario</span>.</li>
+  <li><strong>Helpers vs traitors:</strong> <span class="es">cognados</span> (de un vistazo) vs <span class="es">falsos amigos</span> (el contexto manda).</li>
+  <li><strong>Stuck protocol:</strong> <span class="es">releer con paciencia, subrayar poco, seguir adelante</span>.</li>
+</ul>
+
+<h3>5.2. Further reading — el quiosco de mañana</h3>
+<p><strong>Context:</strong> Tomorrow's text waits at the same newsstand. Read it with the method:</p>
+<div class="phrase">
+  <p class="es">Mañana <b>hojearás</b> el periódico con calma: titular, foto, primera frase.</p>
+  <p class="en">Tomorrow you'll flip through the paper calmly: headline, photo, first sentence.</p>
+</div>
+<div class="phrase">
+  <p class="es">Formularás tu hipótesis en diez segundos y la <b>comprobarás</b> en el segundo párrafo.</p>
+  <p class="en">You'll form your hypothesis in ten seconds and check it in the second paragraph.</p>
+</div>
+<div class="phrase">
+  <p class="es">Solo tres palabras <b>subrayadas</b>. Solo una <b>acepción</b> consultada. Y a seguir.</p>
+  <p class="en">Only three words underlined. Only one sense looked up. And onward.</p>
+</div>
+<div class="phrase">
+  <p class="es">El lector que <b>sigue adelante</b> ya está en la escalera.</p>
+  <p class="en">The reader who keeps going is already on the ladder.</p>
+</div>
+
+<p class="lead"><em>All words are from today's table. Notice the future tense as a plan (<strong>hojearás, formularás, comprobarás</strong>) — you met it back in Lesson 21.</em></p>
+
+<hr>
+<p><strong>End of Lesson 81.</strong> Next, <strong>Lesson 82</strong>: a real news report — who, what, when, where. Fully glossed, with the grammar of headlines. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-82.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

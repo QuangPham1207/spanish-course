@@ -1,0 +1,289 @@
+{
+  "lesson": 57,
+  "title": "Imperfect subjunctive & tense sequences",
+  "words": [
+    {
+      "word": "quisiera",
+      "type": "v.",
+      "en": "I/he/she would like; wanted (imperfect subjunctive of querer)",
+      "note": "Yo solo quisiera quedarme. Also the polite 'I would like': quisiera pedirle un favor.",
+      "example": { "es": "Yo solo quisiera quedarme contigo.", "en": "All I wanted was to stay with you." }
+    },
+    {
+      "word": "pudiera",
+      "type": "v.",
+      "en": "I/he/she could (imperfect subjunctive of poder)",
+      "note": "Si pudiera volver atrás, lo reviviría todo.",
+      "example": { "es": "Si pudiera, volvería mañana.", "en": "If I could, I'd come back tomorrow." }
+    },
+    {
+      "word": "hablara",
+      "type": "v.",
+      "en": "I/he/she spoke (imperfect subjunctive of hablar, -ra form)",
+      "note": "Si hablara más claro. Twin: hablase; both correct everywhere.",
+      "example": { "es": "Si el consulado hablara más claro, todo sería fácil.", "en": "If the consulate spoke more clearly, everything would be easy." }
+    },
+    {
+      "word": "hablase",
+      "type": "v.",
+      "en": "I/he/she spoke (imperfect subjunctive of hablar, -se form)",
+      "note": "Si yo hablase con el juez. Means exactly the same as hablara.",
+      "example": { "es": "Si yo hablase con el juez, mis papeles saldrían antes.", "en": "If I spoke to the judge, my papers would come through sooner." }
+    },
+    {
+      "word": "vinieras",
+      "type": "v.",
+      "en": "you came (imperfect subjunctive of venir, tú form)",
+      "note": "Querían que vinieras en verano. Past main verb → imperfect subjunctive.",
+      "example": { "es": "Mis jefes querían que vinieras en verano.", "en": "My bosses wanted you to come in summer." }
+    },
+    {
+      "word": "fuera",
+      "type": "v.",
+      "en": "I/he/she was/went (imperfect subjunctive of ser/ir)",
+      "note": "Como si fuera la última vez. Twin: fuese.",
+            "example": { "es": "Como si fuera la última vez.", "en": "As if it were the last time." }
+    },
+    {
+      "word": "fuese",
+      "type": "v.",
+      "en": "I/he/she was/went (imperfect subjunctive of ser/ir, -se form)",
+      "note": "Como si fuese la última vez. Means exactly the same as fuera.",
+      "example": { "es": "Como si fuese la última vez.", "en": "As if it were the last time." }
+    },    {
+      "word": "añoranza",
+      "type": "n.f.",
+      "en": "longing, homesickness",
+      "note": "Esa añoranza que no se cura con nada.",
+      "example": { "es": "Ahora entiendo esa añoranza.", "en": "Now I understand that longing." }
+    },
+    {
+      "word": "morriña",
+      "type": "n.f.",
+      "en": "homesickness (Galician word used in Spanish)",
+      "note": "Los gallegos la llaman morriña. Used all over Spain.",
+      "example": { "es": "Los gallegos la llaman morriña.", "en": "Galicians call it morriña." }
+    },
+    {
+      "word": "desarraigo",
+      "type": "n.m.",
+      "en": "uprootedness",
+      "note": "Sin raíz (root): todo era desarraigo al principio.",
+      "example": { "es": "Al principio todo era desarraigo.", "en": "At first everything was uprootedness." }
+    },
+    {
+      "word": "arraigo",
+      "type": "n.m.",
+      "en": "putting down roots",
+      "note": "Con raíz: eso es el arraigo. Desarraigo ↔ arraigo.",
+      "example": { "es": "Eso es el arraigo: vivir tranquila donde estás.", "en": "That's putting down roots: living calmly where you are." }
+    },
+    {
+      "word": "remesa",
+      "type": "n.f.",
+      "en": "remittance (money sent home)",
+      "note": "Enviar una remesa pequeña cada mes.",
+      "example": { "es": "Cada mes logro enviar una remesa pequeña.", "en": "Every month I manage to send a small remittance." }
+    },
+    {
+      "word": "retorno",
+      "type": "n.m.",
+      "en": "return",
+      "note": "Yo creo en el retorno. More formal than la vuelta.",
+      "example": { "es": "Yo creo en el retorno.", "en": "I believe in return." }
+    },
+    {
+      "word": "terruño",
+      "type": "n.m.",
+      "en": "native soil, homeland earth",
+      "note": "Literary and fond: el terruño que dejamos.",
+      "example": { "es": "Hablamos del terruño que dejamos.", "en": "We talk about the native soil we left behind." }
+    },
+    {
+      "word": "reencuentro",
+      "type": "n.m.",
+      "en": "reunion",
+      "note": "Soñamos con el reencuentro de diciembre.",
+      "example": { "es": "Soñar con el reencuentro me da consuelo.", "en": "Dreaming of the reunion comforts me." }
+    },
+    {
+      "word": "despedida",
+      "type": "n.f.",
+      "en": "goodbye, farewell",
+      "note": "Reviviría nuestra despedida en el aeropuerto.",
+      "example": { "es": "Reviviría nuestra despedida en el aeropuerto.", "en": "I would relive our goodbye at the airport." }
+    },
+    {
+      "word": "nostalgia",
+      "type": "n.f.",
+      "en": "nostalgia",
+      "note": "Aquí la nostalgia tiene otro nombre.",
+      "example": { "es": "Aquí la nostalgia tiene otro nombre.", "en": "Here nostalgia has another name." }
+    },
+    {
+      "word": "sacrificio",
+      "type": "n.m.",
+      "en": "sacrifice",
+      "note": "Mi sacrificio con amor: trabajar horas extra.",
+      "example": { "es": "Es mi sacrificio con amor.", "en": "It's my sacrifice with love." }
+    },
+    {
+      "word": "integrarse",
+      "type": "v.",
+      "en": "to integrate, to fit in",
+      "note": "Integrarse es ser de dos lugares a la vez.",
+      "example": { "es": "Integrarse es ser de dos lugares a la vez.", "en": "Integrating is being from two places at once." }
+    },
+    {
+      "word": "consuelo",
+      "type": "n.m.",
+      "en": "comfort, consolation",
+      "note": "Solo te pido un consuelo.",
+      "example": { "es": "Solo te pido un consuelo.", "en": "I only ask one comfort of you." }
+    },
+    {
+      "word": "consolar",
+      "type": "v.",
+      "en": "to comfort",
+      "note": "Sabe consolar cuando estoy triste.",
+      "example": { "es": "Un paisano sabe consolar cuando estoy triste.", "en": "A fellow countryman knows how to comfort me when I'm sad." }
+    },
+    {
+      "word": "extrañar",
+      "type": "v.",
+      "en": "to miss (someone/something)",
+      "note": "Very Latin American; in Spain often echar de menos.",
+      "example": { "es": "Sin dejar de extrañar tu voz.", "en": "While still missing your voice." }
+    },
+    {
+      "word": "lejanía",
+      "type": "n.f.",
+      "en": "distance, remoteness",
+      "note": "La lejanía duele menos entre paisanos.",
+      "example": { "es": "Con un compatriota cerca la lejanía duele menos.", "en": "With a compatriot nearby, distance hurts less." }
+    },
+    {
+      "word": "patria",
+      "type": "n.f.",
+      "en": "homeland",
+      "note": "La última vez que veía mi patria.",
+      "example": { "es": "La última vez que veía mi patria.", "en": "The last time I would see my homeland." }
+    },
+    {
+      "word": "llamada",
+      "type": "n.f.",
+      "en": "call",
+      "note": "Te debo una llamada larga el domingo.",
+      "example": { "es": "Te debo una llamada larga el domingo.", "en": "I owe you a long call on Sunday." }
+    },
+    {
+      "word": "enviar",
+      "type": "v.",
+      "en": "to send",
+      "note": "Logro enviar una remesa pequeña.",
+      "example": { "es": "Cada mes logro enviar una remesa.", "en": "Every month I manage to send a remittance." }
+    },
+    {
+      "word": "anhelar",
+      "type": "v.",
+      "en": "to long for",
+      "note": "Formal and deep: anhelar tu comida.",
+      "example": { "es": "Sin dejar de anhelar tu comida.", "en": "While still longing for your cooking." }
+    },
+    {
+      "word": "rogar",
+      "type": "v.",
+      "en": "to beg, to plead",
+      "note": "Tuve que rogarles que pagaran. Rogar + que + subjunctive.",
+      "example": { "es": "Tuve que rogarles que te pagaran el pasaje.", "en": "I had to beg them to pay for your ticket." }
+    },
+    {
+      "word": "suplicar",
+      "type": "v.",
+      "en": "to implore, to beseech",
+      "note": "Stronger than rogar: llegué a suplicarles.",
+      "example": { "es": "Llegué a suplicarles que entendieran.", "en": "I went so far as to plead with them to understand." }
+    },
+    {
+      "word": "adaptarse",
+      "type": "v.",
+      "en": "to adapt",
+      "note": "Para adaptarse hay que perder la vergüenza.",
+      "example": { "es": "Para adaptarse hay que preguntar todo dos veces.", "en": "To adapt you have to ask everything twice." }
+    },
+    {
+      "word": "resignarse",
+      "type": "v.",
+      "en": "to resign oneself",
+      "note": "Nadie debería resignarse a vivir lejos.",
+      "example": { "es": "Nadie debería resignarse a vivir lejos para siempre.", "en": "Nobody should resign themselves to living far away forever." }
+    },
+    {
+      "word": "paisano",
+      "type": "n.m.",
+      "en": "fellow countryman",
+      "note": "Un paisano del centro. Also: peasant, villager.",
+      "example": { "es": "Un paisano del centro sabe consolar.", "en": "A fellow countryman at the center knows how to comfort." }
+    },
+    {
+      "word": "compatriota",
+      "type": "n.",
+      "en": "compatriot",
+      "note": "Con un compatriota cerca.",
+      "example": { "es": "Con un compatriota cerca la lejanía duele menos.", "en": "With a compatriot nearby, distance hurts less." }
+    },
+    {
+      "word": "melancolía",
+      "type": "n.f.",
+      "en": "melancholy",
+      "note": "La melancolía del anochecer.",
+      "example": { "es": "Cuando llega la melancolía del anochecer.", "en": "When the nightfall melancholy arrives." }
+    },
+    {
+      "word": "videollamada",
+      "type": "n.f.",
+      "en": "video call",
+      "note": "Hacemos una videollamada cada domingo.",
+      "example": { "es": "Hacemos una videollamada cada domingo.", "en": "We make a video call every Sunday." }
+    },
+    {
+      "word": "valija",
+      "type": "n.f.",
+      "en": "suitcase",
+      "note": "Latin America; in Spain usually maleta.",
+      "example": { "es": "Guardo tu valija vieja bajo la cama.", "en": "I keep your old suitcase under the bed." }
+    },
+    {
+      "word": "ultramar",
+      "type": "n.m.",
+      "en": "overseas, lands beyond the sea",
+      "note": "Viajar a ultramar; de ultramar.",
+      "ext": true,
+      "example": { "es": "Una madre no debería viajar a ultramar sola.", "en": "A mother shouldn't travel overseas alone." }
+    },
+    {
+      "word": "repatriar",
+      "type": "v.",
+      "en": "to repatriate, to send back home",
+      "note": "A nadie van a repatriar sin abogado.",
+      "ext": true,
+      "example": { "es": "A nadie van a repatriar sin abogado.", "en": "Nobody will be repatriated without a lawyer." }
+    },
+    {
+      "word": "repatriado",
+      "type": "n.m.",
+      "en": "deportee, returned migrant",
+      "note": "Hasta un repatriado me habría mirado con pena.",
+      "ext": true,
+      "example": { "es": "Hasta un repatriado puede volver a empezar.", "en": "Even a deportee can start over." }
+    },
+    {
+      "word": "anochecer",
+      "type": "n.m.",
+      "en": "nightfall",
+      "note": "La melancolía del anochecer. Also a verb: to get dark.",
+      "ext": true,
+      "example": { "es": "La melancolía del anochecer.", "en": "The nightfall melancholy." }
+    }
+  ]
+}

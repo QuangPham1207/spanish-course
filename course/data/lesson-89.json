@@ -1,0 +1,30 @@
+{
+  "lesson": 89,
+  "title": "The water we have left: Mar Menor, Titicaca and Montevideo",
+  "words": [
+    {"word": "trasvase", "type": "n.m.", "en": "water transfer (between basins)", "note": "El trasvase del Tajo.", "example": {"es": "El trasvase del Tajo al Segura.", "en": "The Tagus-to-Segura transfer."}},
+    {"word": "acuífero", "type": "n.m.", "en": "aquifer", "note": "Bajo los invernaderos.", "example": {"es": "El acuífero bajo los invernaderos.", "en": "The aquifer beneath the greenhouses."}},
+    {"word": "anegamiento", "type": "n.m.", "en": "flooding, waterlogging", "note": "Anegar → anegamiento.", "example": {"es": "Del anegamiento al barro seco.", "en": "From flooding to dry mud."}},
+    {"word": "vertido", "type": "n.m.", "en": "discharge, dumping (waste)", "note": "Verter → vertido.", "example": {"es": "Cada vertido se paga río abajo.", "en": "Every discharge is paid for downstream."}},
+    {"word": "eutrofización", "type": "n.f.", "en": "eutrophication", "note": "Cognate. El agua verde.", "example": {"es": "La eutrofización del Mar Menor.", "en": "The eutrophication of the Mar Menor."}},
+    {"word": "salinización", "type": "n.f.", "en": "salinization", "note": "Sal → salobre → salinización.", "example": {"es": "La salinización del agua.", "en": "The salinization of the water."}},
+    {"word": "embalse", "type": "n.m.", "en": "reservoir", "note": "False friend: not embassy.", "example": {"es": "El embalse bajó al 2 %.", "en": "The reservoir fell to 2%."}},
+    {"word": "caudal", "type": "n.m.", "en": "flow (of a river)", "note": "El poco caudal.", "example": {"es": "Guardó el poco caudal.", "en": "It held back the meagre flow."}},
+    {"word": "mortandad", "type": "n.f.", "en": "die-off, mass death", "note": "Mortandades de peces.", "example": {"es": "Grandes mortandades de peces.", "en": "Massive fish die-offs."}},
+    {"word": "purín", "type": "n.m.", "en": "slurry, liquid manure", "note": "Ganadería intensiva.", "example": {"es": "El acuífero arrastra purines.", "en": "The aquifer carries slurry."}},
+    {"word": "escorrentía", "type": "n.f.", "en": "runoff", "note": "Tras la tormenta.", "example": {"es": "La escorrentía tras la tormenta.", "en": "The runoff after the storm."}},
+    {"word": "freático", "type": "adj.", "en": "phreatic, groundwater", "note": "El nivel freático.", "example": {"es": "El nivel freático sigue alto.", "en": "The water table remains high."}},
+    {"word": "emisario", "type": "n.m.", "en": "outfall, discharge pipe", "note": "Emisarios agrícolas.", "example": {"es": "Varios emisarios siguen activos.", "en": "Several outfalls are still active."}},
+    {"word": "rambla", "type": "n.f.", "en": "dry ravine, wadi (SE Spain)", "note": "Murcia: llevan nitratos.", "example": {"es": "Los nitratos bajan por las ramblas.", "en": "Nitrates run down the ravines."}},
+    {"word": "represa", "type": "n.f.", "en": "dam (LatAm)", "note": "Spain: presa.", "example": {"es": "La represa del Desaguadero.", "en": "The Desaguadero dam."}},
+    {"word": "estiaje", "type": "n.m.", "en": "low-water period", "note": "El estiaje más largo.", "example": {"es": "Su estiaje más largo en décadas.", "en": "Its longest low-water period in decades."}},
+    {"word": "salobre", "type": "adj.", "en": "brackish", "note": "Agua salobre.", "example": {"es": "Agua salobre en los grifos.", "en": "Brackish water in the taps."}},
+    {"word": "invernadero", "type": "n.m.", "en": "greenhouse", "note": "Bajo los invernaderos.", "example": {"es": "Bajo los invernaderos del campo.", "en": "Beneath the field greenhouses."}},
+    {"word": "desbordar", "type": "v.", "en": "to overflow, exceed", "note": "Ni desbordar acuíferos.", "example": {"es": "Ni desbordar acuíferos sale gratis.", "en": "Overflowing aquifers never comes free."}},
+    {"word": "desecar", "type": "v.", "en": "to drain, dry up", "note": "Ni desecar humedales.", "example": {"es": "Ni desecar humedales sale gratis.", "en": "Draining wetlands never comes free."}},
+    {"word": "totora", "type": "n.f.", "en": "reedmace, bulrush (Andes)", "note": "Casa de las aves.", "ext": true, "example": {"es": "La totora donde viven las aves.", "en": "The reeds home to the birds."}},
+    {"word": "camalote", "type": "n.m.", "en": "water hyacinth mat", "note": "Río de la Plata basin.", "ext": true, "example": {"es": "Camalotes hasta la orilla.", "en": "Hyacinth mats reaching the shore."}},
+    {"word": "turbio", "type": "adj.", "en": "murky, cloudy (water)", "note": "Agua turbia.", "ext": true, "example": {"es": "El agua bajó turbia.", "en": "The water came down murky."}},
+    {"word": "aliviadero", "type": "n.m.", "en": "spillway (of a dam)", "note": "Abrir el aliviadero.", "ext": true, "example": {"es": "Abrieron el aliviadero.", "en": "They opened the spillway."}}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lesson": 88,
+  "title": "Formal writing: bilingual schooling in Paraguay",
+  "words": [
+    {"word": "escolarización", "type": "n.f.", "en": "schooling (coverage/rate)", "note": "Nominalization: escolarizar → escolarización.", "example": {"es": "Analiza la escolarización bilingüe.", "en": "It analyses bilingual schooling."}},
+    {"word": "matriculación", "type": "n.f.", "en": "enrolment, registration", "note": "La matriculación creció un 9 %.", "example": {"es": "Subió la matriculación inicial.", "en": "Early-years enrolment rose."}},
+    {"word": "deserción", "type": "n.f.", "en": "dropout (from school)", "note": "La deserción cayó a la mitad.", "example": {"es": "Bajó la deserción escolar.", "en": "School dropout fell."}},
+    {"word": "alfabetización", "type": "n.f.", "en": "literacy, teaching to read", "note": "Alfabetización inicial en dos lenguas.", "example": {"es": "Formados en alfabetización bilingüe.", "en": "Trained in bilingual literacy."}},
+    {"word": "rendimiento", "type": "n.m.", "en": "performance, results", "note": "El rendimiento en lectura.", "example": {"es": "Se midió el rendimiento lector.", "en": "Reading performance was measured."}},
+    {"word": "rezago", "type": "n.m.", "en": "lag, backlog", "note": "El rezago lector se redujo.", "example": {"es": "El rezago se redujo un 12 %.", "en": "The lag fell by 12%."}},
+    {"word": "plantel", "type": "n.m.", "en": "school (campus/staff, LatAm)", "note": "LatAm formal. 34 planteles.", "example": {"es": "Abarcó 34 planteles.", "en": "It covered 34 schools."}},
+    {"word": "aula", "type": "n.f.", "en": "classroom", "note": "Takes el in singular: el aula.", "example": {"es": "En 18 aulas del programa.", "en": "In 18 programme classrooms."}},
+    {"word": "docente", "type": "n.m./f.", "en": "teacher (formal)", "note": "Formal for maestro/profesor.", "example": {"es": "Docentes formados en dos lenguas.", "en": "Teachers trained in two languages."}},
+    {"word": "mediante", "type": "prep.", "en": "by means of, through", "note": "Connector. Mediante el trabajo…", "example": {"es": "Mediante el convenio habrá libros.", "en": "Through the agreement there will be books."}},
+    {"word": "implementación", "type": "n.f.", "en": "implementation", "note": "La implementación del programa.", "example": {"es": "La implementación en 18 aulas.", "en": "The implementation in 18 classrooms."}},
+    {"word": "dotar", "type": "v.", "en": "to equip, provide", "note": "Se dotó a cada centro de…", "example": {"es": "Se dotó a cada centro de libros.", "en": "Each school was equipped with books."}},
+    {"word": "subsanar", "type": "v.", "en": "to remedy, correct", "note": "Se subsanaron las carencias.", "example": {"es": "Se subsanaron las carencias.", "en": "The shortages were remedied."}},
+    {"word": "carencia", "type": "n.f.", "en": "lack, shortage", "note": "Las carencias más urgentes.", "example": {"es": "Las carencias más urgentes.", "en": "The most urgent shortages."}},
+    {"word": "impartir", "type": "v.", "en": "to deliver, teach (classes)", "note": "Impartió talleres en guaraní.", "example": {"es": "Impartió talleres en dos lenguas.", "en": "She delivered workshops in two languages."}},
+    {"word": "indicador", "type": "n.m.", "en": "indicator", "note": "Los indicadores confirman el avance.", "example": {"es": "Los indicadores confirman el avance.", "en": "The indicators confirm the progress."}},
+    {"word": "lineamiento", "type": "n.m.", "en": "guideline (LatAm)", "note": "Spain prefers directriz.", "example": {"es": "El lineamiento actual del programa.", "en": "The programme's current guideline."}},
+    {"word": "rubro", "type": "n.m.", "en": "budget line, item (LatAm)", "note": "Un rubro anual para libros.", "example": {"es": "Solicita un rubro anual.", "en": "It requests an annual budget line."}},
+    {"word": "contrapartida", "type": "n.f.", "en": "matching contribution, counterpart", "note": "Como contrapartida: trabajo voluntario.", "example": {"es": "Como contrapartida, trabajo voluntario.", "en": "As a matching contribution, volunteer work."}},
+    {"word": "solicitud", "type": "n.f.", "en": "application, formal request", "note": "Informe anual de la solicitud.", "example": {"es": "El informe anual de la solicitud.", "en": "The annual report on the application."}},
+    {"word": "cohorte", "type": "n.f.", "en": "cohort", "note": "Por cohorte y zona.", "ext": true, "example": {"es": "La deserción por cohorte.", "en": "Dropout by cohort."}},
+    {"word": "muestral", "type": "adj.", "en": "sample (of a sample)", "note": "El diseño muestral.", "ext": true, "example": {"es": "El diseño muestral del estudio.", "en": "The study's sample design."}},
+    {"word": "acervo", "type": "n.m.", "en": "collection (of books)", "note": "Ampliar el acervo.", "ext": true, "example": {"es": "Ampliar el acervo de la biblioteca.", "en": "To expand the library's collection."}},
+    {"word": "fungible", "type": "adj.", "en": "consumable, expendable", "note": "Papel, tinta, cuadernos.", "ext": true, "example": {"es": "Reponer el material fungible.", "en": "To replace consumable materials."}}
+  ]
+}

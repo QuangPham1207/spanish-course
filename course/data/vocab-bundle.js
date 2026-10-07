@@ -17880,5 +17880,12713 @@ window.VOCAB = [
         }
       }
     ]
+  },
+  {
+    "lesson": 57,
+    "title": "Imperfect subjunctive & tense sequences",
+    "words": [
+      {
+        "word": "quisiera",
+        "type": "v.",
+        "en": "I/he/she would like; wanted (imperfect subjunctive of querer)",
+        "note": "Yo solo quisiera quedarme. Also the polite 'I would like': quisiera pedirle un favor.",
+        "example": {
+          "es": "Yo solo quisiera quedarme contigo.",
+          "en": "All I wanted was to stay with you."
+        }
+      },
+      {
+        "word": "pudiera",
+        "type": "v.",
+        "en": "I/he/she could (imperfect subjunctive of poder)",
+        "note": "Si pudiera volver atrás, lo reviviría todo.",
+        "example": {
+          "es": "Si pudiera, volvería mañana.",
+          "en": "If I could, I'd come back tomorrow."
+        }
+      },
+      {
+        "word": "hablara",
+        "type": "v.",
+        "en": "I/he/she spoke (imperfect subjunctive of hablar, -ra form)",
+        "note": "Si hablara más claro. Twin: hablase; both correct everywhere.",
+        "example": {
+          "es": "Si el consulado hablara más claro, todo sería fácil.",
+          "en": "If the consulate spoke more clearly, everything would be easy."
+        }
+      },
+      {
+        "word": "hablase",
+        "type": "v.",
+        "en": "I/he/she spoke (imperfect subjunctive of hablar, -se form)",
+        "note": "Si yo hablase con el juez. Means exactly the same as hablara.",
+        "example": {
+          "es": "Si yo hablase con el juez, mis papeles saldrían antes.",
+          "en": "If I spoke to the judge, my papers would come through sooner."
+        }
+      },
+      {
+        "word": "vinieras",
+        "type": "v.",
+        "en": "you came (imperfect subjunctive of venir, tú form)",
+        "note": "Querían que vinieras en verano. Past main verb → imperfect subjunctive.",
+        "example": {
+          "es": "Mis jefes querían que vinieras en verano.",
+          "en": "My bosses wanted you to come in summer."
+        }
+      },
+      {
+        "word": "fuera",
+        "type": "v.",
+        "en": "I/he/she was/went (imperfect subjunctive of ser/ir)",
+        "note": "Como si fuera la última vez. Twin: fuese.",
+        "example": {
+          "es": "Como si fuera la última vez.",
+          "en": "As if it were the last time."
+        }
+      },
+      {
+        "word": "fuese",
+        "type": "v.",
+        "en": "I/he/she was/went (imperfect subjunctive of ser/ir, -se form)",
+        "note": "Como si fuese la última vez. Means exactly the same as fuera.",
+        "example": {
+          "es": "Como si fuese la última vez.",
+          "en": "As if it were the last time."
+        }
+      },
+      {
+        "word": "añoranza",
+        "type": "n.f.",
+        "en": "longing, homesickness",
+        "note": "Esa añoranza que no se cura con nada.",
+        "example": {
+          "es": "Ahora entiendo esa añoranza.",
+          "en": "Now I understand that longing."
+        }
+      },
+      {
+        "word": "morriña",
+        "type": "n.f.",
+        "en": "homesickness (Galician word used in Spanish)",
+        "note": "Los gallegos la llaman morriña. Used all over Spain.",
+        "example": {
+          "es": "Los gallegos la llaman morriña.",
+          "en": "Galicians call it morriña."
+        }
+      },
+      {
+        "word": "desarraigo",
+        "type": "n.m.",
+        "en": "uprootedness",
+        "note": "Sin raíz (root): todo era desarraigo al principio.",
+        "example": {
+          "es": "Al principio todo era desarraigo.",
+          "en": "At first everything was uprootedness."
+        }
+      },
+      {
+        "word": "arraigo",
+        "type": "n.m.",
+        "en": "putting down roots",
+        "note": "Con raíz: eso es el arraigo. Desarraigo ↔ arraigo.",
+        "example": {
+          "es": "Eso es el arraigo: vivir tranquila donde estás.",
+          "en": "That's putting down roots: living calmly where you are."
+        }
+      },
+      {
+        "word": "remesa",
+        "type": "n.f.",
+        "en": "remittance (money sent home)",
+        "note": "Enviar una remesa pequeña cada mes.",
+        "example": {
+          "es": "Cada mes logro enviar una remesa pequeña.",
+          "en": "Every month I manage to send a small remittance."
+        }
+      },
+      {
+        "word": "retorno",
+        "type": "n.m.",
+        "en": "return",
+        "note": "Yo creo en el retorno. More formal than la vuelta.",
+        "example": {
+          "es": "Yo creo en el retorno.",
+          "en": "I believe in return."
+        }
+      },
+      {
+        "word": "terruño",
+        "type": "n.m.",
+        "en": "native soil, homeland earth",
+        "note": "Literary and fond: el terruño que dejamos.",
+        "example": {
+          "es": "Hablamos del terruño que dejamos.",
+          "en": "We talk about the native soil we left behind."
+        }
+      },
+      {
+        "word": "reencuentro",
+        "type": "n.m.",
+        "en": "reunion",
+        "note": "Soñamos con el reencuentro de diciembre.",
+        "example": {
+          "es": "Soñar con el reencuentro me da consuelo.",
+          "en": "Dreaming of the reunion comforts me."
+        }
+      },
+      {
+        "word": "despedida",
+        "type": "n.f.",
+        "en": "goodbye, farewell",
+        "note": "Reviviría nuestra despedida en el aeropuerto.",
+        "example": {
+          "es": "Reviviría nuestra despedida en el aeropuerto.",
+          "en": "I would relive our goodbye at the airport."
+        }
+      },
+      {
+        "word": "nostalgia",
+        "type": "n.f.",
+        "en": "nostalgia",
+        "note": "Aquí la nostalgia tiene otro nombre.",
+        "example": {
+          "es": "Aquí la nostalgia tiene otro nombre.",
+          "en": "Here nostalgia has another name."
+        }
+      },
+      {
+        "word": "sacrificio",
+        "type": "n.m.",
+        "en": "sacrifice",
+        "note": "Mi sacrificio con amor: trabajar horas extra.",
+        "example": {
+          "es": "Es mi sacrificio con amor.",
+          "en": "It's my sacrifice with love."
+        }
+      },
+      {
+        "word": "integrarse",
+        "type": "v.",
+        "en": "to integrate, to fit in",
+        "note": "Integrarse es ser de dos lugares a la vez.",
+        "example": {
+          "es": "Integrarse es ser de dos lugares a la vez.",
+          "en": "Integrating is being from two places at once."
+        }
+      },
+      {
+        "word": "consuelo",
+        "type": "n.m.",
+        "en": "comfort, consolation",
+        "note": "Solo te pido un consuelo.",
+        "example": {
+          "es": "Solo te pido un consuelo.",
+          "en": "I only ask one comfort of you."
+        }
+      },
+      {
+        "word": "consolar",
+        "type": "v.",
+        "en": "to comfort",
+        "note": "Sabe consolar cuando estoy triste.",
+        "example": {
+          "es": "Un paisano sabe consolar cuando estoy triste.",
+          "en": "A fellow countryman knows how to comfort me when I'm sad."
+        }
+      },
+      {
+        "word": "extrañar",
+        "type": "v.",
+        "en": "to miss (someone/something)",
+        "note": "Very Latin American; in Spain often echar de menos.",
+        "example": {
+          "es": "Sin dejar de extrañar tu voz.",
+          "en": "While still missing your voice."
+        }
+      },
+      {
+        "word": "lejanía",
+        "type": "n.f.",
+        "en": "distance, remoteness",
+        "note": "La lejanía duele menos entre paisanos.",
+        "example": {
+          "es": "Con un compatriota cerca la lejanía duele menos.",
+          "en": "With a compatriot nearby, distance hurts less."
+        }
+      },
+      {
+        "word": "patria",
+        "type": "n.f.",
+        "en": "homeland",
+        "note": "La última vez que veía mi patria.",
+        "example": {
+          "es": "La última vez que veía mi patria.",
+          "en": "The last time I would see my homeland."
+        }
+      },
+      {
+        "word": "llamada",
+        "type": "n.f.",
+        "en": "call",
+        "note": "Te debo una llamada larga el domingo.",
+        "example": {
+          "es": "Te debo una llamada larga el domingo.",
+          "en": "I owe you a long call on Sunday."
+        }
+      },
+      {
+        "word": "enviar",
+        "type": "v.",
+        "en": "to send",
+        "note": "Logro enviar una remesa pequeña.",
+        "example": {
+          "es": "Cada mes logro enviar una remesa.",
+          "en": "Every month I manage to send a remittance."
+        }
+      },
+      {
+        "word": "anhelar",
+        "type": "v.",
+        "en": "to long for",
+        "note": "Formal and deep: anhelar tu comida.",
+        "example": {
+          "es": "Sin dejar de anhelar tu comida.",
+          "en": "While still longing for your cooking."
+        }
+      },
+      {
+        "word": "rogar",
+        "type": "v.",
+        "en": "to beg, to plead",
+        "note": "Tuve que rogarles que pagaran. Rogar + que + subjunctive.",
+        "example": {
+          "es": "Tuve que rogarles que te pagaran el pasaje.",
+          "en": "I had to beg them to pay for your ticket."
+        }
+      },
+      {
+        "word": "suplicar",
+        "type": "v.",
+        "en": "to implore, to beseech",
+        "note": "Stronger than rogar: llegué a suplicarles.",
+        "example": {
+          "es": "Llegué a suplicarles que entendieran.",
+          "en": "I went so far as to plead with them to understand."
+        }
+      },
+      {
+        "word": "adaptarse",
+        "type": "v.",
+        "en": "to adapt",
+        "note": "Para adaptarse hay que perder la vergüenza.",
+        "example": {
+          "es": "Para adaptarse hay que preguntar todo dos veces.",
+          "en": "To adapt you have to ask everything twice."
+        }
+      },
+      {
+        "word": "resignarse",
+        "type": "v.",
+        "en": "to resign oneself",
+        "note": "Nadie debería resignarse a vivir lejos.",
+        "example": {
+          "es": "Nadie debería resignarse a vivir lejos para siempre.",
+          "en": "Nobody should resign themselves to living far away forever."
+        }
+      },
+      {
+        "word": "paisano",
+        "type": "n.m.",
+        "en": "fellow countryman",
+        "note": "Un paisano del centro. Also: peasant, villager.",
+        "example": {
+          "es": "Un paisano del centro sabe consolar.",
+          "en": "A fellow countryman at the center knows how to comfort."
+        }
+      },
+      {
+        "word": "compatriota",
+        "type": "n.",
+        "en": "compatriot",
+        "note": "Con un compatriota cerca.",
+        "example": {
+          "es": "Con un compatriota cerca la lejanía duele menos.",
+          "en": "With a compatriot nearby, distance hurts less."
+        }
+      },
+      {
+        "word": "melancolía",
+        "type": "n.f.",
+        "en": "melancholy",
+        "note": "La melancolía del anochecer.",
+        "example": {
+          "es": "Cuando llega la melancolía del anochecer.",
+          "en": "When the nightfall melancholy arrives."
+        }
+      },
+      {
+        "word": "videollamada",
+        "type": "n.f.",
+        "en": "video call",
+        "note": "Hacemos una videollamada cada domingo.",
+        "example": {
+          "es": "Hacemos una videollamada cada domingo.",
+          "en": "We make a video call every Sunday."
+        }
+      },
+      {
+        "word": "valija",
+        "type": "n.f.",
+        "en": "suitcase",
+        "note": "Latin America; in Spain usually maleta.",
+        "example": {
+          "es": "Guardo tu valija vieja bajo la cama.",
+          "en": "I keep your old suitcase under the bed."
+        }
+      },
+      {
+        "word": "ultramar",
+        "type": "n.m.",
+        "en": "overseas, lands beyond the sea",
+        "note": "Viajar a ultramar; de ultramar.",
+        "ext": true,
+        "example": {
+          "es": "Una madre no debería viajar a ultramar sola.",
+          "en": "A mother shouldn't travel overseas alone."
+        }
+      },
+      {
+        "word": "repatriar",
+        "type": "v.",
+        "en": "to repatriate, to send back home",
+        "note": "A nadie van a repatriar sin abogado.",
+        "ext": true,
+        "example": {
+          "es": "A nadie van a repatriar sin abogado.",
+          "en": "Nobody will be repatriated without a lawyer."
+        }
+      },
+      {
+        "word": "repatriado",
+        "type": "n.m.",
+        "en": "deportee, returned migrant",
+        "note": "Hasta un repatriado me habría mirado con pena.",
+        "ext": true,
+        "example": {
+          "es": "Hasta un repatriado puede volver a empezar.",
+          "en": "Even a deportee can start over."
+        }
+      },
+      {
+        "word": "anochecer",
+        "type": "n.m.",
+        "en": "nightfall",
+        "note": "La melancolía del anochecer. Also a verb: to get dark.",
+        "ext": true,
+        "example": {
+          "es": "La melancolía del anochecer.",
+          "en": "The nightfall melancholy."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 58,
+    "title": "Unreal & mixed conditionals",
+    "words": [
+      {
+        "word": "tuviera",
+        "type": "v.",
+        "en": "I/he/she had (imperfect subjunctive of tener)",
+        "note": "Si el pueblo tuviera su apeadero.",
+        "example": {
+          "es": "Si tuviera tiempo, vendría.",
+          "en": "If I had time, I'd come."
+        }
+      },
+      {
+        "word": "hubiera",
+        "type": "v.",
+        "en": "I/he/she had (imperfect subjunctive of haber; helper for past-unreal si)",
+        "note": "Si no hubiera llegado aquella noche. Always + participle.",
+        "example": {
+          "es": "Si hubiera llegado el tren, todo habría cambiado.",
+          "en": "If the train had arrived, everything would have changed."
+        }
+      },
+      {
+        "word": "supiera",
+        "type": "v.",
+        "en": "I/he/she knew (imperfect subjunctive of saber)",
+        "note": "Si mi abuelo supiera leer los planos.",
+        "example": {
+          "es": "Si supiera la verdad, te la diría.",
+          "en": "If I knew the truth, I'd tell you."
+        }
+      },
+      {
+        "word": "hiciera",
+        "type": "v.",
+        "en": "I/he/she did/made (imperfect subjunctive of hacer)",
+        "note": "Si el ingeniero hiciera hoy el plano.",
+        "example": {
+          "es": "Si hiciera buen tiempo, iríamos a la romería.",
+          "en": "If the weather were good, we'd go to the pilgrimage festival."
+        }
+      },
+      {
+        "word": "diera",
+        "type": "v.",
+        "en": "I/he/she gave (imperfect subjunctive of dar)",
+        "note": "Si diera su firma.",
+        "example": {
+          "es": "Si me diera su firma, todo se arreglaría.",
+          "en": "If he gave me his signature, everything would be fixed."
+        }
+      },
+      {
+        "word": "estuviera",
+        "type": "v.",
+        "en": "I/he/she was (imperfect subjunctive of estar)",
+        "note": "Si el pueblo estuviera en la línea principal.",
+        "example": {
+          "es": "Si el pueblo estuviera en la línea, tendría hospital.",
+          "en": "If the village were on the line, it would have a hospital."
+        }
+      },
+      {
+        "word": "desvío",
+        "type": "n.m.",
+        "en": "railway switch; detour, diversion",
+        "note": "Marcó mal un desvío. Also: tomar un desvío.",
+        "example": {
+          "es": "El ingeniero marcó mal un desvío.",
+          "en": "The engineer mis-marked a switch."
+        }
+      },
+      {
+        "word": "desenlace",
+        "type": "n.m.",
+        "en": "ending, outcome (of a story)",
+        "note": "Formal: el desenlace de la historia.",
+        "example": {
+          "es": "Aquel fue el desenlace de la historia del tren.",
+          "en": "That was the ending of the train story."
+        }
+      },
+      {
+        "word": "bifurcación",
+        "type": "n.f.",
+        "en": "fork, branching",
+        "note": "La bifurcación del valle, donde la línea se partía.",
+        "example": {
+          "es": "El error estaba en la bifurcación del valle.",
+          "en": "The mistake was at the fork of the valley."
+        }
+      },
+      {
+        "word": "comarca",
+        "type": "n.f.",
+        "en": "district, region",
+        "note": "Un pueblo tranquilo de la comarca.",
+        "example": {
+          "es": "San Miguel es un pueblo de la comarca.",
+          "en": "San Miguel is a village of the district."
+        }
+      },
+      {
+        "word": "cacique",
+        "type": "n.m.",
+        "en": "local boss, political strongman",
+        "note": "El alcalde y el cacique cerraron un trato.",
+        "example": {
+          "es": "El alcalde y el cacique cerraron un trato.",
+          "en": "The mayor and the local boss sealed a deal."
+        }
+      },
+      {
+        "word": "alcalde",
+        "type": "n.m.",
+        "en": "mayor",
+        "note": "Si el alcalde hubiera firmado.",
+        "example": {
+          "es": "Si el alcalde hubiera firmado a tiempo.",
+          "en": "If the mayor had signed on time."
+        }
+      },
+      {
+        "word": "pregonero",
+        "type": "n.m.",
+        "en": "town crier",
+        "note": "El pregonero anunció la promesa.",
+        "example": {
+          "es": "El pregonero anunció la promesa.",
+          "en": "The town crier announced the promise."
+        }
+      },
+      {
+        "word": "campanario",
+        "type": "n.m.",
+        "en": "bell tower",
+        "note": "Desde el campanario, aunque el badajo estaba roto.",
+        "example": {
+          "es": "El pregonero anunció desde el campanario.",
+          "en": "The crier announced from the bell tower."
+        }
+      },
+      {
+        "word": "locomotora",
+        "type": "n.f.",
+        "en": "locomotive",
+        "note": "La locomotora nueva.",
+        "example": {
+          "es": "Prometió traer la locomotora nueva.",
+          "en": "He promised to bring the new locomotive."
+        }
+      },
+      {
+        "word": "vagón",
+        "type": "n.m.",
+        "en": "wagon, carriage",
+        "note": "Un solo vagón de regalos.",
+        "example": {
+          "es": "Un solo vagón de regalos.",
+          "en": "A single wagon of gifts."
+        }
+      },
+      {
+        "word": "apeadero",
+        "type": "n.m.",
+        "en": "railway halt (small stop)",
+        "note": "Smaller than una estación: su apeadero.",
+        "example": {
+          "es": "Si el pueblo tuviera su apeadero.",
+          "en": "If the village had its halt."
+        }
+      },
+      {
+        "word": "hundir",
+        "type": "v.",
+        "en": "to sink",
+        "note": "La riada logró hundir el puente.",
+        "example": {
+          "es": "La riada logró hundir el puente.",
+          "en": "The flood managed to sink the bridge."
+        }
+      },
+      {
+        "word": "herrero",
+        "type": "n.m.",
+        "en": "blacksmith",
+        "note": "El herrero lloró de amargura.",
+        "example": {
+          "es": "El herrero lloró de amargura.",
+          "en": "The blacksmith wept with bitterness."
+        }
+      },
+      {
+        "word": "taberna",
+        "type": "n.f.",
+        "en": "tavern, old-style bar",
+        "note": "Cerraron un trato en la taberna.",
+        "example": {
+          "es": "Cerraron un trato en la taberna.",
+          "en": "They sealed a deal in the tavern."
+        }
+      },
+      {
+        "word": "vía",
+        "type": "n.f.",
+        "en": "track, line; way",
+        "note": "Llevar la vía hasta el pueblo. Vía muerta: disused track.",
+        "example": {
+          "es": "Cerrar los ojos en la vía muerta.",
+          "en": "To close your eyes on the disused track."
+        }
+      },
+      {
+        "word": "maquinista",
+        "type": "n.",
+        "en": "engine driver",
+        "note": "El joven maquinista prometió traer la locomotora.",
+        "example": {
+          "es": "El joven maquinista prometió traer la locomotora.",
+          "en": "The young engine driver promised to bring the locomotive."
+        }
+      },
+      {
+        "word": "cambiar",
+        "type": "v.",
+        "en": "to change",
+        "note": "Cambiar el curso de la comarca.",
+        "example": {
+          "es": "Quería cambiar el curso de la comarca.",
+          "en": "He wanted to change the course of the district."
+        }
+      },
+      {
+        "word": "curso",
+        "type": "n.m.",
+        "en": "course (of events, of a river)",
+        "note": "El curso de la comarca; el curso del río.",
+        "example": {
+          "es": "Cambiar el curso de la comarca.",
+          "en": "To change the course of the district."
+        }
+      },
+      {
+        "word": "azar",
+        "type": "n.m.",
+        "en": "chance, randomness",
+        "note": "Fue el azar. Juegos de azar: games of chance.",
+        "example": {
+          "es": "Dicen que fue el azar.",
+          "en": "They say it was chance."
+        }
+      },
+      {
+        "word": "fatalidad",
+        "type": "n.f.",
+        "en": "fate, fateful misfortune",
+        "note": "Otros hablan de fatalidad.",
+        "example": {
+          "es": "Otros hablan de fatalidad.",
+          "en": "Others speak of fate."
+        }
+      },
+      {
+        "word": "designio",
+        "type": "n.m.",
+        "en": "design, plan (of God/fate)",
+        "note": "Formal: el designio de Dios.",
+        "example": {
+          "es": "Mi abuela habla del designio de Dios.",
+          "en": "My grandmother speaks of God's design."
+        }
+      },
+      {
+        "word": "arrepentimiento",
+        "type": "n.m.",
+        "en": "regret, repentance",
+        "note": "Qué arrepentimiento para el alcalde.",
+        "example": {
+          "es": "Qué arrepentimiento para el alcalde.",
+          "en": "What regret for the mayor."
+        }
+      },
+      {
+        "word": "amargura",
+        "type": "n.f.",
+        "en": "bitterness",
+        "note": "Lloró de amargura.",
+        "example": {
+          "es": "Lloró de amargura ante su familia.",
+          "en": "He wept with bitterness before his family."
+        }
+      },
+      {
+        "word": "desengaño",
+        "type": "n.m.",
+        "en": "disappointment, disillusion",
+        "note": "Qué desengaño para todos.",
+        "example": {
+          "es": "Qué desengaño para todos.",
+          "en": "What a disappointment for everyone."
+        }
+      },
+      {
+        "word": "promesa",
+        "type": "n.f.",
+        "en": "promise",
+        "note": "El pregonero anunció la promesa.",
+        "example": {
+          "es": "El pregonero anunció la promesa.",
+          "en": "The town crier announced the promise."
+        }
+      },
+      {
+        "word": "juramento",
+        "type": "n.m.",
+        "en": "oath, vow",
+        "note": "Stronger than promesa: un juramento solemne.",
+        "example": {
+          "es": "Había hecho un juramento solemne.",
+          "en": "He had made a solemn vow."
+        }
+      },
+      {
+        "word": "trato",
+        "type": "n.m.",
+        "en": "deal, agreement",
+        "note": "Cerraron un trato en la taberna.",
+        "example": {
+          "es": "Brindemos por el trato.",
+          "en": "Let's drink to the deal."
+        }
+      },
+      {
+        "word": "apuesta",
+        "type": "n.f.",
+        "en": "bet",
+        "note": "Hicieron una apuesta: si el tren llegaba…",
+        "example": {
+          "es": "Hicieron una apuesta en la taberna.",
+          "en": "They made a bet in the tavern."
+        }
+      },
+      {
+        "word": "imaginarse",
+        "type": "v.",
+        "en": "to imagine",
+        "note": "Para imaginarse su silbido hay que cerrar los ojos.",
+        "example": {
+          "es": "Para imaginarse su silbido hay que cerrar los ojos.",
+          "en": "To imagine its whistle you have to close your eyes."
+        }
+      },
+      {
+        "word": "farol",
+        "type": "n.m.",
+        "en": "lamp, lantern; streetlight",
+        "note": "Con un farol encendido.",
+        "example": {
+          "es": "Verás un farol entre la niebla.",
+          "en": "You'll see a lamp in the mist."
+        }
+      },
+      {
+        "word": "badajo",
+        "type": "n.m.",
+        "en": "clapper (of a bell)",
+        "note": "El badajo roto del campanario.",
+        "ext": true,
+        "example": {
+          "es": "El badajo estaba roto.",
+          "en": "The clapper was broken."
+        }
+      },
+      {
+        "word": "cencerro",
+        "type": "n.m.",
+        "en": "cowbell",
+        "note": "Un cencerro atado atrás, por broma.",
+        "ext": true,
+        "example": {
+          "es": "Un cencerro atado atrás, por broma.",
+          "en": "A cowbell tied at the back, as a joke."
+        }
+      },
+      {
+        "word": "romería",
+        "type": "n.f.",
+        "en": "pilgrimage festival",
+        "note": "La romería de octubre. Village fiesta + procession.",
+        "ext": true,
+        "example": {
+          "es": "Su romería de octubre.",
+          "en": "Its October pilgrimage festival."
+        }
+      },
+      {
+        "word": "quinqué",
+        "type": "n.m.",
+        "en": "oil lamp",
+        "note": "A la luz de un quinqué, en la taberna.",
+        "ext": true,
+        "example": {
+          "es": "A la luz de un quinqué.",
+          "en": "By the light of an oil lamp."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 59,
+    "title": "The pluperfect subjunctive in all uses",
+    "words": [
+      {
+        "word": "hubiese",
+        "type": "v.",
+        "en": "I/he/she had (imperfect subjunctive of haber, -se form)",
+        "note": "Como si no hubiese pasado nada. Twin: hubiera; both correct everywhere.",
+        "example": {
+          "es": "Como si no hubiese llovido nunca.",
+          "en": "As if it had never rained."
+        }
+      },
+      {
+        "word": "hubiera hecho",
+        "type": "phr.",
+        "en": "he/she had done (pluperfect subjunctive)",
+        "note": "Ojalá no hubiera hecho tanto daño. Hubiera (L58) + hecho.",
+        "example": {
+          "es": "Me había pedido que lo hubiera hecho antes del viernes.",
+          "en": "He had asked me to have done it before Friday."
+        }
+      },
+      {
+        "word": "dicho",
+        "type": "part.",
+        "en": "said (past participle of decir)",
+        "note": "Como si nadie hubiera dicho nada.",
+        "example": {
+          "es": "Como si nadie hubiera dicho la palabra huracán.",
+          "en": "As if nobody had said the word hurricane."
+        }
+      },
+      {
+        "word": "hecho",
+        "type": "part.",
+        "en": "done/made (past participle of hacer)",
+        "note": "Como si el viento no hubiera hecho nada.",
+        "example": {
+          "es": "Como si el viento no hubiera hecho nada.",
+          "en": "As if the wind hadn't done anything."
+        }
+      },
+      {
+        "word": "escrito",
+        "type": "part.",
+        "en": "written (past participle of escribir)",
+        "note": "Que alguien hubiera escrito con crueldad.",
+        "example": {
+          "es": "Parecía una historia que alguien hubiera escrito.",
+          "en": "It seemed like a story someone had written."
+        }
+      },
+      {
+        "word": "huracán",
+        "type": "n.m.",
+        "en": "hurricane",
+        "note": "Tres días después del huracán.",
+        "example": {
+          "es": "Tres días después del huracán.",
+          "en": "Three days after the hurricane."
+        }
+      },
+      {
+        "word": "escombros",
+        "type": "n.m.pl.",
+        "en": "rubble, debris",
+        "note": "La calle estaba llena de escombros.",
+        "example": {
+          "es": "La calle estaba llena de escombros.",
+          "en": "The street was full of rubble."
+        }
+      },
+      {
+        "word": "tejado",
+        "type": "n.m.",
+        "en": "roof (tiles)",
+        "note": "El tejado había volado.",
+        "example": {
+          "es": "El tejado de casa había volado.",
+          "en": "The roof of the house had flown off."
+        }
+      },
+      {
+        "word": "inundar",
+        "type": "v.",
+        "en": "to flood",
+        "note": "Parecía querer inundar la planta baja.",
+        "example": {
+          "es": "Parecía querer inundar la planta baja.",
+          "en": "It seemed to want to flood the ground floor."
+        }
+      },
+      {
+        "word": "derrumbar",
+        "type": "v.",
+        "en": "to knock down, to collapse",
+        "note": "Logró derrumbar el muro.",
+        "example": {
+          "es": "Una ráfaga logró derrumbar el muro.",
+          "en": "A gust managed to knock down the wall."
+        }
+      },
+      {
+        "word": "reconstruir",
+        "type": "v.",
+        "en": "to rebuild",
+        "note": "No haber podido reconstruir la casa.",
+        "example": {
+          "es": "Y reconstruir el muro antes de las lluvias.",
+          "en": "And rebuild the wall before the rains."
+        }
+      },
+      {
+        "word": "refugio",
+        "type": "n.m.",
+        "en": "shelter",
+        "note": "Dormimos en el refugio del colegio.",
+        "example": {
+          "es": "Dormimos en el refugio del colegio.",
+          "en": "We slept in the school shelter."
+        }
+      },
+      {
+        "word": "apagón",
+        "type": "n.m.",
+        "en": "blackout, power cut",
+        "note": "El apagón duraba ya tres días.",
+        "example": {
+          "es": "El apagón duraba ya tres días.",
+          "en": "The blackout had already lasted three days."
+        }
+      },
+      {
+        "word": "linterna",
+        "type": "n.f.",
+        "en": "flashlight",
+        "note": "Volví con una linterna.",
+        "example": {
+          "es": "Volví con una linterna.",
+          "en": "I came back with a flashlight."
+        }
+      },
+      {
+        "word": "barro",
+        "type": "n.m.",
+        "en": "mud",
+        "note": "Las botas llenas de barro.",
+        "example": {
+          "es": "Las botas llenas de barro.",
+          "en": "Boots full of mud."
+        }
+      },
+      {
+        "word": "charco",
+        "type": "n.m.",
+        "en": "puddle",
+        "note": "Un charco negro donde jugábamos.",
+        "example": {
+          "es": "Un charco negro donde antes jugábamos.",
+          "en": "A black puddle where we used to play."
+        }
+      },
+      {
+        "word": "cauce",
+        "type": "n.m.",
+        "en": "riverbed, course",
+        "note": "El río, salido de su cauce.",
+        "example": {
+          "es": "El río, salido de su cauce.",
+          "en": "The river, out of its course."
+        }
+      },
+      {
+        "word": "arrasar",
+        "type": "v.",
+        "en": "to sweep away, to devastate",
+        "note": "Había logrado arrasar dos casas.",
+        "example": {
+          "es": "Había logrado arrasar dos casas.",
+          "en": "It had managed to sweep away two houses."
+        }
+      },
+      {
+        "word": "azotea",
+        "type": "n.f.",
+        "en": "flat roof, rooftop terrace",
+        "note": "Por la azotea abierta se veía el cielo.",
+        "example": {
+          "es": "Por la azotea abierta se veía el cielo.",
+          "en": "Through the open flat roof the sky could be seen."
+        }
+      },
+      {
+        "word": "gotera",
+        "type": "n.f.",
+        "en": "leak (in a roof)",
+        "note": "Solo se oía la gotera de la cocina.",
+        "example": {
+          "es": "Solo se oía la gotera de la cocina.",
+          "en": "All you could hear was the kitchen leak."
+        }
+      },
+      {
+        "word": "trueno",
+        "type": "n.m.",
+        "en": "thunder",
+        "note": "Cada trueno lejano me hacía temblar.",
+        "example": {
+          "es": "Cada trueno lejano me hacía temblar.",
+          "en": "Every distant thunder made me shake."
+        }
+      },
+      {
+        "word": "relámpago",
+        "type": "n.m.",
+        "en": "lightning flash",
+        "note": "Cada relámpago bajo la mesa.",
+        "example": {
+          "es": "Cada relámpago me hacía temblar.",
+          "en": "Every lightning flash made me shake."
+        }
+      },
+      {
+        "word": "ráfaga",
+        "type": "n.f.",
+        "en": "gust (of wind)",
+        "note": "Una ráfaga logró derrumbar el muro.",
+        "example": {
+          "es": "Una ráfaga logró derrumbar el muro.",
+          "en": "A gust managed to knock down the wall."
+        }
+      },
+      {
+        "word": "calma",
+        "type": "n.f.",
+        "en": "calm",
+        "note": "Llorar era perder la calma.",
+        "example": {
+          "es": "Llorar era perder la calma.",
+          "en": "Crying was losing your calm."
+        }
+      },
+      {
+        "word": "remendar",
+        "type": "v.",
+        "en": "to mend, to patch",
+        "note": "Se ponía a remendar cortinas.",
+        "example": {
+          "es": "Hay que remendar las cortinas con calma.",
+          "en": "We must mend the curtains calmly."
+        }
+      },
+      {
+        "word": "fingir",
+        "type": "v.",
+        "en": "to pretend, to feign",
+        "note": "Prefería fingir que leía.",
+        "example": {
+          "es": "Prefería fingir que leía el periódico.",
+          "en": "He preferred to pretend he was reading the newspaper."
+        }
+      },
+      {
+        "word": "disimular",
+        "type": "v.",
+        "en": "to hide, to conceal (feelings)",
+        "note": "Intentaba disimular el miedo.",
+        "example": {
+          "es": "Yo intentaba disimular el miedo.",
+          "en": "I tried to hide my fear."
+        }
+      },
+      {
+        "word": "suspiro",
+        "type": "n.m.",
+        "en": "sigh",
+        "note": "Un suspiro que no terminaba nunca.",
+        "example": {
+          "es": "Un suspiro que no terminaba nunca.",
+          "en": "A sigh that never ended."
+        }
+      },
+      {
+        "word": "duelo",
+        "type": "n.m.",
+        "en": "grief, mourning",
+        "note": "Un duelo antiguo en sus ojos.",
+        "example": {
+          "es": "En sus ojos había un duelo antiguo.",
+          "en": "In her eyes there was an old grief."
+        }
+      },
+      {
+        "word": "resignación",
+        "type": "n.f.",
+        "en": "resignation",
+        "note": "Una resignación sin alivio.",
+        "example": {
+          "es": "Una resignación sin alivio.",
+          "en": "A resignation with no relief."
+        }
+      },
+      {
+        "word": "alivio",
+        "type": "n.m.",
+        "en": "relief",
+        "note": "Sin alivio. Qué alivio: what a relief.",
+        "example": {
+          "es": "Una resignación sin alivio.",
+          "en": "A resignation with no relief."
+        }
+      },
+      {
+        "word": "remordimiento",
+        "type": "n.m.",
+        "en": "remorse",
+        "note": "Entendí su remordimiento con los años.",
+        "example": {
+          "es": "Con los años entendí su remordimiento.",
+          "en": "Over the years I understood her remorse."
+        }
+      },
+      {
+        "word": "huella",
+        "type": "n.f.",
+        "en": "mark, trace, footprint",
+        "note": "La huella del agua en la pared.",
+        "example": {
+          "es": "La huella del agua sigue en la pared.",
+          "en": "The mark of the water is still on the wall."
+        }
+      },
+      {
+        "word": "cicatriz",
+        "type": "n.f.",
+        "en": "scar",
+        "note": "Como una cicatriz en la casa.",
+        "example": {
+          "es": "Mi madre la llama su cicatriz favorita.",
+          "en": "My mother calls it her favourite scar."
+        }
+      },
+      {
+        "word": "evocar",
+        "type": "v.",
+        "en": "to recall, to evoke",
+        "note": "Suelo evocar aquella noche.",
+        "example": {
+          "es": "Hoy suelo evocar aquella noche.",
+          "en": "Today I usually recall that night."
+        }
+      },
+      {
+        "word": "revivir",
+        "type": "v.",
+        "en": "to relive, to revive",
+        "note": "Para revivir su valor.",
+        "example": {
+          "es": "Para revivir su valor.",
+          "en": "To relive her courage."
+        }
+      },
+      {
+        "word": "atesorar",
+        "type": "v.",
+        "en": "to treasure",
+        "note": "Prefiero atesorar su ejemplo.",
+        "example": {
+          "es": "Yo prefiero atesorar sus palabras.",
+          "en": "I prefer to treasure her words."
+        }
+      },
+      {
+        "word": "vela",
+        "type": "n.f.",
+        "en": "candle",
+        "note": "Había encendido dos velas por el apagón.",
+        "ext": true,
+        "example": {
+          "es": "Había encendido una vela.",
+          "en": "She had lit a candle."
+        }
+      },
+      {
+        "word": "ribera",
+        "type": "n.f.",
+        "en": "riverbank",
+        "note": "En la ribera ya había arrasado dos casas.",
+        "ext": true,
+        "example": {
+          "es": "En la ribera había arrasado dos casas.",
+          "en": "On the bank it had swept away two houses."
+        }
+      },
+      {
+        "word": "tablón",
+        "type": "n.m.",
+        "en": "plank",
+        "note": "Un tablón roto entre los escombros.",
+        "ext": true,
+        "example": {
+          "es": "Un tablón roto entre los escombros.",
+          "en": "A broken plank among the rubble."
+        }
+      },
+      {
+        "word": "sollozo",
+        "type": "n.m.",
+        "en": "sob, sobbing",
+        "note": "El sollozo de una vecina, muy lejos.",
+        "ext": true,
+        "example": {
+          "es": "El sollozo de una vecina.",
+          "en": "A neighbour's sobbing."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 60,
+    "title": "The many values of se",
+    "words": [
+      {
+        "word": "vecino",
+        "type": "n.m./f.",
+        "en": "neighbour",
+        "note": "Los vecinos se quejan de la derrama.",
+        "example": {
+          "es": "Los vecinos se saludan todos los días.",
+          "en": "The neighbours greet each other every day."
+        }
+      },
+      {
+        "word": "vecindad",
+        "type": "n.f.",
+        "en": "apartment block, tenement",
+        "note": "Mexico: en nuestra vecindad. Neutral synonym: edificio.",
+        "example": {
+          "es": "En nuestra vecindad viven cuarenta vecinos.",
+          "en": "Forty neighbours live in our apartment block."
+        }
+      },
+      {
+        "word": "portero",
+        "type": "n.m./f.",
+        "en": "doorman, caretaker",
+        "note": "Abre el zaguán a las siete.",
+        "example": {
+          "es": "El portero abre el zaguán a las siete.",
+          "en": "The doorman opens the entrance hall at seven."
+        }
+      },
+      {
+        "word": "escalera",
+        "type": "n.f.",
+        "en": "stairs, stairwell",
+        "note": "Tres escaleras; se apaga la luz de la escalera.",
+        "example": {
+          "es": "Se apaga la luz de la escalera.",
+          "en": "The stairwell light goes off."
+        }
+      },
+      {
+        "word": "ascensor",
+        "type": "n.m.",
+        "en": "lift, elevator",
+        "note": "Neutral word everywhere. Sube en el ascensor.",
+        "example": {
+          "es": "Sube en el ascensor hasta la azotea.",
+          "en": "He rides the lift up to the roof terrace."
+        }
+      },
+      {
+        "word": "rellano",
+        "type": "n.m.",
+        "en": "landing (of stairs)",
+        "note": "Se saludan en el rellano.",
+        "example": {
+          "es": "Se saludan en el rellano.",
+          "en": "They greet each other on the landing."
+        }
+      },
+      {
+        "word": "conserje",
+        "type": "n.m./f.",
+        "en": "caretaker, janitor",
+        "note": "Me abrió la puerta con su llave.",
+        "example": {
+          "es": "El conserje me abrió la puerta.",
+          "en": "The caretaker opened the door for me."
+        }
+      },
+      {
+        "word": "cuota",
+        "type": "n.f.",
+        "en": "fee, share, quota",
+        "note": "La cuota de cada familia es más alta.",
+        "example": {
+          "es": "¿Ya pagó la cuota del mes?",
+          "en": "Has he paid this month's fee yet?"
+        }
+      },
+      {
+        "word": "avería",
+        "type": "n.f.",
+        "en": "breakdown, fault",
+        "note": "El fontanero vino a ver la avería.",
+        "example": {
+          "es": "El fontanero vino a ver la avería.",
+          "en": "The plumber came to look at the breakdown."
+        }
+      },
+      {
+        "word": "fontanero",
+        "type": "n.m./f.",
+        "en": "plumber",
+        "note": "Spain: fontanero. Latin America also: plomero.",
+        "example": {
+          "es": "El fontanero vino dos días después.",
+          "en": "The plumber came two days later."
+        }
+      },
+      {
+        "word": "cerrajero",
+        "type": "n.m./f.",
+        "en": "locksmith",
+        "note": "Hubo que llamar al cerrajero.",
+        "example": {
+          "es": "Hubo que llamar al cerrajero.",
+          "en": "They had to call the locksmith."
+        }
+      },
+      {
+        "word": "inquilino",
+        "type": "n.m./f.",
+        "en": "tenant",
+        "note": "Los inquilinos del tercero se saludan.",
+        "example": {
+          "es": "Los inquilinos del tercero se saludan.",
+          "en": "The third-floor tenants greet each other."
+        }
+      },
+      {
+        "word": "casero",
+        "type": "n.m./f.",
+        "en": "landlord, landlady",
+        "note": "As adjective: homemade (comida casera).",
+        "example": {
+          "es": "El casero solo viene a cobrar la cuota.",
+          "en": "The landlord only shows up to collect the fee."
+        }
+      },
+      {
+        "word": "trastero",
+        "type": "n.m.",
+        "en": "storage room",
+        "note": "Se venden dos trasteros.",
+        "example": {
+          "es": "Se venden dos trasteros.",
+          "en": "Two storage rooms are for sale."
+        }
+      },
+      {
+        "word": "zaguán",
+        "type": "n.m.",
+        "en": "entrance hall, vestibule",
+        "note": "Se sientan en el zaguán.",
+        "example": {
+          "es": "Se sientan cada tarde en el zaguán.",
+          "en": "They sit down every afternoon in the entrance hall."
+        }
+      },
+      {
+        "word": "tendedero",
+        "type": "n.m.",
+        "en": "clothesline, drying rack",
+        "note": "Se pelean por el tendedero.",
+        "example": {
+          "es": "Se pelean por el tendedero.",
+          "en": "They fight over the clothesline."
+        }
+      },
+      {
+        "word": "derrama",
+        "type": "n.f.",
+        "en": "special building levy",
+        "note": "An extra fee shared by all neighbours.",
+        "example": {
+          "es": "Se quejan de la derrama de este año.",
+          "en": "They are complaining about this year's levy."
+        }
+      },
+      {
+        "word": "llave",
+        "type": "n.f.",
+        "en": "key",
+        "note": "Se me olvidaron las llaves.",
+        "example": {
+          "es": "Se me cayeron las llaves.",
+          "en": "I dropped my keys."
+        }
+      },
+      {
+        "word": "quejarse",
+        "type": "v.",
+        "en": "to complain",
+        "note": "Quejarse de algo: se quejan de la derrama.",
+        "example": {
+          "es": "Se quejan de la derrama.",
+          "en": "They are complaining about the levy."
+        }
+      },
+      {
+        "word": "sentarse",
+        "type": "v.",
+        "en": "to sit down",
+        "note": "Reflexive se: se sientan cada tarde.",
+        "example": {
+          "es": "Se sientan en el zaguán.",
+          "en": "They sit down in the entrance hall."
+        }
+      },
+      {
+        "word": "saludarse",
+        "type": "v.",
+        "en": "to greet each other",
+        "note": "Reciprocal, always plural: se saludan.",
+        "example": {
+          "es": "Se saludan en el rellano.",
+          "en": "They greet each other on the landing."
+        }
+      },
+      {
+        "word": "pelearse",
+        "type": "v.",
+        "en": "to fight each other",
+        "note": "Reciprocal: se pelean cada semana.",
+        "example": {
+          "es": "Se pelean por el tendedero.",
+          "en": "They fight each other over the clothesline."
+        }
+      },
+      {
+        "word": "escribirse",
+        "type": "v.",
+        "en": "to write to each other",
+        "note": "Reciprocal: se escriben por las noches.",
+        "example": {
+          "es": "Se escriben para bajar a la calle.",
+          "en": "They write to each other to go down to the street."
+        }
+      },
+      {
+        "word": "alquilarse",
+        "type": "v.",
+        "en": "to be for rent (passive se)",
+        "note": "Se alquila el piso: nobody in particular rents it out.",
+        "example": {
+          "es": "Se alquila el piso del primero.",
+          "en": "The first-floor flat is for rent."
+        }
+      },
+      {
+        "word": "venderse",
+        "type": "v.",
+        "en": "to be for sale (passive se)",
+        "note": "Verb agrees with the thing: se venden trasteros.",
+        "example": {
+          "es": "Se venden dos trasteros.",
+          "en": "Two storage rooms are for sale."
+        }
+      },
+      {
+        "word": "caerse",
+        "type": "v.",
+        "en": "to fall, to drop (accidental se)",
+        "note": "Se me cayeron: the verb agrees with las llaves.",
+        "example": {
+          "es": "Se me cayeron las llaves.",
+          "en": "I dropped my keys."
+        }
+      },
+      {
+        "word": "romperse",
+        "type": "v.",
+        "en": "to break (accidental se)",
+        "note": "Se le rompió un plato: it broke on her.",
+        "example": {
+          "es": "Se le rompió un plato.",
+          "en": "She broke a plate."
+        }
+      },
+      {
+        "word": "perderse",
+        "type": "v.",
+        "en": "to get lost (accidental se)",
+        "note": "Se le perdió la llave: it got lost on him.",
+        "example": {
+          "es": "Se le perdió la llave.",
+          "en": "He lost the key."
+        }
+      },
+      {
+        "word": "comerse",
+        "type": "v.",
+        "en": "to eat up (aspectual se)",
+        "note": "The se adds totality: se comió tres platos.",
+        "example": {
+          "es": "Se comió todo lo del plato.",
+          "en": "She ate up everything on her plate."
+        }
+      },
+      {
+        "word": "beberse",
+        "type": "v.",
+        "en": "to drink up (aspectual se)",
+        "note": "Se bebió todo el vino: completely.",
+        "example": {
+          "es": "Se bebió todo el vino.",
+          "en": "He drank up all the wine."
+        }
+      },
+      {
+        "word": "dormirse",
+        "type": "v.",
+        "en": "to fall asleep",
+        "note": "Reflexive change of state: se durmió.",
+        "example": {
+          "es": "Se durmió después de comer.",
+          "en": "He fell asleep after lunch."
+        }
+      },
+      {
+        "word": "acordarse",
+        "type": "v.",
+        "en": "to remember",
+        "note": "Acordarse de algo: se acordó del pan.",
+        "example": {
+          "es": "Se acordó del pan.",
+          "en": "He remembered the bread."
+        }
+      },
+      {
+        "word": "olvidarse",
+        "type": "v.",
+        "en": "to forget",
+        "note": "Se me olvidaron las llaves: they slipped my mind.",
+        "example": {
+          "es": "Se me olvidaron las llaves.",
+          "en": "I forgot my keys."
+        }
+      },
+      {
+        "word": "mirarse",
+        "type": "v.",
+        "en": "to look at each other",
+        "note": "Reciprocal: se miran con cariño.",
+        "example": {
+          "es": "Se miran y se sientan a hablar.",
+          "en": "They look at each other and sit down to chat."
+        }
+      },
+      {
+        "word": "cortarse",
+        "type": "v.",
+        "en": "to cut oneself",
+        "note": "Reflexive: se cortó la mano.",
+        "example": {
+          "es": "Se cortó la mano.",
+          "en": "He cut his hand."
+        }
+      },
+      {
+        "word": "consorcio",
+        "type": "n.m.",
+        "en": "building association",
+        "note": "El consorcio se reúne cada mes.",
+        "ext": true,
+        "example": {
+          "es": "El consorcio se reúne en el zaguán.",
+          "en": "The building association meets in the entrance hall."
+        }
+      },
+      {
+        "word": "moroso",
+        "type": "n.m./adj.",
+        "en": "defaulter, late payer",
+        "note": "El moroso del quinto debe tres cuotas.",
+        "ext": true,
+        "example": {
+          "es": "¿Ya pagó el moroso del quinto?",
+          "en": "Has the late payer on the fifth paid yet?"
+        }
+      },
+      {
+        "word": "felpudo",
+        "type": "n.m.",
+        "en": "doormat",
+        "note": "Límpiate los pies en el felpudo.",
+        "ext": true,
+        "example": {
+          "es": "Mira su felpudo nuevo.",
+          "en": "Look at his new doormat."
+        }
+      },
+      {
+        "word": "reja",
+        "type": "n.f.",
+        "en": "grille, iron gate",
+        "note": "Quieren poner otra reja en la escalera.",
+        "ext": true,
+        "example": {
+          "es": "Quieren poner otra reja.",
+          "en": "They want to put another iron gate."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 61,
+    "title": "Non-finite clauses",
+    "words": [
+      {
+        "word": "restauración",
+        "type": "n.f.",
+        "en": "restoration",
+        "note": "Terminada la restauración del altar.",
+        "example": {
+          "es": "Terminada la restauración, abrimos la iglesia.",
+          "en": "With the restoration finished, we open the church."
+        }
+      },
+      {
+        "word": "restaurar",
+        "type": "v.",
+        "en": "to restore",
+        "note": "Restaurar es decidir: infinitive as subject.",
+        "example": {
+          "es": "Restaurar bien lleva tiempo.",
+          "en": "Restoring well takes time."
+        }
+      },
+      {
+        "word": "marco",
+        "type": "n.m.",
+        "en": "frame",
+        "note": "Lijando el marco con cuidado.",
+        "example": {
+          "es": "Lijando el marco, encontró el año.",
+          "en": "While sanding the frame, he found the year."
+        }
+      },
+      {
+        "word": "barniz",
+        "type": "n.m.",
+        "en": "varnish",
+        "note": "Limpio ya el barniz viejo.",
+        "example": {
+          "es": "Solo falta el barniz.",
+          "en": "Only the varnish is missing."
+        }
+      },
+      {
+        "word": "grieta",
+        "type": "n.f.",
+        "en": "crack",
+        "note": "Documentar cada grieta.",
+        "example": {
+          "es": "Documentada cada grieta, empezó el trabajo.",
+          "en": "With every crack documented, the work began."
+        }
+      },
+      {
+        "word": "andamio",
+        "type": "n.m.",
+        "en": "scaffolding",
+        "note": "Subieron al andamio.",
+        "example": {
+          "es": "Subieron al andamio con lija.",
+          "en": "They climbed the scaffolding with sandpaper."
+        }
+      },
+      {
+        "word": "fresco",
+        "type": "n.m.",
+        "en": "fresco (wall painting)",
+        "note": "El fresco del altar se quedó como estaba.",
+        "example": {
+          "es": "El fresco se quedó como estaba.",
+          "en": "The fresco stayed as it was."
+        }
+      },
+      {
+        "word": "altar",
+        "type": "n.m.",
+        "en": "altar",
+        "note": "La restauración del altar.",
+        "example": {
+          "es": "La restauración del altar terminó en mayo.",
+          "en": "The restoration of the altar finished in May."
+        }
+      },
+      {
+        "word": "viga",
+        "type": "n.f.",
+        "en": "beam",
+        "note": "Estando rota la viga… (advanced).",
+        "example": {
+          "es": "Tuvo que reponer una viga.",
+          "en": "He had to replace a beam."
+        }
+      },
+      {
+        "word": "escombro",
+        "type": "n.m.",
+        "en": "rubble, debris",
+        "note": "Llevó el escombro fuera de la iglesia.",
+        "example": {
+          "es": "Llevó el escombro fuera.",
+          "en": "He carried the rubble outside."
+        }
+      },
+      {
+        "word": "artesano",
+        "type": "n.m./f.",
+        "en": "craftsperson, artisan",
+        "note": "Los artesanos subieron al andamio.",
+        "example": {
+          "es": "Los artesanos subieron al andamio.",
+          "en": "The craftspeople climbed the scaffolding."
+        }
+      },
+      {
+        "word": "ebanista",
+        "type": "n.m./f.",
+        "en": "cabinetmaker",
+        "note": "Limpió el dorado con agua y tiempo.",
+        "example": {
+          "es": "El ebanista limpió el dorado.",
+          "en": "The cabinetmaker cleaned the gilding."
+        }
+      },
+      {
+        "word": "dorado",
+        "type": "n.m.",
+        "en": "gilding",
+        "note": "El dorado, ya pulido, parece nuevo.",
+        "example": {
+          "es": "El dorado parece nuevo.",
+          "en": "The gilding looks new."
+        }
+      },
+      {
+        "word": "bastidor",
+        "type": "n.m.",
+        "en": "stretcher (frame support)",
+        "note": "Consolidar el bastidor del marco.",
+        "example": {
+          "es": "Consolidó el bastidor del marco.",
+          "en": "He consolidated the frame's stretcher."
+        }
+      },
+      {
+        "word": "carpintero",
+        "type": "n.m./f.",
+        "en": "carpenter",
+        "note": "Tuvo que reponer una viga.",
+        "example": {
+          "es": "El carpintero repuso una viga.",
+          "en": "The carpenter replaced a beam."
+        }
+      },
+      {
+        "word": "retablo",
+        "type": "n.m.",
+        "en": "altarpiece",
+        "note": "Church art: el retablo parecía otro.",
+        "example": {
+          "es": "Una vez desmontado el retablo…",
+          "en": "Once the altarpiece was taken apart…"
+        }
+      },
+      {
+        "word": "vitral",
+        "type": "n.m.",
+        "en": "stained-glass window",
+        "note": "Latin America: vitral. Spain also: vidriera.",
+        "example": {
+          "es": "El vitral se limpió poco a poco.",
+          "en": "The stained-glass window was cleaned little by little."
+        }
+      },
+      {
+        "word": "cantero",
+        "type": "n.m./f.",
+        "en": "stonemason",
+        "note": "Llevó el escombro fuera.",
+        "example": {
+          "es": "El cantero llevó el escombro.",
+          "en": "The stonemason carried the rubble."
+        }
+      },
+      {
+        "word": "lija",
+        "type": "n.f.",
+        "en": "sandpaper",
+        "note": "Con la lija en la mano.",
+        "example": {
+          "es": "Pasó la semana con la lija en la mano.",
+          "en": "He spent the week with sandpaper in his hand."
+        }
+      },
+      {
+        "word": "lijar",
+        "type": "v.",
+        "en": "to sand",
+        "note": "Lijar a mano es lento; lijando el marco…",
+        "example": {
+          "es": "Lijar a mano es lento.",
+          "en": "Sanding by hand is slow."
+        }
+      },
+      {
+        "word": "desmontar",
+        "type": "v.",
+        "en": "to take apart, to dismantle",
+        "note": "Una vez desmontado el retablo…",
+        "example": {
+          "es": "Una vez desmontado el retablo, subieron.",
+          "en": "Once the altarpiece was taken apart, they climbed up."
+        }
+      },
+      {
+        "word": "catalogar",
+        "type": "v.",
+        "en": "to catalogue",
+        "note": "Catalogar todo.",
+        "example": {
+          "es": "Catalogó todo durante dos semanas.",
+          "en": "He catalogued everything for two weeks."
+        }
+      },
+      {
+        "word": "documentar",
+        "type": "v.",
+        "en": "to document",
+        "note": "Documentada cada grieta, empezó el trabajo.",
+        "example": {
+          "es": "Documentó cada grieta.",
+          "en": "He documented every crack."
+        }
+      },
+      {
+        "word": "diagnóstico",
+        "type": "n.m.",
+        "en": "diagnosis, assessment",
+        "note": "El primer trabajo fue el diagnóstico.",
+        "example": {
+          "es": "El diagnóstico duró dos semanas.",
+          "en": "The assessment took two weeks."
+        }
+      },
+      {
+        "word": "consolidar",
+        "type": "v.",
+        "en": "to consolidate, to strengthen",
+        "note": "Consolidar el bastidor.",
+        "example": {
+          "es": "Consolidó el bastidor del marco.",
+          "en": "He consolidated the frame's stretcher."
+        }
+      },
+      {
+        "word": "reponer",
+        "type": "v.",
+        "en": "to replace, to restore (a part)",
+        "note": "Tuvo que reponer una viga.",
+        "example": {
+          "es": "Tuvo que reponer una viga.",
+          "en": "He had to replace a beam."
+        }
+      },
+      {
+        "word": "pátina",
+        "type": "n.f.",
+        "en": "patina",
+        "note": "Cuidando la pátina de tres siglos.",
+        "example": {
+          "es": "Cuidó la pátina de tres siglos.",
+          "en": "He took care of the three-centuries-old patina."
+        }
+      },
+      {
+        "word": "craquelado",
+        "type": "n.m.",
+        "en": "craquelure (fine cracks)",
+        "note": "Un craquelado fino.",
+        "example": {
+          "es": "Mostraba un craquelado fino.",
+          "en": "It showed a fine craquelure."
+        }
+      },
+      {
+        "word": "meticuloso",
+        "type": "adj.",
+        "en": "meticulous",
+        "note": "El aprendiz, meticuloso, pasó una semana.",
+        "example": {
+          "es": "El aprendiz, meticuloso, lijó a mano.",
+          "en": "The apprentice, meticulous, sanded by hand."
+        }
+      },
+      {
+        "word": "aprendiz",
+        "type": "n.m./f.",
+        "en": "apprentice",
+        "note": "Lijando el marco, el aprendiz encontró el año.",
+        "example": {
+          "es": "El aprendiz encontró el año 1798.",
+          "en": "The apprentice found the year 1798."
+        }
+      },
+      {
+        "word": "pulir",
+        "type": "v.",
+        "en": "to polish",
+        "note": "El lijar y el pulir; ya pulido a mano.",
+        "example": {
+          "es": "Pulir lleva tiempo.",
+          "en": "Polishing takes time."
+        }
+      },
+      {
+        "word": "policromía",
+        "type": "n.f.",
+        "en": "polychromy (multi-colour paint)",
+        "note": "La policromía mostraba un craquelado.",
+        "example": {
+          "es": "La policromía mostraba grietas.",
+          "en": "The polychromy showed cracks."
+        }
+      },
+      {
+        "word": "fumar",
+        "type": "v.",
+        "en": "to smoke",
+        "note": "Fumar es malo: infinitive as subject.",
+        "example": {
+          "es": "Fumar es malo para la pintura.",
+          "en": "Smoking is bad for the painting."
+        }
+      },
+      {
+        "word": "pintura",
+        "type": "n.f.",
+        "en": "painting; paint",
+        "note": "Fumar es malo para la pintura.",
+        "example": {
+          "es": "Decapó la pintura nueva.",
+          "en": "He stripped off the newer paint."
+        }
+      },
+      {
+        "word": "polvo",
+        "type": "n.m.",
+        "en": "dust",
+        "note": "Lleno de polvo.",
+        "example": {
+          "es": "Llevaba años lleno de polvo.",
+          "en": "It had spent years covered in dust."
+        }
+      },
+      {
+        "word": "cliente",
+        "type": "n.m./f.",
+        "en": "client, customer",
+        "note": "El cliente pagó el precio justo.",
+        "example": {
+          "es": "El cliente pagó el precio justo.",
+          "en": "The client paid the fair price."
+        }
+      },
+      {
+        "word": "calidad",
+        "type": "n.f.",
+        "en": "quality",
+        "note": "Un trabajo de gran calidad.",
+        "example": {
+          "es": "La calidad lo pide.",
+          "en": "Quality demands it."
+        }
+      },
+      {
+        "word": "decapar",
+        "type": "v.",
+        "en": "to strip (paint, varnish)",
+        "note": "Decapamos la pintura nueva.",
+        "ext": true,
+        "example": {
+          "es": "Decapamos la pintura nueva.",
+          "en": "We stripped off the newer paint."
+        }
+      },
+      {
+        "word": "reintegración",
+        "type": "n.f.",
+        "en": "reintegration, infilling (restoration)",
+        "note": "Terminada la reintegración, solo falta el barniz.",
+        "ext": true,
+        "example": {
+          "es": "Terminada la reintegración, falta el barniz.",
+          "en": "Once the infilling is done, only the varnish is missing."
+        }
+      },
+      {
+        "word": "impoluto",
+        "type": "adj.",
+        "en": "spotless, pristine",
+        "note": "Formal word: el dorado queda impoluto.",
+        "ext": true,
+        "example": {
+          "es": "El dorado queda impoluto.",
+          "en": "The gilding is spotless."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 62,
+    "title": "Nominalization & formal written syntax",
+    "words": [
+      {
+        "word": "ayuntamiento",
+        "type": "n.m.",
+        "en": "city council, town hall",
+        "note": "Abrió el expediente de la reforma.",
+        "example": {
+          "es": "¿Supiste lo del ayuntamiento?",
+          "en": "Did you hear about the council?"
+        }
+      },
+      {
+        "word": "concejal",
+        "type": "n.m./f.",
+        "en": "councillor",
+        "note": "La concejala de mercados leyó los números.",
+        "example": {
+          "es": "Los concejales visitan los puestos.",
+          "en": "The councillors visit the stalls."
+        }
+      },
+      {
+        "word": "pleno",
+        "type": "n.m.",
+        "en": "plenary session, full council",
+        "note": "El pleno habló del aumento.",
+        "example": {
+          "es": "El pleno habla del mercado.",
+          "en": "The plenary discusses the market."
+        }
+      },
+      {
+        "word": "ordenanza",
+        "type": "n.f.",
+        "en": "by-law, ordinance",
+        "note": "En virtud de / con arreglo a la ordenanza.",
+        "example": {
+          "es": "En virtud de la ordenanza.",
+          "en": "By virtue of the by-law."
+        }
+      },
+      {
+        "word": "expediente",
+        "type": "n.m.",
+        "en": "file, dossier, proceedings",
+        "note": "Abrió el expediente de la reforma.",
+        "example": {
+          "es": "Abrió el expediente del mercado.",
+          "en": "He opened the file on the market."
+        }
+      },
+      {
+        "word": "licitación",
+        "type": "n.f.",
+        "en": "tender, bidding process",
+        "note": "La licitación se adjudicó a la contratista.",
+        "example": {
+          "es": "Se licita la ejecución.",
+          "en": "The execution is put out to tender."
+        }
+      },
+      {
+        "word": "adjudicar",
+        "type": "v.",
+        "en": "to award (a contract)",
+        "note": "Se adjudicó la obra a una contratista.",
+        "example": {
+          "es": "La obra se adjudicó a la adjudicataria.",
+          "en": "The work was awarded to the successful bidder."
+        }
+      },
+      {
+        "word": "contratista",
+        "type": "n.m./f.",
+        "en": "contractor",
+        "note": "Una contratista local.",
+        "example": {
+          "es": "Se adjudicó a una contratista local.",
+          "en": "It was awarded to a local contractor."
+        }
+      },
+      {
+        "word": "comerciante",
+        "type": "n.m./f.",
+        "en": "trader, shopkeeper",
+        "note": "Cada comerciante tiene su mostrador.",
+        "example": {
+          "es": "Cada comerciante tiene su mostrador.",
+          "en": "Each trader keeps his counter."
+        }
+      },
+      {
+        "word": "subvención",
+        "type": "n.f.",
+        "en": "grant, subsidy",
+        "note": "Una subvención para cada puesto.",
+        "example": {
+          "es": "Pide también la subvención.",
+          "en": "Ask for the grant too."
+        }
+      },
+      {
+        "word": "presupuesto",
+        "type": "n.m.",
+        "en": "budget",
+        "note": "El aumento del presupuesto.",
+        "example": {
+          "es": "El aumento del presupuesto es pequeño.",
+          "en": "The budget increase is small."
+        }
+      },
+      {
+        "word": "prórroga",
+        "type": "n.f.",
+        "en": "extension (of a deadline)",
+        "note": "Pidieron una prórroga para opinar.",
+        "example": {
+          "es": "Por consiguiente, habrá una prórroga.",
+          "en": "Consequently, there will be an extension."
+        }
+      },
+      {
+        "word": "aumento",
+        "type": "n.m.",
+        "en": "increase",
+        "note": "Nominalization: aumentar gives el aumento de.",
+        "example": {
+          "es": "Hablaron del aumento tres horas.",
+          "en": "They discussed the increase for three hours."
+        }
+      },
+      {
+        "word": "sede",
+        "type": "n.f.",
+        "en": "site, seat, headquarters",
+        "note": "El mercado sigue en su sede.",
+        "example": {
+          "es": "El mercado sigue en su sede.",
+          "en": "The market stays at its site."
+        }
+      },
+      {
+        "word": "convenio",
+        "type": "n.m.",
+        "en": "agreement, convention",
+        "note": "El convenio incluye una subvención.",
+        "example": {
+          "es": "Sale en el convenio.",
+          "en": "It's in the agreement."
+        }
+      },
+      {
+        "word": "dotación",
+        "type": "n.f.",
+        "en": "funding, endowment",
+        "note": "La dotación total sale del presupuesto.",
+        "example": {
+          "es": "La dotación sale del presupuesto.",
+          "en": "The funding comes out of the budget."
+        }
+      },
+      {
+        "word": "ejecución",
+        "type": "n.f.",
+        "en": "execution, carrying out",
+        "note": "La ejecución de las obras.",
+        "example": {
+          "es": "Se licita la ejecución de las obras.",
+          "en": "The execution of the works is put out to tender."
+        }
+      },
+      {
+        "word": "inauguración",
+        "type": "n.f.",
+        "en": "opening, inauguration",
+        "note": "La inauguración será en primavera.",
+        "example": {
+          "es": "La inauguración será en primavera.",
+          "en": "The opening will be in spring."
+        }
+      },
+      {
+        "word": "clausura",
+        "type": "n.f.",
+        "en": "closure",
+        "note": "Formal word for cerrar: la clausura de dos calles.",
+        "example": {
+          "es": "La clausura es de un mes.",
+          "en": "The closure is for one month."
+        }
+      },
+      {
+        "word": "adecuación",
+        "type": "n.f.",
+        "en": "adaptation, fitting-out",
+        "note": "La adecuación del edificio.",
+        "example": {
+          "es": "Hay que llevar a cabo la adecuación.",
+          "en": "The adaptation must be carried out."
+        }
+      },
+      {
+        "word": "asimismo",
+        "type": "adv.",
+        "en": "likewise, also (formal)",
+        "note": "Asimismo, se llevará a cabo…",
+        "example": {
+          "es": "Asimismo, se pedirá una prórroga.",
+          "en": "Likewise, an extension will be requested."
+        }
+      },
+      {
+        "word": "abasto",
+        "type": "n.m.",
+        "en": "supply (of goods)",
+        "note": "El abasto de agua sigue igual.",
+        "example": {
+          "es": "El abasto de agua sigue igual.",
+          "en": "The water supply stays the same."
+        }
+      },
+      {
+        "word": "mostrador",
+        "type": "n.m.",
+        "en": "counter (shop or stall)",
+        "note": "Cada comerciante tiene su mostrador.",
+        "example": {
+          "es": "Mi mostrador necesita luz.",
+          "en": "My counter needs light."
+        }
+      },
+      {
+        "word": "abastecimiento",
+        "type": "n.m.",
+        "en": "supplying, provisioning",
+        "note": "El abastecimiento llega cada mañana.",
+        "example": {
+          "es": "El abastecimiento llega cada mañana.",
+          "en": "Deliveries arrive every morning."
+        }
+      },
+      {
+        "word": "saneamiento",
+        "type": "n.m.",
+        "en": "sanitation, drainage",
+        "note": "Solado nuevo y saneamiento.",
+        "example": {
+          "es": "La obra trae saneamiento nuevo.",
+          "en": "The work brings new sanitation."
+        }
+      },
+      {
+        "word": "solado",
+        "type": "n.m.",
+        "en": "flooring, paving",
+        "note": "La adecuación trae solado nuevo.",
+        "example": {
+          "es": "La adecuación trae solado nuevo.",
+          "en": "The adaptation brings new flooring."
+        }
+      },
+      {
+        "word": "albañil",
+        "type": "n.m./f.",
+        "en": "bricklayer",
+        "note": "Los albañiles empezaron por la entrada.",
+        "example": {
+          "es": "Los albañiles empezaron por la entrada.",
+          "en": "The bricklayers started at the entrance."
+        }
+      },
+      {
+        "word": "techumbre",
+        "type": "n.f.",
+        "en": "roof, roofing",
+        "note": "Techumbre nueva para el mercado.",
+        "example": {
+          "es": "La obra trae techumbre nueva.",
+          "en": "The work brings a new roof."
+        }
+      },
+      {
+        "word": "adjudicataria",
+        "type": "n.f.",
+        "en": "successful bidder",
+        "note": "Feminine here; masculine: adjudicatario.",
+        "example": {
+          "es": "La obra se adjudicó a la adjudicataria.",
+          "en": "The work was awarded to the successful bidder."
+        }
+      },
+      {
+        "word": "licitar",
+        "type": "v.",
+        "en": "to put out to tender",
+        "note": "Se licita la ejecución de las obras.",
+        "example": {
+          "es": "Se licita la ejecución.",
+          "en": "The execution is put out to tender."
+        }
+      },
+      {
+        "word": "tramitación",
+        "type": "n.f.",
+        "en": "procedure, processing",
+        "note": "La tramitación termina en seis meses.",
+        "example": {
+          "es": "La tramitación termina en seis meses.",
+          "en": "The procedure finishes in six months."
+        }
+      },
+      {
+        "word": "concurrencia",
+        "type": "n.f.",
+        "en": "crowd, turnout",
+        "note": "La concurrencia de los sábados.",
+        "example": {
+          "es": "Un entoldado para la concurrencia.",
+          "en": "An awning for the crowds."
+        }
+      },
+      {
+        "word": "entoldado",
+        "type": "n.m.",
+        "en": "awning, canopy",
+        "note": "Un entoldado nuevo para el mercado.",
+        "example": {
+          "es": "¿Y el entoldado del mercado?",
+          "en": "And the market's awning?"
+        }
+      },
+      {
+        "word": "llevar a cabo",
+        "type": "v. phr.",
+        "en": "to carry out",
+        "note": "Formal hacer: llevar a cabo la clausura.",
+        "example": {
+          "es": "Se llevará a cabo la clausura.",
+          "en": "The closure will be carried out."
+        }
+      },
+      {
+        "word": "puesta en marcha",
+        "type": "n.f.",
+        "en": "launch, setting in motion",
+        "note": "La puesta en marcha será poco a poco.",
+        "example": {
+          "es": "La puesta en marcha será poco a poco.",
+          "en": "The launch will be gradual."
+        }
+      },
+      {
+        "word": "en virtud de",
+        "type": "prep.",
+        "en": "by virtue of, under",
+        "note": "En virtud de la ordenanza plus noun.",
+        "example": {
+          "es": "En virtud de la ordenanza.",
+          "en": "By virtue of the by-law."
+        }
+      },
+      {
+        "word": "con arreglo a",
+        "type": "prep.",
+        "en": "in accordance with",
+        "note": "Con arreglo a la ordenanza plus noun.",
+        "example": {
+          "es": "Con arreglo a la ordenanza, todo llega.",
+          "en": "In accordance with the by-law, everything will come."
+        }
+      },
+      {
+        "word": "acristalamiento",
+        "type": "n.m.",
+        "en": "glazing (glass fitting)",
+        "note": "Pido el acristalamiento de las ventanas.",
+        "ext": true,
+        "example": {
+          "es": "Pido el acristalamiento.",
+          "en": "I'm asking for the glazing."
+        }
+      },
+      {
+        "word": "fontanería",
+        "type": "n.f.",
+        "en": "plumbing (system)",
+        "note": "La fontanería de los baños entra en la obra.",
+        "ext": true,
+        "example": {
+          "es": "La fontanería entra en la obra.",
+          "en": "The plumbing is included in the work."
+        }
+      },
+      {
+        "word": "hornacina",
+        "type": "n.f.",
+        "en": "niche (in a wall)",
+        "note": "La hornacina de la entrada se queda como está.",
+        "ext": true,
+        "example": {
+          "es": "La hornacina se queda como está.",
+          "en": "The niche stays as it is."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 63,
+    "title": "Word formation I: prefixes and suffixes",
+    "words": [
+      {
+        "word": "prefijo",
+        "type": "n.m.",
+        "en": "prefix",
+        "note": "The piece at the front of a word: des-, re-, pre-.",
+        "example": {
+          "es": "Ante una palabra larga, busca el prefijo.",
+          "en": "Faced with a long word, look for the prefix."
+        }
+      },
+      {
+        "word": "sufijo",
+        "type": "n.m.",
+        "en": "suffix",
+        "note": "The piece at the end of a word: -ble, -dor, -aje.",
+        "example": {
+          "es": "El sufijo -ble significa que se puede.",
+          "en": "The suffix -ble means that it can be done."
+        }
+      },
+      {
+        "word": "raíz",
+        "type": "n.f.",
+        "en": "root (of a word)",
+        "note": "The core piece carrying the meaning: contamin- in descontaminar.",
+        "example": {
+          "es": "Quita el prefijo y el sufijo y lee la raíz.",
+          "en": "Take off the prefix and the suffix and read the root."
+        }
+      },
+      {
+        "word": "desalinizar",
+        "type": "v.",
+        "en": "to desalinate",
+        "note": "des- (remove) + sal (salt) + -izar. Desalinizar deja de ser un sueño caro.",
+        "example": {
+          "es": "Quieren desalinizar agua del mar.",
+          "en": "They want to desalinate seawater."
+        }
+      },
+      {
+        "word": "descontaminar",
+        "type": "v.",
+        "en": "to decontaminate",
+        "note": "Family: contaminar → descontaminar → anticontaminante.",
+        "example": {
+          "es": "Quieren descontaminar todo el río.",
+          "en": "They want to decontaminate the whole river."
+        }
+      },
+      {
+        "word": "desinfectar",
+        "type": "v.",
+        "en": "to disinfect",
+        "note": "des- (remove) + infección. Hay que desinfectar los tanques.",
+        "example": {
+          "es": "Hay que desinfectar los tanques con luz especial.",
+          "en": "The tanks must be disinfected with special light."
+        }
+      },
+      {
+        "word": "desperdicio",
+        "type": "n.m.",
+        "en": "waste, rubbish",
+        "note": "Todo desperdicio que trae el drenaje.",
+        "example": {
+          "es": "Con menos desperdicio, el agua alcanza para todos.",
+          "en": "With less waste, the water is enough for everyone."
+        }
+      },
+      {
+        "word": "desagüe",
+        "type": "n.m.",
+        "en": "drain",
+        "note": "des- + agua: water going away. El desagüe de casa.",
+        "example": {
+          "es": "El agua sucia viaja por el desagüe.",
+          "en": "Dirty water travels through the drain."
+        }
+      },
+      {
+        "word": "impermeable",
+        "type": "adj.",
+        "en": "waterproof",
+        "note": "im- (= in-, not) + permeable. Membranas impermeables.",
+        "example": {
+          "es": "La membrana impermeable frena la sal.",
+          "en": "The waterproof membrane stops salt."
+        }
+      },
+      {
+        "word": "insalubre",
+        "type": "adj.",
+        "en": "unhealthy, insanitary",
+        "note": "in- (not) + salubre (healthy). Agua insalubre.",
+        "example": {
+          "es": "El agua insalubre enferma a la gente.",
+          "en": "Unhealthy water makes people ill."
+        }
+      },
+      {
+        "word": "inagotable",
+        "type": "adj.",
+        "en": "inexhaustible",
+        "note": "in- (not) + agotable (that can run out).",
+        "example": {
+          "es": "El abastecimiento parece inagotable.",
+          "en": "The supply seems inexhaustible."
+        }
+      },
+      {
+        "word": "invisible",
+        "type": "adj.",
+        "en": "invisible",
+        "note": "in- (not) + visible. Bacterias invisibles.",
+        "example": {
+          "es": "Detecta bacterias invisibles a simple vista.",
+          "en": "It detects bacteria invisible to the naked eye."
+        }
+      },
+      {
+        "word": "reutilizar",
+        "type": "v.",
+        "en": "to reuse",
+        "note": "Family: utilizar → reutilizar → reutilización → reutilizable.",
+        "example": {
+          "es": "Decidieron reutilizar cada gota.",
+          "en": "They decided to reuse every drop."
+        }
+      },
+      {
+        "word": "reutilización",
+        "type": "n.f.",
+        "en": "reuse",
+        "note": "re- (again) + utilizar + -ización (process). La reutilización del agua.",
+        "example": {
+          "es": "La reutilización del agua ya funciona.",
+          "en": "Water reuse already works."
+        }
+      },
+      {
+        "word": "reutilizable",
+        "type": "adj.",
+        "en": "reusable",
+        "note": "-ble = that can be. Agua reutilizable para beber.",
+        "example": {
+          "es": "El agua ya es reutilizable para beber.",
+          "en": "The water is already reusable for drinking."
+        }
+      },
+      {
+        "word": "regenerar",
+        "type": "v.",
+        "en": "to regenerate",
+        "note": "re- (again) + generar. Regenerar los ríos.",
+        "example": {
+          "es": "El tercer paso busca regenerar los ríos.",
+          "en": "Step three aims to regenerate the rivers."
+        }
+      },
+      {
+        "word": "renovable",
+        "type": "adj.",
+        "en": "renewable",
+        "note": "re- (again) + nov- (new) + -able. Energía renovable.",
+        "example": {
+          "es": "Producen energía renovable en la planta.",
+          "en": "They produce renewable energy in the plant."
+        }
+      },
+      {
+        "word": "pretratamiento",
+        "type": "n.m.",
+        "en": "pre-treatment",
+        "note": "Family: tratar → tratamiento → pretratamiento → postratamiento.",
+        "example": {
+          "es": "El pretratamiento separa lo grande.",
+          "en": "Pre-treatment takes out the big stuff."
+        }
+      },
+      {
+        "word": "prever",
+        "type": "v.",
+        "en": "to foresee, to anticipate",
+        "note": "pre- (before) + ver. Pueden prever años secos.",
+        "example": {
+          "es": "Pueden prever años secos.",
+          "en": "They can foresee dry years."
+        }
+      },
+      {
+        "word": "previsible",
+        "type": "adj.",
+        "en": "foreseeable",
+        "note": "Family: prever → previsible (pre- + vis- + -ible).",
+        "example": {
+          "es": "Costó menos de lo previsible.",
+          "en": "It cost less than foreseeable."
+        }
+      },
+      {
+        "word": "postratamiento",
+        "type": "n.m.",
+        "en": "post-treatment",
+        "note": "post- (after) + tratamiento. Después del postratamiento.",
+        "example": {
+          "es": "Después del postratamiento final, el agua es segura.",
+          "en": "After the final post-treatment, the water is safe."
+        }
+      },
+      {
+        "word": "anticontaminante",
+        "type": "adj.",
+        "en": "anti-pollution",
+        "note": "anti- (against) + contaminante. Filtros anticontaminantes.",
+        "example": {
+          "es": "Hay filtros anticontaminantes en las fábricas.",
+          "en": "There are anti-pollution filters in the factories."
+        }
+      },
+      {
+        "word": "antiséquía",
+        "type": "adj.",
+        "en": "anti-drought",
+        "note": "anti- + sequía (drought, L37). Un plan antiséquía.",
+        "example": {
+          "es": "Aprobaron un plan antiséquía.",
+          "en": "They approved an anti-drought plan."
+        }
+      },
+      {
+        "word": "superbacteria",
+        "type": "n.f.",
+        "en": "superbug",
+        "note": "super- (over, beyond) + bacteria. A resistant germ.",
+        "example": {
+          "es": "Ni una superbacteria pasa el filtro.",
+          "en": "Not even a superbug gets through the filter."
+        }
+      },
+      {
+        "word": "potable",
+        "type": "adj.",
+        "en": "drinkable, safe to drink",
+        "note": "-ble = that can be. Agua potable.",
+        "example": {
+          "es": "El agua ya parece potable.",
+          "en": "The water already looks drinkable."
+        }
+      },
+      {
+        "word": "depurar",
+        "type": "v.",
+        "en": "to purify (water)",
+        "note": "Family: depurar → depuración → depurador.",
+        "example": {
+          "es": "Las máquinas empiezan a depurar el agua.",
+          "en": "The machines start purifying the water."
+        }
+      },
+      {
+        "word": "depuración",
+        "type": "n.f.",
+        "en": "purification",
+        "note": "depurar + -ción. La depuración tiene tres pasos.",
+        "example": {
+          "es": "La depuración tiene tres pasos.",
+          "en": "Purification has three steps."
+        }
+      },
+      {
+        "word": "depurador",
+        "type": "n.m.",
+        "en": "purifier (device)",
+        "note": "-dor = device that purifies. Un depurador limpia el agua.",
+        "example": {
+          "es": "Un depurador limpia el agua de toda una ciudad.",
+          "en": "One purifier cleans the water of a whole city."
+        }
+      },
+      {
+        "word": "tratamiento",
+        "type": "n.m.",
+        "en": "treatment",
+        "note": "tratar + -miento. La planta de tratamiento.",
+        "example": {
+          "es": "El agua viaja hasta la planta de tratamiento.",
+          "en": "Water travels to the treatment plant."
+        }
+      },
+      {
+        "word": "funcionamiento",
+        "type": "n.m.",
+        "en": "workings, operation",
+        "note": "funcionar + -miento. How something works.",
+        "example": {
+          "es": "Su funcionamiento sigue día y noche.",
+          "en": "Its workings go on day and night."
+        }
+      },
+      {
+        "word": "drenaje",
+        "type": "n.m.",
+        "en": "drainage",
+        "note": "drenar + -aje. El drenaje de las calles.",
+        "example": {
+          "es": "El drenaje lleva el agua a la planta.",
+          "en": "The drainage carries water to the plant."
+        }
+      },
+      {
+        "word": "reciclaje",
+        "type": "n.m.",
+        "en": "recycling",
+        "note": "reciclar (L37) + -aje. El reciclaje empieza en casa.",
+        "example": {
+          "es": "El reciclaje empieza en casa.",
+          "en": "Recycling starts at home."
+        }
+      },
+      {
+        "word": "almacenaje",
+        "type": "n.m.",
+        "en": "storage",
+        "note": "almacenar + -aje. El almacenaje del agua.",
+        "example": {
+          "es": "El almacenaje del agua es la clave.",
+          "en": "Storing water is the key."
+        }
+      },
+      {
+        "word": "potabilizar",
+        "type": "v.",
+        "en": "to make drinkable",
+        "note": "potable + -izar. Potabilizar el agua con carbón.",
+        "example": {
+          "es": "Hay que potabilizar el agua con carbón.",
+          "en": "The water must be made drinkable with carbon."
+        }
+      },
+      {
+        "word": "planta",
+        "type": "n.f.",
+        "en": "plant (industrial)",
+        "note": "La planta de tratamiento. Also means factory.",
+        "example": {
+          "es": "El agua llega a la planta de tratamiento.",
+          "en": "Water reaches the treatment plant."
+        }
+      },
+      {
+        "word": "microorganismo",
+        "type": "n.m.",
+        "en": "microorganism",
+        "note": "micro- (tiny) + organismo.",
+        "ext": true,
+        "example": {
+          "es": "Elimina los microorganismos más insalubres.",
+          "en": "It eliminates the unhealthiest microorganisms."
+        }
+      },
+      {
+        "word": "bacteria",
+        "type": "n.f.",
+        "en": "bacterium, germ",
+        "note": "Base of superbacteria. Detecta bacterias invisibles.",
+        "ext": true,
+        "example": {
+          "es": "Detecta bacterias invisibles.",
+          "en": "It detects invisible bacteria."
+        }
+      },
+      {
+        "word": "desigual",
+        "type": "adj.",
+        "en": "uneven, unequal",
+        "note": "des- (not) + igual (equal, L26).",
+        "ext": true,
+        "example": {
+          "es": "Un solo vertido desigual arruina el sistema.",
+          "en": "A single uneven discharge ruins the system."
+        }
+      },
+      {
+        "word": "desconocido",
+        "type": "adj.",
+        "en": "unknown",
+        "note": "des- (not) + conocido (known).",
+        "ext": true,
+        "example": {
+          "es": "Su funcionamiento es desconocido para casi todos.",
+          "en": "Its workings are unknown to almost everyone."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 64,
+    "title": "Word formation II: word families",
+    "words": [
+      {
+        "word": "mercadillo",
+        "type": "n.m.",
+        "en": "small/street market",
+        "note": "mercado (L07) + -illo. El mercadillo de los domingos.",
+        "example": {
+          "es": "El mercadillo abre los domingos.",
+          "en": "The little market opens on Sundays."
+        }
+      },
+      {
+        "word": "tendero",
+        "type": "n.m.",
+        "en": "shopkeeper, stallholder",
+        "note": "Family: tienda → tendero. El tendero de la florería.",
+        "example": {
+          "es": "Cada tendero conoce su sitio.",
+          "en": "Every stallholder knows their place."
+        }
+      },
+      {
+        "word": "frutero",
+        "type": "n.m.",
+        "en": "fruit seller; fruit bowl",
+        "note": "Family: fruta (L07) → frutero → frutería.",
+        "example": {
+          "es": "El frutero ya los conoce.",
+          "en": "The fruit seller already knows them."
+        }
+      },
+      {
+        "word": "frutería",
+        "type": "n.f.",
+        "en": "fruit shop",
+        "note": "-ería = shop that sells. La frutería de doña Carmen.",
+        "example": {
+          "es": "Corren rapidito a la frutería.",
+          "en": "They run quickly to the fruit shop."
+        }
+      },
+      {
+        "word": "carnicero",
+        "type": "n.m.",
+        "en": "butcher",
+        "note": "Family: carne (L07) → carnicero → carnicería.",
+        "example": {
+          "es": "El carnicero atiende rápidamente.",
+          "en": "The butcher serves rapidly."
+        }
+      },
+      {
+        "word": "carnicería",
+        "type": "n.f.",
+        "en": "butcher's shop",
+        "note": "-ería = shop. Segunda parada: la carnicería.",
+        "example": {
+          "es": "Segunda parada: la carnicería.",
+          "en": "Second stop: the butcher's."
+        }
+      },
+      {
+        "word": "panadero",
+        "type": "n.m.",
+        "en": "baker",
+        "note": "Family: pan (L07) → panadero → panadería.",
+        "example": {
+          "es": "El panadero regala un pan casero.",
+          "en": "The baker gives away a homemade loaf."
+        }
+      },
+      {
+        "word": "panadería",
+        "type": "n.f.",
+        "en": "bakery",
+        "note": "-ería = shop. En la panadería regalan pan casero.",
+        "example": {
+          "es": "En la panadería huele a pan casero.",
+          "en": "The bakery smells of homemade bread."
+        }
+      },
+      {
+        "word": "pescadero",
+        "type": "n.m.",
+        "en": "fishmonger",
+        "note": "Family: pescado (L07) → pescadero → pescadería.",
+        "example": {
+          "es": "El pescadero explica cada pescado.",
+          "en": "The fishmonger explains every fish."
+        }
+      },
+      {
+        "word": "pescadería",
+        "type": "n.f.",
+        "en": "fish stall/shop",
+        "note": "-ería = shop. Luego pasan por la pescadería.",
+        "example": {
+          "es": "Luego pasan por la pescadería.",
+          "en": "Then they pass the fish stall."
+        }
+      },
+      {
+        "word": "quesero",
+        "type": "n.m.",
+        "en": "cheese seller/maker",
+        "note": "Family: queso (L28) → quesero → quesería.",
+        "example": {
+          "es": "El quesero deja probar poquito.",
+          "en": "The cheese man lets you taste a little."
+        }
+      },
+      {
+        "word": "quesería",
+        "type": "n.f.",
+        "en": "cheese stall/shop",
+        "note": "-ería = shop. En la quesería dejan probar.",
+        "example": {
+          "es": "En la quesería dejan probar el queso.",
+          "en": "At the cheese stall they let you taste the cheese."
+        }
+      },
+      {
+        "word": "flor",
+        "type": "n.f.",
+        "en": "flower",
+        "note": "Family: flor → florero → florería.",
+        "example": {
+          "es": "Regala una flor a la niña.",
+          "en": "He gives the little girl a flower."
+        }
+      },
+      {
+        "word": "florero",
+        "type": "n.m.",
+        "en": "vase",
+        "note": "flor + -ero (holder). Vende el florero baratísimo.",
+        "example": {
+          "es": "Vende el florero baratísimo.",
+          "en": "He sells the vase dirt cheap."
+        }
+      },
+      {
+        "word": "florería",
+        "type": "n.f.",
+        "en": "flower shop/stall",
+        "note": "-ería = shop. El tendero de la florería.",
+        "example": {
+          "es": "El tendero de la florería regala flores.",
+          "en": "The flower-stall keeper gives away flowers."
+        }
+      },
+      {
+        "word": "cafecito",
+        "type": "n.m.",
+        "en": "small coffee",
+        "note": "café + -cito. Tomar un cafecito. Affectionate, not just small.",
+        "example": {
+          "es": "Toman un cafecito con el abuelito.",
+          "en": "They have a little coffee with grandpa."
+        }
+      },
+      {
+        "word": "poquito",
+        "type": "n./adv.",
+        "en": "a little bit",
+        "note": "poco + -ito. Pide poquito de todo.",
+        "example": {
+          "es": "Pide poquito de todo.",
+          "en": "He asks for a little bit of everything."
+        }
+      },
+      {
+        "word": "rapidito",
+        "type": "adv.",
+        "en": "quickly (with affection)",
+        "note": "rápido + -ito. Corre rapidito. Diminutive on an adverb.",
+        "example": {
+          "es": "El niño corre rapidito entre los puestos.",
+          "en": "The boy runs quickly between the stalls."
+        }
+      },
+      {
+        "word": "abuelito",
+        "type": "n.m.",
+        "en": "grandpa (affectionate)",
+        "note": "Family: abuelo → abuelito. Un cafecito con el abuelito.",
+        "example": {
+          "es": "Un cafecito con el abuelito.",
+          "en": "A little coffee with grandpa."
+        }
+      },
+      {
+        "word": "abuelo",
+        "type": "n.m.",
+        "en": "grandfather; grandpa",
+        "note": "Base of abuelito. El abuelo guía al grupo.",
+        "example": {
+          "es": "El abuelo guía al grupo.",
+          "en": "Grandpa leads the group."
+        }
+      },
+      {
+        "word": "chiquillo",
+        "type": "n./adj.",
+        "en": "little kid",
+        "note": "chico + -illo. -illo rules in Andalucía, Colombia, Caribe; Costa Rica prefers -ico.",
+        "example": {
+          "es": "El nieto más chiquillo corre rapidito.",
+          "en": "The littlest grandson runs quickly along."
+        }
+      },
+      {
+        "word": "platillo",
+        "type": "n.m.",
+        "en": "small dish; saucer",
+        "note": "plato + -illo. Un platillo de natillas.",
+        "example": {
+          "es": "De postre, un platillo de natillas.",
+          "en": "For dessert, a little dish of custard."
+        }
+      },
+      {
+        "word": "cucharón",
+        "type": "n.m.",
+        "en": "ladle",
+        "note": "cuchara + -ón (big). Sirve la sopa con un cucharón.",
+        "example": {
+          "es": "Sirve la sopa con un cucharón enorme.",
+          "en": "He serves the soup with a huge ladle."
+        }
+      },
+      {
+        "word": "hombrón",
+        "type": "n.m.",
+        "en": "big/hearty fellow",
+        "note": "hombre (L05) + -ón. Un hombrón de voz grave.",
+        "example": {
+          "es": "Es un hombrón de voz grave.",
+          "en": "He is a big fellow with a deep voice."
+        }
+      },
+      {
+        "word": "ollaza",
+        "type": "n.f.",
+        "en": "giant pot",
+        "note": "olla + -aza. El guiso llega en una ollaza.",
+        "example": {
+          "es": "El guiso llega en una ollaza que echa humo.",
+          "en": "The stew arrives in a giant steaming pot."
+        }
+      },
+      {
+        "word": "golpazo",
+        "type": "n.m.",
+        "en": "loud bang",
+        "note": "golpe (L49) + -azo (blow). Se oye un golpazo.",
+        "example": {
+          "es": "Se oye un golpazo al cerrar.",
+          "en": "There's a loud bang as it closes."
+        }
+      },
+      {
+        "word": "amabilidad",
+        "type": "n.f.",
+        "en": "kindness",
+        "note": "Family: amable (L17) → amabilidad. Trata con amabilidad.",
+        "example": {
+          "es": "Con amabilidad todo se vende rapidito.",
+          "en": "With kindness everything sells quickly."
+        }
+      },
+      {
+        "word": "igualdad",
+        "type": "n.f.",
+        "en": "equality",
+        "note": "Family: igual (L26) → igualdad.",
+        "example": {
+          "es": "El mercado es igualdad y libertad.",
+          "en": "The market is equality and freedom."
+        }
+      },
+      {
+        "word": "libertad",
+        "type": "n.f.",
+        "en": "freedom, liberty",
+        "note": "Family: libre (L16) → libertad.",
+        "example": {
+          "es": "El mercado es igualdad, libertad y felicidad.",
+          "en": "The market is equality, freedom and happiness."
+        }
+      },
+      {
+        "word": "felicidad",
+        "type": "n.f.",
+        "en": "happiness",
+        "note": "Family: feliz (L16) → felicidad. Pura felicidad.",
+        "example": {
+          "es": "El mercado es pura felicidad.",
+          "en": "The market is pure happiness."
+        }
+      },
+      {
+        "word": "rápidamente",
+        "type": "adv.",
+        "en": "rapidly, quickly",
+        "note": "rápida + -mente. Keeps the written accent.",
+        "example": {
+          "es": "El carnicero atiende rápidamente.",
+          "en": "The butcher serves rapidly."
+        }
+      },
+      {
+        "word": "lentamente",
+        "type": "adv.",
+        "en": "slowly",
+        "note": "lenta + -mente. Sirve lentamente.",
+        "example": {
+          "es": "El mercadillo se vacía lentamente.",
+          "en": "The little market empties slowly."
+        }
+      },
+      {
+        "word": "organización",
+        "type": "n.f.",
+        "en": "organisation",
+        "note": "Family: organizar → organización. Buena organización.",
+        "example": {
+          "es": "Detrás de todo hay buena organización.",
+          "en": "Behind it all there's good organisation."
+        }
+      },
+      {
+        "word": "decisión",
+        "type": "n.f.",
+        "en": "decision",
+        "note": "Family: decidir → decisión (-sión after d). La mejor decisión.",
+        "example": {
+          "es": "La mejor decisión: volver el domingo.",
+          "en": "The best decision: to come back on Sunday."
+        }
+      },
+      {
+        "word": "fresquísimo",
+        "type": "adj.",
+        "en": "super fresh",
+        "note": "fresco + -ísimo. Las naranjas están fresquísimas.",
+        "example": {
+          "es": "Las naranjas están fresquísimas.",
+          "en": "The oranges are super fresh."
+        }
+      },
+      {
+        "word": "baratísimo",
+        "type": "adj.",
+        "en": "dirt cheap",
+        "note": "barato + -ísimo. El melón, baratísimo.",
+        "example": {
+          "es": "El melón está baratísimo hoy.",
+          "en": "The melon is dirt cheap today."
+        }
+      },
+      {
+        "word": "buenísimo",
+        "type": "adj.",
+        "en": "excellent, really good",
+        "note": "bueno → buen- + -ísimo. Un queso buenísimo.",
+        "example": {
+          "es": "Deja probar un queso buenísimo.",
+          "en": "He lets them taste an excellent cheese."
+        }
+      },
+      {
+        "word": "grandote",
+        "type": "adj.",
+        "en": "huge, big",
+        "note": "grande + -ote (augmentative). Un bocadillo grandote.",
+        "ext": true,
+        "example": {
+          "es": "Trae un bocadillo grandote.",
+          "en": "He brings a giant sandwich."
+        }
+      },
+      {
+        "word": "limonada",
+        "type": "n.f.",
+        "en": "lemonade",
+        "note": "limón + -ada (drink made of). Una limonada fresquísima.",
+        "ext": true,
+        "example": {
+          "es": "Una limonada fresquísima, por favor.",
+          "en": "A super-fresh lemonade, please."
+        }
+      },
+      {
+        "word": "ahorita",
+        "type": "adv.",
+        "en": "right now (LatAm)",
+        "note": "ahora + -ita. Everyday Latin America; Spain says ahora mismo.",
+        "ext": true,
+        "example": {
+          "es": "La decisión se toma ahorita.",
+          "en": "The decision is made right now."
+        }
+      },
+      {
+        "word": "dormilón",
+        "type": "n./adj.",
+        "en": "sleepyhead",
+        "note": "dormir + -ilón. Hecho un dormilón.",
+        "ext": true,
+        "example": {
+          "es": "El niño, hecho un dormilón, se duerme.",
+          "en": "The boy, a total sleepyhead, falls asleep."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 65,
+    "title": "Discourse connectors & register",
+    "words": [
+      {
+        "word": "arboleda",
+        "type": "n.f.",
+        "en": "trees, grove (in a city)",
+        "note": "Collective noun: la arboleda es pequeña. Not one single tree.",
+        "example": {
+          "es": "La arboleda es todavía pequeña.",
+          "en": "The trees are still small."
+        }
+      },
+      {
+        "word": "sendero",
+        "type": "n.m.",
+        "en": "path, trail",
+        "note": "Un sendero junto al agua.",
+        "example": {
+          "es": "Vamos al sendero de la ribera.",
+          "en": "Let's go to the riverbank path."
+        }
+      },
+      {
+        "word": "césped",
+        "type": "n.m.",
+        "en": "lawn, grass",
+        "note": "Los niños juegan en el césped.",
+        "example": {
+          "es": "Los niños juegan en el césped.",
+          "en": "The children play on the lawn."
+        }
+      },
+      {
+        "word": "vecindario",
+        "type": "n.m.",
+        "en": "neighbourhood",
+        "note": "La gente del vecindario. Cf. barrio.",
+        "example": {
+          "es": "La gente del vecindario sigue esperando.",
+          "en": "The people of the neighbourhood are still waiting."
+        }
+      },
+      {
+        "word": "peatón",
+        "type": "n.m.",
+        "en": "pedestrian",
+        "note": "El peatón no puede pasar. Plural: peatones.",
+        "example": {
+          "es": "El peatón no puede pasar.",
+          "en": "Pedestrians cannot get through."
+        }
+      },
+      {
+        "word": "peatonal",
+        "type": "adj.",
+        "en": "pedestrian (adj.), car-free",
+        "note": "Una calle peatonal: sin coches.",
+        "example": {
+          "es": "Quieren una calle peatonal.",
+          "en": "They want a pedestrian street."
+        }
+      },
+      {
+        "word": "atasco",
+        "type": "n.m.",
+        "en": "traffic jam",
+        "note": "El atasco llena la rotonda cada mañana.",
+        "example": {
+          "es": "El atasco llena la rotonda.",
+          "en": "The jam fills the roundabout."
+        }
+      },
+      {
+        "word": "oasis",
+        "type": "n.m.",
+        "en": "oasis",
+        "note": "La ribera es un oasis con sombra.",
+        "example": {
+          "es": "La ribera es un oasis.",
+          "en": "The riverbank is an oasis."
+        }
+      },
+      {
+        "word": "pulmón",
+        "type": "n.m.",
+        "en": "lung; green lung",
+        "note": "El pulmón de la ciudad: su zona verde.",
+        "example": {
+          "es": "El pulmón de la ciudad está en la ribera.",
+          "en": "The green lung of the city is on the riverbank."
+        }
+      },
+      {
+        "word": "quiosco",
+        "type": "n.m.",
+        "en": "kiosk",
+        "note": "Quioscos con sombra en la ribera.",
+        "example": {
+          "es": "Hay quioscos con sombra en la ribera.",
+          "en": "There are shaded kiosks on the riverbank."
+        }
+      },
+      {
+        "word": "ensanche",
+        "type": "n.m.",
+        "en": "city expansion district",
+        "note": "El ensanche creció muy rápido.",
+        "example": {
+          "es": "El ensanche creció muy rápido.",
+          "en": "The expansion district grew very fast."
+        }
+      },
+      {
+        "word": "manzana",
+        "type": "n.f.",
+        "en": "city block",
+        "note": "Cada manzana nueva trajo más coches.",
+        "example": {
+          "es": "Cada manzana nueva trajo más coches.",
+          "en": "Each new block brought more cars."
+        }
+      },
+      {
+        "word": "rotonda",
+        "type": "n.f.",
+        "en": "roundabout",
+        "note": "El atasco llena la rotonda. LatAm also says glorieta.",
+        "example": {
+          "es": "El atasco llena la rotonda.",
+          "en": "The jam fills the roundabout."
+        }
+      },
+      {
+        "word": "cruce",
+        "type": "n.m.",
+        "en": "intersection, crossing",
+        "note": "El cruce está lleno de coches.",
+        "example": {
+          "es": "El cruce está lleno de coches.",
+          "en": "The intersection is full of cars."
+        }
+      },
+      {
+        "word": "carril",
+        "type": "n.m.",
+        "en": "lane",
+        "note": "Un carril para bicicletas.",
+        "example": {
+          "es": "Hay un carril para bicicletas.",
+          "en": "There is a lane for bicycles."
+        }
+      },
+      {
+        "word": "patinete",
+        "type": "n.m.",
+        "en": "scooter",
+        "note": "Los patinetes van por el carril.",
+        "example": {
+          "es": "Los patinetes van por el carril.",
+          "en": "Scooters stay in the lane."
+        }
+      },
+      {
+        "word": "bulevar",
+        "type": "n.m.",
+        "en": "boulevard",
+        "note": "El nuevo bulevar tiene césped.",
+        "example": {
+          "es": "El nuevo bulevar tiene césped.",
+          "en": "The new boulevard has a lawn."
+        }
+      },
+      {
+        "word": "prohibir",
+        "type": "v.",
+        "en": "to prohibit, to ban",
+        "note": "La ordenanza prohíbe los coches en el centro.",
+        "example": {
+          "es": "La ordenanza prohíbe los coches.",
+          "en": "The ordinance bans cars."
+        }
+      },
+      {
+        "word": "talar",
+        "type": "v.",
+        "en": "to fell, to cut down (trees)",
+        "note": "Stronger than podar: talar removes the whole tree.",
+        "example": {
+          "es": "No quieren talar la arboleda.",
+          "en": "They don't want to fell the trees."
+        }
+      },
+      {
+        "word": "podar",
+        "type": "v.",
+        "en": "to prune",
+        "note": "Podar = cut branches; talar = cut the tree.",
+        "example": {
+          "es": "Van a podar la arboleda en otoño.",
+          "en": "They are going to prune the trees in autumn."
+        }
+      },
+      {
+        "word": "regar",
+        "type": "v.",
+        "en": "to water, to irrigate",
+        "note": "e→ie stem change: riego, riegas, riega.",
+        "example": {
+          "es": "Podar y regar cuestan dinero.",
+          "en": "Pruning and watering cost money."
+        }
+      },
+      {
+        "word": "riego",
+        "type": "n.m.",
+        "en": "watering, irrigation",
+        "note": "No hay dinero para el riego.",
+        "example": {
+          "es": "No hay dinero para el riego.",
+          "en": "There is no money for watering."
+        }
+      },
+      {
+        "word": "respirar",
+        "type": "v.",
+        "en": "to breathe",
+        "note": "Respirar bien es bueno para todos.",
+        "example": {
+          "es": "Respirar bien es bueno.",
+          "en": "Breathing well is good."
+        }
+      },
+      {
+        "word": "mitigar",
+        "type": "v.",
+        "en": "to mitigate, to soften",
+        "note": "Formal word: mitigar el calor.",
+        "example": {
+          "es": "Mitigar el calor es bueno para todos.",
+          "en": "Softening the heat is good for everyone."
+        }
+      },
+      {
+        "word": "sombra",
+        "type": "n.f.",
+        "en": "shade, shadow",
+        "note": "Cada manzana nueva trajo menos sombra.",
+        "example": {
+          "es": "Allí hay sombra.",
+          "en": "There is shade there."
+        }
+      },
+      {
+        "word": "gorrión",
+        "type": "n.m.",
+        "en": "sparrow",
+        "note": "Allí vive el gorrión. A classic city bird.",
+        "example": {
+          "es": "Allí vive el gorrión.",
+          "en": "The sparrow lives there."
+        }
+      },
+      {
+        "word": "biodiversidad",
+        "type": "n.f.",
+        "en": "biodiversity",
+        "note": "Más verde para la biodiversidad: more green for biodiversity.",
+        "example": {
+          "es": "Más verde para la biodiversidad.",
+          "en": "More green for biodiversity."
+        }
+      },
+      {
+        "word": "registro",
+        "type": "n.m.",
+        "en": "register (formality level)",
+        "note": "Formal vs coloquial: two registros.",
+        "example": {
+          "es": "No obstante es de registro formal.",
+          "en": "No obstante belongs to the formal register."
+        }
+      },
+      {
+        "word": "coloquial",
+        "type": "adj.",
+        "en": "colloquial, informal",
+        "note": "El registro coloquial: pero, también, por eso.",
+        "example": {
+          "es": "Pero es coloquial.",
+          "en": "Pero is colloquial."
+        }
+      },
+      {
+        "word": "por lo tanto",
+        "type": "conj.",
+        "en": "therefore (formal)",
+        "note": "Por lo tanto, necesitamos más sombra.",
+        "example": {
+          "es": "Por lo tanto, necesitamos más sombra.",
+          "en": "Therefore, we need more shade."
+        }
+      },
+      {
+        "word": "en cambio",
+        "type": "conj.",
+        "en": "in contrast, whereas",
+        "note": "En cambio, la ribera es un oasis.",
+        "example": {
+          "es": "En cambio, la ribera es un oasis.",
+          "en": "In contrast, the riverbank is an oasis."
+        }
+      },
+      {
+        "word": "de hecho",
+        "type": "conj.",
+        "en": "in fact, actually",
+        "note": "De hecho, hace mucho calor hasta la noche.",
+        "example": {
+          "es": "De hecho, hace mucho calor.",
+          "en": "In fact, it is very hot."
+        }
+      },
+      {
+        "word": "jilguero",
+        "type": "n.m.",
+        "en": "goldfinch",
+        "note": "Un pájaro pequeño que canta muy bien.",
+        "ext": true,
+        "example": {
+          "es": "He visto un jilguero esta mañana.",
+          "en": "I saw a goldfinch this morning."
+        }
+      },
+      {
+        "word": "mirlo",
+        "type": "n.m.",
+        "en": "blackbird",
+        "note": "Negro, con el pico amarillo.",
+        "ext": true,
+        "example": {
+          "es": "Solo veo algún mirlo.",
+          "en": "I only ever see the odd blackbird."
+        }
+      },
+      {
+        "word": "alcorque",
+        "type": "n.m.",
+        "en": "tree pit",
+        "note": "El hueco de tierra alrededor de un árbol en la calle.",
+        "ext": true,
+        "example": {
+          "es": "En el alcorque hay tierra.",
+          "en": "There is soil in the tree pit."
+        }
+      },
+      {
+        "word": "bochorno",
+        "type": "n.m.",
+        "en": "muggy, stifling heat",
+        "note": "¡Qué bochorno! = what stifling heat!",
+        "ext": true,
+        "example": {
+          "es": "¡Qué bochorno!",
+          "en": "What stifling heat!"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 66,
+    "title": "Advanced pronouns",
+    "words": [
+      {
+        "word": "sobre",
+        "type": "n.m.",
+        "en": "envelope",
+        "note": "Un sobre amarillo. Also a preposition: sobre la mesa (on the table).",
+        "example": {
+          "es": "Hay un sobre amarillo.",
+          "en": "There is a yellow envelope."
+        }
+      },
+      {
+        "word": "cartero",
+        "type": "n.m./f.",
+        "en": "postman, mail carrier",
+        "note": "El cartero lo llevó tres veces.",
+        "example": {
+          "es": "Se lo di al cartero.",
+          "en": "I gave it to the postman."
+        }
+      },
+      {
+        "word": "destinatario",
+        "type": "n.m.",
+        "en": "addressee",
+        "note": "La carta no tenía destinatario.",
+        "example": {
+          "es": "La carta no tenía destinatario.",
+          "en": "The letter had no addressee."
+        }
+      },
+      {
+        "word": "reclamar",
+        "type": "v.",
+        "en": "to claim, to demand",
+        "note": "Nadie lo reclama. La carta que nadie reclamó.",
+        "example": {
+          "es": "Nadie lo reclama.",
+          "en": "Nobody claims it."
+        }
+      },
+      {
+        "word": "reclamación",
+        "type": "n.f.",
+        "en": "claim, complaint",
+        "note": "Llegó con una reclamación escrita.",
+        "example": {
+          "es": "Llegó con una reclamación escrita.",
+          "en": "She arrived with a written claim."
+        }
+      },
+      {
+        "word": "extraviar",
+        "type": "v.",
+        "en": "to lose, to mislay",
+        "note": "Se había extraviado: it had gone astray.",
+        "example": {
+          "es": "La carta se había extraviado.",
+          "en": "The letter had gone astray."
+        }
+      },
+      {
+        "word": "sospechoso",
+        "type": "n.m./adj.",
+        "en": "suspect; suspicious",
+        "note": "El único sospechoso era un hombre.",
+        "example": {
+          "es": "El sospechoso era inocente.",
+          "en": "The suspect was innocent."
+        }
+      },
+      {
+        "word": "testigo",
+        "type": "n.m./f.",
+        "en": "witness",
+        "note": "El testigo es el del quiosco.",
+        "example": {
+          "es": "Me lo dio el testigo.",
+          "en": "The witness gave it to me."
+        }
+      },
+      {
+        "word": "coartada",
+        "type": "n.f.",
+        "en": "alibi",
+        "note": "Una coartada perfecta.",
+        "example": {
+          "es": "Tenía una coartada perfecta.",
+          "en": "He had a perfect alibi."
+        }
+      },
+      {
+        "word": "enigma",
+        "type": "n.m.",
+        "en": "enigma, riddle",
+        "note": "La respuesta al enigma.",
+        "example": {
+          "es": "Y así se terminó el enigma.",
+          "en": "And that is how the enigma ended."
+        }
+      },
+      {
+        "word": "revelar",
+        "type": "v.",
+        "en": "to reveal",
+        "note": "La señora reveló el secreto.",
+        "example": {
+          "es": "La señora reveló el secreto.",
+          "en": "The lady revealed the secret."
+        }
+      },
+      {
+        "word": "sospechar",
+        "type": "v.",
+        "en": "to suspect",
+        "note": "Ella nunca sospechó nada.",
+        "example": {
+          "es": "Ella nunca sospechó nada.",
+          "en": "She never suspected anything."
+        }
+      },
+      {
+        "word": "sospecha",
+        "type": "n.f.",
+        "en": "suspicion",
+        "note": "Todos tenían la misma sospecha.",
+        "example": {
+          "es": "Todos tenían la misma sospecha.",
+          "en": "Everyone had the same suspicion."
+        }
+      },
+      {
+        "word": "esconder",
+        "type": "v.",
+        "en": "to hide",
+        "note": "Alguien escondió la carta en el trastero.",
+        "example": {
+          "es": "Alguien escondió la carta.",
+          "en": "Somebody hid the letter."
+        }
+      },
+      {
+        "word": "descubrir",
+        "type": "v.",
+        "en": "to discover",
+        "note": "El detective descubrió la verdad.",
+        "example": {
+          "es": "El detective descubrió la verdad.",
+          "en": "The detective discovered the truth."
+        }
+      },
+      {
+        "word": "entregar",
+        "type": "v.",
+        "en": "to deliver, to hand over",
+        "note": "Nunca se la entregaron.",
+        "example": {
+          "es": "Nos la entregó el detective.",
+          "en": "The detective handed it to us."
+        }
+      },
+      {
+        "word": "pertenecer",
+        "type": "v.",
+        "en": "to belong",
+        "note": "Pertenece a quien espera desde 1974.",
+        "example": {
+          "es": "Pertenece a quien espera.",
+          "en": "It belongs to whoever waits."
+        }
+      },
+      {
+        "word": "recompensa",
+        "type": "n.f.",
+        "en": "reward",
+        "note": "La recompensa sigue en la comisaría.",
+        "example": {
+          "es": "La recompensa sigue allí.",
+          "en": "The reward is still there."
+        }
+      },
+      {
+        "word": "comisaría",
+        "type": "n.f.",
+        "en": "police station",
+        "note": "En la comisaría del barrio.",
+        "example": {
+          "es": "Hay un sobre en la comisaría.",
+          "en": "There is an envelope at the police station."
+        }
+      },
+      {
+        "word": "buhardilla",
+        "type": "n.f.",
+        "en": "attic",
+        "note": "El indicio estaba en la buhardilla.",
+        "example": {
+          "es": "El indicio estaba en la buhardilla.",
+          "en": "The clue was in the attic."
+        }
+      },
+      {
+        "word": "cajón",
+        "type": "n.m.",
+        "en": "drawer",
+        "note": "Un cajón del escritorio.",
+        "example": {
+          "es": "Descubrió la verdad en un cajón.",
+          "en": "He discovered the truth in a drawer."
+        }
+      },
+      {
+        "word": "escritorio",
+        "type": "n.m.",
+        "en": "desk",
+        "note": "Un cajón del escritorio con una carta.",
+        "example": {
+          "es": "Hay ropa y un escritorio viejo.",
+          "en": "There are old clothes and an old desk."
+        }
+      },
+      {
+        "word": "tinta",
+        "type": "n.f.",
+        "en": "ink",
+        "note": "Escrita con tinta azul.",
+        "example": {
+          "es": "Está escrita con tinta azul.",
+          "en": "It is written in blue ink."
+        }
+      },
+      {
+        "word": "matasellos",
+        "type": "n.m.",
+        "en": "postmark",
+        "note": "Un matasellos viejo en el sobre.",
+        "example": {
+          "es": "Tiene un matasellos viejo.",
+          "en": "It has an old postmark."
+        }
+      },
+      {
+        "word": "certificada",
+        "type": "adj.",
+        "en": "registered (mail)",
+        "note": "Una carta certificada llega con firma.",
+        "example": {
+          "es": "Era una carta certificada.",
+          "en": "It was a registered letter."
+        }
+      },
+      {
+        "word": "anónimo",
+        "type": "adj.",
+        "en": "anonymous",
+        "note": "Era una carta anónima, sin nombre.",
+        "example": {
+          "es": "Era una carta anónima.",
+          "en": "It was an anonymous letter."
+        }
+      },
+      {
+        "word": "indicio",
+        "type": "n.m.",
+        "en": "clue, sign, indication",
+        "note": "El indicio final estaba en la buhardilla.",
+        "example": {
+          "es": "Ese fue el indicio final.",
+          "en": "That was the final clue."
+        }
+      },
+      {
+        "word": "inocente",
+        "type": "adj.",
+        "en": "innocent",
+        "note": "Al final, el hombre era inocente.",
+        "example": {
+          "es": "El hombre era inocente.",
+          "en": "The man was innocent."
+        }
+      },
+      {
+        "word": "detective",
+        "type": "n.m./f.",
+        "en": "detective",
+        "note": "Un detective amigo suyo.",
+        "example": {
+          "es": "Es un detective amigo suyo.",
+          "en": "He is a detective friend of his."
+        }
+      },
+      {
+        "word": "leísmo",
+        "type": "n.m.",
+        "en": "leísmo (using le for lo)",
+        "note": "Spain le vi vs neutral lo vi. Neutral advice: lo for things.",
+        "example": {
+          "es": "El leísmo es común en España.",
+          "en": "Leísmo is common in Spain."
+        }
+      },
+      {
+        "word": "neutro",
+        "type": "adj./n.m.",
+        "en": "neuter",
+        "note": "Lo neutro: lo bueno, lo importante, lo que.",
+        "example": {
+          "es": "Lo importante no es quién la escribió.",
+          "en": "What matters is not who wrote it."
+        }
+      },
+      {
+        "word": "el/la cual",
+        "type": "pron.",
+        "en": "which, who (formal)",
+        "note": "Formal que: el detective, el cual tenía setenta años.",
+        "example": {
+          "es": "El sobre, el cual era amarillo, estaba allí.",
+          "en": "The envelope, which was yellow, was there."
+        }
+      },
+      {
+        "word": "misterio",
+        "type": "n.m.",
+        "en": "mystery",
+        "note": "La carta misteriosa del quiosco.",
+        "ext": true,
+        "example": {
+          "es": "¿Qué pasa con la carta misteriosa?",
+          "en": "What's happening with the mysterious letter?"
+        }
+      },
+      {
+        "word": "secreto",
+        "type": "n.m.",
+        "en": "secret",
+        "note": "La señora reveló el secreto.",
+        "ext": true,
+        "example": {
+          "es": "La señora reveló el secreto.",
+          "en": "The lady revealed the secret."
+        }
+      },
+      {
+        "word": "veredicto",
+        "type": "n.m.",
+        "en": "verdict",
+        "note": "El veredicto fue claro: inocente.",
+        "ext": true,
+        "example": {
+          "es": "El veredicto fue claro.",
+          "en": "The verdict was clear."
+        }
+      },
+      {
+        "word": "sereno",
+        "type": "n.m.",
+        "en": "night guard, watchman",
+        "note": "El sereno de la casa ve todo de noche.",
+        "ext": true,
+        "example": {
+          "es": "Busco al sereno de esta casa.",
+          "en": "I'm looking for the night guard of this house."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 67,
+    "title": "Spanish philosophy: Unamuno and Ortega",
+    "words": [
+      {
+        "en": "philosopher",
+        "example": {
+          "en": "Unamuno was a philosopher and rector.",
+          "es": "Unamuno fue filósofo y rector."
+        },
+        "note": "Unamuno fue filósofo y escritor. Fem. la filósofa.",
+        "type": "n.m./f.",
+        "word": "filósofo"
+      },
+      {
+        "en": "thought, thinking",
+        "example": {
+          "en": "His thinking remains alive.",
+          "es": "Su pensamiento sigue vivo."
+        },
+        "note": "Un grupo de pensamiento. Pensar → pensamiento.",
+        "type": "n.m.",
+        "word": "pensamiento"
+      },
+      {
+        "en": "inwardness, self-absorption",
+        "example": {
+          "en": "He proposes inwardness in order to think.",
+          "es": "Propone el ensimismamiento para pensar."
+        },
+        "note": "Ortega: entrar en uno mismo. Always masculine.",
+        "type": "n.m.",
+        "word": "ensimismamiento"
+      },
+      {
+        "en": "circumstance",
+        "example": {
+          "en": "You must save your circumstance.",
+          "es": "Debes salvar tu circunstancia."
+        },
+        "note": "Yo soy yo y mi circunstancia.",
+        "type": "n.f.",
+        "word": "circunstancia"
+      },
+      {
+        "en": "perspective, view",
+        "example": {
+          "en": "Each life sees from its perspective.",
+          "es": "Cada vida ve desde su perspectiva."
+        },
+        "note": "Cada vida tiene su perspectiva.",
+        "type": "n.f.",
+        "word": "perspectiva"
+      },
+      {
+        "en": "perspectivism",
+        "example": {
+          "en": "He defended perspectivism.",
+          "es": "Defendió el perspectivismo."
+        },
+        "note": "Doctrine: truth depends on point of view. -ismo = masc.",
+        "type": "n.m.",
+        "word": "perspectivismo"
+      },
+      {
+        "en": "anguish, anxiety",
+        "example": {
+          "en": "From that tension anguish is born.",
+          "es": "De esa tensión nace la angustia."
+        },
+        "note": "La angustia de no saber. Key existential word.",
+        "type": "n.f.",
+        "word": "angustia"
+      },
+      {
+        "en": "immortality",
+        "example": {
+          "en": "Feeling wants immortality.",
+          "es": "El sentimiento quiere la inmortalidad."
+        },
+        "note": "El sentimiento quiere la inmortalidad. Inmortal → -dad.",
+        "type": "n.f.",
+        "word": "inmortalidad"
+      },
+      {
+        "en": "faith",
+        "example": {
+          "en": "Reason struggles against faith.",
+          "es": "La razón lucha contra la fe."
+        },
+        "note": "La razón contra la fe.",
+        "type": "n.f.",
+        "word": "fe"
+      },
+      {
+        "en": "doubt",
+        "example": {
+          "en": "He wrote between doubt and faith.",
+          "es": "Escribía entre la duda y la fe."
+        },
+        "note": "Dudar → la duda.",
+        "type": "n.f.",
+        "word": "duda"
+      },
+      {
+        "en": "reason",
+        "example": {
+          "en": "Reason and life must be joined.",
+          "es": "Hay que unir razón y vida."
+        },
+        "note": "Tener razón (to be right) vs la razón (reason). Razón vital.",
+        "type": "n.f.",
+        "word": "razón"
+      },
+      {
+        "en": "feeling",
+        "example": {
+          "en": "Feeling wants to live forever.",
+          "es": "El sentimiento quiere vivir siempre."
+        },
+        "note": "Del sentimiento trágico de la vida. Sentir → sentimiento.",
+        "type": "n.m.",
+        "word": "sentimiento"
+      },
+      {
+        "en": "tragic",
+        "example": {
+          "en": "His life is tragic deep down.",
+          "es": "Su vida es trágica en el fondo."
+        },
+        "note": "El sentimiento trágico: reason and faith cannot agree.",
+        "type": "adj.",
+        "word": "trágico"
+      },
+      {
+        "en": "intrahistory",
+        "example": {
+          "en": "Intrahistory is everyday life.",
+          "es": "La intrahistoria es la vida cotidiana."
+        },
+        "note": "Unamuno's word: silent daily life beneath official history.",
+        "type": "n.f.",
+        "word": "intrahistoria"
+      },
+      {
+        "en": "everyday, daily",
+        "example": {
+          "en": "The everyday life of ordinary people.",
+          "es": "La vida cotidiana del pueblo."
+        },
+        "note": "La vida cotidiana del pueblo.",
+        "type": "adj.",
+        "word": "cotidiano"
+      },
+      {
+        "en": "silent",
+        "example": {
+          "en": "The house is silent.",
+          "es": "La casa está silenciosa."
+        },
+        "note": "La vida silenciosa. Silencio → silencioso.",
+        "type": "adj.",
+        "word": "silencioso"
+      },
+      {
+        "en": "to hurt, to ache",
+        "example": {
+          "en": "Spain hurts me.",
+          "es": "Me duele España."
+        },
+        "note": "Me duele España. Like gustar: me duele, le duele.",
+        "type": "v.",
+        "word": "doler"
+      },
+      {
+        "en": "rector, university head",
+        "example": {
+          "en": "He was rector of Salamanca.",
+          "es": "Fue rector de Salamanca."
+        },
+        "note": "Rector de Salamanca. Fem. la rectora.",
+        "type": "n.m./f.",
+        "word": "rector"
+      },
+      {
+        "en": "exile",
+        "example": {
+          "en": "He paid for his ideas with exile.",
+          "es": "Pagó sus ideas con el destierro."
+        },
+        "note": "Pagó sus ideas con el destierro.",
+        "type": "n.m.",
+        "word": "destierro"
+      },
+      {
+        "en": "generation",
+        "example": {
+          "en": "He belongs to the Generation of '98.",
+          "es": "Pertenece a la generación del 98."
+        },
+        "note": "La generación del 98.",
+        "type": "n.f.",
+        "word": "generación"
+      },
+      {
+        "en": "essay",
+        "example": {
+          "en": "He wrote a short, clear essay.",
+          "es": "Escribió un ensayo corto y claro."
+        },
+        "note": "Ortega: el ensayo corto y claro.",
+        "type": "n.m.",
+        "word": "ensayo"
+      },
+      {
+        "en": "nivola (Unamuno's open novel)",
+        "example": {
+          "en": "He invented the nivola.",
+          "es": "Inventó la nivola."
+        },
+        "note": "Not novela: character argues with the author.",
+        "type": "n.f.",
+        "word": "nivola"
+      },
+      {
+        "en": "fog, mist",
+        "example": {
+          "en": "There is mist in Salamanca.",
+          "es": "Hay niebla en Salamanca."
+        },
+        "note": "Title Niebla (1914). La niebla de la existencia.",
+        "type": "n.f.",
+        "word": "niebla"
+      },
+      {
+        "en": "character (fiction)",
+        "example": {
+          "en": "The character argues with the author.",
+          "es": "El personaje discute con el autor."
+        },
+        "note": "El personaje discute con el autor. Always masculine.",
+        "type": "n.m.",
+        "word": "personaje"
+      },
+      {
+        "en": "Europeanization",
+        "example": {
+          "en": "He defended the Europeanization of Spain.",
+          "es": "Defendió la europeización de España."
+        },
+        "note": "Europeizar → europeización. Feminine -ción.",
+        "type": "n.f.",
+        "word": "europeización"
+      },
+      {
+        "en": "to Europeanize",
+        "example": {
+          "en": "The country had to be Europeanized.",
+          "es": "Había que europeizar el país."
+        },
+        "note": "Había que europeizar el país.",
+        "type": "v.",
+        "word": "europeizar"
+      },
+      {
+        "en": "backwardness, lag",
+        "example": {
+          "en": "He wanted to pull the country out of backwardness.",
+          "es": "Quería sacar al país del atraso."
+        },
+        "note": "Sacarlo del atraso. Atrás → atraso.",
+        "type": "n.m.",
+        "word": "atraso"
+      },
+      {
+        "en": "mass, crowd",
+        "example": {
+          "en": "The mass does not hold dialogue.",
+          "es": "La masa no dialoga."
+        },
+        "note": "La rebelión de las masas. La masa no dialoga.",
+        "type": "n.f.",
+        "word": "masa"
+      },
+      {
+        "en": "mass-man",
+        "example": {
+          "en": "Mass-man only gives opinions.",
+          "es": "El hombre-masa solo opina."
+        },
+        "note": "Ortega's term: opina sin escuchar.",
+        "type": "n.m.",
+        "word": "hombre-masa"
+      },
+      {
+        "en": "minority",
+        "example": {
+          "en": "The minority proposes and creates.",
+          "es": "La minoría propone y crea."
+        },
+        "note": "La minoría selecta propone y crea. Opposite: mayoría.",
+        "type": "n.f.",
+        "word": "minoría"
+      },
+      {
+        "en": "rebellion, revolt",
+        "example": {
+          "en": "He wrote The Revolt of the Masses.",
+          "es": "Escribió La rebelión de las masas."
+        },
+        "note": "La rebelión de las masas (1930).",
+        "type": "n.f.",
+        "word": "rebelión"
+      },
+      {
+        "en": "meditation, reflection",
+        "example": {
+          "en": "He proposes meditation.",
+          "es": "Propone la meditación."
+        },
+        "note": "Meditaciones del Quijote. Meditar → meditación.",
+        "type": "n.f.",
+        "word": "meditación"
+      },
+      {
+        "en": "existence",
+        "example": {
+          "en": "The mist of existence.",
+          "es": "La niebla de la existencia."
+        },
+        "note": "La niebla de la existencia.",
+        "type": "n.f.",
+        "word": "existencia"
+      },
+      {
+        "en": "to modernize",
+        "example": {
+          "en": "They want to modernize Spain.",
+          "es": "Quieren modernizar España."
+        },
+        "note": "Modernizar sin perder el alma.",
+        "type": "v.",
+        "word": "modernizar"
+      },
+      {
+        "en": "to pose, to raise (a question)",
+        "example": {
+          "en": "He poses an inner struggle.",
+          "es": "Plantea una lucha interior."
+        },
+        "note": "Plantea una lucha interior.",
+        "type": "v.",
+        "word": "plantear"
+      },
+      {
+        "en": "to maintain, to hold (an opinion)",
+        "example": {
+          "en": "He maintains that reason and life must be joined.",
+          "es": "Sostiene que hay que unir razón y vida."
+        },
+        "note": "Sostiene que hay que unir razón y vida.",
+        "type": "v.",
+        "word": "sostener"
+      },
+      {
+        "en": "to affirm, to claim",
+        "example": {
+          "en": "He claims that mass-man does not listen.",
+          "es": "Afirma que el hombre-masa no escucha."
+        },
+        "note": "Afirma que el hombre-masa no escucha.",
+        "type": "v.",
+        "word": "afirmar"
+      },
+      {
+        "en": "vital, of life",
+        "example": {
+          "en": "He calls it vital reason.",
+          "es": "Lo llama razón vital."
+        },
+        "note": "La razón vital: reason joined to life.",
+        "type": "adj.",
+        "word": "vital"
+      },
+      {
+        "en": "to save",
+        "example": {
+          "en": "You must save your circumstance.",
+          "es": "Debes salvar tu circunstancia."
+        },
+        "note": "Si no la salvo a ella no me salvo yo.",
+        "type": "v.",
+        "word": "salvar"
+      },
+      {
+        "en": "on the other hand, whereas",
+        "example": {
+          "en": "Ortega, on the other hand, thought from Madrid.",
+          "es": "Ortega, en cambio, pensó desde Madrid."
+        },
+        "note": "Unamuno mira a Salamanca; Ortega, en cambio, a Madrid.",
+        "type": "phr.",
+        "word": "en cambio"
+      },
+      {
+        "en": "that is to say, i.e.",
+        "example": {
+          "en": "Intrahistory, that is to say, everyday life.",
+          "es": "La intrahistoria, es decir, la vida cotidiana."
+        },
+        "note": "Clarifies: la intrahistoria, es decir, la vida cotidiana.",
+        "type": "phr.",
+        "word": "es decir"
+      },
+      {
+        "en": "on the contrary",
+        "example": {
+          "en": "Nobody sees it complete alone; on the contrary, each one sees a part.",
+          "es": "Nadie la ve completa solo; por el contrario, cada uno ve una parte."
+        },
+        "note": "Stronger than en cambio: the opposite is true.",
+        "type": "phr.",
+        "word": "por el contrario"
+      },
+      {
+        "en": "deep down, fundamentally",
+        "example": {
+          "en": "Deep down, they want the same thing.",
+          "es": "En el fondo, quieren lo mismo."
+        },
+        "note": "En el fondo, quieren lo mismo.",
+        "type": "phr.",
+        "word": "en el fondo"
+      },
+      {
+        "en": "whereas, while",
+        "example": {
+          "en": "The mass gives opinions, whereas the minority creates.",
+          "es": "La masa opina, mientras que la minoría crea."
+        },
+        "note": "La masa opina, mientras que la minoría crea.",
+        "type": "conj.",
+        "word": "mientras que"
+      },
+      {
+        "en": "full professor, chair holder",
+        "example": {
+          "en": "He was a full professor in Salamanca.",
+          "es": "Era catedrático en Salamanca."
+        },
+        "ext": true,
+        "note": "Unamuno era catedrático en Salamanca.",
+        "type": "n.m./f.",
+        "word": "catedrático"
+      },
+      {
+        "en": "faculty council; cloister",
+        "example": {
+          "en": "The faculty council argued with the rector.",
+          "es": "El claustro discutió con el rector."
+        },
+        "ext": true,
+        "note": "El claustro discutió con el rector.",
+        "type": "n.m.",
+        "word": "claustro"
+      },
+      {
+        "en": "traditionalism, purism (Spanishness)",
+        "example": {
+          "en": "He wrote On Traditionalism.",
+          "es": "Escribió En torno al casticismo."
+        },
+        "ext": true,
+        "note": "De su libro En torno al casticismo.",
+        "type": "n.m.",
+        "word": "casticismo"
+      },
+      {
+        "en": "dehumanization",
+        "example": {
+          "en": "He wrote The Dehumanization of Art.",
+          "es": "Escribió La deshumanización del arte."
+        },
+        "ext": true,
+        "note": "De La deshumanización del arte, de Ortega.",
+        "type": "n.f.",
+        "word": "deshumanización"
+      }
+    ]
+  },
+  {
+    "lesson": 68,
+    "title": "Latin American thought: Mariátegui, liberation philosophy, dependency theory",
+    "words": [
+      {
+        "en": "to exploit",
+        "example": {
+          "en": "They exploit the peasants.",
+          "es": "Explotan a los campesinos."
+        },
+        "note": "Explotan a los campesinos. Explotar → explotación.",
+        "type": "v.",
+        "word": "explotar"
+      },
+      {
+        "en": "exploitation",
+        "example": {
+          "en": "The exploitation of the peasants.",
+          "es": "La explotación de los campesinos."
+        },
+        "note": "La explotación de los campesinos. Pattern: la … de.",
+        "type": "n.f.",
+        "word": "explotación"
+      },
+      {
+        "en": "dependence, dependency",
+        "example": {
+          "en": "Dependence is not an accident.",
+          "es": "La dependencia no es un accidente."
+        },
+        "note": "La dependencia de la periferia. Theory name.",
+        "type": "n.f.",
+        "word": "dependencia"
+      },
+      {
+        "en": "dependent",
+        "example": {
+          "en": "The country becomes more dependent.",
+          "es": "El país se hace más dependiente."
+        },
+        "note": "Un país dependiente. Depender → dependiente.",
+        "type": "adj.",
+        "word": "dependiente"
+      },
+      {
+        "en": "liberation",
+        "example": {
+          "en": "The liberation of the poor.",
+          "es": "La liberación de los pobres."
+        },
+        "note": "La liberación de los oprimidos. Liberar → liberación.",
+        "type": "n.f.",
+        "word": "liberación"
+      },
+      {
+        "en": "to liberate, to free",
+        "example": {
+          "en": "He wants to liberate the oppressed person.",
+          "es": "Quiere liberar al oprimido."
+        },
+        "note": "Quiere liberar al oprimido.",
+        "type": "v.",
+        "word": "liberar"
+      },
+      {
+        "en": "oppressed (person)",
+        "example": {
+          "en": "He wants to free the oppressed person.",
+          "es": "Quiere liberar al oprimido."
+        },
+        "note": "Liberar al oprimido. Oprimir → oprimido.",
+        "type": "adj./n.m.",
+        "word": "oprimido"
+      },
+      {
+        "en": "oppression",
+        "example": {
+          "en": "Oppression begins when I do not listen.",
+          "es": "La opresión empieza cuando no escucho."
+        },
+        "note": "La opresión empieza cuando no escucho.",
+        "type": "n.f.",
+        "word": "opresión"
+      },
+      {
+        "en": "large estate",
+        "example": {
+          "en": "They work on the large estate.",
+          "es": "Trabajan en el latifundio."
+        },
+        "note": "Los campesinos en el latifundio. Mariátegui's key word.",
+        "type": "n.m.",
+        "word": "latifundio"
+      },
+      {
+        "en": "landowner",
+        "example": {
+          "en": "The landowner holds the land.",
+          "es": "El terrateniente tiene la tierra."
+        },
+        "note": "El terrateniente tiene la tierra.",
+        "type": "n.m./f.",
+        "word": "terrateniente"
+      },
+      {
+        "en": "peasant, farmer",
+        "example": {
+          "en": "The peasant works a lot.",
+          "es": "El campesino trabaja mucho."
+        },
+        "note": "El campesino indígena. Campo → campesino.",
+        "type": "n.m.",
+        "word": "campesino"
+      },
+      {
+        "en": "indigenous; indigenous person",
+        "example": {
+          "en": "The problem of the indigenous person is land.",
+          "es": "El problema del indígena es la tierra."
+        },
+        "note": "El problema del indígena es la tierra.",
+        "type": "adj./n.m./f.",
+        "word": "indígena"
+      },
+      {
+        "en": "indigenismo (pro-indigenous movement)",
+        "example": {
+          "en": "His defence is called indigenismo.",
+          "es": "Su defensa se llama indigenismo."
+        },
+        "note": "Defence of indigenous people. -ismo = masculine.",
+        "type": "n.m.",
+        "word": "indigenismo"
+      },
+      {
+        "en": "local boss, cacique (Andes)",
+        "example": {
+          "en": "The local boss controls labour.",
+          "es": "El gamonal controla el trabajo."
+        },
+        "note": "El gamonal controla el trabajo. Mariátegui's Peru.",
+        "type": "n.m.",
+        "word": "gamonal"
+      },
+      {
+        "en": "land",
+        "example": {
+          "en": "Giving the land to whoever works it.",
+          "es": "Dar la tierra a quien la trabaja."
+        },
+        "note": "Dar la tierra a quien la trabaja.",
+        "type": "n.f.",
+        "word": "tierra"
+      },
+      {
+        "en": "reform",
+        "example": {
+          "en": "He calls for an agrarian reform.",
+          "es": "Pide una reforma agraria."
+        },
+        "note": "La reforma agraria. Reformar → reforma.",
+        "type": "n.f.",
+        "word": "reforma"
+      },
+      {
+        "en": "agrarian, agricultural",
+        "example": {
+          "en": "Agrarian politics changed.",
+          "es": "La política agraria cambió."
+        },
+        "note": "La reforma agraria. El problema agrario.",
+        "type": "adj.",
+        "word": "agrario"
+      },
+      {
+        "en": "centre (economic)",
+        "example": {
+          "en": "The centre sells expensive products.",
+          "es": "El centro vende productos caros."
+        },
+        "note": "El centro vende productos industrializados.",
+        "type": "n.m.",
+        "word": "centro"
+      },
+      {
+        "en": "periphery",
+        "example": {
+          "en": "The periphery sells raw materials.",
+          "es": "La periferia vende materia prima."
+        },
+        "note": "La periferia vende materia prima. Centro–periferia.",
+        "type": "n.f.",
+        "word": "periferia"
+      },
+      {
+        "en": "peripheral",
+        "example": {
+          "en": "The peripheral country needs credit.",
+          "es": "El país periférico necesita crédito."
+        },
+        "note": "El país periférico. Periferia → periférico.",
+        "type": "adj.",
+        "word": "periférico"
+      },
+      {
+        "en": "exchange",
+        "example": {
+          "en": "The unequal exchange.",
+          "es": "El intercambio desigual."
+        },
+        "note": "El intercambio desigual.",
+        "type": "n.m.",
+        "word": "intercambio"
+      },
+      {
+        "en": "unequal",
+        "example": {
+          "en": "It is an unequal system.",
+          "es": "Es un sistema desigual."
+        },
+        "note": "El intercambio desigual. Igual → des-igual.",
+        "type": "adj.",
+        "word": "desigual"
+      },
+      {
+        "en": "inequality",
+        "example": {
+          "en": "Inequality produces dependence.",
+          "es": "La desigualdad produce dependencia."
+        },
+        "note": "La desigualdad produce más dependencia.",
+        "type": "n.f.",
+        "word": "desigualdad"
+      },
+      {
+        "en": "deterioration",
+        "example": {
+          "en": "The deterioration of exchange.",
+          "es": "El deterioro del intercambio."
+        },
+        "note": "El deterioro del intercambio.",
+        "type": "n.m.",
+        "word": "deterioro"
+      },
+      {
+        "en": "raw material",
+        "example": {
+          "en": "They sell raw materials.",
+          "es": "Venden materia prima."
+        },
+        "note": "La periferia vende materia prima. Fixed collocation.",
+        "type": "phr.",
+        "word": "materia prima"
+      },
+      {
+        "en": "industrialized",
+        "example": {
+          "en": "It sells industrialized products.",
+          "es": "Vende productos industrializados."
+        },
+        "note": "Productos industrializados.",
+        "type": "adj.",
+        "word": "industrializado"
+      },
+      {
+        "en": "debt",
+        "example": {
+          "en": "It needs credit and debt.",
+          "es": "Necesita crédito y deuda."
+        },
+        "note": "Necesita crédito y deuda. La deuda externa.",
+        "type": "n.f.",
+        "word": "deuda"
+      },
+      {
+        "en": "the Other (philosophy)",
+        "example": {
+          "en": "He takes the Other into account.",
+          "es": "Tiene en cuenta a el otro."
+        },
+        "note": "Dussel: el pobre, la mujer, el pueblo olvidado.",
+        "type": "phr.",
+        "word": "el otro"
+      },
+      {
+        "en": "otherness, alterity",
+        "example": {
+          "en": "Alterity: the other speaks to me.",
+          "es": "La alteridad: el otro me habla."
+        },
+        "note": "El otro no es un objeto. Otro → alteridad (formal).",
+        "type": "n.f.",
+        "word": "alteridad"
+      },
+      {
+        "en": "consciousness, conscience",
+        "example": {
+          "en": "Liberation begins with consciousness.",
+          "es": "La liberación empieza por la conciencia."
+        },
+        "note": "Entender la injusticia. Tomar conciencia de algo.",
+        "type": "n.f.",
+        "word": "conciencia"
+      },
+      {
+        "en": "awareness-raising, conscientization",
+        "example": {
+          "en": "It calls for consciousness and awareness-raising.",
+          "es": "Pide conciencia y concientización."
+        },
+        "note": "LatAm: concientización; Spain often concienciación.",
+        "type": "n.f.",
+        "word": "concientización"
+      },
+      {
+        "en": "commitment",
+        "example": {
+          "en": "This philosophy calls for commitment.",
+          "es": "Esta filosofía pide compromiso."
+        },
+        "note": "Pide compromiso y praxis. Compromiso social.",
+        "type": "n.m.",
+        "word": "compromiso"
+      },
+      {
+        "en": "praxis, committed practice",
+        "example": {
+          "en": "It calls for commitment and praxis.",
+          "es": "Pide compromiso y praxis."
+        },
+        "note": "Pensar desde la vida real. Feminine despite -xis.",
+        "type": "n.f.",
+        "word": "praxis"
+      },
+      {
+        "en": "due to, owing to",
+        "example": {
+          "en": "Owing to this system, he receives little.",
+          "es": "Debido a este sistema, recibe poco."
+        },
+        "note": "Debido a + noun: debido a este sistema.",
+        "type": "phr.",
+        "word": "debido a"
+      },
+      {
+        "en": "consequently",
+        "example": {
+          "en": "Consequently, he calls for a reform.",
+          "es": "Por consiguiente, pide una reforma."
+        },
+        "note": "Gives the result. Same as por tanto, more formal.",
+        "type": "phr.",
+        "word": "por consiguiente"
+      },
+      {
+        "en": "therefore",
+        "example": {
+          "en": "Therefore, the country becomes dependent.",
+          "es": "Por tanto, el país se hace dependiente."
+        },
+        "note": "Shorter and most common. Por tanto, el país…",
+        "type": "phr.",
+        "word": "por tanto"
+      },
+      {
+        "en": "as a result, accordingly",
+        "example": {
+          "en": "As a result, dependence is not an accident.",
+          "es": "En consecuencia, la dependencia no es un accidente."
+        },
+        "note": "Most formal of the three.",
+        "type": "phr.",
+        "word": "en consecuencia"
+      },
+      {
+        "en": "starting from, based on",
+        "example": {
+          "en": "He thinks starting from real life.",
+          "es": "Piensa a partir de la vida real."
+        },
+        "note": "Pensar a partir de la vida real.",
+        "type": "phr.",
+        "word": "a partir de"
+      },
+      {
+        "en": "as for, regarding",
+        "example": {
+          "en": "As for land, it is the central problem.",
+          "es": "En cuanto a la tierra, es el problema central."
+        },
+        "note": "En cuanto a la tierra: about land.",
+        "type": "phr.",
+        "word": "en cuanto a"
+      },
+      {
+        "en": "to take into account",
+        "example": {
+          "en": "He takes the Other into account.",
+          "es": "Tiene en cuenta a el otro."
+        },
+        "note": "Tiene en cuenta a el otro.",
+        "type": "phr.",
+        "word": "tener en cuenta"
+      },
+      {
+        "en": "feudal character, feudalism",
+        "example": {
+          "en": "There are feudal traits.",
+          "es": "Hay rasgos de feudalidad."
+        },
+        "ext": true,
+        "note": "Mariátegui: rasgos de feudalidad en el latifundio.",
+        "type": "n.f.",
+        "word": "feudalidad"
+      },
+      {
+        "en": "imperialism",
+        "example": {
+          "en": "He criticizes imperialism.",
+          "es": "Critica el imperialismo."
+        },
+        "ext": true,
+        "note": "El imperialismo compra barato y vende caro.",
+        "type": "n.m.",
+        "word": "imperialismo"
+      },
+      {
+        "en": "theology",
+        "example": {
+          "en": "Liberation theology.",
+          "es": "La teología de la liberación."
+        },
+        "ext": true,
+        "note": "La teología de la liberación, cercana a Dussel.",
+        "type": "n.f.",
+        "word": "teología"
+      },
+      {
+        "en": "structuralism",
+        "example": {
+          "en": "Dependence looks at structures.",
+          "es": "La dependencia mira estructuras."
+        },
+        "ext": true,
+        "note": "La dependencia mira estructuras, no solo personas.",
+        "type": "n.m.",
+        "word": "estructuralismo"
+      }
+    ]
+  },
+  {
+    "lesson": 69,
+    "title": "Religion, race & mestizaje",
+    "words": [
+      {
+        "word": "mestizo",
+        "type": "adj./n.m.",
+        "en": "mestizo, mixed (Spanish + indigenous)",
+        "note": "Colonial label; today often identity word.",
+        "example": {
+          "es": "Era hijo de español e indígena: mestizo.",
+          "en": "He was the son of a Spaniard and an indigenous woman: mestizo."
+        }
+      },
+      {
+        "word": "mestizaje",
+        "type": "n.m.",
+        "en": "mixing, miscegenation",
+        "note": "Central idea; debated today.",
+        "example": {
+          "es": "El mestizaje puede invisibilizar.",
+          "en": "Mestizaje can make people invisible."
+        }
+      },
+      {
+        "word": "mezclar",
+        "type": "v.",
+        "en": "to mix",
+        "note": "La fe se mezcló con otra devoción.",
+        "example": {
+          "es": "La fe se mezcló con otra devoción.",
+          "en": "Faith mixed with another devotion."
+        }
+      },
+      {
+        "word": "mezcla",
+        "type": "n.f.",
+        "en": "mixture, blend",
+        "note": "Mezcla cultural y religiosa.",
+        "example": {
+          "es": "Es símbolo de mezcla cultural.",
+          "en": "It is a symbol of cultural mixture."
+        }
+      },
+      {
+        "word": "criollo",
+        "type": "adj./n.m.",
+        "en": "creole (American-born Spaniard)",
+        "note": "Colonial caste; also cocina criolla.",
+        "example": {
+          "es": "Un criollo era hijo de españoles.",
+          "en": "A criollo was a child of Spaniards."
+        }
+      },
+      {
+        "word": "casta",
+        "type": "n.f.",
+        "en": "caste",
+        "note": "El sistema de castas del virreinato.",
+        "example": {
+          "es": "El sistema de castas creó etiquetas.",
+          "en": "The caste system created labels."
+        }
+      },
+      {
+        "word": "sincretismo",
+        "type": "n.m.",
+        "en": "syncretism",
+        "note": "Mezcla de religiones.",
+        "example": {
+          "es": "Hablan de sincretismo religioso.",
+          "en": "They speak of religious syncretism."
+        }
+      },
+      {
+        "word": "devoción",
+        "type": "n.f.",
+        "en": "devotion",
+        "note": "Tener devoción a la Virgen.",
+        "example": {
+          "es": "Tiene gran devoción a la Virgen.",
+          "en": "She has great devotion to the Virgin."
+        }
+      },
+      {
+        "word": "raza",
+        "type": "n.f.",
+        "en": "race",
+        "note": "La raza cósmica de Vasconcelos.",
+        "example": {
+          "es": "Escribió sobre la raza futura.",
+          "en": "He wrote about the future race."
+        }
+      },
+      {
+        "word": "creencia",
+        "type": "n.f.",
+        "en": "belief",
+        "note": "Según la creencia popular.",
+        "example": {
+          "es": "Según la creencia, quedó pintada.",
+          "en": "According to belief, it remained painted."
+        }
+      },
+      {
+        "word": "creyente",
+        "type": "n.m./f.",
+        "en": "believer",
+        "note": "Los creyentes caminan al Tepeyac.",
+        "example": {
+          "es": "Millones de creyentes caminan allí.",
+          "en": "Millions of believers walk there."
+        }
+      },
+      {
+        "word": "culto",
+        "type": "n.m.",
+        "en": "worship, cult",
+        "note": "El culto a la Virgen.",
+        "example": {
+          "es": "Guardaban su propio culto.",
+          "en": "They kept their own worship."
+        }
+      },
+      {
+        "word": "evangelizar",
+        "type": "v.",
+        "en": "to evangelize",
+        "note": "Los frailes querían evangelizar.",
+        "example": {
+          "es": "Querían evangelizar a todos.",
+          "en": "They wanted to evangelize everyone."
+        }
+      },
+      {
+        "word": "virgen",
+        "type": "n.f.",
+        "en": "virgin (Virgin Mary)",
+        "note": "La Virgen morena.",
+        "example": {
+          "es": "Caminan a la Virgen de Guadalupe.",
+          "en": "They walk to the Virgin of Guadalupe."
+        }
+      },
+      {
+        "word": "aparición",
+        "type": "n.f.",
+        "en": "apparition",
+        "note": "Una aparición en 1531.",
+        "example": {
+          "es": "Hablan de una aparición en 1531.",
+          "en": "They tell of an apparition in 1531."
+        }
+      },
+      {
+        "word": "peregrinación",
+        "type": "n.f.",
+        "en": "pilgrimage",
+        "note": "Cada peregrinación es memoria.",
+        "example": {
+          "es": "Cada peregrinación recuerda la memoria.",
+          "en": "Each pilgrimage recalls memory."
+        }
+      },
+      {
+        "word": "basílica",
+        "type": "n.f.",
+        "en": "basilica",
+        "note": "La basílica en México.",
+        "example": {
+          "es": "Caminan a la basílica.",
+          "en": "They walk to the basilica."
+        }
+      },
+      {
+        "word": "manto",
+        "type": "n.m.",
+        "en": "cloak, mantle",
+        "note": "Pintada en su manto humilde.",
+        "example": {
+          "es": "Quedó pintada en su manto.",
+          "en": "It remained painted on his cloak."
+        }
+      },
+      {
+        "word": "cofradía",
+        "type": "n.f.",
+        "en": "brotherhood (religious)",
+        "note": "Cofradías negras en la colonia.",
+        "example": {
+          "es": "Crearon cofradías para ayudarse.",
+          "en": "They created brotherhoods to help each other."
+        }
+      },
+      {
+        "word": "indígena",
+        "type": "adj./n.m./f.",
+        "en": "indigenous",
+        "note": "Respectful term today.",
+        "example": {
+          "es": "Juan Diego era indígena.",
+          "en": "Juan Diego was indigenous."
+        }
+      },
+      {
+        "word": "afrodescendiente",
+        "type": "adj./n.m./f.",
+        "en": "Afro-descendant",
+        "note": "Respectful term today.",
+        "example": {
+          "es": "Los activistas afrodescendientes denuncian.",
+          "en": "Afro-descendant activists denounce."
+        }
+      },
+      {
+        "word": "esclavitud",
+        "type": "n.f.",
+        "en": "slavery",
+        "note": "Marcados por la esclavitud.",
+        "example": {
+          "es": "Pese a la esclavitud, guardaron memoria.",
+          "en": "Despite slavery, they kept memory."
+        }
+      },
+      {
+        "word": "colonial",
+        "type": "adj.",
+        "en": "colonial",
+        "note": "En la época colonial.",
+        "example": {
+          "es": "Era hijo en la época colonial.",
+          "en": "He was a son in the colonial period."
+        }
+      },
+      {
+        "word": "virreinato",
+        "type": "n.m.",
+        "en": "viceroyalty",
+        "note": "El virreinato de Nueva España.",
+        "example": {
+          "es": "El virreinato creó muchas etiquetas.",
+          "en": "The viceroyalty created many labels."
+        }
+      },
+      {
+        "word": "lienzo",
+        "type": "n.m.",
+        "en": "canvas",
+        "note": "Lienzos de castas del siglo XVIII.",
+        "example": {
+          "es": "Mira este lienzo de castas.",
+          "en": "Look at this casta canvas."
+        }
+      },
+      {
+        "word": "jerarquía",
+        "type": "n.f.",
+        "en": "hierarchy",
+        "note": "Su lugar en la jerarquía.",
+        "example": {
+          "es": "Enseñaban jerarquía social.",
+          "en": "They taught social hierarchy."
+        }
+      },
+      {
+        "word": "pureza",
+        "type": "n.f.",
+        "en": "purity",
+        "note": "Pureza de sangre: old idea.",
+        "example": {
+          "es": "Enseñaban pureza y obediencia.",
+          "en": "They taught purity and obedience."
+        }
+      },
+      {
+        "word": "blanqueamiento",
+        "type": "n.m.",
+        "en": "whitening (ideology)",
+        "note": "Soñaba con blanqueamiento.",
+        "example": {
+          "es": "Soñaba con blanqueamiento racial.",
+          "en": "He dreamed of racial whitening."
+        }
+      },
+      {
+        "word": "cósmico",
+        "type": "adj.",
+        "en": "cosmic",
+        "note": "La raza cósmica (1925).",
+        "example": {
+          "es": "La raza futura sería cósmica.",
+          "en": "The future race would be cosmic."
+        }
+      },
+      {
+        "word": "ensayo",
+        "type": "n.m.",
+        "en": "essay",
+        "note": "Su ensayo La raza cósmica.",
+        "example": {
+          "es": "Celebró la mezcla en su ensayo.",
+          "en": "He celebrated mixture in his essay."
+        }
+      },
+      {
+        "word": "invisibilizar",
+        "type": "v.",
+        "en": "to make invisible",
+        "note": "El mestizaje los invisibiliza.",
+        "example": {
+          "es": "El mestizaje los invisibiliza.",
+          "en": "Mestizaje makes them invisible."
+        }
+      },
+      {
+        "word": "reivindicar",
+        "type": "v.",
+        "en": "to reclaim, to vindicate",
+        "note": "Reivindican su lengua.",
+        "example": {
+          "es": "Reivindican su lengua y su historia.",
+          "en": "They reclaim their language and history."
+        }
+      },
+      {
+        "word": "orgullo",
+        "type": "n.m.",
+        "en": "pride",
+        "note": "Movimiento de orgullo.",
+        "example": {
+          "es": "Crece un movimiento de orgullo.",
+          "en": "A pride movement is growing."
+        }
+      },
+      {
+        "word": "identidad",
+        "type": "n.f.",
+        "en": "identity",
+        "note": "Símbolo de identidad mexicana.",
+        "example": {
+          "es": "Es símbolo de identidad.",
+          "en": "It is a symbol of identity."
+        }
+      },
+      {
+        "word": "diversidad",
+        "type": "n.f.",
+        "en": "diversity",
+        "note": "La diversidad de América.",
+        "example": {
+          "es": "¿Quién cabe en la diversidad?",
+          "en": "Who fits into diversity?"
+        }
+      },
+      {
+        "word": "racismo",
+        "type": "n.m.",
+        "en": "racism",
+        "note": "Puede esconder el racismo.",
+        "example": {
+          "es": "Puede esconder el racismo diario.",
+          "en": "It can hide daily racism."
+        }
+      },
+      {
+        "word": "discriminar",
+        "type": "v.",
+        "en": "to discriminate",
+        "note": "Discriminar por color o lengua.",
+        "example": {
+          "es": "Niegan sus raíces y discriminan.",
+          "en": "They deny their roots and discriminate."
+        }
+      },
+      {
+        "word": "cruzarse",
+        "type": "v.",
+        "en": "to embrace, to meet (fig.)",
+        "note": "Se cruzan con la Virgen.",
+        "example": {
+          "es": "Se cruzan con la Virgen morena.",
+          "en": "They embrace the dark Virgin."
+        }
+      },
+      {
+        "word": "mulato",
+        "type": "adj./n.m.",
+        "en": "mulatto (historical)",
+        "note": "Historical label; quote only.",
+        "example": {
+          "es": "Aquí dice «mulato»: era etiqueta oficial.",
+          "en": "Here it says mulatto: it was an official label."
+        }
+      },
+      {
+        "word": "aunque",
+        "type": "conj.",
+        "en": "although, even if",
+        "note": "Aunque + indic./subj.",
+        "example": {
+          "es": "Aunque su idea sonaba generosa, la critican.",
+          "en": "Although his idea sounded generous, they criticize it."
+        }
+      },
+      {
+        "word": "a pesar de",
+        "type": "phr.",
+        "en": "despite, in spite of",
+        "note": "A pesar de + noun/infinitive.",
+        "example": {
+          "es": "A pesar de hablar de unión, despreciaba.",
+          "en": "Despite speaking of unity, he looked down."
+        }
+      },
+      {
+        "word": "pese a",
+        "type": "phr.",
+        "en": "despite",
+        "note": "Pese a + noun/infinitive; formal.",
+        "example": {
+          "es": "Pese a celebrar al mestizo, dejaba fuera.",
+          "en": "Despite celebrating the mestizo, he left out."
+        }
+      },
+      {
+        "word": "si bien",
+        "type": "conj.",
+        "en": "although (formal)",
+        "note": "Formal writing.",
+        "example": {
+          "es": "Si bien parecen inocentes, enseñaban jerarquía.",
+          "en": "Although they look innocent, they taught hierarchy."
+        }
+      },
+      {
+        "word": "Tonantzin",
+        "type": "n.f.",
+        "en": "Tonantzin (Mexica mother goddess)",
+        "note": "Diosa madre del Tepeyac.",
+        "ext": true,
+        "example": {
+          "es": "Allí se adoraba a Tonantzin.",
+          "en": "Tonantzin was worshipped there."
+        }
+      },
+      {
+        "word": "milagro",
+        "type": "n.m.",
+        "en": "miracle",
+        "note": "Cada milagro pedido.",
+        "ext": true,
+        "example": {
+          "es": "Cada milagro pedido ante el altar.",
+          "en": "Each miracle requested before the altar."
+        }
+      },
+      {
+        "word": "altar",
+        "type": "n.m.",
+        "en": "altar",
+        "note": "Ante el altar.",
+        "ext": true,
+        "example": {
+          "es": "Piden ante el altar.",
+          "en": "They request before the altar."
+        }
+      },
+      {
+        "word": "procesión",
+        "type": "n.f.",
+        "en": "procession",
+        "note": "La procesión avanza de noche.",
+        "ext": true,
+        "example": {
+          "es": "La procesión avanza de noche.",
+          "en": "The procession moves at night."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 70,
+    "title": "Language & identity: Spanglish, indigenous languages, language politics",
+    "words": [
+      {
+        "word": "préstamo",
+        "type": "n.m.",
+        "en": "loanword",
+        "note": "Palabra tomada: troca de truck.",
+        "example": {
+          "es": "Son préstamos del inglés.",
+          "en": "They are loans from English."
+        }
+      },
+      {
+        "word": "bilingüismo",
+        "type": "n.m.",
+        "en": "bilingualism",
+        "note": "Cotidiano en Paraguay.",
+        "example": {
+          "es": "El bilingüismo es cotidiano allí.",
+          "en": "Bilingualism is everyday there."
+        }
+      },
+      {
+        "word": "bilingüe",
+        "type": "adj.",
+        "en": "bilingual",
+        "note": "La mayoría es bilingüe.",
+        "example": {
+          "es": "La mayoría es bilingüe.",
+          "en": "Most people are bilingual."
+        }
+      },
+      {
+        "word": "diglosia",
+        "type": "n.f.",
+        "en": "diglossia",
+        "note": "(advanced) Dos lenguas, prestigio desigual.",
+        "example": {
+          "es": "Los lingüistas lo llaman diglosia.",
+          "en": "Linguists call it diglossia."
+        }
+      },
+      {
+        "word": "prestigio",
+        "type": "n.m.",
+        "en": "prestige",
+        "note": "El español conserva más prestigio.",
+        "example": {
+          "es": "El español conserva más prestigio.",
+          "en": "Spanish keeps more prestige."
+        }
+      },
+      {
+        "word": "prestigioso",
+        "type": "adj.",
+        "en": "prestigious",
+        "note": "Español prestigioso en la oficina.",
+        "example": {
+          "es": "Es la lengua prestigiosa en la oficina.",
+          "en": "It is the prestigious language at the office."
+        }
+      },
+      {
+        "word": "norma",
+        "type": "n.f.",
+        "en": "norm, standard",
+        "note": "La norma de la RAE.",
+        "example": {
+          "es": "La academia guarda la norma.",
+          "en": "The academy guards the norm."
+        }
+      },
+      {
+        "word": "lengua materna",
+        "type": "phr.",
+        "en": "mother tongue",
+        "note": "Para muchos es su lengua materna.",
+        "example": {
+          "es": "Es su lengua materna.",
+          "en": "It is their mother tongue."
+        }
+      },
+      {
+        "word": "hablante",
+        "type": "n.m./f.",
+        "en": "speaker",
+        "note": "Millones de hablantes.",
+        "example": {
+          "es": "Tiene millones de hablantes.",
+          "en": "It has millions of speakers."
+        }
+      },
+      {
+        "word": "quechua",
+        "type": "n.m.",
+        "en": "Quechua",
+        "note": "Lengua andina; Perú y Bolivia.",
+        "example": {
+          "es": "El quechua tiene millones de hablantes.",
+          "en": "Quechua has millions of speakers."
+        }
+      },
+      {
+        "word": "guaraní",
+        "type": "n.m.",
+        "en": "Guaraní",
+        "note": "Cooficial en Paraguay.",
+        "example": {
+          "es": "El guaraní es cooficial.",
+          "en": "Guaraní is co-official."
+        }
+      },
+      {
+        "word": "náhuatl",
+        "type": "n.m.",
+        "en": "Nahuatl",
+        "note": "Lengua de los mexicas.",
+        "example": {
+          "es": "El náhuatl sobrevive en México.",
+          "en": "Nahuatl survives in Mexico."
+        }
+      },
+      {
+        "word": "cooficial",
+        "type": "adj.",
+        "en": "co-official",
+        "note": "Junto al español.",
+        "example": {
+          "es": "Es lengua cooficial.",
+          "en": "It is a co-official language."
+        }
+      },
+      {
+        "word": "constitución",
+        "type": "n.f.",
+        "en": "constitution",
+        "note": "Declara dos lenguas.",
+        "example": {
+          "es": "Su constitución declara dos lenguas.",
+          "en": "Its constitution declares two languages."
+        }
+      },
+      {
+        "word": "alfabetizar",
+        "type": "v.",
+        "en": "to teach literacy",
+        "note": "Alfabetizar en guaraní.",
+        "example": {
+          "es": "Quiero alfabetizar en guaraní.",
+          "en": "I want to teach literacy in Guaraní."
+        }
+      },
+      {
+        "word": "prohibir",
+        "type": "v.",
+        "en": "to forbid",
+        "note": "Se prohibió en la escuela.",
+        "example": {
+          "es": "Se prohibió hablar la lengua.",
+          "en": "Speaking the language was forbidden."
+        }
+      },
+      {
+        "word": "castigo",
+        "type": "n.m.",
+        "en": "punishment",
+        "note": "Con castigo físico.",
+        "example": {
+          "es": "Había castigo físico.",
+          "en": "There was physical punishment."
+        }
+      },
+      {
+        "word": "avergonzar",
+        "type": "v.",
+        "en": "to shame; to be ashamed",
+        "note": "Se avergüenzan de su lengua.",
+        "example": {
+          "es": "Se avergüenzan de su lengua.",
+          "en": "They are ashamed of their language."
+        }
+      },
+      {
+        "word": "espanglish",
+        "type": "n.m.",
+        "en": "Spanglish",
+        "note": "US border barrios.",
+        "example": {
+          "es": "El espanglish tiene reglas propias.",
+          "en": "Spanglish has its own rules."
+        }
+      },
+      {
+        "word": "fronterizo",
+        "type": "adj.",
+        "en": "border (adj.)",
+        "note": "Barrios fronterizos.",
+        "example": {
+          "es": "Viven en barrios fronterizos.",
+          "en": "They live in border neighbourhoods."
+        }
+      },
+      {
+        "word": "chicano",
+        "type": "adj./n.m.",
+        "en": "Chicano (Mexican-American)",
+        "note": "Identidad en EE. UU.",
+        "example": {
+          "es": "Es identidad chicana viva.",
+          "en": "It is living Chicano identity."
+        }
+      },
+      {
+        "word": "alternancia",
+        "type": "n.f.",
+        "en": "alternation, code-switching",
+        "note": "A mitad de frase.",
+        "example": {
+          "es": "Esa alternancia es normal.",
+          "en": "That alternation is normal."
+        }
+      },
+      {
+        "word": "anglicismo",
+        "type": "n.m.",
+        "en": "anglicism",
+        "note": "Del inglés: email, show.",
+        "example": {
+          "es": "Usan anglicismos directos.",
+          "en": "They use direct anglicisms."
+        }
+      },
+      {
+        "word": "calco",
+        "type": "n.m.",
+        "en": "calque (literal translation)",
+        "note": "Llamar para atrás.",
+        "example": {
+          "es": "Es un calco del inglés.",
+          "en": "It is a calque from English."
+        }
+      },
+      {
+        "word": "academia",
+        "type": "n.f.",
+        "en": "academy",
+        "note": "La academia y la norma.",
+        "example": {
+          "es": "La academia rechaza esas formas.",
+          "en": "The academy rejects those forms."
+        }
+      },
+      {
+        "word": "RAE",
+        "type": "n.f.",
+        "en": "RAE (Royal Spanish Academy)",
+        "note": "Real Academia Española.",
+        "example": {
+          "es": "La RAE guarda la norma.",
+          "en": "The RAE guards the norm."
+        }
+      },
+      {
+        "word": "pronombre",
+        "type": "n.m.",
+        "en": "pronoun",
+        "note": "El pronombre elle.",
+        "example": {
+          "es": "Proponen el pronombre elle.",
+          "en": "They propose the pronoun elle."
+        }
+      },
+      {
+        "word": "inclusivo",
+        "type": "adj.",
+        "en": "inclusive",
+        "note": "Lenguaje inclusivo.",
+        "example": {
+          "es": "Debaten el lenguaje inclusivo.",
+          "en": "They debate inclusive language."
+        }
+      },
+      {
+        "word": "proponer",
+        "type": "v.",
+        "en": "to propose",
+        "note": "Proponen todes y elle.",
+        "example": {
+          "es": "Proponen nuevas formas.",
+          "en": "They propose new forms."
+        }
+      },
+      {
+        "word": "polémica",
+        "type": "n.f.",
+        "en": "controversy",
+        "note": "Llena periódicos.",
+        "example": {
+          "es": "La polémica llena periódicos.",
+          "en": "The controversy fills newspapers."
+        }
+      },
+      {
+        "word": "debate",
+        "type": "n.m.",
+        "en": "debate",
+        "note": "Sigue abierto.",
+        "example": {
+          "es": "El debate sigue abierto.",
+          "en": "The debate remains open."
+        }
+      },
+      {
+        "word": "defender",
+        "type": "v.",
+        "en": "to defend",
+        "note": "Lo defienden como identidad.",
+        "example": {
+          "es": "Lo defienden como identidad viva.",
+          "en": "They defend it as living identity."
+        }
+      },
+      {
+        "word": "criticar",
+        "type": "v.",
+        "en": "to criticize",
+        "note": "Muchos lo critican.",
+        "example": {
+          "es": "Muchos lo critican.",
+          "en": "Many criticize it."
+        }
+      },
+      {
+        "word": "desde mi punto de vista",
+        "type": "phr.",
+        "en": "from my point of view",
+        "note": "Stance marker; needs desde.",
+        "example": {
+          "es": "Desde mi punto de vista, es una suerte.",
+          "en": "From my point of view, it is lucky."
+        }
+      },
+      {
+        "word": "en mi opinión",
+        "type": "phr.",
+        "en": "in my opinion",
+        "note": "Stance marker personal.",
+        "example": {
+          "es": "En mi opinión, es identidad viva.",
+          "en": "In my opinion, it is living identity."
+        }
+      },
+      {
+        "word": "cabe señalar que",
+        "type": "phr.",
+        "en": "it should be noted that",
+        "note": "Formal; + indicative.",
+        "example": {
+          "es": "Cabe señalar que tiene reglas propias.",
+          "en": "It should be noted that it has its own rules."
+        }
+      },
+      {
+        "word": "es innegable que",
+        "type": "phr.",
+        "en": "it is undeniable that",
+        "note": "Strong stance; + indicative.",
+        "example": {
+          "es": "Es innegable que el debate sigue.",
+          "en": "It is undeniable that the debate continues."
+        }
+      },
+      {
+        "word": "vitalidad",
+        "type": "n.f.",
+        "en": "vitality",
+        "note": "Fuerte vitalidad.",
+        "example": {
+          "es": "Tiene fuerte vitalidad.",
+          "en": "It has strong vitality."
+        }
+      },
+      {
+        "word": "transmitir",
+        "type": "v.",
+        "en": "to transmit, to pass on",
+        "note": "Transmitir la lengua.",
+        "example": {
+          "es": "Quieren transmitir la lengua.",
+          "en": "They want to pass on the language."
+        }
+      },
+      {
+        "word": "desplazamiento",
+        "type": "n.m.",
+        "en": "displacement (language loss)",
+        "note": "En la ciudad.",
+        "example": {
+          "es": "Pero el desplazamiento sigue.",
+          "en": "But displacement continues."
+        }
+      },
+      {
+        "word": "revitalizar",
+        "type": "v.",
+        "en": "to revitalize",
+        "note": "Revitalizar la lengua.",
+        "example": {
+          "es": "Quieren revitalizar la lengua.",
+          "en": "They want to revitalize the language."
+        }
+      },
+      {
+        "word": "inmigrante",
+        "type": "n.m./f.",
+        "en": "immigrant",
+        "note": "En Texas.",
+        "example": {
+          "es": "Dice un inmigrante en Texas.",
+          "en": "Says an immigrant in Texas."
+        }
+      },
+      {
+        "word": "barrio",
+        "type": "n.m.",
+        "en": "neighbourhood",
+        "note": "Barrios fronterizos.",
+        "example": {
+          "es": "El debate sigue en el barrio.",
+          "en": "The debate continues in the neighbourhood."
+        }
+      },
+      {
+        "word": "jopara",
+        "type": "n.m.",
+        "en": "jopara (Guaraní-Spanish mix)",
+        "note": "Mezcla diaria en Paraguay.",
+        "ext": true,
+        "example": {
+          "es": "En la calle se escucha el jopara.",
+          "en": "Jopara is heard in the street."
+        }
+      },
+      {
+        "word": "mapudungun",
+        "type": "n.m.",
+        "en": "Mapudungun (Mapuche language)",
+        "note": "Chile y Argentina.",
+        "ext": true,
+        "example": {
+          "es": "Aprende mapudungun cada sábado.",
+          "en": "She learns Mapudungun every Saturday."
+        }
+      },
+      {
+        "word": "elle",
+        "type": "pron.",
+        "en": "elle (inclusive pronoun)",
+        "note": "No aceptado por la RAE.",
+        "ext": true,
+        "example": {
+          "es": "Proponen el pronombre elle.",
+          "en": "They propose the pronoun elle."
+        }
+      },
+      {
+        "word": "todes",
+        "type": "pron.",
+        "en": "todes (inclusive form)",
+        "note": "Todes vs todos.",
+        "ext": true,
+        "example": {
+          "es": "Proponen decir todes.",
+          "en": "They propose saying todes."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 71,
+    "title": "Art & aesthetics: from murals to the avant-garde",
+    "words": [
+      {
+        "word": "mural",
+        "type": "n.m./adj.",
+        "en": "mural",
+        "note": "Painting on a wall. El muralismo mexicano.",
+        "example": {
+          "es": "Siqueiros dio movimiento al mural.",
+          "en": "Siqueiros gave movement to the mural."
+        }
+      },
+      {
+        "word": "fresco",
+        "type": "n.m.",
+        "en": "fresco",
+        "note": "Technique on damp plaster. Pintar al fresco.",
+        "example": {
+          "es": "Rivera pintó al fresco.",
+          "en": "Rivera painted in fresco."
+        }
+      },
+      {
+        "word": "lienzo",
+        "type": "n.m.",
+        "en": "canvas",
+        "note": "El Guernica es un lienzo gigante.",
+        "example": {
+          "es": "Picasso respondió con un lienzo gigante.",
+          "en": "Picasso answered with a giant canvas."
+        }
+      },
+      {
+        "word": "trazo",
+        "type": "n.m.",
+        "en": "stroke, line",
+        "note": "Un trazo duro y trágico (Orozco).",
+        "example": {
+          "es": "Orozco trabajó con un trazo duro.",
+          "en": "Orozco worked with a hard line."
+        }
+      },
+      {
+        "word": "boceto",
+        "type": "n.m.",
+        "en": "sketch, draft",
+        "note": "El boceto prepara la obra final.",
+        "example": {
+          "es": "Preparaba cada boceto con cuidado.",
+          "en": "He prepared each sketch carefully."
+        }
+      },
+      {
+        "word": "exposición",
+        "type": "n.f.",
+        "en": "exhibition",
+        "note": "Una exposición en tres salas.",
+        "example": {
+          "es": "La exposición evoca a Picasso.",
+          "en": "The exhibition evokes Picasso."
+        }
+      },
+      {
+        "word": "comisario",
+        "type": "n.m./f.",
+        "en": "curator",
+        "note": "La comisaria organizó la muestra. Spain also: police chief.",
+        "example": {
+          "es": "La comisaria dice eso en el folleto.",
+          "en": "The curator says that in the leaflet."
+        }
+      },
+      {
+        "word": "comisariar",
+        "type": "v.",
+        "en": "to curate",
+        "note": "Formal, advanced. Everyday: organizar una exposición.",
+        "example": {
+          "es": "Comisarió la exposición en tres salas.",
+          "en": "She curated the exhibition in three rooms."
+        }
+      },
+      {
+        "word": "vanguardia",
+        "type": "n.f.",
+        "en": "avant-garde",
+        "note": "La vanguardia rompe las reglas.",
+        "example": {
+          "es": "Es vanguardia al servicio de la memoria.",
+          "en": "It is the avant-garde in the service of memory."
+        }
+      },
+      {
+        "word": "vanguardista",
+        "type": "adj.",
+        "en": "avant-garde",
+        "note": "Una obra vanguardista.",
+        "example": {
+          "es": "Es una obra vanguardista.",
+          "en": "It is an avant-garde work."
+        }
+      },
+      {
+        "word": "muralismo",
+        "type": "n.m.",
+        "en": "muralism",
+        "note": "Rivera, Orozco, Siqueiros.",
+        "example": {
+          "es": "Nació el muralismo.",
+          "en": "Muralism was born."
+        }
+      },
+      {
+        "word": "paleta",
+        "type": "n.f.",
+        "en": "palette",
+        "note": "Mezclar colores en la paleta.",
+        "example": {
+          "es": "Mezclaba los colores en su paleta.",
+          "en": "He mixed the colours on his palette."
+        }
+      },
+      {
+        "word": "caballete",
+        "type": "n.m.",
+        "en": "easel",
+        "note": "Del caballete al muro.",
+        "example": {
+          "es": "Del caballete al muro.",
+          "en": "From the easel to the wall."
+        }
+      },
+      {
+        "word": "andamio",
+        "type": "n.m.",
+        "en": "scaffold",
+        "note": "Pintar sobre andamios altísimos.",
+        "example": {
+          "es": "Pintó sobre andamios altísimos.",
+          "en": "He painted on very high scaffolds."
+        }
+      },
+      {
+        "word": "retratar",
+        "type": "v.",
+        "en": "to portray",
+        "note": "Retratan indígenas y obreros. Retratar a alguien.",
+        "example": {
+          "es": "Retratan obreros y conquistadores.",
+          "en": "They portray workers and conquerors."
+        }
+      },
+      {
+        "word": "retrato",
+        "type": "n.m.",
+        "en": "portrait",
+        "note": "Cada mueble es un retrato sin cara.",
+        "example": {
+          "es": "Cada mueble es un retrato sin cara.",
+          "en": "Each piece of furniture is a portrait without a face."
+        }
+      },
+      {
+        "word": "escala",
+        "type": "n.f.",
+        "en": "scale",
+        "note": "De escala monumental.",
+        "example": {
+          "es": "Sus figuras son de escala monumental.",
+          "en": "His figures are monumental in scale."
+        }
+      },
+      {
+        "word": "monumental",
+        "type": "adj.",
+        "en": "monumental",
+        "note": "Figuras monumentales.",
+        "example": {
+          "es": "Sus figuras son monumentales.",
+          "en": "His figures are monumental."
+        }
+      },
+      {
+        "word": "patrimonio",
+        "type": "n.m.",
+        "en": "heritage",
+        "note": "Patrimonio de todos.",
+        "example": {
+          "es": "Forma parte del patrimonio de todos.",
+          "en": "It is part of everyone's heritage."
+        }
+      },
+      {
+        "word": "legado",
+        "type": "n.m.",
+        "en": "legacy",
+        "note": "El legado de los muralistas.",
+        "example": {
+          "es": "El arte deja un legado.",
+          "en": "Art leaves a legacy."
+        }
+      },
+      {
+        "word": "encargo",
+        "type": "n.m.",
+        "en": "commission",
+        "note": "El gobierno les dio un encargo.",
+        "example": {
+          "es": "Les dio un encargo enorme.",
+          "en": "It gave them an enormous commission."
+        }
+      },
+      {
+        "word": "perdurar",
+        "type": "v.",
+        "en": "to endure, to last",
+        "note": "La obra perdura cien años después.",
+        "example": {
+          "es": "En el fondo el dibujo perdura.",
+          "en": "Deep down the drawing endures."
+        }
+      },
+      {
+        "word": "contemplar",
+        "type": "v.",
+        "en": "to contemplate, to gaze at",
+        "note": "Contemplar en silencio.",
+        "example": {
+          "es": "Lo contemplan en silencio.",
+          "en": "They contemplate it in silence."
+        }
+      },
+      {
+        "word": "espectador",
+        "type": "n.m./f.",
+        "en": "viewer, spectator",
+        "note": "Miles de espectadores.",
+        "example": {
+          "es": "Miles de espectadores lo contemplan.",
+          "en": "Thousands of viewers contemplate it."
+        }
+      },
+      {
+        "word": "representar",
+        "type": "v.",
+        "en": "to depict, to represent",
+        "note": "Representa el bombardeo. No a for things.",
+        "example": {
+          "es": "El cuadro representa un hecho real.",
+          "en": "The painting depicts a real event."
+        }
+      },
+      {
+        "word": "simbolizar",
+        "type": "v.",
+        "en": "to symbolize",
+        "note": "El toro simboliza la brutalidad.",
+        "example": {
+          "es": "Cada figura simboliza el dolor.",
+          "en": "Each figure symbolizes pain."
+        }
+      },
+      {
+        "word": "evocar",
+        "type": "v.",
+        "en": "to evoke",
+        "note": "Evoca todas las guerras.",
+        "example": {
+          "es": "Ese puente evoca otra obra famosa.",
+          "en": "That bridge evokes another famous work."
+        }
+      },
+      {
+        "word": "poner en cuestión",
+        "type": "phr.",
+        "en": "to call into question",
+        "note": "Pone en cuestión la violencia.",
+        "example": {
+          "es": "Pone en cuestión la violencia.",
+          "en": "It calls violence into question."
+        }
+      },
+      {
+        "word": "a primera vista",
+        "type": "phr.",
+        "en": "at first sight",
+        "note": "A primera vista solo vemos grises.",
+        "example": {
+          "es": "A primera vista es gris.",
+          "en": "At first sight it is grey."
+        }
+      },
+      {
+        "word": "en el fondo",
+        "type": "phr.",
+        "en": "deep down, fundamentally",
+        "note": "En el fondo, habla del dolor.",
+        "example": {
+          "es": "En el fondo es dolor.",
+          "en": "Deep down it is pain."
+        }
+      },
+      {
+        "word": "denuncia",
+        "type": "n.f.",
+        "en": "denunciation",
+        "note": "Una denuncia de la violencia.",
+        "example": {
+          "es": "Se conserva como denuncia de la violencia.",
+          "en": "It is kept as a denunciation of violence."
+        }
+      },
+      {
+        "word": "memoria",
+        "type": "n.f.",
+        "en": "memory",
+        "note": "Arte al servicio de la memoria.",
+        "example": {
+          "es": "Es vanguardia al servicio de la memoria.",
+          "en": "It is the avant-garde in the service of memory."
+        }
+      },
+      {
+        "word": "campesino",
+        "type": "n.m./adj.",
+        "en": "peasant; rural",
+        "note": "El campesino y el obrero.",
+        "example": {
+          "es": "Es un libro para el campesino.",
+          "en": "It is a book for the peasant."
+        }
+      },
+      {
+        "word": "obrero",
+        "type": "n.m.",
+        "en": "worker",
+        "note": "Obreros y campesinos.",
+        "example": {
+          "es": "Retratan indígenas y obreros.",
+          "en": "They portray Indigenous people and workers."
+        }
+      },
+      {
+        "word": "volumen",
+        "type": "n.m.",
+        "en": "volume, bulk",
+        "note": "El volumen de Botero.",
+        "example": {
+          "es": "Su volumen no es un chiste.",
+          "en": "His volume is not a joke."
+        }
+      },
+      {
+        "word": "desproporción",
+        "type": "n.f.",
+        "en": "disproportion",
+        "note": "Volumen y desproporción: marca Botero.",
+        "example": {
+          "es": "Su desproporción celebra la vida popular.",
+          "en": "His disproportion celebrates popular life."
+        }
+      },
+      {
+        "word": "conmover",
+        "type": "v.",
+        "en": "to move (emotionally)",
+        "note": "La obra conmueve sin mostrar sangre.",
+        "example": {
+          "es": "Su obra no muestra horror, pero conmueve.",
+          "en": "Her work does not show horror, but it moves you."
+        }
+      },
+      {
+        "word": "lectura",
+        "type": "n.f.",
+        "en": "reading, interpretation",
+        "note": "Cada lectura ofrece algo nuevo.",
+        "example": {
+          "es": "Cada lectura nos ayuda a recordar.",
+          "en": "Each reading helps us remember."
+        }
+      },
+      {
+        "word": "homenaje",
+        "type": "n.m.",
+        "en": "homage, tribute",
+        "note": "Un homenaje abierto.",
+        "example": {
+          "es": "Son un homenaje abierto.",
+          "en": "They are an open homage."
+        }
+      },
+      {
+        "word": "sala",
+        "type": "n.f.",
+        "en": "gallery room, hall",
+        "note": "Tres salas de exposición.",
+        "example": {
+          "es": "Del muro a la sala.",
+          "en": "From the wall to the gallery room."
+        }
+      },
+      {
+        "word": "restauración",
+        "type": "n.f.",
+        "en": "restoration",
+        "note": "La restauración del fresco.",
+        "example": {
+          "es": "La restauración empieza con paciencia.",
+          "en": "The restoration begins with patience."
+        }
+      },
+      {
+        "word": "interpretación",
+        "type": "n.f.",
+        "en": "interpretation",
+        "note": "Una interpretación distinta.",
+        "example": {
+          "es": "Cada lectura ofrece una interpretación distinta.",
+          "en": "Each reading offers a different interpretation."
+        }
+      },
+      {
+        "word": "denuncia social",
+        "type": "phr.",
+        "en": "social denunciation",
+        "note": "Orozco: denuncia social directa.",
+        "example": {
+          "es": "Es una denuncia social directa.",
+          "en": "It is a direct social denunciation."
+        }
+      },
+      {
+        "word": "arte público",
+        "type": "phr.",
+        "en": "public art",
+        "note": "El arte público es un libro abierto.",
+        "example": {
+          "es": "El arte público es un libro abierto.",
+          "en": "Public art is an open book."
+        }
+      },
+      {
+        "word": "desgarrador",
+        "type": "adj.",
+        "en": "harrowing, heartbreaking",
+        "note": "Un grito desgarrador.",
+        "ext": true,
+        "example": {
+          "es": "El caballo tiene un gesto desgarrador.",
+          "en": "The horse has a harrowing expression."
+        }
+      },
+      {
+        "word": "mecenas",
+        "type": "n.m./f.",
+        "en": "patron",
+        "note": "El mecenas paga el encargo.",
+        "ext": true,
+        "example": {
+          "es": "El mecenas pagó el fresco.",
+          "en": "The patron paid for the fresco."
+        }
+      },
+      {
+        "word": "retrospectiva",
+        "type": "n.f.",
+        "en": "retrospective",
+        "note": "Una retrospectiva de Botero.",
+        "ext": true,
+        "example": {
+          "es": "Visité una retrospectiva de Botero.",
+          "en": "I visited a Botero retrospective."
+        }
+      },
+      {
+        "word": "claroscuro",
+        "type": "n.m.",
+        "en": "chiaroscuro, light-dark",
+        "note": "El claroscuro del Guernica.",
+        "ext": true,
+        "example": {
+          "es": "El claroscuro crea drama sin color.",
+          "en": "Chiaroscuro creates drama without colour."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 72,
+    "title": "Literature & memory: dictatorship, testimonio, exile",
+    "words": [
+      {
+        "word": "testimonio",
+        "type": "n.m.",
+        "en": "testimony, testimonio",
+        "note": "Yo hablo por muchos. Latin American literary genre.",
+        "example": {
+          "es": "Su libro es un testimonio colectivo.",
+          "en": "Her book is a collective testimony."
+        }
+      },
+      {
+        "word": "denuncia",
+        "type": "n.f.",
+        "en": "denunciation",
+        "note": "La Carta abierta es una denuncia directa.",
+        "example": {
+          "es": "La carta era una denuncia directa.",
+          "en": "The letter was a direct denunciation."
+        }
+      },
+      {
+        "word": "exilio",
+        "type": "n.m.",
+        "en": "exile",
+        "note": "Escribir lejos de casa.",
+        "example": {
+          "es": "Se dice que el exilio termina tarde.",
+          "en": "It is said that exile ends late."
+        }
+      },
+      {
+        "word": "exiliado",
+        "type": "n.m./adj.",
+        "en": "exile, exiled person",
+        "note": "Bolaño, exiliado en México y España.",
+        "example": {
+          "es": "Bolaño, exiliado en México, escribió allí.",
+          "en": "Bolaño, exiled in Mexico, wrote there."
+        }
+      },
+      {
+        "word": "desarraigo",
+        "type": "n.m.",
+        "en": "uprooting",
+        "note": "El desarraigo del exilio. Sin raíces.",
+        "example": {
+          "es": "El exilio produce desarraigo.",
+          "en": "Exile produces uprooting."
+        }
+      },
+      {
+        "word": "duelo",
+        "type": "n.m.",
+        "en": "mourning, grief",
+        "note": "El duelo necesita verdad. Hacer el duelo.",
+        "example": {
+          "es": "Cada relato ayuda a hacer el duelo.",
+          "en": "Each account helps with mourning."
+        }
+      },
+      {
+        "word": "reparación",
+        "type": "n.f.",
+        "en": "reparation, redress",
+        "note": "Verdad y reparación.",
+        "example": {
+          "es": "Piden justicia y reparación.",
+          "en": "They ask for justice and reparation."
+        }
+      },
+      {
+        "word": "impunidad",
+        "type": "n.f.",
+        "en": "impunity",
+        "note": "Fin de la impunidad.",
+        "example": {
+          "es": "Sin juicio hay impunidad.",
+          "en": "Without trial there is impunity."
+        }
+      },
+      {
+        "word": "impune",
+        "type": "adj.",
+        "en": "unpunished",
+        "note": "Quedar impune.",
+        "example": {
+          "es": "Nadie queda impune para siempre.",
+          "en": "Nobody goes unpunished forever."
+        }
+      },
+      {
+        "word": "dictadura",
+        "type": "n.f.",
+        "en": "dictatorship",
+        "note": "La dictadura argentina (1976–1983).",
+        "example": {
+          "es": "Envió su carta a la dictadura.",
+          "en": "He sent his letter to the dictatorship."
+        }
+      },
+      {
+        "word": "censura",
+        "type": "n.f.",
+        "en": "censorship",
+        "note": "La censura prohíbe libros.",
+        "example": {
+          "es": "Describía la censura y los crímenes.",
+          "en": "It described censorship and crimes."
+        }
+      },
+      {
+        "word": "censurar",
+        "type": "v.",
+        "en": "to censor",
+        "note": "Censuraron su novela.",
+        "example": {
+          "es": "Censuraron su novela.",
+          "en": "They censored his novel."
+        }
+      },
+      {
+        "word": "clandestino",
+        "type": "adj.",
+        "en": "clandestine, secret",
+        "note": "De forma clandestina.",
+        "example": {
+          "es": "La envió de forma clandestina.",
+          "en": "He sent it clandestinely."
+        }
+      },
+      {
+        "word": "desaparecer",
+        "type": "v.",
+        "en": "to disappear",
+        "note": "Terrible use: lo desaparecieron.",
+        "example": {
+          "es": "Al día siguiente desapareció.",
+          "en": "The next day he disappeared."
+        }
+      },
+      {
+        "word": "desaparecido",
+        "type": "n.m./adj.",
+        "en": "disappeared person",
+        "note": "Miles de desaparecidos.",
+        "example": {
+          "es": "Miles de desaparecidos nunca volvieron.",
+          "en": "Thousands of disappeared never returned."
+        }
+      },
+      {
+        "word": "carta abierta",
+        "type": "phr.",
+        "en": "open letter",
+        "note": "Carta abierta a la dictadura (Walsh, 1977).",
+        "example": {
+          "es": "Su carta abierta fue una denuncia.",
+          "en": "His open letter was a denunciation."
+        }
+      },
+      {
+        "word": "memoria",
+        "type": "n.f.",
+        "en": "memory",
+        "note": "La memoria tiene un lugar físico.",
+        "example": {
+          "es": "Hoy la memoria tiene un lugar físico.",
+          "en": "Today memory has a physical place."
+        }
+      },
+      {
+        "word": "olvido",
+        "type": "n.m.",
+        "en": "oblivion, forgetting",
+        "note": "Del olvido al perdón.",
+        "example": {
+          "es": "Del olvido al perdón: nunca más.",
+          "en": "From oblivion to forgiveness: never again."
+        }
+      },
+      {
+        "word": "perdón",
+        "type": "n.m.",
+        "en": "forgiveness",
+        "note": "Pedir perdón.",
+        "example": {
+          "es": "Del olvido al perdón.",
+          "en": "From oblivion to forgiveness."
+        }
+      },
+      {
+        "word": "justicia",
+        "type": "n.f.",
+        "en": "justice",
+        "note": "Justicia, no venganza.",
+        "example": {
+          "es": "Piden justicia, no venganza.",
+          "en": "They ask for justice, not revenge."
+        }
+      },
+      {
+        "word": "juicio",
+        "type": "n.m.",
+        "en": "trial",
+        "note": "Juicio y condena.",
+        "example": {
+          "es": "Piden juicio, no venganza.",
+          "en": "They ask for trial, not revenge."
+        }
+      },
+      {
+        "word": "condena",
+        "type": "n.f.",
+        "en": "sentence, condemnation",
+        "note": "Condena de cárcel.",
+        "example": {
+          "es": "Piden juicio y condena.",
+          "en": "They ask for trial and sentence."
+        }
+      },
+      {
+        "word": "archivo",
+        "type": "n.m.",
+        "en": "archive",
+        "note": "Archivo abierto de documentos.",
+        "example": {
+          "es": "Hoy es museo y archivo abierto.",
+          "en": "Today it is an open museum and archive."
+        }
+      },
+      {
+        "word": "museo de la memoria",
+        "type": "phr.",
+        "en": "museum of memory",
+        "note": "La ex-ESMA hoy es museo.",
+        "example": {
+          "es": "Cabe recordar que hoy es museo de la memoria.",
+          "en": "It should be recalled that today it is a museum of memory."
+        }
+      },
+      {
+        "word": "relato",
+        "type": "n.m.",
+        "en": "account, short story",
+        "note": "Su relato Operación Masacre.",
+        "example": {
+          "es": "Su relato mostró su método.",
+          "en": "His account showed his method."
+        }
+      },
+      {
+        "word": "relatar",
+        "type": "v.",
+        "en": "to relate, to tell",
+        "note": "Tal como lo relata la autora.",
+        "example": {
+          "es": "Tal como relata el narrador, huyen al desierto.",
+          "en": "As the narrator relates, they flee to the desert."
+        }
+      },
+      {
+        "word": "narrador",
+        "type": "n.m./f.",
+        "en": "narrator",
+        "note": "El narrador es testigo y símbolo.",
+        "example": {
+          "es": "Su narrador es testigo y símbolo.",
+          "en": "Her narrator is both witness and symbol."
+        }
+      },
+      {
+        "word": "testigo",
+        "type": "n.m./f.",
+        "en": "witness",
+        "note": "Testigo directo.",
+        "example": {
+          "es": "Cada testigo deja un relato.",
+          "en": "Each witness leaves an account."
+        }
+      },
+      {
+        "word": "atestiguar",
+        "type": "v.",
+        "en": "to attest, to bear witness",
+        "note": "Los guías atestiguan con calma.",
+        "example": {
+          "es": "Todo atestigua lo que pasó.",
+          "en": "Everything bears witness to what happened."
+        }
+      },
+      {
+        "word": "destierro",
+        "type": "n.m.",
+        "en": "banishment, exile",
+        "note": "Formal/literary for exilio.",
+        "example": {
+          "es": "El destierro es el tema central.",
+          "en": "Banishment is the central theme."
+        }
+      },
+      {
+        "word": "fosa",
+        "type": "n.f.",
+        "en": "pit, grave",
+        "note": "Fosas de documentos; fosas comunes.",
+        "example": {
+          "es": "Ven fosas de documentos.",
+          "en": "They see pits of documents."
+        }
+      },
+      {
+        "word": "celda",
+        "type": "n.f.",
+        "en": "cell",
+        "note": "Celda de detención en la ESMA.",
+        "example": {
+          "es": "Ven celdas, fotos y documentos.",
+          "en": "They see cells, photos and documents."
+        }
+      },
+      {
+        "word": "huir",
+        "type": "v.",
+        "en": "to flee",
+        "note": "Huir al desierto, huir del país.",
+        "example": {
+          "es": "Los poetas huyen al desierto.",
+          "en": "The poets flee to the desert."
+        }
+      },
+      {
+        "word": "según cuenta",
+        "type": "phr.",
+        "en": "as (she/he) tells it",
+        "note": "Según cuenta Menchú… (no que after).",
+        "example": {
+          "es": "Según cuenta Menchú, habla por su comunidad.",
+          "en": "As Menchú tells it, she speaks for her community."
+        }
+      },
+      {
+        "word": "tal como relata",
+        "type": "phr.",
+        "en": "as related/told",
+        "note": "Tal como lo relata la autora.",
+        "example": {
+          "es": "Tal como lo relata la autora.",
+          "en": "As told by the author."
+        }
+      },
+      {
+        "word": "se dice que",
+        "type": "phr.",
+        "en": "it is said that",
+        "note": "Se dice que mezcló hechos. Marks distance.",
+        "example": {
+          "es": "Se dice que mezcló hechos.",
+          "en": "It is said that she mixed events."
+        }
+      },
+      {
+        "word": "cabe recordar que",
+        "type": "phr.",
+        "en": "it should be recalled that",
+        "note": "Formal. Cabe recordar que miles…",
+        "example": {
+          "es": "Cabe recordar que piden juicio.",
+          "en": "It should be recalled that they ask for trial."
+        }
+      },
+      {
+        "word": "novela de dictadura",
+        "type": "phr.",
+        "en": "dictatorship novel",
+        "note": "El otoño del patriarca; La fiesta del chivo.",
+        "example": {
+          "es": "La novela de dictadura retrata al tirano.",
+          "en": "The dictatorship novel portrays the tyrant."
+        }
+      },
+      {
+        "word": "página en blanco",
+        "type": "phr.",
+        "en": "blank page",
+        "note": "Empezar de cero en otro país.",
+        "example": {
+          "es": "Hablan de la página en blanco.",
+          "en": "They speak of the blank page."
+        }
+      },
+      {
+        "word": "sitio de memoria",
+        "type": "phr.",
+        "en": "memory site",
+        "note": "La ex-ESMA: sitio de memoria.",
+        "example": {
+          "es": "Hoy es sitio de memoria.",
+          "en": "Today it is a memory site."
+        }
+      },
+      {
+        "word": "nunca más",
+        "type": "phr.",
+        "en": "never again",
+        "note": "Consigna argentina: Nunca más.",
+        "example": {
+          "es": "La consigna es clara: nunca más.",
+          "en": "The slogan is clear: never again."
+        }
+      },
+      {
+        "word": "homenaje",
+        "type": "n.m.",
+        "en": "homage",
+        "note": "Un homenaje silencioso.",
+        "example": {
+          "es": "Leer es un homenaje silencioso.",
+          "en": "Reading is a silent homage."
+        }
+      },
+      {
+        "word": "amnistía",
+        "type": "n.f.",
+        "en": "amnesty",
+        "note": "Una amnistía perdona delitos.",
+        "ext": true,
+        "example": {
+          "es": "La amnistía fue muy debatida.",
+          "en": "The amnesty was much debated."
+        }
+      },
+      {
+        "word": "indemnización",
+        "type": "n.f.",
+        "en": "compensation",
+        "note": "Dinero como parte de la reparación.",
+        "ext": true,
+        "example": {
+          "es": "Recibió una indemnización pequeña.",
+          "en": "She received a small compensation."
+        }
+      },
+      {
+        "word": "olvido pactado",
+        "type": "phr.",
+        "en": "agreed-upon forgetting",
+        "note": "Cuando un país decide no hablar.",
+        "ext": true,
+        "example": {
+          "es": "Rechazan el olvido pactado.",
+          "en": "They reject the agreed-upon forgetting."
+        }
+      },
+      {
+        "word": "contraexilio",
+        "type": "n.m.",
+        "en": "counter-exile",
+        "note": "Advanced: volver críticamente, sin idealizar.",
+        "ext": true,
+        "example": {
+          "es": "Vivió su retorno como contraexilio.",
+          "en": "He lived his return as counter-exile."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 73,
+    "title": "Democracy & politics in Spain & Latin America",
+    "words": [
+      {
+        "word": "urna",
+        "type": "n.f.",
+        "en": "ballot box",
+        "note": "Acudir a las urnas = to vote (formal).",
+        "example": {
+          "es": "Los votantes llenaron las urnas.",
+          "en": "Voters filled the ballot boxes."
+        }
+      },
+      {
+        "word": "escrutinio",
+        "type": "n.m.",
+        "en": "count, scrutiny",
+        "note": "El escrutinio dejó un mapa fragmentado.",
+        "example": {
+          "es": "El escrutinio duró hasta las tres.",
+          "en": "The count lasted until three."
+        }
+      },
+      {
+        "word": "coalición",
+        "type": "n.f.",
+        "en": "coalition",
+        "note": "Gobierno de coalición: varios partidos juntos.",
+        "example": {
+          "es": "Necesitan una coalición para gobernar.",
+          "en": "They need a coalition to govern."
+        }
+      },
+      {
+        "word": "investidura",
+        "type": "n.f.",
+        "en": "investiture (vote)",
+        "note": "España: el Congreso vota la investidura.",
+        "example": {
+          "es": "La investidura depende de los pactos.",
+          "en": "The investiture depends on the pacts."
+        }
+      },
+      {
+        "word": "legislatura",
+        "type": "n.f.",
+        "en": "legislative term",
+        "note": "Una legislatura dura cuatro años (normalmente).",
+        "example": {
+          "es": "La legislatura empezó con tensión.",
+          "en": "The legislative term began with tension."
+        }
+      },
+      {
+        "word": "escaño",
+        "type": "n.m.",
+        "en": "seat (in parliament)",
+        "note": "Ganar/perder escaños.",
+        "example": {
+          "es": "Cada escaño del Congreso cuenta.",
+          "en": "Each seat in Congress counts."
+        }
+      },
+      {
+        "word": "circunscripción",
+        "type": "n.f.",
+        "en": "constituency",
+        "note": "Cada provincia es una circunscripción.",
+        "example": {
+          "es": "Cada escaño se reparte por circunscripción.",
+          "en": "Each seat is allocated by constituency."
+        }
+      },
+      {
+        "word": "bipartidismo",
+        "type": "n.m.",
+        "en": "two-party system",
+        "note": "El viejo bipartidismo ya no existe.",
+        "example": {
+          "es": "El viejo bipartidismo ya no existe.",
+          "en": "The old two-party system no longer exists."
+        }
+      },
+      {
+        "word": "abstención",
+        "type": "n.f.",
+        "en": "abstention",
+        "note": "La abstención superó el 30%.",
+        "example": {
+          "es": "La abstención fue enorme.",
+          "en": "Abstention was huge."
+        }
+      },
+      {
+        "word": "abstencionista",
+        "type": "n.m./f.",
+        "en": "abstainer",
+        "note": "Quien no vota por decisión.",
+        "example": {
+          "es": "Muchos abstencionistas ya no creen.",
+          "en": "Many abstainers no longer believe."
+        }
+      },
+      {
+        "word": "afluencia",
+        "type": "n.f.",
+        "en": "turnout",
+        "note": "La afluencia a las urnas.",
+        "example": {
+          "es": "La afluencia a las urnas sigue alta.",
+          "en": "Turnout at the polls remains high."
+        }
+      },
+      {
+        "word": "sondeo",
+        "type": "n.m.",
+        "en": "poll",
+        "note": "Sondeo a pie de urna (exit poll).",
+        "example": {
+          "es": "Los sondeos se equivocaron.",
+          "en": "The polls were wrong."
+        }
+      },
+      {
+        "word": "encuesta",
+        "type": "n.f.",
+        "en": "survey, poll",
+        "note": "Las encuestas prometían otro resultado.",
+        "example": {
+          "es": "Las encuestas habían prometido un resultado claro.",
+          "en": "The surveys had promised a clear result."
+        }
+      },
+      {
+        "word": "campaña",
+        "type": "n.f.",
+        "en": "campaign",
+        "note": "Campaña electoral. Hacer campaña.",
+        "example": {
+          "es": "La campaña terminó con un mitin.",
+          "en": "The campaign ended with a rally."
+        }
+      },
+      {
+        "word": "mitin",
+        "type": "n.m.",
+        "en": "rally",
+        "note": "Mitin multitudinario de cierre.",
+        "example": {
+          "es": "El mitin llenó la plaza.",
+          "en": "The rally filled the square."
+        }
+      },
+      {
+        "word": "sufragio",
+        "type": "n.m.",
+        "en": "suffrage, vote",
+        "note": "Sufragio universal.",
+        "example": {
+          "es": "Sometió su cargo al sufragio.",
+          "en": "He submitted his office to suffrage."
+        }
+      },
+      {
+        "word": "votante",
+        "type": "n.m./f.",
+        "en": "voter",
+        "note": "Los votantes llenaron las urnas.",
+        "example": {
+          "es": "Los votantes esperaron con paraguas.",
+          "en": "Voters waited with umbrellas."
+        }
+      },
+      {
+        "word": "elector",
+        "type": "n.m.",
+        "en": "elector, registered voter",
+        "note": "Formal: que los electores decidan.",
+        "example": {
+          "es": "Que los electores decidan si me quedo.",
+          "en": "Let the voters decide whether I stay."
+        }
+      },
+      {
+        "word": "papeleta",
+        "type": "n.f.",
+        "en": "ballot paper",
+        "note": "España: se marca una lista.",
+        "example": {
+          "es": "Cada papeleta cuenta.",
+          "en": "Every ballot counts."
+        }
+      },
+      {
+        "word": "voto en blanco",
+        "type": "phr.",
+        "en": "blank vote",
+        "note": "Sobre vacío: protesta sin apoyar a nadie.",
+        "example": {
+          "es": "El voto en blanco se cuenta aparte.",
+          "en": "The blank vote is counted separately."
+        }
+      },
+      {
+        "word": "voto nulo",
+        "type": "phr.",
+        "en": "spoiled/null vote",
+        "note": "Mal marcado: no cuenta para nadie.",
+        "example": {
+          "es": "Hubo un voto nulo con un corazón.",
+          "en": "There was a spoiled ballot with a heart."
+        }
+      },
+      {
+        "word": "gobernabilidad",
+        "type": "n.f.",
+        "en": "governability",
+        "note": "Sin pactos no hay gobernabilidad.",
+        "example": {
+          "es": "La gobernabilidad depende de los pactos.",
+          "en": "Governability depends on the pacts."
+        }
+      },
+      {
+        "word": "pacto",
+        "type": "n.m.",
+        "en": "pact, deal",
+        "note": "Pacto de gobierno. Pactar con…",
+        "example": {
+          "es": "Al final hubo pacto.",
+          "en": "In the end there was a pact."
+        }
+      },
+      {
+        "word": "oposición",
+        "type": "n.f.",
+        "en": "opposition",
+        "note": "La oposición promete bloquear.",
+        "example": {
+          "es": "La oposición llamó a no participar.",
+          "en": "The opposition called for non-participation."
+        }
+      },
+      {
+        "word": "oficialismo",
+        "type": "n.m.",
+        "en": "governing side",
+        "note": "LatAm: quienes gobiernan.",
+        "example": {
+          "es": "El oficialismo respondió que gobernaría.",
+          "en": "The governing side answered it would govern."
+        }
+      },
+      {
+        "word": "populismo",
+        "type": "n.m.",
+        "en": "populism",
+        "note": "Palabra de debate; úsala con cuidado.",
+        "example": {
+          "es": "Algunos hablan de populismo.",
+          "en": "Some speak of populism."
+        }
+      },
+      {
+        "word": "polarización",
+        "type": "n.f.",
+        "en": "polarization",
+        "note": "Mucha polarización en el debate.",
+        "example": {
+          "es": "Hay mucha polarización en el debate.",
+          "en": "There is heavy polarization in the debate."
+        }
+      },
+      {
+        "word": "transfuguismo",
+        "type": "n.m.",
+        "en": "party-switching",
+        "note": "Diputado que cambia de partido (tránsfuga).",
+        "example": {
+          "es": "El transfuguismo no cambió nada.",
+          "en": "Party-switching changed nothing."
+        }
+      },
+      {
+        "word": "aforado",
+        "type": "n.m./adj.",
+        "en": "office-holder with immunity",
+        "note": "Solo ciertos tribunales lo juzgan.",
+        "example": {
+          "es": "Hasta los aforados opinaron.",
+          "en": "Even office-holders with immunity gave opinions."
+        }
+      },
+      {
+        "word": "senado",
+        "type": "n.m.",
+        "en": "senate",
+        "note": "Cámara alta en varios países.",
+        "example": {
+          "es": "El senado chileno opinó.",
+          "en": "The Chilean senate gave its opinion."
+        }
+      },
+      {
+        "word": "diputado",
+        "type": "n.m./f.",
+        "en": "deputy, MP",
+        "note": "Cámara baja.",
+        "example": {
+          "es": "Cada diputado puede decidirlo todo.",
+          "en": "Each deputy can decide everything."
+        }
+      },
+      {
+        "word": "descentralización",
+        "type": "n.f.",
+        "en": "decentralization",
+        "note": "Más poder a las regiones.",
+        "example": {
+          "es": "El texto prometía más descentralización.",
+          "en": "The text promised more decentralization."
+        }
+      },
+      {
+        "word": "referéndum",
+        "type": "n.m.",
+        "en": "referendum",
+        "note": "Votada en referéndum.",
+        "example": {
+          "es": "La revocatoria se votó en referéndum.",
+          "en": "The recall was voted in a referendum."
+        }
+      },
+      {
+        "word": "plebiscito",
+        "type": "n.m.",
+        "en": "plebiscite",
+        "note": "Chile 2022: plebiscito constitucional.",
+        "example": {
+          "es": "El plebiscito rechazó la propuesta.",
+          "en": "The plebiscite rejected the proposal."
+        }
+      },
+      {
+        "word": "revocatoria",
+        "type": "n.f.",
+        "en": "recall (of mandate)",
+        "note": "Echar al elegido antes de tiempo.",
+        "example": {
+          "es": "México votó la revocatoria en 2022.",
+          "en": "Mexico voted the recall in 2022."
+        }
+      },
+      {
+        "word": "programa electoral",
+        "type": "phr.",
+        "en": "electoral platform",
+        "note": "Lo que promete cada partido.",
+        "example": {
+          "es": "Lo prometía en su programa electoral.",
+          "en": "He promised it in his electoral platform."
+        }
+      },
+      {
+        "word": "colegio electoral",
+        "type": "phr.",
+        "en": "polling station",
+        "note": "El lugar donde se vota.",
+        "example": {
+          "es": "El colegio electoral funcionó con calma.",
+          "en": "The polling station worked calmly."
+        }
+      },
+      {
+        "word": "mesa electoral",
+        "type": "phr.",
+        "en": "polling table/board",
+        "note": "Ciudadanos que organizan el voto.",
+        "example": {
+          "es": "Mesa por mesa, sin incidentes.",
+          "en": "Table by table, with no incidents."
+        }
+      },
+      {
+        "word": "debate electoral",
+        "type": "phr.",
+        "en": "electoral debate",
+        "note": "Cara a cara televisado.",
+        "example": {
+          "es": "Hay polarización en el debate electoral.",
+          "en": "There is polarization in the electoral debate."
+        }
+      },
+      {
+        "word": "moción de censura",
+        "type": "phr.",
+        "en": "no-confidence motion",
+        "note": "El parlamento echa al gobierno votando.",
+        "example": {
+          "es": "La moción de censura seguía fresca.",
+          "en": "The no-confidence motion was still fresh."
+        }
+      },
+      {
+        "word": "balotaje",
+        "type": "n.m.",
+        "en": "runoff (second round)",
+        "note": "Del francés ballottage. Muy usado en LatAm.",
+        "ext": true,
+        "example": {
+          "es": "Si nadie gana, hay balotaje.",
+          "en": "If nobody wins, there is a runoff."
+        }
+      },
+      {
+        "word": "segunda vuelta",
+        "type": "phr.",
+        "en": "second round",
+        "note": "Si nadie llega al 50%.",
+        "ext": true,
+        "example": {
+          "es": "Habrá segunda vuelta en un mes.",
+          "en": "There will be a second round in a month."
+        }
+      },
+      {
+        "word": "voto rogado",
+        "type": "phr.",
+        "en": "begged vote (expat system)",
+        "note": "España: los emigrantes debían pedir el voto (2011–2022).",
+        "ext": true,
+        "example": {
+          "es": "El voto rogado bajó la participación fuera.",
+          "en": "The begged vote lowered participation abroad."
+        }
+      },
+      {
+        "word": "cordón sanitario",
+        "type": "phr.",
+        "en": "cordon sanitaire (blocking pact)",
+        "note": "Pacto para aislar a un partido.",
+        "ext": true,
+        "example": {
+          "es": "Le aplicaron un cordón sanitario.",
+          "en": "They applied a cordon sanitaire to it."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 74,
+    "title": "Economy, migration & inequality",
+    "words": [
+      {
+        "word": "informalidad",
+        "type": "n.f.",
+        "en": "informality (no contract)",
+        "note": "Sin contrato ni boleta.",
+        "example": {
+          "es": "Vende fruta en la informalidad.",
+          "en": "She sells fruit informally."
+        }
+      },
+      {
+        "word": "precariedad",
+        "type": "n.f.",
+        "en": "precariousness",
+        "note": "Vivir en la precariedad.",
+        "example": {
+          "es": "La precariedad los expulsó.",
+          "en": "Precariousness expelled them."
+        }
+      },
+      {
+        "word": "desempleo",
+        "type": "n.m.",
+        "en": "unemployment",
+        "note": "El desempleo baja, el subempleo no.",
+        "example": {
+          "es": "El desempleo baja en las estadísticas.",
+          "en": "Unemployment falls in the statistics."
+        }
+      },
+      {
+        "word": "subempleo",
+        "type": "n.m.",
+        "en": "underemployment",
+        "note": "Trabajar poco o por debajo del nivel.",
+        "example": {
+          "es": "Pero el subempleo no baja.",
+          "en": "But underemployment doesn't fall."
+        }
+      },
+      {
+        "word": "inflación",
+        "type": "n.f.",
+        "en": "inflation",
+        "note": "La inflación sigue subiendo.",
+        "example": {
+          "es": "La inflación sigue subiendo.",
+          "en": "Inflation keeps rising."
+        }
+      },
+      {
+        "word": "austeridad",
+        "type": "n.f.",
+        "en": "austerity",
+        "note": "Recortes del gasto público.",
+        "example": {
+          "es": "La austeridad recortó el subsidio.",
+          "en": "Austerity cut the subsidy."
+        }
+      },
+      {
+        "word": "subsidio",
+        "type": "n.m.",
+        "en": "subsidy",
+        "note": "Subsidio del transporte.",
+        "example": {
+          "es": "Recortaron el subsidio del transporte.",
+          "en": "They cut the transport subsidy."
+        }
+      },
+      {
+        "word": "microcrédito",
+        "type": "n.m.",
+        "en": "microloan",
+        "note": "Préstamo pequeño de una cooperativa.",
+        "example": {
+          "es": "Pidió un microcrédito a una cooperativa.",
+          "en": "He asked a cooperative for a microloan."
+        }
+      },
+      {
+        "word": "cooperativa",
+        "type": "n.f.",
+        "en": "cooperative",
+        "note": "El banco de los pobres, a veces.",
+        "example": {
+          "es": "La cooperativa les dio comida caliente.",
+          "en": "The cooperative gave them a hot meal."
+        }
+      },
+      {
+        "word": "cuentapropista",
+        "type": "n.m./f.",
+        "en": "self-employed person",
+        "note": "Trabaja por su cuenta.",
+        "example": {
+          "es": "Es cuentapropista: trabaja por su cuenta.",
+          "en": "She is self-employed: she works for herself."
+        }
+      },
+      {
+        "word": "changa",
+        "type": "n.f.",
+        "en": "odd job",
+        "note": "Río de la Plata: changas donde salgan.",
+        "example": {
+          "es": "Llevo meses haciendo changas.",
+          "en": "I've spent months doing odd jobs."
+        }
+      },
+      {
+        "word": "jornalero",
+        "type": "n.m.",
+        "en": "day labourer",
+        "note": "Cobra por jornal (día).",
+        "example": {
+          "es": "Los jornaleros encadenan contratos.",
+          "en": "Day labourers chain contracts together."
+        }
+      },
+      {
+        "word": "maquila",
+        "type": "n.f.",
+        "en": "maquila (assembly factory)",
+        "note": "México y Centroamérica.",
+        "example": {
+          "es": "Las obreras de la maquila protestan.",
+          "en": "The maquila factory women protest."
+        }
+      },
+      {
+        "word": "olla común",
+        "type": "phr.",
+        "en": "communal cooking pot",
+        "note": "Los vecinos cocinan juntos.",
+        "example": {
+          "es": "Hay olla común los domingos.",
+          "en": "There is a communal pot on Sundays."
+        }
+      },
+      {
+        "word": "comedor popular",
+        "type": "phr.",
+        "en": "people's canteen",
+        "note": "Casi gratis para quien lo necesita.",
+        "example": {
+          "es": "Hay comedor popular entre semana.",
+          "en": "There is a people's canteen on weekdays."
+        }
+      },
+      {
+        "word": "merendero",
+        "type": "n.m.",
+        "en": "community snack centre",
+        "note": "Alimenta a los niños.",
+        "example": {
+          "es": "El merendero alimenta a los niños.",
+          "en": "The snack centre feeds the children."
+        }
+      },
+      {
+        "word": "asentamiento",
+        "type": "n.m.",
+        "en": "informal settlement",
+        "note": "Barrio sin permiso ni plano.",
+        "example": {
+          "es": "Llegaron a un asentamiento.",
+          "en": "They arrived at an informal settlement."
+        }
+      },
+      {
+        "word": "villa miseria",
+        "type": "phr.",
+        "en": "shantytown (Argentina)",
+        "note": "Argentina: barrio precario.",
+        "example": {
+          "es": "En Argentina lo llaman villa miseria.",
+          "en": "In Argentina they call it villa miseria."
+        }
+      },
+      {
+        "word": "chabolismo",
+        "type": "n.m.",
+        "en": "shantytowns (Spain)",
+        "note": "España: chabolas precarias.",
+        "example": {
+          "es": "En España queda chabolismo.",
+          "en": "Shantytowns remain in Spain."
+        }
+      },
+      {
+        "word": "fuga de capitales",
+        "type": "phr.",
+        "en": "capital flight",
+        "note": "El dinero rico se va fuera.",
+        "example": {
+          "es": "La fuga de capitales vacía el país.",
+          "en": "Capital flight drains the country."
+        }
+      },
+      {
+        "word": "lavado de dinero",
+        "type": "phr.",
+        "en": "money laundering",
+        "note": "Hacer legal lo ilegal.",
+        "example": {
+          "es": "El lavado pasa por un paraíso fiscal.",
+          "en": "Laundering passes through a tax haven."
+        }
+      },
+      {
+        "word": "paraíso fiscal",
+        "type": "phr.",
+        "en": "tax haven",
+        "note": "Sin impuestos, sin preguntas.",
+        "example": {
+          "es": "Esconden todo en un paraíso fiscal.",
+          "en": "They hide everything in a tax haven."
+        }
+      },
+      {
+        "word": "tanda",
+        "type": "n.f.",
+        "en": "rotating savings fund",
+        "note": "México y Perú: el pozo mensual.",
+        "example": {
+          "es": "Ahorra en una tanda con vecinas.",
+          "en": "She saves in a tanda with neighbours."
+        }
+      },
+      {
+        "word": "fiado",
+        "type": "n.m.",
+        "en": "tick, buying on credit",
+        "note": "El cuaderno del fiado.",
+        "example": {
+          "es": "El cuaderno del fiado engorda.",
+          "en": "The tick notebook grows fat."
+        }
+      },
+      {
+        "word": "caravana",
+        "type": "n.f.",
+        "en": "caravan (of migrants)",
+        "note": "Miles caminan juntos al norte.",
+        "example": {
+          "es": "La caravana camina al norte.",
+          "en": "The caravan walks north."
+        }
+      },
+      {
+        "word": "muro",
+        "type": "n.m.",
+        "en": "wall",
+        "note": "El muro fronterizo.",
+        "example": {
+          "es": "Quien llega al muro puede pedir asilo.",
+          "en": "Whoever reaches the wall can claim asylum."
+        }
+      },
+      {
+        "word": "deportación",
+        "type": "n.f.",
+        "en": "deportation",
+        "note": "Lo deja en la frontera.",
+        "example": {
+          "es": "La deportación lo deja sin nada.",
+          "en": "Deportation leaves him with nothing."
+        }
+      },
+      {
+        "word": "deportado",
+        "type": "n.m.",
+        "en": "deportee",
+        "note": "El deportado vuelve sin nada.",
+        "example": {
+          "es": "El deportado contó su historia.",
+          "en": "The deportee told his story."
+        }
+      },
+      {
+        "word": "redada",
+        "type": "n.f.",
+        "en": "raid",
+        "note": "Caer en una redada.",
+        "example": {
+          "es": "Temen una redada cada noche.",
+          "en": "They fear a raid every night."
+        }
+      },
+      {
+        "word": "centro de detención",
+        "type": "phr.",
+        "en": "detention centre",
+        "note": "Encierro para migrantes.",
+        "example": {
+          "es": "Acabó en un centro de detención.",
+          "en": "He ended up in a detention centre."
+        }
+      },
+      {
+        "word": "coyote",
+        "type": "n.m.",
+        "en": "coyote (smuggler)",
+        "note": "Cruza migrantes por dinero.",
+        "example": {
+          "es": "El coyote cobra miles.",
+          "en": "The coyote charges thousands."
+        }
+      },
+      {
+        "word": "pollero",
+        "type": "n.m.",
+        "en": "pollero (Mexican smuggler)",
+        "note": "México: el coyote local.",
+        "example": {
+          "es": "Al coyote mexicano lo llaman pollero.",
+          "en": "The Mexican coyote is called pollero."
+        }
+      },
+      {
+        "word": "trocha",
+        "type": "n.f.",
+        "en": "trail, jungle path",
+        "note": "De barro y ríos crecidos.",
+        "example": {
+          "es": "La trocha es de barro.",
+          "en": "The trail is mud."
+        }
+      },
+      {
+        "word": "Darién",
+        "type": "n.m.",
+        "en": "Darién (jungle region)",
+        "note": "Selva entre Colombia y Panamá.",
+        "example": {
+          "es": "Cruzaron el Darién en seis días.",
+          "en": "They crossed the Darién in six days."
+        }
+      },
+      {
+        "word": "tapón del Darién",
+        "type": "phr.",
+        "en": "Darién Gap",
+        "note": "El tramo sin carretera.",
+        "example": {
+          "es": "Miles cruzan el tapón del Darién.",
+          "en": "Thousands cross the Darién Gap."
+        }
+      },
+      {
+        "word": "patera",
+        "type": "n.f.",
+        "en": "small migrant boat",
+        "note": "Hacia Canarias o el Estrecho.",
+        "example": {
+          "es": "Una patera sale de noche.",
+          "en": "A patera leaves at night."
+        }
+      },
+      {
+        "word": "cayuco",
+        "type": "n.m.",
+        "en": "large wooden migrant boat",
+        "note": "De Senegal a Canarias.",
+        "example": {
+          "es": "El cayuco llegó de madrugada.",
+          "en": "The cayuco arrived at dawn."
+        }
+      },
+      {
+        "word": "valla",
+        "type": "n.f.",
+        "en": "fence (border)",
+        "note": "La valla de Ceuta y Melilla.",
+        "example": {
+          "es": "La valla separa dos continentes.",
+          "en": "The fence separates two continents."
+        }
+      },
+      {
+        "word": "pedir asilo",
+        "type": "phr.",
+        "en": "to claim asylum",
+        "note": "Pedir protección al llegar.",
+        "example": {
+          "es": "Pueden pedir asilo en el puerto.",
+          "en": "They can claim asylum at the port."
+        }
+      },
+      {
+        "word": "paso fronterizo",
+        "type": "phr.",
+        "en": "border crossing",
+        "note": "El punto legal para cruzar.",
+        "example": {
+          "es": "Pidió asilo en un paso fronterizo.",
+          "en": "He claimed asylum at a border crossing."
+        }
+      },
+      {
+        "word": "efecto llamada",
+        "type": "phr.",
+        "en": "pull effect",
+        "note": "La idea de que ayudar atrae migrantes. Debatida.",
+        "ext": true,
+        "example": {
+          "es": "Hablan del efecto llamada en campaña.",
+          "en": "They speak of the pull effect in campaigns."
+        }
+      },
+      {
+        "word": "fuga de cerebros",
+        "type": "phr.",
+        "en": "brain drain",
+        "note": "Médicos e ingenieros que emigran.",
+        "ext": true,
+        "example": {
+          "es": "La fuga de cerebros vacía hospitales.",
+          "en": "Brain drain empties hospitals."
+        }
+      },
+      {
+        "word": "dólar blue",
+        "type": "phr.",
+        "en": "blue dollar (parallel rate)",
+        "note": "Argentina: el dólar paralelo.",
+        "ext": true,
+        "example": {
+          "es": "Ahorra en dólar blue.",
+          "en": "He saves in blue dollars."
+        }
+      },
+      {
+        "word": "coyotaje",
+        "type": "n.m.",
+        "en": "people-smuggling business",
+        "note": "El negocio del coyote.",
+        "ext": true,
+        "example": {
+          "es": "El coyotaje mueve millones.",
+          "en": "Smuggling moves millions."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 75,
+    "title": "Climate & environment across the Hispanic world",
+    "words": [
+      {
+        "word": "inundación",
+        "type": "n.f.",
+        "en": "flood",
+        "note": "La inundación avisa cada año.",
+        "example": {
+          "es": "Ganaron inundaciones cada año.",
+          "en": "They gained floods every year."
+        }
+      },
+      {
+        "word": "derretimiento",
+        "type": "n.m.",
+        "en": "melting",
+        "note": "Derretir → derretimiento.",
+        "example": {
+          "es": "El derretimiento avanza.",
+          "en": "The melting advances."
+        }
+      },
+      {
+        "word": "glaciar",
+        "type": "n.m.",
+        "en": "glacier",
+        "note": "Glaciares tropicales de Perú y Bolivia.",
+        "example": {
+          "es": "El glaciar se ve más pequeño.",
+          "en": "The glacier looks smaller."
+        }
+      },
+      {
+        "word": "páramo",
+        "type": "n.m.",
+        "en": "páramo (high moorland)",
+        "note": "Donde nace el agua, entre frailejones.",
+        "example": {
+          "es": "Si el páramo muere, habrá estrés hídrico.",
+          "en": "If the páramo dies, there will be water stress."
+        }
+      },
+      {
+        "word": "Amazonia",
+        "type": "n.f.",
+        "en": "Amazonia",
+        "note": "Selva de nueve países.",
+        "example": {
+          "es": "En la Amazonia se talan hectáreas.",
+          "en": "In Amazonia hectares are felled."
+        }
+      },
+      {
+        "word": "deforestación",
+        "type": "n.f.",
+        "en": "deforestation",
+        "note": "Abre paso al monocultivo.",
+        "example": {
+          "es": "La deforestación abre paso al monocultivo.",
+          "en": "Deforestation opens the way for monoculture."
+        }
+      },
+      {
+        "word": "incendio forestal",
+        "type": "phr.",
+        "en": "forest fire",
+        "note": "Cada verano tiñen el cielo.",
+        "example": {
+          "es": "Los incendios forestales tiñen el cielo.",
+          "en": "Forest fires dye the sky."
+        }
+      },
+      {
+        "word": "terremoto",
+        "type": "n.m.",
+        "en": "earthquake",
+        "note": "Chile, Perú, México… El terremoto avisa una vez.",
+        "example": {
+          "es": "El terremoto avisa una vez.",
+          "en": "The earthquake warns once."
+        }
+      },
+      {
+        "word": "eólico",
+        "type": "adj.",
+        "en": "wind (energy)",
+        "note": "Parque eólico. Energía eólica.",
+        "example": {
+          "es": "Hay parques eólicos en la Patagonia.",
+          "en": "There are wind farms in Patagonia."
+        }
+      },
+      {
+        "word": "solar",
+        "type": "adj.",
+        "en": "solar",
+        "note": "Paneles solares.",
+        "example": {
+          "es": "Prometen paneles solares.",
+          "en": "They promise solar panels."
+        }
+      },
+      {
+        "word": "litio",
+        "type": "n.m.",
+        "en": "lithium",
+        "note": "El litio de las baterías.",
+        "example": {
+          "es": "El salar guarda el litio.",
+          "en": "The salt flat holds the lithium."
+        }
+      },
+      {
+        "word": "salar",
+        "type": "n.m.",
+        "en": "salt flat",
+        "note": "El salar de Uyuni: mar blanco.",
+        "example": {
+          "es": "El salar de Uyuni es un mar blanco.",
+          "en": "The Uyuni salt flat is a white sea."
+        }
+      },
+      {
+        "word": "fracking",
+        "type": "n.m.",
+        "en": "fracking",
+        "note": "Fractura hidráulica. Polémico.",
+        "example": {
+          "es": "El fracking divide al pueblo.",
+          "en": "Fracking divides the town."
+        }
+      },
+      {
+        "word": "extractivismo",
+        "type": "n.m.",
+        "en": "extractivism",
+        "note": "Sacar y sacar.",
+        "example": {
+          "es": "Contra el extractivismo, el buen vivir.",
+          "en": "Against extractivism, good living."
+        }
+      },
+      {
+        "word": "Pachamama",
+        "type": "n.f.",
+        "en": "Pachamama (Mother Earth)",
+        "note": "Quechua: tiene derechos en Ecuador y Bolivia.",
+        "example": {
+          "es": "La Pachamama tiene derechos.",
+          "en": "Pachamama has rights."
+        }
+      },
+      {
+        "word": "buen vivir",
+        "type": "phr.",
+        "en": "good living (Andean philosophy)",
+        "note": "Vida en plenitud, no más consumo.",
+        "example": {
+          "es": "Proponen el buen vivir.",
+          "en": "They propose good living."
+        }
+      },
+      {
+        "word": "sumak kawsay",
+        "type": "phr.",
+        "en": "sumak kawsay (Quechua)",
+        "note": "Quechua para el buen vivir.",
+        "example": {
+          "es": "Sumak kawsay: la vida en plenitud.",
+          "en": "Sumak kawsay: life in fullness."
+        }
+      },
+      {
+        "word": "minga",
+        "type": "n.f.",
+        "en": "minga (collective work)",
+        "note": "Trabajo colectivo del sábado.",
+        "example": {
+          "es": "Cada sábado hay minga.",
+          "en": "Every Saturday there is minga."
+        }
+      },
+      {
+        "word": "ayllu",
+        "type": "n.m.",
+        "en": "ayllu (Andean community)",
+        "note": "Decide en asamblea.",
+        "example": {
+          "es": "El ayllu exigió la consulta previa.",
+          "en": "The ayllu demanded prior consultation."
+        }
+      },
+      {
+        "word": "defensor ambiental",
+        "type": "phr.",
+        "en": "environmental defender",
+        "note": "Denuncian y pagan el precio.",
+        "example": {
+          "es": "Los defensores denuncian el crimen.",
+          "en": "Defenders denounce the crime."
+        }
+      },
+      {
+        "word": "crimen ambiental",
+        "type": "phr.",
+        "en": "environmental crime",
+        "note": "Tala y minería ilegales.",
+        "example": {
+          "es": "El crimen ambiental entra de noche.",
+          "en": "Environmental crime enters at night."
+        }
+      },
+      {
+        "word": "humedal",
+        "type": "n.m.",
+        "en": "wetland",
+        "note": "Filtra el agua.",
+        "example": {
+          "es": "El humedal filtra el agua.",
+          "en": "The wetland filters the water."
+        }
+      },
+      {
+        "word": "manglar",
+        "type": "n.m.",
+        "en": "mangrove",
+        "note": "Protege la costa.",
+        "example": {
+          "es": "El manglar protege la costa.",
+          "en": "The mangrove protects the coast."
+        }
+      },
+      {
+        "word": "arrecife",
+        "type": "n.m.",
+        "en": "reef",
+        "note": "Guarda los peces.",
+        "example": {
+          "es": "El arrecife guarda los peces.",
+          "en": "The reef shelters the fish."
+        }
+      },
+      {
+        "word": "reserva natural",
+        "type": "phr.",
+        "en": "nature reserve",
+        "note": "Entre la reserva y el parque.",
+        "example": {
+          "es": "La reserva natural se amplió.",
+          "en": "The nature reserve was extended."
+        }
+      },
+      {
+        "word": "área protegida",
+        "type": "phr.",
+        "en": "protected area",
+        "note": "Necesita guardaparques.",
+        "example": {
+          "es": "Cada área protegida necesita guardaparques.",
+          "en": "Each protected area needs rangers."
+        }
+      },
+      {
+        "word": "parque nacional",
+        "type": "phr.",
+        "en": "national park",
+        "note": "El jaguar cruza al parque.",
+        "example": {
+          "es": "El jaguar volvió al parque nacional.",
+          "en": "The jaguar returned to the national park."
+        }
+      },
+      {
+        "word": "corredor biológico",
+        "type": "phr.",
+        "en": "biological corridor",
+        "note": "Puente verde entre reservas.",
+        "example": {
+          "es": "Creado el corredor, volvió el jaguar.",
+          "en": "With the corridor created, the jaguar returned."
+        }
+      },
+      {
+        "word": "transición energética",
+        "type": "phr.",
+        "en": "energy transition",
+        "note": "Del petróleo al sol y al viento.",
+        "example": {
+          "es": "El litio promete la transición energética.",
+          "en": "Lithium promises the energy transition."
+        }
+      },
+      {
+        "word": "emergencia climática",
+        "type": "phr.",
+        "en": "climate emergency",
+        "note": "Se declara la emergencia.",
+        "example": {
+          "es": "Se declara la emergencia climática.",
+          "en": "A climate emergency is declared."
+        }
+      },
+      {
+        "word": "huella de carbono",
+        "type": "phr.",
+        "en": "carbon footprint",
+        "note": "Cuánto contaminas.",
+        "example": {
+          "es": "Cuentan su huella de carbono.",
+          "en": "They count their carbon footprint."
+        }
+      },
+      {
+        "word": "bono de carbono",
+        "type": "phr.",
+        "en": "carbon credit",
+        "note": "Pagar para compensar.",
+        "example": {
+          "es": "Compra bonos de carbono.",
+          "en": "He buys carbon credits."
+        }
+      },
+      {
+        "word": "consulta previa",
+        "type": "phr.",
+        "en": "prior consultation",
+        "note": "Derecho indígena: preguntar antes.",
+        "example": {
+          "es": "Exigen la consulta previa.",
+          "en": "They demand prior consultation."
+        }
+      },
+      {
+        "word": "territorio ancestral",
+        "type": "phr.",
+        "en": "ancestral territory",
+        "note": "No se vende.",
+        "example": {
+          "es": "El territorio ancestral no se vende.",
+          "en": "Ancestral territory is not for sale."
+        }
+      },
+      {
+        "word": "ola de calor",
+        "type": "phr.",
+        "en": "heat wave",
+        "note": "Apagar la ola con árboles.",
+        "example": {
+          "es": "La ola de calor duró semanas.",
+          "en": "The heat wave lasted weeks."
+        }
+      },
+      {
+        "word": "estrés hídrico",
+        "type": "phr.",
+        "en": "water stress",
+        "note": "Falta agua para la ciudad.",
+        "example": {
+          "es": "La ciudad sufrirá estrés hídrico.",
+          "en": "The city will suffer water stress."
+        }
+      },
+      {
+        "word": "agrotóxico",
+        "type": "n.m.",
+        "en": "agrochemical",
+        "note": "Veneno del monocultivo.",
+        "example": {
+          "es": "Los agrotóxicos queman la tierra.",
+          "en": "Agrochemicals burn the soil."
+        }
+      },
+      {
+        "word": "monocultivo",
+        "type": "n.m.",
+        "en": "monoculture",
+        "note": "Una sola planta, hectáreas.",
+        "example": {
+          "es": "El monocultivo avanza tras la tala.",
+          "en": "Monoculture advances after felling."
+        }
+      },
+      {
+        "word": "aerogenerador",
+        "type": "n.m.",
+        "en": "wind turbine",
+        "note": "Giran en la Patagonia.",
+        "example": {
+          "es": "Los aerogeneradores giran sin parar.",
+          "en": "The wind turbines turn nonstop."
+        }
+      },
+      {
+        "word": "huerto urbano",
+        "type": "phr.",
+        "en": "city garden",
+        "note": "Plantar el huerto en la minga.",
+        "example": {
+          "es": "Plantan el huerto urbano cada sábado.",
+          "en": "They plant the city garden every Saturday."
+        }
+      },
+      {
+        "word": "pago por servicios ambientales",
+        "type": "phr.",
+        "en": "payment for environmental services",
+        "note": "Se paga a quien cuida el bosque.",
+        "ext": true,
+        "example": {
+          "es": "Recibe pago por servicios ambientales.",
+          "en": "He receives payment for environmental services."
+        }
+      },
+      {
+        "word": "deuda ecológica",
+        "type": "phr.",
+        "en": "ecological debt",
+        "note": "Lo que el Norte debe al Sur.",
+        "ext": true,
+        "example": {
+          "es": "Exigen reconocer la deuda ecológica.",
+          "en": "They demand recognition of the ecological debt."
+        }
+      },
+      {
+        "word": "justicia climática",
+        "type": "phr.",
+        "en": "climate justice",
+        "note": "Quien menos contamina, más sufre.",
+        "ext": true,
+        "example": {
+          "es": "Marchan por la justicia climática.",
+          "en": "They march for climate justice."
+        }
+      },
+      {
+        "word": "refugiado climático",
+        "type": "phr.",
+        "en": "climate refugee",
+        "note": "Huye de la inundación, no de la guerra.",
+        "ext": true,
+        "example": {
+          "es": "Será refugiado climático en diez años.",
+          "en": "He will be a climate refugee in ten years."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 76,
+    "title": "Media, technology & disinformation",
+    "words": [
+      {
+        "word": "bulo",
+        "type": "n.m.",
+        "en": "hoax, fake story",
+        "note": "España: bulo. América: noticia falsa.",
+        "example": {
+          "es": "Es un bulo de 2019.",
+          "en": "It's a 2019 hoax."
+        }
+      },
+      {
+        "word": "desinformación",
+        "type": "n.f.",
+        "en": "disinformation",
+        "note": "Mentira con intención.",
+        "example": {
+          "es": "Sin alfabetización, la desinformación vota por ti.",
+          "en": "Without literacy, disinformation votes for you."
+        }
+      },
+      {
+        "word": "verificación",
+        "type": "n.f.",
+        "en": "verification, fact-checking",
+        "note": "El equipo de verificación.",
+        "example": {
+          "es": "La verificación también es quererse.",
+          "en": "Verification is also self-care."
+        }
+      },
+      {
+        "word": "verificador",
+        "type": "n.m.",
+        "en": "fact-checker",
+        "note": "Verificar → verificador.",
+        "example": {
+          "es": "El verificador jefe dictó la regla.",
+          "en": "The chief verifier dictated the rule."
+        }
+      },
+      {
+        "word": "chequeo de datos",
+        "type": "phr.",
+        "en": "fact-check",
+        "note": "Geolocalizan todo.",
+        "example": {
+          "es": "Abren el chequeo de datos.",
+          "en": "They open the fact-check."
+        }
+      },
+      {
+        "word": "algoritmo",
+        "type": "n.m.",
+        "en": "algorithm",
+        "note": "Empuja lo que indigna.",
+        "example": {
+          "es": "El algoritmo no espera.",
+          "en": "The algorithm doesn't wait."
+        }
+      },
+      {
+        "word": "burbuja de filtro",
+        "type": "phr.",
+        "en": "filter bubble",
+        "note": "Solo ves lo que confirma tu sesgo.",
+        "example": {
+          "es": "Vive en su burbuja de filtro.",
+          "en": "He lives in his filter bubble."
+        }
+      },
+      {
+        "word": "cámara de eco",
+        "type": "phr.",
+        "en": "echo chamber",
+        "note": "Todos repiten lo mismo.",
+        "example": {
+          "es": "Eso es la cámara de eco.",
+          "en": "That's the echo chamber."
+        }
+      },
+      {
+        "word": "trol",
+        "type": "n.m.",
+        "en": "troll",
+        "note": "Cobran por mensaje.",
+        "example": {
+          "es": "Los troles cobran por mensaje.",
+          "en": "Trolls are paid per message."
+        }
+      },
+      {
+        "word": "granja de troles",
+        "type": "phr.",
+        "en": "troll farm",
+        "note": "Maquila del insulto.",
+        "example": {
+          "es": "El bulo nació en una granja de troles.",
+          "en": "The hoax originated on a troll farm."
+        }
+      },
+      {
+        "word": "deepfake",
+        "type": "n.m.",
+        "en": "deepfake",
+        "note": "Vídeo falso con IA.",
+        "example": {
+          "es": "El deepfake siguió circulando.",
+          "en": "The deepfake kept circulating."
+        }
+      },
+      {
+        "word": "clickbait",
+        "type": "n.m.",
+        "en": "clickbait",
+        "note": "Titular trampa para clics.",
+        "example": {
+          "es": "El clickbait ya ganó.",
+          "en": "Clickbait already won."
+        }
+      },
+      {
+        "word": "discurso de odio",
+        "type": "phr.",
+        "en": "hate speech",
+        "note": "Inunda los comentarios.",
+        "example": {
+          "es": "El discurso de odio inunda todo.",
+          "en": "Hate speech floods everything."
+        }
+      },
+      {
+        "word": "prensa",
+        "type": "n.f.",
+        "en": "press",
+        "note": "La prensa seria verifica.",
+        "example": {
+          "es": "La prensa publicó el desmentido.",
+          "en": "The press published the denial."
+        }
+      },
+      {
+        "word": "portada",
+        "type": "n.f.",
+        "en": "front page",
+        "note": "La portada digital titula…",
+        "example": {
+          "es": "Espero la portada de mañana.",
+          "en": "I'll wait for tomorrow's front page."
+        }
+      },
+      {
+        "word": "redacción",
+        "type": "n.f.",
+        "en": "newsroom",
+        "note": "Hierve en noche electoral.",
+        "example": {
+          "es": "La redacción hierve.",
+          "en": "The newsroom boils."
+        }
+      },
+      {
+        "word": "tertulia",
+        "type": "n.f.",
+        "en": "talk show, round table",
+        "note": "La tertulia discute.",
+        "example": {
+          "es": "La tertulia discute la pauta.",
+          "en": "The talk show discusses the ad money."
+        }
+      },
+      {
+        "word": "pódcast",
+        "type": "n.m.",
+        "en": "podcast",
+        "note": "Con tilde en la o.",
+        "example": {
+          "es": "El pódcast explica con calma.",
+          "en": "The podcast calmly explains."
+        }
+      },
+      {
+        "word": "streaming",
+        "type": "n.m.",
+        "en": "streaming, livestream",
+        "note": "Un streaming de un minuto.",
+        "example": {
+          "es": "La lección cabe en un streaming.",
+          "en": "The lesson fits in a stream."
+        }
+      },
+      {
+        "word": "plataforma",
+        "type": "n.f.",
+        "en": "platform",
+        "note": "Lo empuja a millones.",
+        "example": {
+          "es": "La plataforma lo empuja.",
+          "en": "The platform pushes it."
+        }
+      },
+      {
+        "word": "suscripción",
+        "type": "n.f.",
+        "en": "subscription",
+        "note": "Suscripción al diario.",
+        "example": {
+          "es": "Pide una suscripción a la prensa.",
+          "en": "He asks for a press subscription."
+        }
+      },
+      {
+        "word": "suscriptor",
+        "type": "n.m.",
+        "en": "subscriber",
+        "note": "Cien mil nuevos.",
+        "example": {
+          "es": "Cien mil nuevos suscriptores.",
+          "en": "A hundred thousand new subscribers."
+        }
+      },
+      {
+        "word": "pauta oficial",
+        "type": "phr.",
+        "en": "official advertising money",
+        "note": "LatAm: el gobierno paga anuncios.",
+        "example": {
+          "es": "Discuten la pauta oficial.",
+          "en": "They discuss official ad money."
+        }
+      },
+      {
+        "word": "influencer",
+        "type": "n.m./f.",
+        "en": "influencer",
+        "note": "Pide perdón ante millones.",
+        "example": {
+          "es": "El influencer lo compartió.",
+          "en": "The influencer shared it."
+        }
+      },
+      {
+        "word": "seguidor",
+        "type": "n.m.",
+        "en": "follower",
+        "note": "Tres millones de seguidores.",
+        "example": {
+          "es": "Ante tres millones de seguidores.",
+          "en": "Before three million followers."
+        }
+      },
+      {
+        "word": "cadena de WhatsApp",
+        "type": "phr.",
+        "en": "WhatsApp chain message",
+        "note": "Reenviada sin leer.",
+        "example": {
+          "es": "No reenvíes la cadena.",
+          "en": "Don't forward the chain."
+        }
+      },
+      {
+        "word": "lista de difusión",
+        "type": "phr.",
+        "en": "broadcast list",
+        "note": "El tío reenvía a la lista.",
+        "example": {
+          "es": "Lo vi en tres listas de difusión.",
+          "en": "I saw it on three broadcast lists."
+        }
+      },
+      {
+        "word": "noticia falsa",
+        "type": "phr.",
+        "en": "fake news story",
+        "note": "América: noticia falsa.",
+        "example": {
+          "es": "Muestra urnas llenas de noticias falsas.",
+          "en": "It shows boxes full of fake news."
+        }
+      },
+      {
+        "word": "teoría conspirativa",
+        "type": "phr.",
+        "en": "conspiracy theory",
+        "note": "Muta rapidísimo.",
+        "example": {
+          "es": "La teoría muta más rápido.",
+          "en": "The theory mutates faster."
+        }
+      },
+      {
+        "word": "negacionismo",
+        "type": "n.m.",
+        "en": "denialism",
+        "note": "Negar lo evidente.",
+        "example": {
+          "es": "El negacionismo inunda todo.",
+          "en": "Denialism floods everything."
+        }
+      },
+      {
+        "word": "sesgo",
+        "type": "n.m.",
+        "en": "bias",
+        "note": "Tu sesgo hace el resto.",
+        "example": {
+          "es": "Solo ve lo que confirma su sesgo.",
+          "en": "He only sees what confirms his bias."
+        }
+      },
+      {
+        "word": "sesgo de confirmación",
+        "type": "phr.",
+        "en": "confirmation bias",
+        "note": "Buscar solo lo que ya crees.",
+        "example": {
+          "es": "Es puro sesgo de confirmación.",
+          "en": "It's pure confirmation bias."
+        }
+      },
+      {
+        "word": "alfabetización mediática",
+        "type": "phr.",
+        "en": "media literacy",
+        "note": "Pausa antes de reenviar.",
+        "example": {
+          "es": "Falta alfabetización mediática.",
+          "en": "Media literacy is lacking."
+        }
+      },
+      {
+        "word": "rueda de prensa",
+        "type": "phr.",
+        "en": "press conference",
+        "note": "En directo.",
+        "example": {
+          "es": "Da una rueda de prensa.",
+          "en": "He holds a press conference."
+        }
+      },
+      {
+        "word": "nota de prensa",
+        "type": "phr.",
+        "en": "press release",
+        "note": "Tres líneas oficiales.",
+        "example": {
+          "es": "Lee una nota de prensa.",
+          "en": "He reads a press release."
+        }
+      },
+      {
+        "word": "exclusiva",
+        "type": "n.f.",
+        "en": "exclusive (story)",
+        "note": "Anuncia una exclusiva.",
+        "example": {
+          "es": "Anuncia una exclusiva.",
+          "en": "He announces an exclusive."
+        }
+      },
+      {
+        "word": "primicia",
+        "type": "n.f.",
+        "en": "scoop",
+        "note": "La primicia puede esperar.",
+        "example": {
+          "es": "La primicia puede esperar.",
+          "en": "The scoop can wait."
+        }
+      },
+      {
+        "word": "directo",
+        "type": "n.m.",
+        "en": "live broadcast",
+        "note": "En directo: en antena.",
+        "example": {
+          "es": "Lo vi en un directo.",
+          "en": "I saw it on a livestream."
+        }
+      },
+      {
+        "word": "transmisión en vivo",
+        "type": "phr.",
+        "en": "livestream",
+        "note": "Dos millones la ven.",
+        "example": {
+          "es": "La transmisión la ven dos millones.",
+          "en": "Two million watch the stream."
+        }
+      },
+      {
+        "word": "moderador",
+        "type": "n.m.",
+        "en": "moderator",
+        "note": "Borra mil mensajes por hora.",
+        "example": {
+          "es": "El moderador borra sin parar.",
+          "en": "The moderator deletes nonstop."
+        }
+      },
+      {
+        "word": "periodismo de datos",
+        "type": "phr.",
+        "en": "data journalism",
+        "note": "Cruzar bases de datos.",
+        "ext": true,
+        "example": {
+          "es": "Hacen periodismo de datos.",
+          "en": "They do data journalism."
+        }
+      },
+      {
+        "word": "desmentido",
+        "type": "n.m.",
+        "en": "denial, debunking",
+        "note": "La prensa publica el desmentido.",
+        "ext": true,
+        "example": {
+          "es": "Publican el desmentido a las diez.",
+          "en": "They publish the denial at ten."
+        }
+      },
+      {
+        "word": "rectificación",
+        "type": "n.f.",
+        "en": "correction",
+        "note": "Corregir en público.",
+        "ext": true,
+        "example": {
+          "es": "Exigió una rectificación pública.",
+          "en": "He demanded a public correction."
+        }
+      },
+      {
+        "word": "derecho a réplica",
+        "type": "phr.",
+        "en": "right of reply",
+        "note": "El aludido puede responder.",
+        "ext": true,
+        "example": {
+          "es": "Ejerció su derecho a réplica.",
+          "en": "He exercised his right of reply."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 77,
+    "title": "Gender, feminism & social change",
+    "words": [
+      {
+        "word": "feminicidio",
+        "type": "n.m.",
+        "en": "femicide",
+        "note": "Asesinato por ser mujer.",
+        "example": {
+          "es": "Marchan contra el feminicidio.",
+          "en": "They march against femicide."
+        }
+      },
+      {
+        "word": "machismo",
+        "type": "n.m.",
+        "en": "machismo, sexism",
+        "note": "Que deje de matar.",
+        "example": {
+          "es": "Exigen que el machismo deje de matar.",
+          "en": "They demand machismo stop killing."
+        }
+      },
+      {
+        "word": "patriarcado",
+        "type": "n.m.",
+        "en": "patriarchy",
+        "note": "El sistema que protege asesinos.",
+        "example": {
+          "es": "El patriarcado protege a asesinos.",
+          "en": "Patriarchy protects murderers."
+        }
+      },
+      {
+        "word": "sororidad",
+        "type": "n.f.",
+        "en": "sorority, sisterhood",
+        "note": "La alianza entre mujeres.",
+        "example": {
+          "es": "La sororidad llenó la plaza.",
+          "en": "Sorority filled the square."
+        }
+      },
+      {
+        "word": "paridad",
+        "type": "n.f.",
+        "en": "parity",
+        "note": "Mitad y mitad.",
+        "example": {
+          "es": "La paridad no es favor.",
+          "en": "Parity is not a favour."
+        }
+      },
+      {
+        "word": "aborto",
+        "type": "n.m.",
+        "en": "abortion",
+        "note": "Argentina lo legalizó en 2020.",
+        "example": {
+          "es": "Argentina legalizó el aborto.",
+          "en": "Argentina legalized abortion."
+        }
+      },
+      {
+        "word": "interrupción voluntaria",
+        "type": "phr.",
+        "en": "voluntary interruption (of pregnancy)",
+        "note": "Nombre legal del aborto.",
+        "example": {
+          "es": "Piden la interrupción voluntaria.",
+          "en": "They demand voluntary interruption."
+        }
+      },
+      {
+        "word": "marea verde",
+        "type": "phr.",
+        "en": "green wave",
+        "note": "Por el aborto legal.",
+        "example": {
+          "es": "La marea verde ganó la ley.",
+          "en": "The green wave won the law."
+        }
+      },
+      {
+        "word": "marea morada",
+        "type": "phr.",
+        "en": "purple wave",
+        "note": "España: el 8M.",
+        "example": {
+          "es": "La marea morada paró el país.",
+          "en": "The purple tide stopped the country."
+        }
+      },
+      {
+        "word": "pañuelo verde",
+        "type": "phr.",
+        "en": "green scarf",
+        "note": "Símbolo de la marea verde.",
+        "example": {
+          "es": "Lleva el pañuelo verde.",
+          "en": "She wears the green scarf."
+        }
+      },
+      {
+        "word": "acoso",
+        "type": "n.m.",
+        "en": "harassment",
+        "note": "Laboral, escolar.",
+        "example": {
+          "es": "Denuncian el acoso laboral.",
+          "en": "They denounce workplace harassment."
+        }
+      },
+      {
+        "word": "acoso callejero",
+        "type": "phr.",
+        "en": "street harassment",
+        "note": "El piropo que asusta.",
+        "example": {
+          "es": "El acoso callejero asusta.",
+          "en": "Street harassment frightens."
+        }
+      },
+      {
+        "word": "consentimiento",
+        "type": "n.m.",
+        "en": "consent",
+        "note": "Sin sí claro, es agresión.",
+        "example": {
+          "es": "Piden que el consentimiento sea ley.",
+          "en": "They ask for consent to become law."
+        }
+      },
+      {
+        "word": "brecha salarial",
+        "type": "phr.",
+        "en": "pay gap",
+        "note": "Mismo trabajo, menos sueldo.",
+        "example": {
+          "es": "La brecha salarial sigue abierta.",
+          "en": "The pay gap remains open."
+        }
+      },
+      {
+        "word": "brecha de género",
+        "type": "phr.",
+        "en": "gender gap",
+        "note": "En dinero, tiempo y poder.",
+        "example": {
+          "es": "La brecha de género no cierra.",
+          "en": "The gender gap doesn't close."
+        }
+      },
+      {
+        "word": "techo de cristal",
+        "type": "phr.",
+        "en": "glass ceiling",
+        "note": "Invisible pero real.",
+        "example": {
+          "es": "El techo frena a las directivas.",
+          "en": "The ceiling stops women executives."
+        }
+      },
+      {
+        "word": "suelo pegajoso",
+        "type": "phr.",
+        "en": "sticky floor",
+        "note": "Atrapa a las que limpian.",
+        "example": {
+          "es": "El suelo atrapa a las precarias.",
+          "en": "The floor traps precarious women."
+        }
+      },
+      {
+        "word": "corresponsabilidad",
+        "type": "n.f.",
+        "en": "shared responsibility (care)",
+        "note": "Repartir los cuidados.",
+        "example": {
+          "es": "La corresponsabilidad empieza en casa.",
+          "en": "Co-responsibility starts at home."
+        }
+      },
+      {
+        "word": "permiso de paternidad",
+        "type": "phr.",
+        "en": "paternity leave",
+        "note": "Igual e intransferible.",
+        "example": {
+          "es": "Pidió su permiso de paternidad.",
+          "en": "He requested his paternity leave."
+        }
+      },
+      {
+        "word": "licencia de maternidad",
+        "type": "phr.",
+        "en": "maternity leave",
+        "note": "LatAm: licencia.",
+        "example": {
+          "es": "La licencia sostiene el cuidado.",
+          "en": "The leave sustains care."
+        }
+      },
+      {
+        "word": "divorcio",
+        "type": "n.m.",
+        "en": "divorce",
+        "note": "Divorcio libre y rápido.",
+        "example": {
+          "es": "Hay divorcio libre.",
+          "en": "There is free divorce."
+        }
+      },
+      {
+        "word": "matrimonio",
+        "type": "n.m.",
+        "en": "marriage",
+        "note": "Ya no es destino obligatorio.",
+        "example": {
+          "es": "El matrimonio no es destino.",
+          "en": "Marriage is not destiny."
+        }
+      },
+      {
+        "word": "matrimonio igualitario",
+        "type": "phr.",
+        "en": "equal (same-sex) marriage",
+        "note": "Argentina 2010, pionera.",
+        "example": {
+          "es": "Defienden el matrimonio igualitario.",
+          "en": "They defend equal marriage."
+        }
+      },
+      {
+        "word": "unión libre",
+        "type": "phr.",
+        "en": "free union, cohabitation",
+        "note": "Sin papeles.",
+        "example": {
+          "es": "Viven en unión libre.",
+          "en": "They live in free union."
+        }
+      },
+      {
+        "word": "adopción",
+        "type": "n.f.",
+        "en": "adoption",
+        "note": "También homoparental.",
+        "example": {
+          "es": "La adopción es un derecho.",
+          "en": "Adoption is a right."
+        }
+      },
+      {
+        "word": "custodia compartida",
+        "type": "phr.",
+        "en": "shared custody",
+        "note": "Los hijos, con los dos.",
+        "example": {
+          "es": "Piden la custodia compartida.",
+          "en": "They ask for shared custody."
+        }
+      },
+      {
+        "word": "guardería",
+        "type": "n.f.",
+        "en": "nursery, daycare",
+        "note": "Pública: sostiene el cuidado.",
+        "example": {
+          "es": "La guardería pública sostiene todo.",
+          "en": "Public nursery sustains everything."
+        }
+      },
+      {
+        "word": "lactancia",
+        "type": "n.f.",
+        "en": "breastfeeding",
+        "note": "Protegida en el trabajo.",
+        "example": {
+          "es": "La lactancia protegida ayuda.",
+          "en": "Protected breastfeeding helps."
+        }
+      },
+      {
+        "word": "pobreza menstrual",
+        "type": "phr.",
+        "en": "period poverty",
+        "note": "Sin productos básicos.",
+        "example": {
+          "es": "La pobreza menstrual entró en agenda.",
+          "en": "Period poverty entered the agenda."
+        }
+      },
+      {
+        "word": "pensión de viudez",
+        "type": "phr.",
+        "en": "widow's pension",
+        "note": "Entró en la agenda.",
+        "example": {
+          "es": "Defienden la pensión de viudez.",
+          "en": "They defend the widow's pension."
+        }
+      },
+      {
+        "word": "micromachismo",
+        "type": "n.m.",
+        "en": "everyday small machismo",
+        "note": "Interrumpir, mandar callar.",
+        "example": {
+          "es": "Ningún micromachismo pasa de largo.",
+          "en": "No small machismo slips by."
+        }
+      },
+      {
+        "word": "empoderamiento",
+        "type": "n.m.",
+        "en": "empowerment",
+        "note": "Poder repartido.",
+        "example": {
+          "es": "El empoderamiento no es moda.",
+          "en": "Empowerment is not fashion."
+        }
+      },
+      {
+        "word": "economía del cuidado",
+        "type": "phr.",
+        "en": "care economy",
+        "note": "Guarderías y licencias.",
+        "example": {
+          "es": "La economía del cuidado sostiene todo.",
+          "en": "The care economy sustains everything."
+        }
+      },
+      {
+        "word": "trabajo de cuidados",
+        "type": "phr.",
+        "en": "care work",
+        "note": "Invisible y sin sueldo.",
+        "example": {
+          "es": "El trabajo de cuidados no se paga.",
+          "en": "Care work is not paid."
+        }
+      },
+      {
+        "word": "doble jornada",
+        "type": "phr.",
+        "en": "double shift",
+        "note": "Oficina y casa.",
+        "example": {
+          "es": "Hace la doble jornada.",
+          "en": "She works the double shift."
+        }
+      },
+      {
+        "word": "Ni Una Menos",
+        "type": "phr.",
+        "en": "Not One Less (movement)",
+        "note": "Argentina 2015.",
+        "example": {
+          "es": "Ni Una Menos llenó la plaza.",
+          "en": "Not One Less filled the square."
+        }
+      },
+      {
+        "word": "8M",
+        "type": "phr.",
+        "en": "8 March (Women's Day)",
+        "note": "El 8M para el país.",
+        "example": {
+          "es": "El 8M paró el país.",
+          "en": "8 March stopped the country."
+        }
+      },
+      {
+        "word": "punto violeta",
+        "type": "phr.",
+        "en": "purple point (anti-harassment stand)",
+        "note": "En fiestas: ayuda.",
+        "example": {
+          "es": "El punto violeta abre a las diez.",
+          "en": "The purple point opens at ten."
+        }
+      },
+      {
+        "word": "ley de paridad",
+        "type": "phr.",
+        "en": "parity law",
+        "note": "México: mitad y mitad.",
+        "example": {
+          "es": "México aprobó la ley de paridad.",
+          "en": "Mexico passed the parity law."
+        }
+      },
+      {
+        "word": "ministra",
+        "type": "n.f.",
+        "en": "woman minister",
+        "note": "Donde no había ninguna.",
+        "example": {
+          "es": "Hay ministras por primera vez.",
+          "en": "There are women ministers for the first time."
+        }
+      },
+      {
+        "word": "la Manada",
+        "type": "phr.",
+        "en": "the Wolf Pack (2016 case)",
+        "note": "España: el juicio indignó al país.",
+        "ext": true,
+        "example": {
+          "es": "El caso de la Manada cambió la ley.",
+          "en": "The Wolf Pack case changed the law."
+        }
+      },
+      {
+        "word": "Solo sí es sí",
+        "type": "phr.",
+        "en": "Only yes is yes (law)",
+        "note": "España 2022: consentimiento.",
+        "ext": true,
+        "example": {
+          "es": "El Solo sí es sí puso el sí en la ley.",
+          "en": "Only-yes-means-yes put yes in the law."
+        }
+      },
+      {
+        "word": "huelga feminista",
+        "type": "phr.",
+        "en": "feminist strike",
+        "note": "8M 2018 en España.",
+        "ext": true,
+        "example": {
+          "es": "La huelga feminista paró todo.",
+          "en": "The feminist strike stopped everything."
+        }
+      },
+      {
+        "word": "carga mental",
+        "type": "phr.",
+        "en": "mental load",
+        "note": "Pensar en todo siempre.",
+        "ext": true,
+        "example": {
+          "es": "La carga mental no se ve.",
+          "en": "The mental load can't be seen."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 78,
+    "title": "Science & health in the Spanish-speaking world",
+    "words": [
+      {
+        "word": "vacuna",
+        "type": "n.f.",
+        "en": "vaccine",
+        "note": "Sale en caja azul.",
+        "example": {
+          "es": "La vacuna no puede calentarse.",
+          "en": "The vaccine cannot warm up."
+        }
+      },
+      {
+        "word": "cadena de frío",
+        "type": "phr.",
+        "en": "cold chain",
+        "note": "No romperse ni una hora.",
+        "example": {
+          "es": "La cadena de frío subió al desierto.",
+          "en": "The cold chain climbed to the desert."
+        }
+      },
+      {
+        "word": "contagio",
+        "type": "n.m.",
+        "en": "contagion, infection",
+        "note": "Cortar el contagio.",
+        "example": {
+          "es": "El contagio se corta casa por casa.",
+          "en": "Contagion is cut house by house."
+        }
+      },
+      {
+        "word": "mascarilla",
+        "type": "n.f.",
+        "en": "mask",
+        "note": "Llegó para quedarse.",
+        "example": {
+          "es": "La mascarilla llegó para quedarse.",
+          "en": "The mask came to stay."
+        }
+      },
+      {
+        "word": "cuarentena",
+        "type": "n.f.",
+        "en": "quarantine",
+        "note": "La cuarentena funcionó.",
+        "example": {
+          "es": "La cuarentena funcionó en el pueblo.",
+          "en": "Quarantine worked in the village."
+        }
+      },
+      {
+        "word": "confinamiento",
+        "type": "n.m.",
+        "en": "lockdown",
+        "note": "Cerró los mercados.",
+        "example": {
+          "es": "El confinamiento cerró todo.",
+          "en": "Lockdown closed everything."
+        }
+      },
+      {
+        "word": "telemedicina",
+        "type": "n.f.",
+        "en": "telemedicine",
+        "note": "Atiende por vídeo.",
+        "example": {
+          "es": "La telemedicina no toca, pero escucha.",
+          "en": "Telemedicine doesn't touch, but it listens."
+        }
+      },
+      {
+        "word": "atención primaria",
+        "type": "phr.",
+        "en": "primary care",
+        "note": "Primera puerta del sistema.",
+        "example": {
+          "es": "La atención primaria viaja por antena.",
+          "en": "Primary care travels by antenna."
+        }
+      },
+      {
+        "word": "cobertura universal",
+        "type": "phr.",
+        "en": "universal coverage",
+        "note": "Salud para todos.",
+        "example": {
+          "es": "La cobertura universal empieza en mi puerta.",
+          "en": "Universal coverage starts at my door."
+        }
+      },
+      {
+        "word": "clínica",
+        "type": "n.f.",
+        "en": "clinic",
+        "note": "La clínica flotante.",
+        "example": {
+          "es": "Se vacuna en la clínica flotante.",
+          "en": "Vaccination happens at the floating clinic."
+        }
+      },
+      {
+        "word": "médico",
+        "type": "n.m./f.",
+        "en": "doctor",
+        "note": "Anota el lote.",
+        "example": {
+          "es": "El médico anota el lote.",
+          "en": "The doctor notes the batch."
+        }
+      },
+      {
+        "word": "enfermera",
+        "type": "n.f.",
+        "en": "nurse",
+        "note": "Espera con historias clínicas.",
+        "example": {
+          "es": "La enfermera espera en el puerto.",
+          "en": "The nurse waits at the port."
+        }
+      },
+      {
+        "word": "matrona",
+        "type": "n.f.",
+        "en": "midwife",
+        "note": "Calma a los bebés.",
+        "example": {
+          "es": "La matrona calma a los bebés.",
+          "en": "The midwife calms the babies."
+        }
+      },
+      {
+        "word": "salubrista",
+        "type": "n.m./f.",
+        "en": "public-health specialist",
+        "note": "Piensa en poblaciones.",
+        "example": {
+          "es": "El salubrista fumiga antes de la lluvia.",
+          "en": "The specialist fumigates before the rain."
+        }
+      },
+      {
+        "word": "promotor de salud",
+        "type": "phr.",
+        "en": "community health worker",
+        "note": "Casa por casa.",
+        "example": {
+          "es": "El promotor lleva la salud casa por casa.",
+          "en": "The promoter carries health house by house."
+        }
+      },
+      {
+        "word": "epidemia",
+        "type": "n.f.",
+        "en": "epidemic",
+        "note": "Deja una lección.",
+        "example": {
+          "es": "Cada epidemia deja una lección.",
+          "en": "Each epidemic leaves a lesson."
+        }
+      },
+      {
+        "word": "pandemia",
+        "type": "n.f.",
+        "en": "pandemic",
+        "note": "Cerró todo.",
+        "example": {
+          "es": "En la pandemia cerró todo.",
+          "en": "In the pandemic everything closed."
+        }
+      },
+      {
+        "word": "endemia",
+        "type": "n.f.",
+        "en": "endemic presence",
+        "note": "Siempre está.",
+        "example": {
+          "es": "El dengue es endemia tropical.",
+          "en": "Dengue is a tropical endemic."
+        }
+      },
+      {
+        "word": "dengue",
+        "type": "n.m.",
+        "en": "dengue",
+        "note": "Del mosquito.",
+        "example": {
+          "es": "Fumigan contra el dengue.",
+          "en": "They fumigate against dengue."
+        }
+      },
+      {
+        "word": "chikungunya",
+        "type": "n.f.",
+        "en": "chikungunya",
+        "note": "Fiebre tropical.",
+        "example": {
+          "es": "La chikungunya vuelve cada año.",
+          "en": "Chikungunya returns every year."
+        }
+      },
+      {
+        "word": "chagas",
+        "type": "n.m.",
+        "en": "chagas disease",
+        "note": "El mal de la vinchuca.",
+        "example": {
+          "es": "El chagas afecta al corazón.",
+          "en": "Chagas affects the heart."
+        }
+      },
+      {
+        "word": "tuberculosis",
+        "type": "n.f.",
+        "en": "tuberculosis",
+        "note": "Resiste en los cerros.",
+        "example": {
+          "es": "La tuberculosis resiste.",
+          "en": "Tuberculosis resists."
+        }
+      },
+      {
+        "word": "diabetes",
+        "type": "n.f.",
+        "en": "diabetes",
+        "note": "En aumento.",
+        "example": {
+          "es": "La diabetes sigue creciendo.",
+          "en": "Diabetes keeps growing."
+        }
+      },
+      {
+        "word": "obesidad",
+        "type": "n.f.",
+        "en": "obesity",
+        "note": "Con la diabetes.",
+        "example": {
+          "es": "La obesidad crece en la ciudad.",
+          "en": "Obesity grows in the city."
+        }
+      },
+      {
+        "word": "trasplante",
+        "type": "n.m.",
+        "en": "transplant",
+        "note": "Será esta noche.",
+        "example": {
+          "es": "El trasplante será esta noche.",
+          "en": "The transplant will happen tonight."
+        }
+      },
+      {
+        "word": "donante",
+        "type": "n.m./f.",
+        "en": "donor",
+        "note": "Un riñón espera.",
+        "example": {
+          "es": "Un riñón espera donante.",
+          "en": "A kidney awaits a donor."
+        }
+      },
+      {
+        "word": "donación de órganos",
+        "type": "phr.",
+        "en": "organ donation",
+        "note": "La familia la firmó.",
+        "example": {
+          "es": "Firmaron la donación de órganos.",
+          "en": "They signed the organ donation."
+        }
+      },
+      {
+        "word": "genoma",
+        "type": "n.m.",
+        "en": "genome",
+        "note": "Se lee en el laboratorio.",
+        "example": {
+          "es": "Leyeron el genoma del receptor.",
+          "en": "They read the recipient's genome."
+        }
+      },
+      {
+        "word": "edición genética",
+        "type": "phr.",
+        "en": "gene editing",
+        "note": "Podría curar mañana.",
+        "example": {
+          "es": "La edición genética podría curar.",
+          "en": "Gene editing may cure."
+        }
+      },
+      {
+        "word": "telescopio",
+        "type": "n.m.",
+        "en": "telescope",
+        "note": "Abre su ojo de noche.",
+        "example": {
+          "es": "El telescopio abre su ojo.",
+          "en": "The telescope opens its eye."
+        }
+      },
+      {
+        "word": "observatorio",
+        "type": "n.m.",
+        "en": "observatory",
+        "note": "Atacama: capital del cielo.",
+        "example": {
+          "es": "El observatorio duerme de día.",
+          "en": "The observatory sleeps by day."
+        }
+      },
+      {
+        "word": "sismología",
+        "type": "n.f.",
+        "en": "seismology",
+        "note": "Escucha bajo la ciudad.",
+        "example": {
+          "es": "La sismología escucha el suelo.",
+          "en": "Seismology listens to the ground."
+        }
+      },
+      {
+        "word": "vulcanología",
+        "type": "n.f.",
+        "en": "volcanology",
+        "note": "Vigila el volcán.",
+        "example": {
+          "es": "La vulcanología vigila el volcán.",
+          "en": "Volcanology watches the volcano."
+        }
+      },
+      {
+        "word": "alerta sísmica",
+        "type": "phr.",
+        "en": "seismic alert",
+        "note": "Sesenta segundos.",
+        "example": {
+          "es": "La alerta da sesenta segundos.",
+          "en": "The alert gives sixty seconds."
+        }
+      },
+      {
+        "word": "mapa de riesgo",
+        "type": "phr.",
+        "en": "risk map",
+        "note": "En la escuela.",
+        "example": {
+          "es": "Cada pueblo tiene su mapa de riesgo.",
+          "en": "Each village has its risk map."
+        }
+      },
+      {
+        "word": "ola de contagios",
+        "type": "phr.",
+        "en": "wave of infections",
+        "note": "Así se cortó.",
+        "example": {
+          "es": "Así se cortó la ola de contagios.",
+          "en": "That is how the wave was cut."
+        }
+      },
+      {
+        "word": "inmunidad de rebaño",
+        "type": "phr.",
+        "en": "herd immunity",
+        "note": "Protege a todos.",
+        "example": {
+          "es": "La inmunidad de rebaño protege.",
+          "en": "Herd immunity protects."
+        }
+      },
+      {
+        "word": "variante",
+        "type": "n.f.",
+        "en": "variant",
+        "note": "La nueva podría llegar.",
+        "example": {
+          "es": "La variante nueva podría llegar.",
+          "en": "The new variant may arrive."
+        }
+      },
+      {
+        "word": "rastreo de contactos",
+        "type": "phr.",
+        "en": "contact tracing",
+        "note": "Se rastrearon.",
+        "example": {
+          "es": "El rastreo cortó la ola.",
+          "en": "Tracing cut the wave."
+        }
+      },
+      {
+        "word": "historia clínica",
+        "type": "phr.",
+        "en": "medical record",
+        "note": "De cada niño.",
+        "example": {
+          "es": "Traiga su historia clínica.",
+          "en": "Bring your medical record."
+        }
+      },
+      {
+        "word": "ARN mensajero",
+        "type": "phr.",
+        "en": "messenger RNA",
+        "note": "Tecnología de vacunas COVID.",
+        "ext": true,
+        "example": {
+          "es": "Usa ARN mensajero.",
+          "en": "It uses messenger RNA."
+        }
+      },
+      {
+        "word": "ensayo clínico",
+        "type": "phr.",
+        "en": "clinical trial",
+        "note": "Primero pocos, luego miles.",
+        "ext": true,
+        "example": {
+          "es": "Pasó el ensayo clínico.",
+          "en": "It passed the clinical trial."
+        }
+      },
+      {
+        "word": "medicina intercultural",
+        "type": "phr.",
+        "en": "intercultural medicine",
+        "note": "Médicos y curanderos juntos.",
+        "ext": true,
+        "example": {
+          "es": "Practican medicina intercultural.",
+          "en": "They practise intercultural medicine."
+        }
+      },
+      {
+        "word": "parto vertical",
+        "type": "phr.",
+        "en": "vertical (upright) birth",
+        "note": "Andes: parir de pie.",
+        "ext": true,
+        "example": {
+          "es": "Eligió el parto vertical.",
+          "en": "She chose upright birth."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 79,
+    "title": "Global Hispanic: diaspora & Spanish in the US",
+    "words": [
+      {
+        "word": "diáspora",
+        "type": "n.f.",
+        "en": "diaspora",
+        "note": "La diáspora ya es casa.",
+        "example": {
+          "es": "La diáspora ya es casa.",
+          "en": "The diaspora is home now."
+        }
+      },
+      {
+        "word": "hispano",
+        "type": "n.m./adj.",
+        "en": "Hispanic",
+        "note": "60 millones en EE. UU.",
+        "example": {
+          "es": "El hispano de turno pide café.",
+          "en": "The Hispanic on shift orders coffee."
+        }
+      },
+      {
+        "word": "latino",
+        "type": "n.m./adj.",
+        "en": "Latino",
+        "note": "Identidad nueva.",
+        "example": {
+          "es": "Ser latino es identidad nueva.",
+          "en": "Being Latino is a new identity."
+        }
+      },
+      {
+        "word": "latinidad",
+        "type": "n.f.",
+        "en": "latinidad (shared Latino identity)",
+        "note": "Tres acentos, una latinidad.",
+        "example": {
+          "es": "Comparten una misma latinidad.",
+          "en": "They share one same latinidad."
+        }
+      },
+      {
+        "word": "dreamer",
+        "type": "n.m./f.",
+        "en": "dreamer",
+        "note": "Llegó de niño.",
+        "example": {
+          "es": "Su hermano es dreamer.",
+          "en": "Her brother is a dreamer."
+        }
+      },
+      {
+        "word": "DACA",
+        "type": "n.m.",
+        "en": "DACA (deferred action)",
+        "note": "Permite estudiar. Se renueva.",
+        "example": {
+          "es": "El DACA le permite estudiar.",
+          "en": "DACA lets him study."
+        }
+      },
+      {
+        "word": "TPS",
+        "type": "n.m.",
+        "en": "TPS (temporary protected status)",
+        "note": "Protección temporal.",
+        "example": {
+          "es": "El TPS protege a miles.",
+          "en": "TPS protects thousands."
+        }
+      },
+      {
+        "word": "asilado",
+        "type": "n.m.",
+        "en": "asylee",
+        "note": "Pidió asilo y lo logró.",
+        "example": {
+          "es": "Hoy es asilado.",
+          "en": "Today he is an asylee."
+        }
+      },
+      {
+        "word": "indocumentado",
+        "type": "adj./n.m.",
+        "en": "undocumented",
+        "note": "Sin papeles.",
+        "example": {
+          "es": "El vecino sigue indocumentado.",
+          "en": "The neighbour remains undocumented."
+        }
+      },
+      {
+        "word": "sin papeles",
+        "type": "phr.",
+        "en": "without papers",
+        "note": "Con miedo al control.",
+        "example": {
+          "es": "Vive sin papeles.",
+          "en": "He lives without papers."
+        }
+      },
+      {
+        "word": "regreso",
+        "type": "n.m.",
+        "en": "return",
+        "note": "El abuelo soñó el regreso.",
+        "example": {
+          "es": "Soñó el regreso toda la vida.",
+          "en": "He dreamed of return all his life."
+        }
+      },
+      {
+        "word": "segunda generación",
+        "type": "phr.",
+        "en": "second generation",
+        "note": "Ni de aquí ni de allá.",
+        "example": {
+          "es": "Habla la segunda generación.",
+          "en": "The second generation speaks."
+        }
+      },
+      {
+        "word": "hablante de herencia",
+        "type": "phr.",
+        "en": "heritage speaker",
+        "note": "Entiende todo, escribe a medias.",
+        "example": {
+          "es": "Son hablantes de herencia.",
+          "en": "They are heritage speakers."
+        }
+      },
+      {
+        "word": "quinceañera",
+        "type": "n.f.",
+        "en": "quinceañera (15th party)",
+        "note": "Vestido, vals, cien invitados.",
+        "example": {
+          "es": "Ensaya su quinceañera.",
+          "en": "She rehearses her quinceañera."
+        }
+      },
+      {
+        "word": "bodega",
+        "type": "n.f.",
+        "en": "bodega (corner shop)",
+        "note": "Nueva York: la esquina.",
+        "example": {
+          "es": "La bodega huele a café.",
+          "en": "The bodega smells of coffee."
+        }
+      },
+      {
+        "word": "taquería",
+        "type": "n.f.",
+        "en": "taqueria",
+        "note": "Tacos al pastor.",
+        "example": {
+          "es": "La taquería abre temprano.",
+          "en": "The taqueria opens early."
+        }
+      },
+      {
+        "word": "lonchera",
+        "type": "n.f.",
+        "en": "food truck",
+        "note": "Del inglés lunch.",
+        "example": {
+          "es": "Comen tacos de la lonchera.",
+          "en": "They eat food-truck tacos."
+        }
+      },
+      {
+        "word": "corrido",
+        "type": "n.m.",
+        "en": "corrido (ballad)",
+        "note": "Crónica cantada.",
+        "example": {
+          "es": "De la cocina sale un corrido.",
+          "en": "A corrido comes from the kitchen."
+        }
+      },
+      {
+        "word": "corrido tumbado",
+        "type": "phr.",
+        "en": "corrido tumbado (trap-corrido)",
+        "note": "Con trap.",
+        "example": {
+          "es": "Prefiere el corrido tumbado.",
+          "en": "He prefers corrido tumbado."
+        }
+      },
+      {
+        "word": "banda",
+        "type": "n.f.",
+        "en": "banda (brass band)",
+        "note": "Vientos y tambora.",
+        "example": {
+          "es": "La banda paga la renta.",
+          "en": "The banda pays the rent."
+        }
+      },
+      {
+        "word": "música norteña",
+        "type": "phr.",
+        "en": "norteña music",
+        "note": "Acordeón y bajo sexto.",
+        "example": {
+          "es": "Pide música norteña.",
+          "en": "He requests norteña music."
+        }
+      },
+      {
+        "word": "censo",
+        "type": "n.m.",
+        "en": "census",
+        "note": "Cada diez años.",
+        "example": {
+          "es": "El censo los cuenta.",
+          "en": "The census counts them."
+        }
+      },
+      {
+        "word": "estadounidense",
+        "type": "n.m./f./adj.",
+        "en": "American (US)",
+        "note": "Formal: no americano.",
+        "example": {
+          "es": "Invitados estadounidenses.",
+          "en": "American guests."
+        }
+      },
+      {
+        "word": "condado",
+        "type": "n.m.",
+        "en": "county",
+        "note": "El voto en cada condado.",
+        "example": {
+          "es": "Calculan el voto por condado.",
+          "en": "They calculate the vote by county."
+        }
+      },
+      {
+        "word": "distrito escolar",
+        "type": "phr.",
+        "en": "school district",
+        "note": "Inscribir a los niños.",
+        "example": {
+          "es": "Es nuevo en el distrito.",
+          "en": "He is new in the district."
+        }
+      },
+      {
+        "word": "lowrider",
+        "type": "n.m.",
+        "en": "lowrider (custom car)",
+        "note": "Chicano: coche bajito que brinca.",
+        "example": {
+          "es": "Un lowrider brinca en el mural.",
+          "en": "A lowrider bounces in the mural."
+        }
+      },
+      {
+        "word": "Cinco de Mayo",
+        "type": "phr.",
+        "en": "Cinco de Mayo",
+        "note": "Puebla, 1862. Todos bailan.",
+        "example": {
+          "es": "Van al Cinco de Mayo.",
+          "en": "They go to Cinco de Mayo."
+        }
+      },
+      {
+        "word": "Mes de la Herencia",
+        "type": "phr.",
+        "en": "Heritage Month",
+        "note": "Octubre.",
+        "example": {
+          "es": "En octubre, el Mes de la Herencia.",
+          "en": "In October, Heritage Month."
+        }
+      },
+      {
+        "word": "che",
+        "type": "interj.",
+        "en": "che (hey, mate)",
+        "note": "Argentina/Uruguay.",
+        "example": {
+          "es": "Che, pasame la pelota.",
+          "en": "Che, pass me the ball."
+        }
+      },
+      {
+        "word": "vale",
+        "type": "interj.",
+        "en": "vale (OK, Spain)",
+        "note": "España.",
+        "example": {
+          "es": "Vale, ahora voy.",
+          "en": "OK, coming now."
+        }
+      },
+      {
+        "word": "órale",
+        "type": "interj.",
+        "en": "órale (wow/come on, Mexico)",
+        "note": "México.",
+        "example": {
+          "es": "Órale, qué golazo.",
+          "en": "Wow, what a goal."
+        }
+      },
+      {
+        "word": "qué onda",
+        "type": "phr.",
+        "en": "what's up",
+        "note": "Saludo mexicano.",
+        "example": {
+          "es": "¿Qué onda, bro?",
+          "en": "What's up, bro?"
+        }
+      },
+      {
+        "word": "mola",
+        "type": "v.",
+        "en": "to be cool (Spain)",
+        "note": "España joven.",
+        "example": {
+          "es": "¡Cómo mola tu serie!",
+          "en": "Your series rocks!"
+        }
+      },
+      {
+        "word": "narcocorrido",
+        "type": "n.m.",
+        "en": "narcocorrido (drug ballad)",
+        "note": "Corrido prohibido del narco.",
+        "example": {
+          "es": "El narcocorrido paga la renta.",
+          "en": "The narcocorrido pays the rent."
+        }
+      },
+      {
+        "word": "ciudad santuario",
+        "type": "phr.",
+        "en": "sanctuary city",
+        "note": "No preguntan papeles.",
+        "example": {
+          "es": "Esta es ciudad santuario.",
+          "en": "This is a sanctuary city."
+        }
+      },
+      {
+        "word": "tarjeta verde",
+        "type": "phr.",
+        "en": "green card",
+        "note": "Tarda años.",
+        "example": {
+          "es": "La tarjeta verde tarda años.",
+          "en": "The green card takes years."
+        }
+      },
+      {
+        "word": "ciudadanía",
+        "type": "n.f.",
+        "en": "citizenship",
+        "note": "Tarda más.",
+        "example": {
+          "es": "La ciudadanía tarda más.",
+          "en": "Citizenship takes longer."
+        }
+      },
+      {
+        "word": "sueño americano",
+        "type": "phr.",
+        "en": "American dream",
+        "note": "En formularios.",
+        "example": {
+          "es": "El sueño se mide en formularios.",
+          "en": "The dream is measured in forms."
+        }
+      },
+      {
+        "word": "voto latino",
+        "type": "phr.",
+        "en": "Latino vote",
+        "note": "En cada condado.",
+        "example": {
+          "es": "Calculan el voto latino.",
+          "en": "They calculate the Latino vote."
+        }
+      },
+      {
+        "word": "radio comunitaria",
+        "type": "phr.",
+        "en": "community radio",
+        "note": "En español.",
+        "example": {
+          "es": "La radio informa en español.",
+          "en": "The radio reports in Spanish."
+        }
+      },
+      {
+        "word": "pocho",
+        "type": "n.m./adj.",
+        "en": "pocho (Mexican-American)",
+        "note": "A veces despectivo; muchos lo reivindican.",
+        "ext": true,
+        "example": {
+          "es": "Le dicen pocho con orgullo.",
+          "en": "They call him pocho with pride."
+        }
+      },
+      {
+        "word": "nuyorican",
+        "type": "n.m./f./adj.",
+        "en": "Nuyorican",
+        "note": "Puertorriqueño de Nueva York.",
+        "ext": true,
+        "example": {
+          "es": "Lee poemas nuyorican.",
+          "en": "She reads Nuyorican poems."
+        }
+      },
+      {
+        "word": "chicanismo",
+        "type": "n.m.",
+        "en": "Chicanismo (movement)",
+        "note": "Tierra, lengua y dignidad.",
+        "ext": true,
+        "example": {
+          "es": "El chicanismo defiende la lengua.",
+          "en": "Chicanismo defends the language."
+        }
+      },
+      {
+        "word": "la migra",
+        "type": "phr.",
+        "en": "la migra (immigration police, slang)",
+        "note": "Ahí viene la migra: todos corren.",
+        "ext": true,
+        "example": {
+          "es": "Temen a la migra cada noche.",
+          "en": "They fear la migra every night."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 80,
+    "title": "Consolidation: the contemporary world",
+    "words": [
+      {
+        "word": "encrucijada",
+        "type": "n.f.",
+        "en": "crossroads",
+        "note": "Amanecer en una encrucijada.",
+        "example": {
+          "es": "Amanece en una encrucijada.",
+          "en": "It wakes at a crossroads."
+        }
+      },
+      {
+        "word": "hoja de ruta",
+        "type": "phr.",
+        "en": "roadmap",
+        "note": "El plan paso a paso.",
+        "example": {
+          "es": "Buscan su hoja de ruta.",
+          "en": "They seek their roadmap."
+        }
+      },
+      {
+        "word": "asignatura pendiente",
+        "type": "phr.",
+        "en": "pending homework/task",
+        "note": "Lo que falta.",
+        "example": {
+          "es": "La paridad es asignatura pendiente.",
+          "en": "Parity is pending homework."
+        }
+      },
+      {
+        "word": "punto de inflexión",
+        "type": "phr.",
+        "en": "turning point",
+        "note": "El 2026 fue un punto.",
+        "example": {
+          "es": "Fue un punto de inflexión.",
+          "en": "It was a turning point."
+        }
+      },
+      {
+        "word": "dividendo democrático",
+        "type": "phr.",
+        "en": "democratic dividend",
+        "note": "Vivir mejor por votar.",
+        "example": {
+          "es": "El dividendo tarda, pero llega.",
+          "en": "The dividend is slow, but it arrives."
+        }
+      },
+      {
+        "word": "factura social",
+        "type": "phr.",
+        "en": "social cost/bill",
+        "note": "La transición tiene su factura.",
+        "example": {
+          "es": "Toda transición tiene factura social.",
+          "en": "Every transition has a social bill."
+        }
+      },
+      {
+        "word": "pasar factura",
+        "type": "phr.",
+        "en": "to take its toll, to bill",
+        "note": "Pasará factura.",
+        "example": {
+          "es": "La ingobernabilidad pasará factura.",
+          "en": "Ungovernability will take its toll."
+        }
+      },
+      {
+        "word": "peaje",
+        "type": "n.m.",
+        "en": "toll",
+        "note": "No hay atajo sin peaje.",
+        "example": {
+          "es": "No hay atajo sin peaje.",
+          "en": "There is no shortcut without a toll."
+        }
+      },
+      {
+        "word": "atajo",
+        "type": "n.m.",
+        "en": "shortcut",
+        "note": "Tomar atajos. Sin atajos.",
+        "example": {
+          "es": "Sin atajos: el peaje se paga.",
+          "en": "No shortcuts: the toll is paid."
+        }
+      },
+      {
+        "word": "derrotero",
+        "type": "n.m.",
+        "en": "course, path (maritime)",
+        "note": "Cada país traza su derrotero.",
+        "example": {
+          "es": "Cada país traza su derrotero.",
+          "en": "Each country charts its course."
+        }
+      },
+      {
+        "word": "itinerario",
+        "type": "n.m.",
+        "en": "itinerary, route",
+        "note": "Su itinerario al horizonte.",
+        "example": {
+          "es": "Buscan su itinerario al horizonte.",
+          "en": "They seek their itinerary to the horizon."
+        }
+      },
+      {
+        "word": "horizonte",
+        "type": "n.m.",
+        "en": "horizon",
+        "note": "El horizonte es compartido.",
+        "example": {
+          "es": "El horizonte es compartido.",
+          "en": "The horizon is shared."
+        }
+      },
+      {
+        "word": "tejer alianzas",
+        "type": "phr.",
+        "en": "to weave alliances",
+        "note": "La diáspora teje.",
+        "example": {
+          "es": "La diáspora teje alianzas.",
+          "en": "The diaspora weaves alliances."
+        }
+      },
+      {
+        "word": "relevo generacional",
+        "type": "phr.",
+        "en": "generational handover",
+        "note": "Llegó a todo.",
+        "example": {
+          "es": "Llegó el relevo generacional.",
+          "en": "The generational handover arrived."
+        }
+      },
+      {
+        "word": "semillero",
+        "type": "n.m.",
+        "en": "seedbed (of talent)",
+        "note": "Los parlamentos.",
+        "example": {
+          "es": "Los parlamentos son el semillero.",
+          "en": "Parliaments are the seedbed."
+        }
+      },
+      {
+        "word": "cantera",
+        "type": "n.f.",
+        "en": "talent pool",
+        "note": "Los barrios.",
+        "example": {
+          "es": "Los barrios son la cantera.",
+          "en": "Neighbourhoods are the talent pool."
+        }
+      },
+      {
+        "word": "siembra",
+        "type": "n.f.",
+        "en": "sowing",
+        "note": "Toda siembra…",
+        "example": {
+          "es": "Toda siembra tiene su cosecha.",
+          "en": "Every sowing has its harvest."
+        }
+      },
+      {
+        "word": "enraizar",
+        "type": "v.",
+        "en": "to take root",
+        "note": "Echar raíces.",
+        "example": {
+          "es": "La minga me ayudó a enraizar.",
+          "en": "The minga helped me take root."
+        }
+      },
+      {
+        "word": "pertenencia",
+        "type": "n.f.",
+        "en": "belonging",
+        "note": "Se practica.",
+        "example": {
+          "es": "La pertenencia se practica.",
+          "en": "Belonging is practised."
+        }
+      },
+      {
+        "word": "porvenir",
+        "type": "n.m.",
+        "en": "future (that is to come)",
+        "note": "Formal/literary.",
+        "example": {
+          "es": "Un solo porvenir compartido.",
+          "en": "One shared future."
+        }
+      },
+      {
+        "word": "hispanidad",
+        "type": "n.f.",
+        "en": "Hispanic world/community",
+        "note": "Úsala con cuidado: tiene historia.",
+        "ext": true,
+        "example": {
+          "es": "Celebran la hispanidad.",
+          "en": "They celebrate the Hispanic world."
+        }
+      },
+      {
+        "word": "iberoamericano",
+        "type": "adj.",
+        "en": "Ibero-American",
+        "note": "España + Portugal + LatAm.",
+        "ext": true,
+        "example": {
+          "es": "La Cumbre Iberoamericana.",
+          "en": "The Ibero-American Summit."
+        }
+      },
+      {
+        "word": "panhispanismo",
+        "type": "n.m.",
+        "en": "Pan-Hispanism",
+        "note": "(advanced) Unidad de la lengua.",
+        "ext": true,
+        "example": {
+          "es": "Defiende el panhispanismo.",
+          "en": "He defends Pan-Hispanism."
+        }
+      },
+      {
+        "word": "criollismo",
+        "type": "n.m.",
+        "en": "criollismo (creole identity)",
+        "note": "(advanced) Lo nacido en América.",
+        "ext": true,
+        "example": {
+          "es": "El criollismo pinta lo local.",
+          "en": "Criollismo paints the local."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 81,
+    "title": "Reading strategies: how to read the real world",
+    "words": [
+      {
+        "word": "estrategia",
+        "type": "n.f.",
+        "en": "strategy",
+        "note": "Cognate. Una estrategia de lectura.",
+        "example": {
+          "es": "Leer es una estrategia diaria.",
+          "en": "Reading is a daily strategy."
+        }
+      },
+      {
+        "word": "contexto",
+        "type": "n.m.",
+        "en": "context",
+        "note": "Adivinar por el contexto.",
+        "example": {
+          "es": "El contexto da la primera pista.",
+          "en": "Context gives the first clue."
+        }
+      },
+      {
+        "word": "cognado",
+        "type": "n.m.",
+        "en": "cognate",
+        "note": "Palabras hermanas entre lenguas.",
+        "example": {
+          "es": "Hospital es un cognado.",
+          "en": "Hospital is a cognate."
+        }
+      },
+      {
+        "word": "falso amigo",
+        "type": "phr.",
+        "en": "false friend",
+        "note": "Éxito, actual, sensible.",
+        "example": {
+          "es": "Éxito es un falso amigo.",
+          "en": "Éxito is a false friend."
+        }
+      },
+      {
+        "word": "adivinar",
+        "type": "v.",
+        "en": "to guess",
+        "note": "Adivina y comprueba.",
+        "example": {
+          "es": "Adivina la palabra difícil.",
+          "en": "Guess the difficult word."
+        }
+      },
+      {
+        "word": "comprobar",
+        "type": "v.",
+        "en": "to check, verify",
+        "note": "Comprueba tu idea después.",
+        "example": {
+          "es": "Comprueba tu idea en la frase siguiente.",
+          "en": "Check your idea in the next sentence."
+        }
+      },
+      {
+        "word": "releer",
+        "type": "v.",
+        "en": "to re-read",
+        "note": "Re + leer. La segunda lectura aclara.",
+        "example": {
+          "es": "Relee la frase anterior.",
+          "en": "Re-read the previous sentence."
+        }
+      },
+      {
+        "word": "hojear",
+        "type": "v.",
+        "en": "to flip/leaf through",
+        "note": "Pasar las hojas.",
+        "example": {
+          "es": "Hojea el periódico primero.",
+          "en": "Flip through the paper first."
+        }
+      },
+      {
+        "word": "subrayar",
+        "type": "v.",
+        "en": "to underline",
+        "note": "Subraya poco.",
+        "example": {
+          "es": "Subraya tres palabras por página.",
+          "en": "Underline three words per page."
+        }
+      },
+      {
+        "word": "acepción",
+        "type": "n.f.",
+        "en": "sense (of a word)",
+        "note": "La acepción 2 suele ser la del texto.",
+        "example": {
+          "es": "Lee la segunda acepción.",
+          "en": "Read the second sense."
+        }
+      },
+      {
+        "word": "diccionario",
+        "type": "n.m.",
+        "en": "dictionary",
+        "note": "Viene al final, no al principio.",
+        "example": {
+          "es": "Consulta el diccionario al final.",
+          "en": "Check the dictionary at the end."
+        }
+      },
+      {
+        "word": "atascado",
+        "type": "adj.",
+        "en": "stuck",
+        "note": "Quedarse atascado.",
+        "example": {
+          "es": "Me quedé atascado aquí.",
+          "en": "I got stuck here."
+        }
+      },
+      {
+        "word": "por encima",
+        "type": "phr.",
+        "en": "over, superficially",
+        "note": "Leer por encima.",
+        "example": {
+          "es": "Lee el titular por encima.",
+          "en": "Read the headline over."
+        }
+      },
+      {
+        "word": "en diagonal",
+        "type": "phr.",
+        "en": "skimming",
+        "note": "Buscar datos.",
+        "example": {
+          "es": "Lee en diagonal el párrafo.",
+          "en": "Skim the paragraph."
+        }
+      },
+      {
+        "word": "de un vistazo",
+        "type": "phr.",
+        "en": "at a glance",
+        "note": "Los cognados.",
+        "example": {
+          "es": "Se entiende de un vistazo.",
+          "en": "It is understood at a glance."
+        }
+      },
+      {
+        "word": "vistazo",
+        "type": "n.m.",
+        "en": "glance, look",
+        "note": "Echar un vistazo: mirar rápido.",
+        "example": {
+          "es": "Echa un vistazo a la foto.",
+          "en": "Take a look at the photo."
+        }
+      },
+      {
+        "word": "seguir adelante",
+        "type": "phr.",
+        "en": "to keep going",
+        "note": "Seguir + gerundio.",
+        "example": {
+          "es": "Sigo adelante una página más.",
+          "en": "I keep going one more page."
+        }
+      },
+      {
+        "word": "consultar",
+        "type": "v.",
+        "en": "to consult, look up",
+        "note": "Al final.",
+        "example": {
+          "es": "Consulta el diccionario al final.",
+          "en": "Check the dictionary at the end."
+        }
+      },
+      {
+        "word": "entrada de diccionario",
+        "type": "phr.",
+        "en": "dictionary entry",
+        "note": "Lee el ejemplo primero.",
+        "example": {
+          "es": "La entrada trae tres acepciones.",
+          "en": "The entry has three senses."
+        }
+      },
+      {
+        "word": "filología",
+        "type": "n.f.",
+        "en": "philology",
+        "note": "(advanced) Estudio de textos y lengua.",
+        "ext": true,
+        "example": {
+          "es": "Estudia filología hispánica.",
+          "en": "She studies Hispanic philology."
+        }
+      },
+      {
+        "word": "etimología",
+        "type": "n.f.",
+        "en": "etymology",
+        "note": "De dónde viene una palabra.",
+        "ext": true,
+        "example": {
+          "es": "Busca la etimología.",
+          "en": "Look up the etymology."
+        }
+      },
+      {
+        "word": "sigla",
+        "type": "n.f.",
+        "en": "initialism (letters)",
+        "note": "DACA, ONU: se leen letra a letra.",
+        "ext": true,
+        "example": {
+          "es": "DACA es una sigla.",
+          "en": "DACA is an initialism."
+        }
+      },
+      {
+        "word": "acrónimo",
+        "type": "n.m.",
+        "en": "acronym (read as word)",
+        "note": "TIC, ovni: se leen como palabra.",
+        "ext": true,
+        "example": {
+          "es": "TIC es un acrónimo.",
+          "en": "TIC is an acronym."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 82,
+    "title": "News report: the fire is under control",
+    "words": [
+      {
+        "word": "incendio",
+        "type": "n.m.",
+        "en": "fire",
+        "note": "Incendio forestal: el del monte.",
+        "example": {
+          "es": "Controlado el incendio.",
+          "en": "Fire under control."
+        }
+      },
+      {
+        "word": "bombero",
+        "type": "n.m.",
+        "en": "firefighter",
+        "note": "La bombera, los bomberos.",
+        "example": {
+          "es": "Los bomberos trabajan entre el humo.",
+          "en": "Firefighters work through the smoke."
+        }
+      },
+      {
+        "word": "humo",
+        "type": "n.m.",
+        "en": "smoke",
+        "note": "Entre el humo.",
+        "example": {
+          "es": "Poco humo al amanecer.",
+          "en": "Little smoke at dawn."
+        }
+      },
+      {
+        "word": "desalojar",
+        "type": "v.",
+        "en": "to evacuate (people)",
+        "note": "Se desalojó a 200 vecinos.",
+        "example": {
+          "es": "Se desalojó a 200 vecinos.",
+          "en": "200 residents were evacuated."
+        }
+      },
+      {
+        "word": "evacuado",
+        "type": "adj.",
+        "en": "evacuated",
+        "note": "Por precaución.",
+        "example": {
+          "es": "Siguen evacuados.",
+          "en": "They remain evacuated."
+        }
+      },
+      {
+        "word": "foco",
+        "type": "n.m.",
+        "en": "fire front, hotspot",
+        "note": "Dos focos activos.",
+        "example": {
+          "es": "Dos focos activos al amanecer.",
+          "en": "Two active fronts at dawn."
+        }
+      },
+      {
+        "word": "perímetro",
+        "type": "n.m.",
+        "en": "perimeter",
+        "note": "El perímetro aguanta.",
+        "example": {
+          "es": "El perímetro aguanta.",
+          "en": "The perimeter is holding."
+        }
+      },
+      {
+        "word": "estabilizar",
+        "type": "v.",
+        "en": "to stabilise",
+        "note": "Se estabilizó anoche.",
+        "example": {
+          "es": "El fuego se estabilizó.",
+          "en": "The fire was stabilised."
+        }
+      },
+      {
+        "word": "controlado",
+        "type": "adj.",
+        "en": "under control",
+        "note": "Controlado, que no apagado.",
+        "example": {
+          "es": "Incendio controlado.",
+          "en": "Fire under control."
+        }
+      },
+      {
+        "word": "extinguir",
+        "type": "v.",
+        "en": "to extinguish",
+        "note": "Apagar del todo.",
+        "example": {
+          "es": "Toca extinguir brasas.",
+          "en": "Now to extinguish embers."
+        }
+      },
+      {
+        "word": "daños materiales",
+        "type": "phr.",
+        "en": "material damage",
+        "note": "Sin muertos.",
+        "example": {
+          "es": "Solo daños materiales.",
+          "en": "Only material damage."
+        }
+      },
+      {
+        "word": "herido leve",
+        "type": "phr.",
+        "en": "lightly injured person",
+        "note": "Tres heridos leves.",
+        "example": {
+          "es": "Hay tres heridos leves.",
+          "en": "Three people are lightly injured."
+        }
+      },
+      {
+        "word": "según fuentes",
+        "type": "phr.",
+        "en": "according to sources",
+        "note": "Cita vaga de prensa.",
+        "example": {
+          "es": "Según fuentes del operativo.",
+          "en": "According to operation sources."
+        }
+      },
+      {
+        "word": "operativo",
+        "type": "n.m.",
+        "en": "operation (emergency/police)",
+        "note": "El despliegue coordinado.",
+        "example": {
+          "es": "Fuentes del operativo.",
+          "en": "Operation sources."
+        }
+      },
+      {
+        "word": "parte",
+        "type": "n.m.",
+        "en": "report, bulletin",
+        "note": "El parte de hoy.",
+        "example": {
+          "es": "El parte de hoy es claro.",
+          "en": "Today's report is clear."
+        }
+      },
+      {
+        "word": "alerta",
+        "type": "n.f.",
+        "en": "alert",
+        "note": "Alerta amarilla.",
+        "example": {
+          "es": "Hay alerta amarilla por viento.",
+          "en": "There is a yellow wind alert."
+        }
+      },
+      {
+        "word": "cortafuegos",
+        "type": "n.m.",
+        "en": "firebreak",
+        "note": "Cortar vegetación.",
+        "example": {
+          "es": "Abren un cortafuegos.",
+          "en": "They cut a firebreak."
+        }
+      },
+      {
+        "word": "hidrante",
+        "type": "n.m.",
+        "en": "hydrant",
+        "note": "Cognate.",
+        "ext": true,
+        "example": {
+          "es": "El hidrante de la esquina.",
+          "en": "The hydrant on the corner."
+        }
+      },
+      {
+        "word": "retén",
+        "type": "n.m.",
+        "en": "fire crew on standby",
+        "note": "El equipo que espera.",
+        "ext": true,
+        "example": {
+          "es": "El retén de guardia.",
+          "en": "The standby crew."
+        }
+      },
+      {
+        "word": "piromanía",
+        "type": "n.f.",
+        "en": "pyromania",
+        "note": "(advanced) Nada que ver aquí.",
+        "ext": true,
+        "example": {
+          "es": "No fue piromanía.",
+          "en": "It wasn't arson."
+        }
+      },
+      {
+        "word": "titular de apertura",
+        "type": "phr.",
+        "en": "lead headline",
+        "note": "El que abre el informativo.",
+        "ext": true,
+        "example": {
+          "es": "El titular de apertura.",
+          "en": "The lead headline."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 83,
+    "title": "Opinion column: whose city is it?",
+    "words": [
+      {
+        "word": "postura",
+        "type": "n.f.",
+        "en": "stance, position",
+        "note": "Mi postura es clara.",
+        "example": {
+          "es": "Mi postura es clara.",
+          "en": "My stance is clear."
+        }
+      },
+      {
+        "word": "argumento",
+        "type": "n.m.",
+        "en": "argument",
+        "note": "El primer argumento es de salud.",
+        "example": {
+          "es": "El primer argumento es de salud.",
+          "en": "The first argument is about health."
+        }
+      },
+      {
+        "word": "matiz",
+        "type": "n.m.",
+        "en": "nuance",
+        "note": "Con matices: sin extremos.",
+        "example": {
+          "es": "Peatonalización con matices.",
+          "en": "Pedestrianisation with nuances."
+        }
+      },
+      {
+        "word": "réplica",
+        "type": "n.f.",
+        "en": "reply, rebuttal",
+        "note": "Anticipo la réplica.",
+        "example": {
+          "es": "Anticipo la réplica.",
+          "en": "I anticipate the reply."
+        }
+      },
+      {
+        "word": "a mi juicio",
+        "type": "phr.",
+        "en": "in my judgment",
+        "note": "Marca de postura. Formal.",
+        "example": {
+          "es": "A mi juicio, la pregunta está mal.",
+          "en": "In my judgment, the question is wrong."
+        }
+      },
+      {
+        "word": "es evidente que",
+        "type": "phr.",
+        "en": "it is evident that",
+        "note": "+ indicativo.",
+        "example": {
+          "es": "Es evidente que el coche ganó.",
+          "en": "It is evident the car won."
+        }
+      },
+      {
+        "word": "no es que… sino que…",
+        "type": "phr.",
+        "en": "it's not that… but that…",
+        "note": "Corrige: no A, sino B.",
+        "example": {
+          "es": "No es que sea enemigo, sino que el diseño obliga.",
+          "en": "It's not that he's the enemy, but that design forces him."
+        }
+      },
+      {
+        "word": "cabe preguntarse",
+        "type": "phr.",
+        "en": "one may ask",
+        "note": "Desafío educado.",
+        "example": {
+          "es": "Cabe preguntarse de quién es la calle.",
+          "en": "One may ask whose the street is."
+        }
+      },
+      {
+        "word": "peatonalización",
+        "type": "n.f.",
+        "en": "pedestrianisation",
+        "note": "Calles sin coches.",
+        "example": {
+          "es": "Piden peatonalización con matices.",
+          "en": "They ask for nuanced pedestrianisation."
+        }
+      },
+      {
+        "word": "carril bici",
+        "type": "n.m.",
+        "en": "bike lane",
+        "note": "En LatAm ciclovía, bicisenda.",
+        "example": {
+          "es": "Hay carril bici nuevo.",
+          "en": "There is a new bike lane."
+        }
+      },
+      {
+        "word": "ciclovía",
+        "type": "n.f.",
+        "en": "bike lane (LatAm)",
+        "note": "La palabra americana.",
+        "example": {
+          "es": "La ciclovía de Bogotá.",
+          "en": "Bogotá's bike lane."
+        }
+      },
+      {
+        "word": "calzada",
+        "type": "n.f.",
+        "en": "roadway",
+        "note": "Donde circulan los coches.",
+        "example": {
+          "es": "Repartir la calzada.",
+          "en": "Sharing the roadway."
+        }
+      },
+      {
+        "word": "estacionar",
+        "type": "v.",
+        "en": "to park (LatAm)",
+        "note": "En España aparcar.",
+        "example": {
+          "es": "Estacionar en América.",
+          "en": "To park in America."
+        }
+      },
+      {
+        "word": "hora punta",
+        "type": "phr.",
+        "en": "rush hour",
+        "note": "En LatAm también hora pico.",
+        "example": {
+          "es": "En hora punta el aire pica.",
+          "en": "At rush hour the air stings."
+        }
+      },
+      {
+        "word": "disuasorio",
+        "type": "adj.",
+        "en": "dissuasive, park-and-ride",
+        "note": "Parking disuasorio.",
+        "example": {
+          "es": "Un parking disuasorio convence.",
+          "en": "A park-and-ride convinces."
+        }
+      },
+      {
+        "word": "convivir",
+        "type": "v.",
+        "en": "to live together, coexist",
+        "note": "Convivir es ceder.",
+        "example": {
+          "es": "Convivir es repartir la calle.",
+          "en": "Living together is sharing the street."
+        }
+      },
+      {
+        "word": "ceder el paso",
+        "type": "phr.",
+        "en": "to yield, give way",
+        "note": "Ceder el paso al peatón.",
+        "example": {
+          "es": "Convivir es ceder el paso.",
+          "en": "Living together means yielding."
+        }
+      },
+      {
+        "word": "paso de cebra",
+        "type": "phr.",
+        "en": "zebra crossing",
+        "note": "En México paso peatonal.",
+        "example": {
+          "es": "El paso de cebra lo dice todo.",
+          "en": "The zebra crossing says it all."
+        }
+      },
+      {
+        "word": "editorialista",
+        "type": "n.m./f.",
+        "en": "columnist",
+        "note": "Quien firma la columna.",
+        "ext": true,
+        "example": {
+          "es": "La editorialista firma en tribuna.",
+          "en": "The columnist signs in the op-ed section."
+        }
+      },
+      {
+        "word": "tribuna",
+        "type": "n.f.",
+        "en": "op-ed section",
+        "note": "Opinión del periódico.",
+        "ext": true,
+        "example": {
+          "es": "Lo leí en la tribuna.",
+          "en": "I read it in the op-ed section."
+        }
+      },
+      {
+        "word": "publirreportaje",
+        "type": "n.m.",
+        "en": "advertorial",
+        "note": "Publicidad con forma de artículo.",
+        "ext": true,
+        "example": {
+          "es": "Era un publirreportaje.",
+          "en": "It was an advertorial."
+        }
+      },
+      {
+        "word": "línea editorial",
+        "type": "phr.",
+        "en": "editorial line",
+        "note": "La postura del periódico.",
+        "ext": true,
+        "example": {
+          "es": "Sigue la línea editorial.",
+          "en": "It follows the editorial line."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 84,
+    "title": "Cultural essay: the art of staying at the table",
+    "words": [
+      {
+        "word": "anfitrión",
+        "type": "n.m.",
+        "en": "host",
+        "note": "El que no recoge los platos.",
+        "example": {
+          "es": "El anfitrión propone otro café.",
+          "en": "The host offers another coffee."
+        }
+      },
+      {
+        "word": "brindis",
+        "type": "n.m.",
+        "en": "toast (drinking)",
+        "note": "¡Salud!",
+        "example": {
+          "es": "El brindis ya pasó.",
+          "en": "The toast has passed."
+        }
+      },
+      {
+        "word": "rito",
+        "type": "n.m.",
+        "en": "rite, ritual",
+        "note": "Ese rito tiene nombre viejo.",
+        "example": {
+          "es": "Ese rito tiene un nombre.",
+          "en": "That ritual has a name."
+        }
+      },
+      {
+        "word": "pausa",
+        "type": "n.f.",
+        "en": "pause",
+        "note": "La pausa manda.",
+        "example": {
+          "es": "La pausa manda.",
+          "en": "The pause rules."
+        }
+      },
+      {
+        "word": "permanencia",
+        "type": "n.f.",
+        "en": "permanence, staying",
+        "note": "Aquí estoy bien.",
+        "example": {
+          "es": "La demora es permanencia.",
+          "en": "Lingering is permanence."
+        }
+      },
+      {
+        "word": "demora",
+        "type": "n.f.",
+        "en": "lingering, delay",
+        "note": "No es pereza.",
+        "example": {
+          "es": "La demora no es pereza.",
+          "en": "Lingering is not laziness."
+        }
+      },
+      {
+        "word": "deleite",
+        "type": "n.m.",
+        "en": "delight",
+        "note": "Formal/literary.",
+        "example": {
+          "es": "El deleite de la taza.",
+          "en": "The delight of the cup."
+        }
+      },
+      {
+        "word": "charla amena",
+        "type": "phr.",
+        "en": "pleasant chat",
+        "note": "La sobremesa colombiana.",
+        "example": {
+          "es": "Sigue la charla amena.",
+          "en": "The pleasant chat goes on."
+        }
+      },
+      {
+        "word": "café de olla",
+        "type": "phr.",
+        "en": "Mexican pot coffee",
+        "note": "Con canela y piloncillo.",
+        "example": {
+          "es": "Otro café de olla.",
+          "en": "Another pot coffee."
+        }
+      },
+      {
+        "word": "migajas",
+        "type": "n.f. pl.",
+        "en": "crumbs",
+        "note": "Sobre el mantel.",
+        "example": {
+          "es": "Las migajas sobre el mantel.",
+          "en": "The crumbs on the cloth."
+        }
+      },
+      {
+        "word": "mantel",
+        "type": "n.m.",
+        "en": "tablecloth",
+        "note": "La prueba.",
+        "example": {
+          "es": "Migajas sobre el mantel.",
+          "en": "Crumbs on the tablecloth."
+        }
+      },
+      {
+        "word": "plato hondo",
+        "type": "phr.",
+        "en": "deep plate",
+        "note": "Se comió bien.",
+        "example": {
+          "es": "El plato hondo vacío.",
+          "en": "The empty deep plate."
+        }
+      },
+      {
+        "word": "recalentado",
+        "type": "n.m.",
+        "en": "reheated leftovers (Mex.)",
+        "note": "Sabe mejor al día siguiente.",
+        "example": {
+          "es": "Mañana hay recalentado.",
+          "en": "Tomorrow there are leftovers."
+        }
+      },
+      {
+        "word": "carcajada",
+        "type": "n.f.",
+        "en": "burst of laughter",
+        "note": "Reír fuerte.",
+        "example": {
+          "es": "Suelta una carcajada.",
+          "en": "She bursts into laughter."
+        }
+      },
+      {
+        "word": "comensal",
+        "type": "n.m./f.",
+        "en": "fellow diner, guest",
+        "note": "Cada comensal trae su historia.",
+        "example": {
+          "es": "Cada comensal trae su historia.",
+          "en": "Every diner brings a story."
+        }
+      },
+      {
+        "word": "velada",
+        "type": "n.f.",
+        "en": "evening gathering",
+        "note": "Noche de charla.",
+        "example": {
+          "es": "Una velada larga.",
+          "en": "A long evening."
+        }
+      },
+      {
+        "word": "convite",
+        "type": "n.m.",
+        "en": "feast, banquet",
+        "note": "Formal/literary.",
+        "example": {
+          "es": "Todo convite empieza hablando.",
+          "en": "Every feast begins by talking."
+        }
+      },
+      {
+        "word": "complicidad",
+        "type": "n.f.",
+        "en": "complicity, closeness",
+        "note": "A fuego lento.",
+        "example": {
+          "es": "La complicidad se cocina lento.",
+          "en": "Closeness cooks slowly."
+        }
+      },
+      {
+        "word": "despedida a la francesa",
+        "type": "phr.",
+        "en": "French exit",
+        "note": "Irse sin decir adiós.",
+        "example": {
+          "es": "Nada de despedidas a la francesa.",
+          "en": "No French exits."
+        }
+      },
+      {
+        "word": "ensayismo",
+        "type": "n.m.",
+        "en": "essay writing (genre)",
+        "note": "(advanced) El arte del ensayo.",
+        "ext": true,
+        "example": {
+          "es": "Le gusta el ensayismo.",
+          "en": "He likes essay writing."
+        }
+      },
+      {
+        "word": "costumbrismo",
+        "type": "n.m.",
+        "en": "costumbrismo (customs writing)",
+        "note": "(advanced) Retratar costumbres.",
+        "ext": true,
+        "example": {
+          "es": "El costumbrismo pinta lo local.",
+          "en": "Costumbrismo paints the local."
+        }
+      },
+      {
+        "word": "tertuliano",
+        "type": "n.m.",
+        "en": "talk-show regular",
+        "note": "El que siempre habla.",
+        "ext": true,
+        "example": {
+          "es": "Es un tertuliano famoso.",
+          "en": "He is a famous regular."
+        }
+      },
+      {
+        "word": "sobremesero",
+        "type": "n.m.",
+        "en": "sobremesa lover (playful)",
+        "note": "Inventada: el que nunca se va.",
+        "ext": true,
+        "example": {
+          "es": "Es un sobremesero total.",
+          "en": "He is a total sobremesa lover."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 85,
+    "title": "Short story: the house on the hill",
+    "words": [
+      {
+        "word": "desván",
+        "type": "n.m.",
+        "en": "attic",
+        "note": "En LatAm también ático, altillo.",
+        "example": {
+          "es": "Subió al desván.",
+          "en": "She climbed to the attic."
+        }
+      },
+      {
+        "word": "mecedora",
+        "type": "n.f.",
+        "en": "rocking chair",
+        "note": "La mecedora dormía.",
+        "example": {
+          "es": "La mecedora dormía.",
+          "en": "The rocking chair slept."
+        }
+      },
+      {
+        "word": "crujir",
+        "type": "v.",
+        "en": "to creak",
+        "note": "La madera cruje.",
+        "example": {
+          "es": "La madera empezó a crujir.",
+          "en": "The wood began to creak."
+        }
+      },
+      {
+        "word": "susurrar",
+        "type": "v.",
+        "en": "to whisper",
+        "note": "Etiqueta literaria.",
+        "example": {
+          "es": "Susurró la casa.",
+          "en": "The house whispered."
+        }
+      },
+      {
+        "word": "parpadear",
+        "type": "v.",
+        "en": "to flicker, blink",
+        "note": "Aviso.",
+        "example": {
+          "es": "La bombilla parpadeó.",
+          "en": "The bulb flickered."
+        }
+      },
+      {
+        "word": "postigo",
+        "type": "n.m.",
+        "en": "shutter (window)",
+        "note": "Entornado: medio cerrado.",
+        "example": {
+          "es": "Bajo el postigo entornado.",
+          "en": "Under the half-closed shutter."
+        }
+      },
+      {
+        "word": "pasillo",
+        "type": "n.m.",
+        "en": "corridor, hallway",
+        "note": "Quedó un susurro.",
+        "example": {
+          "es": "En el pasillo quedó un susurro.",
+          "en": "A whisper lingered in the corridor."
+        }
+      },
+      {
+        "word": "susurro",
+        "type": "n.m.",
+        "en": "whisper (noun)",
+        "note": "Susurrar → el susurro.",
+        "example": {
+          "es": "Quedó un susurro.",
+          "en": "A whisper lingered."
+        }
+      },
+      {
+        "word": "antaño",
+        "type": "adv.",
+        "en": "yesteryear, long ago",
+        "note": "Literary.",
+        "example": {
+          "es": "Antaño blanca.",
+          "en": "Once white."
+        }
+      },
+      {
+        "word": "penumbra",
+        "type": "n.f.",
+        "en": "half-light, gloom",
+        "note": "En el recibidor.",
+        "example": {
+          "es": "En la penumbra del recibidor.",
+          "en": "In the half-light of the hall."
+        }
+      },
+      {
+        "word": "telaraña",
+        "type": "n.f.",
+        "en": "cobweb",
+        "note": "Tela de araña.",
+        "example": {
+          "es": "Una telaraña en la esquina.",
+          "en": "A cobweb in the corner."
+        }
+      },
+      {
+        "word": "baúl",
+        "type": "n.m.",
+        "en": "trunk, chest",
+        "note": "La esperaba.",
+        "example": {
+          "es": "El baúl la esperaba.",
+          "en": "The trunk waited for her."
+        }
+      },
+      {
+        "word": "carta amarillenta",
+        "type": "phr.",
+        "en": "yellowed letter",
+        "note": "Que tira a amarillo.",
+        "example": {
+          "es": "Cartas amarillentas atadas.",
+          "en": "Yellowed letters tied up."
+        }
+      },
+      {
+        "word": "solapa",
+        "type": "n.f.",
+        "en": "flap (of envelope)",
+        "note": "Su nombre en la solapa.",
+        "example": {
+          "es": "Su nombre en la solapa.",
+          "en": "Her name on the flap."
+        }
+      },
+      {
+        "word": "escalón",
+        "type": "n.m.",
+        "en": "step (of stairs)",
+        "note": "Siete escalones.",
+        "example": {
+          "es": "Contó los escalones.",
+          "en": "She counted the steps."
+        }
+      },
+      {
+        "word": "pasamanos",
+        "type": "n.m.",
+        "en": "handrail, banister",
+        "note": "Agarrada al pasamanos.",
+        "example": {
+          "es": "Agarrada al pasamanos.",
+          "en": "Holding the handrail."
+        }
+      },
+      {
+        "word": "aldaba",
+        "type": "n.f.",
+        "en": "door knocker",
+        "note": "Golpeó dos veces.",
+        "example": {
+          "es": "Golpeó la aldaba.",
+          "en": "The knocker struck."
+        }
+      },
+      {
+        "word": "umbral",
+        "type": "n.m.",
+        "en": "threshold",
+        "note": "Se detuvo en el umbral.",
+        "example": {
+          "es": "Se detuvo en el umbral.",
+          "en": "She stopped on the threshold."
+        }
+      },
+      {
+        "word": "desempolvar",
+        "type": "v.",
+        "en": "to dust off",
+        "note": "Des- + polvo.",
+        "example": {
+          "es": "Lo desempolvó con la manga.",
+          "en": "She dusted it with her sleeve."
+        }
+      },
+      {
+        "word": "narrador omnisciente",
+        "type": "phr.",
+        "en": "omniscient narrator",
+        "note": "(advanced) El que lo sabe todo.",
+        "ext": true,
+        "example": {
+          "es": "Un narrador omnisciente.",
+          "en": "An omniscient narrator."
+        }
+      },
+      {
+        "word": "flashback",
+        "type": "n.m.",
+        "en": "flashback",
+        "note": "Salto al pasado.",
+        "ext": true,
+        "example": {
+          "es": "Un flashback a la infancia.",
+          "en": "A flashback to childhood."
+        }
+      },
+      {
+        "word": "elipsis",
+        "type": "n.f.",
+        "en": "ellipsis (time skip)",
+        "note": "(advanced) Lo que el relato calla.",
+        "ext": true,
+        "example": {
+          "es": "Una elipsis de veinte años.",
+          "en": "A twenty-year ellipsis."
+        }
+      },
+      {
+        "word": "clímax",
+        "type": "n.m.",
+        "en": "climax",
+        "note": "El punto más tenso.",
+        "ext": true,
+        "example": {
+          "es": "El clímax: la aldaba.",
+          "en": "The climax: the knocker."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 86,
+    "title": "Historical feature: the 1918 flu",
+    "words": [
+      {
+        "word": "telegrama",
+        "type": "n.m.",
+        "en": "telegram",
+        "note": "Dictó un telegrama urgente.",
+        "example": {
+          "es": "Dictó un telegrama a la capital.",
+          "en": "He dictated a telegram to the capital."
+        }
+      },
+      {
+        "word": "fallecer",
+        "type": "v.",
+        "en": "to pass away, die",
+        "note": "Formal. Hoy han fallecido siete.",
+        "example": {
+          "es": "Hoy han fallecido siete personas.",
+          "en": "Today seven people have died."
+        }
+      },
+      {
+        "word": "neutralidad",
+        "type": "n.f.",
+        "en": "neutrality",
+        "note": "España mantenía la neutralidad.",
+        "example": {
+          "es": "España mantenía la neutralidad.",
+          "en": "Spain kept its neutrality."
+        }
+      },
+      {
+        "word": "pabellón",
+        "type": "n.m.",
+        "en": "hospital ward, pavilion",
+        "note": "El pabellón de infecciosos.",
+        "example": {
+          "es": "El pabellón seguía abarrotado.",
+          "en": "The ward was still overcrowded."
+        }
+      },
+      {
+        "word": "abarrotado",
+        "type": "adj.",
+        "en": "overcrowded, packed",
+        "note": "Seguía abarrotado de enfermos.",
+        "example": {
+          "es": "El pabellón estaba abarrotado.",
+          "en": "The ward was packed."
+        }
+      },
+      {
+        "word": "entierro",
+        "type": "n.m.",
+        "en": "burial, funeral",
+        "note": "En LatAm también velorio para la vigilia.",
+        "example": {
+          "es": "Los entierros se hacían de noche.",
+          "en": "Burials were done at night."
+        }
+      },
+      {
+        "word": "toser",
+        "type": "v.",
+        "en": "to cough",
+        "note": "Llegaban tosiendo sin parar.",
+        "example": {
+          "es": "Se oía toser en el pasillo.",
+          "en": "Coughing could be heard in the corridor."
+        }
+      },
+      {
+        "word": "remitir",
+        "type": "v.",
+        "en": "to subside (fever)",
+        "note": "La fiebre no remitía. También: enviar.",
+        "example": {
+          "es": "La fiebre no remitía en días.",
+          "en": "The fever did not subside for days."
+        }
+      },
+      {
+        "word": "provisional",
+        "type": "adj.",
+        "en": "makeshift, temporary",
+        "note": "Camas provisionales en el puerto.",
+        "example": {
+          "es": "Prepararon camas provisionales.",
+          "en": "They prepared makeshift beds."
+        }
+      },
+      {
+        "word": "tinta",
+        "type": "n.f.",
+        "en": "ink",
+        "note": "Escribió con tinta espesa.",
+        "example": {
+          "es": "Escribió con tinta espesa.",
+          "en": "She wrote in thick ink."
+        }
+      },
+      {
+        "word": "fosa",
+        "type": "n.f.",
+        "en": "pit, grave",
+        "note": "Una fosa común: mass grave.",
+        "example": {
+          "es": "Se abrió una fosa común.",
+          "en": "A mass grave was opened."
+        }
+      },
+      {
+        "word": "aislar",
+        "type": "v.",
+        "en": "to isolate",
+        "note": "Aislar a los pasajeros.",
+        "example": {
+          "es": "Hay que aislar a la tripulación.",
+          "en": "The crew must be isolated."
+        }
+      },
+      {
+        "word": "desinfectar",
+        "type": "v.",
+        "en": "to disinfect",
+        "note": "Desinfectar el barco.",
+        "example": {
+          "es": "Desinfectaron cada camarote.",
+          "en": "They disinfected every cabin."
+        }
+      },
+      {
+        "word": "muelle",
+        "type": "n.m.",
+        "en": "pier, dock",
+        "note": "Subió al muelle.",
+        "example": {
+          "es": "El doctor subió al muelle.",
+          "en": "The doctor went to the dock."
+        }
+      },
+      {
+        "word": "tripulación",
+        "type": "n.f.",
+        "en": "crew",
+        "note": "La tripulación presentaba fiebre.",
+        "example": {
+          "es": "La tripulación tenía fiebre alta.",
+          "en": "The crew had high fever."
+        }
+      },
+      {
+        "word": "corresponsal",
+        "type": "n.m./f.",
+        "en": "correspondent",
+        "note": "Un corresponsal en París.",
+        "example": {
+          "es": "Un corresponsal lo explicó así.",
+          "en": "A correspondent explained it like this."
+        }
+      },
+      {
+        "word": "titular",
+        "type": "n.m.",
+        "en": "headline",
+        "note": "Grandes titulares en portada.",
+        "example": {
+          "es": "La prensa publicó grandes titulares.",
+          "en": "The press published big headlines."
+        }
+      },
+      {
+        "word": "trinchera",
+        "type": "n.f.",
+        "en": "trench",
+        "note": "En las trincheras morían miles.",
+        "example": {
+          "es": "En las trincheras morían miles.",
+          "en": "Thousands were dying in the trenches."
+        }
+      },
+      {
+        "word": "oleada",
+        "type": "n.f.",
+        "en": "wave (of epidemic)",
+        "note": "La segunda oleada ya estaba aquí.",
+        "example": {
+          "es": "Llegó la segunda oleada.",
+          "en": "The second wave arrived."
+        }
+      },
+      {
+        "word": "mortandad",
+        "type": "n.f.",
+        "en": "death toll, mortality",
+        "note": "Formal. Contar la mortandad.",
+        "example": {
+          "es": "La mortandad llegó a millones.",
+          "en": "The death toll reached millions."
+        }
+      },
+      {
+        "word": "retaguardia",
+        "type": "n.f.",
+        "en": "home front, rear",
+        "note": "(advanced) Detrás del frente.",
+        "ext": true,
+        "example": {
+          "es": "Noticias de la retaguardia.",
+          "en": "News from the home front."
+        }
+      },
+      {
+        "word": "censura militar",
+        "type": "phr.",
+        "en": "military censorship",
+        "note": "La que calló las trincheras.",
+        "ext": true,
+        "example": {
+          "es": "La censura militar calló las muertes.",
+          "en": "Military censorship silenced the deaths."
+        }
+      },
+      {
+        "word": "barco correo",
+        "type": "phr.",
+        "en": "mail steamer",
+        "note": "Trae cartas y noticias.",
+        "ext": true,
+        "example": {
+          "es": "Llegó el barco correo.",
+          "en": "The mail steamer arrived."
+        }
+      },
+      {
+        "word": "convalecencia",
+        "type": "n.f.",
+        "en": "convalescence, recovery",
+        "note": "(advanced) Después de la fiebre.",
+        "ext": true,
+        "example": {
+          "es": "Una larga convalecencia.",
+          "en": "A long recovery."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 87,
+    "title": "Interview: the man who tunes the wood",
+    "words": [
+      {
+        "word": "marimba",
+        "type": "n.f.",
+        "en": "marimba (xylophone)",
+        "note": "La marimba de chonta del Pacífico.",
+        "example": {
+          "es": "Duerme una marimba a medio hacer.",
+          "en": "A half-made marimba rests there."
+        }
+      },
+      {
+        "word": "chonta",
+        "type": "n.f.",
+        "en": "chonta (hard palm wood)",
+        "note": "Madera dura del Pacífico.",
+        "example": {
+          "es": "Tablas oscuras de chonta.",
+          "en": "Dark chonta boards."
+        }
+      },
+      {
+        "word": "lutier",
+        "type": "n.m.",
+        "en": "luthier, instrument maker",
+        "note": "También se escribe luthier.",
+        "example": {
+          "es": "Néstor es lutier en Guapi.",
+          "en": "Néstor is an instrument maker in Guapi."
+        }
+      },
+      {
+        "word": "tallar",
+        "type": "v.",
+        "en": "to carve",
+        "note": "Talla la tabla a la sombra.",
+        "example": {
+          "es": "Tallo la tabla con calma.",
+          "en": "I carve the board calmly."
+        }
+      },
+      {
+        "word": "afinar",
+        "type": "v.",
+        "en": "to tune",
+        "note": "Afina golpeando con el mazo.",
+        "example": {
+          "es": "Después la afino con el mazo.",
+          "en": "Then I tune it with the mallet."
+        }
+      },
+      {
+        "word": "bejuco",
+        "type": "n.m.",
+        "en": "vine, liana cord",
+        "note": "En España: liana.",
+        "example": {
+          "es": "Atados con bejuco.",
+          "en": "Tied with vine."
+        }
+      },
+      {
+        "word": "resonador",
+        "type": "n.m.",
+        "en": "resonator",
+        "note": "Tubos bajo las tablas.",
+        "example": {
+          "es": "Tubos de resonador.",
+          "en": "Resonator tubes."
+        }
+      },
+      {
+        "word": "cantadora",
+        "type": "n.f.",
+        "en": "traditional female singer",
+        "note": "Pacífico: la cantadora mayor.",
+        "example": {
+          "es": "Una cantadora les marca el arrullo.",
+          "en": "A singer leads them in the lullaby."
+        }
+      },
+      {
+        "word": "currulao",
+        "type": "n.m.",
+        "en": "currulao (Afro-Pacific rhythm)",
+        "note": "Ritmo del Pacífico con marimba.",
+        "example": {
+          "es": "Ensayan un currulao.",
+          "en": "They rehearse a currulao."
+        }
+      },
+      {
+        "word": "arrullo",
+        "type": "n.m.",
+        "en": "lullaby, devotional song",
+        "note": "Un arrullo con voz baja.",
+        "example": {
+          "es": "Un arrullo con voz baja.",
+          "en": "A lullaby in a low voice."
+        }
+      },
+      {
+        "word": "oficio",
+        "type": "n.m.",
+        "en": "craft, trade",
+        "note": "Este oficio lo heredé.",
+        "example": {
+          "es": "Llevo treinta años en este oficio.",
+          "en": "I have been in this craft for thirty years."
+        }
+      },
+      {
+        "word": "aprendiz",
+        "type": "n.m./f.",
+        "en": "apprentice",
+        "note": "Doce aprendices del pueblo.",
+        "example": {
+          "es": "Llegan los aprendices.",
+          "en": "The apprentices arrive."
+        }
+      },
+      {
+        "word": "heredar",
+        "type": "v.",
+        "en": "to inherit",
+        "note": "Heredó el oficio de su padre.",
+        "example": {
+          "es": "Heredó el oficio de su padre.",
+          "en": "He inherited the craft from his father."
+        }
+      },
+      {
+        "word": "añadir",
+        "type": "v.",
+        "en": "to add (say in addition)",
+        "note": "Marcador: Añade que…",
+        "example": {
+          "es": "Añade que cada marimba pide paciencia.",
+          "en": "He adds that each marimba asks for patience."
+        }
+      },
+      {
+        "word": "declarar",
+        "type": "v.",
+        "en": "to state, declare",
+        "note": "Marcador formal.",
+        "example": {
+          "es": "Yo no corto por cortar, declara.",
+          "en": "I do not cut just to cut, he states."
+        }
+      },
+      {
+        "word": "comillas",
+        "type": "n.f. pl.",
+        "en": "quotation marks",
+        "note": "La cita directa lleva comillas.",
+        "example": {
+          "es": "Sin las comillas, la cita respira.",
+          "en": "Without quotation marks, the quote breathes."
+        }
+      },
+      {
+        "word": "cita",
+        "type": "n.f.",
+        "en": "quote, quotation",
+        "note": "La cita directa y la referida.",
+        "example": {
+          "es": "Su cita más famosa.",
+          "en": "His most famous quote."
+        }
+      },
+      {
+        "word": "mazo",
+        "type": "n.m.",
+        "en": "mallet",
+        "note": "Golpeándola con el mazo.",
+        "example": {
+          "es": "La afina con el mazo.",
+          "en": "He tunes it with the mallet."
+        }
+      },
+      {
+        "word": "ensayar",
+        "type": "v.",
+        "en": "to rehearse",
+        "note": "Ensayan un currulao.",
+        "example": {
+          "es": "Ensayan para la fiesta.",
+          "en": "They rehearse for the festival."
+        }
+      },
+      {
+        "word": "taller",
+        "type": "n.m.",
+        "en": "workshop",
+        "note": "En el taller huele a madera.",
+        "example": {
+          "es": "En el taller huele a madera.",
+          "en": "The workshop smells of wood."
+        }
+      },
+      {
+        "word": "palma de chonta",
+        "type": "phr.",
+        "en": "chonta palm",
+        "note": "La madera dura del Pacífico.",
+        "ext": true,
+        "example": {
+          "es": "Madera de palma de chonta.",
+          "en": "Chonta palm wood."
+        }
+      },
+      {
+        "word": "calabaza",
+        "type": "n.f.",
+        "en": "gourd",
+        "note": "Antes, resonador de calabaza.",
+        "ext": true,
+        "example": {
+          "es": "Resonadores de calabaza.",
+          "en": "Gourd resonators."
+        }
+      },
+      {
+        "word": "escenario",
+        "type": "n.m.",
+        "en": "stage",
+        "note": "La fiesta: su escenario.",
+        "ext": true,
+        "example": {
+          "es": "Néstor no sube al escenario.",
+          "en": "Néstor does not go on stage."
+        }
+      },
+      {
+        "word": "discurso referido",
+        "type": "phr.",
+        "en": "reported speech",
+        "note": "(advanced) Dijo que… Contó que…",
+        "ext": true,
+        "example": {
+          "es": "El presente se hizo imperfecto.",
+          "en": "The present became imperfect."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 88,
+    "title": "Formal writing: bilingual schooling in Paraguay",
+    "words": [
+      {
+        "word": "escolarización",
+        "type": "n.f.",
+        "en": "schooling (coverage/rate)",
+        "note": "Nominalization: escolarizar → escolarización.",
+        "example": {
+          "es": "Analiza la escolarización bilingüe.",
+          "en": "It analyses bilingual schooling."
+        }
+      },
+      {
+        "word": "matriculación",
+        "type": "n.f.",
+        "en": "enrolment, registration",
+        "note": "La matriculación creció un 9 %.",
+        "example": {
+          "es": "Subió la matriculación inicial.",
+          "en": "Early-years enrolment rose."
+        }
+      },
+      {
+        "word": "deserción",
+        "type": "n.f.",
+        "en": "dropout (from school)",
+        "note": "La deserción cayó a la mitad.",
+        "example": {
+          "es": "Bajó la deserción escolar.",
+          "en": "School dropout fell."
+        }
+      },
+      {
+        "word": "alfabetización",
+        "type": "n.f.",
+        "en": "literacy, teaching to read",
+        "note": "Alfabetización inicial en dos lenguas.",
+        "example": {
+          "es": "Formados en alfabetización bilingüe.",
+          "en": "Trained in bilingual literacy."
+        }
+      },
+      {
+        "word": "rendimiento",
+        "type": "n.m.",
+        "en": "performance, results",
+        "note": "El rendimiento en lectura.",
+        "example": {
+          "es": "Se midió el rendimiento lector.",
+          "en": "Reading performance was measured."
+        }
+      },
+      {
+        "word": "rezago",
+        "type": "n.m.",
+        "en": "lag, backlog",
+        "note": "El rezago lector se redujo.",
+        "example": {
+          "es": "El rezago se redujo un 12 %.",
+          "en": "The lag fell by 12%."
+        }
+      },
+      {
+        "word": "plantel",
+        "type": "n.m.",
+        "en": "school (campus/staff, LatAm)",
+        "note": "LatAm formal. 34 planteles.",
+        "example": {
+          "es": "Abarcó 34 planteles.",
+          "en": "It covered 34 schools."
+        }
+      },
+      {
+        "word": "aula",
+        "type": "n.f.",
+        "en": "classroom",
+        "note": "Takes el in singular: el aula.",
+        "example": {
+          "es": "En 18 aulas del programa.",
+          "en": "In 18 programme classrooms."
+        }
+      },
+      {
+        "word": "docente",
+        "type": "n.m./f.",
+        "en": "teacher (formal)",
+        "note": "Formal for maestro/profesor.",
+        "example": {
+          "es": "Docentes formados en dos lenguas.",
+          "en": "Teachers trained in two languages."
+        }
+      },
+      {
+        "word": "mediante",
+        "type": "prep.",
+        "en": "by means of, through",
+        "note": "Connector. Mediante el trabajo…",
+        "example": {
+          "es": "Mediante el convenio habrá libros.",
+          "en": "Through the agreement there will be books."
+        }
+      },
+      {
+        "word": "implementación",
+        "type": "n.f.",
+        "en": "implementation",
+        "note": "La implementación del programa.",
+        "example": {
+          "es": "La implementación en 18 aulas.",
+          "en": "The implementation in 18 classrooms."
+        }
+      },
+      {
+        "word": "dotar",
+        "type": "v.",
+        "en": "to equip, provide",
+        "note": "Se dotó a cada centro de…",
+        "example": {
+          "es": "Se dotó a cada centro de libros.",
+          "en": "Each school was equipped with books."
+        }
+      },
+      {
+        "word": "subsanar",
+        "type": "v.",
+        "en": "to remedy, correct",
+        "note": "Se subsanaron las carencias.",
+        "example": {
+          "es": "Se subsanaron las carencias.",
+          "en": "The shortages were remedied."
+        }
+      },
+      {
+        "word": "carencia",
+        "type": "n.f.",
+        "en": "lack, shortage",
+        "note": "Las carencias más urgentes.",
+        "example": {
+          "es": "Las carencias más urgentes.",
+          "en": "The most urgent shortages."
+        }
+      },
+      {
+        "word": "impartir",
+        "type": "v.",
+        "en": "to deliver, teach (classes)",
+        "note": "Impartió talleres en guaraní.",
+        "example": {
+          "es": "Impartió talleres en dos lenguas.",
+          "en": "She delivered workshops in two languages."
+        }
+      },
+      {
+        "word": "indicador",
+        "type": "n.m.",
+        "en": "indicator",
+        "note": "Los indicadores confirman el avance.",
+        "example": {
+          "es": "Los indicadores confirman el avance.",
+          "en": "The indicators confirm the progress."
+        }
+      },
+      {
+        "word": "lineamiento",
+        "type": "n.m.",
+        "en": "guideline (LatAm)",
+        "note": "Spain prefers directriz.",
+        "example": {
+          "es": "El lineamiento actual del programa.",
+          "en": "The programme's current guideline."
+        }
+      },
+      {
+        "word": "rubro",
+        "type": "n.m.",
+        "en": "budget line, item (LatAm)",
+        "note": "Un rubro anual para libros.",
+        "example": {
+          "es": "Solicita un rubro anual.",
+          "en": "It requests an annual budget line."
+        }
+      },
+      {
+        "word": "contrapartida",
+        "type": "n.f.",
+        "en": "matching contribution, counterpart",
+        "note": "Como contrapartida: trabajo voluntario.",
+        "example": {
+          "es": "Como contrapartida, trabajo voluntario.",
+          "en": "As a matching contribution, volunteer work."
+        }
+      },
+      {
+        "word": "solicitud",
+        "type": "n.f.",
+        "en": "application, formal request",
+        "note": "Informe anual de la solicitud.",
+        "example": {
+          "es": "El informe anual de la solicitud.",
+          "en": "The annual report on the application."
+        }
+      },
+      {
+        "word": "cohorte",
+        "type": "n.f.",
+        "en": "cohort",
+        "note": "Por cohorte y zona.",
+        "ext": true,
+        "example": {
+          "es": "La deserción por cohorte.",
+          "en": "Dropout by cohort."
+        }
+      },
+      {
+        "word": "muestral",
+        "type": "adj.",
+        "en": "sample (of a sample)",
+        "note": "El diseño muestral.",
+        "ext": true,
+        "example": {
+          "es": "El diseño muestral del estudio.",
+          "en": "The study's sample design."
+        }
+      },
+      {
+        "word": "acervo",
+        "type": "n.m.",
+        "en": "collection (of books)",
+        "note": "Ampliar el acervo.",
+        "ext": true,
+        "example": {
+          "es": "Ampliar el acervo de la biblioteca.",
+          "en": "To expand the library's collection."
+        }
+      },
+      {
+        "word": "fungible",
+        "type": "adj.",
+        "en": "consumable, expendable",
+        "note": "Papel, tinta, cuadernos.",
+        "ext": true,
+        "example": {
+          "es": "Reponer el material fungible.",
+          "en": "To replace consumable materials."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 89,
+    "title": "The water we have left: Mar Menor, Titicaca and Montevideo",
+    "words": [
+      {
+        "word": "trasvase",
+        "type": "n.m.",
+        "en": "water transfer (between basins)",
+        "note": "El trasvase del Tajo.",
+        "example": {
+          "es": "El trasvase del Tajo al Segura.",
+          "en": "The Tagus-to-Segura transfer."
+        }
+      },
+      {
+        "word": "acuífero",
+        "type": "n.m.",
+        "en": "aquifer",
+        "note": "Bajo los invernaderos.",
+        "example": {
+          "es": "El acuífero bajo los invernaderos.",
+          "en": "The aquifer beneath the greenhouses."
+        }
+      },
+      {
+        "word": "anegamiento",
+        "type": "n.m.",
+        "en": "flooding, waterlogging",
+        "note": "Anegar → anegamiento.",
+        "example": {
+          "es": "Del anegamiento al barro seco.",
+          "en": "From flooding to dry mud."
+        }
+      },
+      {
+        "word": "vertido",
+        "type": "n.m.",
+        "en": "discharge, dumping (waste)",
+        "note": "Verter → vertido.",
+        "example": {
+          "es": "Cada vertido se paga río abajo.",
+          "en": "Every discharge is paid for downstream."
+        }
+      },
+      {
+        "word": "eutrofización",
+        "type": "n.f.",
+        "en": "eutrophication",
+        "note": "Cognate. El agua verde.",
+        "example": {
+          "es": "La eutrofización del Mar Menor.",
+          "en": "The eutrophication of the Mar Menor."
+        }
+      },
+      {
+        "word": "salinización",
+        "type": "n.f.",
+        "en": "salinization",
+        "note": "Sal → salobre → salinización.",
+        "example": {
+          "es": "La salinización del agua.",
+          "en": "The salinization of the water."
+        }
+      },
+      {
+        "word": "embalse",
+        "type": "n.m.",
+        "en": "reservoir",
+        "note": "False friend: not embassy.",
+        "example": {
+          "es": "El embalse bajó al 2 %.",
+          "en": "The reservoir fell to 2%."
+        }
+      },
+      {
+        "word": "caudal",
+        "type": "n.m.",
+        "en": "flow (of a river)",
+        "note": "El poco caudal.",
+        "example": {
+          "es": "Guardó el poco caudal.",
+          "en": "It held back the meagre flow."
+        }
+      },
+      {
+        "word": "mortandad",
+        "type": "n.f.",
+        "en": "die-off, mass death",
+        "note": "Mortandades de peces.",
+        "example": {
+          "es": "Grandes mortandades de peces.",
+          "en": "Massive fish die-offs."
+        }
+      },
+      {
+        "word": "purín",
+        "type": "n.m.",
+        "en": "slurry, liquid manure",
+        "note": "Ganadería intensiva.",
+        "example": {
+          "es": "El acuífero arrastra purines.",
+          "en": "The aquifer carries slurry."
+        }
+      },
+      {
+        "word": "escorrentía",
+        "type": "n.f.",
+        "en": "runoff",
+        "note": "Tras la tormenta.",
+        "example": {
+          "es": "La escorrentía tras la tormenta.",
+          "en": "The runoff after the storm."
+        }
+      },
+      {
+        "word": "freático",
+        "type": "adj.",
+        "en": "phreatic, groundwater",
+        "note": "El nivel freático.",
+        "example": {
+          "es": "El nivel freático sigue alto.",
+          "en": "The water table remains high."
+        }
+      },
+      {
+        "word": "emisario",
+        "type": "n.m.",
+        "en": "outfall, discharge pipe",
+        "note": "Emisarios agrícolas.",
+        "example": {
+          "es": "Varios emisarios siguen activos.",
+          "en": "Several outfalls are still active."
+        }
+      },
+      {
+        "word": "rambla",
+        "type": "n.f.",
+        "en": "dry ravine, wadi (SE Spain)",
+        "note": "Murcia: llevan nitratos.",
+        "example": {
+          "es": "Los nitratos bajan por las ramblas.",
+          "en": "Nitrates run down the ravines."
+        }
+      },
+      {
+        "word": "represa",
+        "type": "n.f.",
+        "en": "dam (LatAm)",
+        "note": "Spain: presa.",
+        "example": {
+          "es": "La represa del Desaguadero.",
+          "en": "The Desaguadero dam."
+        }
+      },
+      {
+        "word": "estiaje",
+        "type": "n.m.",
+        "en": "low-water period",
+        "note": "El estiaje más largo.",
+        "example": {
+          "es": "Su estiaje más largo en décadas.",
+          "en": "Its longest low-water period in decades."
+        }
+      },
+      {
+        "word": "salobre",
+        "type": "adj.",
+        "en": "brackish",
+        "note": "Agua salobre.",
+        "example": {
+          "es": "Agua salobre en los grifos.",
+          "en": "Brackish water in the taps."
+        }
+      },
+      {
+        "word": "invernadero",
+        "type": "n.m.",
+        "en": "greenhouse",
+        "note": "Bajo los invernaderos.",
+        "example": {
+          "es": "Bajo los invernaderos del campo.",
+          "en": "Beneath the field greenhouses."
+        }
+      },
+      {
+        "word": "desbordar",
+        "type": "v.",
+        "en": "to overflow, exceed",
+        "note": "Ni desbordar acuíferos.",
+        "example": {
+          "es": "Ni desbordar acuíferos sale gratis.",
+          "en": "Overflowing aquifers never comes free."
+        }
+      },
+      {
+        "word": "desecar",
+        "type": "v.",
+        "en": "to drain, dry up",
+        "note": "Ni desecar humedales.",
+        "example": {
+          "es": "Ni desecar humedales sale gratis.",
+          "en": "Draining wetlands never comes free."
+        }
+      },
+      {
+        "word": "totora",
+        "type": "n.f.",
+        "en": "reedmace, bulrush (Andes)",
+        "note": "Casa de las aves.",
+        "ext": true,
+        "example": {
+          "es": "La totora donde viven las aves.",
+          "en": "The reeds home to the birds."
+        }
+      },
+      {
+        "word": "camalote",
+        "type": "n.m.",
+        "en": "water hyacinth mat",
+        "note": "Río de la Plata basin.",
+        "ext": true,
+        "example": {
+          "es": "Camalotes hasta la orilla.",
+          "en": "Hyacinth mats reaching the shore."
+        }
+      },
+      {
+        "word": "turbio",
+        "type": "adj.",
+        "en": "murky, cloudy (water)",
+        "note": "Agua turbia.",
+        "ext": true,
+        "example": {
+          "es": "El agua bajó turbia.",
+          "en": "The water came down murky."
+        }
+      },
+      {
+        "word": "aliviadero",
+        "type": "n.m.",
+        "en": "spillway (of a dam)",
+        "note": "Abrir el aliviadero.",
+        "ext": true,
+        "example": {
+          "es": "Abrieron el aliviadero.",
+          "en": "They opened the spillway."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 90,
+    "title": "Capstone: the library of lost trains",
+    "words": [
+      {
+        "word": "bibliotecaria",
+        "type": "n.f.",
+        "en": "librarian (female)",
+        "note": "El masculino: bibliotecario.",
+        "example": {
+          "es": "Alba ahora es bibliotecaria.",
+          "en": "Alba is now a librarian."
+        }
+      },
+      {
+        "word": "donación",
+        "type": "n.f.",
+        "en": "donation",
+        "note": "De donar. Así llegan los libros.",
+        "example": {
+          "es": "Recibimos una donación de libros.",
+          "en": "We received a donation of books."
+        }
+      },
+      {
+        "word": "marquesina",
+        "type": "n.f.",
+        "en": "platform canopy, shelter",
+        "note": "El techo del andén (andén: L12).",
+        "example": {
+          "es": "Dejan los paquetes bajo la marquesina.",
+          "en": "They leave the parcels under the canopy."
+        }
+      },
+      {
+        "word": "convoy",
+        "type": "n.m.",
+        "en": "train (of carriages)",
+        "note": "El tren con sus vagones (vagón: L58).",
+        "example": {
+          "es": "El convoy llega a las cinco.",
+          "en": "The train arrives at five."
+        }
+      },
+      {
+        "word": "traqueteo",
+        "type": "n.m.",
+        "en": "rattling, clatter",
+        "note": "El sonido del tren antes de verlo.",
+        "example": {
+          "es": "Se oye el traqueteo antes que el tren.",
+          "en": "The clatter is heard before the train."
+        }
+      },
+      {
+        "word": "silbido",
+        "type": "n.m.",
+        "en": "whistle",
+        "note": "Silbar → el silbido.",
+        "example": {
+          "es": "Después se oye el silbido.",
+          "en": "Then the whistle is heard."
+        }
+      },
+      {
+        "word": "hollín",
+        "type": "n.m.",
+        "en": "soot",
+        "note": "El polvo negro del tren.",
+        "example": {
+          "es": "Hay hollín en el aire.",
+          "en": "There is soot in the air."
+        }
+      },
+      {
+        "word": "estantería",
+        "type": "n.f.",
+        "en": "bookshelf",
+        "note": "En LatAm el mueble también es el librero.",
+        "example": {
+          "es": "Levantan la gran estantería.",
+          "en": "They raise the great bookshelf."
+        }
+      },
+      {
+        "word": "lomo",
+        "type": "n.m.",
+        "en": "spine (of a book)",
+        "note": "Abrir el libro por el lomo.",
+        "example": {
+          "es": "Abre el libro por el lomo.",
+          "en": "Open the book by the spine."
+        }
+      },
+      {
+        "word": "ficha",
+        "type": "n.f.",
+        "en": "index card",
+        "note": "La ficha del catálogo.",
+        "example": {
+          "es": "Prepara las fichas una por una.",
+          "en": "She prepares the cards one by one."
+        }
+      },
+      {
+        "word": "tomo",
+        "type": "n.m.",
+        "en": "volume, tome",
+        "note": "Un libro en varios tomos.",
+        "example": {
+          "es": "Ponen los tomos uno por uno.",
+          "en": "They set the volumes one by one."
+        }
+      },
+      {
+        "word": "encuadernación",
+        "type": "n.f.",
+        "en": "binding",
+        "note": "La cubierta dura del libro.",
+        "example": {
+          "es": "Una encuadernación casi negra.",
+          "en": "An almost-black binding."
+        }
+      },
+      {
+        "word": "dedicatoria",
+        "type": "n.f.",
+        "en": "dedication (inscription)",
+        "note": "«Para mi hija»: alguien dedica el libro.",
+        "example": {
+          "es": "Busca la dedicatoria.",
+          "en": "Look for the dedication."
+        }
+      },
+      {
+        "word": "consigna",
+        "type": "n.f.",
+        "en": "left-luggage office",
+        "note": "En la estación.",
+        "example": {
+          "es": "Dejan los libros en la consigna.",
+          "en": "They leave the books at the left-luggage."
+        }
+      },
+      {
+        "word": "campanada",
+        "type": "n.f.",
+        "en": "stroke (of a bell)",
+        "note": "Las campanadas del reloj.",
+        "example": {
+          "es": "Suenan las campanadas.",
+          "en": "The bell strokes ring out."
+        }
+      },
+      {
+        "word": "timbre",
+        "type": "n.m.",
+        "en": "(door)bell",
+        "note": "El timbre de la puerta.",
+        "example": {
+          "es": "Suena el timbre tres veces.",
+          "en": "The bell rings three times."
+        }
+      },
+      {
+        "word": "carnet",
+        "type": "n.m.",
+        "en": "membership card",
+        "note": "El carnet azul del lector.",
+        "example": {
+          "es": "Escribe el primer carnet.",
+          "en": "She writes out the first card."
+        }
+      },
+      {
+        "word": "vencimiento",
+        "type": "n.m.",
+        "en": "due date, expiry",
+        "note": "De vencer. Veinte días.",
+        "example": {
+          "es": "Cada libro tiene un vencimiento.",
+          "en": "Every book has a due date."
+        }
+      },
+      {
+        "word": "catálogo",
+        "type": "n.m.",
+        "en": "catalogue",
+        "note": "Las fichas, una por una.",
+        "example": {
+          "es": "Prepara el catálogo.",
+          "en": "He prepares the catalogue."
+        }
+      },
+      {
+        "word": "madera",
+        "type": "n.f.",
+        "en": "wood",
+        "note": "La madera cruje (L85).",
+        "example": {
+          "es": "La alegría cruje como la madera.",
+          "en": "Joy creaks like wood."
+        }
+      },
+      {
+        "word": "perdido",
+        "type": "adj.",
+        "en": "lost",
+        "note": "Trenes perdidos → encontrados.",
+        "example": {
+          "es": "Ya no espera trenes perdidos.",
+          "en": "It no longer waits for lost trains."
+        }
+      },
+      {
+        "word": "estilo indirecto libre",
+        "type": "phr.",
+        "en": "free indirect style",
+        "note": "(advanced) La voz de L85.",
+        "ext": true,
+        "example": {
+          "es": "Ya era lo mismo: estilo indirecto libre.",
+          "en": "It was already the same: free indirect style."
+        }
+      },
+      {
+        "word": "epílogo",
+        "type": "n.m.",
+        "en": "epilogue",
+        "note": "El final después del final.",
+        "ext": true,
+        "example": {
+          "es": "Este es el epílogo.",
+          "en": "This is the epilogue."
+        }
+      },
+      {
+        "word": "colofón",
+        "type": "n.m.",
+        "en": "colophon; finishing touch",
+        "note": "(advanced) La nota final; también = broche.",
+        "ext": true,
+        "example": {
+          "es": "La biblioteca fue el colofón.",
+          "en": "The library was the finishing touch."
+        }
+      },
+      {
+        "word": "exlibris",
+        "type": "n.m.",
+        "en": "ex-libris, bookplate",
+        "note": "Del latín: de entre los libros.",
+        "ext": true,
+        "example": {
+          "es": "Cada tomo lleva su exlibris.",
+          "en": "Every volume bears its bookplate."
+        }
+      }
+    ]
   }
 ];

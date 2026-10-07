@@ -1,0 +1,30 @@
+{
+  "lesson": 87,
+  "title": "Interview: the man who tunes the wood",
+  "words": [
+    {"word": "marimba", "type": "n.f.", "en": "marimba (xylophone)", "note": "La marimba de chonta del Pacífico.", "example": {"es": "Duerme una marimba a medio hacer.", "en": "A half-made marimba rests there."}},
+    {"word": "chonta", "type": "n.f.", "en": "chonta (hard palm wood)", "note": "Madera dura del Pacífico.", "example": {"es": "Tablas oscuras de chonta.", "en": "Dark chonta boards."}},
+    {"word": "lutier", "type": "n.m.", "en": "luthier, instrument maker", "note": "También se escribe luthier.", "example": {"es": "Néstor es lutier en Guapi.", "en": "Néstor is an instrument maker in Guapi."}},
+    {"word": "tallar", "type": "v.", "en": "to carve", "note": "Talla la tabla a la sombra.", "example": {"es": "Tallo la tabla con calma.", "en": "I carve the board calmly."}},
+    {"word": "afinar", "type": "v.", "en": "to tune", "note": "Afina golpeando con el mazo.", "example": {"es": "Después la afino con el mazo.", "en": "Then I tune it with the mallet."}},
+    {"word": "bejuco", "type": "n.m.", "en": "vine, liana cord", "note": "En España: liana.", "example": {"es": "Atados con bejuco.", "en": "Tied with vine."}},
+    {"word": "resonador", "type": "n.m.", "en": "resonator", "note": "Tubos bajo las tablas.", "example": {"es": "Tubos de resonador.", "en": "Resonator tubes."}},
+    {"word": "cantadora", "type": "n.f.", "en": "traditional female singer", "note": "Pacífico: la cantadora mayor.", "example": {"es": "Una cantadora les marca el arrullo.", "en": "A singer leads them in the lullaby."}},
+    {"word": "currulao", "type": "n.m.", "en": "currulao (Afro-Pacific rhythm)", "note": "Ritmo del Pacífico con marimba.", "example": {"es": "Ensayan un currulao.", "en": "They rehearse a currulao."}},
+    {"word": "arrullo", "type": "n.m.", "en": "lullaby, devotional song", "note": "Un arrullo con voz baja.", "example": {"es": "Un arrullo con voz baja.", "en": "A lullaby in a low voice."}},
+    {"word": "oficio", "type": "n.m.", "en": "craft, trade", "note": "Este oficio lo heredé.", "example": {"es": "Llevo treinta años en este oficio.", "en": "I have been in this craft for thirty years."}},
+    {"word": "aprendiz", "type": "n.m./f.", "en": "apprentice", "note": "Doce aprendices del pueblo.", "example": {"es": "Llegan los aprendices.", "en": "The apprentices arrive."}},
+    {"word": "heredar", "type": "v.", "en": "to inherit", "note": "Heredó el oficio de su padre.", "example": {"es": "Heredó el oficio de su padre.", "en": "He inherited the craft from his father."}},
+    {"word": "añadir", "type": "v.", "en": "to add (say in addition)", "note": "Marcador: Añade que…", "example": {"es": "Añade que cada marimba pide paciencia.", "en": "He adds that each marimba asks for patience."}},
+    {"word": "declarar", "type": "v.", "en": "to state, declare", "note": "Marcador formal.", "example": {"es": "Yo no corto por cortar, declara.", "en": "I do not cut just to cut, he states."}},
+    {"word": "comillas", "type": "n.f. pl.", "en": "quotation marks", "note": "La cita directa lleva comillas.", "example": {"es": "Sin las comillas, la cita respira.", "en": "Without quotation marks, the quote breathes."}},
+    {"word": "cita", "type": "n.f.", "en": "quote, quotation", "note": "La cita directa y la referida.", "example": {"es": "Su cita más famosa.", "en": "His most famous quote."}},
+    {"word": "mazo", "type": "n.m.", "en": "mallet", "note": "Golpeándola con el mazo.", "example": {"es": "La afina con el mazo.", "en": "He tunes it with the mallet."}},
+    {"word": "ensayar", "type": "v.", "en": "to rehearse", "note": "Ensayan un currulao.", "example": {"es": "Ensayan para la fiesta.", "en": "They rehearse for the festival."}},
+    {"word": "taller", "type": "n.m.", "en": "workshop", "note": "En el taller huele a madera.", "example": {"es": "En el taller huele a madera.", "en": "The workshop smells of wood."}},
+    {"word": "palma de chonta", "type": "phr.", "en": "chonta palm", "note": "La madera dura del Pacífico.", "ext": true, "example": {"es": "Madera de palma de chonta.", "en": "Chonta palm wood."}},
+    {"word": "calabaza", "type": "n.f.", "en": "gourd", "note": "Antes, resonador de calabaza.", "ext": true, "example": {"es": "Resonadores de calabaza.", "en": "Gourd resonators."}},
+    {"word": "escenario", "type": "n.m.", "en": "stage", "note": "La fiesta: su escenario.", "ext": true, "example": {"es": "Néstor no sube al escenario.", "en": "Néstor does not go on stage."}},
+    {"word": "discurso referido", "type": "phr.", "en": "reported speech", "note": "(advanced) Dijo que… Contó que…", "ext": true, "example": {"es": "El presente se hizo imperfecto.", "en": "The present became imperfect."}}
+  ]
+}

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 63 — Word formation I: prefixes and suffixes</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-62.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 63 — WORD FORMATION I: PREFIXES AND SUFFIXES</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Decode long unknown words with the strategy <strong>prefijo + raíz + sufijo</strong>.</li>
+      <li>Learn the prefixes <strong>des- / in- / re- / pre- / pos(t)- / anti- / super-</strong>.</li>
+      <li>Learn the suffixes <strong>-ble / -dor / -miento / -aje</strong>.</li>
+      <li>Read a popular-science text about a city water-recycling project.</li>
+      <li>Pick up words: <span class="es">reutilizar, tratamiento, potable, desagüe, previsible</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">prefijo, sufijo, raíz, desalinizar, descontaminar, desinfectar, desperdicio, desagüe, impermeable, insalubre, inagotable, invisible, reutilizar, reutilización, reutilizable, regenerar, renovable, pretratamiento, prever, previsible, postratamiento, anticontaminante, antiséquía, superbacteria, potable, depurar, depuración, depurador, tratamiento, funcionamiento, drenaje, reciclaje, almacenaje, potabilizar, planta</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">microorganismo, bacteria, desigual, desconocido</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (EL AGUA QUE VUELVE)</h2>
+<p><strong>Context:</strong> The city of Santa Clara decided to recycle every drop of its water. A popular-science article explains how the plant works — almost every key word is built from a prefix or a suffix. Watch them as you read.</p>
+<p class="lead">(This lesson's grammar is the decoding strategy itself: <em>prefijo + raíz + sufijo</em>. Try splitting each bold word before checking the English.)</p>
+
+<div class="phrase">
+  <p class="es">Cada día, una ciudad grande gasta millones de litros de agua limpia, y por eso los vecinos de Santa Clara decidieron <b>reutilizar</b> cada gota que sale de sus casas.</p>
+  <p class="en">Every day, a big city uses millions of litres of clean water — which is why the residents of Santa Clara decided to reuse every drop that leaves their homes.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su proyecto empieza con el <b>desagüe</b>: el agua sucia de las casas y las calles viaja por tubos largos hasta la <b>planta</b> de <b>tratamiento</b>, donde todo se limpia.</p>
+  <p class="en">Their project starts with the drains: dirty water from homes and streets travels through long pipes to the treatment plant, where everything gets cleaned.</p>
+</div>
+<div class="phrase">
+  <p class="es">Allí, el <b>pretratamiento</b> separa primero lo más grande: piedras, ramas y todo <b>desperdicio</b> que trae el <b>drenaje</b> de las calles después de la lluvia.</p>
+  <p class="en">There, the pre-treatment first takes out the biggest stuff: stones, branches and all the waste brought in by the street drains after the rain.</p>
+</div>
+<div class="phrase">
+  <p class="es">Después, las máquinas grandes empiezan a <b>depurar</b> el agua poco a poco: le quitan la grasa y la tierra con filtros gigantes que trabajan sin parar.</p>
+  <p class="en">Then the big machines start purifying the water little by little: they remove grease and soil with giant filters that work non-stop.</p>
+</div>
+<div class="phrase">
+  <p class="es">La <b>depuración</b> tiene tres pasos claros, y el primero elimina los <b>microorganismos</b> más <b>insalubres</b>, que son malos para la salud.</p>
+  <p class="en">Purification has three clear steps, and the first one eliminates the unhealthiest microorganisms — the ones that are bad for your health.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un laboratorio pequeño analiza cada muestra con cuidado y detecta <b>bacterias</b> <b>invisibles</b> a simple vista, que nadie puede ver sin máquinas.</p>
+  <p class="en">A small laboratory analyses every sample with care and detects bacteria invisible to the naked eye, which nobody can see without machines.</p>
+</div>
+<div class="phrase">
+  <p class="es">Si el agua trae microbios peligrosos, hay que <b>desinfectar</b> los tanques con luz especial y dejarlos cerrados hasta el día siguiente.</p>
+  <p class="en">If the water carries dangerous microbes, the tanks must be disinfected with special light and left closed until the next day.</p>
+</div>
+<div class="phrase">
+  <p class="es">A simple vista el agua ya parece <b>potable</b>, pero todavía no es <b>reutilizable</b> para beber y necesita un paso más.</p>
+  <p class="en">At first sight the water already looks drinkable, but it is still not reusable for drinking and needs one more step.</p>
+</div>
+<div class="phrase">
+  <p class="es">Entonces llega el segundo paso del proceso: <b>potabilizar</b> el agua con carbón natural y membranas <b>impermeables</b> muy finas.</p>
+  <p class="en">Then comes step two of the process: making the water drinkable with natural carbon and very fine waterproof membranes.</p>
+</div>
+<div class="phrase">
+  <p class="es">La membrana deja pasar el agua limpia y frena toda la sal: así, <b>desalinizar</b> deja de ser un sueño caro y se vuelve posible cada año.</p>
+  <p class="en">The membrane lets clean water through and stops all the salt: so desalination stops being an expensive dream and becomes possible every year.</p>
+</div>
+<div class="phrase">
+  <p class="es">El tercer paso busca <b>regenerar</b> los ríos de la zona: el agua limpia vuelve a la tierra, llena los pozos y da vida a las plantas.</p>
+  <p class="en">Step three aims to regenerate the area's rivers: clean water returns to the ground, fills the wells and gives life to the plants.</p>
+</div>
+<div class="phrase">
+  <p class="es">Aquí nada se pierde: el lodo del fondo sirve para producir energía <b>renovable</b> en la misma planta, que así gasta menos luz.</p>
+  <p class="en">Here nothing is wasted: the sludge at the bottom is used to produce renewable energy in the same plant, which therefore uses less electricity.</p>
+</div>
+<div class="phrase">
+  <p class="es">El saneamiento de todo el barrio costó menos dinero de lo <b>previsible</b>, dicen los ingenieros del proyecto.</p>
+  <p class="en">Cleaning up the whole district cost less money than foreseeable, say the project's engineers.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ellos pueden <b>prever</b> años secos y difíciles, así que el <b>almacenaje</b> del agua en tanques grandes es la clave de todo el proyecto.</p>
+  <p class="en">They can foresee dry and difficult years, so storing water in big tanks is the key to the whole project.</p>
+</div>
+<div class="phrase">
+  <p class="es">El ayuntamiento aprobó además un plan <b>antiséquía</b> para toda la ciudad: menos riego por la noche y duchas más cortas en cada casa.</p>
+  <p class="en">The town council also approved an anti-drought plan for the whole city: less watering at night and shorter showers in every home.</p>
+</div>
+<div class="phrase">
+  <p class="es">También hay filtros <b>anticontaminantes</b> en todas las fábricas de la zona, porque un solo vertido <b>desigual</b> arruina el sistema entero.</p>
+  <p class="en">There are also anti-pollution filters in every factory in the area, because a single uneven discharge ruins the entire system.</p>
+</div>
+<div class="phrase">
+  <p class="es">Después del <b>postratamiento</b> final, el agua es tan segura y tan clara que hasta una <b>superbacteria</b> quedaría fuera para siempre.</p>
+  <p class="en">After the final post-treatment, the water is so safe and so clear that even a superbug would be kept out for good.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hoy los vecinos beben tranquilos en sus casas: el abastecimiento parece <b>inagotable</b>, y su <b>funcionamiento</b>, <b>desconocido</b> para casi todos, sigue día y noche sin parar.</p>
+  <p class="en">Today residents drink in peace at home: the supply seems inexhaustible, and its workings — unknown to almost everyone — go on day and night without stopping.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">microorganismo</span></td><td data-label="Type">n.m.</td><td data-label="English">microorganism</td><td data-label="Notes">micro- (tiny) + organismo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bacteria</span></td><td data-label="Type">n.f.</td><td data-label="English">bacterium, germ</td><td data-label="Notes">Detecta bacterias invisibles.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desigual</span></td><td data-label="Type">adj.</td><td data-label="English">uneven, unequal</td><td data-label="Notes">des- (not) + igual (equal, L26).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desconocido</span></td><td data-label="Type">adj.</td><td data-label="English">unknown</td><td data-label="Notes">des- (not) + conocido (known).</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> almost every bold word splits into pieces you already know — <span class="es">re-utilizar</span> (use again), <span class="es">in-agotable</span> (that cannot run out), <span class="es">tratamiento</span> (the result of treating). That splitting is today's grammar.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<p>Every long word in the passage has up to three parts: the <b>prefijo</b> (prefix, the piece at the front), the <b>raíz</b> (root, the core piece carrying the meaning), and the <b>sufijo</b> (suffix, the piece at the end). Learn a handful of prefixes and suffixes and hundreds of words open up.</p>
+
+<h3>2.1. Prefixes: des- · in- · re- · pre- · pos(t)- · anti- · super-</h3>
+<p>Seven prefixes carry most of the load. <strong>Des-</strong> undoes or negates (<span class="es">desinfectar</span> = remove infection); <strong>in-</strong> means "not" (<span class="es">insalubre</span> = not healthy); <strong>re-</strong> repeats (<span class="es">reutilizar</span> = use again); <strong>pre-</strong> goes before (<span class="es">pretratamiento</span>); <strong>pos(t)-</strong> goes after (<span class="es">postratamiento</span>); <strong>anti-</strong> goes against (<span class="es">antiséquía</span>); <strong>super-</strong> goes over or beyond (<span class="es">superbacteria</span>).</p>
+<div class="formula">palabra = <b>prefijo</b> + <b>raíz</b> (+ <b>sufijo</b>) — e.g. <b>des</b> + <b>infect</b> + <b>ar</b></div>
+<ul>
+  <li class="ex"><span class="es">Hay que <b>desinfectar</b> los tanques. (= quitar la infección)</span><span class="en">The tanks must be disinfected. (= remove the infection)</span></li>
+  <li class="ex"><span class="es">Quieren <b>descontaminar</b> todo el río. (= quitar la contaminación)</span><span class="en">They want to decontaminate the whole river. (= remove the pollution)</span></li>
+  <li class="ex"><span class="es">El agua <b>insalubre</b> enferma a la gente. (= no saludable)</span><span class="en">Unhealthy water makes people ill. (= not healthy)</span></li>
+  <li class="ex"><span class="es">La membrana es <b>impermeable</b>. (= no deja pasar el agua)</span><span class="en">The membrane is waterproof. (= lets no water through)</span></li>
+  <li class="ex"><span class="es">Decidieron <b>reutilizar</b> cada gota. (= volver a utilizar)</span><span class="en">They decided to reuse every drop. (= use again)</span></li>
+  <li class="ex"><span class="es">El <b>pretratamiento</b> va antes; el <b>postratamiento</b>, después.</span><span class="en">Pre-treatment goes before; post-treatment comes after.</span></li>
+  <li class="ex"><span class="es">Aprobaron un plan <b>antiséquía</b> y filtros <b>anticontaminantes</b>.</span><span class="en">They approved an anti-drought plan and anti-pollution filters.</span></li>
+  <li class="ex"><span class="es">Ni una <b>superbacteria</b> pasa el filtro. (= bacteria superior, resistente)</span><span class="en">Not even a superbug gets through the filter. (= a superior, resistant germ)</span></li>
+</ul>
+<div class="tip">💡 <strong>Spain-vs-LatAm note:</strong> affixes are pan-Hispanic — <span class="es">des-, re-, -ble</span> work identically in Madrid and Mexico City. What changes by region are whole words: a computer is <span class="es">el ordenador</span> in Spain and <span class="es">la computadora</span> in most of Latin America — but <span class="es">desconectar el ordenador / la computadora</span> splits the same way everywhere.</div>
+
+<h3>2.2. Suffixes: -ble · -dor · -miento · -aje</h3>
+<p>Four suffixes turn actions into things and qualities. <strong>-ble</strong> means "that can be …-ed" (<span class="es">potable, reutilizable</span>); <strong>-dor</strong> names the agent or device (<span class="es">depurador</span> = thing that purifies); <strong>-miento</strong> names the action or its result (<span class="es">tratamiento, funcionamiento</span>); <strong>-aje</strong> names a process, fee or collective (<span class="es">drenaje, reciclaje, almacenaje</span>).</p>
+<div class="formula"><b>raíz</b> + <b>sufijo</b> = new word — e.g. <b>depur</b> + <b>ador</b> · <b>trata</b> + <b>miento</b> · <b>dren</b> + <b>aje</b></div>
+<ul>
+  <li class="ex"><span class="es">El agua ya es <b>potable</b> y <b>reutilizable</b>. (= se puede beber, se puede reutilizar)</span><span class="en">The water is already drinkable and reusable. (= can be drunk, can be reused)</span></li>
+  <li class="ex"><span class="es">Un <b>depurador</b> limpia el agua de toda una ciudad. (= aparato que depura)</span><span class="en">One purifier cleans the water of a whole city. (= device that purifies)</span></li>
+  <li class="ex"><span class="es">El <b>tratamiento</b> tiene tres pasos. (= la acción de tratar)</span><span class="en">Treatment has three steps. (= the act of treating)</span></li>
+  <li class="ex"><span class="es">El <b>funcionamiento</b> sigue día y noche. (= cómo funciona)</span><span class="en">Its workings go on day and night. (= how it works)</span></li>
+  <li class="ex"><span class="es">El <b>drenaje</b> lleva el agua a la planta. (= el sistema de desagüe)</span><span class="en">The drainage carries water to the plant. (= the drain system)</span></li>
+  <li class="ex"><span class="es">El <b>reciclaje</b> empieza en casa. (= el proceso de reciclar)</span><span class="en">Recycling starts at home. (= the process of recycling)</span></li>
+</ul>
+<div class="warn">⚠️ <strong>Common mistakes:</strong> <span class="es">in-</span> changes shape before some letters — <span class="es">im-</span> before <span class="es">b/p</span> (<span class="es">imposible, impermeable</span>), <span class="es">i-</span> before <span class="es">l/r</span> (<span class="es">ilegal, irregular</span>). And <span class="es">des-</span> does not always negate: <span class="es">desayunar</span> (to have breakfast) is not the opposite of anything — always check the root first.</div>
+
+<h3>2.3. The decoding strategy in three steps</h3>
+<p>When a long word blocks you: (1) strip the <strong>prefijo</strong>, (2) strip the <strong>sufijo</strong>, (3) read the <strong>raíz</strong> — then rebuild the meaning. Two worked examples from this lesson:</p>
+<div class="formula"><b>des · contamin · ar</b> = undo + pollution + verb → to decontaminate</div>
+<ul>
+  <li class="ex"><span class="es">Quieren <b>descontaminar</b> todo el río. → <b>des-</b> (undo) + <b>contamin-</b> (pollute) + <b>-ar</b> (verb)</span><span class="en">They want to decontaminate the whole river.</span></li>
+  <li class="ex"><span class="es">El coste fue menor de lo <b>previsible</b>. → <b>pre-</b> (before) + <b>vis-</b> (see) + <b>-ible</b> (that can be)</span><span class="en">The cost was lower than foreseeable. (= that could be foreseen)</span></li>
+  <li class="ex"><span class="es">La <b>reutilización</b> del agua ya funciona. → <b>re-</b> (again) + <b>util-</b> (use) + <b>-ización</b> (process)</span><span class="en">Water reuse already works. (= the process of using again)</span></li>
+</ul>
+
+<h3>2.4. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">prefijo</span></td><td data-label="Type">n.m.</td><td data-label="English">prefix</td><td data-label="Notes">The piece at the front: des-, re-, pre-.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sufijo</span></td><td data-label="Type">n.m.</td><td data-label="English">suffix</td><td data-label="Notes">The piece at the end: -ble, -dor, -aje.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">raíz</span></td><td data-label="Type">n.f.</td><td data-label="English">root (of a word)</td><td data-label="Notes">The core piece: contamin- in descontaminar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desalinizar</span></td><td data-label="Type">v.</td><td data-label="English">to desalinate</td><td data-label="Notes">des- (remove) + sal (salt) + -izar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">descontaminar</span></td><td data-label="Type">v.</td><td data-label="English">to decontaminate</td><td data-label="Notes">Family: contaminar → descontaminar → anticontaminante.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desinfectar</span></td><td data-label="Type">v.</td><td data-label="English">to disinfect</td><td data-label="Notes">des- (remove) + infección. Hay que desinfectar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desperdicio</span></td><td data-label="Type">n.m.</td><td data-label="English">waste, rubbish</td><td data-label="Notes">Todo desperdicio que trae el drenaje.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desagüe</span></td><td data-label="Type">n.m.</td><td data-label="English">drain</td><td data-label="Notes">des- + agua: water going away. El desagüe de casa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">impermeable</span></td><td data-label="Type">adj.</td><td data-label="English">waterproof</td><td data-label="Notes">im- (= in-, not) + permeable. Membranas impermeables.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">insalubre</span></td><td data-label="Type">adj.</td><td data-label="English">unhealthy, insanitary</td><td data-label="Notes">in- (not) + salubre (healthy). Agua insalubre.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">inagotable</span></td><td data-label="Type">adj.</td><td data-label="English">inexhaustible</td><td data-label="Notes">in- (not) + agotable (that can run out).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">invisible</span></td><td data-label="Type">adj.</td><td data-label="English">invisible</td><td data-label="Notes">in- (not) + visible. Bacterias invisibles.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reutilizar</span></td><td data-label="Type">v.</td><td data-label="English">to reuse</td><td data-label="Notes">Family: utilizar → reutilizar → reutilización → reutilizable.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reutilización</span></td><td data-label="Type">n.f.</td><td data-label="English">reuse</td><td data-label="Notes">re- + utilizar + -ización. La reutilización del agua.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reutilizable</span></td><td data-label="Type">adj.</td><td data-label="English">reusable</td><td data-label="Notes">-ble = that can be. Agua reutilizable.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">regenerar</span></td><td data-label="Type">v.</td><td data-label="English">to regenerate</td><td data-label="Notes">re- (again) + generar. Regenerar los ríos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">renovable</span></td><td data-label="Type">adj.</td><td data-label="English">renewable</td><td data-label="Notes">re- + nov- (new) + -able. Energía renovable.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pretratamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">pre-treatment</td><td data-label="Notes">Family: tratar → tratamiento → pretratamiento → postratamiento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prever</span></td><td data-label="Type">v.</td><td data-label="English">to foresee, to anticipate</td><td data-label="Notes">pre- (before) + ver. Pueden prever años secos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">previsible</span></td><td data-label="Type">adj.</td><td data-label="English">foreseeable</td><td data-label="Notes">Family: prever → previsible. Menos de lo previsible.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">postratamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">post-treatment</td><td data-label="Notes">post- (after) + tratamiento. Después del postratamiento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">anticontaminante</span></td><td data-label="Type">adj.</td><td data-label="English">anti-pollution</td><td data-label="Notes">anti- (against) + contaminante. Filtros anticontaminantes.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">antiséquía</span></td><td data-label="Type">adj.</td><td data-label="English">anti-drought</td><td data-label="Notes">anti- + sequía (drought, L37). Un plan antiséquía.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">superbacteria</span></td><td data-label="Type">n.f.</td><td data-label="English">superbug</td><td data-label="Notes">super- (over, beyond) + bacteria. Resistant germ.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">potable</span></td><td data-label="Type">adj.</td><td data-label="English">drinkable, safe to drink</td><td data-label="Notes">-ble = that can be. Agua potable.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">depurar</span></td><td data-label="Type">v.</td><td data-label="English">to purify (water)</td><td data-label="Notes">Family: depurar → depuración → depurador.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">depuración</span></td><td data-label="Type">n.f.</td><td data-label="English">purification</td><td data-label="Notes">depurar + -ción. La depuración tiene tres pasos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">depurador</span></td><td data-label="Type">n.m.</td><td data-label="English">purifier (device)</td><td data-label="Notes">-dor = device that. Un depurador limpia el agua.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tratamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">treatment</td><td data-label="Notes">tratar + -miento. La planta de tratamiento.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">funcionamiento</span></td><td data-label="Type">n.m.</td><td data-label="English">workings, operation</td><td data-label="Notes">funcionar + -miento. How it works.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">drenaje</span></td><td data-label="Type">n.m.</td><td data-label="English">drainage</td><td data-label="Notes">drenar + -aje. El drenaje de las calles.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reciclaje</span></td><td data-label="Type">n.m.</td><td data-label="English">recycling</td><td data-label="Notes">reciclar (L37) + -aje. El reciclaje empieza en casa.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">almacenaje</span></td><td data-label="Type">n.m.</td><td data-label="English">storage</td><td data-label="Notes">almacenar + -aje. El almacenaje del agua.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">potabilizar</span></td><td data-label="Type">v.</td><td data-label="English">to make drinkable</td><td data-label="Notes">potable + -izar. Potabilizar el agua con carbón.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">planta</span></td><td data-label="Type">n.f.</td><td data-label="English">plant (industrial)</td><td data-label="Notes">La planta de tratamiento. Also: factory.</td></tr>
+</tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five decoding sentences. Read them once; no need to memorize.</p>
+
+<h3>1. The strategy:</h3>
+<div class="phrase">
+  <p class="es">Ante una palabra larga, busca el prefijo, la raíz y el sufijo.</p>
+  <p class="en">Faced with a long word, look for the prefix, the root and the suffix.</p>
+</div>
+<h3>2. Undoing:</h3>
+<div class="phrase">
+  <p class="es">Descontaminar es quitar la contaminación.</p>
+  <p class="en">To decontaminate is to remove pollution.</p>
+</div>
+<h3>3. Before and after:</h3>
+<div class="phrase">
+  <p class="es">El pretratamiento va antes; el postratamiento, después.</p>
+  <p class="en">Pre-treatment goes before; post-treatment comes after.</p>
+</div>
+<h3>4. The device:</h3>
+<div class="phrase">
+  <p class="es">Un depurador limpia el agua de toda una ciudad.</p>
+  <p class="en">One purifier cleans the water of a whole city.</p>
+</div>
+<h3>5. The process:</h3>
+<div class="phrase">
+  <p class="es">El reciclaje empieza en casa.</p>
+  <p class="en">Recycling starts at home.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Marco visits the plant with Lucía, one of the engineers, and asks what happens to his own tap water.</p>
+
+<div class="phrase">
+  <p class="es">Lucía: La <b>reutilización</b> del agua ya funciona en tu calle.</p>
+  <p class="en">Lucía: Water reuse already works on your street.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: ¿De verdad puedo beber el agua del desagüe?</p>
+  <p class="en">Marco: Can I really drink drain water?</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Después del tratamiento y la depuración, sí: es potable.</p>
+  <p class="en">Lucía: After treatment and purification, yes: it's drinkable.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: ¿Y el pretratamiento y el postratamiento?</p>
+  <p class="en">Marco: And the pre-treatment and post-treatment?</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Uno va antes y el otro después; en medio trabajan los filtros impermeables.</p>
+  <p class="en">Lucía: One goes before and the other after; in between, the waterproof filters do the work.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marco: Mis vecinos dicen que sabe mejor que la de antes.</p>
+  <p class="en">Marco: My neighbours say it tastes better than before.</p>
+</div>
+<div class="phrase">
+  <p class="es">Lucía: Es previsible: el agua reutilizada no sabe a nada.</p>
+  <p class="en">Lucía: That's foreseeable: reused water tastes of nothing.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>reutilización</strong> (reuse) — from today's table (first met in §2.3). Everything else comes back from the passage.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Prefixes:</strong> <span class="es">des-</span> (undo), <span class="es">in-</span> (not), <span class="es">re-</span> (again), <span class="es">pre-</span> (before), <span class="es">pos(t)-</span> (after), <span class="es">anti-</span> (against), <span class="es">super-</span> (over, beyond).</li>
+  <li><strong>Suffixes:</strong> <span class="es">-ble</span> (that can be), <span class="es">-dor</span> (device/agent), <span class="es">-miento</span> (action/result), <span class="es">-aje</span> (process).</li>
+  <li><strong>Strategy:</strong> strip the prefijo, strip the sufijo, read the raíz — then rebuild the meaning.</li>
+</ul>
+
+<h3>5.2. Further reading — agua del mar</h3>
+<p><strong>Context:</strong> Santa Clara looks to the sea for its next project. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">En la costa, el plan estrella es <b>desalinizar</b> agua del mar.</p>
+  <p class="en">On the coast, the star plan is to desalinate seawater.</p>
+</div>
+<div class="phrase">
+  <p class="es">La planta nueva combina <b>pretratamiento</b>, membranas <b>impermeables</b> y <b>postratamiento</b>.</p>
+  <p class="en">The new plant combines pre-treatment, waterproof membranes and post-treatment.</p>
+</div>
+<div class="phrase">
+  <p class="es">El agua <b>potable</b> llega a cada casa, y el <b>desagüe</b> la devuelve a la planta.</p>
+  <p class="en">Drinking water reaches every home, and the drains return it to the plant.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>almacenaje</b> guarda el agua para los meses secos.</p>
+  <p class="en">Storage keeps water for the dry months.</p>
+</div>
+<div class="phrase">
+  <p class="es">Con menos <b>desperdicio</b> y más <b>reciclaje</b>, el abastecimiento es <b>inagotable</b>.</p>
+  <p class="en">With less waste and more recycling, the supply is inexhaustible.</p>
+</div>
+
+<p class="lead"><em>New words: none — every word comes back from today's table and passage.</em></p>
+
+<hr>
+<p><strong>End of Lesson 63.</strong> Next, <strong>Lesson 64</strong>: word families — diminutives, augmentatives and the great market of suffixes. No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-64.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

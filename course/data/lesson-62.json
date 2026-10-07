@@ -1,0 +1,289 @@
+{
+  "lesson": 62,
+  "title": "Nominalization & formal written syntax",
+  "words": [
+    {
+      "word": "ayuntamiento",
+      "type": "n.m.",
+      "en": "city council, town hall",
+      "note": "Abrió el expediente de la reforma.",
+      "example": { "es": "¿Supiste lo del ayuntamiento?", "en": "Did you hear about the council?" }
+    },
+    {
+      "word": "concejal",
+      "type": "n.m./f.",
+      "en": "councillor",
+      "note": "La concejala de mercados leyó los números.",
+      "example": { "es": "Los concejales visitan los puestos.", "en": "The councillors visit the stalls." }
+    },
+    {
+      "word": "pleno",
+      "type": "n.m.",
+      "en": "plenary session, full council",
+      "note": "El pleno habló del aumento.",
+      "example": { "es": "El pleno habla del mercado.", "en": "The plenary discusses the market." }
+    },
+    {
+      "word": "ordenanza",
+      "type": "n.f.",
+      "en": "by-law, ordinance",
+      "note": "En virtud de / con arreglo a la ordenanza.",
+      "example": { "es": "En virtud de la ordenanza.", "en": "By virtue of the by-law." }
+    },
+    {
+      "word": "expediente",
+      "type": "n.m.",
+      "en": "file, dossier, proceedings",
+      "note": "Abrió el expediente de la reforma.",
+      "example": { "es": "Abrió el expediente del mercado.", "en": "He opened the file on the market." }
+    },
+    {
+      "word": "licitación",
+      "type": "n.f.",
+      "en": "tender, bidding process",
+      "note": "La licitación se adjudicó a la contratista.",
+      "example": { "es": "Se licita la ejecución.", "en": "The execution is put out to tender." }
+    },
+    {
+      "word": "adjudicar",
+      "type": "v.",
+      "en": "to award (a contract)",
+      "note": "Se adjudicó la obra a una contratista.",
+      "example": { "es": "La obra se adjudicó a la adjudicataria.", "en": "The work was awarded to the successful bidder." }
+    },
+    {
+      "word": "contratista",
+      "type": "n.m./f.",
+      "en": "contractor",
+      "note": "Una contratista local.",
+      "example": { "es": "Se adjudicó a una contratista local.", "en": "It was awarded to a local contractor." }
+    },
+    {
+      "word": "comerciante",
+      "type": "n.m./f.",
+      "en": "trader, shopkeeper",
+      "note": "Cada comerciante tiene su mostrador.",
+      "example": { "es": "Cada comerciante tiene su mostrador.", "en": "Each trader keeps his counter." }
+    },
+    {
+      "word": "subvención",
+      "type": "n.f.",
+      "en": "grant, subsidy",
+      "note": "Una subvención para cada puesto.",
+      "example": { "es": "Pide también la subvención.", "en": "Ask for the grant too." }
+    },
+    {
+      "word": "presupuesto",
+      "type": "n.m.",
+      "en": "budget",
+      "note": "El aumento del presupuesto.",
+      "example": { "es": "El aumento del presupuesto es pequeño.", "en": "The budget increase is small." }
+    },
+    {
+      "word": "prórroga",
+      "type": "n.f.",
+      "en": "extension (of a deadline)",
+      "note": "Pidieron una prórroga para opinar.",
+      "example": { "es": "Por consiguiente, habrá una prórroga.", "en": "Consequently, there will be an extension." }
+    },
+    {
+      "word": "aumento",
+      "type": "n.m.",
+      "en": "increase",
+      "note": "Nominalization: aumentar gives el aumento de.",
+      "example": { "es": "Hablaron del aumento tres horas.", "en": "They discussed the increase for three hours." }
+    },
+    {
+      "word": "sede",
+      "type": "n.f.",
+      "en": "site, seat, headquarters",
+      "note": "El mercado sigue en su sede.",
+      "example": { "es": "El mercado sigue en su sede.", "en": "The market stays at its site." }
+    },
+    {
+      "word": "convenio",
+      "type": "n.m.",
+      "en": "agreement, convention",
+      "note": "El convenio incluye una subvención.",
+      "example": { "es": "Sale en el convenio.", "en": "It's in the agreement." }
+    },
+    {
+      "word": "dotación",
+      "type": "n.f.",
+      "en": "funding, endowment",
+      "note": "La dotación total sale del presupuesto.",
+      "example": { "es": "La dotación sale del presupuesto.", "en": "The funding comes out of the budget." }
+    },
+    {
+      "word": "ejecución",
+      "type": "n.f.",
+      "en": "execution, carrying out",
+      "note": "La ejecución de las obras.",
+      "example": { "es": "Se licita la ejecución de las obras.", "en": "The execution of the works is put out to tender." }
+    },
+    {
+      "word": "inauguración",
+      "type": "n.f.",
+      "en": "opening, inauguration",
+      "note": "La inauguración será en primavera.",
+      "example": { "es": "La inauguración será en primavera.", "en": "The opening will be in spring." }
+    },
+    {
+      "word": "clausura",
+      "type": "n.f.",
+      "en": "closure",
+      "note": "Formal word for cerrar: la clausura de dos calles.",
+      "example": { "es": "La clausura es de un mes.", "en": "The closure is for one month." }
+    },
+    {
+      "word": "adecuación",
+      "type": "n.f.",
+      "en": "adaptation, fitting-out",
+      "note": "La adecuación del edificio.",
+      "example": { "es": "Hay que llevar a cabo la adecuación.", "en": "The adaptation must be carried out." }
+    },
+    {
+      "word": "asimismo",
+      "type": "adv.",
+      "en": "likewise, also (formal)",
+      "note": "Asimismo, se llevará a cabo…",
+      "example": { "es": "Asimismo, se pedirá una prórroga.", "en": "Likewise, an extension will be requested." }
+    },
+    {
+      "word": "abasto",
+      "type": "n.m.",
+      "en": "supply (of goods)",
+      "note": "El abasto de agua sigue igual.",
+      "example": { "es": "El abasto de agua sigue igual.", "en": "The water supply stays the same." }
+    },
+    {
+      "word": "mostrador",
+      "type": "n.m.",
+      "en": "counter (shop or stall)",
+      "note": "Cada comerciante tiene su mostrador.",
+      "example": { "es": "Mi mostrador necesita luz.", "en": "My counter needs light." }
+    },
+    {
+      "word": "abastecimiento",
+      "type": "n.m.",
+      "en": "supplying, provisioning",
+      "note": "El abastecimiento llega cada mañana.",
+      "example": { "es": "El abastecimiento llega cada mañana.", "en": "Deliveries arrive every morning." }
+    },
+    {
+      "word": "saneamiento",
+      "type": "n.m.",
+      "en": "sanitation, drainage",
+      "note": "Solado nuevo y saneamiento.",
+      "example": { "es": "La obra trae saneamiento nuevo.", "en": "The work brings new sanitation." }
+    },
+    {
+      "word": "solado",
+      "type": "n.m.",
+      "en": "flooring, paving",
+      "note": "La adecuación trae solado nuevo.",
+      "example": { "es": "La adecuación trae solado nuevo.", "en": "The adaptation brings new flooring." }
+    },
+    {
+      "word": "albañil",
+      "type": "n.m./f.",
+      "en": "bricklayer",
+      "note": "Los albañiles empezaron por la entrada.",
+      "example": { "es": "Los albañiles empezaron por la entrada.", "en": "The bricklayers started at the entrance." }
+    },
+    {
+      "word": "techumbre",
+      "type": "n.f.",
+      "en": "roof, roofing",
+      "note": "Techumbre nueva para el mercado.",
+      "example": { "es": "La obra trae techumbre nueva.", "en": "The work brings a new roof." }
+    },
+    {
+      "word": "adjudicataria",
+      "type": "n.f.",
+      "en": "successful bidder",
+      "note": "Feminine here; masculine: adjudicatario.",
+      "example": { "es": "La obra se adjudicó a la adjudicataria.", "en": "The work was awarded to the successful bidder." }
+    },
+    {
+      "word": "licitar",
+      "type": "v.",
+      "en": "to put out to tender",
+      "note": "Se licita la ejecución de las obras.",
+      "example": { "es": "Se licita la ejecución.", "en": "The execution is put out to tender." }
+    },
+    {
+      "word": "tramitación",
+      "type": "n.f.",
+      "en": "procedure, processing",
+      "note": "La tramitación termina en seis meses.",
+      "example": { "es": "La tramitación termina en seis meses.", "en": "The procedure finishes in six months." }
+    },
+    {
+      "word": "concurrencia",
+      "type": "n.f.",
+      "en": "crowd, turnout",
+      "note": "La concurrencia de los sábados.",
+      "example": { "es": "Un entoldado para la concurrencia.", "en": "An awning for the crowds." }
+    },
+    {
+      "word": "entoldado",
+      "type": "n.m.",
+      "en": "awning, canopy",
+      "note": "Un entoldado nuevo para el mercado.",
+      "example": { "es": "¿Y el entoldado del mercado?", "en": "And the market's awning?" }
+    },
+    {
+      "word": "llevar a cabo",
+      "type": "v. phr.",
+      "en": "to carry out",
+      "note": "Formal hacer: llevar a cabo la clausura.",
+      "example": { "es": "Se llevará a cabo la clausura.", "en": "The closure will be carried out." }
+    },
+    {
+      "word": "puesta en marcha",
+      "type": "n.f.",
+      "en": "launch, setting in motion",
+      "note": "La puesta en marcha será poco a poco.",
+      "example": { "es": "La puesta en marcha será poco a poco.", "en": "The launch will be gradual." }
+    },
+    {
+      "word": "en virtud de",
+      "type": "prep.",
+      "en": "by virtue of, under",
+      "note": "En virtud de la ordenanza plus noun.",
+      "example": { "es": "En virtud de la ordenanza.", "en": "By virtue of the by-law." }
+    },
+    {
+      "word": "con arreglo a",
+      "type": "prep.",
+      "en": "in accordance with",
+      "note": "Con arreglo a la ordenanza plus noun.",
+      "example": { "es": "Con arreglo a la ordenanza, todo llega.", "en": "In accordance with the by-law, everything will come." }
+    },
+    {
+      "word": "acristalamiento",
+      "type": "n.m.",
+      "en": "glazing (glass fitting)",
+      "note": "Pido el acristalamiento de las ventanas.",
+      "ext": true,
+      "example": { "es": "Pido el acristalamiento.", "en": "I'm asking for the glazing." }
+    },
+    {
+      "word": "fontanería",
+      "type": "n.f.",
+      "en": "plumbing (system)",
+      "note": "La fontanería de los baños entra en la obra.",
+      "ext": true,
+      "example": { "es": "La fontanería entra en la obra.", "en": "The plumbing is included in the work." }
+    },
+    {
+      "word": "hornacina",
+      "type": "n.f.",
+      "en": "niche (in a wall)",
+      "note": "La hornacina de la entrada se queda como está.",
+      "ext": true,
+      "example": { "es": "La hornacina se queda como está.", "en": "The niche stays as it is." }
+    }
+  ]
+}

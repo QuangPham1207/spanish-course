@@ -1,0 +1,27 @@
+{
+  "lesson": 82,
+  "title": "News report: the fire is under control",
+  "words": [
+    {"word": "incendio", "type": "n.m.", "en": "fire", "note": "Incendio forestal: el del monte.", "example": {"es": "Controlado el incendio.", "en": "Fire under control."}},
+    {"word": "bombero", "type": "n.m.", "en": "firefighter", "note": "La bombera, los bomberos.", "example": {"es": "Los bomberos trabajan entre el humo.", "en": "Firefighters work through the smoke."}},
+    {"word": "humo", "type": "n.m.", "en": "smoke", "note": "Entre el humo.", "example": {"es": "Poco humo al amanecer.", "en": "Little smoke at dawn."}},
+    {"word": "desalojar", "type": "v.", "en": "to evacuate (people)", "note": "Se desalojó a 200 vecinos.", "example": {"es": "Se desalojó a 200 vecinos.", "en": "200 residents were evacuated."}},
+    {"word": "evacuado", "type": "adj.", "en": "evacuated", "note": "Por precaución.", "example": {"es": "Siguen evacuados.", "en": "They remain evacuated."}},
+    {"word": "foco", "type": "n.m.", "en": "fire front, hotspot", "note": "Dos focos activos.", "example": {"es": "Dos focos activos al amanecer.", "en": "Two active fronts at dawn."}},
+    {"word": "perímetro", "type": "n.m.", "en": "perimeter", "note": "El perímetro aguanta.", "example": {"es": "El perímetro aguanta.", "en": "The perimeter is holding."}},
+    {"word": "estabilizar", "type": "v.", "en": "to stabilise", "note": "Se estabilizó anoche.", "example": {"es": "El fuego se estabilizó.", "en": "The fire was stabilised."}},
+    {"word": "controlado", "type": "adj.", "en": "under control", "note": "Controlado, que no apagado.", "example": {"es": "Incendio controlado.", "en": "Fire under control."}},
+    {"word": "extinguir", "type": "v.", "en": "to extinguish", "note": "Apagar del todo.", "example": {"es": "Toca extinguir brasas.", "en": "Now to extinguish embers."}},
+    {"word": "daños materiales", "type": "phr.", "en": "material damage", "note": "Sin muertos.", "example": {"es": "Solo daños materiales.", "en": "Only material damage."}},
+    {"word": "herido leve", "type": "phr.", "en": "lightly injured person", "note": "Tres heridos leves.", "example": {"es": "Hay tres heridos leves.", "en": "Three people are lightly injured."}},
+    {"word": "según fuentes", "type": "phr.", "en": "according to sources", "note": "Cita vaga de prensa.", "example": {"es": "Según fuentes del operativo.", "en": "According to operation sources."}},
+    {"word": "operativo", "type": "n.m.", "en": "operation (emergency/police)", "note": "El despliegue coordinado.", "example": {"es": "Fuentes del operativo.", "en": "Operation sources."}},
+    {"word": "parte", "type": "n.m.", "en": "report, bulletin", "note": "El parte de hoy.", "example": {"es": "El parte de hoy es claro.", "en": "Today's report is clear."}},
+    {"word": "alerta", "type": "n.f.", "en": "alert", "note": "Alerta amarilla.", "example": {"es": "Hay alerta amarilla por viento.", "en": "There is a yellow wind alert."}},
+    {"word": "cortafuegos", "type": "n.m.", "en": "firebreak", "note": "Cortar vegetación.", "example": {"es": "Abren un cortafuegos.", "en": "They cut a firebreak."}},
+    {"word": "hidrante", "type": "n.m.", "en": "hydrant", "note": "Cognate.", "ext": true, "example": {"es": "El hidrante de la esquina.", "en": "The hydrant on the corner."}},
+    {"word": "retén", "type": "n.m.", "en": "fire crew on standby", "note": "El equipo que espera.", "ext": true, "example": {"es": "El retén de guardia.", "en": "The standby crew."}},
+    {"word": "piromanía", "type": "n.f.", "en": "pyromania", "note": "(advanced) Nada que ver aquí.", "ext": true, "example": {"es": "No fue piromanía.", "en": "It wasn't arson."}},
+    {"word": "titular de apertura", "type": "phr.", "en": "lead headline", "note": "El que abre el informativo.", "ext": true, "example": {"es": "El titular de apertura.", "en": "The lead headline."}}
+  ]
+}

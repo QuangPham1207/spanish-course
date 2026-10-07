@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 65 — Discourse connectors &amp; register</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-64.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>LESSON 65 — DISCOURSE CONNECTORS &amp; REGISTER</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read an opinion column about green cities: <strong>Una ciudad que respira</strong>.</li>
+      <li>Use eleven connectors: <span class="es">sin embargo, no obstante, asimismo, por consiguiente, por lo tanto, mientras que, a pesar de, dado que, en cambio, de hecho, es decir</span>.</li>
+      <li>Feel the <strong>register</strong> difference: formal <span class="es">no obstante, asimismo, por consiguiente</span> vs neutral <span class="es">pero, también, por eso</span>.</li>
+      <li>Pick up words: <span class="es">arboleda, sendero, césped, peatón, atasco, pulmón, ribera, ayuntamiento, talar, podar, regar</span>.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">arboleda, sendero, césped, vecindario, peatón, peatonal, atasco, oasis, pulmón, quiosco, ensanche, manzana, rotonda, cruce, carril, patinete, bulevar, prohibir, talar, podar, regar, riego, respirar, mitigar, sombra, gorrión, biodiversidad, registro, coloquial, por lo tanto, en cambio, de hecho</span><br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">jilguero, mirlo, alcorque, bochorno</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (UNA CIUDAD QUE RESPIRA)</h2>
+<p><strong>Context:</strong> An opinion column from a city newspaper about trees, traffic and heat. It is full of connectors — the small words that hold an argument together. Read each line; the English below it is only a check.</p>
+<p class="lead">(Some connectors here you already know — <em>sin embargo, no obstante, mientras que, a pesar de, dado que, es decir</em>, plus <em>asimismo</em> and <em>por consiguiente</em> from Lesson 62 — and three are new: <em>por lo tanto, en cambio, de hecho</em>.)</p>
+
+<div class="phrase">
+  <p class="es">Nuestra ciudad tiene un problema histórico: el <b>ensanche</b> creció muy rápido y cada <b>manzana</b> nueva trajo más coches y menos <b>sombra</b>.</p>
+  <p class="en">Our city has a historic problem: the expansion district grew very fast, and each new block brought more cars and less shade.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>De hecho</b>, en verano hace mucho calor en las calles hasta la noche, dado que la <b>arboleda</b> es todavía pequeña.</p>
+  <p class="en">In fact, in summer the streets stay very hot until night, given that the trees are still small.</p>
+</div>
+<div class="phrase">
+  <p class="es">El ayuntamiento dice que va a plantar más verde cada año; sin embargo, la gente del <b>vecindario</b> sigue esperando.</p>
+  <p class="en">The city council says it will plant more green every year; however, the people of the neighbourhood are still waiting.</p>
+</div>
+<div class="phrase">
+  <p class="es">No obstante, hay motivos para la esperanza: el nuevo <b>bulevar</b> ya tiene un <b>carril</b> para bicicletas, un <b>sendero</b> nuevo y <b>césped</b> donde juegan los niños.</p>
+  <p class="en">Nevertheless, there are reasons for hope: the new boulevard already has a lane for bicycles, a new path, and a lawn where children play.</p>
+</div>
+<div class="phrase">
+  <p class="es">Asimismo, el concejal responsable dice que la ciudad quiere más arboleda y dos parques nuevos cada año.</p>
+  <p class="en">Likewise, the councillor in charge says the city wants more trees and two new parks every year.</p>
+</div>
+<div class="phrase">
+  <p class="es">Mientras que el centro gana gente, los barrios de fuera tienen menos verde, a pesar de tener más espacio.</p>
+  <p class="en">While the centre gains people, the outer neighbourhoods have less green, despite having more space.</p>
+</div>
+<div class="phrase">
+  <p class="es">El tráfico es otro problema: cada mañana el <b>atasco</b> llena la <b>rotonda</b> y el <b>cruce</b>, y el <b>peatón</b> no puede pasar.</p>
+  <p class="en">Traffic is another problem: every morning the jam fills the roundabout and the intersection, and pedestrians cannot get through.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por consiguiente, muchas familias van al parque en coche; es decir, el verde está lejos y usan el coche.</p>
+  <p class="en">Consequently, many families go to the park by car; in other words, the green is far away and they use the car.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>En cambio</b>, las calles con arboleda vieja son un <b>oasis</b>: hace menos calor, allí vive el <b>gorrión</b> y la gente sale a la calle.</p>
+  <p class="en">In contrast, the streets with old trees are an oasis: it is less hot, the sparrow lives there, and people come out into the street.</p>
+</div>
+<div class="phrase">
+  <p class="es">El <b>pulmón</b> de la ciudad está en la ribera: un sendero largo junto al agua, con <b>quioscos</b>, sombra y niños jugando.</p>
+  <p class="en">The lung of the city is on the riverbank: a long path by the water, with kiosks, shade, and children playing.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Por lo tanto</b>, la ribera es el lugar favorito de las familias los domingos: niños, bicicletas y helados.</p>
+  <p class="en">Therefore, the riverbank is the families' favourite place on Sundays: children, bicycles, and ice creams.</p>
+</div>
+<div class="phrase">
+  <p class="es">A pesar de todo esto, el ayuntamiento quiere <b>talar</b> una parte de la arboleda vieja para hacer más espacio para los coches.</p>
+  <p class="en">Despite all this, the council wants to fell part of the old trees to make more room for cars.</p>
+</div>
+<div class="phrase">
+  <p class="es">Es decir, van a cortar el verde para los coches, mientras que la ciudad dice que quiere menos coches.</p>
+  <p class="en">That is, they will cut the green for cars, while the city says it wants fewer cars.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los médicos dicen que <b>respirar</b> bien es bueno para los niños y los viejos, y <b>mitigar</b> el calor es bueno para todos.</p>
+  <p class="en">Doctors say that breathing well is good for children and old people, and softening the heat is good for everyone.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Podar</b> y <b>regar</b> cuestan dinero, pero una arboleda enferma cuesta más.</p>
+  <p class="en">Pruning and watering cost money, but sick trees cost more.</p>
+</div>
+<div class="phrase">
+  <p class="es">El concejal dice que no hay dinero para el <b>riego</b>, pero sí hay dinero para multas nuevas.</p>
+  <p class="en">The councillor says there is no money for watering, but there is money for new fines.</p>
+</div>
+<div class="phrase">
+  <p class="es">Sin embargo, la solución es simple: una calle <b>peatonal</b>, menos coches y más verde para la <b>biodiversidad</b>.</p>
+  <p class="en">However, the solution is simple: a pedestrian street, fewer cars, and more green for biodiversity.</p>
+</div>
+<div class="phrase">
+  <p class="es">Con una ordenanza clara, los <b>patinetes</b> van por el carril y los niños juegan en el césped.</p>
+  <p class="en">With a clear ordinance, scooters stay in the lane and children play on the lawn.</p>
+</div>
+
+<p class="lead"><strong>New words in the passage (look them up; you don't have to memorize them yet):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">jilguero</span></td><td data-label="Type">n.m.</td><td data-label="English">goldfinch</td><td data-label="Notes">Un pájaro pequeño que canta muy bien.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mirlo</span></td><td data-label="Type">n.m.</td><td data-label="English">blackbird</td><td data-label="Notes">Negro, con el pico amarillo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">alcorque</span></td><td data-label="Type">n.m.</td><td data-label="English">tree pit</td><td data-label="Notes">El hueco de tierra alrededor de un árbol en la calle.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bochorno</span></td><td data-label="Type">n.m.</td><td data-label="English">muggy heat</td><td data-label="Notes">¡Qué bochorno! = what stifling heat!</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Notice:</strong> connectors do the arguing, nouns do the picturing. In one reading you met the full set — contrast (<span class="es">sin embargo, en cambio</span>), cause (<span class="es">dado que</span>), consequence (<span class="es">por consiguiente, por lo tanto</span>) — inside a real column, not a list.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The connector system: contrast, addition, cause, consequence</h3>
+<p>Connectors fall into families. Learn the family, and each new connector has a home. The six you already knew (<span class="es">sin embargo, no obstante, mientras que, a pesar de, dado que, es decir</span>) anchor the five new ones:</p>
+<ul>
+  <li><strong>Contrast:</strong> <span class="es">sin embargo, no obstante</span> (= but, formal), <span class="es">en cambio</span> (= in contrast), <span class="es">mientras que</span> (= while/whereas), <span class="es">a pesar de</span> + noun (= despite).</li>
+  <li><strong>Adding / explaining:</strong> <span class="es">asimismo</span> (= also, formal), <span class="es">de hecho</span> (= in fact), <span class="es">es decir</span> (= that is).</li>
+  <li><strong>Cause / consequence:</strong> <span class="es">dado que</span> (= given that, formal), <span class="es">por consiguiente, por lo tanto</span> (= therefore, formal).</li>
+</ul>
+<ul>
+  <li class="ex"><span class="es">El atasco llena la rotonda; asimismo, el cruce está lleno de coches.</span><span class="en">The jam fills the roundabout; the intersection is likewise full of cars.</span></li>
+  <li class="ex"><span class="es">La arboleda es pequeña; por consiguiente, hace más calor.</span><span class="en">The trees are small; consequently, it is hotter.</span></li>
+  <li class="ex"><span class="es"><b>En cambio</b>, la ribera es un oasis con sombra y quioscos.</span><span class="en">In contrast, the riverbank is an oasis with shade and kiosks.</span></li>
+  <li class="ex"><span class="es"><b>De hecho</b>, el peatón no puede pasar por el carril.</span><span class="en">In fact, pedestrians cannot use the lane.</span></li>
+  <li class="ex"><span class="es"><b>Por lo tanto</b>, necesitamos una ordenanza clara para los patinetes.</span><span class="en">Therefore, we need a clear ordinance for scooters.</span></li>
+</ul>
+<div class="formula">A. Sin embargo, B. &nbsp;·&nbsp; A. Por lo tanto, B. &nbsp;·&nbsp; A; asimismo, B.</div>
+
+<h3>2.2. Register: formal connectors vs neutral words</h3>
+<p>The linguistic <b>registro</b> (register) is the level of formality. Newspaper columns and official letters use formal connectors; everyday speech — the <b>coloquial</b> register — uses short neutral words for the same job:</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Formal (prensa, cartas)</th><th>Neutral (habla normal)</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Formal"><span class="es">no obstante, sin embargo</span></td><td data-label="Neutral"><span class="es">pero</span> (but)</td></tr>
+    <tr><td data-label="Formal"><span class="es">asimismo</span></td><td data-label="Neutral"><span class="es">también</span> (also)</td></tr>
+    <tr><td data-label="Formal"><span class="es">por consiguiente, por lo tanto</span></td><td data-label="Neutral"><span class="es">por eso</span> (so, that's why)</td></tr>
+    <tr><td data-label="Formal"><span class="es">dado que</span></td><td data-label="Neutral"><span class="es">porque, como</span> (because, since)</td></tr>
+    <tr><td data-label="Formal"><span class="es">es decir</span></td><td data-label="Neutral"><span class="es">o sea</span> (I mean)</td></tr>
+  </tbody>
+</table>
+</div>
+<ul>
+  <li class="ex"><span class="es">No obstante, el riego cuesta dinero. → Pero el riego cuesta dinero.</span><span class="en">Nevertheless, watering costs money. → But watering costs money.</span></li>
+  <li class="ex"><span class="es">Asimismo, podar cuesta dinero. → También podar cuesta dinero.</span><span class="en">Likewise, pruning costs money. → Pruning costs money too.</span></li>
+  <li class="ex"><span class="es">Por lo tanto, respiramos peor. → Por eso respiramos peor.</span><span class="en">Therefore, we breathe worse. → That's why we breathe worse.</span></li>
+</ul>
+<div class="formula">Formal: no obstante · asimismo · por consiguiente &nbsp;↔&nbsp; Neutral: pero · también · por eso</div>
+<div class="warn">⚠️ <strong>Common mistake:</strong> using <span class="es">no obstante</span> or <span class="es">asimismo</span> with friends sounds stiff, like wearing a suit to the beach. In conversation prefer <span class="es">pero, también, por eso</span>; save the formal connectors for writing and official contexts.</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">arboleda</span></td><td data-label="Type">n.f.</td><td data-label="English">trees, grove (in a city)</td><td data-label="Notes">Collective: la arboleda es pequeña (not one tree).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sendero</span></td><td data-label="Type">n.m.</td><td data-label="English">path, trail</td><td data-label="Notes">Un sendero junto al agua.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">césped</span></td><td data-label="Type">n.m.</td><td data-label="English">lawn, grass</td><td data-label="Notes">Los niños juegan en el césped.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vecindario</span></td><td data-label="Type">n.m.</td><td data-label="English">neighbourhood</td><td data-label="Notes">La gente del vecindario. Cf. barrio.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">peatón</span></td><td data-label="Type">n.m.</td><td data-label="English">pedestrian</td><td data-label="Notes">El peatón no puede pasar.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">peatonal</span></td><td data-label="Type">adj.</td><td data-label="English">pedestrian (adj.), car-free</td><td data-label="Notes">Una calle peatonal.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">atasco</span></td><td data-label="Type">n.m.</td><td data-label="English">traffic jam</td><td data-label="Notes">El atasco llena la rotonda.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">oasis</span></td><td data-label="Type">n.m.</td><td data-label="English">oasis</td><td data-label="Notes">La ribera es un oasis.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pulmón</span></td><td data-label="Type">n.m.</td><td data-label="English">lung; green lung</td><td data-label="Notes">El pulmón de la ciudad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">quiosco</span></td><td data-label="Type">n.m.</td><td data-label="English">kiosk</td><td data-label="Notes">Quioscos con sombra en la ribera.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ensanche</span></td><td data-label="Type">n.m.</td><td data-label="English">city expansion district</td><td data-label="Notes">El ensanche creció muy rápido.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">manzana</span></td><td data-label="Type">n.f.</td><td data-label="English">city block</td><td data-label="Notes">Cada manzana nueva trajo más coches.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">rotonda</span></td><td data-label="Type">n.f.</td><td data-label="English">roundabout</td><td data-label="Notes">El atasco llena la rotonda. LatAm also: glorieta.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">cruce</span></td><td data-label="Type">n.m.</td><td data-label="English">intersection, crossing</td><td data-label="Notes">El cruce está lleno de coches.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">carril</span></td><td data-label="Type">n.m.</td><td data-label="English">lane</td><td data-label="Notes">Un carril para bicicletas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">patinete</span></td><td data-label="Type">n.m.</td><td data-label="English">scooter</td><td data-label="Notes">Los patinetes van por el carril.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">bulevar</span></td><td data-label="Type">n.m.</td><td data-label="English">boulevard</td><td data-label="Notes">El nuevo bulevar tiene césped.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prohibir</span></td><td data-label="Type">v.</td><td data-label="English">to prohibit, to ban</td><td data-label="Notes">La ordenanza prohíbe los coches.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">talar</span></td><td data-label="Type">v.</td><td data-label="English">to fell, to cut down (trees)</td><td data-label="Notes">Stronger than podar: talar = remove the tree.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">podar</span></td><td data-label="Type">v.</td><td data-label="English">to prune</td><td data-label="Notes">Podar = cut branches; talar = cut the tree.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">regar</span></td><td data-label="Type">v.</td><td data-label="English">to water, to irrigate</td><td data-label="Notes">e→ie (riego, riegas). Podar y regar cuestan dinero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">riego</span></td><td data-label="Type">n.m.</td><td data-label="English">watering, irrigation</td><td data-label="Notes">No hay dinero para el riego.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">respirar</span></td><td data-label="Type">v.</td><td data-label="English">to breathe</td><td data-label="Notes">Respirar bien es bueno para todos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">mitigar</span></td><td data-label="Type">v.</td><td data-label="English">to mitigate, to soften</td><td data-label="Notes">Formal word: mitigar el calor.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sombra</span></td><td data-label="Type">n.f.</td><td data-label="English">shade, shadow</td><td data-label="Notes">Cada manzana nueva trajo menos sombra.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gorrión</span></td><td data-label="Type">n.m.</td><td data-label="English">sparrow</td><td data-label="Notes">Allí vive el gorrión. City bird.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">biodiversidad</span></td><td data-label="Type">n.f.</td><td data-label="English">biodiversity</td><td data-label="Notes">Más verde para la biodiversidad.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">registro</span></td><td data-label="Type">n.m.</td><td data-label="English">register (formality level)</td><td data-label="Notes">Formal vs coloquial: two registros.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">coloquial</span></td><td data-label="Type">adj.</td><td data-label="English">colloquial, informal</td><td data-label="Notes">El registro coloquial: pero, también, por eso.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">por lo tanto</span></td><td data-label="Type">conj.</td><td data-label="English">therefore (formal)</td><td data-label="Notes">Por lo tanto, la ribera es el lugar favorito.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">en cambio</span></td><td data-label="Type">conj.</td><td data-label="English">in contrast, whereas</td><td data-label="Notes">En cambio, la ribera es un oasis.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">de hecho</span></td><td data-label="Type">conj.</td><td data-label="English">in fact, actually</td><td data-label="Notes">De hecho, hace mucho calor hasta la noche.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five connector sentences. Read them once; no need to memorize.</p>
+
+<h3>1. The contrast:</h3>
+<div class="phrase">
+  <p class="es">En cambio, la ribera es un oasis.</p>
+  <p class="en">In contrast, the riverbank is an oasis.</p>
+</div>
+<h3>2. The consequence:</h3>
+<div class="phrase">
+  <p class="es">Por lo tanto, necesitamos más sombra.</p>
+  <p class="en">Therefore, we need more shade.</p>
+</div>
+<h3>3. The formal touch:</h3>
+<div class="phrase">
+  <p class="es">Asimismo, el riego cuesta dinero.</p>
+  <p class="en">Likewise, watering costs money.</p>
+</div>
+<h3>4. The cause:</h3>
+<div class="phrase">
+  <p class="es">Dado que no hay sombra, hace calor.</p>
+  <p class="en">Given that there is no shade, it is hot.</p>
+</div>
+<h3>5. The explanation:</h3>
+<div class="phrase">
+  <p class="es">Es decir, menos coches y más verde.</p>
+  <p class="en">In other words, fewer cars and more green.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> whenever you feel like it, read all five out loud once. Not required.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Two neighbours, Marta and Luis, escape the heat in the park and chat about birds and trees.</p>
+
+<div class="phrase">
+  <p class="es">Marta: ¡Qué bochorno! Vamos al sendero de la ribera, que allí hay sombra.</p>
+  <p class="en">Marta: What stifling heat! Let's go to the riverbank path — there's shade there.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Buena idea. En el alcorque del parque he visto un jilguero esta mañana.</p>
+  <p class="en">Luis: Good idea. In the park's tree pit I saw a goldfinch this morning.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: ¿Un jilguero? Yo solo veo gorriones y algún mirlo.</p>
+  <p class="en">Marta: A goldfinch? I only ever see sparrows and the odd blackbird.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: De hecho, desde que hay riego nuevo, el parque está mejor.</p>
+  <p class="en">Luis: In fact, since there's new watering, the park looks better.</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: El concejal dice que van a podar la arboleda en otoño.</p>
+  <p class="en">Marta: The councillor says they're going to prune the trees in autumn.</p>
+</div>
+<div class="phrase">
+  <p class="es">Luis: Por lo menos no van a talar nada, ¿no?</p>
+  <p class="en">Luis: At least they're not going to fell anything, right?</p>
+</div>
+<div class="phrase">
+  <p class="es">Marta: Eso espero. Menos coches, más verde: esa es mi ordenanza favorita.</p>
+  <p class="en">Marta: I hope so. Fewer cars, more green — that's my favourite ordinance.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: <strong>bochorno</strong> (muggy heat), <strong>alcorque</strong> (tree pit), <strong>jilguero</strong> (goldfinch), <strong>mirlo</strong> (blackbird) — a hot afternoon in four words.</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Connectors:</strong> contrast (<span class="es">sin embargo, no obstante, en cambio, mientras que, a pesar de</span>), addition (<span class="es">asimismo, de hecho, es decir</span>), cause and consequence (<span class="es">dado que, por consiguiente, por lo tanto</span>).</li>
+  <li><strong>Register:</strong> formal <span class="es">no obstante / asimismo / por consiguiente</span> for writing, neutral <span class="es">pero / también / por eso</span> for talking — the same job, a different suit.</li>
+  <li><strong>The column's argument:</strong> the city grew fast, the shade stayed small, the riverbank saves Sundays — and the answer is a clear ordinance, not more fines.</li>
+</ul>
+
+<h3>5.2. Further reading — la ordenanza del centro</h3>
+<p><strong>Context:</strong> A short follow-up note: the council passes a new ordinance. Read it quietly:</p>
+<div class="phrase">
+  <p class="es">La ordenanza nueva <b>prohíbe</b> los coches en tres calles del centro.</p>
+  <p class="en">The new ordinance bans cars from three streets in the centre.</p>
+</div>
+<div class="phrase">
+  <p class="es">Los <b>patinetes</b> van por el <b>carril</b> y las bicicletas van por el <b>sendero</b>.</p>
+  <p class="en">Scooters use the lane and bicycles use the path.</p>
+</div>
+<div class="phrase">
+  <p class="es">El concejal dice que la ciudad quiere ser un <b>oasis</b> con <b>biodiversidad</b>.</p>
+  <p class="en">The councillor says the city wants to be an oasis with biodiversity.</p>
+</div>
+<div class="phrase">
+  <p class="es">Asimismo, van a pagar el <b>riego</b> con el dinero de las multas.</p>
+  <p class="en">Likewise, they will pay for the watering with the fine money.</p>
+</div>
+<div class="phrase">
+  <p class="es">Por consiguiente, la <b>arboleda</b> crece y el <b>vecindario</b> <b>respira</b>.</p>
+  <p class="en">Consequently, the trees grow and the neighbourhood breathes.</p>
+</div>
+
+<p class="lead"><em>All words are from today's table — <strong>prohibir</strong> (to prohibit) appears here for the first time.</em></p>
+
+<hr>
+<p><strong>End of Lesson 65.</strong> Next, <strong>Lesson 66</strong>: advanced pronouns — a detective story about a letter nobody claimed (<em>se lo, lo que, el cual</em> and leísmo). No exercises — just read.</p>
+
+<p class="topnav"><a href="lesson-66.html">Next &rarr;</a> &middot; <a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+{
+  "lesson": 60,
+  "title": "The many values of se",
+  "words": [
+    {
+      "word": "vecino",
+      "type": "n.m./f.",
+      "en": "neighbour",
+      "note": "Los vecinos se quejan de la derrama.",
+      "example": { "es": "Los vecinos se saludan todos los días.", "en": "The neighbours greet each other every day." }
+    },
+    {
+      "word": "vecindad",
+      "type": "n.f.",
+      "en": "apartment block, tenement",
+      "note": "Mexico: en nuestra vecindad. Neutral synonym: edificio.",
+      "example": { "es": "En nuestra vecindad viven cuarenta vecinos.", "en": "Forty neighbours live in our apartment block." }
+    },
+    {
+      "word": "portero",
+      "type": "n.m./f.",
+      "en": "doorman, caretaker",
+      "note": "Abre el zaguán a las siete.",
+      "example": { "es": "El portero abre el zaguán a las siete.", "en": "The doorman opens the entrance hall at seven." }
+    },
+    {
+      "word": "escalera",
+      "type": "n.f.",
+      "en": "stairs, stairwell",
+      "note": "Tres escaleras; se apaga la luz de la escalera.",
+      "example": { "es": "Se apaga la luz de la escalera.", "en": "The stairwell light goes off." }
+    },
+    {
+      "word": "ascensor",
+      "type": "n.m.",
+      "en": "lift, elevator",
+      "note": "Neutral word everywhere. Sube en el ascensor.",
+      "example": { "es": "Sube en el ascensor hasta la azotea.", "en": "He rides the lift up to the roof terrace." }
+    },
+    {
+      "word": "rellano",
+      "type": "n.m.",
+      "en": "landing (of stairs)",
+      "note": "Se saludan en el rellano.",
+      "example": { "es": "Se saludan en el rellano.", "en": "They greet each other on the landing." }
+    },
+    {
+      "word": "conserje",
+      "type": "n.m./f.",
+      "en": "caretaker, janitor",
+      "note": "Me abrió la puerta con su llave.",
+      "example": { "es": "El conserje me abrió la puerta.", "en": "The caretaker opened the door for me." }
+    },
+    {
+      "word": "cuota",
+      "type": "n.f.",
+      "en": "fee, share, quota",
+      "note": "La cuota de cada familia es más alta.",
+      "example": { "es": "¿Ya pagó la cuota del mes?", "en": "Has he paid this month's fee yet?" }
+    },
+    {
+      "word": "avería",
+      "type": "n.f.",
+      "en": "breakdown, fault",
+      "note": "El fontanero vino a ver la avería.",
+      "example": { "es": "El fontanero vino a ver la avería.", "en": "The plumber came to look at the breakdown." }
+    },
+    {
+      "word": "fontanero",
+      "type": "n.m./f.",
+      "en": "plumber",
+      "note": "Spain: fontanero. Latin America also: plomero.",
+      "example": { "es": "El fontanero vino dos días después.", "en": "The plumber came two days later." }
+    },
+    {
+      "word": "cerrajero",
+      "type": "n.m./f.",
+      "en": "locksmith",
+      "note": "Hubo que llamar al cerrajero.",
+      "example": { "es": "Hubo que llamar al cerrajero.", "en": "They had to call the locksmith." }
+    },
+    {
+      "word": "inquilino",
+      "type": "n.m./f.",
+      "en": "tenant",
+      "note": "Los inquilinos del tercero se saludan.",
+      "example": { "es": "Los inquilinos del tercero se saludan.", "en": "The third-floor tenants greet each other." }
+    },
+    {
+      "word": "casero",
+      "type": "n.m./f.",
+      "en": "landlord, landlady",
+      "note": "As adjective: homemade (comida casera).",
+      "example": { "es": "El casero solo viene a cobrar la cuota.", "en": "The landlord only shows up to collect the fee." }
+    },
+    {
+      "word": "trastero",
+      "type": "n.m.",
+      "en": "storage room",
+      "note": "Se venden dos trasteros.",
+      "example": { "es": "Se venden dos trasteros.", "en": "Two storage rooms are for sale." }
+    },
+    {
+      "word": "zaguán",
+      "type": "n.m.",
+      "en": "entrance hall, vestibule",
+      "note": "Se sientan en el zaguán.",
+      "example": { "es": "Se sientan cada tarde en el zaguán.", "en": "They sit down every afternoon in the entrance hall." }
+    },
+    {
+      "word": "tendedero",
+      "type": "n.m.",
+      "en": "clothesline, drying rack",
+      "note": "Se pelean por el tendedero.",
+      "example": { "es": "Se pelean por el tendedero.", "en": "They fight over the clothesline." }
+    },
+    {
+      "word": "derrama",
+      "type": "n.f.",
+      "en": "special building levy",
+      "note": "An extra fee shared by all neighbours.",
+      "example": { "es": "Se quejan de la derrama de este año.", "en": "They are complaining about this year's levy." }
+    },
+    {
+      "word": "llave",
+      "type": "n.f.",
+      "en": "key",
+      "note": "Se me olvidaron las llaves.",
+      "example": { "es": "Se me cayeron las llaves.", "en": "I dropped my keys." }
+    },
+    {
+      "word": "quejarse",
+      "type": "v.",
+      "en": "to complain",
+      "note": "Quejarse de algo: se quejan de la derrama.",
+      "example": { "es": "Se quejan de la derrama.", "en": "They are complaining about the levy." }
+    },
+    {
+      "word": "sentarse",
+      "type": "v.",
+      "en": "to sit down",
+      "note": "Reflexive se: se sientan cada tarde.",
+      "example": { "es": "Se sientan en el zaguán.", "en": "They sit down in the entrance hall." }
+    },
+    {
+      "word": "saludarse",
+      "type": "v.",
+      "en": "to greet each other",
+      "note": "Reciprocal, always plural: se saludan.",
+      "example": { "es": "Se saludan en el rellano.", "en": "They greet each other on the landing." }
+    },
+    {
+      "word": "pelearse",
+      "type": "v.",
+      "en": "to fight each other",
+      "note": "Reciprocal: se pelean cada semana.",
+      "example": { "es": "Se pelean por el tendedero.", "en": "They fight each other over the clothesline." }
+    },
+    {
+      "word": "escribirse",
+      "type": "v.",
+      "en": "to write to each other",
+      "note": "Reciprocal: se escriben por las noches.",
+      "example": { "es": "Se escriben para bajar a la calle.", "en": "They write to each other to go down to the street." }
+    },
+    {
+      "word": "alquilarse",
+      "type": "v.",
+      "en": "to be for rent (passive se)",
+      "note": "Se alquila el piso: nobody in particular rents it out.",
+      "example": { "es": "Se alquila el piso del primero.", "en": "The first-floor flat is for rent." }
+    },
+    {
+      "word": "venderse",
+      "type": "v.",
+      "en": "to be for sale (passive se)",
+      "note": "Verb agrees with the thing: se venden trasteros.",
+      "example": { "es": "Se venden dos trasteros.", "en": "Two storage rooms are for sale." }
+    },
+    {
+      "word": "caerse",
+      "type": "v.",
+      "en": "to fall, to drop (accidental se)",
+      "note": "Se me cayeron: the verb agrees with las llaves.",
+      "example": { "es": "Se me cayeron las llaves.", "en": "I dropped my keys." }
+    },
+    {
+      "word": "romperse",
+      "type": "v.",
+      "en": "to break (accidental se)",
+      "note": "Se le rompió un plato: it broke on her.",
+      "example": { "es": "Se le rompió un plato.", "en": "She broke a plate." }
+    },
+    {
+      "word": "perderse",
+      "type": "v.",
+      "en": "to get lost (accidental se)",
+      "note": "Se le perdió la llave: it got lost on him.",
+      "example": { "es": "Se le perdió la llave.", "en": "He lost the key." }
+    },
+    {
+      "word": "comerse",
+      "type": "v.",
+      "en": "to eat up (aspectual se)",
+      "note": "The se adds totality: se comió tres platos.",
+      "example": { "es": "Se comió todo lo del plato.", "en": "She ate up everything on her plate." }
+    },
+    {
+      "word": "beberse",
+      "type": "v.",
+      "en": "to drink up (aspectual se)",
+      "note": "Se bebió todo el vino: completely.",
+      "example": { "es": "Se bebió todo el vino.", "en": "He drank up all the wine." }
+    },
+    {
+      "word": "dormirse",
+      "type": "v.",
+      "en": "to fall asleep",
+      "note": "Reflexive change of state: se durmió.",
+      "example": { "es": "Se durmió después de comer.", "en": "He fell asleep after lunch." }
+    },
+    {
+      "word": "acordarse",
+      "type": "v.",
+      "en": "to remember",
+      "note": "Acordarse de algo: se acordó del pan.",
+      "example": { "es": "Se acordó del pan.", "en": "He remembered the bread." }
+    },
+    {
+      "word": "olvidarse",
+      "type": "v.",
+      "en": "to forget",
+      "note": "Se me olvidaron las llaves: they slipped my mind.",
+      "example": { "es": "Se me olvidaron las llaves.", "en": "I forgot my keys." }
+    },
+    {
+      "word": "mirarse",
+      "type": "v.",
+      "en": "to look at each other",
+      "note": "Reciprocal: se miran con cariño.",
+      "example": { "es": "Se miran y se sientan a hablar.", "en": "They look at each other and sit down to chat." }
+    },
+    {
+      "word": "cortarse",
+      "type": "v.",
+      "en": "to cut oneself",
+      "note": "Reflexive: se cortó la mano.",
+      "example": { "es": "Se cortó la mano.", "en": "He cut his hand." }
+    },
+    {
+      "word": "consorcio",
+      "type": "n.m.",
+      "en": "building association",
+      "note": "El consorcio se reúne cada mes.",
+      "ext": true,
+      "example": { "es": "El consorcio se reúne en el zaguán.", "en": "The building association meets in the entrance hall." }
+    },
+    {
+      "word": "moroso",
+      "type": "n.m./adj.",
+      "en": "defaulter, late payer",
+      "note": "El moroso del quinto debe tres cuotas.",
+      "ext": true,
+      "example": { "es": "¿Ya pagó el moroso del quinto?", "en": "Has the late payer on the fifth paid yet?" }
+    },
+    {
+      "word": "felpudo",
+      "type": "n.m.",
+      "en": "doormat",
+      "note": "Límpiate los pies en el felpudo.",
+      "ext": true,
+      "example": { "es": "Mira su felpudo nuevo.", "en": "Look at his new doormat." }
+    },
+    {
+      "word": "reja",
+      "type": "n.f.",
+      "en": "grille, iron gate",
+      "note": "Quieren poner otra reja en la escalera.",
+      "ext": true,
+      "example": { "es": "Quieren poner otra reja.", "en": "They want to put another iron gate." }
+    }
+  ]
+}

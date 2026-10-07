@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Review B2-1 — Advanced grammar in context</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-66.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a></p>
+
+<header class="top">
+  <h1>REVIEW B2-1 — ADVANCED GRAMMAR IN CONTEXT</h1>
+  <p class="lead">This is a <strong>re-reading</strong> lesson, not a test. There are no exercises and nothing to send. Read the two short texts and notice how much advanced grammar you already recognise.</p>
+  <div class="obj">
+    <strong>What this review re-reads:</strong>
+    <ul>
+      <li><strong>Lesson 57</strong> — the imperfect subjunctive &amp; tense sequences (<span class="es">si tuviera…, quería que viniera…</span>).</li>
+      <li><strong>Lesson 58</strong> — unreal &amp; mixed conditionals (<span class="es">si hubiera… habría…</span>).</li>
+      <li><strong>Lesson 59</strong> — the pluperfect subjunctive (<span class="es">como si, ojalá hubiera…</span>).</li>
+      <li><strong>Lesson 60</strong> — the many values of <span class="es">se</span> (passive, impersonal, accidental).</li>
+      <li><strong>Lesson 61</strong> — non-finite clauses (<span class="es">Terminada la reunión…, Al llegar…</span>).</li>
+      <li><strong>Lesson 62</strong> — nominalization &amp; formal syntax (<span class="es">la tala de…, el riego de…</span>).</li>
+      <li><strong>Lesson 63</strong> — word formation I: prefixes &amp; suffixes (<span class="es">re-, im-, -ble…</span>).</li>
+      <li><strong>Lesson 64</strong> — word formation II: word families (<span class="es">-mente, -ísimo…</span>).</li>
+      <li><strong>Lesson 65</strong> — discourse connectors &amp; register (<span class="es">sin embargo… por lo tanto…</span>).</li>
+      <li><strong>Lesson 66</strong> — advanced pronouns (<span class="es">se lo, lo que, el cual</span>, leísmo).</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Almost every word here comes from Lessons 57-66.</b> A few extra, very common words appear in context (listed after the texts). No need to memorise anything &mdash; re-reading is exactly how it settles in.
+  </p>
+</header>
+
+<h2>READING 1 — FORMAL LETTER (UNA INSTANCIA AL AYUNTAMIENTO)</h2>
+<p><strong>Context:</strong> A neighbourhood association writes a formal petition to the city council about the old trees on the riverbank. Formal register, subjunctives everywhere. Read it from top to bottom &mdash; the English below is only a check.</p>
+
+<div class="phrase">
+  <p class="es">Con <b>membrete</b> de la asociación, la carta dice: «Registro 214: con esta <b>instancia</b> solicitamos que no se tale la arboleda de la ribera».</p>
+  <p class="en">On association letterhead, the letter says: "File 214: with this petition we request that the riverbank trees not be felled."</p>
+</div>
+<div class="phrase">
+  <p class="es">«Si se <b>talara</b> toda la arboleda, el barrio <b>sería</b> un horno en verano».</p>
+  <p class="en">"If all the trees were felled, the neighbourhood would be an oven in summer."</p>
+</div>
+<div class="phrase">
+  <p class="es">«Como si el calor no <b>fuera</b> bastante, también dicen que no hay dinero para el riego».</p>
+  <p class="en">"As if the heat weren't enough, they also say there is no money for watering."</p>
+</div>
+<div class="phrase">
+  <p class="es">«<b>Terminada</b> la reunión del martes, les enviamos este texto con la <b>firma</b> de doscientas personas».</p>
+  <p class="en">"Once Tuesday's meeting was over, we are sending you this text with the signature of two hundred people."</p>
+</div>
+<div class="phrase">
+  <p class="es">«Se <b>adjunta</b> el plano de la ribera: la <b>tala</b> de la arboleda vieja <b>cambiaría</b> todo el barrio».</p>
+  <p class="en">"The map of the riverbank is attached: felling the old trees would change the whole neighbourhood."</p>
+</div>
+<div class="phrase">
+  <p class="es">«Les pedimos que lo lean con atención y les saludamos <b>atentamente</b>».</p>
+  <p class="en">"We ask you to read it carefully and we send our sincere regards."</p>
+</div>
+
+<h2>READING 2 — OPINION COLUMN (LA CARTA Y LA CIUDAD)</h2>
+<p><strong>Context:</strong> An opinion column about the lost letter and what it says about the city. Read it quietly:</p>
+
+<div class="phrase">
+  <p class="es">Si la carta <b>hubiera llegado</b> a tiempo, la señora <b>habría conocido</b> a su marido veinte años antes.</p>
+  <p class="en">If the letter had arrived on time, the lady would have met her husband twenty years earlier.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ojalá <b>hubiera</b> más carteros como aquel: él se tomaba su trabajo en serio.</p>
+  <p class="en">If only there were more postmen like that one: he took his job seriously.</p>
+</div>
+<div class="phrase">
+  <p class="es">El detective, <b>el cual</b> ya tiene ochenta años, dice que <b>lo que</b> más recuerda es el sobre amarillo.</p>
+  <p class="en">The detective, who is already eighty, says what he remembers most is the yellow envelope.</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Se dice</b> que la recompensa sigue esperando en un cajón de la comisaría.</p>
+  <p class="en">They say the reward is still waiting in a drawer at the police station.</p>
+</div>
+<div class="phrase">
+  <p class="es">«<b>Sin embargo</b> —dice el autor—, lo importante no es la recompensa: es la historia».</p>
+  <p class="en">"However —says the author—, what matters is not the reward: it's the story."</p>
+</div>
+<div class="phrase">
+  <p class="es"><b>Reverdecer</b> la ciudad y recordar sus historias es lo mismo: proteger <b>lo que</b> somos.</p>
+  <p class="en">Re-greening the city and remembering its stories is the same thing: protecting what we are.</p>
+</div>
+
+<p class="lead"><strong>A few new words in these texts (read them once, no need to memorise):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">membrete</span></td><td data-label="Type">n.m.</td><td data-label="English">letterhead</td><td data-label="Notes">Con membrete de la asociación.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">instancia</span></td><td data-label="Type">n.f.</td><td data-label="English">formal petition</td><td data-label="Notes">Con esta instancia solicitamos…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">solicitud</span></td><td data-label="Type">n.f.</td><td data-label="English">request, application</td><td data-label="Notes">Solicitamos que no se tale…</td></tr>
+    <tr><td data-label="Spanish"><span class="es">adjunto</span></td><td data-label="Type">adj.</td><td data-label="English">attached, enclosed</td><td data-label="Notes">Se adjunta el plano.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">firma</span></td><td data-label="Type">n.f.</td><td data-label="English">signature</td><td data-label="Notes">Con la firma de doscientas personas.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">atentamente</span></td><td data-label="Type">adv.</td><td data-label="English">sincerely, respectfully</td><td data-label="Notes">Formal letter closing.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tip">💡 <strong>Register note:</strong> a <em>formal letter</em> lives on the subjunctive (<span class="es">solicitamos que no se tale…, si se talara…</span>), nominalizations (<span class="es">la tala de…</span>) and passive <span class="es">se</span> (<span class="es">se adjunta…</span>); an <em>opinion column</em> lives on conditionals, <span class="es">el cual</span> and connectors. You are now reading both registers.</div>
+
+<hr>
+
+<h2>THE SENTENCES, BROKEN INTO PATTERNS</h2>
+<p>Re-read these mini-groups. Each one is a pattern you can reuse forever.</p>
+
+<h3>Imperfect subjunctive &amp; sequences (L57)</h3>
+<ul>
+  <li class="ex"><span class="es">Quiero que vengas mañana.</span><span class="en">I want you to come tomorrow.</span></li>
+  <li class="ex"><span class="es">Si tuviera tiempo, vendría.</span><span class="en">If I had time, I would come.</span></li>
+</ul>
+
+<h3>Unreal &amp; mixed conditionals (L58)</h3>
+<ul>
+  <li class="ex"><span class="es">Si hubiera llovido, habríamos salido.</span><span class="en">If it had rained, we would have gone out.</span></li>
+  <li class="ex"><span class="es">De haberlo sabido, habría venido.</span><span class="en">Had I known, I would have come.</span></li>
+</ul>
+
+<h3>Pluperfect subjunctive (L59)</h3>
+<ul>
+  <li class="ex"><span class="es">Ojalá hubiera más carteros como aquel.</span><span class="en">If only there were more postmen like that one.</span></li>
+  <li class="ex"><span class="es">Me habló como si me conociera.</span><span class="en">He spoke to me as if he knew me.</span></li>
+</ul>
+
+<h3>The many values of se (L60)</h3>
+<ul>
+  <li class="ex"><span class="es">Se venden casas.</span><span class="en">Houses for sale. (passive se)</span></li>
+  <li class="ex"><span class="es">Se le cayó el libro.</span><span class="en">The book fell from his hands. (accidental se)</span></li>
+  <li class="ex"><span class="es">Se dice que la recompensa sigue allí.</span><span class="en">They say the reward is still there. (impersonal se)</span></li>
+</ul>
+
+<h3>Non-finite clauses (L61)</h3>
+<ul>
+  <li class="ex"><span class="es">Terminada la cena, salieron.</span><span class="en">Once dinner was over, they went out.</span></li>
+  <li class="ex"><span class="es">Al llegar a casa, llamó a su madre.</span><span class="en">On arriving home, he called his mother.</span></li>
+</ul>
+
+<h3>Nominalization &amp; formal syntax (L62)</h3>
+<ul>
+  <li class="ex"><span class="es">La tala de la arboleda cambiaría el barrio.</span><span class="en">Felling the trees would change the neighbourhood.</span></li>
+  <li class="ex"><span class="es">El riego de los parques cuesta dinero.</span><span class="en">Watering the parks costs money.</span></li>
+</ul>
+
+<h3>Word formation I: prefixes &amp; suffixes (L63)</h3>
+<ul>
+  <li class="ex"><span class="es">Reverdecer = re- (again) + verde + -cer.</span><span class="en">To re-green: make green again.</span></li>
+  <li class="ex"><span class="es">Imposible = im- (not) + posible.</span><span class="en">Impossible: not possible.</span></li>
+</ul>
+
+<h3>Word formation II: word families (L64)</h3>
+<ul>
+  <li class="ex"><span class="es">Rápido → rápidamente; claro → claramente.</span><span class="en">Quick → quickly; clear → clearly.</span></li>
+  <li class="ex"><span class="es">Grande → grandísimo: very, very big.</span><span class="en">Big → huge (augmentative -ísimo).</span></li>
+</ul>
+
+<h3>Connectors &amp; register (L65)</h3>
+<ul>
+  <li class="ex"><span class="es">Llueve; sin embargo, salimos. (neutral: pero)</span><span class="en">It's raining; however, we're going out.</span></li>
+  <li class="ex"><span class="es">No había dinero; por lo tanto, no hubo riego. (neutral: por eso)</span><span class="en">There was no money; therefore, there was no watering.</span></li>
+</ul>
+
+<h3>Advanced pronouns (L66)</h3>
+<ul>
+  <li class="ex"><span class="es">Se lo di ayer. (le + lo → se lo)</span><span class="en">I gave it to him/her yesterday.</span></li>
+  <li class="ex"><span class="es">El libro, el cual era viejo, era de mi madre.</span><span class="en">The book, which was old, belonged to my mother.</span></li>
+  <li class="ex"><span class="es">Lo que quiero es ver el rellano.</span><span class="en">What I want is to see the landing.</span></li>
+</ul>
+
+<div class="warn">⚠️ <strong>One last reminder:</strong> the only thing a review asks is that you read. No writing, no exercises, no memorising. If a sentence felt easy today, that is progress — and watch the register: formal on paper (<span class="es">no obstante, se adjunta</span>), neutral in speech (<span class="es">pero, también</span>).</div>
+
+<hr>
+
+<h2>VOCABULARY RECAP TABLE (RE-READ, DON'T MEMORISE)</h2>
+<p>These are core words from Lessons 57–66 — five from each lesson of the module's first eight lessons, four from each of the last two. Skim them; the ones you know will feel instant.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>English</th><th>Spanish</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">añoranza</span></td><td data-label="English">longing, homesickness</td><td data-label="Spanish2"><span class="es">desvío</span></td><td data-label="English2">detour, diversion</td></tr>
+    <tr><td data-label="Spanish"><span class="es">desarraigo</span></td><td data-label="English">uprootedness</td><td data-label="Spanish2"><span class="es">desenlace</span></td><td data-label="English2">ending, outcome</td></tr>
+    <tr><td data-label="Spanish"><span class="es">remesa</span></td><td data-label="English">remittance</td><td data-label="Spanish2"><span class="es">bifurcación</span></td><td data-label="English2">fork, branching</td></tr>
+    <tr><td data-label="Spanish"><span class="es">retorno</span></td><td data-label="English">return</td><td data-label="Spanish2"><span class="es">comarca</span></td><td data-label="English2">district, region</td></tr>
+    <tr><td data-label="Spanish"><span class="es">nostalgia</span></td><td data-label="English">nostalgia</td><td data-label="Spanish2"><span class="es">cacique</span></td><td data-label="English2">local boss</td></tr>
+    <tr><td data-label="Spanish"><span class="es">huracán</span></td><td data-label="English">hurricane</td><td data-label="Spanish2"><span class="es">vecindad</span></td><td data-label="English2">apartment block</td></tr>
+    <tr><td data-label="Spanish"><span class="es">refugio</span></td><td data-label="English">shelter</td><td data-label="Spanish2"><span class="es">portero</span></td><td data-label="English2">doorman, caretaker</td></tr>
+    <tr><td data-label="Spanish"><span class="es">gotera</span></td><td data-label="English">leak (in a roof)</td><td data-label="Spanish2"><span class="es">rellano</span></td><td data-label="English2">landing (of stairs)</td></tr>
+    <tr><td data-label="Spanish"><span class="es">azotea</span></td><td data-label="English">rooftop terrace</td><td data-label="Spanish2"><span class="es">trastero</span></td><td data-label="English2">storage room</td></tr>
+    <tr><td data-label="Spanish"><span class="es">huella</span></td><td data-label="English">footprint, trace</td><td data-label="Spanish2"><span class="es">quejarse</span></td><td data-label="English2">to complain</td></tr>
+    <tr><td data-label="Spanish"><span class="es">restauración</span></td><td data-label="English">restoration</td><td data-label="Spanish2"><span class="es">ayuntamiento</span></td><td data-label="English2">city council</td></tr>
+    <tr><td data-label="Spanish"><span class="es">andamio</span></td><td data-label="English">scaffolding</td><td data-label="Spanish2"><span class="es">expediente</span></td><td data-label="English2">file, dossier</td></tr>
+    <tr><td data-label="Spanish"><span class="es">retablo</span></td><td data-label="English">altarpiece</td><td data-label="Spanish2"><span class="es">licitación</span></td><td data-label="English2">tender, bidding process</td></tr>
+    <tr><td data-label="Spanish"><span class="es">barniz</span></td><td data-label="English">varnish</td><td data-label="Spanish2"><span class="es">prórroga</span></td><td data-label="English2">extension (of a deadline)</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pátina</span></td><td data-label="English">patina</td><td data-label="Spanish2"><span class="es">inauguración</span></td><td data-label="English2">opening, inauguration</td></tr>
+    <tr><td data-label="Spanish"><span class="es">prefijo</span></td><td data-label="English">prefix</td><td data-label="Spanish2"><span class="es">mercadillo</span></td><td data-label="English2">small market</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sufijo</span></td><td data-label="English">suffix</td><td data-label="Spanish2"><span class="es">panadero</span></td><td data-label="English2">baker</td></tr>
+    <tr><td data-label="Spanish"><span class="es">reutilizar</span></td><td data-label="English">to reuse</td><td data-label="Spanish2"><span class="es">cafecito</span></td><td data-label="English2">small coffee</td></tr>
+    <tr><td data-label="Spanish"><span class="es">potable</span></td><td data-label="English">drinkable</td><td data-label="Spanish2"><span class="es">amabilidad</span></td><td data-label="English2">kindness</td></tr>
+    <tr><td data-label="Spanish"><span class="es">previsible</span></td><td data-label="English">foreseeable</td><td data-label="Spanish2"><span class="es">baratísimo</span></td><td data-label="English2">dirt cheap</td></tr>
+    <tr><td data-label="Spanish"><span class="es">arboleda</span></td><td data-label="English">trees, grove</td><td data-label="Spanish2"><span class="es">sobre</span></td><td data-label="English2">envelope</td></tr>
+    <tr><td data-label="Spanish"><span class="es">sendero</span></td><td data-label="English">path, trail</td><td data-label="Spanish2"><span class="es">cartero</span></td><td data-label="English2">postman</td></tr>
+    <tr><td data-label="Spanish"><span class="es">pulmón</span></td><td data-label="English">green lung</td><td data-label="Spanish2"><span class="es">coartada</span></td><td data-label="English2">alibi</td></tr>
+    <tr><td data-label="Spanish"><span class="es">por lo tanto</span></td><td data-label="English">therefore</td><td data-label="Spanish2"><span class="es">enigma</span></td><td data-label="English2">enigma, riddle</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+<p><strong>End of Review B2-1.</strong> Module B2-1 is complete: ten lessons of advanced grammar, from the imperfect subjunctive to pronoun clusters. Next up, <strong>Module B2-2</strong> begins with Spanish philosophy — Unamuno, Ortega y Gasset and the question of what it means to be Spanish. There is no homework &mdash; just read.</p>
+
+<p class="topnav"><a href="../index.html">Home</a></p>
+
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

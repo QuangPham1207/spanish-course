@@ -1,0 +1,30 @@
+{
+  "lesson": 80,
+  "title": "Consolidation: the contemporary world",
+  "words": [
+    {"word": "encrucijada", "type": "n.f.", "en": "crossroads", "note": "Amanecer en una encrucijada.", "example": {"es": "Amanece en una encrucijada.", "en": "It wakes at a crossroads."}},
+    {"word": "hoja de ruta", "type": "phr.", "en": "roadmap", "note": "El plan paso a paso.", "example": {"es": "Buscan su hoja de ruta.", "en": "They seek their roadmap."}},
+    {"word": "asignatura pendiente", "type": "phr.", "en": "pending homework/task", "note": "Lo que falta.", "example": {"es": "La paridad es asignatura pendiente.", "en": "Parity is pending homework."}},
+    {"word": "punto de inflexión", "type": "phr.", "en": "turning point", "note": "El 2026 fue un punto.", "example": {"es": "Fue un punto de inflexión.", "en": "It was a turning point."}},
+    {"word": "dividendo democrático", "type": "phr.", "en": "democratic dividend", "note": "Vivir mejor por votar.", "example": {"es": "El dividendo tarda, pero llega.", "en": "The dividend is slow, but it arrives."}},
+    {"word": "factura social", "type": "phr.", "en": "social cost/bill", "note": "La transición tiene su factura.", "example": {"es": "Toda transición tiene factura social.", "en": "Every transition has a social bill."}},
+    {"word": "pasar factura", "type": "phr.", "en": "to take its toll, to bill", "note": "Pasará factura.", "example": {"es": "La ingobernabilidad pasará factura.", "en": "Ungovernability will take its toll."}},
+    {"word": "peaje", "type": "n.m.", "en": "toll", "note": "No hay atajo sin peaje.", "example": {"es": "No hay atajo sin peaje.", "en": "There is no shortcut without a toll."}},
+    {"word": "atajo", "type": "n.m.", "en": "shortcut", "note": "Tomar atajos. Sin atajos.", "example": {"es": "Sin atajos: el peaje se paga.", "en": "No shortcuts: the toll is paid."}},
+    {"word": "derrotero", "type": "n.m.", "en": "course, path (maritime)", "note": "Cada país traza su derrotero.", "example": {"es": "Cada país traza su derrotero.", "en": "Each country charts its course."}},
+    {"word": "itinerario", "type": "n.m.", "en": "itinerary, route", "note": "Su itinerario al horizonte.", "example": {"es": "Buscan su itinerario al horizonte.", "en": "They seek their itinerary to the horizon."}},
+    {"word": "horizonte", "type": "n.m.", "en": "horizon", "note": "El horizonte es compartido.", "example": {"es": "El horizonte es compartido.", "en": "The horizon is shared."}},
+    {"word": "tejer alianzas", "type": "phr.", "en": "to weave alliances", "note": "La diáspora teje.", "example": {"es": "La diáspora teje alianzas.", "en": "The diaspora weaves alliances."}},
+    {"word": "relevo generacional", "type": "phr.", "en": "generational handover", "note": "Llegó a todo.", "example": {"es": "Llegó el relevo generacional.", "en": "The generational handover arrived."}},
+    {"word": "semillero", "type": "n.m.", "en": "seedbed (of talent)", "note": "Los parlamentos.", "example": {"es": "Los parlamentos son el semillero.", "en": "Parliaments are the seedbed."}},
+    {"word": "cantera", "type": "n.f.", "en": "talent pool", "note": "Los barrios.", "example": {"es": "Los barrios son la cantera.", "en": "Neighbourhoods are the talent pool."}},
+    {"word": "siembra", "type": "n.f.", "en": "sowing", "note": "Toda siembra…", "example": {"es": "Toda siembra tiene su cosecha.", "en": "Every sowing has its harvest."}},
+    {"word": "enraizar", "type": "v.", "en": "to take root", "note": "Echar raíces.", "example": {"es": "La minga me ayudó a enraizar.", "en": "The minga helped me take root."}},
+    {"word": "pertenencia", "type": "n.f.", "en": "belonging", "note": "Se practica.", "example": {"es": "La pertenencia se practica.", "en": "Belonging is practised."}},
+    {"word": "porvenir", "type": "n.m.", "en": "future (that is to come)", "note": "Formal/literary.", "example": {"es": "Un solo porvenir compartido.", "en": "One shared future."}},
+    {"word": "hispanidad", "type": "n.f.", "en": "Hispanic world/community", "note": "Úsala con cuidado: tiene historia.", "ext": true, "example": {"es": "Celebran la hispanidad.", "en": "They celebrate the Hispanic world."}},
+    {"word": "iberoamericano", "type": "adj.", "en": "Ibero-American", "note": "España + Portugal + LatAm.", "ext": true, "example": {"es": "La Cumbre Iberoamericana.", "en": "The Ibero-American Summit."}},
+    {"word": "panhispanismo", "type": "n.m.", "en": "Pan-Hispanism", "note": "(advanced) Unidad de la lengua.", "ext": true, "example": {"es": "Defiende el panhispanismo.", "en": "He defends Pan-Hispanism."}},
+    {"word": "criollismo", "type": "n.m.", "en": "criollismo (creole identity)", "note": "(advanced) Lo nacido en América.", "ext": true, "example": {"es": "El criollismo pinta lo local.", "en": "Criollismo paints the local."}}
+  ]
+}

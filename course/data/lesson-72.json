@@ -1,0 +1,332 @@
+{
+  "lesson": 72,
+  "title": "Literature & memory: dictatorship, testimonio, exile",
+  "words": [
+    {
+      "word": "testimonio",
+      "type": "n.m.",
+      "en": "testimony, testimonio",
+      "note": "Yo hablo por muchos. Latin American literary genre.",
+      "example": { "es": "Su libro es un testimonio colectivo.", "en": "Her book is a collective testimony." }
+    },
+    {
+      "word": "denuncia",
+      "type": "n.f.",
+      "en": "denunciation",
+      "note": "La Carta abierta es una denuncia directa.",
+      "example": { "es": "La carta era una denuncia directa.", "en": "The letter was a direct denunciation." }
+    },
+    {
+      "word": "exilio",
+      "type": "n.m.",
+      "en": "exile",
+      "note": "Escribir lejos de casa.",
+      "example": { "es": "Se dice que el exilio termina tarde.", "en": "It is said that exile ends late." }
+    },
+    {
+      "word": "exiliado",
+      "type": "n.m./adj.",
+      "en": "exile, exiled person",
+      "note": "Bolaño, exiliado en México y España.",
+      "example": { "es": "Bolaño, exiliado en México, escribió allí.", "en": "Bolaño, exiled in Mexico, wrote there." }
+    },
+    {
+      "word": "desarraigo",
+      "type": "n.m.",
+      "en": "uprooting",
+      "note": "El desarraigo del exilio. Sin raíces.",
+      "example": { "es": "El exilio produce desarraigo.", "en": "Exile produces uprooting." }
+    },
+    {
+      "word": "duelo",
+      "type": "n.m.",
+      "en": "mourning, grief",
+      "note": "El duelo necesita verdad. Hacer el duelo.",
+      "example": { "es": "Cada relato ayuda a hacer el duelo.", "en": "Each account helps with mourning." }
+    },
+    {
+      "word": "reparación",
+      "type": "n.f.",
+      "en": "reparation, redress",
+      "note": "Verdad y reparación.",
+      "example": { "es": "Piden justicia y reparación.", "en": "They ask for justice and reparation." }
+    },
+    {
+      "word": "impunidad",
+      "type": "n.f.",
+      "en": "impunity",
+      "note": "Fin de la impunidad.",
+      "example": { "es": "Sin juicio hay impunidad.", "en": "Without trial there is impunity." }
+    },
+    {
+      "word": "impune",
+      "type": "adj.",
+      "en": "unpunished",
+      "note": "Quedar impune.",
+      "example": { "es": "Nadie queda impune para siempre.", "en": "Nobody goes unpunished forever." }
+    },
+    {
+      "word": "dictadura",
+      "type": "n.f.",
+      "en": "dictatorship",
+      "note": "La dictadura argentina (1976–1983).",
+      "example": { "es": "Envió su carta a la dictadura.", "en": "He sent his letter to the dictatorship." }
+    },
+    {
+      "word": "censura",
+      "type": "n.f.",
+      "en": "censorship",
+      "note": "La censura prohíbe libros.",
+      "example": { "es": "Describía la censura y los crímenes.", "en": "It described censorship and crimes." }
+    },
+    {
+      "word": "censurar",
+      "type": "v.",
+      "en": "to censor",
+      "note": "Censuraron su novela.",
+      "example": { "es": "Censuraron su novela.", "en": "They censored his novel." }
+    },
+    {
+      "word": "clandestino",
+      "type": "adj.",
+      "en": "clandestine, secret",
+      "note": "De forma clandestina.",
+      "example": { "es": "La envió de forma clandestina.", "en": "He sent it clandestinely." }
+    },
+    {
+      "word": "desaparecer",
+      "type": "v.",
+      "en": "to disappear",
+      "note": "Terrible use: lo desaparecieron.",
+      "example": { "es": "Al día siguiente desapareció.", "en": "The next day he disappeared." }
+    },
+    {
+      "word": "desaparecido",
+      "type": "n.m./adj.",
+      "en": "disappeared person",
+      "note": "Miles de desaparecidos.",
+      "example": { "es": "Miles de desaparecidos nunca volvieron.", "en": "Thousands of disappeared never returned." }
+    },
+    {
+      "word": "carta abierta",
+      "type": "phr.",
+      "en": "open letter",
+      "note": "Carta abierta a la dictadura (Walsh, 1977).",
+      "example": { "es": "Su carta abierta fue una denuncia.", "en": "His open letter was a denunciation." }
+    },
+    {
+      "word": "memoria",
+      "type": "n.f.",
+      "en": "memory",
+      "note": "La memoria tiene un lugar físico.",
+      "example": { "es": "Hoy la memoria tiene un lugar físico.", "en": "Today memory has a physical place." }
+    },
+    {
+      "word": "olvido",
+      "type": "n.m.",
+      "en": "oblivion, forgetting",
+      "note": "Del olvido al perdón.",
+      "example": { "es": "Del olvido al perdón: nunca más.", "en": "From oblivion to forgiveness: never again." }
+    },
+    {
+      "word": "perdón",
+      "type": "n.m.",
+      "en": "forgiveness",
+      "note": "Pedir perdón.",
+      "example": { "es": "Del olvido al perdón.", "en": "From oblivion to forgiveness." }
+    },
+    {
+      "word": "justicia",
+      "type": "n.f.",
+      "en": "justice",
+      "note": "Justicia, no venganza.",
+      "example": { "es": "Piden justicia, no venganza.", "en": "They ask for justice, not revenge." }
+    },
+    {
+      "word": "juicio",
+      "type": "n.m.",
+      "en": "trial",
+      "note": "Juicio y condena.",
+      "example": { "es": "Piden juicio, no venganza.", "en": "They ask for trial, not revenge." }
+    },
+    {
+      "word": "condena",
+      "type": "n.f.",
+      "en": "sentence, condemnation",
+      "note": "Condena de cárcel.",
+      "example": { "es": "Piden juicio y condena.", "en": "They ask for trial and sentence." }
+    },
+    {
+      "word": "archivo",
+      "type": "n.m.",
+      "en": "archive",
+      "note": "Archivo abierto de documentos.",
+      "example": { "es": "Hoy es museo y archivo abierto.", "en": "Today it is an open museum and archive." }
+    },
+    {
+      "word": "museo de la memoria",
+      "type": "phr.",
+      "en": "museum of memory",
+      "note": "La ex-ESMA hoy es museo.",
+      "example": { "es": "Cabe recordar que hoy es museo de la memoria.", "en": "It should be recalled that today it is a museum of memory." }
+    },
+    {
+      "word": "relato",
+      "type": "n.m.",
+      "en": "account, short story",
+      "note": "Su relato Operación Masacre.",
+      "example": { "es": "Su relato mostró su método.", "en": "His account showed his method." }
+    },
+    {
+      "word": "relatar",
+      "type": "v.",
+      "en": "to relate, to tell",
+      "note": "Tal como lo relata la autora.",
+      "example": { "es": "Tal como relata el narrador, huyen al desierto.", "en": "As the narrator relates, they flee to the desert." }
+    },
+    {
+      "word": "narrador",
+      "type": "n.m./f.",
+      "en": "narrator",
+      "note": "El narrador es testigo y símbolo.",
+      "example": { "es": "Su narrador es testigo y símbolo.", "en": "Her narrator is both witness and symbol." }
+    },
+    {
+      "word": "testigo",
+      "type": "n.m./f.",
+      "en": "witness",
+      "note": "Testigo directo.",
+      "example": { "es": "Cada testigo deja un relato.", "en": "Each witness leaves an account." }
+    },
+    {
+      "word": "atestiguar",
+      "type": "v.",
+      "en": "to attest, to bear witness",
+      "note": "Los guías atestiguan con calma.",
+      "example": { "es": "Todo atestigua lo que pasó.", "en": "Everything bears witness to what happened." }
+    },
+    {
+      "word": "destierro",
+      "type": "n.m.",
+      "en": "banishment, exile",
+      "note": "Formal/literary for exilio.",
+      "example": { "es": "El destierro es el tema central.", "en": "Banishment is the central theme." }
+    },
+    {
+      "word": "fosa",
+      "type": "n.f.",
+      "en": "pit, grave",
+      "note": "Fosas de documentos; fosas comunes.",
+      "example": { "es": "Ven fosas de documentos.", "en": "They see pits of documents." }
+    },
+    {
+      "word": "celda",
+      "type": "n.f.",
+      "en": "cell",
+      "note": "Celda de detención en la ESMA.",
+      "example": { "es": "Ven celdas, fotos y documentos.", "en": "They see cells, photos and documents." }
+    },
+    {
+      "word": "huir",
+      "type": "v.",
+      "en": "to flee",
+      "note": "Huir al desierto, huir del país.",
+      "example": { "es": "Los poetas huyen al desierto.", "en": "The poets flee to the desert." }
+    },
+    {
+      "word": "según cuenta",
+      "type": "phr.",
+      "en": "as (she/he) tells it",
+      "note": "Según cuenta Menchú… (no que after).",
+      "example": { "es": "Según cuenta Menchú, habla por su comunidad.", "en": "As Menchú tells it, she speaks for her community." }
+    },
+    {
+      "word": "tal como relata",
+      "type": "phr.",
+      "en": "as related/told",
+      "note": "Tal como lo relata la autora.",
+      "example": { "es": "Tal como lo relata la autora.", "en": "As told by the author." }
+    },
+    {
+      "word": "se dice que",
+      "type": "phr.",
+      "en": "it is said that",
+      "note": "Se dice que mezcló hechos. Marks distance.",
+      "example": { "es": "Se dice que mezcló hechos.", "en": "It is said that she mixed events." }
+    },
+    {
+      "word": "cabe recordar que",
+      "type": "phr.",
+      "en": "it should be recalled that",
+      "note": "Formal. Cabe recordar que miles…",
+      "example": { "es": "Cabe recordar que piden juicio.", "en": "It should be recalled that they ask for trial." }
+    },
+    {
+      "word": "novela de dictadura",
+      "type": "phr.",
+      "en": "dictatorship novel",
+      "note": "El otoño del patriarca; La fiesta del chivo.",
+      "example": { "es": "La novela de dictadura retrata al tirano.", "en": "The dictatorship novel portrays the tyrant." }
+    },
+    {
+      "word": "página en blanco",
+      "type": "phr.",
+      "en": "blank page",
+      "note": "Empezar de cero en otro país.",
+      "example": { "es": "Hablan de la página en blanco.", "en": "They speak of the blank page." }
+    },
+    {
+      "word": "sitio de memoria",
+      "type": "phr.",
+      "en": "memory site",
+      "note": "La ex-ESMA: sitio de memoria.",
+      "example": { "es": "Hoy es sitio de memoria.", "en": "Today it is a memory site." }
+    },
+    {
+      "word": "nunca más",
+      "type": "phr.",
+      "en": "never again",
+      "note": "Consigna argentina: Nunca más.",
+      "example": { "es": "La consigna es clara: nunca más.", "en": "The slogan is clear: never again." }
+    },
+    {
+      "word": "homenaje",
+      "type": "n.m.",
+      "en": "homage",
+      "note": "Un homenaje silencioso.",
+      "example": { "es": "Leer es un homenaje silencioso.", "en": "Reading is a silent homage." }
+    },
+    {
+      "word": "amnistía",
+      "type": "n.f.",
+      "en": "amnesty",
+      "note": "Una amnistía perdona delitos.",
+      "ext": true,
+      "example": { "es": "La amnistía fue muy debatida.", "en": "The amnesty was much debated." }
+    },
+    {
+      "word": "indemnización",
+      "type": "n.f.",
+      "en": "compensation",
+      "note": "Dinero como parte de la reparación.",
+      "ext": true,
+      "example": { "es": "Recibió una indemnización pequeña.", "en": "She received a small compensation." }
+    },
+    {
+      "word": "olvido pactado",
+      "type": "phr.",
+      "en": "agreed-upon forgetting",
+      "note": "Cuando un país decide no hablar.",
+      "ext": true,
+      "example": { "es": "Rechazan el olvido pactado.", "en": "They reject the agreed-upon forgetting." }
+    },
+    {
+      "word": "contraexilio",
+      "type": "n.m.",
+      "en": "counter-exile",
+      "note": "Advanced: volver críticamente, sin idealizar.",
+      "ext": true,
+      "example": { "es": "Vivió su retorno como contraexilio.", "en": "He lived his return as counter-exile." }
+    }
+  ]
+}

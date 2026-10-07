@@ -1,0 +1,29 @@
+{
+  "lesson": 84,
+  "title": "Cultural essay: the art of staying at the table",
+  "words": [
+    {"word": "anfitrión", "type": "n.m.", "en": "host", "note": "El que no recoge los platos.", "example": {"es": "El anfitrión propone otro café.", "en": "The host offers another coffee."}},
+    {"word": "brindis", "type": "n.m.", "en": "toast (drinking)", "note": "¡Salud!", "example": {"es": "El brindis ya pasó.", "en": "The toast has passed."}},
+    {"word": "rito", "type": "n.m.", "en": "rite, ritual", "note": "Ese rito tiene nombre viejo.", "example": {"es": "Ese rito tiene un nombre.", "en": "That ritual has a name."}},
+    {"word": "pausa", "type": "n.f.", "en": "pause", "note": "La pausa manda.", "example": {"es": "La pausa manda.", "en": "The pause rules."}},
+    {"word": "permanencia", "type": "n.f.", "en": "permanence, staying", "note": "Aquí estoy bien.", "example": {"es": "La demora es permanencia.", "en": "Lingering is permanence."}},
+    {"word": "demora", "type": "n.f.", "en": "lingering, delay", "note": "No es pereza.", "example": {"es": "La demora no es pereza.", "en": "Lingering is not laziness."}},
+    {"word": "deleite", "type": "n.m.", "en": "delight", "note": "Formal/literary.", "example": {"es": "El deleite de la taza.", "en": "The delight of the cup."}},
+    {"word": "charla amena", "type": "phr.", "en": "pleasant chat", "note": "La sobremesa colombiana.", "example": {"es": "Sigue la charla amena.", "en": "The pleasant chat goes on."}},
+    {"word": "café de olla", "type": "phr.", "en": "Mexican pot coffee", "note": "Con canela y piloncillo.", "example": {"es": "Otro café de olla.", "en": "Another pot coffee."}},
+    {"word": "migajas", "type": "n.f. pl.", "en": "crumbs", "note": "Sobre el mantel.", "example": {"es": "Las migajas sobre el mantel.", "en": "The crumbs on the cloth."}},
+    {"word": "mantel", "type": "n.m.", "en": "tablecloth", "note": "La prueba.", "example": {"es": "Migajas sobre el mantel.", "en": "Crumbs on the tablecloth."}},
+    {"word": "plato hondo", "type": "phr.", "en": "deep plate", "note": "Se comió bien.", "example": {"es": "El plato hondo vacío.", "en": "The empty deep plate."}},
+    {"word": "recalentado", "type": "n.m.", "en": "reheated leftovers (Mex.)", "note": "Sabe mejor al día siguiente.", "example": {"es": "Mañana hay recalentado.", "en": "Tomorrow there are leftovers."}},
+    {"word": "carcajada", "type": "n.f.", "en": "burst of laughter", "note": "Reír fuerte.", "example": {"es": "Suelta una carcajada.", "en": "She bursts into laughter."}},
+    {"word": "comensal", "type": "n.m./f.", "en": "fellow diner, guest", "note": "Cada comensal trae su historia.", "example": {"es": "Cada comensal trae su historia.", "en": "Every diner brings a story."}},
+    {"word": "velada", "type": "n.f.", "en": "evening gathering", "note": "Noche de charla.", "example": {"es": "Una velada larga.", "en": "A long evening."}},
+    {"word": "convite", "type": "n.m.", "en": "feast, banquet", "note": "Formal/literary.", "example": {"es": "Todo convite empieza hablando.", "en": "Every feast begins by talking."}},
+    {"word": "complicidad", "type": "n.f.", "en": "complicity, closeness", "note": "A fuego lento.", "example": {"es": "La complicidad se cocina lento.", "en": "Closeness cooks slowly."}},
+    {"word": "despedida a la francesa", "type": "phr.", "en": "French exit", "note": "Irse sin decir adiós.", "example": {"es": "Nada de despedidas a la francesa.", "en": "No French exits."}},
+    {"word": "ensayismo", "type": "n.m.", "en": "essay writing (genre)", "note": "(advanced) El arte del ensayo.", "ext": true, "example": {"es": "Le gusta el ensayismo.", "en": "He likes essay writing."}},
+    {"word": "costumbrismo", "type": "n.m.", "en": "costumbrismo (customs writing)", "note": "(advanced) Retratar costumbres.", "ext": true, "example": {"es": "El costumbrismo pinta lo local.", "en": "Costumbrismo paints the local."}},
+    {"word": "tertuliano", "type": "n.m.", "en": "talk-show regular", "note": "El que siempre habla.", "ext": true, "example": {"es": "Es un tertuliano famoso.", "en": "He is a famous regular."}},
+    {"word": "sobremesero", "type": "n.m.", "en": "sobremesa lover (playful)", "note": "Inventada: el que nunca se va.", "ext": true, "example": {"es": "Es un sobremesero total.", "en": "He is a total sobremesa lover."}}
+  ]
+}

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lesson 90 — Capstone: the library of lost trains</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
+    --accent:#c2410c; --card:#f7f6f4; --border:#e4e2de;
+    --es:#111111; --en:#6b7280;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#121212; --fg:#e9e9e9; --muted:#a1a1aa;
+      --accent:#fb923c; --card:#1c1c1e; --border:#2e2e30;
+      --es:#f4f4f5; --en:#a1a1aa;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+      "Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.7;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:1.2rem 1.1rem 4rem}
+  .topnav{margin:0 0 1rem}
+  .topnav a{
+    color:var(--accent); text-decoration:none; font-size:.9rem;
+    font-weight:600;
+  }
+  .topnav a:hover{text-decoration:underline}
+  header.top{
+    border-bottom:2px solid var(--accent);
+    padding-bottom:1rem; margin-bottom:1.5rem;
+  }
+  h1{font-size:1.5rem; line-height:1.35; margin:0 0 .6rem}
+  h2{
+    font-size:1.22rem; margin:2.6rem 0 1rem;
+    padding:.35rem .6rem; border-left:5px solid var(--accent);
+    background:var(--card); border-radius:0 8px 8px 0;
+  }
+  h3{font-size:1.06rem; margin:1.8rem 0 .7rem; color:var(--accent)}
+  p{margin:.5rem 0}
+  ul{margin:.5rem 0; padding-left:1.2rem}
+  li{margin:.3rem 0}
+  hr{border:none; border-top:1px solid var(--border); margin:2rem 0}
+  .lead{color:var(--muted); font-size:.95rem}
+  .obj{background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:.8rem 1rem; margin:1rem 0}
+  .obj ul{margin:.4rem 0 0}
+  .focus{font-size:.92rem; color:var(--muted)}
+  .focus b{color:var(--fg)}
+  .focus .es{font-size:1.05rem; color:var(--es)}
+  .phrase{margin:1.05rem 0}
+  .phrase .es{
+    margin:0; font-size:1.32rem; font-weight:600;
+    line-height:1.55; color:var(--es);
+  }
+  .phrase .en{margin:.18rem 0 0; color:var(--en); font-size:.95rem}
+  .tip,.warn{
+    background:var(--card); border-left:4px solid var(--accent);
+    border-radius:0 8px 8px 0; padding:.7rem .9rem; margin:1rem 0;
+    font-size:.95rem;
+  }
+  .warn{border-left-color:#dc2626}
+  .tip .es,.warn .es,.obj .es{font-size:1.08rem; color:var(--es)}
+  .ex{display:block; margin:.55rem 0}
+  .ex .es{display:block; font-size:1.16rem; font-weight:600; color:var(--es)}
+  .ex .en{display:block; color:var(--en); font-size:.9rem}
+  .formula{
+    text-align:center; font-size:1.12rem; font-weight:700;
+    background:var(--card); border:1px dashed var(--border);
+    border-radius:10px; padding:.7rem; margin:1rem 0; color:var(--es);
+  }
+  .table-wrap{overflow-x:auto; margin:1rem 0; -webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse; width:100%; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:.45rem .55rem; text-align:left; vertical-align:top}
+  th{background:var(--card); font-weight:700}
+  td .es{font-size:1.05rem; color:var(--es); font-weight:600}
+  @media (max-width:560px){
+    table thead{display:none}
+    table,tbody,tr,td{display:block; width:100%}
+    tr{
+      border:1px solid var(--border); border-radius:10px;
+      margin-bottom:.6rem; padding:.35rem .6rem; background:var(--card);
+    }
+    td{
+      border:none; padding:.22rem 0;
+      display:flex; justify-content:space-between; gap:1rem;
+    }
+    td::before{
+      content:attr(data-label); color:var(--muted);
+      font-weight:600; flex:0 0 auto;
+    }
+    td:first-child{font-size:1.1rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="topnav"><a href="lesson-89.html">&larr; Previous</a> &middot; <a href="../index.html">Home</a> &middot; <a href="review-b2.html">Next &rarr;</a></p>
+
+<header class="top">
+  <h1>LESSON 90 — CAPSTONE: LA BIBLIOTECA DE LOS TRENES PERDIDOS</h1>
+  <div class="obj">
+    <strong>Lesson goals:</strong>
+    <ul>
+      <li>Read a full story, <strong>unglossed</strong>: no bold at all — the B2 finish line.</li>
+      <li>Learn library-and-train words: <strong>bibliotecaria</strong>, <strong>donación</strong>, <strong>marquesina</strong>, <strong>convoy</strong>.</li>
+      <li>Reuse the literary pasts and free indirect voice from L85, plus the nominal rhythm of L62.</li>
+      <li>Close Alba's story: the hill house becomes the village library.</li>
+    </ul>
+  </div>
+  <p class="focus">
+    <b>Core vocabulary:</b> <span class="es">bibliotecaria, donación, marquesina, convoy, traqueteo, silbido, hollín, estantería, lomo, ficha, tomo, encuadernación, dedicatoria, consigna, campanada, timbre, carnet, vencimiento, catálogo, madera, perdido</span> (plus known words <span class="es">inauguración, lector, maquinista, carta amarillenta</span>)<br>
+    <b>Extension words (read only, no need to memorize):</b>
+    <span class="es">estilo indirecto libre, epílogo, colofón, exlibris</span>
+  </p>
+</header>
+
+<h2>1. READING PASSAGE (LA BIBLIOTECA DE LOS TRENES PERDIDOS)</h2>
+<p><strong>Context:</strong> Three years after the autumn of the letter, Alba returns to the hill house for good — now a librarian, turning it into the village library, fed by book donations on the slow regional train. Unglossed: longer paragraphs, no bold. Trust your Ladder training.</p>
+<p class="lead">(There is no bold in this story. The English is only a check — read the Spanish first.)</p>
+
+<div class="phrase">
+  <p class="es">Alba volvió a la casa de la colina en primavera, tres años después del otoño de la carta. Ya no era la niña que abría baúles a escondidas: ahora era bibliotecaria, y la casa iba a ser la biblioteca del pueblo.</p>
+  <p class="en">Alba returned to the house on the hill in spring, three years after the autumn of the letter. She was no longer the girl who opened trunks in secret: now she was a librarian, and the house was going to be the village library.</p>
+</div>
+<div class="phrase">
+  <p class="es">El tren de las cinco llegaba despacio y dejaba los paquetes bajo la marquesina. Eran donaciones de los pueblos vecinos: escuelas que se cerraban, casas que se vaciaban, abuelos que ya no podían leer.</p>
+  <p class="en">The five o'clock train arrived slowly and left the parcels under the platform canopy. They were donations from the neighbouring villages: schools that were closing, houses being emptied, grandparents who could no longer read.</p>
+</div>
+<div class="phrase">
+  <p class="es">Alba esperaba el convoy con su hermano, siempre a la misma hora. Primero se oía el traqueteo, después el silbido, y por fin el hollín en el aire, que olía a viaje y a lluvia.</p>
+  <p class="en">Alba waited for the train with her brother, always at the same hour. First came the clatter, then the whistle, and at last the soot in the air, which smelled of travel and rain.</p>
+</div>
+<div class="phrase">
+  <p class="es">La sala de abajo, la de la mecedora, ya no era una sala cualquiera: era la sala de lectura. Entre los dos levantaron la gran estantería, poco a poco. Y pusieron los tomos uno por uno.</p>
+  <p class="en">The downstairs room, the rocking chair's room, was no longer just any room: it was the reading room. Between them they raised the great bookshelf, little by little. And they set the volumes one by one.</p>
+</div>
+<div class="phrase">
+  <p class="es">Alba abría cada libro por el lomo y buscaba la dedicatoria. Algunas decían «para mi hija», otras «para la escuela del pueblo». Y ella leía cada línea dos veces.</p>
+  <p class="en">Alba opened each book by the spine and looked for the dedication. Some said "for my daughter", others "for the village school". And she read every line twice.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su hermano preparaba las fichas del catálogo, una por una. Cada lector tendría un carnet azul con su nombre, y cada libro tendría un vencimiento de veinte días.</p>
+  <p class="en">Her brother prepared the catalogue cards, one by one. Each reader would have a blue card with their name, and each book would have a twenty-day due date.</p>
+</div>
+<div class="phrase">
+  <p class="es">Un libro de trenes tenía la encuadernación más seria, casi negra. Dentro alguien había escrito el horario del tren de las cinco, con letra clara. Alba leyó esas líneas dos veces, como una carta más.</p>
+  <p class="en">A book about trains had the most solemn binding, almost black. Inside, someone had written the five o'clock train timetable, in clear handwriting. Alba read those lines twice, like one more letter.</p>
+</div>
+<div class="phrase">
+  <p class="es">Y por fin, una tarde de lluvia, Alba abrió la carta sin sello, la de su nombre en la solapa. Decía: «Cuida la casa, Alba. Que entre gente, que salgan libros. La colina cuida a los suyos». O eso decía el papel, o eso soñaba ella: ya era lo mismo.</p>
+  <p class="en">And at last, one rainy afternoon, Alba opened the letter with no stamp, the one with her name on the flap. It said: "Look after the house, Alba. Let people come in, let books go out. The hill looks after its own." Whether the paper said so or she dreamed it: it was already the same thing.</p>
+</div>
+<div class="phrase">
+  <p class="es">El día de la inauguración sonó el timbre tres veces, y después las campanadas del reloj del pueblo. La gente llegaba hasta la puerta. Niños, abuelas y el maquinista del tren de las cinco.</p>
+  <p class="en">On inauguration day the bell rang three times, and then the strokes of the village clock. People came right up to the door. Children, grandmothers, and the driver of the five o'clock train.</p>
+</div>
+<div class="phrase">
+  <p class="es">Su hermano abrió la puerta, Alba escribió el primer carnet, y la mecedora, desempolvada, recibió al primer lector. Nadie dijo nada al principio. La alegría también cruje, pensó Alba, como la casa.</p>
+  <p class="en">Her brother opened the door, Alba wrote out the first card, and the rocking chair, dusted off, received the first reader. Nobody said anything at first. Joy creaks too, thought Alba, like the house.</p>
+</div>
+<div class="phrase">
+  <p class="es">Ahora la casa ya no espera trenes perdidos: los encuentra. Cada tarde el tren trae libros y cada mañana los libros salen con otros lectores, y la colina, antaño blanca, sigue allí, del color de la gente que vuelve.</p>
+  <p class="en">Now the house no longer waits for lost trains: it finds them. Every afternoon the train brings books and every morning the books leave with other readers, and the hill, once white, is still there, the colour of the people who return.</p>
+</div>
+
+<div class="tip">💡 <strong>Capstone method:</strong> read the whole story once without stopping — <b>llegaba, esperaba, sonó, abrió</b> carry you. Then re-read for the dust and the light: <b>traqueteo, hollín, campanadas</b>. At B2, the dictionary comes last, not first.</div>
+
+<hr>
+
+<h2>2. CORE VOCABULARY &amp; GRAMMAR</h2>
+
+<h3>2.1. The two pasts return — plus the free voice (L85)</h3>
+<p>The same contrast as the house on the hill: the imperfect (<span class="es">llegaba, esperaba</span>) holds the scene; the preterite (<span class="es">sonó, abrió, escribió</span>) strikes the event. And the free indirect style blurs the line — <span class="es">ya era lo mismo</span> is Alba's thought inside the narrator's sentence, with no quotation marks at all.</p>
+<ul>
+  <li class="ex"><span class="es">El tren de las cinco <b>llegaba</b> despacio. Alba <b>abrió</b> la puerta.</span><span class="en">The five o'clock train arrived (was arriving) slowly. Alba opened the door.</span></li>
+  <li class="ex"><span class="es">La alegría también cruje, <b>pensó</b> Alba.</span><span class="en">Joy creaks too, thought Alba.</span></li>
+  <li class="ex"><span class="es">O eso decía el papel, o eso <b>soñaba</b> ella: ya era lo mismo.</span><span class="en">Whether the paper said so or she dreamed it: it was already the same thing.</span></li>
+</ul>
+
+<h3>2.2. The rhythm of nouns (L62)</h3>
+<p>Formal written Spanish packs actions into nouns, and this story borrows that music: <span class="es">la donación de libros</span> instead of "donar libros", <span class="es">la inauguración de la biblioteca</span> instead of "inaugurar". Three noun beats — donation, reading, opening — and the library sounds official, like a plaque by the door.</p>
+<ul>
+  <li class="ex"><span class="es">La <b>donación</b> de libros de los pueblos vecinos.</span><span class="en">The donation of books from the neighbouring villages.</span></li>
+  <li class="ex"><span class="es">La <b>lectura</b> de la carta, dos veces.</span><span class="en">The reading of the letter, twice.</span></li>
+  <li class="ex"><span class="es">La <b>inauguración</b> de la biblioteca, a las cinco.</span><span class="en">The opening of the library, at five.</span></li>
+</ul>
+<div class="formula">imperfecto (llegaba) → pretérito (sonó) + nombre (donación, lectura, inauguración) → biblioteca</div>
+
+<h3>2.3. Vocabulary table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">bibliotecaria</span></td><td data-label="Type">n.f.</td><td data-label="English">librarian (female)</td><td data-label="Notes">El masculino: bibliotecario. Alba ahora es bibliotecaria.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">donación</span></td><td data-label="Type">n.f.</td><td data-label="English">donation</td><td data-label="Notes">De donar. Así llegan los libros: en donaciones.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">marquesina</span></td><td data-label="Type">n.f.</td><td data-label="English">platform canopy, shelter</td><td data-label="Notes">El techo del andén (andén: L12).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">convoy</span></td><td data-label="Type">n.m.</td><td data-label="English">train (of carriages)</td><td data-label="Notes">El tren con sus vagones (vagón: L58).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">traqueteo</span></td><td data-label="Type">n.m.</td><td data-label="English">rattling, clatter</td><td data-label="Notes">El sonido del tren antes de verlo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">silbido</span></td><td data-label="Type">n.m.</td><td data-label="English">whistle</td><td data-label="Notes">Silbar → el silbido. Después del traqueteo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">hollín</span></td><td data-label="Type">n.m.</td><td data-label="English">soot</td><td data-label="Notes">El polvo negro del tren en el aire.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">estantería</span></td><td data-label="Type">n.f.</td><td data-label="English">bookshelf</td><td data-label="Notes">En LatAm el mueble también es el librero.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">lomo</span></td><td data-label="Type">n.m.</td><td data-label="English">spine (of a book)</td><td data-label="Notes">Abrir el libro por el lomo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">ficha</span></td><td data-label="Type">n.f.</td><td data-label="English">index card</td><td data-label="Notes">La ficha del catálogo, una por una.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">tomo</span></td><td data-label="Type">n.m.</td><td data-label="English">volume, tome</td><td data-label="Notes">Un libro en varios tomos.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">encuadernación</span></td><td data-label="Type">n.f.</td><td data-label="English">binding</td><td data-label="Notes">La cubierta dura del libro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">dedicatoria</span></td><td data-label="Type">n.f.</td><td data-label="English">dedication (inscription)</td><td data-label="Notes">«Para mi hija»: alguien dedica el libro.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">consigna</span></td><td data-label="Type">n.f.</td><td data-label="English">left-luggage office</td><td data-label="Notes">En la estación. También = instrucción dada.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">campanada</span></td><td data-label="Type">n.f.</td><td data-label="English">stroke (of a bell)</td><td data-label="Notes">Las campanadas del reloj del pueblo.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">timbre</span></td><td data-label="Type">n.m.</td><td data-label="English">(door)bell</td><td data-label="Notes">El timbre de la puerta: tres veces.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">carnet</span></td><td data-label="Type">n.m.</td><td data-label="English">membership card</td><td data-label="Notes">El carnet azul del lector.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">vencimiento</span></td><td data-label="Type">n.m.</td><td data-label="English">due date, expiry</td><td data-label="Notes">De vencer. Veinte días.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">catálogo</span></td><td data-label="Type">n.m.</td><td data-label="English">catalogue</td><td data-label="Notes">Las fichas del catálogo, una por una.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">madera</span></td><td data-label="Type">n.f.</td><td data-label="English">wood</td><td data-label="Notes">La madera cruje (L85).</td></tr>
+    <tr><td data-label="Spanish"><span class="es">perdido</span></td><td data-label="Type">adj.</td><td data-label="English">lost</td><td data-label="Notes">Trenes perdidos → encontrados.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p class="lead"><strong>Extension words (read only, no need to memorize):</strong></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td data-label="Spanish"><span class="es">estilo indirecto libre</span></td><td data-label="Type">phr.</td><td data-label="English">free indirect style</td><td data-label="Notes">(advanced) La voz de L85: o eso soñaba ella.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">epílogo</span></td><td data-label="Type">n.m.</td><td data-label="English">epilogue</td><td data-label="Notes">El final después del final. Esta lección lo es.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">colofón</span></td><td data-label="Type">n.m.</td><td data-label="English">colophon; finishing touch</td><td data-label="Notes">(advanced) La nota final del libro; también = broche.</td></tr>
+    <tr><td data-label="Spanish"><span class="es">exlibris</span></td><td data-label="Type">n.m.</td><td data-label="English">ex-libris, bookplate</td><td data-label="Notes">Del latín: de entre los libros.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<hr>
+
+<h2>3. GOLDEN PHRASES — READ FOR FAMILIARITY</h2>
+<p>Five sentences to read once. No need to memorize.</p>
+
+<h3>1. The librarian:</h3>
+<div class="phrase">
+  <p class="es">Ahora era bibliotecaria, y la casa iba a ser la biblioteca del pueblo.</p>
+  <p class="en">Now she was a librarian, and the house was going to be the village library.</p>
+</div>
+<h3>2. The train:</h3>
+<div class="phrase">
+  <p class="es">Primero el traqueteo, después el silbido.</p>
+  <p class="en">First the clatter, then the whistle.</p>
+</div>
+<h3>3. The motto:</h3>
+<div class="phrase">
+  <p class="es">Que entre gente, que salgan libros.</p>
+  <p class="en">Let people come in, let books go out.</p>
+</div>
+<h3>4. The thought:</h3>
+<div class="phrase">
+  <p class="es">La alegría también cruje, pensó Alba.</p>
+  <p class="en">Joy creaks too, thought Alba.</p>
+</div>
+<h3>5. The ending:</h3>
+<div class="phrase">
+  <p class="es">Ya no espera trenes perdidos: los encuentra.</p>
+  <p class="en">It no longer waits for lost trains: it finds them.</p>
+</div>
+<div class="tip">💡 <strong>Optional (skip if you like):</strong> read the five once. A library in five beats.</div>
+
+<hr>
+
+<h2>4. SAMPLE DIALOGUE (READING)</h2>
+<p><strong>Context:</strong> Opening day. Alba and her brother wait for the five o'clock train with the last boxes. No questions — just read.</p>
+
+<div class="phrase">
+  <p class="es">Hermano: Ya son las cinco. ¿Oyes el traqueteo?</p>
+  <p class="en">Brother: It's five already. Do you hear the clatter?</p>
+</div>
+<div class="phrase">
+  <p class="es">Alba: Es el convoy. Tres cajas hoy, todas donaciones.</p>
+  <p class="en">Alba: It's the train. Three boxes today, all donations.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hermano: Yo termino el catálogo. ¿Tienes las fichas?</p>
+  <p class="en">Brother: I'll finish the catalogue. Do you have the cards?</p>
+</div>
+<div class="phrase">
+  <p class="es">Alba: Aquí están. Y el primer carnet ya tiene nombre.</p>
+  <p class="en">Alba: Here they are. And the first card already has a name.</p>
+</div>
+<div class="phrase">
+  <p class="es">Hermano: Pues abre la puerta. Que entre gente, que salgan libros.</p>
+  <p class="en">Brother: Then open the door. Let people come in, let books go out.</p>
+</div>
+<div class="phrase">
+  <p class="es">Alba: Mira la mecedora… Recibe al primer lector. Ya somos biblioteca.</p>
+  <p class="en">Alba: Look at the rocking chair… It receives the first reader. We are a library now.</p>
+</div>
+
+<p class="lead"><em>New words in the dialogue: none — all from today's table or earlier lessons. Notice the story's nouns living in speech (<strong>traqueteo, convoy, catálogo, ficha, carnet</strong>) and the free-indirect echo (<strong>ya somos biblioteca</strong>).</em></p>
+
+<hr>
+
+<h2>5. SUMMARY &amp; FURTHER READING</h2>
+
+<h3>5.1. Lesson recap</h3>
+<ul>
+  <li><strong>Library words:</strong> <span class="es">bibliotecaria, donación, estantería, lomo, ficha, catálogo, carnet, vencimiento</span> — the furniture of the library.</li>
+  <li><strong>Train words:</strong> <span class="es">convoy, traqueteo, silbido, hollín, marquesina, consigna</span> — the music of the five o'clock train.</li>
+  <li><strong>Literary tools:</strong> <span class="es">imperfecto (llegaba) vs pretérito (sonó)</span>, free voice (<span class="es">ya era lo mismo</span>), noun rhythm (<span class="es">la donación, la lectura, la inauguración</span>).</li>
+</ul>
+
+<h3>5.2. Further reading — el primer préstamo</h3>
+<p><strong>Context:</strong> The first loan. Three short blocks — read them slowly. This is the epilogue:</p>
+<div class="phrase">
+  <p class="es">El primer préstamo fue para el maquinista: el libro de trenes, con la encuadernación casi negra. Vencimiento: veinte días, dijo Alba, y los dos sonrieron.</p>
+  <p class="en">The first loan went to the driver: the book about trains, with the almost-black binding. Due date: twenty days, said Alba, and they both smiled.</p>
+</div>
+<div class="phrase">
+  <p class="es">El maquinista leyó la dedicatoria en voz alta: «para la escuela del pueblo». O eso decía la ficha, o eso soñaba él: ya era lo mismo.</p>
+  <p class="en">The driver read the dedication aloud: "for the village school." Whether the card said so or he dreamed it: it was already the same thing.</p>
+</div>
+<div class="phrase">
+  <p class="es">Y así empezó la biblioteca de los trenes perdidos: con un libro que sale y otro que vuelve. Fin.</p>
+  <p class="en">And so began the library of lost trains: with one book leaving and another returning. The end.</p>
+</div>
+
+<p class="lead"><em>Fully unglossed — not one word of help. If you read it smiling, the Ladder held: you just read B2.</em></p>
+
+<hr>
+<p><strong>End of Lesson 90.</strong> Next, <strong>Review B2 / Final</strong>: re-read the capstone and the whole Ladder. No exercises — just read.</p>
+
+<p class="topnav"><a href="../index.html">Home</a></p>
+</div>
+<script src="conjugation-modal.js"></script>
+</body>
+</html>

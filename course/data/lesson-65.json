@@ -1,0 +1,262 @@
+{
+  "lesson": 65,
+  "title": "Discourse connectors & register",
+  "words": [
+    {
+      "word": "arboleda",
+      "type": "n.f.",
+      "en": "trees, grove (in a city)",
+      "note": "Collective noun: la arboleda es pequeña. Not one single tree.",
+      "example": { "es": "La arboleda es todavía pequeña.", "en": "The trees are still small." }
+    },
+    {
+      "word": "sendero",
+      "type": "n.m.",
+      "en": "path, trail",
+      "note": "Un sendero junto al agua.",
+      "example": { "es": "Vamos al sendero de la ribera.", "en": "Let's go to the riverbank path." }
+    },
+    {
+      "word": "césped",
+      "type": "n.m.",
+      "en": "lawn, grass",
+      "note": "Los niños juegan en el césped.",
+      "example": { "es": "Los niños juegan en el césped.", "en": "The children play on the lawn." }
+    },
+    {
+      "word": "vecindario",
+      "type": "n.m.",
+      "en": "neighbourhood",
+      "note": "La gente del vecindario. Cf. barrio.",
+      "example": { "es": "La gente del vecindario sigue esperando.", "en": "The people of the neighbourhood are still waiting." }
+    },
+    {
+      "word": "peatón",
+      "type": "n.m.",
+      "en": "pedestrian",
+      "note": "El peatón no puede pasar. Plural: peatones.",
+      "example": { "es": "El peatón no puede pasar.", "en": "Pedestrians cannot get through." }
+    },
+    {
+      "word": "peatonal",
+      "type": "adj.",
+      "en": "pedestrian (adj.), car-free",
+      "note": "Una calle peatonal: sin coches.",
+      "example": { "es": "Quieren una calle peatonal.", "en": "They want a pedestrian street." }
+    },
+    {
+      "word": "atasco",
+      "type": "n.m.",
+      "en": "traffic jam",
+      "note": "El atasco llena la rotonda cada mañana.",
+      "example": { "es": "El atasco llena la rotonda.", "en": "The jam fills the roundabout." }
+    },
+    {
+      "word": "oasis",
+      "type": "n.m.",
+      "en": "oasis",
+      "note": "La ribera es un oasis con sombra.",
+      "example": { "es": "La ribera es un oasis.", "en": "The riverbank is an oasis." }
+    },
+    {
+      "word": "pulmón",
+      "type": "n.m.",
+      "en": "lung; green lung",
+      "note": "El pulmón de la ciudad: su zona verde.",
+      "example": { "es": "El pulmón de la ciudad está en la ribera.", "en": "The green lung of the city is on the riverbank." }
+    },
+    {
+      "word": "quiosco",
+      "type": "n.m.",
+      "en": "kiosk",
+      "note": "Quioscos con sombra en la ribera.",
+      "example": { "es": "Hay quioscos con sombra en la ribera.", "en": "There are shaded kiosks on the riverbank." }
+    },
+    {
+      "word": "ensanche",
+      "type": "n.m.",
+      "en": "city expansion district",
+      "note": "El ensanche creció muy rápido.",
+      "example": { "es": "El ensanche creció muy rápido.", "en": "The expansion district grew very fast." }
+    },
+    {
+      "word": "manzana",
+      "type": "n.f.",
+      "en": "city block",
+      "note": "Cada manzana nueva trajo más coches.",
+      "example": { "es": "Cada manzana nueva trajo más coches.", "en": "Each new block brought more cars." }
+    },
+    {
+      "word": "rotonda",
+      "type": "n.f.",
+      "en": "roundabout",
+      "note": "El atasco llena la rotonda. LatAm also says glorieta.",
+      "example": { "es": "El atasco llena la rotonda.", "en": "The jam fills the roundabout." }
+    },
+    {
+      "word": "cruce",
+      "type": "n.m.",
+      "en": "intersection, crossing",
+      "note": "El cruce está lleno de coches.",
+      "example": { "es": "El cruce está lleno de coches.", "en": "The intersection is full of cars." }
+    },
+    {
+      "word": "carril",
+      "type": "n.m.",
+      "en": "lane",
+      "note": "Un carril para bicicletas.",
+      "example": { "es": "Hay un carril para bicicletas.", "en": "There is a lane for bicycles." }
+    },
+    {
+      "word": "patinete",
+      "type": "n.m.",
+      "en": "scooter",
+      "note": "Los patinetes van por el carril.",
+      "example": { "es": "Los patinetes van por el carril.", "en": "Scooters stay in the lane." }
+    },
+    {
+      "word": "bulevar",
+      "type": "n.m.",
+      "en": "boulevard",
+      "note": "El nuevo bulevar tiene césped.",
+      "example": { "es": "El nuevo bulevar tiene césped.", "en": "The new boulevard has a lawn." }
+    },
+    {
+      "word": "prohibir",
+      "type": "v.",
+      "en": "to prohibit, to ban",
+      "note": "La ordenanza prohíbe los coches en el centro.",
+      "example": { "es": "La ordenanza prohíbe los coches.", "en": "The ordinance bans cars." }
+    },
+    {
+      "word": "talar",
+      "type": "v.",
+      "en": "to fell, to cut down (trees)",
+      "note": "Stronger than podar: talar removes the whole tree.",
+      "example": { "es": "No quieren talar la arboleda.", "en": "They don't want to fell the trees." }
+    },
+    {
+      "word": "podar",
+      "type": "v.",
+      "en": "to prune",
+      "note": "Podar = cut branches; talar = cut the tree.",
+      "example": { "es": "Van a podar la arboleda en otoño.", "en": "They are going to prune the trees in autumn." }
+    },
+    {
+      "word": "regar",
+      "type": "v.",
+      "en": "to water, to irrigate",
+      "note": "e→ie stem change: riego, riegas, riega.",
+      "example": { "es": "Podar y regar cuestan dinero.", "en": "Pruning and watering cost money." }
+    },
+    {
+      "word": "riego",
+      "type": "n.m.",
+      "en": "watering, irrigation",
+      "note": "No hay dinero para el riego.",
+      "example": { "es": "No hay dinero para el riego.", "en": "There is no money for watering." }
+    },
+    {
+      "word": "respirar",
+      "type": "v.",
+      "en": "to breathe",
+      "note": "Respirar bien es bueno para todos.",
+      "example": { "es": "Respirar bien es bueno.", "en": "Breathing well is good." }
+    },
+    {
+      "word": "mitigar",
+      "type": "v.",
+      "en": "to mitigate, to soften",
+      "note": "Formal word: mitigar el calor.",
+      "example": { "es": "Mitigar el calor es bueno para todos.", "en": "Softening the heat is good for everyone." }
+    },
+    {
+      "word": "sombra",
+      "type": "n.f.",
+      "en": "shade, shadow",
+      "note": "Cada manzana nueva trajo menos sombra.",
+      "example": { "es": "Allí hay sombra.", "en": "There is shade there." }
+    },
+    {
+      "word": "gorrión",
+      "type": "n.m.",
+      "en": "sparrow",
+      "note": "Allí vive el gorrión. A classic city bird.",
+      "example": { "es": "Allí vive el gorrión.", "en": "The sparrow lives there." }
+    },
+    {
+      "word": "biodiversidad",
+      "type": "n.f.",
+      "en": "biodiversity",
+      "note": "Más verde para la biodiversidad: more green for biodiversity.",
+      "example": { "es": "Más verde para la biodiversidad.", "en": "More green for biodiversity." }
+    },
+    {
+      "word": "registro",
+      "type": "n.m.",
+      "en": "register (formality level)",
+      "note": "Formal vs coloquial: two registros.",
+      "example": { "es": "No obstante es de registro formal.", "en": "No obstante belongs to the formal register." }
+    },
+    {
+      "word": "coloquial",
+      "type": "adj.",
+      "en": "colloquial, informal",
+      "note": "El registro coloquial: pero, también, por eso.",
+      "example": { "es": "Pero es coloquial.", "en": "Pero is colloquial." }
+    },
+    {
+      "word": "por lo tanto",
+      "type": "conj.",
+      "en": "therefore (formal)",
+      "note": "Por lo tanto, necesitamos más sombra.",
+      "example": { "es": "Por lo tanto, necesitamos más sombra.", "en": "Therefore, we need more shade." }
+    },
+    {
+      "word": "en cambio",
+      "type": "conj.",
+      "en": "in contrast, whereas",
+      "note": "En cambio, la ribera es un oasis.",
+      "example": { "es": "En cambio, la ribera es un oasis.", "en": "In contrast, the riverbank is an oasis." }
+    },
+    {
+      "word": "de hecho",
+      "type": "conj.",
+      "en": "in fact, actually",
+      "note": "De hecho, hace mucho calor hasta la noche.",
+      "example": { "es": "De hecho, hace mucho calor.", "en": "In fact, it is very hot." }
+    },
+    {
+      "word": "jilguero",
+      "type": "n.m.",
+      "en": "goldfinch",
+      "note": "Un pájaro pequeño que canta muy bien.",
+      "ext": true,
+      "example": { "es": "He visto un jilguero esta mañana.", "en": "I saw a goldfinch this morning." }
+    },
+    {
+      "word": "mirlo",
+      "type": "n.m.",
+      "en": "blackbird",
+      "note": "Negro, con el pico amarillo.",
+      "ext": true,
+      "example": { "es": "Solo veo algún mirlo.", "en": "I only ever see the odd blackbird." }
+    },
+    {
+      "word": "alcorque",
+      "type": "n.m.",
+      "en": "tree pit",
+      "note": "El hueco de tierra alrededor de un árbol en la calle.",
+      "ext": true,
+      "example": { "es": "En el alcorque hay tierra.", "en": "There is soil in the tree pit." }
+    },
+    {
+      "word": "bochorno",
+      "type": "n.m.",
+      "en": "muggy, stifling heat",
+      "note": "¡Qué bochorno! = what stifling heat!",
+      "ext": true,
+      "example": { "es": "¡Qué bochorno!", "en": "What stifling heat!" }
+    }
+  ]
+}
